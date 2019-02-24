@@ -1,0 +1,159 @@
+2018-09-03 02:25:17,875 INFO  DownloadService - Downloading "https://github.com/Periyanayagam/NetworkPro/archive/master.zip", attempt 3
+2018-09-03 02:25:24,727 INFO  DownloadService - Downloaded https://github.com/Periyanayagam/NetworkPro/archive/master.zip, attempt 3
+2018-09-03 02:25:24,727 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916317868-0/master.zip": 4 MB
+2018-09-03 02:25:24,727 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-03 02:25:24,734 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916317868-0/master.zip: true
+2018-09-03 02:25:24,735 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916317868-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916317868-0/src'.
+2018-09-03 02:25:24,783 INFO  FullProcessService - Size of directory with sources: 4 MB
+2018-09-03 02:25:24,783 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916317868-0/src]
+2018-09-03 02:25:24,801 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916317868-0/src/.git/
+
+2018-09-03 02:25:24,804 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916317868-0/src/NetworkPro-master/gradlew
+2018-09-03 02:25:24,807 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916317868-0/src/NetworkPro-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916317868-0/src/NetworkPro-master/networkchecker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916317868-0/src/NetworkPro-master/build.gradle
+2018-09-03 02:25:24,810 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916317868-0/src/NetworkPro-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916317868-0/src/NetworkPro-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916317868-0/src/NetworkPro-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916317868-0/src/NetworkPro-master/networkchecker/build.gradle
+2018-09-03 02:25:24,810 INFO  ProjectBuildService - Remote scripts: none
+2018-09-03 02:25:24,810 INFO  ProjectFixService - Fixing project...
+2018-09-03 02:25:24,818 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916317868-0/src/NetworkPro-master/app/local.properties
+2018-09-03 02:25:24,818 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916317868-0/src/NetworkPro-master/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-09-03 02:25:24,819 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916317868-0/src/NetworkPro-master/networkchecker/local.properties
+2018-09-03 02:25:24,819 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916317868-0/src/NetworkPro-master/networkchecker/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-09-03 02:25:24,819 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916317868-0/src/NetworkPro-master/local.properties
+2018-09-03 02:25:24,820 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-09-03 02:25:24,820 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-09-03 02:25:24,821 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916317868-0/src/NetworkPro-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-09-03 02:25:24,821 INFO  ProjectFixService - Project was maybe fixed
+2018-09-03 02:25:24,821 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-03 02:25:24,821 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916317868-0/src/NetworkPro-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916317868-0/src/NetworkPro-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-03 02:25:30,757 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-03 02:25:30,758 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-03 02:25:30,758 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916317868-0/src/NetworkPro-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916317868-0/src/NetworkPro-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-03 02:25:55,262 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:networkchecker:preBuild UP-TO-DATE
+:networkchecker:preDebugBuild UP-TO-DATE
+:networkchecker:checkDebugManifest
+:networkchecker:processDebugManifest
+:app:preDebugBuild
+:networkchecker:compileDebugAidl
+:app:compileDebugAidl
+:networkchecker:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:generateDebugResValues
+:app:generateDebugResources
+:networkchecker:compileDebugRenderscript
+:networkchecker:generateDebugResValues
+:networkchecker:generateDebugResources
+:networkchecker:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:networkchecker:platformAttrExtractor
+:networkchecker:generateDebugBuildConfig
+:networkchecker:prepareLintJar
+:networkchecker:javaPreCompileDebug
+:networkchecker:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:networkchecker:mergeDebugShaders
+:networkchecker:compileDebugShaders
+:networkchecker:generateDebugAssets
+:networkchecker:mergeDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:networkchecker:compileDebugNdk NO-SOURCE
+:networkchecker:mergeDebugJniLibFolders
+:networkchecker:transformNativeLibsWithMergeJniLibsForDebug
+:networkchecker:transformNativeLibsWithStripDebugSymbolForDebug
+:networkchecker:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:networkchecker:preReleaseBuild UP-TO-DATE
+:networkchecker:checkReleaseManifest
+:networkchecker:processReleaseManifest
+:app:preReleaseBuild
+:networkchecker:compileReleaseAidl
+:app:compileReleaseAidl
+:networkchecker:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:networkchecker:compileReleaseRenderscript
+:networkchecker:generateReleaseResValues
+:networkchecker:generateReleaseResources
+:networkchecker:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:networkchecker:generateReleaseBuildConfig
+:networkchecker:javaPreCompileRelease
+:networkchecker:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:networkchecker:mergeReleaseShaders
+:networkchecker:compileReleaseShaders
+:networkchecker:generateReleaseAssets
+:networkchecker:mergeReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:networkchecker:compileReleaseNdk NO-SOURCE
+:networkchecker:mergeReleaseJniLibFolders
+:networkchecker:transformNativeLibsWithMergeJniLibsForRelease
+:networkchecker:transformNativeLibsWithStripDebugSymbolForRelease
+:networkchecker:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:networkchecker:processDebugResources
+:app:processDebugResources
+:app:generateDebugSources
+:networkchecker:generateDebugSources
+:networkchecker:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:networkchecker:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:networkchecker:processReleaseResources
+:app:processReleaseResources
+:app:generateReleaseSources
+:networkchecker:generateReleaseSources
+:networkchecker:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:networkchecker:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 23s
+88 actionable tasks: 88 executed
+
+2018-09-03 02:25:55,335 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916317868-0/src/NetworkPro-master/app/build/outputs/apk/debug/app-debug.apk

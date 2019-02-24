@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.bluehomestudio.quickoperationdemo",
+    "label" : "Assertive Touch Button",
+    "icon" : "res/mipmap-anydpi-v26/ic_launcher.xml",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "26",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.SYSTEM_ALERT_WINDOW" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAC8klEQVR42u2Zy2vUQBzH49vNq8WLDxSfIAgFRRTxhQ/QZmZSBV3QqyjVm1JfCEpVELx4EL15EDz5B4iiPagHLwoisqAU7CMz2XbVg9ViqW3X3yS7bTYJK5vNJgvOwA82M5OZ7yf7m9+8JEkkkdJLKsP3VYY+ZKixvNZ3datjHbz/WbXJzdQANBtfARFFLiTDDq2YLijumduab1+lU2Mbt4U2WikVs3N84gfAplSKOtP7C4rSLIWh22UIjSICUA9VRoZLeV7LKww/0Bgxy+I1hi6k70cAAYLvhQj+l91ojnGQNzbAl/0SAaBXY+3rUxXP/R6E0AjiyzYgD3YsS8l1umfDAHzpETMJNgY2UUXwn1KdSU/eC95W4vph8B73iXst2aasUHSrCsB1XofXrcin5GjyIZThtz5x71Ub7XajUDgAj0K8jlO3suxNouJ5jHdieHTf99tUlMmwnhn4WIziXbPRkQTdh1yMGwDGzrnEAFqG8RqFkv1xGnfLBoVLWMPA2qYyD56tbCZW8/fxbvO8usOrZpNTEG364S8uQHS54zQ6s4gbjdN4m06nuex8eL4L9hWiVh/0fyJqmNzum3DAT3GXO4hJd+yDGNp0Pw667Cub0C2ytfZIQ/FVfycA9bTRAPC7J6TfS7UDwEYjpKOeBABehZRfEwACQAAIAAEgAASAAIgKAOuyKIu5M4FFFcWPEgB4HOjXRidr37j3HW6FRj95GhqRmbGp0QBy3twCzz89ZblF3w092ukDh6DkNGwszrcMmaurLbXrtekNDd+yDhpr+cEvP7mOLL7qoRZFGwHqV4wAI4qF2hI9G5L7Dy5VqbFPpxiDgPHAKYONz85s2nFXiOjfskUQb0MpoCXpnfC6R4VjQZcwd3pcbm8IwKizmU89CQAB8L8DgIiwkMpvJz23mbtCAH5IvcaCZrkvfu4TV1g8dEApl/PJCPK++SauJ01z4c3P9ksQ4+AuHzVm7AguDp2LjVxpzniW3t2YSCJVpL/9KioWmU7o0QAAAABJRU5ErkJggg=="
+  },
+  "dexClasses" : 1644,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.bluehomestudio.quickoperationdemo\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"26\" />\n\t<uses-permission android:name=\"android.permission.SYSTEM_ALERT_WINDOW\" />\n\t<application android:theme=\"resourceId:0x7f0c0005\" android:label=\"Assertive Touch Button\" android:icon=\"res/mipmap-anydpi-v26/ic_launcher.xml\" android:name=\"com.bluehomestudio.quickoperationdemo.DemoApplication\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-anydpi-v26/ic_launcher_round.xml\">\n\t\t<activity android:name=\"com.bluehomestudio.quickoperationdemo.MainActivity\" />\n\t\t<activity android:name=\"com.bluehomestudio.quickoperationdemo.HelpActivity\" />\n\t\t<activity android:name=\"com.bluehomestudio.quickoperationdemo.LoginActivity\" />\n\t\t<activity android:name=\"com.bluehomestudio.quickoperationdemo.SplashActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.1.0\" />\n\t\t<meta-data android:name=\"android.arch.lifecycle.VERSION\" android:value=\"27.0.0-SNAPSHOT\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1649096,
+  "crc32" : 596522903,
+  "sha256" : "e382b6208a2373e4c57dacf8b4db72e3a4b6c8097822f875c5d8e1c4f5da4655",
+  "buildTime" : 1521646920000
+}

@@ -1,0 +1,163 @@
+2018-09-03 02:13:01,126 INFO  DownloadService - Downloading "https://github.com/100rabhkr/GetJSON/archive/master.zip", attempt 3
+2018-09-03 02:13:13,438 INFO  DownloadService - Downloaded https://github.com/100rabhkr/GetJSON/archive/master.zip, attempt 3
+2018-09-03 02:13:13,439 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915581124-0/master.zip": 17 MB
+2018-09-03 02:13:13,439 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-03 02:13:13,447 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915581124-0/master.zip: true
+2018-09-03 02:13:13,447 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915581124-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915581124-0/src'.
+2018-09-03 02:13:13,693 INFO  FullProcessService - Size of directory with sources: 37 MB
+2018-09-03 02:13:13,693 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915581124-0/src]
+2018-09-03 02:13:13,713 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915581124-0/src/.git/
+
+2018-09-03 02:13:13,718 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915581124-0/src/GetJSON-master/gradlew
+2018-09-03 02:13:13,722 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915581124-0/src/GetJSON-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915581124-0/src/GetJSON-master/getjson/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915581124-0/src/GetJSON-master/build.gradle
+2018-09-03 02:13:13,727 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915581124-0/src/GetJSON-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915581124-0/src/GetJSON-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915581124-0/src/GetJSON-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915581124-0/src/GetJSON-master/getjson/build.gradle
+2018-09-03 02:13:13,727 INFO  ProjectBuildService - Remote scripts: none
+2018-09-03 02:13:13,727 INFO  ProjectFixService - Fixing project...
+2018-09-03 02:13:13,736 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915581124-0/src/GetJSON-master/app/local.properties
+2018-09-03 02:13:13,737 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915581124-0/src/GetJSON-master/app/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-09-03 02:13:13,737 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915581124-0/src/GetJSON-master/getjson/local.properties
+2018-09-03 02:13:13,738 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915581124-0/src/GetJSON-master/getjson/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-09-03 02:13:13,739 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915581124-0/src/GetJSON-master/local.properties
+2018-09-03 02:13:13,739 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-09-03 02:13:13,739 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-09-03 02:13:13,740 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915581124-0/src/GetJSON-master/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-09-03 02:13:13,740 INFO  ProjectFixService - Project was maybe fixed
+2018-09-03 02:13:13,740 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-03 02:13:13,740 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915581124-0/src/GetJSON-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915581124-0/src/GetJSON-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-03 02:13:21,027 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-03 02:13:21,028 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-03 02:13:21,028 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915581124-0/src/GetJSON-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915581124-0/src/GetJSON-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-03 02:13:36,983 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareAndroidArchLifecycleRuntime100Library
+:app:prepareComAndroidSupportAnimatedVectorDrawable2610Library
+:app:prepareComAndroidSupportAppcompatV72610Library
+:app:prepareComAndroidSupportConstraintConstraintLayout102Library
+:app:prepareComAndroidSupportSupportCompat2610Library
+:app:prepareComAndroidSupportSupportCoreUi2610Library
+:app:prepareComAndroidSupportSupportCoreUtils2610Library
+:app:prepareComAndroidSupportSupportFragment2610Library
+:app:prepareComAndroidSupportSupportMediaCompat2610Library
+:app:prepareComAndroidSupportSupportV42610Library
+:app:prepareComAndroidSupportSupportVectorDrawable2610Library
+:getjson:preBuild UP-TO-DATE
+:getjson:preReleaseBuild UP-TO-DATE
+:getjson:checkReleaseManifest
+:getjson:preDebugAndroidTestBuild UP-TO-DATE
+:getjson:preDebugBuild UP-TO-DATE
+:getjson:preDebugUnitTestBuild UP-TO-DATE
+:getjson:preReleaseUnitTestBuild UP-TO-DATE
+:getjson:prepareAndroidArchLifecycleRuntime100Library
+:getjson:prepareComAndroidSupportAnimatedVectorDrawable2610Library
+:getjson:prepareComAndroidSupportAppcompatV72610Library
+:getjson:prepareComAndroidSupportSupportCompat2610Library
+:getjson:prepareComAndroidSupportSupportCoreUi2610Library
+:getjson:prepareComAndroidSupportSupportCoreUtils2610Library
+:getjson:prepareComAndroidSupportSupportFragment2610Library
+:getjson:prepareComAndroidSupportSupportMediaCompat2610Library
+:getjson:prepareComAndroidSupportSupportV42610Library
+:getjson:prepareComAndroidSupportSupportVectorDrawable2610Library
+:getjson:prepareReleaseDependencies
+:getjson:compileReleaseAidl
+:getjson:compileReleaseNdk UP-TO-DATE
+:getjson:compileLint
+:getjson:copyReleaseLint UP-TO-DATE
+:getjson:compileReleaseRenderscript
+:getjson:generateReleaseBuildConfig
+:getjson:generateReleaseResValues
+:getjson:generateReleaseResources
+:getjson:mergeReleaseResources
+:getjson:processReleaseManifest
+:getjson:processReleaseResources
+:getjson:generateReleaseSources
+:getjson:incrementalReleaseJavaCompilationSafeguard
+:getjson:javaPreCompileRelease
+:getjson:compileReleaseJavaWithJavac
+:getjson:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:getjson:extractReleaseAnnotations
+:getjson:mergeReleaseShaders
+:getjson:compileReleaseShaders
+:getjson:generateReleaseAssets
+:getjson:mergeReleaseAssets
+:getjson:mergeReleaseProguardFiles
+:getjson:packageReleaseRenderscript UP-TO-DATE
+:getjson:packageReleaseResources
+:getjson:processReleaseJavaRes UP-TO-DATE
+:getjson:transformResourcesWithMergeJavaResForRelease
+:getjson:transformClassesAndResourcesWithSyncLibJarsForRelease
+:getjson:mergeReleaseJniLibFolders
+:getjson:transformNativeLibsWithMergeJniLibsForRelease
+:getjson:transformNativeLibsWithStripDebugSymbolForRelease
+:getjson:transformNativeLibsWithSyncJniLibsForRelease
+:getjson:bundleRelease
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 15.711 secs
+
+2018-09-03 02:13:37,062 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915581124-0/src/GetJSON-master/app/build/outputs/apk/app-debug.apk

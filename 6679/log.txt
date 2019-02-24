@@ -1,0 +1,168 @@
+2018-08-22 15:42:29,409 INFO  DownloadService - Downloading "https://github.com/debutdeveloper/countrypickerandroid/archive/master.zip", attempt 3
+2018-08-22 15:42:32,402 INFO  DownloadService - Downloaded https://github.com/debutdeveloper/countrypickerandroid/archive/master.zip, attempt 3
+2018-08-22 15:42:32,402 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927349401-0/master.zip": 456 KB
+2018-08-22 15:42:32,402 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-22 15:42:32,409 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927349401-0/master.zip: true
+2018-08-22 15:42:32,409 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927349401-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927349401-0/src'.
+2018-08-22 15:42:32,487 INFO  FullProcessService - Size of directory with sources: 430 KB
+2018-08-22 15:42:32,487 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927349401-0/src]
+2018-08-22 15:42:32,512 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927349401-0/src/.git/
+
+2018-08-22 15:42:32,519 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927349401-0/src/countrypickerandroid-master/gradlew
+2018-08-22 15:42:32,525 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927349401-0/src/countrypickerandroid-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927349401-0/src/countrypickerandroid-master/countrycodepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927349401-0/src/countrypickerandroid-master/build.gradle
+2018-08-22 15:42:32,531 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927349401-0/src/countrypickerandroid-master/countrycodepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927349401-0/src/countrypickerandroid-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927349401-0/src/countrypickerandroid-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927349401-0/src/countrypickerandroid-master/settings.gradle
+2018-08-22 15:42:32,531 INFO  ProjectBuildService - Remote scripts: none
+2018-08-22 15:42:32,531 INFO  ProjectFixService - Fixing project...
+2018-08-22 15:42:32,545 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927349401-0/src/countrypickerandroid-master/app/local.properties
+2018-08-22 15:42:32,546 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927349401-0/src/countrypickerandroid-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2018-08-22 15:42:32,546 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927349401-0/src/countrypickerandroid-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2018-08-22 15:42:32,547 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927349401-0/src/countrypickerandroid-master/countrycodepicker/local.properties
+2018-08-22 15:42:32,548 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927349401-0/src/countrypickerandroid-master/countrycodepicker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2018-08-22 15:42:32,548 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927349401-0/src/countrypickerandroid-master/countrycodepicker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2018-08-22 15:42:32,549 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927349401-0/src/countrypickerandroid-master/local.properties
+2018-08-22 15:42:32,549 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-08-22 15:42:32,550 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-22 15:42:32,551 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927349401-0/src/countrypickerandroid-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2018-08-22 15:42:32,551 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927349401-0/src/countrypickerandroid-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2018-08-22 15:42:32,551 INFO  ProjectFixService - Project was maybe fixed
+2018-08-22 15:42:32,551 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-22 15:42:32,551 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927349401-0/src/countrypickerandroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927349401-0/src/countrypickerandroid-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-22 15:42:39,477 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-22 15:42:39,477 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-22 15:42:39,477 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927349401-0/src/countrypickerandroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927349401-0/src/countrypickerandroid-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-22 15:43:41,889 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:countrycodepicker:preBuild UP-TO-DATE
+:countrycodepicker:preDebugBuild UP-TO-DATE
+:countrycodepicker:checkDebugManifest
+:countrycodepicker:processDebugManifest
+:app:preDebugBuild
+:countrycodepicker:compileDebugAidl
+:app:compileDebugAidl
+:countrycodepicker:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:countrycodepicker:compileDebugRenderscript
+:countrycodepicker:generateDebugResValues
+:countrycodepicker:generateDebugResources
+:countrycodepicker:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:countrycodepicker:platformAttrExtractor
+:countrycodepicker:generateDebugBuildConfig
+:countrycodepicker:prepareLintJar
+:countrycodepicker:processDebugJavaRes NO-SOURCE
+:app:prepareLintJar
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:countrycodepicker:mergeDebugShaders
+:countrycodepicker:compileDebugShaders
+:countrycodepicker:processDebugResources
+:app:processDebugResources
+:countrycodepicker:compileDebugKotlin
+Using Kotlin incremental compilation
+:countrycodepicker:generateDebugSources
+:countrycodepicker:javaPreCompileDebug
+:countrycodepicker:compileDebugJavaWithJavac
+:countrycodepicker:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+Using Kotlin incremental compilation
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927349401-0/src/countrypickerandroid-master/app/src/main/java/com/debut/countrycodepickersample/MainActivity.kt: (17, 34): Parameter 'view' is never used, could be renamed to _
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:countrycodepicker:generateDebugAssets
+:countrycodepicker:mergeDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:countrycodepicker:compileDebugNdk NO-SOURCE
+:countrycodepicker:mergeDebugJniLibFolders
+:countrycodepicker:transformNativeLibsWithMergeJniLibsForDebug
+:countrycodepicker:transformNativeLibsWithStripDebugSymbolForDebug
+:countrycodepicker:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:countrycodepicker:preReleaseBuild UP-TO-DATE
+:countrycodepicker:checkReleaseManifest
+:countrycodepicker:processReleaseManifest
+:app:preReleaseBuild
+:countrycodepicker:compileReleaseAidl
+:app:compileReleaseAidl
+:countrycodepicker:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:countrycodepicker:compileReleaseRenderscript
+:countrycodepicker:generateReleaseResValues
+:countrycodepicker:generateReleaseResources
+:countrycodepicker:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:countrycodepicker:processReleaseResources
+:app:processReleaseResources
+:countrycodepicker:generateReleaseBuildConfig
+:countrycodepicker:compileReleaseKotlin
+Using Kotlin incremental compilation
+:countrycodepicker:generateReleaseSources
+:countrycodepicker:javaPreCompileRelease
+:countrycodepicker:compileReleaseJavaWithJavac
+:countrycodepicker:processReleaseJavaRes NO-SOURCE
+:countrycodepicker:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+Using Kotlin incremental compilation
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927349401-0/src/countrypickerandroid-master/app/src/main/java/com/debut/countrycodepickersample/MainActivity.kt: (17, 34): Parameter 'view' is never used, could be renamed to _
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:countrycodepicker:mergeReleaseShaders
+:countrycodepicker:compileReleaseShaders
+:countrycodepicker:generateReleaseAssets
+:countrycodepicker:mergeReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:countrycodepicker:compileReleaseNdk NO-SOURCE
+:countrycodepicker:mergeReleaseJniLibFolders
+:countrycodepicker:transformNativeLibsWithMergeJniLibsForRelease
+:countrycodepicker:transformNativeLibsWithStripDebugSymbolForRelease
+:countrycodepicker:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 1m 1s
+92 actionable tasks: 92 executed
+
+2018-08-22 15:43:42,012 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927349401-0/src/countrypickerandroid-master/app/build/outputs/apk/debug/app-debug.apk

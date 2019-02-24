@@ -1,0 +1,129 @@
+2018-08-31 13:10:36,907 INFO  DownloadService - Downloading "https://github.com/Ahmed-Adel-Ismail/J-Chain/archive/master.zip", attempt 3
+2018-08-31 13:11:36,909 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-08-31 13:11:38,208 INFO  GithubDownloadService - Default branch of this repository: master
+2018-08-31 13:11:38,208 INFO  DownloadService - Downloading "https://github.com/Ahmed-Adel-Ismail/J-Chain/archive/master.zip", attempt 3
+2018-08-31 13:12:39,386 DEBUG FullProcessService - Repository https://github.com/Ahmed-Adel-Ismail/J-Chain available: true
+2018-08-31 13:12:39,386 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-08-31 13:12:39,386 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Ahmed-Adel-Ismail/J-Chain, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535695836905-0/src]
+2018-08-31 13:12:41,961 INFO  SysUtils - 
+2018-08-31 13:12:41,969 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535695836905-0/src/.git": true
+2018-08-31 13:12:41,973 INFO  FullProcessService - Size of directory with sources: 363 KB
+2018-08-31 13:12:41,973 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535695836905-0/src]
+2018-08-31 13:12:41,988 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535695836905-0/src/.git/
+
+2018-08-31 13:12:41,992 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535695836905-0/src/gradlew
+2018-08-31 13:12:41,995 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535695836905-0/src/myapplication/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535695836905-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535695836905-0/src/JChain/build.gradle
+2018-08-31 13:12:41,997 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535695836905-0/src/myapplication/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535695836905-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535695836905-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535695836905-0/src/JChain/build.gradle
+2018-08-31 13:12:41,997 INFO  ProjectBuildService - Remote scripts: none
+2018-08-31 13:12:41,997 INFO  ProjectFixService - Fixing project...
+2018-08-31 13:12:42,004 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535695836905-0/src/myapplication/local.properties
+2018-08-31 13:12:42,005 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535695836905-0/src/myapplication/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=21,targetSdkVersion=25]
+2018-08-31 13:12:42,005 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535695836905-0/src/local.properties
+2018-08-31 13:12:42,005 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-08-31 13:12:42,006 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-08-31 13:12:42,006 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535695836905-0/src/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=21,targetSdkVersion=25]
+2018-08-31 13:12:42,007 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535695836905-0/src/JChain/local.properties
+2018-08-31 13:12:42,007 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535695836905-0/src/JChain/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=21,targetSdkVersion=25]
+2018-08-31 13:12:42,007 INFO  ProjectFixService - Project was maybe fixed
+2018-08-31 13:12:42,007 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 13:12:42,007 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535695836905-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535695836905-0/src/myapplication/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 13:12:55,669 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-08-31 13:12:55,669 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-31 13:12:55,669 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535695836905-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535695836905-0/src/myapplication/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-31 13:13:18,037 INFO  SysUtils - Configuration on demand is an incubating feature.
+Jack is disabled, but one of the plugins you are using supports Java 8 language features.
+Jack is disabled, but one of the plugins you are using supports Java 8 language features.
+:JChain:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:JChain:processResources UP-TO-DATE
+:JChain:classes
+:JChain:jar
+:myapplication:preBuild UP-TO-DATE
+:myapplication:preDebugBuild UP-TO-DATE
+:myapplication:checkDebugManifest
+:myapplication:preReleaseBuild UP-TO-DATE
+:myapplication:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:myapplication:prepareComAndroidSupportAppcompatV72531Library
+:myapplication:prepareComAndroidSupportConstraintConstraintLayout102Library
+:myapplication:prepareComAndroidSupportSupportCompat2531Library
+:myapplication:prepareComAndroidSupportSupportCoreUi2531Library
+:myapplication:prepareComAndroidSupportSupportCoreUtils2531Library
+:myapplication:prepareComAndroidSupportSupportFragment2531Library
+:myapplication:prepareComAndroidSupportSupportMediaCompat2531Library
+:myapplication:prepareComAndroidSupportSupportV42531Library
+:myapplication:prepareComAndroidSupportSupportVectorDrawable2531Library
+:myapplication:prepareDebugDependencies
+:myapplication:compileDebugAidl
+:myapplication:compileDebugRenderscript
+:myapplication:generateDebugBuildConfig
+:myapplication:generateDebugResValues
+:myapplication:generateDebugResources
+:myapplication:mergeDebugResources
+:myapplication:processDebugManifest
+:myapplication:processDebugResources
+:myapplication:generateDebugSources
+:myapplication:incrementalDebugJavaCompilationSafeguard
+:myapplication:javaPreCompileDebug
+:myapplication:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535695836905-0/src/myapplication/src/main/java/ahmedadekismail/myapplication/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:myapplication:compileRetrolambdaDebug
+Download https://jcenter.bintray.com/net/orfjackal/retrolambda/retrolambda/2.0.3/retrolambda-2.0.3.pom
+Download https://jcenter.bintray.com/net/orfjackal/retrolambda/parent/2.0.3/parent-2.0.3.pom
+Download https://jcenter.bintray.com/net/orfjackal/retrolambda/retrolambda/2.0.3/retrolambda-2.0.3.jar
+:myapplication:compileDebugNdk UP-TO-DATE
+:myapplication:compileDebugSources
+:myapplication:mergeDebugShaders
+:myapplication:compileDebugShaders
+:myapplication:generateDebugAssets
+:myapplication:mergeDebugAssets
+:myapplication:transformClassesWithDexForDebug
+:myapplication:mergeDebugJniLibFolders
+:myapplication:transformNativeLibsWithMergeJniLibsForDebug
+:myapplication:transformNativeLibsWithStripDebugSymbolForDebug
+:myapplication:processDebugJavaRes UP-TO-DATE
+:myapplication:transformResourcesWithMergeJavaResForDebug
+:myapplication:validateSigningDebug
+:myapplication:packageDebug
+:myapplication:assembleDebug
+:myapplication:checkReleaseManifest
+:myapplication:prepareReleaseDependencies
+:myapplication:compileReleaseAidl
+:myapplication:compileReleaseRenderscript
+:myapplication:generateReleaseBuildConfig
+:myapplication:generateReleaseResValues
+:myapplication:generateReleaseResources
+:myapplication:mergeReleaseResources
+:myapplication:processReleaseManifest
+:myapplication:processReleaseResources
+:myapplication:generateReleaseSources
+:myapplication:incrementalReleaseJavaCompilationSafeguard
+:myapplication:javaPreCompileRelease
+:myapplication:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535695836905-0/src/myapplication/src/main/java/ahmedadekismail/myapplication/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:myapplication:compileRetrolambdaRelease
+:myapplication:compileReleaseNdk UP-TO-DATE
+:myapplication:compileReleaseSources
+:myapplication:lintVitalRelease
+:myapplication:mergeReleaseShaders
+:myapplication:compileReleaseShaders
+:myapplication:generateReleaseAssets
+:myapplication:mergeReleaseAssets
+:myapplication:transformClassesWithDexForRelease
+:myapplication:mergeReleaseJniLibFolders
+:myapplication:transformNativeLibsWithMergeJniLibsForRelease
+:myapplication:transformNativeLibsWithStripDebugSymbolForRelease
+:myapplication:processReleaseJavaRes UP-TO-DATE
+:myapplication:transformResourcesWithMergeJavaResForRelease
+:myapplication:packageRelease
+:myapplication:assembleRelease
+:myapplication:assemble
+:myapplication:build
+
+BUILD SUCCESSFUL
+
+Total time: 22.095 secs
+
+2018-08-31 13:13:18,096 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535695836905-0/src/myapplication/build/outputs/apk/myapplication-release-unsigned.apk

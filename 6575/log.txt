@@ -1,0 +1,401 @@
+2018-12-07 16:39:40,197 INFO  DownloadService - Downloading "https://github.com/siralam/CameraViewPlus/archive/master.zip", attempt 3
+2018-12-07 16:40:40,784 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-12-07 16:40:41,691 INFO  GithubDownloadService - Default branch of this repository: master
+2018-12-07 16:40:41,691 INFO  DownloadService - Downloading "https://github.com/siralam/CameraViewPlus/archive/master.zip", attempt 3
+2018-12-07 16:41:43,095 DEBUG FullProcessService - Repository https://github.com/siralam/CameraViewPlus available: true
+2018-12-07 16:41:43,095 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-12-07 16:41:43,095 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/siralam/CameraViewPlus, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src]
+2018-12-07 16:41:45,552 INFO  SysUtils - 
+2018-12-07 16:41:45,561 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/.git": true
+2018-12-07 16:41:45,566 INFO  FullProcessService - Size of directory with sources: 312 KB
+2018-12-07 16:41:45,566 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src]
+2018-12-07 16:41:45,583 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/.git/
+
+2018-12-07 16:41:45,588 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/gradlew
+2018-12-07 16:41:45,593 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/cameraviewplus/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/build.gradle
+2018-12-07 16:41:45,597 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/cameraviewplus/build.gradle
+2018-12-07 16:41:45,597 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2018-12-07 16:41:45,699 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2018-12-07 16:41:45,700 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2018-12-07 16:41:45,801 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2018-12-07 16:41:45,801 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2018-12-07 16:41:45,801 INFO  ProjectFixService - Fixing project...
+2018-12-07 16:41:45,816 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/cameraviewplus/local.properties
+2018-12-07 16:41:45,817 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/cameraviewplus/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-12-07 16:41:45,817 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/local.properties
+2018-12-07 16:41:45,818 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-12-07 16:41:45,819 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/local.properties
+2018-12-07 16:41:45,819 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-12-07 16:41:45,820 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-12-07 16:41:45,820 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-12-07 16:41:45,820 INFO  ProjectFixService - Project was maybe fixed
+2018-12-07 16:41:45,820 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-07 16:41:45,820 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/cameraviewplus/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-07 16:41:55,443 INFO  ProjectTaskService - Detected possible tasks: 71
+2018-12-07 16:41:55,444 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-12-07 16:41:55,444 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/cameraviewplus/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-12-07 16:42:10,727 INFO  SysUtils - Configuration on demand is an incubating feature.
+:cameraviewplus:preBuild UP-TO-DATE
+:cameraviewplus:preDebugBuild UP-TO-DATE
+:cameraviewplus:compileDebugAidl NO-SOURCE
+:cameraviewplus:compileDebugRenderscript
+:cameraviewplus:checkDebugManifest
+:cameraviewplus:generateDebugBuildConfig
+:cameraviewplus:generateDebugResValues
+:cameraviewplus:generateDebugResources
+:cameraviewplus:packageDebugResources
+:cameraviewplus:processDebugManifest
+:cameraviewplus:generateDebugRFile
+:cameraviewplus:prepareLintJar
+:cameraviewplus:generateDebugSources
+:cameraviewplus:javaPreCompileDebug
+:cameraviewplus:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/cameraviewplus/src/main/api21/com/google/android/cameraview/Camera2.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:cameraviewplus:extractDebugAnnotations
+Warning: com.google.android.cameraview.CameraView.Flash: The typedef annotation should have @Retention(RetentionPolicy.SOURCE)
+:cameraviewplus:mergeDebugConsumerProguardFiles
+:cameraviewplus:mergeDebugShaders
+:cameraviewplus:compileDebugShaders
+:cameraviewplus:generateDebugAssets
+:cameraviewplus:packageDebugAssets
+:cameraviewplus:packageDebugRenderscript NO-SOURCE
+:cameraviewplus:processDebugJavaRes NO-SOURCE
+:cameraviewplus:transformResourcesWithMergeJavaResForDebug
+:cameraviewplus:transformClassesAndResourcesWithSyncLibJarsForDebug
+:cameraviewplus:compileDebugNdk NO-SOURCE
+:cameraviewplus:mergeDebugJniLibFolders
+:cameraviewplus:transformNativeLibsWithMergeJniLibsForDebug
+:cameraviewplus:transformNativeLibsWithStripDebugSymbolForDebug
+:cameraviewplus:transformNativeLibsWithSyncJniLibsForDebug
+:cameraviewplus:bundleDebugAar
+:cameraviewplus:compileDebugSources
+:cameraviewplus:assembleDebug
+:cameraviewplus:preReleaseBuild UP-TO-DATE
+:cameraviewplus:compileReleaseAidl NO-SOURCE
+:cameraviewplus:compileReleaseRenderscript
+:cameraviewplus:checkReleaseManifest
+:cameraviewplus:generateReleaseBuildConfig
+:cameraviewplus:generateReleaseResValues
+:cameraviewplus:generateReleaseResources
+:cameraviewplus:packageReleaseResources
+:cameraviewplus:processReleaseManifest
+:cameraviewplus:generateReleaseRFile
+:cameraviewplus:generateReleaseSources
+:cameraviewplus:javaPreCompileRelease
+:cameraviewplus:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/cameraviewplus/src/main/api21/com/google/android/cameraview/Camera2.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:cameraviewplus:extractReleaseAnnotations
+Warning: com.google.android.cameraview.CameraView.Flash: The typedef annotation should have @Retention(RetentionPolicy.SOURCE)
+:cameraviewplus:mergeReleaseConsumerProguardFiles
+:cameraviewplus:mergeReleaseShaders
+:cameraviewplus:compileReleaseShaders
+:cameraviewplus:generateReleaseAssets
+:cameraviewplus:packageReleaseAssets
+:cameraviewplus:packageReleaseRenderscript NO-SOURCE
+:cameraviewplus:processReleaseJavaRes NO-SOURCE
+:cameraviewplus:transformResourcesWithMergeJavaResForRelease
+:cameraviewplus:transformClassesAndResourcesWithSyncLibJarsForRelease
+:cameraviewplus:compileReleaseNdk NO-SOURCE
+:cameraviewplus:mergeReleaseJniLibFolders
+:cameraviewplus:transformNativeLibsWithMergeJniLibsForRelease
+:cameraviewplus:transformNativeLibsWithStripDebugSymbolForRelease
+:cameraviewplus:transformNativeLibsWithSyncJniLibsForRelease
+:cameraviewplus:bundleReleaseAar
+:cameraviewplus:compileReleaseSources
+:cameraviewplus:mergeReleaseResources
+:cameraviewplus:verifyReleaseResources
+:cameraviewplus:assembleRelease
+:cameraviewplus:assemble
+:cameraviewplus:build
+
+BUILD SUCCESSFUL in 14s
+45 actionable tasks: 45 executed
+
+2018-12-07 16:42:10,778 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-07 16:42:10,778 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-07 16:42:17,168 INFO  ProjectTaskService - Detected possible tasks: 72
+2018-12-07 16:42:17,168 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-12-07 16:42:17,169 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-12-07 16:42:22,809 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-07 16:42:22,809 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'javadocJar' not found in project ':demo'.
+
+* Try:
+Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in project ':demo'.
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:116)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:66)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:286)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:181)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:136)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:115)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:49)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:32)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:64)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:285)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:258)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:251)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:185)
+	at org.gradle.launcher.Main.doAction(Main.java:36)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 5s
+
+2018-12-07 16:42:22,809 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2018-12-07 16:42:22,809 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-12-07 16:43:16,756 INFO  SysUtils - Configuration on demand is an incubating feature.
+:cameraviewplus:preBuild UP-TO-DATE
+:cameraviewplus:preDebugBuild UP-TO-DATE
+:cameraviewplus:compileDebugAidl NO-SOURCE
+:cameraviewplus:compileDebugRenderscript UP-TO-DATE
+:cameraviewplus:checkDebugManifest UP-TO-DATE
+:cameraviewplus:generateDebugBuildConfig UP-TO-DATE
+:cameraviewplus:generateDebugResValues UP-TO-DATE
+:cameraviewplus:generateDebugResources UP-TO-DATE
+:cameraviewplus:packageDebugResources UP-TO-DATE
+:cameraviewplus:processDebugManifest UP-TO-DATE
+:cameraviewplus:generateDebugRFile UP-TO-DATE
+:cameraviewplus:prepareLintJar UP-TO-DATE
+:cameraviewplus:generateDebugSources UP-TO-DATE
+:cameraviewplus:javaPreCompileDebug UP-TO-DATE
+:cameraviewplus:compileDebugJavaWithJavac UP-TO-DATE
+:cameraviewplus:processDebugJavaRes NO-SOURCE
+:cameraviewplus:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:demo:checkDebugClasspath
+Download https://jcenter.bintray.com/com/jaredrummler/android-device-names/1.1.5/android-device-names-1.1.5.pom
+Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.1.10/rxjava-2.1.10.pom
+Download https://jcenter.bintray.com/io/github/silvaren/easyrs/0.5.3/easyrs-0.5.3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/exifinterface/28.0.0/exifinterface-28.0.0.aar
+Download https://jcenter.bintray.com/com/jaredrummler/android-device-names/1.1.5/android-device-names-1.1.5.aar
+Download https://jcenter.bintray.com/io/github/silvaren/easyrs/0.5.3/easyrs-0.5.3.aar
+Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.1.10/rxjava-2.1.10.jar
+:demo:preBuild UP-TO-DATE
+:demo:preDebugBuild
+:demo:compileDebugAidl NO-SOURCE
+:cameraviewplus:packageDebugRenderscript NO-SOURCE
+:demo:compileDebugRenderscript
+:demo:checkDebugManifest
+:demo:generateDebugBuildConfig
+:demo:prepareLintJar
+:demo:mainApkListPersistenceDebug
+:demo:generateDebugResValues
+:demo:generateDebugResources
+:demo:mergeDebugResources
+:demo:createDebugCompatibleScreenManifests
+:demo:processDebugManifest
+:demo:splitsDiscoveryTaskDebug
+:demo:processDebugResources
+:demo:generateDebugSources
+:demo:javaPreCompileDebug
+:demo:compileDebugJavaWithJavac
+:demo:compileDebugNdk NO-SOURCE
+:demo:compileDebugSources
+:cameraviewplus:mergeDebugShaders UP-TO-DATE
+:cameraviewplus:compileDebugShaders UP-TO-DATE
+:cameraviewplus:generateDebugAssets UP-TO-DATE
+:cameraviewplus:packageDebugAssets UP-TO-DATE
+:demo:mergeDebugShaders
+:demo:compileDebugShaders
+:demo:generateDebugAssets
+:demo:mergeDebugAssets
+:demo:transformClassesWithDexBuilderForDebug
+:demo:transformDexArchiveWithExternalLibsDexMergerForDebug
+:demo:transformDexArchiveWithDexMergerForDebug
+:cameraviewplus:compileDebugNdk NO-SOURCE
+:cameraviewplus:mergeDebugJniLibFolders UP-TO-DATE
+:cameraviewplus:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:cameraviewplus:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:cameraviewplus:transformNativeLibsWithIntermediateJniLibsForDebug
+:demo:mergeDebugJniLibFolders
+:demo:transformNativeLibsWithMergeJniLibsForDebug
+:demo:transformNativeLibsWithStripDebugSymbolForDebug
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/libRSSupport.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/librs.channel.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/libblasV8.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/librs.uvencode.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/librsjni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+:demo:checkDebugLibraries
+:demo:processDebugJavaRes NO-SOURCE
+:demo:transformResourcesWithMergeJavaResForDebug
+:demo:validateSigningDebug
+:demo:packageDebug
+:demo:assembleDebug
+:cameraviewplus:preReleaseBuild UP-TO-DATE
+:cameraviewplus:compileReleaseAidl NO-SOURCE
+:cameraviewplus:compileReleaseRenderscript UP-TO-DATE
+:cameraviewplus:checkReleaseManifest UP-TO-DATE
+:cameraviewplus:generateReleaseBuildConfig UP-TO-DATE
+:cameraviewplus:generateReleaseResValues UP-TO-DATE
+:cameraviewplus:generateReleaseResources UP-TO-DATE
+:cameraviewplus:packageReleaseResources UP-TO-DATE
+:cameraviewplus:processReleaseManifest UP-TO-DATE
+:cameraviewplus:generateReleaseRFile UP-TO-DATE
+:cameraviewplus:generateReleaseSources UP-TO-DATE
+:cameraviewplus:javaPreCompileRelease UP-TO-DATE
+:cameraviewplus:compileReleaseJavaWithJavac UP-TO-DATE
+:cameraviewplus:processReleaseJavaRes NO-SOURCE
+:cameraviewplus:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:demo:checkReleaseClasspath
+:demo:preReleaseBuild
+:demo:compileReleaseAidl NO-SOURCE
+:cameraviewplus:packageReleaseRenderscript NO-SOURCE
+:demo:compileReleaseRenderscript
+:demo:checkReleaseManifest
+:demo:generateReleaseBuildConfig
+:demo:mainApkListPersistenceRelease
+:demo:generateReleaseResValues
+:demo:generateReleaseResources
+:demo:mergeReleaseResources
+:demo:createReleaseCompatibleScreenManifests
+:demo:processReleaseManifest
+:demo:splitsDiscoveryTaskRelease
+:demo:processReleaseResources
+:demo:generateReleaseSources
+:demo:javaPreCompileRelease
+:demo:compileReleaseJavaWithJavac
+:demo:compileReleaseNdk NO-SOURCE
+:demo:compileReleaseSources
+:demo:lintVitalRelease SKIPPED
+:cameraviewplus:mergeReleaseShaders UP-TO-DATE
+:cameraviewplus:compileReleaseShaders UP-TO-DATE
+:cameraviewplus:generateReleaseAssets UP-TO-DATE
+:cameraviewplus:packageReleaseAssets UP-TO-DATE
+:demo:mergeReleaseShaders
+:demo:compileReleaseShaders
+:demo:generateReleaseAssets
+:demo:mergeReleaseAssets
+:demo:transformClassesWithDexBuilderForRelease
+:demo:transformDexArchiveWithExternalLibsDexMergerForRelease
+:demo:transformDexArchiveWithDexMergerForRelease
+:cameraviewplus:compileReleaseNdk NO-SOURCE
+:cameraviewplus:mergeReleaseJniLibFolders UP-TO-DATE
+:cameraviewplus:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:cameraviewplus:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:cameraviewplus:transformNativeLibsWithIntermediateJniLibsForRelease
+:demo:mergeReleaseJniLibFolders
+:demo:transformNativeLibsWithMergeJniLibsForRelease
+:demo:transformNativeLibsWithStripDebugSymbolForRelease
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/libRSSupport.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/librs.channel.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/libblasV8.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/librs.uvencode.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/librsjni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+:demo:checkReleaseLibraries
+:demo:processReleaseJavaRes NO-SOURCE
+:demo:transformResourcesWithMergeJavaResForRelease
+:demo:packageRelease
+:demo:assembleRelease
+:demo:assemble
+:demo:lint
+Ran lint on variant debug: 31 issues found
+Ran lint on variant release: 31 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build/reports/lint-results.xml
+:demo:generateDebugUnitTestSources
+:demo:preDebugUnitTestBuild UP-TO-DATE
+:demo:javaPreCompileDebugUnitTest
+:demo:compileDebugUnitTestJavaWithJavac NO-SOURCE
+:demo:processDebugUnitTestJavaRes NO-SOURCE
+:demo:testDebugUnitTest NO-SOURCE
+:demo:generateReleaseUnitTestSources
+:demo:preReleaseUnitTestBuild UP-TO-DATE
+:demo:javaPreCompileReleaseUnitTest
+:demo:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+:demo:processReleaseUnitTestJavaRes NO-SOURCE
+:demo:testReleaseUnitTest NO-SOURCE
+:demo:test UP-TO-DATE
+:demo:check
+:demo:build
+
+BUILD SUCCESSFUL in 53s
+92 actionable tasks: 61 executed, 31 up-to-date
+
+2018-12-07 16:43:16,881 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build/outputs/apk/release/demo-release-unsigned.apk

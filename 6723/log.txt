@@ -1,0 +1,244 @@
+2018-08-30 11:45:53,760 INFO  DownloadService - Downloading "https://github.com/alexzaitsev/meter-number-picker/archive/master.zip", attempt 3
+2018-08-30 11:46:00,314 INFO  DownloadService - Downloaded https://github.com/alexzaitsev/meter-number-picker/archive/master.zip, attempt 3
+2018-08-30 11:46:00,314 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/master.zip": 4 MB
+2018-08-30 11:46:00,314 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-30 11:46:00,321 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/master.zip: true
+2018-08-30 11:46:00,322 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src'.
+2018-08-30 11:46:00,379 INFO  FullProcessService - Size of directory with sources: 5 MB
+2018-08-30 11:46:00,379 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src]
+2018-08-30 11:46:00,395 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/.git/
+
+2018-08-30 11:46:00,397 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/gradlew
+2018-08-30 11:46:00,399 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/meternumberpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/build.gradle
+2018-08-30 11:46:00,401 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/meternumberpicker/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/meternumberpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/settings.gradle
+2018-08-30 11:46:00,402 INFO  ProjectBuildService - Remote scripts: none
+2018-08-30 11:46:00,402 INFO  ProjectFixService - Fixing project...
+2018-08-30 11:46:00,409 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/meternumberpicker/local.properties
+2018-08-30 11:46:00,410 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/meternumberpicker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-08-30 11:46:00,410 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/meternumberpicker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-08-30 11:46:00,411 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/sample/local.properties
+2018-08-30 11:46:00,414 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-08-30 11:46:00,414 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-08-30 11:46:00,415 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/local.properties
+2018-08-30 11:46:00,415 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-08-30 11:46:00,416 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-30 11:46:00,417 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-08-30 11:46:00,417 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-08-30 11:46:00,418 INFO  ProjectFixService - Project was maybe fixed
+2018-08-30 11:46:00,418 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-30 11:46:00,418 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/meternumberpicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-30 11:46:06,094 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-08-30 11:46:06,094 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-08-30 11:46:06,094 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/meternumberpicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-08-30 11:46:17,784 INFO  SysUtils - Configuration on demand is an incubating feature.
+:meternumberpicker:androidSourcesJar
+:meternumberpicker:preBuild UP-TO-DATE
+:meternumberpicker:preDebugBuild UP-TO-DATE
+:meternumberpicker:compileDebugAidl
+:meternumberpicker:compileDebugNdk NO-SOURCE
+:meternumberpicker:compileDebugRenderscript
+:meternumberpicker:checkDebugManifest
+:meternumberpicker:generateDebugBuildConfig
+:meternumberpicker:prepareLintJar
+:meternumberpicker:generateDebugResValues
+:meternumberpicker:generateDebugResources
+:meternumberpicker:packageDebugResources
+:meternumberpicker:platformAttrExtractor
+:meternumberpicker:processDebugManifest
+:meternumberpicker:javaPreCompileDebug
+:meternumberpicker:mergeDebugShaders
+:meternumberpicker:compileDebugShaders
+:meternumberpicker:generateDebugAssets
+:meternumberpicker:mergeDebugAssets
+:meternumberpicker:mergeDebugConsumerProguardFiles
+:meternumberpicker:packageDebugRenderscript NO-SOURCE
+:meternumberpicker:processDebugJavaRes NO-SOURCE
+:meternumberpicker:mergeDebugJniLibFolders
+:meternumberpicker:transformNativeLibsWithMergeJniLibsForDebug
+:meternumberpicker:transformNativeLibsWithStripDebugSymbolForDebug
+:meternumberpicker:transformNativeLibsWithSyncJniLibsForDebug
+:meternumberpicker:preReleaseBuild UP-TO-DATE
+:meternumberpicker:compileReleaseAidl
+:meternumberpicker:compileReleaseNdk NO-SOURCE
+:meternumberpicker:compileReleaseRenderscript
+:meternumberpicker:checkReleaseManifest
+:meternumberpicker:generateReleaseBuildConfig
+:meternumberpicker:generateReleaseResValues
+:meternumberpicker:generateReleaseResources
+:meternumberpicker:packageReleaseResources
+:meternumberpicker:processReleaseManifest
+:meternumberpicker:javaPreCompileRelease
+:meternumberpicker:mergeReleaseShaders
+:meternumberpicker:compileReleaseShaders
+:meternumberpicker:generateReleaseAssets
+:meternumberpicker:mergeReleaseAssets
+:meternumberpicker:mergeReleaseConsumerProguardFiles
+:meternumberpicker:packageReleaseRenderscript NO-SOURCE
+:meternumberpicker:processReleaseJavaRes NO-SOURCE
+:meternumberpicker:mergeReleaseJniLibFolders
+:meternumberpicker:transformNativeLibsWithMergeJniLibsForRelease
+:meternumberpicker:transformNativeLibsWithStripDebugSymbolForRelease
+:meternumberpicker:transformNativeLibsWithSyncJniLibsForRelease
+:meternumberpicker:mergeReleaseResources
+:meternumberpicker:verifyReleaseResources
+:meternumberpicker:processDebugResources
+:meternumberpicker:generateDebugSources
+:meternumberpicker:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/meternumberpicker/src/main/java/com/alexzaitsev/meternumberpicker/MeterNumberPicker.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:meternumberpicker:extractDebugAnnotations
+:meternumberpicker:transformResourcesWithMergeJavaResForDebug
+:meternumberpicker:transformClassesAndResourcesWithSyncLibJarsForDebug
+:meternumberpicker:bundleDebug
+:meternumberpicker:compileDebugSources
+:meternumberpicker:assembleDebug
+:meternumberpicker:processReleaseResources
+:meternumberpicker:generateReleaseSources
+:meternumberpicker:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/meternumberpicker/src/main/java/com/alexzaitsev/meternumberpicker/MeterNumberPicker.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:meternumberpicker:extractReleaseAnnotations
+:meternumberpicker:transformResourcesWithMergeJavaResForRelease
+:meternumberpicker:transformClassesAndResourcesWithSyncLibJarsForRelease
+:meternumberpicker:bundleRelease
+:meternumberpicker:compileReleaseSources
+:meternumberpicker:assembleRelease
+:meternumberpicker:signArchives SKIPPED
+:meternumberpicker:assemble
+:meternumberpicker:build
+
+BUILD SUCCESSFUL in 11s
+49 actionable tasks: 49 executed
+
+2018-08-30 11:46:17,823 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-30 11:46:17,823 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-30 11:46:23,327 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-30 11:46:23,328 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-30 11:46:23,328 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-30 11:46:40,992 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':sample' is deprecated. Use 'implementation' instead.
+:meternumberpicker:preBuild UP-TO-DATE
+:meternumberpicker:preDebugBuild UP-TO-DATE
+:meternumberpicker:compileDebugAidl UP-TO-DATE
+:meternumberpicker:compileDebugRenderscript UP-TO-DATE
+:meternumberpicker:checkDebugManifest UP-TO-DATE
+:meternumberpicker:generateDebugBuildConfig UP-TO-DATE
+:meternumberpicker:prepareLintJar UP-TO-DATE
+:meternumberpicker:generateDebugResValues UP-TO-DATE
+:meternumberpicker:generateDebugResources UP-TO-DATE
+:meternumberpicker:packageDebugResources UP-TO-DATE
+:meternumberpicker:platformAttrExtractor UP-TO-DATE
+:meternumberpicker:processDebugManifest UP-TO-DATE
+:meternumberpicker:processDebugResources UP-TO-DATE
+:meternumberpicker:generateDebugSources UP-TO-DATE
+:meternumberpicker:javaPreCompileDebug UP-TO-DATE
+:meternumberpicker:compileDebugJavaWithJavac UP-TO-DATE
+:meternumberpicker:processDebugJavaRes NO-SOURCE
+:meternumberpicker:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild
+:sample:compileDebugAidl
+:meternumberpicker:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:prepareLintJar
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources
+:meternumberpicker:mergeDebugShaders UP-TO-DATE
+:meternumberpicker:compileDebugShaders UP-TO-DATE
+:meternumberpicker:generateDebugAssets UP-TO-DATE
+:meternumberpicker:mergeDebugAssets UP-TO-DATE
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexBuilderForDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:meternumberpicker:compileDebugNdk NO-SOURCE
+:meternumberpicker:mergeDebugJniLibFolders UP-TO-DATE
+:meternumberpicker:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:meternumberpicker:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:meternumberpicker:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:processDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:meternumberpicker:preReleaseBuild UP-TO-DATE
+:meternumberpicker:compileReleaseAidl UP-TO-DATE
+:meternumberpicker:compileReleaseRenderscript UP-TO-DATE
+:meternumberpicker:checkReleaseManifest UP-TO-DATE
+:meternumberpicker:generateReleaseBuildConfig UP-TO-DATE
+:meternumberpicker:generateReleaseResValues UP-TO-DATE
+:meternumberpicker:generateReleaseResources UP-TO-DATE
+:meternumberpicker:packageReleaseResources UP-TO-DATE
+:meternumberpicker:processReleaseManifest UP-TO-DATE
+:meternumberpicker:processReleaseResources UP-TO-DATE
+:meternumberpicker:generateReleaseSources UP-TO-DATE
+:meternumberpicker:javaPreCompileRelease UP-TO-DATE
+:meternumberpicker:compileReleaseJavaWithJavac UP-TO-DATE
+:meternumberpicker:processReleaseJavaRes NO-SOURCE
+:meternumberpicker:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:preReleaseBuild
+:sample:compileReleaseAidl
+:meternumberpicker:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+:meternumberpicker:mergeReleaseShaders UP-TO-DATE
+:meternumberpicker:compileReleaseShaders UP-TO-DATE
+:meternumberpicker:generateReleaseAssets UP-TO-DATE
+:meternumberpicker:mergeReleaseAssets UP-TO-DATE
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithPreDexForRelease
+:sample:transformDexWithDexForRelease
+:meternumberpicker:compileReleaseNdk NO-SOURCE
+:meternumberpicker:mergeReleaseJniLibFolders UP-TO-DATE
+:meternumberpicker:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:meternumberpicker:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:meternumberpicker:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 16s
+88 actionable tasks: 54 executed, 34 up-to-date
+
+2018-08-30 11:46:41,074 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

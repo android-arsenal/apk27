@@ -1,0 +1,186 @@
+2018-08-22 16:00:20,589 INFO  DownloadService - Downloading "https://github.com/MikeFot/Android--Library-Country-Flags/archive/master.zip", attempt 3
+2018-08-22 16:00:28,987 INFO  DownloadService - Downloaded https://github.com/MikeFot/Android--Library-Country-Flags/archive/master.zip, attempt 3
+2018-08-22 16:00:28,987 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534928420586-0/master.zip": 4 MB
+2018-08-22 16:00:28,987 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-22 16:00:28,996 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534928420586-0/master.zip: true
+2018-08-22 16:00:28,997 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534928420586-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534928420586-0/src'.
+2018-08-22 16:00:29,318 INFO  FullProcessService - Size of directory with sources: 4 MB
+2018-08-22 16:00:29,318 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534928420586-0/src]
+2018-08-22 16:00:29,344 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534928420586-0/src/.git/
+
+2018-08-22 16:00:29,372 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534928420586-0/src/Android--Library-Country-Flags-master/gradlew
+2018-08-22 16:00:29,398 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534928420586-0/src/Android--Library-Country-Flags-master/countryflags/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534928420586-0/src/Android--Library-Country-Flags-master/build.gradle
+2018-08-22 16:00:29,421 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534928420586-0/src/Android--Library-Country-Flags-master/countryflags/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534928420586-0/src/Android--Library-Country-Flags-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534928420586-0/src/Android--Library-Country-Flags-master/settings.gradle
+2018-08-22 16:00:29,422 INFO  ProjectBuildService - Remote scripts: none
+2018-08-22 16:00:29,422 INFO  ProjectFixService - Fixing project...
+2018-08-22 16:00:29,474 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534928420586-0/src/Android--Library-Country-Flags-master/countryflags/local.properties
+2018-08-22 16:00:29,474 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534928420586-0/src/Android--Library-Country-Flags-master/countryflags/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2018-08-22 16:00:29,475 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534928420586-0/src/Android--Library-Country-Flags-master/local.properties
+2018-08-22 16:00:29,475 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-08-22 16:00:29,475 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-08-22 16:00:29,476 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534928420586-0/src/Android--Library-Country-Flags-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2018-08-22 16:00:29,476 INFO  ProjectFixService - Project was maybe fixed
+2018-08-22 16:00:29,476 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-22 16:00:29,476 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534928420586-0/src/Android--Library-Country-Flags-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534928420586-0/src/Android--Library-Country-Flags-master/countryflags/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-22 16:00:50,047 INFO  ProjectTaskService - Detected possible tasks: 71
+2018-08-22 16:00:50,047 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-08-22 16:00:50,047 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534928420586-0/src/Android--Library-Country-Flags-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534928420586-0/src/Android--Library-Country-Flags-master/countryflags/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-08-22 16:00:59,815 INFO  SysUtils - Configuration on demand is an incubating feature.
+:countryflags:preBuild UP-TO-DATE
+:countryflags:preDebugBuild UP-TO-DATE
+:countryflags:checkDebugManifest
+:countryflags:prepareDebugDependencies
+:countryflags:compileDebugAidl
+:countryflags:compileDebugNdk UP-TO-DATE
+:countryflags:compileLint
+:countryflags:copyDebugLint UP-TO-DATE
+:countryflags:mergeDebugShaders
+:countryflags:compileDebugShaders
+:countryflags:generateDebugAssets
+:countryflags:mergeDebugAssets
+:countryflags:mergeDebugProguardFiles
+:countryflags:packageDebugRenderscript UP-TO-DATE
+:countryflags:compileDebugRenderscript
+:countryflags:generateDebugResValues
+:countryflags:generateDebugResources
+:countryflags:packageDebugResources
+:countryflags:processDebugManifest
+:countryflags:generateDebugBuildConfig
+:countryflags:processDebugResources
+:countryflags:generateDebugSources
+:countryflags:incrementalDebugJavaCompilationSafeguard
+:countryflags:javaPreCompileDebug
+:countryflags:compileDebugJavaWithJavac
+:countryflags:processDebugJavaRes UP-TO-DATE
+:countryflags:transformResourcesWithMergeJavaResForDebug
+:countryflags:transformClassesAndResourcesWithSyncLibJarsForDebug
+:countryflags:mergeDebugJniLibFolders
+:countryflags:transformNativeLibsWithMergeJniLibsForDebug
+:countryflags:transformNativeLibsWithStripDebugSymbolForDebug
+:countryflags:transformNativeLibsWithSyncJniLibsForDebug
+:countryflags:bundleDebug
+:countryflags:compileDebugSources
+:countryflags:assembleDebug
+:countryflags:preReleaseBuild UP-TO-DATE
+:countryflags:checkReleaseManifest
+:countryflags:prepareReleaseDependencies
+:countryflags:compileReleaseAidl
+:countryflags:compileReleaseNdk UP-TO-DATE
+:countryflags:copyReleaseLint UP-TO-DATE
+:countryflags:mergeReleaseShaders
+:countryflags:compileReleaseShaders
+:countryflags:generateReleaseAssets
+:countryflags:mergeReleaseAssets
+:countryflags:mergeReleaseProguardFiles
+:countryflags:packageReleaseRenderscript UP-TO-DATE
+:countryflags:compileReleaseRenderscript
+:countryflags:generateReleaseResValues
+:countryflags:generateReleaseResources
+:countryflags:packageReleaseResources
+:countryflags:processReleaseManifest
+:countryflags:generateReleaseBuildConfig
+:countryflags:processReleaseResources
+:countryflags:generateReleaseSources
+:countryflags:incrementalReleaseJavaCompilationSafeguard
+:countryflags:javaPreCompileRelease
+:countryflags:compileReleaseJavaWithJavac
+:countryflags:processReleaseJavaRes UP-TO-DATE
+:countryflags:transformResourcesWithMergeJavaResForRelease
+:countryflags:transformClassesAndResourcesWithSyncLibJarsForRelease
+:countryflags:mergeReleaseJniLibFolders
+:countryflags:transformNativeLibsWithMergeJniLibsForRelease
+:countryflags:transformNativeLibsWithStripDebugSymbolForRelease
+:countryflags:transformNativeLibsWithSyncJniLibsForRelease
+:countryflags:bundleRelease
+:countryflags:compileReleaseSources
+:countryflags:assembleRelease
+:countryflags:assemble
+:countryflags:build
+
+BUILD SUCCESSFUL
+
+Total time: 9.568 secs
+
+2018-08-22 16:00:59,878 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-22 16:00:59,878 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534928420586-0/src/Android--Library-Country-Flags-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534928420586-0/src/Android--Library-Country-Flags-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-22 16:01:05,811 INFO  ProjectTaskService - Detected possible tasks: 70
+2018-08-22 16:01:05,811 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-08-22 16:01:05,811 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534928420586-0/src/Android--Library-Country-Flags-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534928420586-0/src/Android--Library-Country-Flags-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-08-22 16:01:12,561 INFO  SysUtils - Configuration on demand is an incubating feature.
+:countryflags:preBuild UP-TO-DATE
+:countryflags:preDebugBuild UP-TO-DATE
+:countryflags:checkDebugManifest
+:countryflags:prepareDebugDependencies
+:countryflags:compileDebugAidl UP-TO-DATE
+:countryflags:compileDebugNdk UP-TO-DATE
+:countryflags:compileLint UP-TO-DATE
+:countryflags:copyDebugLint UP-TO-DATE
+:countryflags:mergeDebugShaders UP-TO-DATE
+:countryflags:compileDebugShaders UP-TO-DATE
+:countryflags:generateDebugAssets UP-TO-DATE
+:countryflags:mergeDebugAssets UP-TO-DATE
+:countryflags:mergeDebugProguardFiles UP-TO-DATE
+:countryflags:packageDebugRenderscript UP-TO-DATE
+:countryflags:compileDebugRenderscript UP-TO-DATE
+:countryflags:generateDebugResValues UP-TO-DATE
+:countryflags:generateDebugResources UP-TO-DATE
+:countryflags:packageDebugResources UP-TO-DATE
+:countryflags:processDebugManifest UP-TO-DATE
+:countryflags:generateDebugBuildConfig UP-TO-DATE
+:countryflags:processDebugResources UP-TO-DATE
+:countryflags:generateDebugSources UP-TO-DATE
+:countryflags:incrementalDebugJavaCompilationSafeguard UP-TO-DATE
+:countryflags:javaPreCompileDebug
+:countryflags:compileDebugJavaWithJavac UP-TO-DATE
+:countryflags:processDebugJavaRes UP-TO-DATE
+:countryflags:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:countryflags:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:countryflags:mergeDebugJniLibFolders UP-TO-DATE
+:countryflags:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:countryflags:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:countryflags:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:countryflags:bundleDebug UP-TO-DATE
+:countryflags:compileDebugSources UP-TO-DATE
+:countryflags:assembleDebug UP-TO-DATE
+:countryflags:preReleaseBuild UP-TO-DATE
+:countryflags:checkReleaseManifest
+:countryflags:prepareReleaseDependencies
+:countryflags:compileReleaseAidl UP-TO-DATE
+:countryflags:compileReleaseNdk UP-TO-DATE
+:countryflags:copyReleaseLint UP-TO-DATE
+:countryflags:mergeReleaseShaders UP-TO-DATE
+:countryflags:compileReleaseShaders UP-TO-DATE
+:countryflags:generateReleaseAssets UP-TO-DATE
+:countryflags:mergeReleaseAssets UP-TO-DATE
+:countryflags:mergeReleaseProguardFiles UP-TO-DATE
+:countryflags:packageReleaseRenderscript UP-TO-DATE
+:countryflags:compileReleaseRenderscript UP-TO-DATE
+:countryflags:generateReleaseResValues UP-TO-DATE
+:countryflags:generateReleaseResources UP-TO-DATE
+:countryflags:packageReleaseResources UP-TO-DATE
+:countryflags:processReleaseManifest UP-TO-DATE
+:countryflags:generateReleaseBuildConfig UP-TO-DATE
+:countryflags:processReleaseResources UP-TO-DATE
+:countryflags:generateReleaseSources UP-TO-DATE
+:countryflags:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:countryflags:javaPreCompileRelease
+:countryflags:compileReleaseJavaWithJavac UP-TO-DATE
+:countryflags:processReleaseJavaRes UP-TO-DATE
+:countryflags:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:countryflags:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:countryflags:mergeReleaseJniLibFolders UP-TO-DATE
+:countryflags:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:countryflags:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:countryflags:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:countryflags:bundleRelease UP-TO-DATE
+:countryflags:compileReleaseSources UP-TO-DATE
+:countryflags:assembleRelease UP-TO-DATE
+:countryflags:assemble UP-TO-DATE
+:countryflags:build
+
+BUILD SUCCESSFUL
+
+Total time: 6.512 secs
+
+2018-08-22 16:01:12,623 ERROR FullProcessService - Project build has not produced APK file
+2018-08-22 16:01:12,680 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,0 +1,166 @@
+2018-08-30 16:34:41,176 INFO  DownloadService - Downloading "https://github.com/SouthernBox/SpringRotateMenu/archive/master.zip", attempt 3
+2018-08-30 16:34:49,215 INFO  DownloadService - Downloaded https://github.com/SouthernBox/SpringRotateMenu/archive/master.zip, attempt 3
+2018-08-30 16:34:49,216 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621681168-0/master.zip": 2 MB
+2018-08-30 16:34:49,216 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-30 16:34:49,222 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621681168-0/master.zip: true
+2018-08-30 16:34:49,223 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621681168-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621681168-0/src'.
+2018-08-30 16:34:49,266 INFO  FullProcessService - Size of directory with sources: 2 MB
+2018-08-30 16:34:49,266 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621681168-0/src]
+2018-08-30 16:34:49,286 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621681168-0/src/.git/
+
+2018-08-30 16:34:49,289 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621681168-0/src/SpringRotateMenu-master/gradlew
+2018-08-30 16:34:49,293 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621681168-0/src/SpringRotateMenu-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621681168-0/src/SpringRotateMenu-master/springrotatemenu/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621681168-0/src/SpringRotateMenu-master/build.gradle
+2018-08-30 16:34:49,296 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621681168-0/src/SpringRotateMenu-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621681168-0/src/SpringRotateMenu-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621681168-0/src/SpringRotateMenu-master/springrotatemenu/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621681168-0/src/SpringRotateMenu-master/settings.gradle
+2018-08-30 16:34:49,296 INFO  ProjectBuildService - Remote scripts: none
+2018-08-30 16:34:49,296 INFO  ProjectFixService - Fixing project...
+2018-08-30 16:34:49,303 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621681168-0/src/SpringRotateMenu-master/sample/local.properties
+2018-08-30 16:34:49,303 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621681168-0/src/SpringRotateMenu-master/sample/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-08-30 16:34:49,304 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621681168-0/src/SpringRotateMenu-master/springrotatemenu/local.properties
+2018-08-30 16:34:49,304 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621681168-0/src/SpringRotateMenu-master/springrotatemenu/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-08-30 16:34:49,304 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621681168-0/src/SpringRotateMenu-master/local.properties
+2018-08-30 16:34:49,305 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-08-30 16:34:49,305 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-30 16:34:49,306 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621681168-0/src/SpringRotateMenu-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-08-30 16:34:49,306 INFO  ProjectFixService - Project was maybe fixed
+2018-08-30 16:34:49,306 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-30 16:34:49,306 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621681168-0/src/SpringRotateMenu-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621681168-0/src/SpringRotateMenu-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-30 16:34:56,646 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-30 16:34:56,646 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-30 16:34:56,646 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621681168-0/src/SpringRotateMenu-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621681168-0/src/SpringRotateMenu-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-30 16:35:35,286 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':springrotatemenu' is deprecated. Use 'implementation' instead.
+:sample:preBuild UP-TO-DATE
+:springrotatemenu:preBuild UP-TO-DATE
+:springrotatemenu:preDebugBuild UP-TO-DATE
+:springrotatemenu:checkDebugManifest
+:springrotatemenu:processDebugManifest
+:sample:preDebugBuild
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-dynamic-animation/26.1.0/support-dynamic-animation-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-dynamic-animation/26.1.0/support-dynamic-animation-26.1.0.aar
+:springrotatemenu:compileDebugAidl
+:sample:compileDebugAidl
+:springrotatemenu:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:springrotatemenu:compileDebugRenderscript
+:springrotatemenu:generateDebugResValues
+:springrotatemenu:generateDebugResources
+:springrotatemenu:packageDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:springrotatemenu:platformAttrExtractor
+:springrotatemenu:generateDebugBuildConfig
+:springrotatemenu:prepareLintJar
+:springrotatemenu:processDebugJavaRes NO-SOURCE
+:sample:prepareLintJar
+:sample:compileDebugNdk NO-SOURCE
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:springrotatemenu:mergeDebugShaders
+:springrotatemenu:compileDebugShaders
+:springrotatemenu:generateDebugAssets
+:springrotatemenu:mergeDebugAssets
+:sample:mergeDebugAssets
+:sample:mergeDebugJniLibFolders
+:springrotatemenu:compileDebugNdk NO-SOURCE
+:springrotatemenu:mergeDebugJniLibFolders
+:springrotatemenu:transformNativeLibsWithMergeJniLibsForDebug
+:springrotatemenu:transformNativeLibsWithStripDebugSymbolForDebug
+:springrotatemenu:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:processDebugJavaRes NO-SOURCE
+:sample:validateSigningDebug
+:springrotatemenu:preReleaseBuild UP-TO-DATE
+:springrotatemenu:checkReleaseManifest
+:springrotatemenu:processReleaseManifest
+:sample:preReleaseBuild
+:springrotatemenu:compileReleaseAidl
+:sample:compileReleaseAidl
+:springrotatemenu:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:springrotatemenu:compileReleaseRenderscript
+:springrotatemenu:generateReleaseResValues
+:springrotatemenu:generateReleaseResources
+:springrotatemenu:packageReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:springrotatemenu:generateReleaseBuildConfig
+:springrotatemenu:processReleaseJavaRes NO-SOURCE
+:sample:compileReleaseNdk NO-SOURCE
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:springrotatemenu:mergeReleaseShaders
+:springrotatemenu:compileReleaseShaders
+:springrotatemenu:generateReleaseAssets
+:springrotatemenu:mergeReleaseAssets
+:sample:mergeReleaseAssets
+:sample:mergeReleaseJniLibFolders
+:springrotatemenu:compileReleaseNdk NO-SOURCE
+:springrotatemenu:mergeReleaseJniLibFolders
+:springrotatemenu:transformNativeLibsWithMergeJniLibsForRelease
+:springrotatemenu:transformNativeLibsWithStripDebugSymbolForRelease
+:springrotatemenu:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:processReleaseJavaRes NO-SOURCE
+:springrotatemenu:processDebugResources
+:sample:processDebugResources
+:springrotatemenu:compileDebugKotlin
+Using Kotlin incremental compilation
+:springrotatemenu:generateDebugSources
+:springrotatemenu:javaPreCompileDebug
+:springrotatemenu:compileDebugJavaWithJavac
+:springrotatemenu:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:compileDebugKotlin
+Using Kotlin incremental compilation
+:sample:generateDebugSources
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugSources
+:sample:transformClassesWithDexBuilderForDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:packageDebug
+:sample:assembleDebug
+:springrotatemenu:processReleaseResources
+:sample:processReleaseResources
+:springrotatemenu:compileReleaseKotlin
+Using Kotlin incremental compilation
+:springrotatemenu:generateReleaseSources
+:springrotatemenu:javaPreCompileRelease
+:springrotatemenu:compileReleaseJavaWithJavac
+:springrotatemenu:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:compileReleaseKotlin
+Using Kotlin incremental compilation
+:sample:generateReleaseSources
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+:sample:transformClassesWithPreDexForRelease
+:sample:transformDexWithDexForRelease
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 37s
+92 actionable tasks: 92 executed
+
+2018-08-30 16:35:35,357 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621681168-0/src/SpringRotateMenu-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

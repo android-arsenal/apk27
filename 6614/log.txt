@@ -1,0 +1,208 @@
+2018-10-08 11:45:02,989 INFO  DownloadService - Downloading "https://github.com/matteocrippa/Parrot/archive/master.zip", attempt 3
+2018-10-08 11:45:03,448 INFO  DownloadService - Downloaded https://github.com/matteocrippa/Parrot/archive/master.zip, attempt 3
+2018-10-08 11:45:03,448 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973902986-0/master.zip": 88 KB
+2018-10-08 11:45:03,448 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-08 11:45:03,449 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973902986-0/master.zip: true
+2018-10-08 11:45:03,449 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973902986-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973902986-0/src'.
+2018-10-08 11:45:03,458 INFO  FullProcessService - Size of directory with sources: 100 KB
+2018-10-08 11:45:03,458 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973902986-0/src]
+2018-10-08 11:45:03,480 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973902986-0/src/.git/
+
+2018-10-08 11:45:03,482 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973902986-0/src/Parrot-master/gradlew
+2018-10-08 11:45:03,484 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973902986-0/src/Parrot-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973902986-0/src/Parrot-master/build.gradle
+2018-10-08 11:45:03,486 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973902986-0/src/Parrot-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973902986-0/src/Parrot-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973902986-0/src/Parrot-master/settings.gradle
+2018-10-08 11:45:03,486 INFO  ProjectBuildService - Remote scripts: none
+2018-10-08 11:45:03,486 INFO  ProjectFixService - Fixing project...
+2018-10-08 11:45:03,491 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973902986-0/src/Parrot-master/app/local.properties
+2018-10-08 11:45:03,492 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973902986-0/src/Parrot-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-10-08 11:45:03,492 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973902986-0/src/Parrot-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-10-08 11:45:03,493 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973902986-0/src/Parrot-master/local.properties
+2018-10-08 11:45:03,494 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-10-08 11:45:03,494 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-10-08 11:45:03,495 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973902986-0/src/Parrot-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-10-08 11:45:03,495 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973902986-0/src/Parrot-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-10-08 11:45:03,495 INFO  ProjectFixService - Project was maybe fixed
+2018-10-08 11:45:03,496 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-08 11:45:03,496 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973902986-0/src/Parrot-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973902986-0/src/Parrot-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-08 11:45:11,591 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-10-08 11:45:11,592 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-10-08 11:45:11,592 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973902986-0/src/Parrot-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973902986-0/src/Parrot-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-10-08 11:45:40,797 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:compileDebugAidl
+Download https://jcenter.bintray.com/com/github/kittinunf/fuse/fuse/0.2/fuse-0.2.aar
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:packageDebugResources
+:app:platformAttrExtractor
+:app:processDebugManifest
+:app:prepareLintJar
+:app:mergeDebugConsumerProguardFiles
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:packageDebugAssets
+:app:packageDebugRenderscript NO-SOURCE
+:app:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformNativeLibsWithSyncJniLibsForDebug
+:app:preReleaseBuild UP-TO-DATE
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:packageReleaseResources
+:app:processReleaseManifest
+:app:mergeReleaseConsumerProguardFiles
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:packageReleaseAssets
+:app:packageReleaseRenderscript NO-SOURCE
+:app:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformNativeLibsWithSyncJniLibsForRelease
+:app:mergeReleaseResources
+:app:verifyReleaseResources
+:app:generateDebugRFile
+:app:compileDebugKotlin
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko/0.10.1/anko-0.10.1.jar
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-support-v4-commons/0.10.1/anko-support-v4-commons-0.10.1.jar
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-support-v4/0.10.1/anko-support-v4-0.10.1.jar
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-appcompat-v7-commons/0.10.1/anko-appcompat-v7-commons-0.10.1.jar
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-sqlite/0.10.1/anko-sqlite-0.10.1.jar
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-appcompat-v7/0.10.1/anko-appcompat-v7-0.10.1.jar
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-coroutines/0.10.1/anko-coroutines-0.10.1.jar
+Download https://jcenter.bintray.com/com/github/kittinunf/result/result/1.2.0/result-1.2.0.jar
+Download https://jcenter.bintray.com/com/jakewharton/disklrucache/2.0.2/disklrucache-2.0.2.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib/1.1.4-3/kotlin-stdlib-1.1.4-3.jar
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-sdk25/0.10.1/anko-sdk25-0.10.1.jar
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-sdk25-coroutines/0.10.1/anko-sdk25-coroutines-0.10.1.jar
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-appcompat-v7-coroutines/0.10.1/anko-appcompat-v7-coroutines-0.10.1.jar
+w: Runtime JAR files in the classpath have the version 1.1, which is older than the API version 1.2. Consider using the runtime of version 1.2, or pass '-api-version 1.1' explicitly to restrict the available APIs to the runtime of version 1.1. You can also pass '-language-version 1.1' instead, which will restrict not only the APIs to the specified version, but also the language features
+w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.1.4-3/7f07ece855a7d40d5ef430218593e92282ae2a74/kotlin-stdlib-1.1.4-3.jar: Runtime JAR file has version 1.1 which is older than required for API version 1.2
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973902986-0/src/Parrot-master/app/src/main/java/matteocrippa/it/parrot/ImageView+Extension.kt: (69, 17): Name shadowed: data
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:extractDebugAnnotations
+:app:transformResourcesWithMergeJavaResForDebug
+:app:transformClassesAndResourcesWithSyncLibJarsForDebug
+:app:bundleDebug
+:app:compileDebugSources
+:app:assembleDebug
+:app:generateReleaseRFile
+:app:compileReleaseKotlin
+w: Runtime JAR files in the classpath have the version 1.1, which is older than the API version 1.2. Consider using the runtime of version 1.2, or pass '-api-version 1.1' explicitly to restrict the available APIs to the runtime of version 1.1. You can also pass '-language-version 1.1' instead, which will restrict not only the APIs to the specified version, but also the language features
+w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.1.4-3/7f07ece855a7d40d5ef430218593e92282ae2a74/kotlin-stdlib-1.1.4-3.jar: Runtime JAR file has version 1.1 which is older than required for API version 1.2
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973902986-0/src/Parrot-master/app/src/main/java/matteocrippa/it/parrot/ImageView+Extension.kt: (69, 17): Name shadowed: data
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:extractReleaseAnnotations
+:app:transformResourcesWithMergeJavaResForRelease
+:app:transformClassesAndResourcesWithSyncLibJarsForRelease
+:app:bundleRelease
+:app:compileReleaseSources
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 28s
+50 actionable tasks: 50 executed
+
+2018-10-08 11:45:40,853 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-08 11:45:40,854 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973902986-0/src/Parrot-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973902986-0/src/Parrot-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-08 11:45:49,936 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-10-08 11:45:49,936 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-10-08 11:45:49,936 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973902986-0/src/Parrot-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973902986-0/src/Parrot-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-10-08 11:46:00,048 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:compileDebugAidl UP-TO-DATE
+:app:compileDebugRenderscript UP-TO-DATE
+:app:checkDebugManifest UP-TO-DATE
+:app:generateDebugBuildConfig UP-TO-DATE
+:app:generateDebugResValues UP-TO-DATE
+:app:generateDebugResources UP-TO-DATE
+:app:packageDebugResources UP-TO-DATE
+:app:platformAttrExtractor UP-TO-DATE
+:app:processDebugManifest UP-TO-DATE
+:app:generateDebugRFile UP-TO-DATE
+:app:compileDebugKotlin UP-TO-DATE
+:app:prepareLintJar UP-TO-DATE
+:app:generateDebugSources UP-TO-DATE
+:app:javaPreCompileDebug UP-TO-DATE
+:app:compileDebugJavaWithJavac UP-TO-DATE
+:app:extractDebugAnnotations UP-TO-DATE
+:app:mergeDebugConsumerProguardFiles UP-TO-DATE
+:app:mergeDebugShaders UP-TO-DATE
+:app:compileDebugShaders UP-TO-DATE
+:app:generateDebugAssets UP-TO-DATE
+:app:packageDebugAssets UP-TO-DATE
+:app:packageDebugRenderscript NO-SOURCE
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:app:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugJniLibFolders UP-TO-DATE
+:app:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:app:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:app:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:app:bundleDebug UP-TO-DATE
+:app:compileDebugSources UP-TO-DATE
+:app:assembleDebug UP-TO-DATE
+:app:preReleaseBuild UP-TO-DATE
+:app:compileReleaseAidl UP-TO-DATE
+:app:compileReleaseRenderscript UP-TO-DATE
+:app:checkReleaseManifest UP-TO-DATE
+:app:generateReleaseBuildConfig UP-TO-DATE
+:app:generateReleaseResValues UP-TO-DATE
+:app:generateReleaseResources UP-TO-DATE
+:app:packageReleaseResources UP-TO-DATE
+:app:processReleaseManifest UP-TO-DATE
+:app:generateReleaseRFile UP-TO-DATE
+:app:compileReleaseKotlin UP-TO-DATE
+:app:generateReleaseSources UP-TO-DATE
+:app:javaPreCompileRelease UP-TO-DATE
+:app:compileReleaseJavaWithJavac UP-TO-DATE
+:app:extractReleaseAnnotations UP-TO-DATE
+:app:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:app:mergeReleaseShaders UP-TO-DATE
+:app:compileReleaseShaders UP-TO-DATE
+:app:generateReleaseAssets UP-TO-DATE
+:app:packageReleaseAssets UP-TO-DATE
+:app:packageReleaseRenderscript NO-SOURCE
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:app:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseJniLibFolders UP-TO-DATE
+:app:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:app:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:app:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:app:bundleRelease UP-TO-DATE
+:app:compileReleaseSources UP-TO-DATE
+:app:mergeReleaseResources UP-TO-DATE
+:app:verifyReleaseResources UP-TO-DATE
+:app:assembleRelease UP-TO-DATE
+:app:assemble UP-TO-DATE
+:app:build
+
+BUILD SUCCESSFUL in 9s
+50 actionable tasks: 50 up-to-date
+
+2018-10-08 11:46:00,111 ERROR FullProcessService - Project build has not produced APK file
+2018-10-08 11:46:00,168 ERROR FullProcessService - Could not find generated or existed APK file

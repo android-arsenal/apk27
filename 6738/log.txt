@@ -1,0 +1,238 @@
+2018-09-03 02:05:39,740 INFO  DownloadService - Downloading "https://github.com/shadowalker77/EaseItProject/archive/master.zip", attempt 3
+2018-09-03 02:05:41,422 INFO  DownloadService - Downloaded https://github.com/shadowalker77/EaseItProject/archive/master.zip, attempt 3
+2018-09-03 02:05:41,423 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915139735-0/master.zip": 193 KB
+2018-09-03 02:05:41,423 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-03 02:05:41,428 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915139735-0/master.zip: true
+2018-09-03 02:05:41,428 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915139735-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915139735-0/src'.
+2018-09-03 02:05:41,449 INFO  FullProcessService - Size of directory with sources: 213 KB
+2018-09-03 02:05:41,449 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915139735-0/src]
+2018-09-03 02:05:41,465 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915139735-0/src/.git/
+
+2018-09-03 02:05:41,468 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915139735-0/src/EaseItProject-master/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915139735-0/src/EaseItProject-master/easeit/gradlew
+2018-09-03 02:05:41,471 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915139735-0/src/EaseItProject-master/easeit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915139735-0/src/EaseItProject-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915139735-0/src/EaseItProject-master/build.gradle
+2018-09-03 02:05:41,474 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915139735-0/src/EaseItProject-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915139735-0/src/EaseItProject-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915139735-0/src/EaseItProject-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915139735-0/src/EaseItProject-master/easeit/build.gradle
+2018-09-03 02:05:41,474 INFO  ProjectBuildService - Remote scripts: none
+2018-09-03 02:05:41,474 INFO  ProjectFixService - Fixing project...
+2018-09-03 02:05:41,482 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915139735-0/src/EaseItProject-master/easeit/local.properties
+2018-09-03 02:05:41,483 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-bin.zip
+2018-09-03 02:05:41,488 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915139735-0/src/EaseItProject-master/easeit/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-09-03 02:05:41,489 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915139735-0/src/EaseItProject-master/app/local.properties
+2018-09-03 02:05:41,491 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915139735-0/src/EaseItProject-master/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-09-03 02:05:41,492 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915139735-0/src/EaseItProject-master/local.properties
+2018-09-03 02:05:41,492 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-09-03 02:05:41,493 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-09-03 02:05:41,494 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915139735-0/src/EaseItProject-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-09-03 02:05:41,494 INFO  ProjectFixService - Project was maybe fixed
+2018-09-03 02:05:41,494 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-03 02:05:41,495 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915139735-0/src/EaseItProject-master/easeit/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915139735-0/src/EaseItProject-master/easeit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-03 02:05:47,576 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-09-03 02:05:47,576 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-03 02:05:47,576 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915139735-0/src/EaseItProject-master/easeit/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915139735-0/src/EaseItProject-master/easeit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-03 02:06:01,018 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':easeit' is deprecated. Use 'implementation' instead.
+:easeit:preBuild UP-TO-DATE
+:easeit:preDebugBuild UP-TO-DATE
+:easeit:compileDebugAidl
+:easeit:compileDebugNdk NO-SOURCE
+:easeit:compileDebugRenderscript
+:easeit:checkDebugManifest
+:easeit:generateDebugBuildConfig
+:easeit:prepareLintJar
+:easeit:generateDebugResValues
+:easeit:generateDebugResources
+:easeit:packageDebugResources
+:easeit:platformAttrExtractor
+:easeit:processDebugManifest
+:easeit:javaPreCompileDebug
+:easeit:mergeDebugShaders
+:easeit:compileDebugShaders
+:easeit:generateDebugAssets
+:easeit:mergeDebugAssets
+:easeit:mergeDebugConsumerProguardFiles
+:easeit:packageDebugRenderscript NO-SOURCE
+:easeit:processDebugJavaRes NO-SOURCE
+:easeit:mergeDebugJniLibFolders
+:easeit:transformNativeLibsWithMergeJniLibsForDebug
+:easeit:transformNativeLibsWithStripDebugSymbolForDebug
+:easeit:transformNativeLibsWithSyncJniLibsForDebug
+:easeit:preReleaseBuild UP-TO-DATE
+:easeit:compileReleaseAidl
+:easeit:compileReleaseNdk NO-SOURCE
+:easeit:compileReleaseRenderscript
+:easeit:checkReleaseManifest
+:easeit:generateReleaseBuildConfig
+:easeit:generateReleaseResValues
+:easeit:generateReleaseResources
+:easeit:packageReleaseResources
+:easeit:processReleaseManifest
+:easeit:javaPreCompileRelease
+:easeit:mergeReleaseShaders
+:easeit:compileReleaseShaders
+:easeit:generateReleaseAssets
+:easeit:mergeReleaseAssets
+:easeit:mergeReleaseConsumerProguardFiles
+:easeit:packageReleaseRenderscript NO-SOURCE
+:easeit:processReleaseJavaRes NO-SOURCE
+:easeit:mergeReleaseJniLibFolders
+:easeit:transformNativeLibsWithMergeJniLibsForRelease
+:easeit:transformNativeLibsWithStripDebugSymbolForRelease
+:easeit:transformNativeLibsWithSyncJniLibsForRelease
+:easeit:mergeReleaseResources
+:easeit:verifyReleaseResources
+:easeit:processDebugResources
+:easeit:generateDebugSources
+:easeit:compileDebugJavaWithJavac
+:easeit:extractDebugAnnotations
+:easeit:transformResourcesWithMergeJavaResForDebug
+:easeit:transformClassesAndResourcesWithSyncLibJarsForDebug
+:easeit:bundleDebug
+:easeit:compileDebugSources
+:easeit:assembleDebug
+:easeit:processReleaseResources
+:easeit:generateReleaseSources
+:easeit:compileReleaseJavaWithJavac
+:easeit:extractReleaseAnnotations
+:easeit:transformResourcesWithMergeJavaResForRelease
+:easeit:transformClassesAndResourcesWithSyncLibJarsForRelease
+:easeit:bundleRelease
+:easeit:compileReleaseSources
+:easeit:assembleRelease
+:easeit:assemble
+:easeit:build
+
+BUILD SUCCESSFUL in 12s
+48 actionable tasks: 48 executed
+
+2018-09-03 02:06:01,071 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-03 02:06:01,071 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915139735-0/src/EaseItProject-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915139735-0/src/EaseItProject-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-03 02:06:06,890 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-03 02:06:06,890 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-03 02:06:06,891 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915139735-0/src/EaseItProject-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915139735-0/src/EaseItProject-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-03 02:06:24,178 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
+Configuration 'compile' in project ':easeit' is deprecated. Use 'implementation' instead.
+:app:preBuild UP-TO-DATE
+:easeit:preBuild UP-TO-DATE
+:easeit:preDebugBuild UP-TO-DATE
+:easeit:checkDebugManifest UP-TO-DATE
+:easeit:processDebugManifest UP-TO-DATE
+:app:preDebugBuild
+:easeit:compileDebugAidl UP-TO-DATE
+:app:compileDebugAidl
+:easeit:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:generateDebugResValues
+:app:generateDebugResources
+:easeit:compileDebugRenderscript UP-TO-DATE
+:easeit:generateDebugResValues UP-TO-DATE
+:easeit:generateDebugResources UP-TO-DATE
+:easeit:packageDebugResources UP-TO-DATE
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:easeit:platformAttrExtractor UP-TO-DATE
+:easeit:processDebugResources UP-TO-DATE
+:app:processDebugResources
+:app:generateDebugSources
+:easeit:generateDebugBuildConfig UP-TO-DATE
+:easeit:prepareLintJar UP-TO-DATE
+:easeit:generateDebugSources UP-TO-DATE
+:easeit:javaPreCompileDebug UP-TO-DATE
+:easeit:compileDebugJavaWithJavac UP-TO-DATE
+:easeit:processDebugJavaRes NO-SOURCE
+:easeit:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:easeit:mergeDebugShaders UP-TO-DATE
+:easeit:compileDebugShaders UP-TO-DATE
+:easeit:generateDebugAssets UP-TO-DATE
+:easeit:mergeDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:easeit:compileDebugNdk NO-SOURCE
+:easeit:mergeDebugJniLibFolders UP-TO-DATE
+:easeit:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:easeit:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:easeit:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:easeit:preReleaseBuild UP-TO-DATE
+:easeit:checkReleaseManifest UP-TO-DATE
+:easeit:processReleaseManifest UP-TO-DATE
+:app:preReleaseBuild
+:easeit:compileReleaseAidl UP-TO-DATE
+:app:compileReleaseAidl
+:easeit:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:easeit:compileReleaseRenderscript UP-TO-DATE
+:easeit:generateReleaseResValues UP-TO-DATE
+:easeit:generateReleaseResources UP-TO-DATE
+:easeit:packageReleaseResources UP-TO-DATE
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:easeit:processReleaseResources UP-TO-DATE
+:app:processReleaseResources
+:app:generateReleaseSources
+:easeit:generateReleaseBuildConfig UP-TO-DATE
+:easeit:generateReleaseSources UP-TO-DATE
+:easeit:javaPreCompileRelease UP-TO-DATE
+:easeit:compileReleaseJavaWithJavac UP-TO-DATE
+:easeit:processReleaseJavaRes NO-SOURCE
+:easeit:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:easeit:mergeReleaseShaders UP-TO-DATE
+:easeit:compileReleaseShaders UP-TO-DATE
+:easeit:generateReleaseAssets UP-TO-DATE
+:easeit:mergeReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:easeit:compileReleaseNdk NO-SOURCE
+:easeit:mergeReleaseJniLibFolders UP-TO-DATE
+:easeit:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:easeit:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:easeit:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 16s
+88 actionable tasks: 54 executed, 34 up-to-date
+
+2018-09-03 02:06:24,294 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915139735-0/src/EaseItProject-master/app/build/outputs/apk/debug/app-debug.apk

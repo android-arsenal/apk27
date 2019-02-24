@@ -1,0 +1,165 @@
+2018-08-30 16:39:37,045 INFO  DownloadService - Downloading "https://github.com/OsmAndroid/ProjectBasics/archive/master.zip", attempt 3
+2018-08-30 16:39:37,745 INFO  DownloadService - Downloaded https://github.com/OsmAndroid/ProjectBasics/archive/master.zip, attempt 3
+2018-08-30 16:39:37,745 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621977037-0/master.zip": 141 KB
+2018-08-30 16:39:37,745 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-30 16:39:37,751 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621977037-0/master.zip: true
+2018-08-30 16:39:37,751 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621977037-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621977037-0/src'.
+2018-08-30 16:39:37,771 INFO  FullProcessService - Size of directory with sources: 145 KB
+2018-08-30 16:39:37,771 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621977037-0/src]
+2018-08-30 16:39:37,789 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621977037-0/src/.git/
+
+2018-08-30 16:39:37,791 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621977037-0/src/ProjectBasics-master/gradlew
+2018-08-30 16:39:37,794 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621977037-0/src/ProjectBasics-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621977037-0/src/ProjectBasics-master/project_basics/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621977037-0/src/ProjectBasics-master/build.gradle
+2018-08-30 16:39:37,797 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621977037-0/src/ProjectBasics-master/project_basics/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621977037-0/src/ProjectBasics-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621977037-0/src/ProjectBasics-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621977037-0/src/ProjectBasics-master/settings.gradle
+2018-08-30 16:39:37,797 INFO  ProjectBuildService - Remote scripts: none
+2018-08-30 16:39:37,797 INFO  ProjectFixService - Fixing project...
+2018-08-30 16:39:37,803 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621977037-0/src/ProjectBasics-master/app/local.properties
+2018-08-30 16:39:37,803 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621977037-0/src/ProjectBasics-master/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-08-30 16:39:37,803 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621977037-0/src/ProjectBasics-master/project_basics/local.properties
+2018-08-30 16:39:37,804 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621977037-0/src/ProjectBasics-master/project_basics/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-08-30 16:39:37,804 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621977037-0/src/ProjectBasics-master/local.properties
+2018-08-30 16:39:37,804 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-08-30 16:39:37,805 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-30 16:39:37,806 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621977037-0/src/ProjectBasics-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-08-30 16:39:37,806 INFO  ProjectFixService - Project was maybe fixed
+2018-08-30 16:39:37,806 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-30 16:39:37,806 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621977037-0/src/ProjectBasics-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621977037-0/src/ProjectBasics-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-30 16:39:43,836 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-30 16:39:43,836 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-30 16:39:43,836 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621977037-0/src/ProjectBasics-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621977037-0/src/ProjectBasics-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-30 16:40:06,904 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
+Configuration 'androidTestCompile' in project ':app' is deprecated. Use 'androidTestImplementation' instead.
+Configuration 'testCompile' in project ':app' is deprecated. Use 'testImplementation' instead.
+Configuration 'compile' in project ':project_basics' is deprecated. Use 'implementation' instead.
+Configuration 'androidTestCompile' in project ':project_basics' is deprecated. Use 'androidTestImplementation' instead.
+Configuration 'testCompile' in project ':project_basics' is deprecated. Use 'testImplementation' instead.
+:app:preBuild UP-TO-DATE
+:project_basics:preBuild UP-TO-DATE
+:project_basics:preDebugBuild UP-TO-DATE
+:project_basics:checkDebugManifest
+:project_basics:processDebugManifest
+:app:preDebugBuild
+:project_basics:compileDebugAidl
+:app:compileDebugAidl
+:project_basics:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:generateDebugResValues
+:app:generateDebugResources
+:project_basics:compileDebugRenderscript
+:project_basics:generateDebugResValues
+:project_basics:generateDebugResources
+:project_basics:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:project_basics:platformAttrExtractor
+:project_basics:generateDebugBuildConfig
+:project_basics:prepareLintJar
+:project_basics:javaPreCompileDebug
+:project_basics:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:project_basics:mergeDebugShaders
+:project_basics:compileDebugShaders
+:project_basics:generateDebugAssets
+:project_basics:mergeDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:project_basics:compileDebugNdk NO-SOURCE
+:project_basics:mergeDebugJniLibFolders
+:project_basics:transformNativeLibsWithMergeJniLibsForDebug
+:project_basics:transformNativeLibsWithStripDebugSymbolForDebug
+:project_basics:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:project_basics:preReleaseBuild UP-TO-DATE
+:project_basics:checkReleaseManifest
+:project_basics:processReleaseManifest
+:app:preReleaseBuild
+:project_basics:compileReleaseAidl
+:app:compileReleaseAidl
+:project_basics:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:project_basics:compileReleaseRenderscript
+:project_basics:generateReleaseResValues
+:project_basics:generateReleaseResources
+:project_basics:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:project_basics:generateReleaseBuildConfig
+:project_basics:javaPreCompileRelease
+:project_basics:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:project_basics:mergeReleaseShaders
+:project_basics:compileReleaseShaders
+:project_basics:generateReleaseAssets
+:project_basics:mergeReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:project_basics:compileReleaseNdk NO-SOURCE
+:project_basics:mergeReleaseJniLibFolders
+:project_basics:transformNativeLibsWithMergeJniLibsForRelease
+:project_basics:transformNativeLibsWithStripDebugSymbolForRelease
+:project_basics:processDebugResources
+:app:processDebugResources
+:app:generateDebugSources
+:project_basics:generateDebugSources
+:project_basics:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621977037-0/src/ProjectBasics-master/project_basics/src/main/java/osmandroid/project_basics/Task.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:project_basics:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:project_basics:processReleaseResources
+:app:processReleaseResources
+:app:generateReleaseSources
+:project_basics:generateReleaseSources
+:project_basics:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621977037-0/src/ProjectBasics-master/project_basics/src/main/java/osmandroid/project_basics/Task.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:project_basics:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:project_basics:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 22s
+88 actionable tasks: 88 executed
+
+2018-08-30 16:40:06,958 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535621977037-0/src/ProjectBasics-master/app/build/outputs/apk/debug/app-debug.apk

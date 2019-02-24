@@ -1,0 +1,300 @@
+2018-08-22 15:26:46,557 INFO  DownloadService - Downloading "https://github.com/infinum/Android-Goldfinger/archive/master.zip", attempt 3
+2018-08-22 15:26:48,328 INFO  DownloadService - Downloaded https://github.com/infinum/Android-Goldfinger/archive/master.zip, attempt 3
+2018-08-22 15:26:48,328 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/master.zip": 103 KB
+2018-08-22 15:26:48,328 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-22 15:26:48,334 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/master.zip: true
+2018-08-22 15:26:48,334 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/src'.
+2018-08-22 15:26:48,360 INFO  FullProcessService - Size of directory with sources: 165 KB
+2018-08-22 15:26:48,360 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/src]
+2018-08-22 15:26:48,377 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/src/.git/
+
+2018-08-22 15:26:48,381 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/src/Android-Goldfinger-master/gradlew
+2018-08-22 15:26:48,384 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/src/Android-Goldfinger-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/src/Android-Goldfinger-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/src/Android-Goldfinger-master/rx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/src/Android-Goldfinger-master/build.gradle
+2018-08-22 15:26:48,388 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/src/Android-Goldfinger-master/tasks.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/src/Android-Goldfinger-master/core/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/src/Android-Goldfinger-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/src/Android-Goldfinger-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/src/Android-Goldfinger-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/src/Android-Goldfinger-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/src/Android-Goldfinger-master/rx/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/src/Android-Goldfinger-master/rx/build.gradle
+2018-08-22 15:26:48,392 INFO  ProjectBuildService - Remote scripts: none
+2018-08-22 15:26:48,392 INFO  ProjectFixService - Fixing project...
+2018-08-22 15:26:48,401 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/src/Android-Goldfinger-master/core/local.properties
+2018-08-22 15:26:48,415 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/src/Android-Goldfinger-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-08-22 15:26:48,415 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/src/Android-Goldfinger-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-08-22 15:26:48,417 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/src/Android-Goldfinger-master/example/local.properties
+2018-08-22 15:26:48,421 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/src/Android-Goldfinger-master/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-08-22 15:26:48,422 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/src/Android-Goldfinger-master/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-08-22 15:26:48,423 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/src/Android-Goldfinger-master/rx/local.properties
+2018-08-22 15:26:48,428 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/src/Android-Goldfinger-master/rx/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-08-22 15:26:48,428 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/src/Android-Goldfinger-master/rx/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-08-22 15:26:48,429 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/src/Android-Goldfinger-master/local.properties
+2018-08-22 15:26:48,430 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-08-22 15:26:48,430 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-08-22 15:26:48,434 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/src/Android-Goldfinger-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-08-22 15:26:48,434 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/src/Android-Goldfinger-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-08-22 15:26:48,435 INFO  ProjectFixService - Project was maybe fixed
+2018-08-22 15:26:48,435 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-22 15:26:48,435 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/src/Android-Goldfinger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/src/Android-Goldfinger-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-22 15:26:55,433 INFO  ProjectTaskService - Detected possible tasks: 71
+2018-08-22 15:26:55,433 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-08-22 15:26:55,433 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/src/Android-Goldfinger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/src/Android-Goldfinger-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-08-22 15:27:07,279 INFO  SysUtils - Configuration on demand is an incubating feature.
+:core:generateReadme
+:core:preBuild
+:core:preDebugBuild
+:core:compileDebugAidl
+:core:compileDebugRenderscript
+:core:checkDebugManifest
+:core:generateDebugBuildConfig
+:core:generateDebugResValues
+:core:generateDebugResources
+:core:packageDebugResources
+:core:platformAttrExtractor
+:core:processDebugManifest
+:core:prepareLintJar
+:core:javaPreCompileDebug
+:core:mergeDebugConsumerProguardFiles
+:core:mergeDebugShaders
+:core:compileDebugShaders
+:core:generateDebugAssets
+:core:packageDebugAssets
+:core:packageDebugRenderscript NO-SOURCE
+:core:processDebugJavaRes NO-SOURCE
+:core:compileDebugNdk NO-SOURCE
+:core:mergeDebugJniLibFolders
+:core:transformNativeLibsWithMergeJniLibsForDebug
+:core:transformNativeLibsWithStripDebugSymbolForDebug
+:core:transformNativeLibsWithSyncJniLibsForDebug
+:core:preReleaseBuild
+:core:compileReleaseAidl
+:core:compileReleaseRenderscript
+:core:checkReleaseManifest
+:core:generateReleaseBuildConfig
+:core:generateReleaseResValues
+:core:generateReleaseResources
+:core:packageReleaseResources
+:core:processReleaseManifest
+:core:javaPreCompileRelease
+:core:mergeReleaseConsumerProguardFiles
+:core:mergeReleaseShaders
+:core:compileReleaseShaders
+:core:generateReleaseAssets
+:core:packageReleaseAssets
+:core:packageReleaseRenderscript NO-SOURCE
+:core:processReleaseJavaRes NO-SOURCE
+:core:compileReleaseNdk NO-SOURCE
+:core:mergeReleaseJniLibFolders
+:core:transformNativeLibsWithMergeJniLibsForRelease
+:core:transformNativeLibsWithStripDebugSymbolForRelease
+:core:transformNativeLibsWithSyncJniLibsForRelease
+:core:mergeReleaseResources
+:core:verifyReleaseResources
+:core:generateDebugRFile
+:core:generateDebugSources
+:core:compileDebugJavaWithJavac
+:core:extractDebugAnnotations
+:core:transformResourcesWithMergeJavaResForDebug
+:core:transformClassesAndResourcesWithSyncLibJarsForDebug
+:core:bundleDebug
+:core:compileDebugSources
+:core:assembleDebug
+:core:generateReleaseRFile
+:core:generateReleaseSources
+:core:compileReleaseJavaWithJavac
+:core:extractReleaseAnnotations
+:core:transformResourcesWithMergeJavaResForRelease
+:core:transformClassesAndResourcesWithSyncLibJarsForRelease
+:core:bundleRelease
+:core:compileReleaseSources
+:core:assembleRelease
+:core:assemble
+:core:build
+
+BUILD SUCCESSFUL in 11s
+49 actionable tasks: 49 executed
+
+2018-08-22 15:27:07,322 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-22 15:27:07,322 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/src/Android-Goldfinger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/src/Android-Goldfinger-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-22 15:27:13,327 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-22 15:27:13,327 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-22 15:27:13,327 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/src/Android-Goldfinger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/src/Android-Goldfinger-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-22 15:27:48,405 INFO  SysUtils - Configuration on demand is an incubating feature.
+Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.1.13/rxjava-2.1.13.pom
+Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.1.13/rxjava-2.1.13.jar
+:core:generateReadme
+:core:preBuild
+:core:preDebugBuild
+:core:compileDebugAidl UP-TO-DATE
+:core:compileDebugRenderscript UP-TO-DATE
+:core:checkDebugManifest UP-TO-DATE
+:core:generateDebugBuildConfig UP-TO-DATE
+:core:generateDebugResValues UP-TO-DATE
+:core:generateDebugResources UP-TO-DATE
+:core:packageDebugResources UP-TO-DATE
+:core:platformAttrExtractor UP-TO-DATE
+:core:processDebugManifest UP-TO-DATE
+:core:generateDebugRFile UP-TO-DATE
+:core:prepareLintJar UP-TO-DATE
+:core:generateDebugSources UP-TO-DATE
+:core:javaPreCompileDebug UP-TO-DATE
+:core:compileDebugJavaWithJavac UP-TO-DATE
+:core:processDebugJavaRes NO-SOURCE
+:core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:example:preBuild UP-TO-DATE
+:rx:preBuild UP-TO-DATE
+:rx:preDebugBuild UP-TO-DATE
+:rx:checkDebugManifest
+:rx:processDebugManifest
+:example:preDebugBuild
+:rx:compileDebugAidl
+:example:compileDebugAidl
+:core:packageDebugRenderscript NO-SOURCE
+:rx:packageDebugRenderscript NO-SOURCE
+:example:compileDebugRenderscript
+:example:checkDebugManifest
+:example:generateDebugBuildConfig
+:example:prepareLintJar
+:example:mainApkListPersistenceDebug
+:example:generateDebugResValues
+:example:generateDebugResources
+:rx:compileDebugRenderscript
+:rx:generateDebugResValues
+:rx:generateDebugResources
+:rx:packageDebugResources
+:example:mergeDebugResources
+:example:createDebugCompatibleScreenManifests
+:example:processDebugManifest
+:example:splitsDiscoveryTaskDebug
+:rx:platformAttrExtractor
+:rx:generateDebugBuildConfig
+:rx:prepareLintJar
+:rx:javaPreCompileDebug
+:rx:processDebugJavaRes NO-SOURCE
+:example:compileDebugNdk NO-SOURCE
+:core:mergeDebugShaders UP-TO-DATE
+:core:compileDebugShaders UP-TO-DATE
+:core:generateDebugAssets UP-TO-DATE
+:core:packageDebugAssets UP-TO-DATE
+:example:mergeDebugShaders
+:example:compileDebugShaders
+:example:generateDebugAssets
+:rx:mergeDebugShaders
+:rx:compileDebugShaders
+:rx:generateDebugAssets
+:rx:packageDebugAssets
+:example:mergeDebugAssets
+:core:compileDebugNdk NO-SOURCE
+:core:mergeDebugJniLibFolders UP-TO-DATE
+:core:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:core:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:core:transformNativeLibsWithIntermediateJniLibsForDebug
+:example:mergeDebugJniLibFolders
+:rx:compileDebugNdk NO-SOURCE
+:rx:mergeDebugJniLibFolders
+:rx:transformNativeLibsWithMergeJniLibsForDebug
+:rx:transformNativeLibsWithStripDebugSymbolForDebug
+:rx:transformNativeLibsWithIntermediateJniLibsForDebug
+:example:processDebugJavaRes NO-SOURCE
+:example:validateSigningDebug
+:core:preReleaseBuild
+:core:compileReleaseAidl UP-TO-DATE
+:core:compileReleaseRenderscript UP-TO-DATE
+:core:checkReleaseManifest UP-TO-DATE
+:core:generateReleaseBuildConfig UP-TO-DATE
+:core:generateReleaseResValues UP-TO-DATE
+:core:generateReleaseResources UP-TO-DATE
+:core:packageReleaseResources UP-TO-DATE
+:core:processReleaseManifest UP-TO-DATE
+:core:generateReleaseRFile UP-TO-DATE
+:core:generateReleaseSources UP-TO-DATE
+:core:javaPreCompileRelease UP-TO-DATE
+:core:compileReleaseJavaWithJavac UP-TO-DATE
+:core:processReleaseJavaRes NO-SOURCE
+:core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:rx:preReleaseBuild UP-TO-DATE
+:rx:checkReleaseManifest
+:rx:processReleaseManifest
+:example:preReleaseBuild
+:rx:compileReleaseAidl
+:example:compileReleaseAidl
+:core:packageReleaseRenderscript NO-SOURCE
+:rx:packageReleaseRenderscript NO-SOURCE
+:example:compileReleaseRenderscript
+:example:checkReleaseManifest
+:example:generateReleaseBuildConfig
+:example:mainApkListPersistenceRelease
+:example:generateReleaseResValues
+:example:generateReleaseResources
+:rx:compileReleaseRenderscript
+:rx:generateReleaseResValues
+:rx:generateReleaseResources
+:rx:packageReleaseResources
+:example:mergeReleaseResources
+:example:createReleaseCompatibleScreenManifests
+:example:processReleaseManifest
+:example:splitsDiscoveryTaskRelease
+:rx:generateReleaseBuildConfig
+:rx:javaPreCompileRelease
+:rx:processReleaseJavaRes NO-SOURCE
+:example:compileReleaseNdk NO-SOURCE
+:core:mergeReleaseShaders UP-TO-DATE
+:core:compileReleaseShaders UP-TO-DATE
+:core:generateReleaseAssets UP-TO-DATE
+:core:packageReleaseAssets UP-TO-DATE
+:example:mergeReleaseShaders
+:example:compileReleaseShaders
+:example:generateReleaseAssets
+:rx:mergeReleaseShaders
+:rx:compileReleaseShaders
+:rx:generateReleaseAssets
+:rx:packageReleaseAssets
+:example:mergeReleaseAssets
+:core:compileReleaseNdk NO-SOURCE
+:core:mergeReleaseJniLibFolders UP-TO-DATE
+:core:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:core:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:core:transformNativeLibsWithIntermediateJniLibsForRelease
+:example:mergeReleaseJniLibFolders
+:rx:compileReleaseNdk NO-SOURCE
+:rx:mergeReleaseJniLibFolders
+:rx:transformNativeLibsWithMergeJniLibsForRelease
+:rx:transformNativeLibsWithStripDebugSymbolForRelease
+:rx:transformNativeLibsWithIntermediateJniLibsForRelease
+:example:processReleaseJavaRes NO-SOURCE
+:rx:generateDebugRFile
+:example:processDebugResources
+:example:generateDebugSources
+:rx:generateDebugSources
+:rx:compileDebugJavaWithJavac
+:rx:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:example:javaPreCompileDebug
+:example:compileDebugJavaWithJavac
+:example:compileDebugSources
+:example:transformClassesWithDexBuilderForDebug
+:example:transformDexArchiveWithExternalLibsDexMergerForDebug
+:example:transformDexArchiveWithDexMergerForDebug
+:example:transformNativeLibsWithMergeJniLibsForDebug
+:example:transformNativeLibsWithStripDebugSymbolForDebug
+:example:transformResourcesWithMergeJavaResForDebug
+:example:packageDebug
+:example:assembleDebug
+:rx:generateReleaseRFile
+:example:processReleaseResources
+:example:generateReleaseSources
+:rx:generateReleaseSources
+:rx:compileReleaseJavaWithJavac
+:rx:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:example:javaPreCompileRelease
+:example:compileReleaseJavaWithJavac
+:example:compileReleaseSources
+:example:lintVitalRelease
+:example:transformClassesWithDexBuilderForRelease
+:example:transformDexArchiveWithExternalLibsDexMergerForRelease
+:example:transformDexArchiveWithDexMergerForRelease
+:example:transformNativeLibsWithMergeJniLibsForRelease
+:example:transformNativeLibsWithStripDebugSymbolForRelease
+:example:transformResourcesWithMergeJavaResForRelease
+:example:packageRelease
+:example:assembleRelease
+:example:assemble
+:example:build
+
+BUILD SUCCESSFUL in 34s
+130 actionable tasks: 96 executed, 34 up-to-date
+
+2018-08-22 15:27:48,510 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534926406548-0/src/Android-Goldfinger-master/example/build/outputs/apk/release/example-release-unsigned.apk

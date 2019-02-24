@@ -1,0 +1,168 @@
+2019-01-08 19:41:23,597 INFO  DownloadService - Downloading "https://github.com/marcoscgdev/DialogSheet/archive/master.zip", attempt 3
+2019-01-08 19:41:24,595 INFO  DownloadService - Downloaded https://github.com/marcoscgdev/DialogSheet/archive/master.zip, attempt 3
+2019-01-08 19:41:24,596 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546951283589-0/master.zip": 521 KB
+2019-01-08 19:41:24,596 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-08 19:41:24,601 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546951283589-0/master.zip: true
+2019-01-08 19:41:24,602 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546951283589-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546951283589-0/src'.
+2019-01-08 19:41:24,633 INFO  FullProcessService - Size of directory with sources: 597 KB
+2019-01-08 19:41:24,634 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546951283589-0/src]
+2019-01-08 19:41:24,651 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546951283589-0/src/.git/
+
+2019-01-08 19:41:24,655 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546951283589-0/src/DialogSheet-master/gradlew
+2019-01-08 19:41:24,660 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546951283589-0/src/DialogSheet-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546951283589-0/src/DialogSheet-master/dialogsheet/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546951283589-0/src/DialogSheet-master/build.gradle
+2019-01-08 19:41:24,663 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546951283589-0/src/DialogSheet-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546951283589-0/src/DialogSheet-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546951283589-0/src/DialogSheet-master/dialogsheet/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546951283589-0/src/DialogSheet-master/settings.gradle
+2019-01-08 19:41:24,664 INFO  ProjectBuildService - Remote scripts: none
+2019-01-08 19:41:24,664 INFO  ProjectFixService - Fixing project...
+2019-01-08 19:41:24,673 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546951283589-0/src/DialogSheet-master/app/local.properties
+2019-01-08 19:41:24,674 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546951283589-0/src/DialogSheet-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-08 19:41:24,675 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546951283589-0/src/DialogSheet-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-08 19:41:24,676 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546951283589-0/src/DialogSheet-master/dialogsheet/local.properties
+2019-01-08 19:41:24,676 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546951283589-0/src/DialogSheet-master/dialogsheet/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-08 19:41:24,676 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546951283589-0/src/DialogSheet-master/dialogsheet/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-08 19:41:24,677 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546951283589-0/src/DialogSheet-master/local.properties
+2019-01-08 19:41:24,678 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-01-08 19:41:24,678 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-01-08 19:41:24,680 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546951283589-0/src/DialogSheet-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-08 19:41:24,680 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546951283589-0/src/DialogSheet-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-08 19:41:24,680 INFO  ProjectFixService - Project was maybe fixed
+2019-01-08 19:41:24,681 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-08 19:41:24,681 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546951283589-0/src/DialogSheet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546951283589-0/src/DialogSheet-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-08 19:41:30,418 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-01-08 19:41:30,418 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-08 19:41:30,418 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546951283589-0/src/DialogSheet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546951283589-0/src/DialogSheet-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-08 19:41:55,319 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:dialogsheet:preBuild UP-TO-DATE
+:dialogsheet:preDebugBuild UP-TO-DATE
+:dialogsheet:checkDebugManifest
+:dialogsheet:processDebugManifest
+:app:preDebugBuild
+:dialogsheet:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:dialogsheet:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:dialogsheet:compileDebugRenderscript
+:dialogsheet:generateDebugResValues
+:dialogsheet:generateDebugResources
+:dialogsheet:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:dialogsheet:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:dialogsheet:generateDebugBuildConfig
+:dialogsheet:prepareLintJar
+:dialogsheet:generateDebugSources
+:dialogsheet:javaPreCompileDebug
+:dialogsheet:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546951283589-0/src/DialogSheet-master/dialogsheet/src/main/java/com/marcoscg/dialogsheet/DialogSheet.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:dialogsheet:processDebugJavaRes NO-SOURCE
+:dialogsheet:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:dialogsheet:mergeDebugShaders
+:dialogsheet:compileDebugShaders
+:dialogsheet:generateDebugAssets
+:dialogsheet:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:dialogsheet:compileDebugNdk NO-SOURCE
+:dialogsheet:mergeDebugJniLibFolders
+:dialogsheet:transformNativeLibsWithMergeJniLibsForDebug
+:dialogsheet:transformNativeLibsWithStripDebugSymbolForDebug
+:dialogsheet:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:dialogsheet:preReleaseBuild UP-TO-DATE
+:dialogsheet:checkReleaseManifest
+:dialogsheet:processReleaseManifest
+:app:preReleaseBuild
+:dialogsheet:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:dialogsheet:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:dialogsheet:compileReleaseRenderscript
+:dialogsheet:generateReleaseResValues
+:dialogsheet:generateReleaseResources
+:dialogsheet:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:dialogsheet:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:dialogsheet:generateReleaseBuildConfig
+:dialogsheet:generateReleaseSources
+:dialogsheet:javaPreCompileRelease
+:dialogsheet:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546951283589-0/src/DialogSheet-master/dialogsheet/src/main/java/com/marcoscg/dialogsheet/DialogSheet.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:dialogsheet:processReleaseJavaRes NO-SOURCE
+:dialogsheet:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:dialogsheet:mergeReleaseShaders
+:dialogsheet:compileReleaseShaders
+:dialogsheet:generateReleaseAssets
+:dialogsheet:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:dialogsheet:compileReleaseNdk NO-SOURCE
+:dialogsheet:mergeReleaseJniLibFolders
+:dialogsheet:transformNativeLibsWithMergeJniLibsForRelease
+:dialogsheet:transformNativeLibsWithStripDebugSymbolForRelease
+:dialogsheet:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 24s
+90 actionable tasks: 90 executed
+
+2019-01-08 19:41:55,426 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546951283589-0/src/DialogSheet-master/app/build/outputs/apk/debug/app-debug.apk

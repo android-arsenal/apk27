@@ -1,0 +1,198 @@
+2019-01-22 16:11:44,946 INFO  DownloadService - Downloading "https://github.com/umair13adil/PLog/archive/master.zip", attempt 3
+2019-01-22 16:11:47,822 INFO  DownloadService - Downloaded https://github.com/umair13adil/PLog/archive/master.zip, attempt 3
+2019-01-22 16:11:47,822 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/master.zip": 453 KB
+2019-01-22 16:11:47,822 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-22 16:11:47,828 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/master.zip: true
+2019-01-22 16:11:47,828 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src'.
+2019-01-22 16:11:47,862 INFO  FullProcessService - Size of directory with sources: 582 KB
+2019-01-22 16:11:47,862 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src]
+2019-01-22 16:11:47,886 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/.git/
+
+2019-01-22 16:11:47,891 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/gradlew
+2019-01-22 16:11:47,896 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/plog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/build.gradle
+2019-01-22 16:11:47,901 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/plog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/settings.gradle
+2019-01-22 16:11:47,902 INFO  ProjectBuildService - Remote scripts: none
+2019-01-22 16:11:47,902 INFO  ProjectFixService - Fixing project...
+2019-01-22 16:11:47,914 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/app/local.properties
+2019-01-22 16:11:47,915 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-22 16:11:47,915 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/plog/local.properties
+2019-01-22 16:11:47,916 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/plog/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-22 16:11:47,916 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/local.properties
+2019-01-22 16:11:47,917 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-01-22 16:11:47,917 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-01-22 16:11:47,918 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-22 16:11:47,918 INFO  ProjectFixService - Project was maybe fixed
+2019-01-22 16:11:47,918 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-22 16:11:47,919 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-22 16:11:57,038 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-01-22 16:11:57,038 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-22 16:11:57,039 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-22 16:12:51,070 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :plog:preBuild UP-TO-DATE
+> Task :plog:preDebugBuild UP-TO-DATE
+> Task :plog:checkDebugManifest
+> Task :plog:processDebugManifest
+> Task :app:preDebugBuild
+> Task :plog:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :plog:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :plog:compileDebugRenderscript
+> Task :plog:generateDebugResValues
+> Task :plog:generateDebugResources
+> Task :plog:packageDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :plog:generateDebugRFile
+> Task :app:processDebugResources
+> Task :plog:generateDebugBuildConfig
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/plog/src/main/java/com/blackbox/plog/dataLogs/exporter/DataLogsExporter.kt: (156, 57): Parameter 'exportFileName' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/plog/src/main/java/com/blackbox/plog/dataLogs/exporter/DataLogsExporter.kt: (167, 35): Parameter 'exportFileName' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/plog/src/main/java/com/blackbox/plog/pLogs/config/XMLData.kt: (15, 23): Variable 'e' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/plog/src/main/java/com/blackbox/plog/pLogs/exporter/LogExporter.kt: (129, 120): Parameter 'exportedPath' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/plog/src/main/java/com/blackbox/plog/pLogs/filter/FilterUtils.kt: (33, 29): Parameter 'folderPath' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/plog/src/main/java/com/blackbox/plog/pLogs/impl/LogWriter.kt: (118, 35): Variable 'newFileName' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/plog/src/main/java/com/blackbox/plog/pLogs/impl/LogWriter.kt: (136, 31): Variable 'newFileName' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/plog/src/main/java/com/blackbox/plog/pLogs/operations/Triggers.kt: (110, 17): Variable 'monthInMilli' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/plog/src/main/java/com/blackbox/plog/pLogs/operations/Triggers.kt: (191, 17): Variable 'monthInMilli' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/plog/src/main/java/com/blackbox/plog/pLogs/operations/Triggers.kt: (262, 17): Variable 'monthInMilli' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/plog/src/main/java/com/blackbox/plog/utils/DateTimeUtils.kt: (16, 56): 'getter for date: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/plog/src/main/java/com/blackbox/plog/utils/FileUtils.kt: (183, 17): Variable 'todayPath' is never used
+> Task :plog:compileDebugKotlin
+> Task :plog:prepareLintJar
+> Task :plog:generateDebugSources
+> Task :plog:javaPreCompileDebug
+> Task :plog:compileDebugJavaWithJavac
+> Task :plog:processDebugJavaRes NO-SOURCE
+> Task :plog:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :app:kaptGenerateStubsDebugKotlin
+> Task :app:kaptDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/app/src/main/java/com/blackbox/library/plog/MainActivity.kt: (82, 29): Variable 'dataToLog' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/app/src/main/java/com/blackbox/library/plog/MainActivity.kt: (184, 46): Parameter 'compoundButton' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/app/src/main/java/com/blackbox/library/plog/MainApplication.kt: (32, 53): Parameter 't' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/app/src/main/java/com/blackbox/library/plog/MainApplication.kt: (32, 56): Parameter 'e' is never used, could be renamed to _
+> Task :app:compileDebugKotlin
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugNdk NO-SOURCE
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :plog:mergeDebugShaders
+> Task :plog:compileDebugShaders
+> Task :plog:generateDebugAssets
+> Task :plog:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :app:transformDexArchiveWithDexMergerForDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :plog:compileDebugNdk NO-SOURCE
+> Task :plog:mergeDebugJniLibFolders
+> Task :plog:transformNativeLibsWithMergeJniLibsForDebug
+> Task :plog:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :plog:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:validateSigningDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :plog:preReleaseBuild UP-TO-DATE
+> Task :plog:checkReleaseManifest
+> Task :plog:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :plog:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :plog:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :plog:compileReleaseRenderscript
+> Task :plog:generateReleaseResValues
+> Task :plog:generateReleaseResources
+> Task :plog:packageReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :plog:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :plog:generateReleaseBuildConfig
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/plog/src/main/java/com/blackbox/plog/dataLogs/exporter/DataLogsExporter.kt: (156, 57): Parameter 'exportFileName' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/plog/src/main/java/com/blackbox/plog/dataLogs/exporter/DataLogsExporter.kt: (167, 35): Parameter 'exportFileName' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/plog/src/main/java/com/blackbox/plog/pLogs/config/XMLData.kt: (15, 23): Variable 'e' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/plog/src/main/java/com/blackbox/plog/pLogs/exporter/LogExporter.kt: (129, 120): Parameter 'exportedPath' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/plog/src/main/java/com/blackbox/plog/pLogs/filter/FilterUtils.kt: (33, 29): Parameter 'folderPath' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/plog/src/main/java/com/blackbox/plog/pLogs/impl/LogWriter.kt: (118, 35): Variable 'newFileName' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/plog/src/main/java/com/blackbox/plog/pLogs/impl/LogWriter.kt: (136, 31): Variable 'newFileName' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/plog/src/main/java/com/blackbox/plog/pLogs/operations/Triggers.kt: (110, 17): Variable 'monthInMilli' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/plog/src/main/java/com/blackbox/plog/pLogs/operations/Triggers.kt: (191, 17): Variable 'monthInMilli' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/plog/src/main/java/com/blackbox/plog/pLogs/operations/Triggers.kt: (262, 17): Variable 'monthInMilli' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/plog/src/main/java/com/blackbox/plog/utils/DateTimeUtils.kt: (16, 56): 'getter for date: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/plog/src/main/java/com/blackbox/plog/utils/FileUtils.kt: (183, 17): Variable 'todayPath' is never used
+> Task :plog:compileReleaseKotlin
+> Task :plog:generateReleaseSources
+> Task :plog:javaPreCompileRelease
+> Task :plog:compileReleaseJavaWithJavac
+> Task :plog:processReleaseJavaRes NO-SOURCE
+> Task :plog:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :app:kaptGenerateStubsReleaseKotlin
+> Task :app:kaptReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/app/src/main/java/com/blackbox/library/plog/MainActivity.kt: (82, 29): Variable 'dataToLog' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/app/src/main/java/com/blackbox/library/plog/MainActivity.kt: (184, 46): Parameter 'compoundButton' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/app/src/main/java/com/blackbox/library/plog/MainApplication.kt: (32, 53): Parameter 't' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/app/src/main/java/com/blackbox/library/plog/MainApplication.kt: (32, 56): Parameter 'e' is never used, could be renamed to _
+> Task :app:compileReleaseKotlin
+> Task :app:generateReleaseSources
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseNdk NO-SOURCE
+> Task :app:compileReleaseSources
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/e5e586688b56f97bba4c4d8a3f39130d/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :plog:mergeReleaseShaders
+> Task :plog:compileReleaseShaders
+> Task :plog:generateReleaseAssets
+> Task :plog:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :app:transformDexArchiveWithDexMergerForRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :plog:compileReleaseNdk NO-SOURCE
+> Task :plog:mergeReleaseJniLibFolders
+> Task :plog:transformNativeLibsWithMergeJniLibsForRelease
+> Task :plog:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :plog:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 53s
+92 actionable tasks: 92 executed
+
+2019-01-22 16:12:51,179 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148304941-0/src/RxLogs-master/app/build/outputs/apk/debug/app-debug.apk

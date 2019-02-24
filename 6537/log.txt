@@ -1,0 +1,195 @@
+2018-08-31 12:54:42,716 INFO  DownloadService - Downloading "https://github.com/kizitonwose/android-disposebag/archive/master.zip", attempt 3
+2018-08-31 12:55:42,721 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-08-31 12:55:43,561 INFO  GithubDownloadService - Default branch of this repository: master
+2018-08-31 12:55:43,561 INFO  DownloadService - Downloading "https://github.com/kizitonwose/android-disposebag/archive/master.zip", attempt 3
+2018-08-31 12:56:44,618 DEBUG FullProcessService - Repository https://github.com/kizitonwose/android-disposebag available: true
+2018-08-31 12:56:44,618 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-08-31 12:56:44,618 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/kizitonwose/android-disposebag, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535694882713-0/src]
+2018-08-31 12:56:46,532 INFO  SysUtils - 
+2018-08-31 12:56:46,553 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535694882713-0/src/.git": true
+2018-08-31 12:56:46,554 INFO  FullProcessService - Size of directory with sources: 78 KB
+2018-08-31 12:56:46,554 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535694882713-0/src]
+2018-08-31 12:56:46,572 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535694882713-0/src/.git/
+
+2018-08-31 12:56:46,573 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535694882713-0/src/gradlew
+2018-08-31 12:56:46,575 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535694882713-0/src/disposebag/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535694882713-0/src/build.gradle
+2018-08-31 12:56:46,577 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535694882713-0/src/disposebag/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535694882713-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535694882713-0/src/settings.gradle
+2018-08-31 12:56:46,577 INFO  ProjectBuildService - Remote scripts: none
+2018-08-31 12:56:46,577 INFO  ProjectFixService - Fixing project...
+2018-08-31 12:56:46,581 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535694882713-0/src/disposebag/local.properties
+2018-08-31 12:56:46,581 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535694882713-0/src/disposebag/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-08-31 12:56:46,582 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535694882713-0/src/local.properties
+2018-08-31 12:56:46,582 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-08-31 12:56:46,583 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-31 12:56:46,583 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535694882713-0/src/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-08-31 12:56:46,583 INFO  ProjectFixService - Project was maybe fixed
+2018-08-31 12:56:46,583 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 12:56:46,583 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535694882713-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535694882713-0/src/disposebag/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 12:56:56,372 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-08-31 12:56:56,372 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-08-31 12:56:56,372 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535694882713-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535694882713-0/src/disposebag/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-08-31 12:57:17,774 INFO  SysUtils - Configuration on demand is an incubating feature.
+:disposebag:preBuild UP-TO-DATE
+:disposebag:preDebugBuild UP-TO-DATE
+:disposebag:compileDebugAidl
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/common-java8/1.0.0/common-java8-1.0.0.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.2.0/kotlin-stdlib-jdk8-1.2.0.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.2.0/kotlin-stdlib-jdk7-1.2.0.pom
+:disposebag:compileDebugNdk NO-SOURCE
+:disposebag:compileDebugRenderscript
+:disposebag:checkDebugManifest
+:disposebag:generateDebugBuildConfig
+:disposebag:generateDebugResValues
+:disposebag:generateDebugResources
+:disposebag:packageDebugResources
+:disposebag:platformAttrExtractor
+:disposebag:processDebugManifest
+:disposebag:prepareLintJar
+:disposebag:mergeDebugShaders
+:disposebag:compileDebugShaders
+:disposebag:generateDebugAssets
+:disposebag:mergeDebugAssets
+:disposebag:mergeDebugConsumerProguardFiles
+:disposebag:packageDebugRenderscript NO-SOURCE
+:disposebag:processDebugJavaRes NO-SOURCE
+:disposebag:mergeDebugJniLibFolders
+:disposebag:transformNativeLibsWithMergeJniLibsForDebug
+:disposebag:transformNativeLibsWithStripDebugSymbolForDebug
+:disposebag:transformNativeLibsWithSyncJniLibsForDebug
+:disposebag:preReleaseBuild UP-TO-DATE
+:disposebag:compileReleaseAidl
+:disposebag:compileReleaseNdk NO-SOURCE
+:disposebag:compileReleaseRenderscript
+:disposebag:checkReleaseManifest
+:disposebag:generateReleaseBuildConfig
+:disposebag:generateReleaseResValues
+:disposebag:generateReleaseResources
+:disposebag:packageReleaseResources
+:disposebag:processReleaseManifest
+:disposebag:mergeReleaseShaders
+:disposebag:compileReleaseShaders
+:disposebag:generateReleaseAssets
+:disposebag:mergeReleaseAssets
+:disposebag:mergeReleaseConsumerProguardFiles
+:disposebag:packageReleaseRenderscript NO-SOURCE
+:disposebag:processReleaseJavaRes NO-SOURCE
+:disposebag:mergeReleaseJniLibFolders
+:disposebag:transformNativeLibsWithMergeJniLibsForRelease
+:disposebag:transformNativeLibsWithStripDebugSymbolForRelease
+:disposebag:transformNativeLibsWithSyncJniLibsForRelease
+:disposebag:mergeReleaseResources
+:disposebag:verifyReleaseResources
+:disposebag:processDebugResources
+:disposebag:compileDebugKotlin
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/common-java8/1.0.0/common-java8-1.0.0.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.2.0/kotlin-stdlib-jdk7-1.2.0.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.2.0/kotlin-stdlib-jdk8-1.2.0.jar
+:disposebag:generateDebugSources
+:disposebag:javaPreCompileDebug
+:disposebag:compileDebugJavaWithJavac
+:disposebag:extractDebugAnnotations
+:disposebag:transformResourcesWithMergeJavaResForDebug
+:disposebag:transformClassesAndResourcesWithSyncLibJarsForDebug
+:disposebag:bundleDebug
+:disposebag:compileDebugSources
+:disposebag:assembleDebug
+:disposebag:processReleaseResources
+:disposebag:compileReleaseKotlin
+:disposebag:generateReleaseSources
+:disposebag:javaPreCompileRelease
+:disposebag:compileReleaseJavaWithJavac
+:disposebag:extractReleaseAnnotations
+:disposebag:transformResourcesWithMergeJavaResForRelease
+:disposebag:transformClassesAndResourcesWithSyncLibJarsForRelease
+:disposebag:bundleRelease
+:disposebag:compileReleaseSources
+:disposebag:assembleRelease
+:disposebag:assemble
+:disposebag:build
+
+BUILD SUCCESSFUL in 20s
+50 actionable tasks: 50 executed
+
+2018-08-31 12:57:17,808 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 12:57:17,808 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535694882713-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535694882713-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 12:57:24,506 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-08-31 12:57:24,506 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-08-31 12:57:24,506 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535694882713-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535694882713-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-08-31 12:57:34,929 INFO  SysUtils - Configuration on demand is an incubating feature.
+:disposebag:preBuild UP-TO-DATE
+:disposebag:preDebugBuild UP-TO-DATE
+:disposebag:compileDebugAidl UP-TO-DATE
+:disposebag:compileDebugNdk NO-SOURCE
+:disposebag:compileDebugRenderscript UP-TO-DATE
+:disposebag:checkDebugManifest UP-TO-DATE
+:disposebag:generateDebugBuildConfig UP-TO-DATE
+:disposebag:generateDebugResValues UP-TO-DATE
+:disposebag:generateDebugResources UP-TO-DATE
+:disposebag:packageDebugResources UP-TO-DATE
+:disposebag:platformAttrExtractor UP-TO-DATE
+:disposebag:processDebugManifest UP-TO-DATE
+:disposebag:processDebugResources UP-TO-DATE
+:disposebag:compileDebugKotlin UP-TO-DATE
+:disposebag:prepareLintJar UP-TO-DATE
+:disposebag:generateDebugSources UP-TO-DATE
+:disposebag:javaPreCompileDebug UP-TO-DATE
+:disposebag:compileDebugJavaWithJavac UP-TO-DATE
+:disposebag:extractDebugAnnotations UP-TO-DATE
+:disposebag:mergeDebugShaders UP-TO-DATE
+:disposebag:compileDebugShaders UP-TO-DATE
+:disposebag:generateDebugAssets UP-TO-DATE
+:disposebag:mergeDebugAssets UP-TO-DATE
+:disposebag:mergeDebugConsumerProguardFiles UP-TO-DATE
+:disposebag:packageDebugRenderscript NO-SOURCE
+:disposebag:processDebugJavaRes NO-SOURCE
+:disposebag:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:disposebag:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:disposebag:mergeDebugJniLibFolders UP-TO-DATE
+:disposebag:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:disposebag:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:disposebag:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:disposebag:bundleDebug UP-TO-DATE
+:disposebag:compileDebugSources UP-TO-DATE
+:disposebag:assembleDebug UP-TO-DATE
+:disposebag:preReleaseBuild UP-TO-DATE
+:disposebag:compileReleaseAidl UP-TO-DATE
+:disposebag:compileReleaseNdk NO-SOURCE
+:disposebag:compileReleaseRenderscript UP-TO-DATE
+:disposebag:checkReleaseManifest UP-TO-DATE
+:disposebag:generateReleaseBuildConfig UP-TO-DATE
+:disposebag:generateReleaseResValues UP-TO-DATE
+:disposebag:generateReleaseResources UP-TO-DATE
+:disposebag:packageReleaseResources UP-TO-DATE
+:disposebag:processReleaseManifest UP-TO-DATE
+:disposebag:processReleaseResources UP-TO-DATE
+:disposebag:compileReleaseKotlin UP-TO-DATE
+:disposebag:generateReleaseSources UP-TO-DATE
+:disposebag:javaPreCompileRelease UP-TO-DATE
+:disposebag:compileReleaseJavaWithJavac UP-TO-DATE
+:disposebag:extractReleaseAnnotations UP-TO-DATE
+:disposebag:mergeReleaseShaders UP-TO-DATE
+:disposebag:compileReleaseShaders UP-TO-DATE
+:disposebag:generateReleaseAssets UP-TO-DATE
+:disposebag:mergeReleaseAssets UP-TO-DATE
+:disposebag:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:disposebag:packageReleaseRenderscript NO-SOURCE
+:disposebag:processReleaseJavaRes NO-SOURCE
+:disposebag:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:disposebag:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:disposebag:mergeReleaseJniLibFolders UP-TO-DATE
+:disposebag:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:disposebag:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:disposebag:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:disposebag:bundleRelease UP-TO-DATE
+:disposebag:compileReleaseSources UP-TO-DATE
+:disposebag:mergeReleaseResources UP-TO-DATE
+:disposebag:verifyReleaseResources UP-TO-DATE
+:disposebag:assembleRelease UP-TO-DATE
+:disposebag:assemble UP-TO-DATE
+:disposebag:build
+
+BUILD SUCCESSFUL in 10s
+50 actionable tasks: 50 up-to-date
+
+2018-08-31 12:57:34,963 ERROR FullProcessService - Project build has not produced APK file
+2018-08-31 12:57:34,991 ERROR FullProcessService - Could not find generated or existed APK file

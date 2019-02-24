@@ -1,0 +1,166 @@
+2018-09-03 02:06:33,156 INFO  DownloadService - Downloading "https://github.com/StephenVinouze/MaterialNumberPicker/archive/master.zip", attempt 3
+2018-09-03 02:06:34,396 INFO  DownloadService - Downloaded https://github.com/StephenVinouze/MaterialNumberPicker/archive/master.zip, attempt 3
+2018-09-03 02:06:34,396 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915193153-0/master.zip": 272 KB
+2018-09-03 02:06:34,396 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-03 02:06:34,402 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915193153-0/master.zip: true
+2018-09-03 02:06:34,402 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915193153-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915193153-0/src'.
+2018-09-03 02:06:34,429 INFO  FullProcessService - Size of directory with sources: 321 KB
+2018-09-03 02:06:34,429 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915193153-0/src]
+2018-09-03 02:06:34,444 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915193153-0/src/.git/
+
+2018-09-03 02:06:34,448 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915193153-0/src/MaterialNumberPicker-master/gradlew
+2018-09-03 02:06:34,451 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915193153-0/src/MaterialNumberPicker-master/javasample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915193153-0/src/MaterialNumberPicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915193153-0/src/MaterialNumberPicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915193153-0/src/MaterialNumberPicker-master/core/build.gradle
+2018-09-03 02:06:34,454 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915193153-0/src/MaterialNumberPicker-master/javasample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915193153-0/src/MaterialNumberPicker-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915193153-0/src/MaterialNumberPicker-master/library.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915193153-0/src/MaterialNumberPicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915193153-0/src/MaterialNumberPicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915193153-0/src/MaterialNumberPicker-master/settings.gradle
+2018-09-03 02:06:34,455 INFO  ProjectBuildService - Remote scripts: none
+2018-09-03 02:06:34,455 INFO  ProjectFixService - Fixing project...
+2018-09-03 02:06:34,465 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915193153-0/src/MaterialNumberPicker-master/javasample/local.properties
+2018-09-03 02:06:34,467 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915193153-0/src/MaterialNumberPicker-master/javasample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2018-09-03 02:06:34,467 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915193153-0/src/MaterialNumberPicker-master/javasample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-09-03 02:06:34,468 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915193153-0/src/MaterialNumberPicker-master/sample/local.properties
+2018-09-03 02:06:34,470 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915193153-0/src/MaterialNumberPicker-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2018-09-03 02:06:34,470 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915193153-0/src/MaterialNumberPicker-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-09-03 02:06:34,471 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915193153-0/src/MaterialNumberPicker-master/local.properties
+2018-09-03 02:06:34,472 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.5-all.zip
+2018-09-03 02:06:34,472 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.5-bin.zip)
+2018-09-03 02:06:34,474 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915193153-0/src/MaterialNumberPicker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2018-09-03 02:06:34,474 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915193153-0/src/MaterialNumberPicker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-09-03 02:06:34,475 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915193153-0/src/MaterialNumberPicker-master/core/local.properties
+2018-09-03 02:06:34,477 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915193153-0/src/MaterialNumberPicker-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2018-09-03 02:06:34,477 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915193153-0/src/MaterialNumberPicker-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-09-03 02:06:34,478 INFO  ProjectFixService - Project was maybe fixed
+2018-09-03 02:06:34,478 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-03 02:06:34,478 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915193153-0/src/MaterialNumberPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915193153-0/src/MaterialNumberPicker-master/javasample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-03 02:06:40,695 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-03 02:06:40,695 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-03 02:06:40,696 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915193153-0/src/MaterialNumberPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915193153-0/src/MaterialNumberPicker-master/javasample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-03 02:07:11,189 INFO  SysUtils - Configuration on demand is an incubating feature.
+:core:preBuild UP-TO-DATE
+:core:preDebugBuild UP-TO-DATE
+:core:compileDebugAidl
+:core:compileDebugRenderscript
+:core:checkDebugManifest
+:core:generateDebugBuildConfig
+:core:generateDebugResValues
+:core:generateDebugResources
+:core:packageDebugResources
+:core:platformAttrExtractor
+:core:processDebugManifest
+:core:prepareLintJar
+:core:processDebugJavaRes NO-SOURCE
+:javasample:preBuild UP-TO-DATE
+:javasample:preDebugBuild
+:javasample:compileDebugAidl
+:core:packageDebugRenderscript NO-SOURCE
+:javasample:compileDebugRenderscript
+:javasample:checkDebugManifest
+:javasample:generateDebugBuildConfig
+:javasample:prepareLintJar
+:javasample:mainApkListPersistenceDebug
+:javasample:generateDebugResValues
+:javasample:generateDebugResources
+:javasample:mergeDebugResources
+:javasample:createDebugCompatibleScreenManifests
+:javasample:processDebugManifest
+:javasample:splitsDiscoveryTaskDebug
+:javasample:compileDebugNdk NO-SOURCE
+:core:mergeDebugShaders
+:core:compileDebugShaders
+:core:generateDebugAssets
+:core:packageDebugAssets
+:javasample:mergeDebugShaders
+:javasample:compileDebugShaders
+:javasample:generateDebugAssets
+:javasample:mergeDebugAssets
+:core:compileDebugNdk NO-SOURCE
+:core:mergeDebugJniLibFolders
+:core:transformNativeLibsWithMergeJniLibsForDebug
+:core:transformNativeLibsWithStripDebugSymbolForDebug
+:core:transformNativeLibsWithIntermediateJniLibsForDebug
+:javasample:mergeDebugJniLibFolders
+:javasample:processDebugJavaRes NO-SOURCE
+:javasample:validateSigningDebug
+:core:preReleaseBuild UP-TO-DATE
+:core:compileReleaseAidl
+:core:compileReleaseRenderscript
+:core:checkReleaseManifest
+:core:generateReleaseBuildConfig
+:core:generateReleaseResValues
+:core:generateReleaseResources
+:core:packageReleaseResources
+:core:processReleaseManifest
+:core:processReleaseJavaRes NO-SOURCE
+:javasample:preReleaseBuild
+:javasample:compileReleaseAidl
+:core:packageReleaseRenderscript NO-SOURCE
+:javasample:compileReleaseRenderscript
+:javasample:checkReleaseManifest
+:javasample:generateReleaseBuildConfig
+:javasample:mainApkListPersistenceRelease
+:javasample:generateReleaseResValues
+:javasample:generateReleaseResources
+:javasample:mergeReleaseResources
+:javasample:createReleaseCompatibleScreenManifests
+:javasample:processReleaseManifest
+:javasample:splitsDiscoveryTaskRelease
+:javasample:compileReleaseNdk NO-SOURCE
+:core:mergeReleaseShaders
+:core:compileReleaseShaders
+:core:generateReleaseAssets
+:core:packageReleaseAssets
+:javasample:mergeReleaseShaders
+:javasample:compileReleaseShaders
+:javasample:generateReleaseAssets
+:javasample:mergeReleaseAssets
+:core:compileReleaseNdk NO-SOURCE
+:core:mergeReleaseJniLibFolders
+:core:transformNativeLibsWithMergeJniLibsForRelease
+:core:transformNativeLibsWithStripDebugSymbolForRelease
+:core:transformNativeLibsWithIntermediateJniLibsForRelease
+:javasample:mergeReleaseJniLibFolders
+:javasample:processReleaseJavaRes NO-SOURCE
+:core:generateDebugRFile
+:core:compileDebugKotlin
+:core:generateDebugSources
+:core:javaPreCompileDebug
+:core:compileDebugJavaWithJavac
+:core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:javasample:processDebugResources
+:javasample:generateDebugSources
+:javasample:javaPreCompileDebug
+:javasample:compileDebugJavaWithJavac
+:javasample:compileDebugSources
+:javasample:transformClassesWithDexBuilderForDebug
+:javasample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:javasample:transformDexArchiveWithDexMergerForDebug
+:javasample:transformNativeLibsWithMergeJniLibsForDebug
+:javasample:transformNativeLibsWithStripDebugSymbolForDebug
+:javasample:transformResourcesWithMergeJavaResForDebug
+:javasample:packageDebug
+:javasample:assembleDebug
+:core:generateReleaseRFile
+:core:compileReleaseKotlin
+:core:generateReleaseSources
+:core:javaPreCompileRelease
+:core:compileReleaseJavaWithJavac
+:core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:javasample:processReleaseResources
+:javasample:generateReleaseSources
+:javasample:javaPreCompileRelease
+:javasample:compileReleaseJavaWithJavac
+:javasample:compileReleaseSources
+:javasample:lintVitalRelease
+:javasample:transformClassesWithDexBuilderForRelease
+:javasample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:javasample:transformDexArchiveWithDexMergerForRelease
+:javasample:transformNativeLibsWithMergeJniLibsForRelease
+:javasample:transformNativeLibsWithStripDebugSymbolForRelease
+:javasample:transformResourcesWithMergeJavaResForRelease
+:javasample:packageRelease
+:javasample:assembleRelease
+:javasample:assemble
+:javasample:build
+
+BUILD SUCCESSFUL in 29s
+93 actionable tasks: 93 executed
+
+2018-09-03 02:07:11,255 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915193153-0/src/MaterialNumberPicker-master/javasample/build/outputs/apk/release/javasample-release-unsigned.apk

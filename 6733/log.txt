@@ -1,0 +1,167 @@
+2018-09-03 02:09:50,783 INFO  DownloadService - Downloading "https://github.com/devsideal/VectorChildFinder/archive/master.zip", attempt 3
+2018-09-03 02:09:52,120 INFO  DownloadService - Downloaded https://github.com/devsideal/VectorChildFinder/archive/master.zip, attempt 3
+2018-09-03 02:09:52,120 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915390775-0/master.zip": 258 KB
+2018-09-03 02:09:52,120 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-03 02:09:52,121 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915390775-0/master.zip: true
+2018-09-03 02:09:52,121 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915390775-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915390775-0/src'.
+2018-09-03 02:09:52,144 INFO  FullProcessService - Size of directory with sources: 371 KB
+2018-09-03 02:09:52,144 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915390775-0/src]
+2018-09-03 02:09:52,159 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915390775-0/src/.git/
+
+2018-09-03 02:09:52,162 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915390775-0/src/VectorChildFinder-master/gradlew
+2018-09-03 02:09:52,166 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915390775-0/src/VectorChildFinder-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915390775-0/src/VectorChildFinder-master/vectorchildfinder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915390775-0/src/VectorChildFinder-master/build.gradle
+2018-09-03 02:09:52,169 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915390775-0/src/VectorChildFinder-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915390775-0/src/VectorChildFinder-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915390775-0/src/VectorChildFinder-master/vectorchildfinder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915390775-0/src/VectorChildFinder-master/settings.gradle
+2018-09-03 02:09:52,169 INFO  ProjectBuildService - Remote scripts: none
+2018-09-03 02:09:52,169 INFO  ProjectFixService - Fixing project...
+2018-09-03 02:09:52,176 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915390775-0/src/VectorChildFinder-master/app/local.properties
+2018-09-03 02:09:52,177 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915390775-0/src/VectorChildFinder-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-09-03 02:09:52,177 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915390775-0/src/VectorChildFinder-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-09-03 02:09:52,178 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915390775-0/src/VectorChildFinder-master/vectorchildfinder/local.properties
+2018-09-03 02:09:52,179 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915390775-0/src/VectorChildFinder-master/vectorchildfinder/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-09-03 02:09:52,179 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915390775-0/src/VectorChildFinder-master/vectorchildfinder/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-09-03 02:09:52,180 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915390775-0/src/VectorChildFinder-master/local.properties
+2018-09-03 02:09:52,180 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-09-03 02:09:52,181 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-09-03 02:09:52,181 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915390775-0/src/VectorChildFinder-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-09-03 02:09:52,182 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915390775-0/src/VectorChildFinder-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-09-03 02:09:52,182 INFO  ProjectFixService - Project was maybe fixed
+2018-09-03 02:09:52,182 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-03 02:09:52,182 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915390775-0/src/VectorChildFinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915390775-0/src/VectorChildFinder-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-03 02:09:58,005 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-03 02:09:58,006 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-03 02:09:58,006 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915390775-0/src/VectorChildFinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915390775-0/src/VectorChildFinder-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-03 02:10:18,956 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
+:app:preBuild UP-TO-DATE
+:vectorchildfinder:preBuild UP-TO-DATE
+:vectorchildfinder:preDebugBuild UP-TO-DATE
+:vectorchildfinder:checkDebugManifest
+:vectorchildfinder:processDebugManifest
+:app:preDebugBuild
+:vectorchildfinder:compileDebugAidl
+:app:compileDebugAidl
+:vectorchildfinder:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:generateDebugResValues
+:app:generateDebugResources
+:vectorchildfinder:compileDebugRenderscript
+:vectorchildfinder:generateDebugResValues
+:vectorchildfinder:generateDebugResources
+:vectorchildfinder:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:vectorchildfinder:platformAttrExtractor
+:vectorchildfinder:generateDebugBuildConfig
+:vectorchildfinder:prepareLintJar
+:vectorchildfinder:javaPreCompileDebug
+:vectorchildfinder:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:vectorchildfinder:mergeDebugShaders
+:vectorchildfinder:compileDebugShaders
+:vectorchildfinder:generateDebugAssets
+:vectorchildfinder:mergeDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:vectorchildfinder:compileDebugNdk NO-SOURCE
+:vectorchildfinder:mergeDebugJniLibFolders
+:vectorchildfinder:transformNativeLibsWithMergeJniLibsForDebug
+:vectorchildfinder:transformNativeLibsWithStripDebugSymbolForDebug
+:vectorchildfinder:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:vectorchildfinder:preReleaseBuild UP-TO-DATE
+:vectorchildfinder:checkReleaseManifest
+:vectorchildfinder:processReleaseManifest
+:app:preReleaseBuild
+:vectorchildfinder:compileReleaseAidl
+:app:compileReleaseAidl
+:vectorchildfinder:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:vectorchildfinder:compileReleaseRenderscript
+:vectorchildfinder:generateReleaseResValues
+:vectorchildfinder:generateReleaseResources
+:vectorchildfinder:packageReleaseResources
+:app:mergeReleaseResources
+:vectorchildfinder:processDebugResources
+:app:processDebugResources
+:app:generateDebugSources
+:vectorchildfinder:generateDebugSources
+:vectorchildfinder:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915390775-0/src/VectorChildFinder-master/vectorchildfinder/src/main/java/com/devs/vectorchildfinder/VectorDrawableCompat.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:vectorchildfinder:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915390775-0/src/VectorChildFinder-master/app/src/main/java/com/devs/vectorchildfinderdemo/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:vectorchildfinder:processReleaseResources
+:app:processReleaseResources
+:app:generateReleaseSources
+:vectorchildfinder:generateReleaseBuildConfig
+:vectorchildfinder:generateReleaseSources
+:vectorchildfinder:javaPreCompileRelease
+:vectorchildfinder:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915390775-0/src/VectorChildFinder-master/vectorchildfinder/src/main/java/com/devs/vectorchildfinder/VectorDrawableCompat.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:vectorchildfinder:processReleaseJavaRes NO-SOURCE
+:vectorchildfinder:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915390775-0/src/VectorChildFinder-master/app/src/main/java/com/devs/vectorchildfinderdemo/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:vectorchildfinder:mergeReleaseShaders
+:vectorchildfinder:compileReleaseShaders
+:vectorchildfinder:generateReleaseAssets
+:vectorchildfinder:mergeReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:vectorchildfinder:compileReleaseNdk NO-SOURCE
+:vectorchildfinder:mergeReleaseJniLibFolders
+:vectorchildfinder:transformNativeLibsWithMergeJniLibsForRelease
+:vectorchildfinder:transformNativeLibsWithStripDebugSymbolForRelease
+:vectorchildfinder:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:lintVitalRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 20s
+88 actionable tasks: 88 executed
+
+2018-09-03 02:10:19,021 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915390775-0/src/VectorChildFinder-master/app/build/outputs/apk/debug/app-debug.apk

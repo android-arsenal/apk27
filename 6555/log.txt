@@ -1,0 +1,163 @@
+2018-10-07 00:39:26,381 INFO  DownloadService - Downloading "https://github.com/vivchar/ViewPagerIndicator/archive/master.zip", attempt 3
+2018-10-07 00:39:27,155 INFO  DownloadService - Downloaded https://github.com/vivchar/ViewPagerIndicator/archive/master.zip, attempt 3
+2018-10-07 00:39:27,156 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538847566377-0/master.zip": 271 KB
+2018-10-07 00:39:27,156 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-07 00:39:27,161 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538847566377-0/master.zip: true
+2018-10-07 00:39:27,161 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538847566377-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538847566377-0/src'.
+2018-10-07 00:39:27,183 INFO  FullProcessService - Size of directory with sources: 309 KB
+2018-10-07 00:39:27,183 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538847566377-0/src]
+2018-10-07 00:39:27,203 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538847566377-0/src/.git/
+
+2018-10-07 00:39:27,207 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538847566377-0/src/ViewPagerIndicator-master/gradlew
+2018-10-07 00:39:27,212 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538847566377-0/src/ViewPagerIndicator-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538847566377-0/src/ViewPagerIndicator-master/viewpagerindicator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538847566377-0/src/ViewPagerIndicator-master/build.gradle
+2018-10-07 00:39:27,216 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538847566377-0/src/ViewPagerIndicator-master/viewpagerindicator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538847566377-0/src/ViewPagerIndicator-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538847566377-0/src/ViewPagerIndicator-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538847566377-0/src/ViewPagerIndicator-master/settings.gradle
+2018-10-07 00:39:27,216 INFO  ProjectBuildService - Remote scripts: none
+2018-10-07 00:39:27,216 INFO  ProjectFixService - Fixing project...
+2018-10-07 00:39:27,226 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538847566377-0/src/ViewPagerIndicator-master/example/local.properties
+2018-10-07 00:39:27,229 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538847566377-0/src/ViewPagerIndicator-master/example/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-10-07 00:39:27,230 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538847566377-0/src/ViewPagerIndicator-master/viewpagerindicator/local.properties
+2018-10-07 00:39:27,232 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538847566377-0/src/ViewPagerIndicator-master/viewpagerindicator/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-10-07 00:39:27,232 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538847566377-0/src/ViewPagerIndicator-master/local.properties
+2018-10-07 00:39:27,233 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-10-07 00:39:27,233 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-10-07 00:39:27,234 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538847566377-0/src/ViewPagerIndicator-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-10-07 00:39:27,234 INFO  ProjectFixService - Project was maybe fixed
+2018-10-07 00:39:27,234 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-07 00:39:27,234 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538847566377-0/src/ViewPagerIndicator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538847566377-0/src/ViewPagerIndicator-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-07 00:39:36,312 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-10-07 00:39:36,312 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-10-07 00:39:36,312 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538847566377-0/src/ViewPagerIndicator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538847566377-0/src/ViewPagerIndicator-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-10-07 00:40:12,871 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/groovy-all-2.4.12.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Configuration on demand is an incubating feature.
+:example:preBuild UP-TO-DATE
+:viewpagerindicator:preBuild UP-TO-DATE
+:viewpagerindicator:preDebugBuild UP-TO-DATE
+:viewpagerindicator:checkDebugManifest
+:viewpagerindicator:processDebugManifest
+:example:preDebugBuild
+:viewpagerindicator:compileDebugAidl
+:example:compileDebugAidl
+:viewpagerindicator:packageDebugRenderscript NO-SOURCE
+:example:compileDebugRenderscript
+:example:checkDebugManifest
+:example:generateDebugBuildConfig
+:example:prepareLintJar
+:example:mainApkListPersistenceDebug
+:example:generateDebugResValues
+:example:generateDebugResources
+:viewpagerindicator:compileDebugRenderscript
+:viewpagerindicator:generateDebugResValues
+:viewpagerindicator:generateDebugResources
+:viewpagerindicator:packageDebugResources
+:example:mergeDebugResources
+:example:createDebugCompatibleScreenManifests
+:example:processDebugManifest
+:example:splitsDiscoveryTaskDebug
+:viewpagerindicator:platformAttrExtractor
+:viewpagerindicator:generateDebugBuildConfig
+:viewpagerindicator:prepareLintJar
+:viewpagerindicator:javaPreCompileDebug
+:viewpagerindicator:processDebugJavaRes NO-SOURCE
+:example:compileDebugNdk NO-SOURCE
+:example:mergeDebugShaders
+:example:compileDebugShaders
+:example:generateDebugAssets
+:viewpagerindicator:mergeDebugShaders
+:viewpagerindicator:compileDebugShaders
+:viewpagerindicator:generateDebugAssets
+:viewpagerindicator:packageDebugAssets
+:example:mergeDebugAssets
+:example:mergeDebugJniLibFolders
+:viewpagerindicator:compileDebugNdk NO-SOURCE
+:viewpagerindicator:mergeDebugJniLibFolders
+:viewpagerindicator:transformNativeLibsWithMergeJniLibsForDebug
+:viewpagerindicator:transformNativeLibsWithStripDebugSymbolForDebug
+:viewpagerindicator:transformNativeLibsWithIntermediateJniLibsForDebug
+:example:processDebugJavaRes NO-SOURCE
+:example:validateSigningDebug
+:viewpagerindicator:preReleaseBuild UP-TO-DATE
+:viewpagerindicator:checkReleaseManifest
+:viewpagerindicator:processReleaseManifest
+:example:preReleaseBuild
+:viewpagerindicator:compileReleaseAidl
+:example:compileReleaseAidl
+:viewpagerindicator:packageReleaseRenderscript NO-SOURCE
+:example:compileReleaseRenderscript
+:viewpagerindicator:generateDebugRFile
+:example:processDebugResources
+:example:generateDebugSources
+:viewpagerindicator:generateDebugSources
+:viewpagerindicator:compileDebugJavaWithJavac
+:viewpagerindicator:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:example:javaPreCompileDebug
+:example:compileDebugJavaWithJavac
+:example:compileDebugSources
+:example:transformClassesWithDexBuilderForDebug
+:example:transformDexArchiveWithExternalLibsDexMergerForDebug
+:example:transformDexArchiveWithDexMergerForDebug
+:example:transformNativeLibsWithMergeJniLibsForDebug
+:example:transformNativeLibsWithStripDebugSymbolForDebug
+:example:transformResourcesWithMergeJavaResForDebug
+:example:packageDebug
+:example:assembleDebug
+:example:checkReleaseManifest
+:example:generateReleaseBuildConfig
+:example:mainApkListPersistenceRelease
+:example:generateReleaseResValues
+:example:generateReleaseResources
+:viewpagerindicator:compileReleaseRenderscript
+:viewpagerindicator:generateReleaseResValues
+:viewpagerindicator:generateReleaseResources
+:viewpagerindicator:packageReleaseResources
+:example:mergeReleaseResources
+:example:createReleaseCompatibleScreenManifests
+:example:processReleaseManifest
+:example:splitsDiscoveryTaskRelease
+:viewpagerindicator:generateReleaseRFile
+:example:processReleaseResources
+:example:generateReleaseSources
+:viewpagerindicator:generateReleaseBuildConfig
+:viewpagerindicator:generateReleaseSources
+:viewpagerindicator:javaPreCompileRelease
+:viewpagerindicator:compileReleaseJavaWithJavac
+:viewpagerindicator:processReleaseJavaRes NO-SOURCE
+:viewpagerindicator:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:example:javaPreCompileRelease
+:example:compileReleaseJavaWithJavac
+:example:compileReleaseNdk NO-SOURCE
+:example:compileReleaseSources
+:example:lintVitalRelease
+:example:mergeReleaseShaders
+:example:compileReleaseShaders
+:example:generateReleaseAssets
+:viewpagerindicator:mergeReleaseShaders
+:viewpagerindicator:compileReleaseShaders
+:viewpagerindicator:generateReleaseAssets
+:viewpagerindicator:packageReleaseAssets
+:example:mergeReleaseAssets
+:example:transformClassesWithDexBuilderForRelease
+:example:transformDexArchiveWithExternalLibsDexMergerForRelease
+:example:transformDexArchiveWithDexMergerForRelease
+:example:mergeReleaseJniLibFolders
+:viewpagerindicator:compileReleaseNdk NO-SOURCE
+:viewpagerindicator:mergeReleaseJniLibFolders
+:viewpagerindicator:transformNativeLibsWithMergeJniLibsForRelease
+:viewpagerindicator:transformNativeLibsWithStripDebugSymbolForRelease
+:viewpagerindicator:transformNativeLibsWithIntermediateJniLibsForRelease
+:example:transformNativeLibsWithMergeJniLibsForRelease
+:example:transformNativeLibsWithStripDebugSymbolForRelease
+:example:processReleaseJavaRes NO-SOURCE
+:example:transformResourcesWithMergeJavaResForRelease
+:example:packageRelease
+:example:assembleRelease
+:example:assemble
+:example:build
+
+BUILD SUCCESSFUL in 35s
+91 actionable tasks: 91 executed
+
+2018-10-07 00:40:12,967 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538847566377-0/src/ViewPagerIndicator-master/example/build/outputs/apk/release/example-release-unsigned.apk

@@ -1,0 +1,198 @@
+2018-08-22 15:49:48,414 INFO  DownloadService - Downloading "https://github.com/ehsunshine/colored-time-selector/archive/master.zip", attempt 3
+2018-08-22 15:49:49,698 INFO  DownloadService - Downloaded https://github.com/ehsunshine/colored-time-selector/archive/master.zip, attempt 3
+2018-08-22 15:49:49,698 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/master.zip": 680 KB
+2018-08-22 15:49:49,698 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-22 15:49:49,700 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/master.zip: true
+2018-08-22 15:49:49,700 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/src'.
+2018-08-22 15:49:49,754 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-08-22 15:49:49,754 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/src]
+2018-08-22 15:49:49,771 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/src/.git/
+
+2018-08-22 15:49:49,777 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/src/colored-time-selector-master/gradlew
+2018-08-22 15:49:49,782 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/src/colored-time-selector-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/src/colored-time-selector-master/coloredtimebar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/src/colored-time-selector-master/build.gradle
+2018-08-22 15:49:49,787 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/src/colored-time-selector-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/src/colored-time-selector-master/coloredtimebar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/src/colored-time-selector-master/gradle/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/src/colored-time-selector-master/gradle/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/src/colored-time-selector-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/src/colored-time-selector-master/settings.gradle
+2018-08-22 15:49:49,787 INFO  ProjectBuildService - Remote scripts: none
+2018-08-22 15:49:49,787 INFO  ProjectFixService - Fixing project...
+2018-08-22 15:49:49,799 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/src/colored-time-selector-master/app/local.properties
+2018-08-22 15:49:49,800 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/src/colored-time-selector-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-22 15:49:49,800 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/src/colored-time-selector-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-22 15:49:49,801 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/src/colored-time-selector-master/coloredtimebar/local.properties
+2018-08-22 15:49:49,802 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/src/colored-time-selector-master/coloredtimebar/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-22 15:49:49,803 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/src/colored-time-selector-master/coloredtimebar/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-22 15:49:49,803 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/src/colored-time-selector-master/local.properties
+2018-08-22 15:49:49,804 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-08-22 15:49:49,804 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-22 15:49:49,806 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/src/colored-time-selector-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-22 15:49:49,806 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/src/colored-time-selector-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-22 15:49:49,806 INFO  ProjectFixService - Project was maybe fixed
+2018-08-22 15:49:49,806 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-22 15:49:49,807 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/src/colored-time-selector-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/src/colored-time-selector-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-22 15:50:06,876 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-08-22 15:50:06,876 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-22 15:50:06,876 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/src/colored-time-selector-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/src/colored-time-selector-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-22 15:51:31,409 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:coloredtimebar:preBuild UP-TO-DATE
+:coloredtimebar:preDebugBuild UP-TO-DATE
+:coloredtimebar:checkDebugManifest
+:coloredtimebar:processDebugManifest
+:app:preDebugBuild
+Download https://jcenter.bintray.com/com/squareup/okhttp3/logging-interceptor/3.9.0/logging-interceptor-3.9.0.pom
+Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.1.5/rxjava-2.1.5.pom
+Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxkotlin/2.0.3/rxkotlin-2.0.3.pom
+Download https://jcenter.bintray.com/net/danlew/android.joda/2.9.9/android.joda-2.9.9.pom
+Download https://jcenter.bintray.com/com/squareup/okhttp3/okhttp-urlconnection/3.9.0/okhttp-urlconnection-3.9.0.pom
+Download https://jcenter.bintray.com/com/github/JakeWharton/ViewPagerIndicator/2.4.1/ViewPagerIndicator-2.4.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-v4/maven-metadata.xml
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-v4/23.1.1/support-v4-23.1.1.pom
+Download https://jcenter.bintray.com/com/android/support/support-v4/maven-metadata.xml
+Download https://jcenter.bintray.com/org/reactivestreams/reactive-streams/1.0.1/reactive-streams-1.0.1.pom
+Download https://jcenter.bintray.com/com/github/JakeWharton/ViewPagerIndicator/2.4.1/ViewPagerIndicator-2.4.1.aar
+Download https://jcenter.bintray.com/net/danlew/android.joda/2.9.9/android.joda-2.9.9.aar
+:coloredtimebar:compileDebugAidl
+:app:compileDebugAidl
+:coloredtimebar:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:coloredtimebar:compileDebugRenderscript
+:coloredtimebar:generateDebugResValues
+:coloredtimebar:generateDebugResources
+:coloredtimebar:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:coloredtimebar:platformAttrExtractor
+:coloredtimebar:generateDebugBuildConfig
+:coloredtimebar:prepareLintJar
+:coloredtimebar:processDebugJavaRes NO-SOURCE
+:app:prepareLintJar
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:coloredtimebar:mergeDebugShaders
+:coloredtimebar:compileDebugShaders
+:coloredtimebar:generateDebugAssets
+:coloredtimebar:mergeDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:coloredtimebar:compileDebugNdk NO-SOURCE
+:coloredtimebar:mergeDebugJniLibFolders
+:coloredtimebar:transformNativeLibsWithMergeJniLibsForDebug
+:coloredtimebar:transformNativeLibsWithStripDebugSymbolForDebug
+:coloredtimebar:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:coloredtimebar:preReleaseBuild UP-TO-DATE
+:coloredtimebar:checkReleaseManifest
+:coloredtimebar:processReleaseManifest
+:app:preReleaseBuild
+:coloredtimebar:processDebugResources
+:app:processDebugResources
+:coloredtimebar:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/src/colored-time-selector-master/coloredtimebar/src/main/java/de/ehsun/coloredtimebar/TimelineView.kt: (219, 13): Expected performance impact of inlining 'private final inline fun <T> invalidateOnChange(initialValue: T): ReadWriteProperty<Any?, T> defined in de.ehsun.coloredtimebar.TimelineView' can be insignificant. Inlining works best for functions with lambda parameters
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/src/colored-time-selector-master/coloredtimebar/src/main/java/de/ehsun/coloredtimebar/TimelineView.kt: (220, 13): Expected performance impact of inlining 'private final inline fun <T> redrawOnChange(initialValue: T?): ReadWriteProperty<Any?, T?> defined in de.ehsun.coloredtimebar.TimelineView' can be insignificant. Inlining works best for functions with lambda parameters
+:coloredtimebar:generateDebugSources
+:coloredtimebar:javaPreCompileDebug
+:coloredtimebar:compileDebugJavaWithJavac
+:coloredtimebar:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:kaptGenerateStubsDebugKotlin
+Download https://jcenter.bintray.com/com/squareup/okhttp3/logging-interceptor/3.9.0/logging-interceptor-3.9.0.jar
+Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxkotlin/2.0.3/rxkotlin-2.0.3.jar
+Download https://jcenter.bintray.com/com/squareup/okhttp3/okhttp-urlconnection/3.9.0/okhttp-urlconnection-3.9.0.jar
+Download https://jcenter.bintray.com/org/reactivestreams/reactive-streams/1.0.1/reactive-streams-1.0.1.jar
+Download https://jcenter.bintray.com/joda-time/joda-time/2.9.9/joda-time-2.9.9-no-tzdb.jar
+Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.1.5/rxjava-2.1.5.jar
+:app:kaptDebugKotlin
+:app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/src/colored-time-selector-master/app/src/main/java/de/ehsun/smartbooking/ui/roomdetails/RoomDetailsActivity.kt: (228, 12): 'setter for hours: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/src/colored-time-selector-master/app/src/main/java/de/ehsun/smartbooking/ui/roomdetails/RoomDetailsActivity.kt: (229, 12): 'setter for minutes: Int' is deprecated. Deprecated in Java
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:coloredtimebar:compileReleaseAidl
+:app:compileReleaseAidl
+:coloredtimebar:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:coloredtimebar:compileReleaseRenderscript
+:coloredtimebar:generateReleaseResValues
+:coloredtimebar:generateReleaseResources
+:coloredtimebar:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:coloredtimebar:processReleaseResources
+:app:processReleaseResources
+:coloredtimebar:generateReleaseBuildConfig
+:coloredtimebar:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/src/colored-time-selector-master/coloredtimebar/src/main/java/de/ehsun/coloredtimebar/TimelineView.kt: (219, 13): Expected performance impact of inlining 'private final inline fun <T> invalidateOnChange(initialValue: T): ReadWriteProperty<Any?, T> defined in de.ehsun.coloredtimebar.TimelineView' can be insignificant. Inlining works best for functions with lambda parameters
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/src/colored-time-selector-master/coloredtimebar/src/main/java/de/ehsun/coloredtimebar/TimelineView.kt: (220, 13): Expected performance impact of inlining 'private final inline fun <T> redrawOnChange(initialValue: T?): ReadWriteProperty<Any?, T?> defined in de.ehsun.coloredtimebar.TimelineView' can be insignificant. Inlining works best for functions with lambda parameters
+:coloredtimebar:generateReleaseSources
+:coloredtimebar:javaPreCompileRelease
+:coloredtimebar:compileReleaseJavaWithJavac
+:coloredtimebar:processReleaseJavaRes NO-SOURCE
+:coloredtimebar:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:kaptGenerateStubsReleaseKotlin
+:app:kaptReleaseKotlin
+:app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/src/colored-time-selector-master/app/src/main/java/de/ehsun/smartbooking/ui/roomdetails/RoomDetailsActivity.kt: (228, 12): 'setter for hours: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/src/colored-time-selector-master/app/src/main/java/de/ehsun/smartbooking/ui/roomdetails/RoomDetailsActivity.kt: (229, 12): 'setter for minutes: Int' is deprecated. Deprecated in Java
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Download https://jcenter.bintray.com/org/mockito/mockito-core/maven-metadata.xml
+Download https://jcenter.bintray.com/com/nhaarman/mockito-kotlin/1.5.0/mockito-kotlin-1.5.0.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-reflect/1.0.7/kotlin-reflect-1.0.7.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-project/1.0.7/kotlin-project-1.0.7.pom
+Download https://jcenter.bintray.com/com/nhaarman/mockito-kotlin/1.5.0/mockito-kotlin-1.5.0.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-reflect/1.0.7/kotlin-reflect-1.0.7.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:coloredtimebar:mergeReleaseShaders
+:coloredtimebar:compileReleaseShaders
+:coloredtimebar:generateReleaseAssets
+:coloredtimebar:mergeReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:coloredtimebar:compileReleaseNdk NO-SOURCE
+:coloredtimebar:mergeReleaseJniLibFolders
+:coloredtimebar:transformNativeLibsWithMergeJniLibsForRelease
+:coloredtimebar:transformNativeLibsWithStripDebugSymbolForRelease
+:coloredtimebar:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 1m 23s
+96 actionable tasks: 96 executed
+
+2018-08-22 15:51:31,540 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927788412-0/src/colored-time-selector-master/app/build/outputs/apk/debug/app-debug.apk

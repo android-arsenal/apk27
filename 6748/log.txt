@@ -1,0 +1,459 @@
+2019-01-19 18:28:33,930 INFO  DownloadService - Downloading "https://github.com/artyomd/Injector/archive/master.zip", attempt 3
+2019-01-19 18:28:35,070 INFO  DownloadService - Downloaded https://github.com/artyomd/Injector/archive/master.zip, attempt 3
+2019-01-19 18:28:35,071 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/master.zip": 482 KB
+2019-01-19 18:28:35,071 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-19 18:28:35,076 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/master.zip: true
+2019-01-19 18:28:35,077 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src'.
+2019-01-19 18:28:35,121 INFO  FullProcessService - Size of directory with sources: 765 KB
+2019-01-19 18:28:35,122 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src]
+2019-01-19 18:28:35,142 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/.git/
+
+2019-01-19 18:28:35,148 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android-example/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector/gradlew
+2019-01-19 18:28:35,154 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android-example/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android-example/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector/build.gradle
+2019-01-19 18:28:35,159 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/versions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android-example/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android-example/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android-example/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector/settings.gradle
+2019-01-19 18:28:35,160 INFO  ProjectBuildService - Remote scripts: none
+2019-01-19 18:28:35,161 INFO  ProjectFixService - Fixing project...
+2019-01-19 18:28:35,175 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android/local.properties
+2019-01-19 18:28:35,175 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-01-19 18:28:35,176 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-01-19 18:28:35,178 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-19 18:28:35,178 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-19 18:28:35,179 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android-example/app/local.properties
+2019-01-19 18:28:35,182 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android-example/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-19 18:28:35,182 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android-example/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-19 18:28:35,183 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android-example/lib/local.properties
+2019-01-19 18:28:35,185 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android-example/lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-19 18:28:35,185 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android-example/lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-19 18:28:35,185 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android-example/local.properties
+2019-01-19 18:28:35,186 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-01-19 18:28:35,186 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-01-19 18:28:35,188 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android-example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-19 18:28:35,188 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android-example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-19 18:28:35,189 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector/local.properties
+2019-01-19 18:28:35,190 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+2019-01-19 18:28:35,190 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
+2019-01-19 18:28:35,192 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-19 18:28:35,192 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-19 18:28:35,193 INFO  ProjectFixService - Project was maybe fixed
+2019-01-19 18:28:35,193 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 18:28:35,193 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 18:28:51,196 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-01-19 18:28:51,197 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-19 18:28:51,197 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-19 18:29:03,111 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :androidSourcesJar
+> Task :preBuild UP-TO-DATE
+> Task :preDebugBuild UP-TO-DATE
+> Task :compileDebugAidl NO-SOURCE
+> Task :compileDebugRenderscript
+> Task :checkDebugManifest
+> Task :generateDebugBuildConfig
+> Task :generateDebugResValues
+> Task :generateDebugResources
+> Task :packageDebugResources
+> Task :processDebugManifest
+> Task :generateDebugRFile
+> Task :prepareLintJar
+> Task :generateDebugSources
+> Task :javaPreCompileDebug
+
+> Task :compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android/src/main/java/app/artyomd/injector/DexInjector.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :extractDebugAnnotations
+> Task :mergeDebugConsumerProguardFiles
+> Task :mergeDebugShaders
+> Task :compileDebugShaders
+> Task :generateDebugAssets
+> Task :packageDebugAssets
+> Task :packageDebugRenderscript NO-SOURCE
+> Task :processDebugJavaRes NO-SOURCE
+> Task :transformResourcesWithMergeJavaResForDebug
+> Task :transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :compileDebugNdk NO-SOURCE
+> Task :mergeDebugJniLibFolders
+> Task :transformNativeLibsWithMergeJniLibsForDebug
+> Task :transformNativeLibsWithStripDebugSymbolForDebug
+> Task :transformNativeLibsWithSyncJniLibsForDebug
+> Task :bundleDebugAar
+> Task :compileDebugSources
+> Task :assembleDebug
+> Task :preReleaseBuild UP-TO-DATE
+> Task :compileReleaseAidl NO-SOURCE
+> Task :compileReleaseRenderscript
+> Task :checkReleaseManifest
+> Task :generateReleaseBuildConfig
+> Task :generateReleaseResValues
+> Task :generateReleaseResources
+> Task :packageReleaseResources
+> Task :processReleaseManifest
+> Task :generateReleaseRFile
+> Task :generateReleaseSources
+> Task :javaPreCompileRelease
+
+> Task :compileReleaseJavaWithJavac
+
+> Task :extractReleaseAnnotations
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android/src/main/java/app/artyomd/injector/DexInjector.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+> Task :mergeReleaseConsumerProguardFiles
+> Task :mergeReleaseShaders
+> Task :compileReleaseShaders
+> Task :generateReleaseAssets
+> Task :packageReleaseAssets
+> Task :packageReleaseRenderscript NO-SOURCE
+> Task :processReleaseJavaRes NO-SOURCE
+> Task :transformResourcesWithMergeJavaResForRelease
+> Task :transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :compileReleaseNdk NO-SOURCE
+> Task :mergeReleaseJniLibFolders
+> Task :transformNativeLibsWithMergeJniLibsForRelease
+> Task :transformNativeLibsWithStripDebugSymbolForRelease
+> Task :transformNativeLibsWithSyncJniLibsForRelease
+> Task :bundleReleaseAar
+> Task :compileReleaseSources
+> Task :mergeReleaseResources
+> Task :verifyReleaseResources
+> Task :assembleRelease
+> Task :javadoc
+> Task :javadocJar
+> Task :signArchives SKIPPED
+> Task :assemble
+> Task :build
+
+BUILD SUCCESSFUL in 11s
+48 actionable tasks: 48 executed
+
+2019-01-19 18:29:03,130 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 18:29:03,130 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android-example/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android-example/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 18:29:15,822 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-01-19 18:29:15,822 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-19 18:29:15,823 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android-example/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android-example/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-19 18:29:49,911 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :lib
+inject-->[injection detected][aar]com.airbnb.android:lottie:2.8.0
+
+> Task :app:preBuild UP-TO-DATE
+> Task :injector-android:preBuild UP-TO-DATE
+> Task :injector-android:preDebugBuild UP-TO-DATE
+> Task :injector-android:checkDebugManifest
+> Task :injector-android:processDebugManifest
+> Task :lib:preBuild UP-TO-DATE
+> Task :lib:extractAARs
+> Task :lib:preDebugBuild UP-TO-DATE
+> Task :lib:checkDebugManifest
+> Task :lib:processDebugManifest
+> Task :lib:mergeDebugManifest
+> Task :app:preDebugBuild
+> Task :injector-android:compileDebugAidl NO-SOURCE
+> Task :lib:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :injector-android:packageDebugRenderscript NO-SOURCE
+> Task :lib:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :injector-android:compileDebugRenderscript
+> Task :injector-android:generateDebugBuildConfig
+> Task :injector-android:generateDebugResValues
+> Task :injector-android:generateDebugResources
+> Task :injector-android:packageDebugResources
+> Task :injector-android:generateDebugRFile
+> Task :injector-android:prepareLintJar
+> Task :injector-android:generateDebugSources
+> Task :injector-android:javaPreCompileDebug
+
+> Task :injector-android:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android/src/main/java/app/artyomd/injector/DexInjector.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :injector-android:processDebugJavaRes NO-SOURCE
+> Task :injector-android:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :lib:compileDebugRenderscript
+> Task :lib:generateDebugBuildConfig
+> Task :lib:generateDebugResValues
+> Task :lib:generateDebugResources
+> Task :lib:packageDebugResources
+> Task :lib:generateDebugRFile
+> Task :lib:prepareLintJar
+> Task :lib:generateDebugSources
+> Task :lib:javaPreCompileDebug
+
+> Task :lib:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android-example/lib/src/main/java/app/artyomd/injector/example/lib/BlankFragment.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :lib:processDebugJavaRes NO-SOURCE
+> Task :lib:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :app:javaPreCompileDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:processDebugResources
+
+> Task :app:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android-example/app/src/main/java/app/artyomd/injector/example/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:compileDebugNdk NO-SOURCE
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :injector-android:mergeDebugShaders
+> Task :injector-android:compileDebugShaders
+> Task :injector-android:generateDebugAssets
+> Task :injector-android:packageDebugAssets
+> Task :lib:mergeDebugShaders
+> Task :lib:compileDebugShaders
+> Task :lib:generateDebugAssets
+> Task :lib:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android-example/lib/build/intermediates/intermediate-jars/debug/classes.jar: D8: Type `com.airbnb.lottie.LottieCompositionFactory` was not found, it is required for default or static interface methods desugaring of `void app.artyomd.injector.example.lib.BlankFragment.onViewCreated(android.view.View, android.os.Bundle)`
+D8: synthesized for lambda desugaring: Interface `com.airbnb.lottie.LottieListener` not found. It's needed to make sure desugaring of `app.artyomd.injector.example.lib.-$$Lambda$BlankFragment$tOPUcMGSNLXwGFWd-0tTJ2hwi6Q` is correct. Desugaring will assume that this interface has no default method.
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :app:transformDexArchiveWithDexMergerForDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :injector-android:compileDebugNdk NO-SOURCE
+> Task :injector-android:mergeDebugJniLibFolders
+> Task :injector-android:transformNativeLibsWithMergeJniLibsForDebug
+> Task :injector-android:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :injector-android:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :lib:compileDebugNdk NO-SOURCE
+> Task :lib:mergeDebugJniLibFolders
+> Task :lib:transformNativeLibsWithMergeJniLibsForDebug
+> Task :lib:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :lib:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:extractProguardFiles
+> Task :injector-android:preReleaseBuild UP-TO-DATE
+> Task :injector-android:checkReleaseManifest
+> Task :injector-android:processReleaseManifest
+> Task :lib:preReleaseBuild UP-TO-DATE
+> Task :lib:checkReleaseManifest
+> Task :lib:processReleaseManifest
+> Task :lib:mergeReleaseManifest
+> Task :app:preReleaseBuild
+> Task :injector-android:compileReleaseAidl NO-SOURCE
+> Task :lib:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :injector-android:packageReleaseRenderscript NO-SOURCE
+> Task :lib:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:generateReleaseSources
+> Task :injector-android:compileReleaseRenderscript
+> Task :injector-android:generateReleaseBuildConfig
+> Task :injector-android:generateReleaseResValues
+> Task :injector-android:generateReleaseResources
+> Task :injector-android:packageReleaseResources
+> Task :injector-android:generateReleaseRFile
+> Task :injector-android:generateReleaseSources
+> Task :injector-android:javaPreCompileRelease
+
+> Task :injector-android:compileReleaseJavaWithJavac
+
+> Task :injector-android:processReleaseJavaRes NO-SOURCE
+> Task :injector-android:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :lib:compileReleaseRenderscript
+> Task :lib:generateReleaseBuildConfig
+> Task :lib:generateReleaseResValues
+> Task :lib:generateReleaseResources
+> Task :lib:packageReleaseResources
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android/src/main/java/app/artyomd/injector/DexInjector.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+> Task :lib:generateReleaseRFile
+> Task :lib:generateReleaseSources
+> Task :lib:javaPreCompileRelease
+
+> Task :lib:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android-example/lib/src/main/java/app/artyomd/injector/example/lib/BlankFragment.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :lib:processReleaseJavaRes NO-SOURCE
+> Task :lib:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :app:javaPreCompileRelease
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:processReleaseResources
+
+> Task :app:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android-example/app/src/main/java/app/artyomd/injector/example/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:compileReleaseNdk NO-SOURCE
+> Task :app:compileReleaseSources
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/2aa679d3e76149c60acbaf5905035313/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :injector-android:mergeReleaseShaders
+> Task :injector-android:compileReleaseShaders
+> Task :injector-android:generateReleaseAssets
+> Task :injector-android:packageReleaseAssets
+> Task :lib:mergeReleaseShaders
+> Task :lib:compileReleaseShaders
+> Task :lib:generateReleaseAssets
+> Task :lib:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :injector-android:mergeReleaseConsumerProguardFiles
+> Task :lib:mergeReleaseConsumerProguardFiles
+ProGuard, version 6.0.3
+Reading input...
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/1410ab1ec6dd5fa9c94dc2285d05ccd8/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/a707fb3b485edaaac3f4b039f9a677da/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/0ef2f845b51b91184b39372c1946d2de/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/15440d8db0302f87af01a224b2544331/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/0016d1ff7975e3ee9698e496f73ed8c2/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.1.aar/1079595d4eef1210f691fb318bd6fae9/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/8563bc25ac4ee1a27fc4819f4a25c722/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/97cb1660e906ae684f2e78a5396fec6d/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/c3c4a54c73c6d51887e9aced84d5147f/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/537adcb3c80c3a61ed556197280d817c/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/5bf4ac1f6bf4ec7eb555eaf7fc917511/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/378e61a253d96a4a7b62c8ed67c01879/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/bcccb2d0f013793f6e41f3c3ae8385ab/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/8be748f82af184c3ea9aa82259f41b11/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/ab4a9ea95a5cf20fc8081c68573639cb/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/04ff934b2c60e100a337821ff6511011/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.0.0/42858b26cafdaa69b6149f45dfc2894007bc2c7a/collection-1.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/d120991c59899aa68da66c4ce772a3b1/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/3ea34fd87773972a4a2329dc58cecb94/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/43f549940a0ced6d273462ae3f7c6da8/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/bf2048dfe95d6efdcfbc4e5648d3b5e7/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/9d02f951fa547fb604e84b7594263255/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/cfaccba852fe43ce97cb12843f901cba/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/dae64c44234060da0eacd8272976d697/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/5d0405ce18a4e61dd4096491f4e1c67a/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0/e070ffae07452331bc5684734fce6831d531785c/lifecycle-common-2.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/9e8a34d07453b90f35d658e7959208cf/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.0.0/bb21b9a11761451b51624ac428d1f1bb5deeac38/core-common-2.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/aad76848ac7ce5c296f9a509faa2ecac/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.0.0/45599f2cd5965ac05a1488fa2a5c0cdd7c499ead/annotation-1.0.0.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android-example/lib/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android-example/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android-example/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/org.apache.http.legacy.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.mock.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.base.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.runner.jar]
+Reading library aar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.airbnb.android/lottie/2.8.0/e2f30cb8fb3d902b0df3c6cf041c9ee9f96e3185/lottie-2.8.0.aar]
+Initializing...
+Note: app.artyomd.injector.DexInjector$V14: can't find dynamically referenced class dalvik.system.DexPathList$Element
+Note: the configuration explicitly specifies 'com.airbnb.lottie.LottieAnimationView' to keep library class 'com.airbnb.lottie.LottieAnimationView'
+Note: there were 1 library classes explicitly being kept.
+      You don't need to keep library classes; they are already left unchanged.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#libraryclass)
+Note: there were 1 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Ignoring unused library classes...
+  Original number of library classes: 5032
+  Final number of library classes:    1271
+Printing kept classes, fields, and methods...
+Inlining subroutines...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android-example/app/build/outputs/mapping/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 1356
+  Final number of program classes:    424
+Obfuscating...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android-example/app/build/outputs/mapping/release/mapping.txt]...
+
+> Task :app:transformClassesAndResourcesWithProguardForRelease
+Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
+thread-pool size=4
+
+Preverifying...
+Writing output...
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android-example/app/build/intermediates/transforms/proguard/release/0.jar]
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/1410ab1ec6dd5fa9c94dc2285d05ccd8/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/a707fb3b485edaaac3f4b039f9a677da/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/0ef2f845b51b91184b39372c1946d2de/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/15440d8db0302f87af01a224b2544331/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/0016d1ff7975e3ee9698e496f73ed8c2/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.1.aar/1079595d4eef1210f691fb318bd6fae9/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/8563bc25ac4ee1a27fc4819f4a25c722/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/97cb1660e906ae684f2e78a5396fec6d/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/c3c4a54c73c6d51887e9aced84d5147f/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/537adcb3c80c3a61ed556197280d817c/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/5bf4ac1f6bf4ec7eb555eaf7fc917511/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/378e61a253d96a4a7b62c8ed67c01879/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/bcccb2d0f013793f6e41f3c3ae8385ab/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/8be748f82af184c3ea9aa82259f41b11/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/ab4a9ea95a5cf20fc8081c68573639cb/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/04ff934b2c60e100a337821ff6511011/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.0.0/42858b26cafdaa69b6149f45dfc2894007bc2c7a/collection-1.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/d120991c59899aa68da66c4ce772a3b1/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/3ea34fd87773972a4a2329dc58cecb94/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/43f549940a0ced6d273462ae3f7c6da8/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/bf2048dfe95d6efdcfbc4e5648d3b5e7/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/9d02f951fa547fb604e84b7594263255/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/cfaccba852fe43ce97cb12843f901cba/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/dae64c44234060da0eacd8272976d697/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/5d0405ce18a4e61dd4096491f4e1c67a/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0/e070ffae07452331bc5684734fce6831d531785c/lifecycle-common-2.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/9e8a34d07453b90f35d658e7959208cf/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.0.0/bb21b9a11761451b51624ac428d1f1bb5deeac38/core-common-2.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/aad76848ac7ce5c296f9a509faa2ecac/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.0.0/45599f2cd5965ac05a1488fa2a5c0cdd7c499ead/annotation-1.0.0.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android-example/lib/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android-example/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android-example/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android-example/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `com.airbnb.lottie.LottieCompositionFactory` was not found, it is required for default or static interface methods desugaring of `void app.artyomd.injector.example.lib.a.onViewCreated(android.view.View, android.os.Bundle)`
+D8: synthesized for lambda desugaring: Interface `com.airbnb.lottie.LottieListener` not found. It's needed to make sure desugaring of `app.artyomd.injector.example.lib.-$$Lambda$a$eMPYutskfSKz63QmJr-BzWcfsxw` is correct. Desugaring will assume that this interface has no default method.
+
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:transformDexArchiveWithDexMergerForRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :injector-android:compileReleaseNdk NO-SOURCE
+> Task :injector-android:mergeReleaseJniLibFolders
+> Task :injector-android:transformNativeLibsWithMergeJniLibsForRelease
+> Task :injector-android:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :injector-android:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :lib:compileReleaseNdk NO-SOURCE
+> Task :lib:mergeReleaseJniLibFolders
+> Task :lib:transformNativeLibsWithMergeJniLibsForRelease
+> Task :lib:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :lib:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 33s
+129 actionable tasks: 129 executed
+
+2019-01-19 18:29:50,009 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897313926-0/src/Injector-master/injector-android-example/app/build/outputs/apk/debug/app-debug.apk

@@ -1,0 +1,492 @@
+2019-01-26 21:45:28,460 INFO  DownloadService - Downloading "https://github.com/oleksiyp/mockk/archive/master.zip", attempt 3
+2019-01-26 21:45:34,124 INFO  DownloadService - Downloaded https://github.com/oleksiyp/mockk/archive/master.zip, attempt 3
+2019-01-26 21:45:34,125 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/master.zip": 5 MB
+2019-01-26 21:45:34,125 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-26 21:45:34,127 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/master.zip: true
+2019-01-26 21:45:34,127 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src'.
+2019-01-26 21:45:34,384 INFO  FullProcessService - Size of directory with sources: 6 MB
+2019-01-26 21:45:34,384 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src]
+2019-01-26 21:45:34,422 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/.git/
+
+2019-01-26 21:45:34,442 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/gradlew
+2019-01-26 21:45:34,467 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/android/dispatcher/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/mockk/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/api/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/jvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/dsl/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/dsl/js/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/dsl/jvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/mockk/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/mockk/js/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/mockk/jvm/build.gradle
+2019-01-26 21:45:34,488 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/jvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/android/dispatcher/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/api/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/mockk/js/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/mockk/jvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/mockk/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/mockk/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/gradle/upload-archives.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/gradle/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/gradle/jdk6-boot.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/gradle/additional-archives.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/gradle/android-module.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/gradle/js-module.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/gradle/common-module.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/gradle/jvm-module.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/gradle/upload-archives-android.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/gradle/detect-android-sdk.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/gradle/signing.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/matrix/android-ait.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/matrix/jvm.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/matrix/android.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/matrix/matrix-results.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/matrix/android-ait-before-p.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/dsl/js/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/dsl/jvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/dsl/common/build.gradle
+2019-01-26 21:45:34,493 INFO  ProjectBuildService - Remote scripts: none
+2019-01-26 21:45:34,493 INFO  ProjectFixService - Fixing project...
+2019-01-26 21:45:34,552 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/android/local.properties
+2019-01-26 21:45:34,559 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/android/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
+2019-01-26 21:45:34,560 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/android/dispatcher/local.properties
+2019-01-26 21:45:34,568 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/android/dispatcher/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
+2019-01-26 21:45:34,569 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/mockk/android/local.properties
+2019-01-26 21:45:34,576 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/mockk/android/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
+2019-01-26 21:45:34,578 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/local.properties
+2019-01-26 21:45:34,579 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+2019-01-26 21:45:34,580 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
+2019-01-26 21:45:34,589 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
+2019-01-26 21:45:34,591 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/api/local.properties
+2019-01-26 21:45:34,600 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/api/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
+2019-01-26 21:45:34,601 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/common/local.properties
+2019-01-26 21:45:34,607 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/common/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
+2019-01-26 21:45:34,608 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/jvm/local.properties
+2019-01-26 21:45:34,619 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/jvm/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
+2019-01-26 21:45:34,620 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/dsl/common/local.properties
+2019-01-26 21:45:34,626 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/dsl/common/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
+2019-01-26 21:45:34,627 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/dsl/js/local.properties
+2019-01-26 21:45:34,633 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/dsl/js/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
+2019-01-26 21:45:34,634 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/dsl/jvm/local.properties
+2019-01-26 21:45:34,642 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/dsl/jvm/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
+2019-01-26 21:45:34,643 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/mockk/common/local.properties
+2019-01-26 21:45:34,653 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/mockk/common/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
+2019-01-26 21:45:34,654 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/mockk/js/local.properties
+2019-01-26 21:45:34,660 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/mockk/js/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
+2019-01-26 21:45:34,661 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/mockk/jvm/local.properties
+2019-01-26 21:45:34,666 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/mockk/jvm/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
+2019-01-26 21:45:34,666 INFO  ProjectFixService - Project was maybe fixed
+2019-01-26 21:45:34,666 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-26 21:45:34,666 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-26 21:45:47,063 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-01-26 21:45:47,064 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-26 21:45:47,064 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-26 21:49:00,024 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :mockk-agent-android:androidSourcesJar
+> Task :mockk-agent-android-dispatcher:checkReleaseClasspath
+> Task :mockk-agent-android-dispatcher:preBuild UP-TO-DATE
+> Task :mockk-agent-android-dispatcher:preReleaseBuild
+> Task :mockk-agent-android-dispatcher:compileReleaseAidl NO-SOURCE
+> Task :mockk-agent-android-dispatcher:compileReleaseRenderscript
+> Task :mockk-agent-android-dispatcher:checkReleaseManifest
+> Task :mockk-agent-android-dispatcher:generateReleaseBuildConfig
+> Task :mockk-agent-android-dispatcher:prepareLintJar
+> Task :mockk-agent-android-dispatcher:mainApkListPersistenceRelease
+> Task :mockk-agent-android-dispatcher:generateReleaseResValues
+> Task :mockk-agent-android-dispatcher:generateReleaseResources
+> Task :mockk-agent-android-dispatcher:mergeReleaseResources
+> Task :mockk-agent-android-dispatcher:createReleaseCompatibleScreenManifests
+> Task :mockk-agent-android-dispatcher:processReleaseManifest
+> Task :mockk-agent-android-dispatcher:splitsDiscoveryTaskRelease
+> Task :mockk-agent-android-dispatcher:processReleaseResources
+> Task :mockk-agent-android-dispatcher:generateReleaseSources
+> Task :mockk-agent-android-dispatcher:javaPreCompileRelease
+> Task :mockk-agent-android-dispatcher:compileReleaseJavaWithJavac
+> Task :mockk-agent-android-dispatcher:compileReleaseNdk NO-SOURCE
+> Task :mockk-agent-android-dispatcher:compileReleaseSources
+
+> Task :mockk-agent-android-dispatcher:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/a2c7c69e24671954bd95a28a2e2e0bc2/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
+
+> Task :mockk-agent-android-dispatcher:mergeReleaseShaders
+> Task :mockk-agent-android-dispatcher:compileReleaseShaders
+> Task :mockk-agent-android-dispatcher:generateReleaseAssets
+> Task :mockk-agent-android-dispatcher:mergeReleaseAssets
+> Task :mockk-agent-android-dispatcher:transformClassesWithDexBuilderForRelease
+> Task :mockk-agent-android-dispatcher:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :mockk-agent-android-dispatcher:transformDexArchiveWithDexMergerForRelease
+> Task :mockk-agent-android-dispatcher:mergeReleaseJniLibFolders
+> Task :mockk-agent-android-dispatcher:transformNativeLibsWithMergeJniLibsForRelease
+> Task :mockk-agent-android-dispatcher:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :mockk-agent-android-dispatcher:checkReleaseLibraries
+> Task :mockk-agent-android-dispatcher:processReleaseJavaRes NO-SOURCE
+> Task :mockk-agent-android-dispatcher:transformResourcesWithMergeJavaResForRelease
+> Task :mockk-agent-android-dispatcher:packageRelease
+> Task :mockk-agent-android-dispatcher:assembleRelease
+> Task :mockk-agent-android:copyDispatcherApk
+> Task :mockk-agent-android:unzipDispatcherApk
+> Task :mockk-agent-android:packageDispatcherJar
+> Task :mockk-agent-android:preBuild
+> Task :mockk-agent-android:preDebugBuild
+> Task :mockk-agent-android:compileDebugAidl NO-SOURCE
+> Task :mockk-agent-api:compileKotlin
+> Task :mockk-agent-api:compileJava NO-SOURCE
+> Task :mockk-agent-api:processResources NO-SOURCE
+> Task :mockk-agent-api:classes UP-TO-DATE
+> Task :mockk-agent-api:inspectClassesForKotlinIC
+> Task :mockk-agent-api:jar
+> Transform mockk-agent-api.jar (project :mockk-agent-api) with IdentityTransform
+> Task :mockk-agent-common:compileKotlin
+> Transform mockk-agent-api.jar (project :mockk-agent-api) with IdentityTransform
+> Task :mockk-agent-common:compileJava NO-SOURCE
+> Task :mockk-agent-common:processResources NO-SOURCE
+> Task :mockk-agent-common:classes UP-TO-DATE
+> Task :mockk-agent-common:inspectClassesForKotlinIC
+> Task :mockk-agent-common:jar
+> Transform mockk-agent-common.jar (project :mockk-agent-common) with IdentityTransform
+> Task :mockk-agent-android:compileDebugRenderscript
+> Transform mockk-agent-common.jar (project :mockk-agent-common) with IdentityTransform
+> Task :mockk-agent-android:checkDebugManifest
+> Task :mockk-agent-android:generateDebugBuildConfig
+> Task :mockk-agent-android:generateDebugResValues
+> Task :mockk-agent-android:generateDebugResources
+> Task :mockk-agent-android:packageDebugResources
+> Task :mockk-agent-android:processDebugManifest
+> Task :mockk-agent-android:generateDebugRFile
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/android/src/main/kotlin/io/mockk/proxy/android/AndroidMockKAgentFactory.kt: (39, 21): Unsafe use of a nullable receiver of type ClassLoader?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/android/src/main/kotlin/io/mockk/proxy/android/JvmtiAgent.kt: (78, 9): Parameter 'loader' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/android/src/main/kotlin/io/mockk/proxy/android/JvmtiAgent.kt: (79, 9): Parameter 'className' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/android/src/main/kotlin/io/mockk/proxy/android/JvmtiAgent.kt: (81, 9): Parameter 'protectionDomain' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/android/src/main/kotlin/io/mockk/proxy/android/advice/Advice.kt: (156, 31): Unsafe use of a nullable receiver of type Class<in Nothing!>?
+> Task :mockk-agent-android:compileDebugKotlin
+> Task :mockk-agent-android:prepareLintJar
+> Task :mockk-agent-android:generateDebugSources
+> Task :mockk-agent-android:javaPreCompileDebug
+> Task :mockk-agent-android:compileDebugJavaWithJavac
+> Task :mockk-agent-android:extractDebugAnnotations
+> Task :mockk-agent-android:mergeDebugConsumerProguardFiles
+> Task :mockk-agent-android:mergeDebugShaders
+> Task :mockk-agent-android:compileDebugShaders
+> Task :mockk-agent-android:generateDebugAssets
+> Task :mockk-agent-android:packageDebugAssets
+> Task :mockk-agent-android:packageDebugRenderscript NO-SOURCE
+> Task :mockk-agent-android:processDebugJavaRes
+> Task :mockk-agent-android:transformResourcesWithMergeJavaResForDebug
+> Task :mockk-agent-android:transformClassesAndResourcesWithSyncLibJarsForDebug
+
+> Task :mockk-agent-android:generateJsonModelDebug
+Variant=debug ABI=armeabi-v7a :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
+Variant=debug ABI=armeabi-v7a :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
+Variant=debug ABI=armeabi-v7a :-- Detecting C compiler ABI info
+Variant=debug ABI=armeabi-v7a :-- Detecting C compiler ABI info - done
+Variant=debug ABI=armeabi-v7a :-- Detecting C compile features
+Variant=debug ABI=armeabi-v7a :-- Detecting C compile features - done
+Variant=debug ABI=armeabi-v7a :-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++
+Variant=debug ABI=armeabi-v7a :-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works
+Variant=debug ABI=armeabi-v7a :-- Detecting CXX compiler ABI info
+Variant=debug ABI=armeabi-v7a :-- Detecting CXX compiler ABI info - done
+Variant=debug ABI=armeabi-v7a :-- Detecting CXX compile features
+Variant=debug ABI=armeabi-v7a :-- Detecting CXX compile features - done
+Variant=debug ABI=armeabi-v7a :-- Configuring done
+Variant=debug ABI=armeabi-v7a :-- Generating done
+Variant=debug ABI=armeabi-v7a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/android/.externalNativeBuild/cmake/debug/armeabi-v7a
+Variant=debug ABI=arm64-v8a :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
+Variant=debug ABI=arm64-v8a :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
+Variant=debug ABI=arm64-v8a :-- Detecting C compiler ABI info
+Variant=debug ABI=arm64-v8a :-- Detecting C compiler ABI info - done
+Variant=debug ABI=arm64-v8a :-- Detecting C compile features
+Variant=debug ABI=arm64-v8a :-- Detecting C compile features - done
+Variant=debug ABI=arm64-v8a :-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++
+Variant=debug ABI=arm64-v8a :-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works
+Variant=debug ABI=arm64-v8a :-- Detecting CXX compiler ABI info
+Variant=debug ABI=arm64-v8a :-- Detecting CXX compiler ABI info - done
+Variant=debug ABI=arm64-v8a :-- Detecting CXX compile features
+Variant=debug ABI=arm64-v8a :-- Detecting CXX compile features - done
+Variant=debug ABI=arm64-v8a :-- Configuring done
+Variant=debug ABI=arm64-v8a :-- Generating done
+Variant=debug ABI=arm64-v8a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/android/.externalNativeBuild/cmake/debug/arm64-v8a
+Variant=debug ABI=x86 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
+Variant=debug ABI=x86 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
+Variant=debug ABI=x86 :-- Detecting C compiler ABI info
+Variant=debug ABI=x86 :-- Detecting C compiler ABI info - done
+Variant=debug ABI=x86 :-- Detecting C compile features
+Variant=debug ABI=x86 :-- Detecting C compile features - done
+Variant=debug ABI=x86 :-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++
+Variant=debug ABI=x86 :-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works
+Variant=debug ABI=x86 :-- Detecting CXX compiler ABI info
+Variant=debug ABI=x86 :-- Detecting CXX compiler ABI info - done
+Variant=debug ABI=x86 :-- Detecting CXX compile features
+Variant=debug ABI=x86 :-- Detecting CXX compile features - done
+Variant=debug ABI=x86 :-- Configuring done
+Variant=debug ABI=x86 :-- Generating done
+Variant=debug ABI=x86 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/android/.externalNativeBuild/cmake/debug/x86
+Variant=debug ABI=x86_64 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
+Variant=debug ABI=x86_64 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
+Variant=debug ABI=x86_64 :-- Detecting C compiler ABI info
+Variant=debug ABI=x86_64 :-- Detecting C compiler ABI info - done
+Variant=debug ABI=x86_64 :-- Detecting C compile features
+Variant=debug ABI=x86_64 :-- Detecting C compile features - done
+Variant=debug ABI=x86_64 :-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++
+Variant=debug ABI=x86_64 :-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works
+Variant=debug ABI=x86_64 :-- Detecting CXX compiler ABI info
+Variant=debug ABI=x86_64 :-- Detecting CXX compiler ABI info - done
+Variant=debug ABI=x86_64 :-- Detecting CXX compile features
+Variant=debug ABI=x86_64 :-- Detecting CXX compile features - done
+Variant=debug ABI=x86_64 :-- Configuring done
+Variant=debug ABI=x86_64 :-- Generating done
+Variant=debug ABI=x86_64 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/android/.externalNativeBuild/cmake/debug/x86_64
+
+> Task :mockk-agent-android:externalNativeBuildDebug
+Build mockkjvmtiagent x86_64
+[1/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/bytecode_encoder.cc.o
+[2/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/code_ir.cc.o
+[3/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/common.cc.o
+[4/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/control_flow_graph.cc.o
+[5/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/debuginfo_encoder.cc.o
+[6/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_bytecode.cc.o
+[7/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_format.cc.o
+[8/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_ir_builder.cc.o
+[9/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_ir.cc.o
+[10/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_utf8.cc.o
+[11/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/instrumentation.cc.o
+[12/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/reader.cc.o
+[13/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/tryblocks_encoder.cc.o
+[14/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/writer.cc.o
+[15/17] Linking CXX static library libslicer.a
+[16/17] Building CXX object CMakeFiles/mockkjvmtiagent.dir/src/main/jni/mockkjvmtiagent/proxy-agent.cc.o
+[17/17] Linking CXX shared library ../../../../build/intermediates/cmake/debug/obj/x86_64/libmockkjvmtiagent.so
+Build mockkjvmtiagent x86
+[1/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/bytecode_encoder.cc.o
+[2/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/code_ir.cc.o
+[3/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/common.cc.o
+[4/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/control_flow_graph.cc.o
+[5/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/debuginfo_encoder.cc.o
+[6/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_bytecode.cc.o
+[7/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_format.cc.o
+[8/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_ir_builder.cc.o
+[9/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_ir.cc.o
+[10/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_utf8.cc.o
+[11/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/instrumentation.cc.o
+[12/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/reader.cc.o
+[13/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/tryblocks_encoder.cc.o
+[14/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/writer.cc.o
+[15/17] Linking CXX static library libslicer.a
+[16/17] Building CXX object CMakeFiles/mockkjvmtiagent.dir/src/main/jni/mockkjvmtiagent/proxy-agent.cc.o
+[17/17] Linking CXX shared library ../../../../build/intermediates/cmake/debug/obj/x86/libmockkjvmtiagent.so
+Build mockkjvmtiagent arm64-v8a
+[1/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/bytecode_encoder.cc.o
+[2/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/code_ir.cc.o
+[3/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/common.cc.o
+[4/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/control_flow_graph.cc.o
+[5/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/debuginfo_encoder.cc.o
+[6/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_bytecode.cc.o
+[7/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_format.cc.o
+[8/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_ir_builder.cc.o
+[9/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_ir.cc.o
+[10/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_utf8.cc.o
+[11/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/instrumentation.cc.o
+[12/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/reader.cc.o
+[13/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/tryblocks_encoder.cc.o
+[14/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/writer.cc.o
+[15/17] Linking CXX static library libslicer.a
+[16/17] Building CXX object CMakeFiles/mockkjvmtiagent.dir/src/main/jni/mockkjvmtiagent/proxy-agent.cc.o
+[17/17] Linking CXX shared library ../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libmockkjvmtiagent.so
+Build mockkjvmtiagent armeabi-v7a
+[1/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/bytecode_encoder.cc.o
+[2/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/code_ir.cc.o
+[3/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/common.cc.o
+[4/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/control_flow_graph.cc.o
+[5/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/debuginfo_encoder.cc.o
+[6/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_bytecode.cc.o
+[7/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_format.cc.o
+[8/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_ir_builder.cc.o
+[9/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_ir.cc.o
+[10/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_utf8.cc.o
+[11/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/instrumentation.cc.o
+[12/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/reader.cc.o
+[13/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/tryblocks_encoder.cc.o
+[14/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/writer.cc.o
+[15/17] Linking CXX static library libslicer.a
+[16/17] Building CXX object CMakeFiles/mockkjvmtiagent.dir/src/main/jni/mockkjvmtiagent/proxy-agent.cc.o
+[17/17] Linking CXX shared library ../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libmockkjvmtiagent.so
+
+> Task :mockk-agent-android:mergeDebugJniLibFolders
+> Task :mockk-agent-android:transformNativeLibsWithMergeJniLibsForDebug
+> Task :mockk-agent-android:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :mockk-agent-android:transformNativeLibsWithSyncJniLibsForDebug
+> Task :mockk-agent-android:bundleDebugAar
+> Task :mockk-agent-android:compileDebugSources
+> Task :mockk-agent-android:assembleDebug
+> Task :mockk-agent-android:preReleaseBuild
+> Task :mockk-agent-android:compileReleaseAidl NO-SOURCE
+> Task :mockk-agent-android:compileReleaseRenderscript
+> Task :mockk-agent-android:checkReleaseManifest
+> Task :mockk-agent-android:generateReleaseBuildConfig
+> Task :mockk-agent-android:generateReleaseResValues
+> Task :mockk-agent-android:generateReleaseResources
+> Task :mockk-agent-android:packageReleaseResources
+> Task :mockk-agent-android:processReleaseManifest
+> Task :mockk-agent-android:generateReleaseRFile
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/android/src/main/kotlin/io/mockk/proxy/android/AndroidMockKAgentFactory.kt: (39, 21): Unsafe use of a nullable receiver of type ClassLoader?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/android/src/main/kotlin/io/mockk/proxy/android/JvmtiAgent.kt: (78, 9): Parameter 'loader' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/android/src/main/kotlin/io/mockk/proxy/android/JvmtiAgent.kt: (79, 9): Parameter 'className' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/android/src/main/kotlin/io/mockk/proxy/android/JvmtiAgent.kt: (81, 9): Parameter 'protectionDomain' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/android/src/main/kotlin/io/mockk/proxy/android/advice/Advice.kt: (156, 31): Unsafe use of a nullable receiver of type Class<in Nothing!>?
+> Task :mockk-agent-android:compileReleaseKotlin
+> Task :mockk-agent-android:generateReleaseSources
+> Task :mockk-agent-android:javaPreCompileRelease
+> Task :mockk-agent-android:compileReleaseJavaWithJavac
+> Task :mockk-agent-android:extractReleaseAnnotations
+> Task :mockk-agent-android:mergeReleaseConsumerProguardFiles
+> Task :mockk-agent-android:mergeReleaseShaders
+> Task :mockk-agent-android:compileReleaseShaders
+> Task :mockk-agent-android:generateReleaseAssets
+> Task :mockk-agent-android:packageReleaseAssets
+> Task :mockk-agent-android:packageReleaseRenderscript NO-SOURCE
+> Task :mockk-agent-android:processReleaseJavaRes
+> Task :mockk-agent-android:transformResourcesWithMergeJavaResForRelease
+> Task :mockk-agent-android:transformClassesAndResourcesWithSyncLibJarsForRelease
+
+> Task :mockk-agent-android:generateJsonModelRelease
+Variant=release ABI=armeabi-v7a :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
+Variant=release ABI=armeabi-v7a :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
+Variant=release ABI=armeabi-v7a :-- Detecting C compiler ABI info
+Variant=release ABI=armeabi-v7a :-- Detecting C compiler ABI info - done
+Variant=release ABI=armeabi-v7a :-- Detecting C compile features
+Variant=release ABI=armeabi-v7a :-- Detecting C compile features - done
+Variant=release ABI=armeabi-v7a :-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++
+Variant=release ABI=armeabi-v7a :-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works
+Variant=release ABI=armeabi-v7a :-- Detecting CXX compiler ABI info
+Variant=release ABI=armeabi-v7a :-- Detecting CXX compiler ABI info - done
+Variant=release ABI=armeabi-v7a :-- Detecting CXX compile features
+Variant=release ABI=armeabi-v7a :-- Detecting CXX compile features - done
+Variant=release ABI=armeabi-v7a :-- Configuring done
+Variant=release ABI=armeabi-v7a :-- Generating done
+Variant=release ABI=armeabi-v7a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/android/.externalNativeBuild/cmake/release/armeabi-v7a
+Variant=release ABI=arm64-v8a :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
+Variant=release ABI=arm64-v8a :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
+Variant=release ABI=arm64-v8a :-- Detecting C compiler ABI info
+Variant=release ABI=arm64-v8a :-- Detecting C compiler ABI info - done
+Variant=release ABI=arm64-v8a :-- Detecting C compile features
+Variant=release ABI=arm64-v8a :-- Detecting C compile features - done
+Variant=release ABI=arm64-v8a :-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++
+Variant=release ABI=arm64-v8a :-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works
+Variant=release ABI=arm64-v8a :-- Detecting CXX compiler ABI info
+Variant=release ABI=arm64-v8a :-- Detecting CXX compiler ABI info - done
+Variant=release ABI=arm64-v8a :-- Detecting CXX compile features
+Variant=release ABI=arm64-v8a :-- Detecting CXX compile features - done
+Variant=release ABI=arm64-v8a :-- Configuring done
+Variant=release ABI=arm64-v8a :-- Generating done
+Variant=release ABI=arm64-v8a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/android/.externalNativeBuild/cmake/release/arm64-v8a
+Variant=release ABI=x86 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
+Variant=release ABI=x86 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
+Variant=release ABI=x86 :-- Detecting C compiler ABI info
+Variant=release ABI=x86 :-- Detecting C compiler ABI info - done
+Variant=release ABI=x86 :-- Detecting C compile features
+Variant=release ABI=x86 :-- Detecting C compile features - done
+Variant=release ABI=x86 :-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++
+Variant=release ABI=x86 :-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works
+Variant=release ABI=x86 :-- Detecting CXX compiler ABI info
+Variant=release ABI=x86 :-- Detecting CXX compiler ABI info - done
+Variant=release ABI=x86 :-- Detecting CXX compile features
+Variant=release ABI=x86 :-- Detecting CXX compile features - done
+Variant=release ABI=x86 :-- Configuring done
+Variant=release ABI=x86 :-- Generating done
+Variant=release ABI=x86 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/android/.externalNativeBuild/cmake/release/x86
+Variant=release ABI=x86_64 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
+Variant=release ABI=x86_64 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
+Variant=release ABI=x86_64 :-- Detecting C compiler ABI info
+Variant=release ABI=x86_64 :-- Detecting C compiler ABI info - done
+Variant=release ABI=x86_64 :-- Detecting C compile features
+Variant=release ABI=x86_64 :-- Detecting C compile features - done
+Variant=release ABI=x86_64 :-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++
+Variant=release ABI=x86_64 :-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works
+Variant=release ABI=x86_64 :-- Detecting CXX compiler ABI info
+Variant=release ABI=x86_64 :-- Detecting CXX compiler ABI info - done
+Variant=release ABI=x86_64 :-- Detecting CXX compile features
+Variant=release ABI=x86_64 :-- Detecting CXX compile features - done
+Variant=release ABI=x86_64 :-- Configuring done
+Variant=release ABI=x86_64 :-- Generating done
+Variant=release ABI=x86_64 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/android/.externalNativeBuild/cmake/release/x86_64
+
+> Task :mockk-agent-android:externalNativeBuildRelease
+Build mockkjvmtiagent x86_64
+[1/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/bytecode_encoder.cc.o
+[2/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/code_ir.cc.o
+[3/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/common.cc.o
+[4/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/control_flow_graph.cc.o
+[5/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/debuginfo_encoder.cc.o
+[6/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_bytecode.cc.o
+[7/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_format.cc.o
+[8/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_ir_builder.cc.o
+[9/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_ir.cc.o
+[10/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_utf8.cc.o
+[11/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/instrumentation.cc.o
+[12/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/reader.cc.o
+[13/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/tryblocks_encoder.cc.o
+[14/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/writer.cc.o
+[15/17] Linking CXX static library libslicer.a
+[16/17] Building CXX object CMakeFiles/mockkjvmtiagent.dir/src/main/jni/mockkjvmtiagent/proxy-agent.cc.o
+[17/17] Linking CXX shared library ../../../../build/intermediates/cmake/release/obj/x86_64/libmockkjvmtiagent.so
+Build mockkjvmtiagent x86
+[1/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/bytecode_encoder.cc.o
+[2/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/code_ir.cc.o
+[3/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/common.cc.o
+[4/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/control_flow_graph.cc.o
+[5/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/debuginfo_encoder.cc.o
+[6/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_bytecode.cc.o
+[7/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_format.cc.o
+[8/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_ir_builder.cc.o
+[9/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_ir.cc.o
+[10/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_utf8.cc.o
+[11/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/instrumentation.cc.o
+[12/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/reader.cc.o
+[13/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/tryblocks_encoder.cc.o
+[14/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/writer.cc.o
+[15/17] Linking CXX static library libslicer.a
+[16/17] Building CXX object CMakeFiles/mockkjvmtiagent.dir/src/main/jni/mockkjvmtiagent/proxy-agent.cc.o
+[17/17] Linking CXX shared library ../../../../build/intermediates/cmake/release/obj/x86/libmockkjvmtiagent.so
+Build mockkjvmtiagent arm64-v8a
+[1/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/bytecode_encoder.cc.o
+[2/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/code_ir.cc.o
+[3/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/common.cc.o
+[4/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/control_flow_graph.cc.o
+[5/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/debuginfo_encoder.cc.o
+[6/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_bytecode.cc.o
+[7/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_format.cc.o
+[8/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_ir_builder.cc.o
+[9/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_ir.cc.o
+[10/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_utf8.cc.o
+[11/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/instrumentation.cc.o
+[12/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/reader.cc.o
+[13/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/tryblocks_encoder.cc.o
+[14/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/writer.cc.o
+[15/17] Linking CXX static library libslicer.a
+[16/17] Building CXX object CMakeFiles/mockkjvmtiagent.dir/src/main/jni/mockkjvmtiagent/proxy-agent.cc.o
+[17/17] Linking CXX shared library ../../../../build/intermediates/cmake/release/obj/arm64-v8a/libmockkjvmtiagent.so
+Build mockkjvmtiagent armeabi-v7a
+[1/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/bytecode_encoder.cc.o
+[2/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/code_ir.cc.o
+[3/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/common.cc.o
+[4/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/control_flow_graph.cc.o
+[5/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/debuginfo_encoder.cc.o
+[6/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_bytecode.cc.o
+[7/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_format.cc.o
+[8/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_ir_builder.cc.o
+[9/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_ir.cc.o
+[10/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/dex_utf8.cc.o
+[11/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/instrumentation.cc.o
+[12/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/reader.cc.o
+[13/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/tryblocks_encoder.cc.o
+[14/17] Building CXX object CMakeFiles/slicer.dir/external/slicer/writer.cc.o
+[15/17] Linking CXX static library libslicer.a
+[16/17] Building CXX object CMakeFiles/mockkjvmtiagent.dir/src/main/jni/mockkjvmtiagent/proxy-agent.cc.o
+[17/17] Linking CXX shared library ../../../../build/intermediates/cmake/release/obj/armeabi-v7a/libmockkjvmtiagent.so
+
+> Task :mockk-agent-android:mergeReleaseJniLibFolders
+> Task :mockk-agent-android:transformNativeLibsWithMergeJniLibsForRelease
+> Task :mockk-agent-android:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :mockk-agent-android:transformNativeLibsWithSyncJniLibsForRelease
+> Task :mockk-agent-android:bundleReleaseAar
+> Task :mockk-agent-android:compileReleaseSources
+> Task :mockk-agent-android:mergeReleaseResources
+> Task :mockk-agent-android:verifyReleaseResources
+> Task :mockk-agent-android:assembleRelease
+
+> Task :mockk-agent-android:dokkaJavadoc
+No documentation for io.mockk.proxy.android.AndroidMockKAgentFactory (AndroidMockKAgentFactory.kt:13)
+No documentation for io.mockk.proxy.android.AndroidMockKAgentFactory$log (AndroidMockKAgentFactory.kt:21)
+No documentation for io.mockk.proxy.android.AndroidMockKAgentFactory$log (AndroidMockKAgentFactory.kt:21)
+No documentation for io.mockk.proxy.android.AndroidMockKAgentFactory$instantiator (AndroidMockKAgentFactory.kt:23)
+No documentation for io.mockk.proxy.android.AndroidMockKAgentFactory$instantiator (AndroidMockKAgentFactory.kt:23)
+No documentation for io.mockk.proxy.android.AndroidMockKAgentFactory$proxyMaker (AndroidMockKAgentFactory.kt:24)
+No documentation for io.mockk.proxy.android.AndroidMockKAgentFactory$proxyMaker (AndroidMockKAgentFactory.kt:24)
+No documentation for io.mockk.proxy.android.AndroidMockKAgentFactory$staticProxyMaker (AndroidMockKAgentFactory.kt:25)
+No documentation for io.mockk.proxy.android.AndroidMockKAgentFactory$staticProxyMaker (AndroidMockKAgentFactory.kt:25)
+No documentation for io.mockk.proxy.android.AndroidMockKAgentFactory$constructorProxyMaker (AndroidMockKAgentFactory.kt:26)
+No documentation for io.mockk.proxy.android.AndroidMockKAgentFactory$constructorProxyMaker (AndroidMockKAgentFactory.kt:26)
+No documentation for io.mockk.proxy.android.AndroidMockKAgentFactory$init(io.mockk.proxy.MockKAgentLogFactory) (AndroidMockKAgentFactory.kt:28)
+No documentation for io.mockk.proxy.android.AndroidMockKAgentFactory (AndroidMockKAgentFactory.kt:13)
+No documentation for io.mockk.proxy.android.AndroidMockKAgentFactory$log (AndroidMockKAgentFactory.kt:21)
+No documentation for io.mockk.proxy.android.AndroidMockKAgentFactory$instantiator (AndroidMockKAgentFactory.kt:23)
+No documentation for io.mockk.proxy.android.AndroidMockKAgentFactory$proxyMaker (AndroidMockKAgentFactory.kt:24)
+No documentation for io.mockk.proxy.android.AndroidMockKAgentFactory$staticProxyMaker (AndroidMockKAgentFactory.kt:25)
+No documentation for io.mockk.proxy.android.AndroidMockKAgentFactory$constructorProxyMaker (AndroidMockKAgentFactory.kt:26)
+No documentation for io.mockk.proxy.android.AndroidMockKAgentFactory.Companion (AndroidMockKAgentFactory.kt:137)
+No documentation for io.mockk.proxy.android.AndroidMockKAgentFactory.Companion (AndroidMockKAgentFactory.kt:137)
+
+> Task :mockk-agent-android:javadocJar
+> Task :mockk-agent-android:signArchives SKIPPED
+> Task :mockk-agent-android:assemble
+> Task :mockk-agent-android:build
+
+BUILD SUCCESSFUL in 3m 12s
+93 actionable tasks: 93 executed
+
+2019-01-26 21:49:00,090 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548513928453-0/src/mockk-master/agent/android/dispatcher/build/outputs/apk/release/mockk-agent-android-dispatcher-release-unsigned.apk

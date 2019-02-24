@@ -1,0 +1,465 @@
+2018-12-18 01:34:14,358 INFO  DownloadService - Downloading "https://github.com/yuriy-budiyev/circular-progress-bar/archive/master.zip", attempt 3
+2018-12-18 01:34:15,904 INFO  DownloadService - Downloaded https://github.com/yuriy-budiyev/circular-progress-bar/archive/master.zip, attempt 3
+2018-12-18 01:34:15,904 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/master.zip": 77 KB
+2018-12-18 01:34:15,904 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-18 01:34:15,910 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/master.zip: true
+2018-12-18 01:34:15,910 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src'.
+2018-12-18 01:34:15,919 INFO  FullProcessService - Size of directory with sources: 115 KB
+2018-12-18 01:34:15,919 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src]
+2018-12-18 01:34:15,947 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/.git/
+
+2018-12-18 01:34:15,949 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/gradlew
+2018-12-18 01:34:15,951 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/build.gradle
+2018-12-18 01:34:15,953 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/build.gradle
+2018-12-18 01:34:15,953 INFO  ProjectBuildService - Remote scripts: none
+2018-12-18 01:34:15,953 INFO  ProjectFixService - Fixing project...
+2018-12-18 01:34:15,958 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/local.properties
+2018-12-18 01:34:15,958 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-12-18 01:34:15,959 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-12-18 01:34:15,960 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-18 01:34:15,960 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-18 01:34:15,961 INFO  ProjectFixService - Project was maybe fixed
+2018-12-18 01:34:15,961 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-18 01:34:15,961 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-18 01:34:24,443 INFO  ProjectTaskService - Detected possible tasks: 72
+2018-12-18 01:34:24,443 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-12-18 01:34:24,444 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-12-18 01:34:35,096 INFO  SysUtils - Configuration on demand is an incubating feature.
+:preBuild UP-TO-DATE
+:preDebugBuild UP-TO-DATE
+:compileDebugAidl NO-SOURCE
+:compileDebugRenderscript
+:checkDebugManifest
+:generateDebugBuildConfig
+:generateDebugResValues
+:generateDebugResources
+:packageDebugResources
+:processDebugManifest
+:generateDebugRFile
+:prepareLintJar
+:generateDebugSources
+:javaPreCompileDebug
+:compileDebugJavaWithJavac
+:extractDebugAnnotations
+:mergeDebugConsumerProguardFiles
+:mergeDebugShaders
+:compileDebugShaders
+:generateDebugAssets
+:packageDebugAssets
+:packageDebugRenderscript NO-SOURCE
+:processDebugJavaRes NO-SOURCE
+:transformResourcesWithMergeJavaResForDebug
+:transformClassesAndResourcesWithSyncLibJarsForDebug
+:compileDebugNdk NO-SOURCE
+:mergeDebugJniLibFolders
+:transformNativeLibsWithMergeJniLibsForDebug
+:transformNativeLibsWithStripDebugSymbolForDebug
+:transformNativeLibsWithSyncJniLibsForDebug
+:bundleDebugAar
+:compileDebugSources
+:assembleDebug
+:preReleaseBuild UP-TO-DATE
+:compileReleaseAidl NO-SOURCE
+:compileReleaseRenderscript
+:checkReleaseManifest
+:generateReleaseBuildConfig
+:generateReleaseResValues
+:generateReleaseResources
+:packageReleaseResources
+:processReleaseManifest
+:generateReleaseRFile
+:generateReleaseSources
+:javaPreCompileRelease
+:compileReleaseJavaWithJavac
+:extractReleaseAnnotations
+:mergeReleaseConsumerProguardFiles
+:mergeReleaseShaders
+:compileReleaseShaders
+:generateReleaseAssets
+:packageReleaseAssets
+:packageReleaseRenderscript NO-SOURCE
+:processReleaseJavaRes NO-SOURCE
+:transformResourcesWithMergeJavaResForRelease
+:transformClassesAndResourcesWithSyncLibJarsForRelease
+:compileReleaseNdk NO-SOURCE
+:mergeReleaseJniLibFolders
+:transformNativeLibsWithMergeJniLibsForRelease
+:transformNativeLibsWithStripDebugSymbolForRelease
+:transformNativeLibsWithSyncJniLibsForRelease
+:bundleReleaseAar
+:compileReleaseSources
+:mergeReleaseResources
+:verifyReleaseResources
+:assembleRelease
+:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:42: error: cannot find symbol
+import androidx.annotation.AttrRes;
+                          ^
+  symbol:   class AttrRes
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:43: error: cannot find symbol
+import androidx.annotation.ColorInt;
+                          ^
+  symbol:   class ColorInt
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:44: error: cannot find symbol
+import androidx.annotation.FloatRange;
+                          ^
+  symbol:   class FloatRange
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:45: error: cannot find symbol
+import androidx.annotation.IntRange;
+                          ^
+  symbol:   class IntRange
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:46: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:47: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:48: error: cannot find symbol
+import androidx.annotation.RequiresApi;
+                          ^
+  symbol:   class RequiresApi
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:49: error: cannot find symbol
+import androidx.annotation.StyleRes;
+                          ^
+  symbol:   class StyleRes
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:93: error: cannot find symbol
+    public CircularProgressBar(@NonNull final Context context) {
+                                ^
+  symbol:   class NonNull
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:98: error: cannot find symbol
+    public CircularProgressBar(@NonNull final Context context, @Nullable final AttributeSet attrs) {
+                                ^
+  symbol:   class NonNull
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:98: error: cannot find symbol
+    public CircularProgressBar(@NonNull final Context context, @Nullable final AttributeSet attrs) {
+                                                                ^
+  symbol:   class Nullable
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:103: error: cannot find symbol
+    public CircularProgressBar(@NonNull final Context context, @Nullable final AttributeSet attrs,
+                                ^
+  symbol:   class NonNull
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:103: error: cannot find symbol
+    public CircularProgressBar(@NonNull final Context context, @Nullable final AttributeSet attrs,
+                                                                ^
+  symbol:   class Nullable
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:110: error: cannot find symbol
+    public CircularProgressBar(@NonNull final Context context, @Nullable final AttributeSet attrs,
+                                ^
+  symbol:   class NonNull
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:110: error: cannot find symbol
+    public CircularProgressBar(@NonNull final Context context, @Nullable final AttributeSet attrs,
+                                                                ^
+  symbol:   class Nullable
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:109: error: cannot find symbol
+    @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
+     ^
+  symbol:   class RequiresApi
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:177: error: cannot find symbol
+    @FloatRange(from = -360f, to = 360f)
+     ^
+  symbol:   class FloatRange
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:185: error: cannot find symbol
+    public void setStartAngle(@FloatRange(from = -360f, to = 360f) final float angle) {
+                               ^
+  symbol:   class FloatRange
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:210: error: cannot find symbol
+    @IntRange(from = 0)
+     ^
+  symbol:   class IntRange
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:218: error: cannot find symbol
+    public void setProgressAnimationDuration(@IntRange(from = 0) final long duration) {
+                                              ^
+  symbol:   class IntRange
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:231: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:239: error: cannot find symbol
+    public void setProgressAnimationInterpolator(@NonNull final TimeInterpolator interpolator) {
+                                                  ^
+  symbol:   class NonNull
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:253: error: cannot find symbol
+    @FloatRange(from = 0f, to = 180f)
+     ^
+  symbol:   class FloatRange
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:261: error: cannot find symbol
+    public void setIndeterminateMinimumAngle(@FloatRange(from = 0f, to = 180f) final float angle) {
+                                              ^
+  symbol:   class FloatRange
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:278: error: cannot find symbol
+    @IntRange(from = 0)
+     ^
+  symbol:   class IntRange
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:286: error: cannot find symbol
+    public void setIndeterminateRotationAnimationDuration(@IntRange(from = 0) final long duration) {
+                                                           ^
+  symbol:   class IntRange
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:301: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:309: error: cannot find symbol
+    public void setIndeterminateRotationAnimationInterpolator(@NonNull final TimeInterpolator interpolator) {
+                                                               ^
+  symbol:   class NonNull
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:325: error: cannot find symbol
+    @IntRange(from = 0)
+     ^
+  symbol:   class IntRange
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:333: error: cannot find symbol
+    public void setIndeterminateSweepAnimationDuration(@IntRange(from = 0) final long duration) {
+                                                        ^
+  symbol:   class IntRange
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:348: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:356: error: cannot find symbol
+    public void setIndeterminateSweepAnimationInterpolator(@NonNull final TimeInterpolator interpolator) {
+                                                            ^
+  symbol:   class NonNull
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:372: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:380: error: cannot find symbol
+    public void setForegroundStrokeCap(@NonNull final Paint.Cap cap) {
+                                        ^
+  symbol:   class NonNull
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:393: error: cannot find symbol
+    @ColorInt
+     ^
+  symbol:   class ColorInt
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:401: error: cannot find symbol
+    public void setForegroundStrokeColor(@ColorInt final int color) {
+                                          ^
+  symbol:   class ColorInt
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:409: error: cannot find symbol
+    @FloatRange(from = 0f, to = Float.MAX_VALUE)
+     ^
+  symbol:   class FloatRange
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:417: error: cannot find symbol
+    public void setForegroundStrokeWidth(@FloatRange(from = 0f, to = Float.MAX_VALUE) final float width) {
+                                          ^
+  symbol:   class FloatRange
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:429: error: cannot find symbol
+    @ColorInt
+     ^
+  symbol:   class ColorInt
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:437: error: cannot find symbol
+    public void setBackgroundStrokeColor(@ColorInt final int color) {
+                                          ^
+  symbol:   class ColorInt
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:445: error: cannot find symbol
+    @FloatRange(from = 0f, to = Float.MAX_VALUE)
+     ^
+  symbol:   class FloatRange
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:453: error: cannot find symbol
+    public void setBackgroundStrokeWidth(@FloatRange(from = 0f, to = Float.MAX_VALUE) final float width) {
+                                          ^
+  symbol:   class FloatRange
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:608: error: cannot find symbol
+    private void initialize(@NonNull final Context context, @Nullable final AttributeSet attributeSet,
+                             ^
+  symbol:   class NonNull
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:608: error: cannot find symbol
+    private void initialize(@NonNull final Context context, @Nullable final AttributeSet attributeSet,
+                                                             ^
+  symbol:   class Nullable
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:609: error: cannot find symbol
+            @AttrRes final int defStyleAttr, @StyleRes final int defStyleRes) {
+             ^
+  symbol:   class AttrRes
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:609: error: cannot find symbol
+            @AttrRes final int defStyleAttr, @StyleRes final int defStyleRes) {
+                                              ^
+  symbol:   class StyleRes
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:783: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class CircularProgressBar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:119: warning: no @return
+    public boolean isIndeterminate() {
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:126: warning: no @param for indeterminate
+    public void setIndeterminate(final boolean indeterminate) {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:139: warning: no @return
+    public float getProgress() {
+                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:146: warning: no @param for progress
+    public void setProgress(final float progress) {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:162: warning: no @return
+    public float getMaximum() {
+                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:169: warning: no @param for maximum
+    public void setMaximum(final float maximum) {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:178: warning: no @return
+    public float getStartAngle() {
+                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:185: warning: no @param for angle
+    public void setStartAngle(@FloatRange(from = -360f, to = 360f) final float angle) {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:196: warning: no @return
+    public boolean isAnimateProgress() {
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:203: warning: no @param for animate
+    public void setAnimateProgress(final boolean animate) {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:211: warning: no @return
+    public long getProgressAnimationDuration() {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:218: warning: no @param for duration
+    public void setProgressAnimationDuration(@IntRange(from = 0) final long duration) {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:232: warning: no @return
+    public TimeInterpolator getProgressAnimationInterpolator() {
+                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:239: warning: no @param for interpolator
+    public void setProgressAnimationInterpolator(@NonNull final TimeInterpolator interpolator) {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:254: warning: no @return
+    public float getIndeterminateMinimumAngle() {
+                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:261: warning: no @param for angle
+    public void setIndeterminateMinimumAngle(@FloatRange(from = 0f, to = 180f) final float angle) {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:279: warning: no @return
+    public long getIndeterminateRotationAnimationDuration() {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:286: warning: no @param for duration
+    public void setIndeterminateRotationAnimationDuration(@IntRange(from = 0) final long duration) {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:302: warning: no @return
+    public TimeInterpolator getIndeterminateRotationAnimationInterpolator() {
+                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:309: warning: no @param for interpolator
+    public void setIndeterminateRotationAnimationInterpolator(@NonNull final TimeInterpolator interpolator) {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:326: warning: no @return
+    public long getIndeterminateSweepAnimationDuration() {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:333: warning: no @param for duration
+    public void setIndeterminateSweepAnimationDuration(@IntRange(from = 0) final long duration) {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:349: warning: no @return
+    public TimeInterpolator getIndeterminateSweepAnimationInterpolator() {
+                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:356: warning: no @param for interpolator
+    public void setIndeterminateSweepAnimationInterpolator(@NonNull final TimeInterpolator interpolator) {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:373: warning: no @return
+    public Paint.Cap getForegroundStrokeCap() {
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:380: warning: no @param for cap
+    public void setForegroundStrokeCap(@NonNull final Paint.Cap cap) {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:394: warning: no @return
+    public int getForegroundStrokeColor() {
+               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:401: warning: no @param for color
+    public void setForegroundStrokeColor(@ColorInt final int color) {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:410: warning: no @return
+    public float getForegroundStrokeWidth() {
+                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:417: warning: no @param for width
+    public void setForegroundStrokeWidth(@FloatRange(from = 0f, to = Float.MAX_VALUE) final float width) {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:430: warning: no @return
+    public int getBackgroundStrokeColor() {
+               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:437: warning: no @param for color
+    public void setBackgroundStrokeColor(@ColorInt final int color) {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:446: warning: no @return
+    public float getBackgroundStrokeWidth() {
+                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:453: warning: no @param for width
+    public void setBackgroundStrokeWidth(@FloatRange(from = 0f, to = Float.MAX_VALUE) final float width) {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:465: warning: no @return
+    public boolean isDrawBackgroundStroke() {
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545071654350-0/src/circular-progress-bar-master/src/main/java/com/budiyev/android/circularprogressbar/CircularProgressBar.java:472: warning: no @param for draw
+    public void setDrawBackgroundStroke(final boolean draw) {
+                ^
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class ColorInt not found.
+javadoc: warning - Class ColorInt not found.
+javadoc: warning - Class FloatRange not found.
+javadoc: warning - Class FloatRange not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class ColorInt not found.
+javadoc: warning - Class ColorInt not found.
+javadoc: warning - Class FloatRange not found.
+javadoc: warning - Class FloatRange not found.
+javadoc: warning - Class FloatRange not found.
+javadoc: warning - Class FloatRange not found.
+javadoc: warning - Class IntRange not found.
+javadoc: warning - Class IntRange not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+
+100 warnings
+:javadocJar
+:sourcesJar
+:assemble
+:build
+
+BUILD SUCCESSFUL in 10s
+48 actionable tasks: 48 executed
+
+2018-12-18 01:34:35,118 ERROR FullProcessService - Project build has not produced APK file
+2018-12-18 01:34:35,133 ERROR FullProcessService - Could not find generated or existed APK file

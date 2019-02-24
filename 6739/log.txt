@@ -1,0 +1,205 @@
+2018-11-06 16:50:12,612 INFO  DownloadService - Downloading "https://github.com/Ahmed-Adel-Ismail/LiteCycle/archive/master.zip", attempt 3
+2018-11-06 16:51:13,766 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-11-06 16:51:15,871 INFO  GithubDownloadService - Default branch of this repository: master
+2018-11-06 16:51:15,871 INFO  DownloadService - Downloading "https://github.com/Ahmed-Adel-Ismail/LiteCycle/archive/master.zip", attempt 3
+2018-11-06 16:52:17,900 DEBUG FullProcessService - Repository https://github.com/Ahmed-Adel-Ismail/LiteCycle available: true
+2018-11-06 16:52:17,900 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-11-06 16:52:17,901 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Ahmed-Adel-Ismail/LiteCycle, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541497812604-0/src]
+2018-11-06 16:52:20,305 INFO  SysUtils - 
+2018-11-06 16:52:20,313 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541497812604-0/src/.git": true
+2018-11-06 16:52:20,316 INFO  FullProcessService - Size of directory with sources: 204 KB
+2018-11-06 16:52:20,317 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541497812604-0/src]
+2018-11-06 16:52:20,333 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541497812604-0/src/.git/
+
+2018-11-06 16:52:20,336 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541497812604-0/src/gradlew
+2018-11-06 16:52:20,340 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541497812604-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541497812604-0/src/lite-cycle/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541497812604-0/src/build.gradle
+2018-11-06 16:52:20,343 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541497812604-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541497812604-0/src/lite-cycle/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541497812604-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541497812604-0/src/settings.gradle
+2018-11-06 16:52:20,343 INFO  ProjectBuildService - Remote scripts: none
+2018-11-06 16:52:20,343 INFO  ProjectFixService - Fixing project...
+2018-11-06 16:52:20,351 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541497812604-0/src/app/local.properties
+2018-11-06 16:52:20,352 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541497812604-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2018-11-06 16:52:20,352 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541497812604-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2018-11-06 16:52:20,353 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541497812604-0/src/lite-cycle/local.properties
+2018-11-06 16:52:20,354 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541497812604-0/src/lite-cycle/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-11-06 16:52:20,354 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541497812604-0/src/lite-cycle/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-11-06 16:52:20,355 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541497812604-0/src/local.properties
+2018-11-06 16:52:20,356 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-11-06 16:52:20,356 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-11-06 16:52:20,357 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541497812604-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2018-11-06 16:52:20,357 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541497812604-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2018-11-06 16:52:20,358 INFO  ProjectFixService - Project was maybe fixed
+2018-11-06 16:52:20,358 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-06 16:52:20,358 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541497812604-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541497812604-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-06 16:52:27,343 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-11-06 16:52:27,343 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-11-06 16:52:27,343 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541497812604-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541497812604-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-11-06 16:53:21,905 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+Download https://jitpack.io/com/github/Ahmed-Adel-Ismail/J-Chain/0.1.2/J-Chain-0.1.2.pom
+Download https://jcenter.bintray.com/org/javatuples/javatuples/1.2/javatuples-1.2.pom
+Download https://jitpack.io/com/github/Ahmed-Adel-Ismail/J-Curry/0.0.5/J-Curry-0.0.5.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/livedata/1.1.0/livedata-1.1.0.aar
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/extensions/1.1.0/extensions-1.1.0.aar
+Download https://jitpack.io/com/github/Ahmed-Adel-Ismail/J-Curry/0.0.5/J-Curry-0.0.5.jar
+Download https://jitpack.io/com/github/Ahmed-Adel-Ismail/J-Chain/0.1.2/J-Chain-0.1.2.jar
+Download https://jitpack.io/com/github/Ahmed-Adel-Ismail/J-Chain/1.4.1/J-Chain-1.4.1.pom
+Download https://jitpack.io/com/github/Ahmed-Adel-Ismail/J-Curry/1.5.1/J-Curry-1.5.1.pom
+Download https://jitpack.io/com/github/Ahmed-Adel-Ismail/J-Chain/1.4.1/J-Chain-1.4.1.jar
+Download https://jitpack.io/com/github/Ahmed-Adel-Ismail/J-Curry/1.5.1/J-Curry-1.5.1.jar
+WARNING: Conflict with dependency 'com.github.Ahmed-Adel-Ismail:J-Chain' in project ':app'. Resolved versions for runtime classpath (1.4.1) and compile classpath (0.1.2) differ. This can lead to runtime crashes. To resolve this issue follow advice at https://developer.android.com/studio/build/gradle-tips#configure-project-wide-properties. Alternatively, you can try to fix the problem by adding this snippet to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541497812604-0/src/app/build.gradle:
+dependencies {
+    implementation("com.github.Ahmed-Adel-Ismail:J-Chain:1.4.1")
+}
+
+WARNING: Conflict with dependency 'com.github.Ahmed-Adel-Ismail:J-Curry' in project ':app'. Resolved versions for runtime classpath (1.5.1) and compile classpath (0.0.5) differ. This can lead to runtime crashes. To resolve this issue follow advice at https://developer.android.com/studio/build/gradle-tips#configure-project-wide-properties. Alternatively, you can try to fix the problem by adding this snippet to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541497812604-0/src/app/build.gradle:
+dependencies {
+    implementation("com.github.Ahmed-Adel-Ismail:J-Curry:1.5.1")
+}
+
+:app:preBuild UP-TO-DATE
+:lite-cycle:preBuild UP-TO-DATE
+:lite-cycle:preDebugBuild UP-TO-DATE
+:lite-cycle:checkDebugManifest
+:lite-cycle:processDebugManifest
+:app:preDebugBuild
+:lite-cycle:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:lite-cycle:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:lite-cycle:compileDebugRenderscript
+:lite-cycle:generateDebugResValues
+:lite-cycle:generateDebugResources
+:lite-cycle:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:lite-cycle:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:lite-cycle:generateDebugBuildConfig
+:lite-cycle:prepareLintJar
+:lite-cycle:generateDebugSources
+:lite-cycle:javaPreCompileDebug
+:lite-cycle:compileDebugJavaWithJavac
+:lite-cycle:processDebugJavaRes NO-SOURCE
+:lite-cycle:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/compiler/1.1.0/compiler-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/compiler/1.1.0/compiler-1.1.0.jar
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:lite-cycle:mergeDebugShaders
+:lite-cycle:compileDebugShaders
+:lite-cycle:generateDebugAssets
+:lite-cycle:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar: D8: Type `java.lang.management.ManagementFactory` was not found, it is required for default or static interface methods desugaring of `void org.junit.rules.DisableOnDebug.<init>(org.junit.rules.TestRule)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar: D8: Type `java.lang.management.ManagementFactory` was not found, it is required for default or static interface methods desugaring of `long org.junit.internal.runners.statements.FailOnTimeout.cpuTime(java.lang.Thread)`
+:app:transformClassesWithMultidexlistForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:lite-cycle:compileDebugNdk NO-SOURCE
+:lite-cycle:mergeDebugJniLibFolders
+:lite-cycle:transformNativeLibsWithMergeJniLibsForDebug
+:lite-cycle:transformNativeLibsWithStripDebugSymbolForDebug
+:lite-cycle:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+WARNING: Conflict with dependency 'com.github.Ahmed-Adel-Ismail:J-Chain' in project ':app'. Resolved versions for runtime classpath (1.4.1) and compile classpath (0.1.2) differ. This can lead to runtime crashes. To resolve this issue follow advice at https://developer.android.com/studio/build/gradle-tips#configure-project-wide-properties. Alternatively, you can try to fix the problem by adding this snippet to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541497812604-0/src/app/build.gradle:
+dependencies {
+    implementation("com.github.Ahmed-Adel-Ismail:J-Chain:1.4.1")
+}
+
+WARNING: Conflict with dependency 'com.github.Ahmed-Adel-Ismail:J-Curry' in project ':app'. Resolved versions for runtime classpath (1.5.1) and compile classpath (0.0.5) differ. This can lead to runtime crashes. To resolve this issue follow advice at https://developer.android.com/studio/build/gradle-tips#configure-project-wide-properties. Alternatively, you can try to fix the problem by adding this snippet to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541497812604-0/src/app/build.gradle:
+dependencies {
+    implementation("com.github.Ahmed-Adel-Ismail:J-Curry:1.5.1")
+}
+
+:lite-cycle:preReleaseBuild UP-TO-DATE
+:lite-cycle:checkReleaseManifest
+:lite-cycle:processReleaseManifest
+:app:preReleaseBuild
+:lite-cycle:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:lite-cycle:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:lite-cycle:compileReleaseRenderscript
+:lite-cycle:generateReleaseResValues
+:lite-cycle:generateReleaseResources
+:lite-cycle:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:lite-cycle:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:lite-cycle:generateReleaseBuildConfig
+:lite-cycle:generateReleaseSources
+:lite-cycle:javaPreCompileRelease
+:lite-cycle:compileReleaseJavaWithJavac
+:lite-cycle:processReleaseJavaRes NO-SOURCE
+:lite-cycle:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/019663cc0e303e09908ea247b5b3d81a/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-26/android.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:lite-cycle:mergeReleaseShaders
+:lite-cycle:compileReleaseShaders
+:lite-cycle:generateReleaseAssets
+:lite-cycle:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar: D8: Type `java.lang.management.ManagementFactory` was not found, it is required for default or static interface methods desugaring of `void org.junit.rules.DisableOnDebug.<init>(org.junit.rules.TestRule)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar: D8: Type `java.lang.management.ManagementFactory` was not found, it is required for default or static interface methods desugaring of `long org.junit.internal.runners.statements.FailOnTimeout.cpuTime(java.lang.Thread)`
+:app:transformClassesWithMultidexlistForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:lite-cycle:compileReleaseNdk NO-SOURCE
+:lite-cycle:mergeReleaseJniLibFolders
+:lite-cycle:transformNativeLibsWithMergeJniLibsForRelease
+:lite-cycle:transformNativeLibsWithStripDebugSymbolForRelease
+:lite-cycle:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 53s
+90 actionable tasks: 90 executed
+
+2018-11-06 16:53:21,996 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541497812604-0/src/app/build/outputs/apk/debug/app-debug.apk

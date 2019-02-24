@@ -1,0 +1,34 @@
+{
+  "meta" : {
+    "packageName" : "de.ehsun.smartbooking.staging",
+    "label" : "Room Booking",
+    "icon" : "res/mipmap-anydpi-v26/ic_launcher.xml",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "19",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.WRITE_EXTERNAL_STORAGE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACv0lEQVR42u2azWsTQRTAszu7203SpmZt06ZJ1iahpdRoxQ/8QOtHC1XB/8CbehI8efPgzT+hiB6keBHB4sdNFM9eFAQFPSkejN8W8VB1eb4XZ7QmzbrZZrMT2IEfIdnNm/fLzrydZBKLRU3uxhAtZJifxFWOLK2lfFaeuB6xkUJI2DyH1XJzTT6BzCNV5GPIVHkuCS8S4uBFBCTjMqK4CYjJMoC8429aRpyQWea5vEeydbn+0zT+OIZ85m9yJPjkRQ5fkMm6XFcVGEc+SSqw0auArFegEglEApGAT4E9aRPOFPvhpJ2CJFO7T+DChAU/j5bhzcwo5EytOwUcFKjONgqoSgyYojR0bqgKmB6g80IRyBgMzo9b8HBvHh5PF2C+MgiVPqN2rAeTujKVgWf77f/yFLm/awROj/bDAMbsiADNg7s7R2rDylnBExSZShkQZwrcw+NO3XE3vh8p12KWE3rwAicKqaaJLOAn70dAcG3rEPT+LRTtF7DjGlzdkmmawIsDNli66lvg61wJpi0zWIEFF4HnOKbTaxAgzpbWBTuEjuf6Gsa/4NLmwTUNIYL6C1SAyubN7dkGiUf78lDESSi9gCiVp/DOfGPbMNzZkYVzY2kY6vldBqUVeIsCk71GbYwLKOlhxNLZn9ey+PzB7px8Aj+wVr8+tAFeHnTnFZ7z7XBJPoFOEQk0E6DbPd2ovKxxWoXiUvzAqxCVSdPjSrMVKC7F71gZbTcUNxJoJkBLh0W8YdEan+p9EAIUl+JTP9RfWwUYfuvScfmgKUqgXyEpPvVD/UW/SnSzQFf/uDsh8RXY5CYgNg3yyAcJNzhou6nkJiC2mEzkuoRbTItI3MseGeNj7RafC0v88i11GNEn5XCbDx/mdaeSTIvIDHIsZGZ5LvFYi3vFBpJEUiGT5Ln42ninyaKHjBb940Pm9gvZbYNu36xvSQAAAABJRU5ErkJggg==",
+    "file" : true
+  },
+  "dexClasses" : 5516,
+  "locales" : [ "", "hr_HR", "bg", "zh_TW", "mr", "it", "zu", "ko", "uk", "mn_MN", "lv", "vi_VN", "tl", "en_US", "pt", "gl", "sk", "ml", "hi_IN", "fi_FI", "et", "cs", "sv", "el", "pa", "uk_UA", "hu", "af", "in", "ar_EG", "km", "pt_BR", "be", "es", "hy_AM", "tr", "ne_NP", "hr", "ms_MY", "lt", "fr", "sq", "ja", "is", "si", "de", "es_US", "ro_RO", "ca", "te", "az_AZ", "sl", "zh_HK", "hu_HU", "th_TH", "mn", "fi", "mk", "uz", "et_EE", "eu", "sw", "bs", "pt_PT", "th", "rm", "bn", "ar", "ru", "kn", "az", "sr_RS", "en_NZ", "fa", "ms", "gu", "en_ZA", "kk", "hi", "km_KH", "lo", "nl", "hy", "en_AU", "vi", "fr_CA", "lv_LV", "ky", "sr", "da", "si_LK", "ne", "sk_SK", "lt_LT", "en_IE", "ro", "en_CA", "am", "ka_GE", "pl", "zh_CN", "my", "ka", "ur", "lo_LA", "en_XC", "iw", "en_IN", "nb", "sl_SI", "in_ID", "ta", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"de.ehsun.smartbooking.staging\">\n\t<uses-sdk android:minSdkVersion=\"19\" android:targetSdkVersion=\"27\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<application android:theme=\"resourceId:0x7f110008\" android:label=\"Room Booking\" android:icon=\"res/mipmap-anydpi-v26/ic_launcher.xml\" android:name=\"de.ehsun.smartbooking.BookLibraryApplication\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:fullBackupContent=\"true\" android:roundIcon=\"res/mipmap-anydpi-v26/ic_launcher_round.xml\">\n\t\t<activity android:theme=\"resourceId:0x7f1100b3\" android:name=\"de.ehsun.smartbooking.ui.launch.LaunchActivity\" android:screenOrientation=\"portrait\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"de.ehsun.smartbooking.ui.main.MainActivity\" android:screenOrientation=\"portrait\" android:windowSoftInputMode=\"0x10\" />\n\t\t<activity android:theme=\"resourceId:0x7f1100b5\" android:name=\"de.ehsun.smartbooking.ui.roomdetails.RoomDetailsActivity\" android:screenOrientation=\"portrait\" android:windowSoftInputMode=\"0x10\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 4714192,
+  "crc32" : 1323438086,
+  "sha256" : "9b47157ca702f0f9a65f61afcad56e6c342ae7bfba50d28696c88afea66ec3ce",
+  "buildTime" : 1534927859000
+}

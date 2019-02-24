@@ -1,0 +1,190 @@
+2018-10-07 01:03:12,035 INFO  DownloadService - Downloading "https://github.com/sangcomz/StickyTimeLine/archive/master.zip", attempt 3
+2018-10-07 01:03:16,107 INFO  DownloadService - Downloaded https://github.com/sangcomz/StickyTimeLine/archive/master.zip, attempt 3
+2018-10-07 01:03:16,107 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538848992020-0/master.zip": 5 MB
+2018-10-07 01:03:16,108 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-07 01:03:16,114 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538848992020-0/master.zip: true
+2018-10-07 01:03:16,115 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538848992020-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538848992020-0/src'.
+2018-10-07 01:03:16,205 INFO  FullProcessService - Size of directory with sources: 6 MB
+2018-10-07 01:03:16,206 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538848992020-0/src]
+2018-10-07 01:03:16,225 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538848992020-0/src/.git/
+
+2018-10-07 01:03:16,229 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538848992020-0/src/StickyTimeLine-master/gradlew
+2018-10-07 01:03:16,234 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538848992020-0/src/StickyTimeLine-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538848992020-0/src/StickyTimeLine-master/stickytimelineview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538848992020-0/src/StickyTimeLine-master/build.gradle
+2018-10-07 01:03:16,239 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538848992020-0/src/StickyTimeLine-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538848992020-0/src/StickyTimeLine-master/stickytimelineview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538848992020-0/src/StickyTimeLine-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538848992020-0/src/StickyTimeLine-master/settings.gradle
+2018-10-07 01:03:16,239 INFO  ProjectBuildService - Remote scripts: none
+2018-10-07 01:03:16,239 INFO  ProjectFixService - Fixing project...
+2018-10-07 01:03:16,250 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538848992020-0/src/StickyTimeLine-master/app/local.properties
+2018-10-07 01:03:16,252 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538848992020-0/src/StickyTimeLine-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-10-07 01:03:16,252 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538848992020-0/src/StickyTimeLine-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-10-07 01:03:16,253 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538848992020-0/src/StickyTimeLine-master/stickytimelineview/local.properties
+2018-10-07 01:03:16,256 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538848992020-0/src/StickyTimeLine-master/stickytimelineview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-10-07 01:03:16,256 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538848992020-0/src/StickyTimeLine-master/stickytimelineview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-10-07 01:03:16,258 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538848992020-0/src/StickyTimeLine-master/local.properties
+2018-10-07 01:03:16,259 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-10-07 01:03:16,259 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-10-07 01:03:16,262 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538848992020-0/src/StickyTimeLine-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-10-07 01:03:16,262 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538848992020-0/src/StickyTimeLine-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-10-07 01:03:16,263 INFO  ProjectFixService - Project was maybe fixed
+2018-10-07 01:03:16,263 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-07 01:03:16,263 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538848992020-0/src/StickyTimeLine-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538848992020-0/src/StickyTimeLine-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-07 01:03:26,737 INFO  ProjectTaskService - Detected possible tasks: 70
+2018-10-07 01:03:26,737 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-10-07 01:03:26,737 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538848992020-0/src/StickyTimeLine-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538848992020-0/src/StickyTimeLine-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-10-07 01:04:32,252 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.6-bin/4jp4stjndanmxuerzfseyb6wo/gradle-4.6/lib/groovy-all-2.4.12.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Configuration on demand is an incubating feature.
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:stickytimelineview:preBuild UP-TO-DATE
+:stickytimelineview:preDebugBuild UP-TO-DATE
+:stickytimelineview:checkDebugManifest
+:stickytimelineview:processDebugManifest
+:app:preDebugBuild
+:stickytimelineview:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:stickytimelineview:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:stickytimelineview:compileDebugRenderscript
+:stickytimelineview:generateDebugResValues
+:stickytimelineview:generateDebugResources
+:stickytimelineview:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:stickytimelineview:generateDebugRFile
+:app:processDebugResources
+:stickytimelineview:generateDebugBuildConfig
+:stickytimelineview:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538848992020-0/src/StickyTimeLine-master/stickytimelineview/src/main/java/xyz/sangcomz/stickytimelineview/TimeLineRecyclerView.kt: (32, 28): Unnecessary safe call on a non-null receiver of type Context
+:stickytimelineview:prepareLintJar
+:stickytimelineview:generateDebugSources
+:stickytimelineview:javaPreCompileDebug
+:stickytimelineview:compileDebugJavaWithJavac
+:stickytimelineview:processDebugJavaRes NO-SOURCE
+:stickytimelineview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+:app:prepareLintJar
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:stickytimelineview:mergeDebugShaders
+:stickytimelineview:compileDebugShaders
+:stickytimelineview:generateDebugAssets
+:stickytimelineview:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.61/5bc44acc4b3f0d19166ae3e50454b41e8ff29335/kotlin-stdlib-1.2.61.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 1 method.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538848992020-0/src/StickyTimeLine-master/stickytimelineview/build/intermediates/intermediate-jars/debug/classes.jar: D8: Methods with invalid locals information:
+  void xyz.sangcomz.stickytimelineview.RecyclerSectionItemDecoration.onDrawOver(android.graphics.Canvas, android.support.v7.widget.RecyclerView, android.support.v7.widget.RecyclerView$State)
+  Attempt to define local of type float as $i$a$2$let
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.61/5bc44acc4b3f0d19166ae3e50454b41e8ff29335/kotlin-stdlib-1.2.61.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:stickytimelineview:compileDebugNdk NO-SOURCE
+:stickytimelineview:mergeDebugJniLibFolders
+:stickytimelineview:transformNativeLibsWithMergeJniLibsForDebug
+:stickytimelineview:transformNativeLibsWithStripDebugSymbolForDebug
+:stickytimelineview:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:stickytimelineview:preReleaseBuild UP-TO-DATE
+:stickytimelineview:checkReleaseManifest
+:stickytimelineview:processReleaseManifest
+:app:preReleaseBuild
+:stickytimelineview:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:stickytimelineview:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:stickytimelineview:compileReleaseRenderscript
+:stickytimelineview:generateReleaseResValues
+:stickytimelineview:generateReleaseResources
+:stickytimelineview:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:stickytimelineview:generateReleaseRFile
+:app:processReleaseResources
+:stickytimelineview:generateReleaseBuildConfig
+:stickytimelineview:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538848992020-0/src/StickyTimeLine-master/stickytimelineview/src/main/java/xyz/sangcomz/stickytimelineview/TimeLineRecyclerView.kt: (32, 28): Unnecessary safe call on a non-null receiver of type Context
+:stickytimelineview:generateReleaseSources
+:stickytimelineview:javaPreCompileRelease
+:stickytimelineview:compileReleaseJavaWithJavac
+:stickytimelineview:processReleaseJavaRes NO-SOURCE
+:stickytimelineview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/43bcf5c4f849d5b9962680228e85c7cf/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:stickytimelineview:mergeReleaseShaders
+:stickytimelineview:compileReleaseShaders
+:stickytimelineview:generateReleaseAssets
+:stickytimelineview:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:stickytimelineview:compileReleaseNdk NO-SOURCE
+:stickytimelineview:mergeReleaseJniLibFolders
+:stickytimelineview:transformNativeLibsWithMergeJniLibsForRelease
+:stickytimelineview:transformNativeLibsWithStripDebugSymbolForRelease
+:stickytimelineview:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 1m 4s
+94 actionable tasks: 94 executed
+
+2018-10-07 01:04:32,371 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538848992020-0/src/StickyTimeLine-master/app/build/outputs/apk/debug/app-debug.apk

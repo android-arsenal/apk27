@@ -1,0 +1,245 @@
+2018-09-03 10:39:21,291 INFO  DownloadService - Downloading "https://github.com/Fondesa/KPermissions/archive/master.zip", attempt 3
+2018-09-03 10:39:21,954 INFO  DownloadService - Downloaded https://github.com/Fondesa/KPermissions/archive/master.zip, attempt 3
+2018-09-03 10:39:21,955 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945961283-0/master.zip": 199 KB
+2018-09-03 10:39:21,955 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-03 10:39:21,956 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945961283-0/master.zip: true
+2018-09-03 10:39:21,957 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945961283-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945961283-0/src'.
+2018-09-03 10:39:21,992 INFO  FullProcessService - Size of directory with sources: 295 KB
+2018-09-03 10:39:21,992 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945961283-0/src]
+2018-09-03 10:39:22,008 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945961283-0/src/.git/
+
+2018-09-03 10:39:22,012 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945961283-0/src/KPermissions-master/gradlew
+2018-09-03 10:39:22,017 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945961283-0/src/KPermissions-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945961283-0/src/KPermissions-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945961283-0/src/KPermissions-master/buildSrc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945961283-0/src/KPermissions-master/kpermissions/build.gradle
+2018-09-03 10:39:22,021 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945961283-0/src/KPermissions-master/kpermissions/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945961283-0/src/KPermissions-master/buildSrc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945961283-0/src/KPermissions-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945961283-0/src/KPermissions-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945961283-0/src/KPermissions-master/settings.gradle
+2018-09-03 10:39:22,022 INFO  ProjectBuildService - Remote scripts: none
+2018-09-03 10:39:22,022 INFO  ProjectFixService - Fixing project...
+2018-09-03 10:39:22,032 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945961283-0/src/KPermissions-master/sample/local.properties
+2018-09-03 10:39:22,034 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945961283-0/src/KPermissions-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-09-03 10:39:22,034 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945961283-0/src/KPermissions-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-09-03 10:39:22,036 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945961283-0/src/KPermissions-master/local.properties
+2018-09-03 10:39:22,036 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-09-03 10:39:22,037 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-09-03 10:39:22,039 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945961283-0/src/KPermissions-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-09-03 10:39:22,039 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945961283-0/src/KPermissions-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-09-03 10:39:22,040 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945961283-0/src/KPermissions-master/buildSrc/local.properties
+2018-09-03 10:39:22,041 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945961283-0/src/KPermissions-master/buildSrc/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-09-03 10:39:22,042 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945961283-0/src/KPermissions-master/buildSrc/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-09-03 10:39:22,042 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945961283-0/src/KPermissions-master/kpermissions/local.properties
+2018-09-03 10:39:22,044 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945961283-0/src/KPermissions-master/kpermissions/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-09-03 10:39:22,044 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945961283-0/src/KPermissions-master/kpermissions/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-09-03 10:39:22,045 INFO  ProjectFixService - Project was maybe fixed
+2018-09-03 10:39:22,045 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-03 10:39:22,045 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945961283-0/src/KPermissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945961283-0/src/KPermissions-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-03 10:39:33,111 INFO  ProjectTaskService - Detected possible tasks: 101
+2018-09-03 10:39:33,111 INFO  ProjectTaskService - Excluded tasks (9): mockableAndroidJar deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
+2018-09-03 10:39:33,111 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945961283-0/src/KPermissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945961283-0/src/KPermissions-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
+2018-09-03 10:40:11,470 INFO  SysUtils - Configuration on demand is an incubating feature.
+:buildSrc:compileJava NO-SOURCE
+:buildSrc:compileGroovy UP-TO-DATE
+:buildSrc:processResources NO-SOURCE
+:buildSrc:classes UP-TO-DATE
+:buildSrc:jar UP-TO-DATE
+:buildSrc:assemble UP-TO-DATE
+:buildSrc:compileTestJava NO-SOURCE
+:buildSrc:compileTestGroovy NO-SOURCE
+:buildSrc:processTestResources NO-SOURCE
+:buildSrc:testClasses UP-TO-DATE
+:buildSrc:test NO-SOURCE
+:buildSrc:check UP-TO-DATE
+:buildSrc:build UP-TO-DATE
+:kpermissions:preBuild UP-TO-DATE
+:kpermissions:preDebugBuild UP-TO-DATE
+:kpermissions:compileDebugAidl
+:kpermissions:compileDebugRenderscript
+:kpermissions:checkDebugManifest
+:kpermissions:generateDebugBuildConfig
+:kpermissions:generateDebugResValues
+:kpermissions:generateDebugResources
+:kpermissions:packageDebugResources
+:kpermissions:platformAttrExtractor
+:kpermissions:processDebugManifest
+:kpermissions:prepareLintJar
+:kpermissions:processDebugJavaRes NO-SOURCE
+:sample:preBuild UP-TO-DATE
+:sample:preLocalDebugBuild
+:sample:compileLocalDebugAidl
+:kpermissions:packageDebugRenderscript NO-SOURCE
+:sample:compileLocalDebugRenderscript
+:sample:checkLocalDebugManifest
+:sample:generateLocalDebugBuildConfig
+:sample:generateLocalDebugResValues
+:sample:generateLocalDebugResources
+:sample:mergeLocalDebugResources
+:sample:createLocalDebugCompatibleScreenManifests
+:sample:processLocalDebugManifest
+:sample:splitsDiscoveryTaskLocalDebug
+:sample:prepareLintJar
+:sample:compileLocalDebugNdk NO-SOURCE
+:kpermissions:mergeDebugShaders
+:kpermissions:compileDebugShaders
+:kpermissions:generateDebugAssets
+:kpermissions:mergeDebugAssets
+:sample:mergeLocalDebugShaders
+:sample:compileLocalDebugShaders
+:sample:generateLocalDebugAssets
+:sample:mergeLocalDebugAssets
+:kpermissions:compileDebugNdk NO-SOURCE
+:kpermissions:mergeDebugJniLibFolders
+:kpermissions:transformNativeLibsWithMergeJniLibsForDebug
+:kpermissions:transformNativeLibsWithStripDebugSymbolForDebug
+:kpermissions:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:mergeLocalDebugJniLibFolders
+:sample:processLocalDebugJavaRes NO-SOURCE
+:sample:validateSigningLocalDebug
+:sample:preRemoteDebugBuild
+:sample:compileRemoteDebugAidl
+:sample:compileRemoteDebugRenderscript
+:sample:checkRemoteDebugManifest
+:sample:generateRemoteDebugBuildConfig
+:sample:generateRemoteDebugResValues
+:sample:generateRemoteDebugResources
+:sample:mergeRemoteDebugResources
+:sample:createRemoteDebugCompatibleScreenManifests
+:sample:processRemoteDebugManifest
+:sample:splitsDiscoveryTaskRemoteDebug
+:sample:processRemoteDebugResources
+:sample:compileRemoteDebugKotlin
+:sample:generateRemoteDebugSources
+:sample:javaPreCompileRemoteDebug
+:sample:compileRemoteDebugJavaWithJavac
+:sample:compileRemoteDebugNdk NO-SOURCE
+:sample:compileRemoteDebugSources
+:sample:mergeRemoteDebugShaders
+:sample:compileRemoteDebugShaders
+:sample:generateRemoteDebugAssets
+:sample:mergeRemoteDebugAssets
+:sample:transformClassesWithDexBuilderForRemoteDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForRemoteDebug
+:sample:transformDexArchiveWithDexMergerForRemoteDebug
+:sample:mergeRemoteDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRemoteDebug
+:sample:transformNativeLibsWithStripDebugSymbolForRemoteDebug
+:sample:processRemoteDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRemoteDebug
+:sample:validateSigningRemoteDebug
+:sample:packageRemoteDebug
+:sample:assembleRemoteDebug
+:kpermissions:preReleaseBuild UP-TO-DATE
+:kpermissions:compileReleaseAidl
+:kpermissions:compileReleaseRenderscript
+:kpermissions:checkReleaseManifest
+:kpermissions:generateReleaseBuildConfig
+:kpermissions:generateReleaseResValues
+:kpermissions:generateReleaseResources
+:kpermissions:packageReleaseResources
+:kpermissions:processReleaseManifest
+:kpermissions:processReleaseJavaRes NO-SOURCE
+:sample:preLocalReleaseBuild
+:sample:compileLocalReleaseAidl
+:kpermissions:packageReleaseRenderscript NO-SOURCE
+:sample:compileLocalReleaseRenderscript
+:sample:checkLocalReleaseManifest
+:sample:generateLocalReleaseBuildConfig
+:sample:generateLocalReleaseResValues
+:sample:generateLocalReleaseResources
+:sample:mergeLocalReleaseResources
+:sample:createLocalReleaseCompatibleScreenManifests
+:sample:processLocalReleaseManifest
+:sample:splitsDiscoveryTaskLocalRelease
+:sample:compileLocalReleaseNdk NO-SOURCE
+:kpermissions:mergeReleaseShaders
+:kpermissions:compileReleaseShaders
+:kpermissions:generateReleaseAssets
+:kpermissions:mergeReleaseAssets
+:sample:mergeLocalReleaseShaders
+:sample:compileLocalReleaseShaders
+:sample:generateLocalReleaseAssets
+:sample:mergeLocalReleaseAssets
+:kpermissions:compileReleaseNdk NO-SOURCE
+:kpermissions:mergeReleaseJniLibFolders
+:kpermissions:transformNativeLibsWithMergeJniLibsForRelease
+:kpermissions:transformNativeLibsWithStripDebugSymbolForRelease
+:kpermissions:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:mergeLocalReleaseJniLibFolders
+:sample:processLocalReleaseJavaRes NO-SOURCE
+:sample:preRemoteReleaseBuild
+:sample:compileRemoteReleaseAidl
+:sample:compileRemoteReleaseRenderscript
+:sample:checkRemoteReleaseManifest
+:sample:generateRemoteReleaseBuildConfig
+:sample:generateRemoteReleaseResValues
+:sample:generateRemoteReleaseResources
+:sample:mergeRemoteReleaseResources
+:sample:createRemoteReleaseCompatibleScreenManifests
+:sample:processRemoteReleaseManifest
+:sample:splitsDiscoveryTaskRemoteRelease
+:sample:processRemoteReleaseResources
+:sample:compileRemoteReleaseKotlin
+:sample:generateRemoteReleaseSources
+:sample:javaPreCompileRemoteRelease
+:sample:compileRemoteReleaseJavaWithJavac
+:sample:compileRemoteReleaseNdk NO-SOURCE
+:sample:compileRemoteReleaseSources
+:sample:lintVitalRemoteRelease
+:sample:mergeRemoteReleaseShaders
+:sample:compileRemoteReleaseShaders
+:sample:generateRemoteReleaseAssets
+:sample:mergeRemoteReleaseAssets
+:sample:transformClassesWithPreDexForRemoteRelease
+:sample:transformDexWithDexForRemoteRelease
+:sample:mergeRemoteReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRemoteRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRemoteRelease
+:sample:processRemoteReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRemoteRelease
+:sample:packageRemoteRelease
+:sample:assembleRemoteRelease
+:kpermissions:processDebugResources
+:kpermissions:compileDebugKotlin
+:kpermissions:generateDebugSources
+:kpermissions:javaPreCompileDebug
+:kpermissions:compileDebugJavaWithJavac
+:kpermissions:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:processLocalDebugResources
+:sample:compileLocalDebugKotlin
+:sample:generateLocalDebugSources
+:sample:javaPreCompileLocalDebug
+:sample:compileLocalDebugJavaWithJavac
+:sample:compileLocalDebugSources
+:sample:transformClassesWithDexBuilderForLocalDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForLocalDebug
+:sample:transformDexArchiveWithDexMergerForLocalDebug
+:sample:transformNativeLibsWithMergeJniLibsForLocalDebug
+:sample:transformNativeLibsWithStripDebugSymbolForLocalDebug
+:sample:transformResourcesWithMergeJavaResForLocalDebug
+:sample:packageLocalDebug
+:sample:assembleLocalDebug
+:sample:assembleDebug
+:kpermissions:processReleaseResources
+:kpermissions:compileReleaseKotlin
+:kpermissions:generateReleaseSources
+:kpermissions:javaPreCompileRelease
+:kpermissions:compileReleaseJavaWithJavac
+:kpermissions:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:processLocalReleaseResources
+:sample:compileLocalReleaseKotlin
+:sample:generateLocalReleaseSources
+:sample:javaPreCompileLocalRelease
+:sample:compileLocalReleaseJavaWithJavac
+:sample:compileLocalReleaseSources
+:sample:lintVitalLocalRelease
+:sample:transformClassesWithPreDexForLocalRelease
+:sample:transformDexWithDexForLocalRelease
+:sample:transformNativeLibsWithMergeJniLibsForLocalRelease
+:sample:transformNativeLibsWithStripDebugSymbolForLocalRelease
+:sample:transformResourcesWithMergeJavaResForLocalRelease
+:sample:packageLocalRelease
+:sample:assembleLocalRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 37s
+143 actionable tasks: 143 executed
+
+2018-09-03 10:40:11,590 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945961283-0/src/KPermissions-master/sample/build/outputs/apk/local/release/sample-local-release-unsigned.apk

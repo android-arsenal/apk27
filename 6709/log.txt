@@ -1,0 +1,513 @@
+2019-01-16 13:15:13,706 INFO  DownloadService - Downloading "https://github.com/MindorksOpenSource/android-mvvm-architecture/archive/master.zip", attempt 3
+2019-01-16 13:15:17,037 INFO  DownloadService - Downloaded https://github.com/MindorksOpenSource/android-mvvm-architecture/archive/master.zip, attempt 3
+2019-01-16 13:15:17,038 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547619313703-0/master.zip": 616 KB
+2019-01-16 13:15:17,038 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-16 13:15:17,044 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547619313703-0/master.zip: true
+2019-01-16 13:15:17,044 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547619313703-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547619313703-0/src'.
+2019-01-16 13:15:17,104 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-01-16 13:15:17,104 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547619313703-0/src]
+2019-01-16 13:15:17,133 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547619313703-0/src/.git/
+
+2019-01-16 13:15:17,140 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547619313703-0/src/android-mvvm-architecture-master/gradlew
+2019-01-16 13:15:17,148 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547619313703-0/src/android-mvvm-architecture-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547619313703-0/src/android-mvvm-architecture-master/build.gradle
+2019-01-16 13:15:17,155 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547619313703-0/src/android-mvvm-architecture-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547619313703-0/src/android-mvvm-architecture-master/config/quality/quality.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547619313703-0/src/android-mvvm-architecture-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547619313703-0/src/android-mvvm-architecture-master/settings.gradle
+2019-01-16 13:15:17,155 INFO  ProjectBuildService - Remote scripts: none
+2019-01-16 13:15:17,155 INFO  ProjectFixService - Fixing project...
+2019-01-16 13:15:17,171 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547619313703-0/src/android-mvvm-architecture-master/app/local.properties
+2019-01-16 13:15:17,174 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547619313703-0/src/android-mvvm-architecture-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-16 13:15:17,174 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547619313703-0/src/android-mvvm-architecture-master/local.properties
+2019-01-16 13:15:17,174 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-01-16 13:15:17,175 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-01-16 13:15:17,175 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547619313703-0/src/android-mvvm-architecture-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-16 13:15:17,175 INFO  ProjectFixService - Project was maybe fixed
+2019-01-16 13:15:17,175 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-16 13:15:17,175 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547619313703-0/src/android-mvvm-architecture-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547619313703-0/src/android-mvvm-architecture-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-16 13:15:24,690 INFO  ProjectTaskService - Detected possible tasks: 74
+2019-01-16 13:15:24,691 INFO  ProjectTaskService - Excluded tasks (21): pmd lintDebug deviceCheck lint findbugs testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-16 13:15:24,691 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547619313703-0/src/android-mvvm-architecture-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547619313703-0/src/android-mvvm-architecture-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, pmd, -x, lintDebug, -x, deviceCheck, -x, lint, -x, findbugs, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-16 13:16:20,593 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-16 13:16:20,593 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+Download https://jcenter.bintray.com/com/amitshekhar/android/rx2-android-networking/1.0.1/rx2-android-networking-1.0.1.aar
+Download https://jcenter.bintray.com/com/jakewharton/timber/timber/4.5.1/timber-4.5.1.aar
+Download https://jcenter.bintray.com/com/amitshekhar/android/android-networking/1.0.1/android-networking-1.0.1.aar
+Download https://jcenter.bintray.com/net/zetetic/android-database-sqlcipher/3.5.7/android-database-sqlcipher-3.5.7.aar
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild
+:app:compileDebugAidl NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:app:processDebugResources
+:app:generateDebugSources
+:app:dataBindingExportBuildInfoDebug
+:app:dataBindingExportFeaturePackageIdsDebug
+:app:dataBindingMergeDependencyArtifactsDebug
+:app:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+:app:dataBindingGenBaseClassesDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavacwarning: Supported source version 'RELEASE_7' from annotation processor 'android.arch.persistence.room.RoomProcessor' less than -source '1.8'
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547619313703-0/src/android-mvvm-architecture-master/app/src/main/java/com/mindorks/framework/mvvm/data/model/db/Option.java:38: warning: question_id column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+public class Option {
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547619313703-0/src/android-mvvm-architecture-master/app/src/main/java/com/mindorks/framework/mvvm/data/local/db/AppDatabase.java:34: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
+public abstract class AppDatabase extends RoomDatabase {
+                ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 warnings
+
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547619313703-0/src/android-mvvm-architecture-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libsqlcipher.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:app:extractProguardFiles
+:app:preReleaseBuild
+:app:compileReleaseAidl NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:dataBindingExportBuildInfoRelease
+:app:dataBindingExportFeaturePackageIdsRelease
+:app:dataBindingMergeDependencyArtifactsRelease
+:app:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease
+:app:dataBindingGenBaseClassesRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacwarning: Supported source version 'RELEASE_7' from annotation processor 'android.arch.persistence.room.RoomProcessor' less than -source '1.8'
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547619313703-0/src/android-mvvm-architecture-master/app/src/main/java/com/mindorks/framework/mvvm/data/model/db/Option.java:38: warning: question_id column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+public class Option {
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547619313703-0/src/android-mvvm-architecture-master/app/src/main/java/com/mindorks/framework/mvvm/data/local/db/AppDatabase.java:34: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
+public abstract class AppDatabase extends RoomDatabase {
+                ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 warnings
+
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Download https://maven.google.com/com/android/support/test/espresso/espresso-intents/3.0.1/espresso-intents-3.0.1.aar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:transformClassesAndResourcesWithProguardForRelease
+Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
+thread-pool size=4
+ProGuard, version 6.0.3
+Reading input...
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/adapters-3.2.1.aar/76e96d30ad7e341b5e8b0723c985bda8/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/library-3.2.1.aar/28116d796624bf82b4b7eed0acb4c4b2/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.databinding/baseLibrary/3.2.1/62174ecf31e2e3e4dd7a21cbd05399e11d0a9699/baseLibrary-3.2.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/4bab5ae491a000256ca763e801bb5dba/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/calligraphy-2.2.0.aar/6eff4c5812c6835d542b0d3ec15c855c/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/dagger-android-support-2.14.1.aar/aaa3ab04ad5824fe424c5d075092dc08/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/rx2-android-networking-1.0.1.aar/535adc7c92d195ae9c80802383fee8d7/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/android-networking-1.0.1.aar/e1de7cf65eeb59de21e1693e82cf6598/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/edda314c4a10848021ee3d21ac9f47d3/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/placeholderview-0.6.1.aar/bc1b65d851d602bb20f0fc849f1c157f/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/2e19c743a41b4739b249f831079b2f0a/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/b4fca1f9dd57106139913cbeab79d48e/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/211d37d1d48d06d3002f53b1e6e764da/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/a00c6ed288a73fd2b24a40aa5b828cd6/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/rxjava2-1.0.0.aar/6ea795d97d9c9246b60c3cdcfdaa8db4/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.2/3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf/gson-2.8.2.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/dagger-android-2.14.1.aar/85807f8a2a30ab136de53b613ddb7a73/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger/2.14.1/3784d6ed15ecebfa999b26ed0aaeb2b4194e0d3/dagger-2.14.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.2.aar/94a4ea023131824aa79e2ee44d2edde8/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.9/afd2ab255e6b94b064ea87c2ccd84ac0d163a427/rxjava-2.1.9.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/timber-4.5.1.aar/3106f406eeef34e9bd28a7e534e32b66/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/d5b4f506a428a60e93b8e61db27e0698/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/abc412fabbf2bdc688fcf20d969e6965/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/31686c566e1dfb328560b63ff4620a59/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/938b98606de3cdf67587e32ed93c9eb0/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/25f898500e0c23c4297ec75c7896942f/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/6becda1cd83d1579f1a8c0896d2af1a7/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/ba2572589e988a8eaf0eef701bf817b4/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/8b2341e19b191e38b0f2ef9d74e2701f/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/fb0fbc600396e6ba242745d2e3ed2b9c/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/339340466c105e55e74f118ad7532a68/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/ea5e16fbf7b32db5d99d592b1a3ecd12/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/c5c20cd4e043422d6c8b7eb58e5c8565/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/4447518def58e2aaef2179496caa4a73/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/9a91eb3646bba9940f7356c82ae1ba09/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e757b2626c814f8934ac39bb95dae0f5/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/595b2ed9fcf2f231271810a031a48e61/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/c881162ee30d14413a951fd2d1c03276/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.persistence.room/common/1.0.0/1cbd3ddc566125293b13af5c0a65bc015476e83c/common-1.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/f00265599482eb31dd9564c84e93d115/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/05a46a7675e2edbea811dd4f0a701ee4/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/db-framework-1.0.0.aar/5781918584af89b959e7ba4381d1172f/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/db-1.0.0.aar/38f60df3d7a3572e136a072c44b093e6/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/ace6832958acdb24a730a1d8b4ff85f2/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/ea52ed03482e6a3168a3d9cf161ed662/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/56aee104513f744f57097e5f6a67311f/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/24e3a0acd379b59af1c8a5fb194ffec3/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/01bc42882e8c335dcae2ff853058b056/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/3f023224005374d9cb189c9c79613708/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/855c480412e0be69f7225e222e15485b/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.9.1/84b4b7d1c4a238e7899972b7446c250691e65f1f/okhttp-3.9.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.2/323964c36556eb0e6209f65c1cef72b53b461ab8/reactive-streams-1.0.2.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547619313703-0/src/android-mvvm-architecture-master/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547619313703-0/src/android-mvvm-architecture-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/org.apache.http.legacy.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.mock.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.base.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.runner.jar]
+Initializing...
+Warning: dagger.android.AndroidInjector: can't find referenced class com.google.errorprone.annotations.DoNotMock
+Warning: dagger.android.AndroidInjector$Builder: can't find referenced class com.google.errorprone.annotations.DoNotMock
+Warning: dagger.android.AndroidInjector$Factory: can't find referenced class com.google.errorprone.annotations.DoNotMock
+Warning: dagger.android.DaggerApplication: can't find referenced class com.google.errorprone.annotations.ForOverride
+Warning: dagger.android.DispatchingAndroidInjector: can't find referenced class com.google.errorprone.annotations.CanIgnoreReturnValue
+Warning: dagger.android.package-info: can't find referenced class com.google.errorprone.annotations.CheckReturnValue
+Warning: dagger.android.support.package-info: can't find referenced class com.google.errorprone.annotations.CheckReturnValue
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Authenticator: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cache: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cache: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cache: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cache$2: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cache$CacheResponseBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cache$CacheResponseBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cache$Entry: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.CacheControl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.CacheControl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.CertificatePinner: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.CertificatePinner: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.CertificatePinner: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.CertificatePinner: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Challenge: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Connection: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ConnectionPool: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ConnectionPool: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ConnectionSpec: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ConnectionSpec: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ConnectionSpec: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ConnectionSpec: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ConnectionSpec: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ConnectionSpec$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ConnectionSpec$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cookie: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cookie: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cookie: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Dispatcher: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Dispatcher: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Dispatcher: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.EventListener: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.EventListener: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.EventListener: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.EventListener: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.EventListener: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.EventListener: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.EventListener: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.FormBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Handshake: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Handshake: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Handshake: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Headers: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Headers: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Headers: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Interceptor$Chain: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MultipartBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MultipartBody$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MultipartBody$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MultipartBody$Part: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MultipartBody$Part: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MultipartBody$Part: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MultipartBody$Part: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MultipartBody$Part: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Request: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Request: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Request$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Request$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.RequestBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.RequestBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.RequestBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.RequestBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.RequestBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.RequestBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.RequestBody$1: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.RequestBody$2: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.RequestBody$3: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ResponseBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ResponseBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ResponseBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ResponseBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ResponseBody$1: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Route: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.WebSocket: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.WebSocketListener: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.internal.Util: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.internal.cache.CacheStrategy: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.internal.cache.CacheStrategy: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.internal.cache.DiskLruCache: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.internal.cache.DiskLruCache$Snapshot: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.internal.connection.RealConnection: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.internal.http.RealResponseBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.internal.http.RealResponseBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.internal.ws.RealWebSocket: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.package-info: can't find referenced class javax.annotation.ParametersAreNonnullByDefault
+Note: com.google.gson.internal.UnsafeAllocator: can't find dynamically referenced class sun.misc.Unsafe
+Note: okhttp3.internal.platform.AndroidPlatform: can't find dynamically referenced class com.android.org.conscrypt.SSLParametersImpl
+Note: okhttp3.internal.platform.AndroidPlatform: can't find dynamically referenced class org.apache.harmony.xnet.provider.jsse.SSLParametersImpl
+Note: okhttp3.internal.platform.AndroidPlatform$CloseGuard: can't find dynamically referenced class dalvik.system.CloseGuard
+Note: okhttp3.internal.platform.Platform: can't find dynamically referenced class sun.security.ssl.SSLContextImpl
+Note: com.google.gson.internal.UnsafeAllocator accesses a declared field 'theUnsafe' dynamically
+Note: the configuration keeps the entry point 'com.mindorks.placeholderview.SwipePlaceHolderView { void setSwipeDecor(com.mindorks.placeholderview.SwipeDecor); }', but not the descriptor class 'com.mindorks.placeholderview.SwipeDecor'
+Note: there were 1 unkept descriptor classes in kept class members.
+      You should consider explicitly keeping the mentioned classes
+      (using '-keep').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#descriptorclass)
+Note: there were 5 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Note: there were 1 accesses to class members by means of introspection.
+      You should consider explicitly keeping the mentioned class members
+      (using '-keep' or '-keepclassmembers').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclassmember)
+Warning: there were 170 unresolved references to classes or interfaces.
+         You may need to add missing library jars or update their versions.
+         If your code works fine without the missing classes, you can suppress
+         the warnings with '-dontwarn' options.
+         (http://proguard.sourceforge.net/manual/troubleshooting.html#unresolvedclass)
+Warning: Exception while processing task java.io.IOException: Please correct the above warnings first.
+Thread(Tasks limiter_1): destruction
+:app:transformClassesAndResourcesWithProguardForRelease FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:transformClassesAndResourcesWithProguardForRelease'.
+> Job failed, see logs for details
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:transformClassesAndResourcesWithProguardForRelease'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:103)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:73)
+	at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
+	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:256)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:249)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:238)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:123)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:104)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:663)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:597)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: java.lang.RuntimeException: Job failed, see logs for details
+	at com.android.build.gradle.internal.transforms.ProGuardTransform.transform(ProGuardTransform.java:207)
+	at com.android.build.gradle.internal.pipeline.TransformTask$2.call(TransformTask.java:239)
+	at com.android.build.gradle.internal.pipeline.TransformTask$2.call(TransformTask.java:235)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:102)
+	at com.android.build.gradle.internal.pipeline.TransformTask.transform(TransformTask.java:230)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.doExecute(IncrementalTaskAction.java:50)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:39)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:26)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:124)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:113)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:95)
+	... 30 more
+Caused by: java.io.IOException: Please correct the above warnings first.
+	at proguard.Initializer.execute(Initializer.java:485)
+	at proguard.ProGuard.initialize(ProGuard.java:271)
+	at proguard.ProGuard.execute(ProGuard.java:113)
+	at com.android.build.gradle.internal.transforms.BaseProguardAction.runProguard(BaseProguardAction.java:64)
+	at com.android.build.gradle.internal.transforms.ProGuardTransform.doMinification(ProGuardTransform.java:262)
+	at com.android.build.gradle.internal.transforms.ProGuardTransform.access$000(ProGuardTransform.java:65)
+	at com.android.build.gradle.internal.transforms.ProGuardTransform$1.run(ProGuardTransform.java:176)
+	at com.android.builder.tasks.Job.runTask(Job.java:47)
+	at com.android.build.gradle.tasks.SimpleWorkQueue$EmptyThreadContext.runTask(SimpleWorkQueue.java:41)
+	at com.android.builder.tasks.WorkQueue.run(WorkQueue.java:282)
+
+
+* Get more help at https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+See https://docs.gradle.org/4.6/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 55s
+60 actionable tasks: 60 executed
+
+2019-01-16 13:16:20,717 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547619313703-0/src/android-mvvm-architecture-master/app/build/outputs/apk/debug/app-debug.apk

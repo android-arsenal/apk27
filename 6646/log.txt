@@ -1,0 +1,275 @@
+2018-08-30 13:06:42,373 INFO  DownloadService - Downloading "https://github.com/Ahmed-Adel-Ismail/ActorLite/archive/master.zip", attempt 3
+2018-08-30 13:06:43,104 INFO  DownloadService - Downloaded https://github.com/Ahmed-Adel-Ismail/ActorLite/archive/master.zip, attempt 3
+2018-08-30 13:06:43,104 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535609202370-0/master.zip": 208 KB
+2018-08-30 13:06:43,104 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-30 13:06:43,110 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535609202370-0/master.zip: true
+2018-08-30 13:06:43,110 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535609202370-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535609202370-0/src'.
+2018-08-30 13:06:43,145 INFO  FullProcessService - Size of directory with sources: 357 KB
+2018-08-30 13:06:43,145 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535609202370-0/src]
+2018-08-30 13:06:43,161 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535609202370-0/src/.git/
+
+2018-08-30 13:06:43,164 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535609202370-0/src/ActorLite-master/gradlew
+2018-08-30 13:06:43,168 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535609202370-0/src/ActorLite-master/Actor-Lite/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535609202370-0/src/ActorLite-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535609202370-0/src/ActorLite-master/build.gradle
+2018-08-30 13:06:43,171 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535609202370-0/src/ActorLite-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535609202370-0/src/ActorLite-master/Actor-Lite/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535609202370-0/src/ActorLite-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535609202370-0/src/ActorLite-master/settings.gradle
+2018-08-30 13:06:43,172 INFO  ProjectBuildService - Remote scripts: none
+2018-08-30 13:06:43,172 INFO  ProjectFixService - Fixing project...
+2018-08-30 13:06:43,180 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535609202370-0/src/ActorLite-master/Actor-Lite/local.properties
+2018-08-30 13:06:43,181 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535609202370-0/src/ActorLite-master/Actor-Lite/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2018-08-30 13:06:43,181 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535609202370-0/src/ActorLite-master/Actor-Lite/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2018-08-30 13:06:43,182 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535609202370-0/src/ActorLite-master/app/local.properties
+2018-08-30 13:06:43,182 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535609202370-0/src/ActorLite-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2018-08-30 13:06:43,182 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535609202370-0/src/ActorLite-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2018-08-30 13:06:43,183 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535609202370-0/src/ActorLite-master/local.properties
+2018-08-30 13:06:43,183 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-08-30 13:06:43,184 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-30 13:06:43,186 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535609202370-0/src/ActorLite-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2018-08-30 13:06:43,186 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535609202370-0/src/ActorLite-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2018-08-30 13:06:43,187 INFO  ProjectFixService - Project was maybe fixed
+2018-08-30 13:06:43,187 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-30 13:06:43,187 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535609202370-0/src/ActorLite-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535609202370-0/src/ActorLite-master/Actor-Lite/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-30 13:06:59,947 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-08-30 13:06:59,948 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-08-30 13:06:59,948 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535609202370-0/src/ActorLite-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535609202370-0/src/ActorLite-master/Actor-Lite/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-08-30 13:07:19,587 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':Actor-Lite' is deprecated. Use 'implementation' instead.
+:Actor-Lite:preBuild UP-TO-DATE
+:Actor-Lite:preDebugBuild UP-TO-DATE
+:Actor-Lite:compileDebugAidl
+Download https://jitpack.io/com/github/Ahmed-Adel-Ismail/J-Curry/1.2.0/J-Curry-1.2.0.pom
+Download https://jitpack.io/com/github/Ahmed-Adel-Ismail/RxProperties/0.0.2/RxProperties-0.0.2.pom
+Download https://jitpack.io/com/github/Ahmed-Adel-Ismail/J-Chain/1.0.0/J-Chain-1.0.0.pom
+:Actor-Lite:compileDebugNdk NO-SOURCE
+:Actor-Lite:compileDebugRenderscript
+:Actor-Lite:checkDebugManifest
+:Actor-Lite:generateDebugBuildConfig
+:Actor-Lite:prepareLintJar
+:Actor-Lite:generateDebugResValues
+:Actor-Lite:generateDebugResources
+:Actor-Lite:packageDebugResources
+:Actor-Lite:platformAttrExtractor
+:Actor-Lite:processDebugManifest
+:Actor-Lite:javaPreCompileDebug
+Download https://jitpack.io/com/github/Ahmed-Adel-Ismail/J-Curry/1.2.0/J-Curry-1.2.0.jar
+Download https://jitpack.io/com/github/Ahmed-Adel-Ismail/RxProperties/0.0.2/RxProperties-0.0.2.jar
+Download https://jitpack.io/com/github/Ahmed-Adel-Ismail/J-Chain/1.0.0/J-Chain-1.0.0.jar
+:Actor-Lite:mergeDebugShaders
+:Actor-Lite:compileDebugShaders
+:Actor-Lite:generateDebugAssets
+:Actor-Lite:mergeDebugAssets
+:Actor-Lite:mergeDebugConsumerProguardFiles
+:Actor-Lite:packageDebugRenderscript NO-SOURCE
+:Actor-Lite:processDebugJavaRes NO-SOURCE
+:Actor-Lite:mergeDebugJniLibFolders
+:Actor-Lite:transformNativeLibsWithMergeJniLibsForDebug
+:Actor-Lite:transformNativeLibsWithStripDebugSymbolForDebug
+:Actor-Lite:transformNativeLibsWithSyncJniLibsForDebug
+:Actor-Lite:preReleaseBuild UP-TO-DATE
+:Actor-Lite:compileReleaseAidl
+:Actor-Lite:compileReleaseNdk NO-SOURCE
+:Actor-Lite:compileReleaseRenderscript
+:Actor-Lite:checkReleaseManifest
+:Actor-Lite:generateReleaseBuildConfig
+:Actor-Lite:generateReleaseResValues
+:Actor-Lite:generateReleaseResources
+:Actor-Lite:packageReleaseResources
+:Actor-Lite:processReleaseManifest
+:Actor-Lite:javaPreCompileRelease
+:Actor-Lite:mergeReleaseShaders
+:Actor-Lite:compileReleaseShaders
+:Actor-Lite:generateReleaseAssets
+:Actor-Lite:mergeReleaseAssets
+:Actor-Lite:mergeReleaseConsumerProguardFiles
+:Actor-Lite:packageReleaseRenderscript NO-SOURCE
+:Actor-Lite:processReleaseJavaRes NO-SOURCE
+:Actor-Lite:mergeReleaseJniLibFolders
+:Actor-Lite:transformNativeLibsWithMergeJniLibsForRelease
+:Actor-Lite:transformNativeLibsWithStripDebugSymbolForRelease
+:Actor-Lite:transformNativeLibsWithSyncJniLibsForRelease
+:Actor-Lite:mergeReleaseResources
+:Actor-Lite:verifyReleaseResources
+:Actor-Lite:processDebugResources
+:Actor-Lite:generateDebugSources
+:Actor-Lite:compileDebugJavaWithJavac
+:Actor-Lite:extractDebugAnnotations
+Warning: com.actors.RegistrationStage: The typedef annotation should have @Retention(RetentionPolicy.SOURCE)
+Warning: com.actors.UnregistrationStage: The typedef annotation should have @Retention(RetentionPolicy.SOURCE)
+:Actor-Lite:transformResourcesWithMergeJavaResForDebug
+:Actor-Lite:transformClassesAndResourcesWithSyncLibJarsForDebug
+:Actor-Lite:bundleDebug
+:Actor-Lite:compileDebugSources
+:Actor-Lite:assembleDebug
+:Actor-Lite:processReleaseResources
+:Actor-Lite:generateReleaseSources
+:Actor-Lite:compileReleaseJavaWithJavac
+:Actor-Lite:extractReleaseAnnotations
+Warning: com.actors.RegistrationStage: The typedef annotation should have @Retention(RetentionPolicy.SOURCE)
+Warning: com.actors.UnregistrationStage: The typedef annotation should have @Retention(RetentionPolicy.SOURCE)
+:Actor-Lite:transformResourcesWithMergeJavaResForRelease
+:Actor-Lite:transformClassesAndResourcesWithSyncLibJarsForRelease
+:Actor-Lite:bundleRelease
+:Actor-Lite:compileReleaseSources
+:Actor-Lite:assembleRelease
+:Actor-Lite:assemble
+:Actor-Lite:build
+
+BUILD SUCCESSFUL in 19s
+48 actionable tasks: 48 executed
+
+2018-08-30 13:07:19,635 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-30 13:07:19,636 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535609202370-0/src/ActorLite-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535609202370-0/src/ActorLite-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-30 13:07:25,987 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-30 13:07:25,987 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-30 13:07:25,987 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535609202370-0/src/ActorLite-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535609202370-0/src/ActorLite-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-30 13:08:31,891 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':Actor-Lite' is deprecated. Use 'implementation' instead.
+:Actor-Lite:preBuild UP-TO-DATE
+:Actor-Lite:preDebugBuild UP-TO-DATE
+:Actor-Lite:compileDebugAidl UP-TO-DATE
+:Actor-Lite:compileDebugRenderscript UP-TO-DATE
+:Actor-Lite:checkDebugManifest UP-TO-DATE
+:Actor-Lite:generateDebugBuildConfig UP-TO-DATE
+:Actor-Lite:prepareLintJar UP-TO-DATE
+:Actor-Lite:generateDebugResValues UP-TO-DATE
+:Actor-Lite:generateDebugResources UP-TO-DATE
+:Actor-Lite:packageDebugResources UP-TO-DATE
+:Actor-Lite:platformAttrExtractor UP-TO-DATE
+:Actor-Lite:processDebugManifest UP-TO-DATE
+:Actor-Lite:processDebugResources UP-TO-DATE
+:Actor-Lite:generateDebugSources UP-TO-DATE
+:Actor-Lite:javaPreCompileDebug UP-TO-DATE
+:Actor-Lite:compileDebugJavaWithJavac UP-TO-DATE
+:Actor-Lite:processDebugJavaRes NO-SOURCE
+:Actor-Lite:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild
+Download https://jitpack.io/com/github/Ahmed-Adel-Ismail/CommandsMap/0.0.4/CommandsMap-0.0.4.pom
+Download https://jitpack.io/com/github/Ahmed-Adel-Ismail/CommandsMap/CommandMapsCompiler/0.0.4/CommandMapsCompiler-0.0.4.pom
+Download https://jitpack.io/com/github/Ahmed-Adel-Ismail/CommandsMap/CommandMaps/0.0.4/CommandMaps-0.0.4.pom
+:app:compileDebugAidl
+:Actor-Lite:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:app:processDebugResources
+:app:generateDebugSources
+:app:javaPreCompileDebug
+Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.1.1/rxjava-2.1.1.pom
+Download https://jitpack.io/com/github/Ahmed-Adel-Ismail/CommandsMap/0.0.4/CommandsMap-0.0.4.jar
+Download https://jitpack.io/com/github/Ahmed-Adel-Ismail/CommandsMap/CommandMapsCompiler/0.0.4/CommandMapsCompiler-0.0.4.jar
+Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.1.1/rxjava-2.1.1.jar
+Download https://jitpack.io/com/github/Ahmed-Adel-Ismail/CommandsMap/CommandMaps/0.0.4/CommandMaps-0.0.4.jar
+:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535609202370-0/src/ActorLite-master/app/src/main/java/com/actors/actorlite/NonSupportFragment.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:Actor-Lite:mergeDebugShaders UP-TO-DATE
+:Actor-Lite:compileDebugShaders UP-TO-DATE
+:Actor-Lite:generateDebugAssets UP-TO-DATE
+:Actor-Lite:mergeDebugAssets UP-TO-DATE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithStackFramesFixerForDebug
+:app:transformClassesWithDesugarForDebug
+:app:transformClassesWithDexBuilderForDebug
+:app:transformClassesWithMultidexlistForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:Actor-Lite:compileDebugNdk NO-SOURCE
+:Actor-Lite:mergeDebugJniLibFolders UP-TO-DATE
+:Actor-Lite:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:Actor-Lite:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:Actor-Lite:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:Actor-Lite:preReleaseBuild UP-TO-DATE
+:Actor-Lite:compileReleaseAidl UP-TO-DATE
+:Actor-Lite:compileReleaseRenderscript UP-TO-DATE
+:Actor-Lite:checkReleaseManifest UP-TO-DATE
+:Actor-Lite:generateReleaseBuildConfig UP-TO-DATE
+:Actor-Lite:generateReleaseResValues UP-TO-DATE
+:Actor-Lite:generateReleaseResources UP-TO-DATE
+:Actor-Lite:packageReleaseResources UP-TO-DATE
+:Actor-Lite:processReleaseManifest UP-TO-DATE
+:Actor-Lite:processReleaseResources UP-TO-DATE
+:Actor-Lite:generateReleaseSources UP-TO-DATE
+:Actor-Lite:javaPreCompileRelease UP-TO-DATE
+:Actor-Lite:compileReleaseJavaWithJavac UP-TO-DATE
+:Actor-Lite:processReleaseJavaRes NO-SOURCE
+:Actor-Lite:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:preReleaseBuild
+:app:compileReleaseAidl
+:Actor-Lite:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535609202370-0/src/ActorLite-master/app/src/main/java/com/actors/actorlite/NonSupportFragment.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:Actor-Lite:mergeReleaseShaders UP-TO-DATE
+:Actor-Lite:compileReleaseShaders UP-TO-DATE
+:Actor-Lite:generateReleaseAssets UP-TO-DATE
+:Actor-Lite:mergeReleaseAssets UP-TO-DATE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithStackFramesFixerForRelease
+:app:transformClassesWithDesugarForRelease
+:app:transformClassesWithJarMergingForRelease
+:app:transformClassesWithMultidexlistForRelease
+:app:transformClassesWithDexForRelease
+:Actor-Lite:compileReleaseNdk NO-SOURCE
+:Actor-Lite:mergeReleaseJniLibFolders UP-TO-DATE
+:Actor-Lite:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:Actor-Lite:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:Actor-Lite:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 1m 5s
+93 actionable tasks: 59 executed, 34 up-to-date
+Exception in thread "Thread-30" java.lang.NoClassDefFoundError: com/android/utils/PathUtils$1
+	at com.android.utils.PathUtils.deleteIfExists(PathUtils.java:47)
+	at com.android.utils.PathUtils.lambda$addRemovePathHook$0(PathUtils.java:125)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: com.android.utils.PathUtils$1
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 3 more
+
+2018-08-30 13:08:32,004 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535609202370-0/src/ActorLite-master/app/build/outputs/apk/debug/app-debug.apk

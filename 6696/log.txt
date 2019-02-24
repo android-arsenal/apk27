@@ -1,0 +1,160 @@
+2018-09-03 02:29:35,772 INFO  DownloadService - Downloading "https://github.com/felixsoares/HorizontalBarGraph/archive/master.zip", attempt 3
+2018-09-03 02:29:36,377 INFO  DownloadService - Downloaded https://github.com/felixsoares/HorizontalBarGraph/archive/master.zip, attempt 3
+2018-09-03 02:29:36,377 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916575764-0/master.zip": 159 KB
+2018-09-03 02:29:36,377 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-03 02:29:36,383 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916575764-0/master.zip: true
+2018-09-03 02:29:36,383 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916575764-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916575764-0/src'.
+2018-09-03 02:29:36,407 INFO  FullProcessService - Size of directory with sources: 168 KB
+2018-09-03 02:29:36,407 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916575764-0/src]
+2018-09-03 02:29:36,423 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916575764-0/src/.git/
+
+2018-09-03 02:29:36,427 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916575764-0/src/HorizontalBarGraph-master/HorizontalBarGraphSample/gradlew
+2018-09-03 02:29:36,430 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916575764-0/src/HorizontalBarGraph-master/HorizontalBarGraphSample/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916575764-0/src/HorizontalBarGraph-master/HorizontalBarGraphSample/horizontalbargraph/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916575764-0/src/HorizontalBarGraph-master/HorizontalBarGraphSample/build.gradle
+2018-09-03 02:29:36,433 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916575764-0/src/HorizontalBarGraph-master/HorizontalBarGraphSample/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916575764-0/src/HorizontalBarGraph-master/HorizontalBarGraphSample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916575764-0/src/HorizontalBarGraph-master/HorizontalBarGraphSample/horizontalbargraph/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916575764-0/src/HorizontalBarGraph-master/HorizontalBarGraphSample/settings.gradle
+2018-09-03 02:29:36,434 INFO  ProjectBuildService - Remote scripts: none
+2018-09-03 02:29:36,434 INFO  ProjectFixService - Fixing project...
+2018-09-03 02:29:36,442 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916575764-0/src/HorizontalBarGraph-master/HorizontalBarGraphSample/app/local.properties
+2018-09-03 02:29:36,443 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916575764-0/src/HorizontalBarGraph-master/HorizontalBarGraphSample/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-09-03 02:29:36,443 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916575764-0/src/HorizontalBarGraph-master/HorizontalBarGraphSample/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-09-03 02:29:36,444 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916575764-0/src/HorizontalBarGraph-master/HorizontalBarGraphSample/horizontalbargraph/local.properties
+2018-09-03 02:29:36,444 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916575764-0/src/HorizontalBarGraph-master/HorizontalBarGraphSample/horizontalbargraph/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-09-03 02:29:36,444 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916575764-0/src/HorizontalBarGraph-master/HorizontalBarGraphSample/horizontalbargraph/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-09-03 02:29:36,445 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916575764-0/src/HorizontalBarGraph-master/HorizontalBarGraphSample/local.properties
+2018-09-03 02:29:36,446 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-09-03 02:29:36,446 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-09-03 02:29:36,447 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916575764-0/src/HorizontalBarGraph-master/HorizontalBarGraphSample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-09-03 02:29:36,447 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916575764-0/src/HorizontalBarGraph-master/HorizontalBarGraphSample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-09-03 02:29:36,448 INFO  ProjectFixService - Project was maybe fixed
+2018-09-03 02:29:36,448 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-03 02:29:36,448 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916575764-0/src/HorizontalBarGraph-master/HorizontalBarGraphSample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916575764-0/src/HorizontalBarGraph-master/HorizontalBarGraphSample/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-03 02:29:42,977 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-03 02:29:42,977 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-03 02:29:42,977 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916575764-0/src/HorizontalBarGraph-master/HorizontalBarGraphSample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916575764-0/src/HorizontalBarGraph-master/HorizontalBarGraphSample/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-03 02:30:13,102 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
+Configuration 'compile' in project ':horizontalbargraph' is deprecated. Use 'implementation' instead.
+:app:preBuild UP-TO-DATE
+:horizontalbargraph:preBuild UP-TO-DATE
+:horizontalbargraph:preDebugBuild UP-TO-DATE
+:horizontalbargraph:checkDebugManifest
+:horizontalbargraph:processDebugManifest
+:app:preDebugBuild
+:horizontalbargraph:compileDebugAidl
+:app:compileDebugAidl
+:horizontalbargraph:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:generateDebugResValues
+:app:generateDebugResources
+:horizontalbargraph:compileDebugRenderscript
+:horizontalbargraph:generateDebugResValues
+:horizontalbargraph:generateDebugResources
+:horizontalbargraph:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:horizontalbargraph:platformAttrExtractor
+:horizontalbargraph:generateDebugBuildConfig
+:horizontalbargraph:prepareLintJar
+:horizontalbargraph:javaPreCompileDebug
+:horizontalbargraph:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:horizontalbargraph:mergeDebugShaders
+:horizontalbargraph:compileDebugShaders
+:horizontalbargraph:generateDebugAssets
+:horizontalbargraph:mergeDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:horizontalbargraph:compileDebugNdk NO-SOURCE
+:horizontalbargraph:mergeDebugJniLibFolders
+:horizontalbargraph:transformNativeLibsWithMergeJniLibsForDebug
+:horizontalbargraph:transformNativeLibsWithStripDebugSymbolForDebug
+:horizontalbargraph:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:horizontalbargraph:preReleaseBuild UP-TO-DATE
+:horizontalbargraph:checkReleaseManifest
+:horizontalbargraph:processReleaseManifest
+:app:preReleaseBuild
+:horizontalbargraph:compileReleaseAidl
+:app:compileReleaseAidl
+:horizontalbargraph:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:horizontalbargraph:compileReleaseRenderscript
+:horizontalbargraph:generateReleaseResValues
+:horizontalbargraph:generateReleaseResources
+:horizontalbargraph:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:horizontalbargraph:generateReleaseBuildConfig
+:horizontalbargraph:javaPreCompileRelease
+:horizontalbargraph:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:horizontalbargraph:mergeReleaseShaders
+:horizontalbargraph:compileReleaseShaders
+:horizontalbargraph:generateReleaseAssets
+:horizontalbargraph:mergeReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:horizontalbargraph:compileReleaseNdk NO-SOURCE
+:horizontalbargraph:mergeReleaseJniLibFolders
+:horizontalbargraph:transformNativeLibsWithMergeJniLibsForRelease
+:horizontalbargraph:transformNativeLibsWithStripDebugSymbolForRelease
+:horizontalbargraph:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:horizontalbargraph:processDebugResources
+:app:processDebugResources
+:app:generateDebugSources
+:horizontalbargraph:generateDebugSources
+:horizontalbargraph:compileDebugJavaWithJavac
+:horizontalbargraph:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:horizontalbargraph:processReleaseResources
+:app:processReleaseResources
+:app:generateReleaseSources
+:horizontalbargraph:generateReleaseSources
+:horizontalbargraph:compileReleaseJavaWithJavac
+:horizontalbargraph:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 28s
+88 actionable tasks: 88 executed
+
+2018-09-03 02:30:13,242 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916575764-0/src/HorizontalBarGraph-master/HorizontalBarGraphSample/app/build/outputs/apk/debug/app-debug.apk

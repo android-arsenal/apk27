@@ -1,0 +1,246 @@
+2018-09-03 02:20:57,033 INFO  DownloadService - Downloading "https://github.com/omegaes/FarAwayTextView/archive/master.zip", attempt 3
+2018-09-03 02:20:57,972 INFO  DownloadService - Downloaded https://github.com/omegaes/FarAwayTextView/archive/master.zip, attempt 3
+2018-09-03 02:20:57,972 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916057026-0/master.zip": 341 KB
+2018-09-03 02:20:57,972 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-03 02:20:57,978 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916057026-0/master.zip: true
+2018-09-03 02:20:57,979 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916057026-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916057026-0/src'.
+2018-09-03 02:20:58,054 INFO  FullProcessService - Size of directory with sources: 688 KB
+2018-09-03 02:20:58,055 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916057026-0/src]
+2018-09-03 02:20:58,070 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916057026-0/src/.git/
+
+2018-09-03 02:20:58,077 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916057026-0/src/FarAwayTextView-master/farawaytextview/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916057026-0/src/FarAwayTextView-master/gradlew
+2018-09-03 02:20:58,083 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916057026-0/src/FarAwayTextView-master/farawaytextview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916057026-0/src/FarAwayTextView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916057026-0/src/FarAwayTextView-master/build.gradle
+2018-09-03 02:20:58,089 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916057026-0/src/FarAwayTextView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916057026-0/src/FarAwayTextView-master/farawaytextview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916057026-0/src/FarAwayTextView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916057026-0/src/FarAwayTextView-master/settings.gradle
+2018-09-03 02:20:58,089 INFO  ProjectBuildService - Remote scripts: none
+2018-09-03 02:20:58,089 INFO  ProjectFixService - Fixing project...
+2018-09-03 02:20:58,102 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916057026-0/src/FarAwayTextView-master/farawaytextview/local.properties
+2018-09-03 02:20:58,103 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-09-03 02:20:58,103 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-09-03 02:20:58,103 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916057026-0/src/FarAwayTextView-master/farawaytextview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-09-03 02:20:58,103 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916057026-0/src/FarAwayTextView-master/farawaytextview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-09-03 02:20:58,104 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916057026-0/src/FarAwayTextView-master/app/local.properties
+2018-09-03 02:20:58,105 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916057026-0/src/FarAwayTextView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-09-03 02:20:58,105 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916057026-0/src/FarAwayTextView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-09-03 02:20:58,106 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916057026-0/src/FarAwayTextView-master/local.properties
+2018-09-03 02:20:58,106 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-09-03 02:20:58,106 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-09-03 02:20:58,107 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916057026-0/src/FarAwayTextView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-09-03 02:20:58,107 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916057026-0/src/FarAwayTextView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-09-03 02:20:58,108 INFO  ProjectFixService - Project was maybe fixed
+2018-09-03 02:20:58,108 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-03 02:20:58,108 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916057026-0/src/FarAwayTextView-master/farawaytextview/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916057026-0/src/FarAwayTextView-master/farawaytextview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-03 02:21:05,519 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-09-03 02:21:05,519 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-03 02:21:05,519 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916057026-0/src/FarAwayTextView-master/farawaytextview/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916057026-0/src/FarAwayTextView-master/farawaytextview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-03 02:21:20,911 INFO  SysUtils - Configuration on demand is an incubating feature.
+:farawaytextview:preBuild UP-TO-DATE
+:farawaytextview:preDebugBuild UP-TO-DATE
+:farawaytextview:compileDebugAidl
+:farawaytextview:compileDebugNdk NO-SOURCE
+:farawaytextview:compileDebugRenderscript
+:farawaytextview:checkDebugManifest
+:farawaytextview:generateDebugBuildConfig
+:farawaytextview:generateDebugResValues
+:farawaytextview:generateDebugResources
+:farawaytextview:packageDebugResources
+:farawaytextview:platformAttrExtractor
+:farawaytextview:processDebugManifest
+:farawaytextview:prepareLintJar
+:farawaytextview:mergeDebugShaders
+:farawaytextview:compileDebugShaders
+:farawaytextview:generateDebugAssets
+:farawaytextview:mergeDebugAssets
+:farawaytextview:mergeDebugConsumerProguardFiles
+:farawaytextview:packageDebugRenderscript NO-SOURCE
+:farawaytextview:processDebugJavaRes NO-SOURCE
+:farawaytextview:mergeDebugJniLibFolders
+:farawaytextview:transformNativeLibsWithMergeJniLibsForDebug
+:farawaytextview:transformNativeLibsWithStripDebugSymbolForDebug
+:farawaytextview:transformNativeLibsWithSyncJniLibsForDebug
+:farawaytextview:preReleaseBuild UP-TO-DATE
+:farawaytextview:compileReleaseAidl
+:farawaytextview:compileReleaseNdk NO-SOURCE
+:farawaytextview:compileReleaseRenderscript
+:farawaytextview:checkReleaseManifest
+:farawaytextview:generateReleaseBuildConfig
+:farawaytextview:generateReleaseResValues
+:farawaytextview:generateReleaseResources
+:farawaytextview:packageReleaseResources
+:farawaytextview:processReleaseManifest
+:farawaytextview:mergeReleaseShaders
+:farawaytextview:compileReleaseShaders
+:farawaytextview:generateReleaseAssets
+:farawaytextview:mergeReleaseAssets
+:farawaytextview:mergeReleaseConsumerProguardFiles
+:farawaytextview:packageReleaseRenderscript NO-SOURCE
+:farawaytextview:processReleaseJavaRes NO-SOURCE
+:farawaytextview:mergeReleaseJniLibFolders
+:farawaytextview:transformNativeLibsWithMergeJniLibsForRelease
+:farawaytextview:transformNativeLibsWithStripDebugSymbolForRelease
+:farawaytextview:transformNativeLibsWithSyncJniLibsForRelease
+:farawaytextview:mergeReleaseResources
+:farawaytextview:verifyReleaseResources
+:farawaytextview:processDebugResources
+:farawaytextview:compileDebugKotlin
+:farawaytextview:generateDebugSources
+:farawaytextview:javaPreCompileDebug
+:farawaytextview:compileDebugJavaWithJavac
+:farawaytextview:extractDebugAnnotations
+:farawaytextview:transformResourcesWithMergeJavaResForDebug
+:farawaytextview:transformClassesAndResourcesWithSyncLibJarsForDebug
+:farawaytextview:bundleDebug
+:farawaytextview:compileDebugSources
+:farawaytextview:assembleDebug
+:farawaytextview:processReleaseResources
+:farawaytextview:compileReleaseKotlin
+:farawaytextview:generateReleaseSources
+:farawaytextview:javaPreCompileRelease
+:farawaytextview:compileReleaseJavaWithJavac
+:farawaytextview:extractReleaseAnnotations
+:farawaytextview:transformResourcesWithMergeJavaResForRelease
+:farawaytextview:transformClassesAndResourcesWithSyncLibJarsForRelease
+:farawaytextview:bundleRelease
+:farawaytextview:compileReleaseSources
+:farawaytextview:assembleRelease
+:farawaytextview:assemble
+:farawaytextview:build
+
+BUILD SUCCESSFUL in 14s
+50 actionable tasks: 50 executed
+
+2018-09-03 02:21:20,961 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-03 02:21:20,961 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916057026-0/src/FarAwayTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916057026-0/src/FarAwayTextView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-03 02:21:28,118 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-03 02:21:28,118 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-03 02:21:28,118 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916057026-0/src/FarAwayTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916057026-0/src/FarAwayTextView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-03 02:21:56,315 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
+:app:preBuild UP-TO-DATE
+:farawaytextview:preBuild UP-TO-DATE
+:farawaytextview:preDebugBuild UP-TO-DATE
+:farawaytextview:checkDebugManifest UP-TO-DATE
+:farawaytextview:processDebugManifest UP-TO-DATE
+:app:preDebugBuild
+:farawaytextview:compileDebugAidl UP-TO-DATE
+:app:compileDebugAidl
+:farawaytextview:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:farawaytextview:compileDebugRenderscript UP-TO-DATE
+:farawaytextview:generateDebugResValues UP-TO-DATE
+:farawaytextview:generateDebugResources UP-TO-DATE
+:farawaytextview:packageDebugResources UP-TO-DATE
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:farawaytextview:platformAttrExtractor UP-TO-DATE
+:farawaytextview:processDebugResources UP-TO-DATE
+:app:processDebugResources
+:farawaytextview:generateDebugBuildConfig UP-TO-DATE
+:farawaytextview:compileDebugKotlin
+:farawaytextview:prepareLintJar UP-TO-DATE
+:farawaytextview:generateDebugSources UP-TO-DATE
+:farawaytextview:javaPreCompileDebug UP-TO-DATE
+:farawaytextview:compileDebugJavaWithJavac UP-TO-DATE
+:farawaytextview:processDebugJavaRes NO-SOURCE
+:farawaytextview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+:app:prepareLintJar
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:farawaytextview:mergeDebugShaders UP-TO-DATE
+:farawaytextview:compileDebugShaders UP-TO-DATE
+:farawaytextview:generateDebugAssets UP-TO-DATE
+:farawaytextview:mergeDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:farawaytextview:compileDebugNdk NO-SOURCE
+:farawaytextview:mergeDebugJniLibFolders UP-TO-DATE
+:farawaytextview:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:farawaytextview:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:farawaytextview:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:farawaytextview:preReleaseBuild UP-TO-DATE
+:farawaytextview:checkReleaseManifest UP-TO-DATE
+:farawaytextview:processReleaseManifest UP-TO-DATE
+:app:preReleaseBuild
+:farawaytextview:compileReleaseAidl UP-TO-DATE
+:app:compileReleaseAidl
+:farawaytextview:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:farawaytextview:compileReleaseRenderscript UP-TO-DATE
+:farawaytextview:generateReleaseResValues UP-TO-DATE
+:farawaytextview:generateReleaseResources UP-TO-DATE
+:farawaytextview:packageReleaseResources UP-TO-DATE
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:farawaytextview:processReleaseResources UP-TO-DATE
+:app:processReleaseResources
+:farawaytextview:generateReleaseBuildConfig UP-TO-DATE
+:farawaytextview:compileReleaseKotlin
+:farawaytextview:generateReleaseSources UP-TO-DATE
+:farawaytextview:javaPreCompileRelease UP-TO-DATE
+:farawaytextview:compileReleaseJavaWithJavac UP-TO-DATE
+:farawaytextview:processReleaseJavaRes NO-SOURCE
+:farawaytextview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:farawaytextview:mergeReleaseShaders UP-TO-DATE
+:farawaytextview:compileReleaseShaders UP-TO-DATE
+:farawaytextview:generateReleaseAssets UP-TO-DATE
+:farawaytextview:mergeReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:farawaytextview:compileReleaseNdk NO-SOURCE
+:farawaytextview:mergeReleaseJniLibFolders UP-TO-DATE
+:farawaytextview:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:farawaytextview:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:farawaytextview:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 27s
+92 actionable tasks: 58 executed, 34 up-to-date
+
+2018-09-03 02:21:56,413 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535916057026-0/src/FarAwayTextView-master/app/build/outputs/apk/debug/app-debug.apk
