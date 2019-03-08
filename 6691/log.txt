@@ -1,30 +1,30 @@
-2018-09-03 10:38:15,925 INFO  DownloadService - Downloading "https://github.com/amalhanaja/retrofit2-kotlin/archive/master.zip", attempt 3
-2018-09-03 10:38:16,384 INFO  DownloadService - Downloaded https://github.com/amalhanaja/retrofit2-kotlin/archive/master.zip, attempt 3
-2018-09-03 10:38:16,384 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945895920-0/master.zip": 61 KB
-2018-09-03 10:38:16,384 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-09-03 10:38:16,384 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945895920-0/master.zip: true
-2018-09-03 10:38:16,385 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945895920-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945895920-0/src'.
-2018-09-03 10:38:16,394 INFO  FullProcessService - Size of directory with sources: 81 KB
-2018-09-03 10:38:16,394 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945895920-0/src]
-2018-09-03 10:38:16,415 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945895920-0/src/.git/
+2019-03-09 04:59:11,531 INFO  DownloadService - Downloading "https://github.com/amalhanaja/retrofit2-kotlin/archive/master.zip", attempt 3
+2019-03-09 04:59:12,012 INFO  DownloadService - Downloaded https://github.com/amalhanaja/retrofit2-kotlin/archive/master.zip, attempt 3
+2019-03-09 04:59:12,013 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552082351528-0/master.zip": 61 KB
+2019-03-09 04:59:12,013 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-09 04:59:12,018 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552082351528-0/master.zip: true
+2019-03-09 04:59:12,018 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552082351528-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552082351528-0/src'.
+2019-03-09 04:59:12,023 INFO  FullProcessService - Size of directory with sources: 81 KB
+2019-03-09 04:59:12,023 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552082351528-0/src]
+2019-03-09 04:59:12,041 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552082351528-0/src/.git/
 
-2018-09-03 10:38:16,417 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945895920-0/src/retrofit2-kotlin-master/gradlew
-2018-09-03 10:38:16,419 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945895920-0/src/retrofit2-kotlin-master/build.gradle
-2018-09-03 10:38:16,421 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945895920-0/src/retrofit2-kotlin-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945895920-0/src/retrofit2-kotlin-master/settings.gradle
-2018-09-03 10:38:16,421 INFO  ProjectBuildService - Remote scripts: none
-2018-09-03 10:38:16,421 INFO  ProjectFixService - Fixing project...
-2018-09-03 10:38:16,426 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945895920-0/src/retrofit2-kotlin-master/local.properties
-2018-09-03 10:38:16,427 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.0-all.zip
-2018-09-03 10:38:16,428 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.0-bin.zip)
-2018-09-03 10:38:16,429 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945895920-0/src/retrofit2-kotlin-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-09-03 10:38:16,430 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945895920-0/src/retrofit2-kotlin-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-09-03 10:38:16,430 INFO  ProjectFixService - Project was maybe fixed
-2018-09-03 10:38:16,430 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-03 10:38:16,431 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945895920-0/src/retrofit2-kotlin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945895920-0/src/retrofit2-kotlin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-03 10:38:20,883 INFO  ProjectTaskService - Detected possible tasks: 42
-2018-09-03 10:38:20,884 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2018-09-03 10:38:20,884 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945895920-0/src/retrofit2-kotlin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535945895920-0/src/retrofit2-kotlin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2018-09-03 10:38:30,967 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 04:59:12,042 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552082351528-0/src/retrofit2-kotlin-master/gradlew
+2019-03-09 04:59:12,043 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552082351528-0/src/retrofit2-kotlin-master/build.gradle
+2019-03-09 04:59:12,045 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552082351528-0/src/retrofit2-kotlin-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552082351528-0/src/retrofit2-kotlin-master/settings.gradle
+2019-03-09 04:59:12,045 INFO  ProjectBuildService - Remote scripts: none
+2019-03-09 04:59:12,045 INFO  ProjectFixService - Fixing project...
+2019-03-09 04:59:12,048 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552082351528-0/src/retrofit2-kotlin-master/local.properties
+2019-03-09 04:59:12,049 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.0-all.zip
+2019-03-09 04:59:12,049 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.0-bin.zip)
+2019-03-09 04:59:12,050 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552082351528-0/src/retrofit2-kotlin-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-09 04:59:12,050 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552082351528-0/src/retrofit2-kotlin-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-09 04:59:12,051 INFO  ProjectFixService - Project was maybe fixed
+2019-03-09 04:59:12,051 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 04:59:12,051 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552082351528-0/src/retrofit2-kotlin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552082351528-0/src/retrofit2-kotlin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 04:59:30,514 INFO  ProjectTaskService - Detected possible tasks: 46
+2019-03-09 04:59:30,514 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-03-09 04:59:30,515 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552082351528-0/src/retrofit2-kotlin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552082351528-0/src/retrofit2-kotlin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-03-09 04:59:39,449 INFO  SysUtils - Configuration on demand is an incubating feature.
 :compileKotlin
 :compileJava NO-SOURCE
 :processResources NO-SOURCE
@@ -33,8 +33,8 @@
 :assemble
 :build
 
-BUILD SUCCESSFUL in 9s
+BUILD SUCCESSFUL in 8s
 2 actionable tasks: 2 executed
 
-2018-09-03 10:38:30,980 ERROR FullProcessService - Project build has not produced APK file
-2018-09-03 10:38:30,985 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-09 04:59:39,454 ERROR FullProcessService - Project build has not produced APK file
+2019-03-09 04:59:39,478 ERROR FullProcessService - Could not find generated or existed APK file
