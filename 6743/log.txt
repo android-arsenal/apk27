@@ -1,343 +1,343 @@
-2019-01-19 19:06:34,839 INFO  DownloadService - Downloading "https://github.com/leonardoxh/livedata-call-adapter/archive/master.zip", attempt 3
-2019-01-19 19:06:36,523 INFO  DownloadService - Downloaded https://github.com/leonardoxh/livedata-call-adapter/archive/master.zip, attempt 3
-2019-01-19 19:06:36,523 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/master.zip": 78 KB
-2019-01-19 19:06:36,523 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-19 19:06:36,523 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/master.zip: true
-2019-01-19 19:06:36,523 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src'.
-2019-01-19 19:06:36,534 INFO  FullProcessService - Size of directory with sources: 111 KB
-2019-01-19 19:06:36,535 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src]
-2019-01-19 19:06:36,557 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/.git/
+2019-03-09 02:13:25,702 INFO  DownloadService - Downloading "https://github.com/leonardoxh/livedata-call-adapter/archive/master.zip", attempt 3
+2019-03-09 02:13:27,899 INFO  DownloadService - Downloaded https://github.com/leonardoxh/livedata-call-adapter/archive/master.zip, attempt 3
+2019-03-09 02:13:27,900 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/master.zip": 78 KB
+2019-03-09 02:13:27,900 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-09 02:13:27,905 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/master.zip: true
+2019-03-09 02:13:27,905 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src'.
+2019-03-09 02:13:27,914 INFO  FullProcessService - Size of directory with sources: 111 KB
+2019-03-09 02:13:27,915 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src]
+2019-03-09 02:13:27,937 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/.git/
 
-2019-01-19 19:06:36,561 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/gradlew
-2019-01-19 19:06:36,564 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/build.gradle
-2019-01-19 19:06:36,566 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/settings.gradle
-2019-01-19 19:06:36,567 INFO  ProjectBuildService - Remote scripts: none
-2019-01-19 19:06:36,567 INFO  ProjectFixService - Fixing project...
-2019-01-19 19:06:36,577 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/local.properties
-2019-01-19 19:06:36,580 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2019-01-19 19:06:36,580 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2019-01-19 19:06:36,581 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/local.properties
-2019-01-19 19:06:36,582 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.7-bin.zip
-2019-01-19 19:06:36,585 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2019-01-19 19:06:36,585 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2019-01-19 19:06:36,586 INFO  ProjectFixService - Project was maybe fixed
-2019-01-19 19:06:36,586 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-19 19:06:36,586 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-19 19:06:48,012 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-01-19 19:06:48,013 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-01-19 19:06:48,013 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-01-19 19:07:08,125 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 02:13:27,940 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/gradlew
+2019-03-09 02:13:27,942 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/build.gradle
+2019-03-09 02:13:27,944 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/settings.gradle
+2019-03-09 02:13:27,944 INFO  ProjectBuildService - Remote scripts: none
+2019-03-09 02:13:27,944 INFO  ProjectFixService - Fixing project...
+2019-03-09 02:13:27,951 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/local.properties
+2019-03-09 02:13:27,953 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-09 02:13:27,953 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-09 02:13:27,954 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/local.properties
+2019-03-09 02:13:27,955 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.7-bin.zip
+2019-03-09 02:13:27,957 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-09 02:13:27,958 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-09 02:13:27,958 INFO  ProjectFixService - Project was maybe fixed
+2019-03-09 02:13:27,959 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 02:13:27,959 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 02:13:36,637 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-03-09 02:13:36,637 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-09 02:13:36,637 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-09 02:13:48,159 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Task :library:androidJavadocs
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/Resource.java:18: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/Resource.java:18: error: cannot find symbol
 import javax.annotation.Nullable;
                        ^
   symbol:   class Nullable
   location: package javax.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:18: error: package android.arch.lifecycle does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:18: error: package android.arch.lifecycle does not exist
 import android.arch.lifecycle.LiveData;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:19: error: package android.arch.lifecycle does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:19: error: package android.arch.lifecycle does not exist
 import android.arch.lifecycle.MutableLiveData;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:23: error: package retrofit2 does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:23: error: package retrofit2 does not exist
 import retrofit2.Call;
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:24: error: package retrofit2 does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:24: error: package retrofit2 does not exist
 import retrofit2.CallAdapter;
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:25: error: package retrofit2 does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:25: error: package retrofit2 does not exist
 import retrofit2.Callback;
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:26: error: package retrofit2 does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:26: error: package retrofit2 does not exist
 import retrofit2.Response;
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:28: error: cannot find symbol
 public final class LiveDataResponseCallAdapter<R> implements CallAdapter<R, LiveData<Resource<Response<R>>>> {
                                                              ^
   symbol: class CallAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:28: error: cannot find symbol
 public final class LiveDataResponseCallAdapter<R> implements CallAdapter<R, LiveData<Resource<Response<R>>>> {
                                                                             ^
   symbol: class LiveData
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:28: error: cannot find symbol
 public final class LiveDataResponseCallAdapter<R> implements CallAdapter<R, LiveData<Resource<Response<R>>>> {
                                                                                               ^
   symbol: class Response
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:42: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:42: error: cannot find symbol
     public LiveData<Resource<Response<R>>> adapt(Call<R> call) {
                                                  ^
   symbol:   class Call
   location: class LiveDataResponseCallAdapter<R>
   where R is a type-variable:
     R extends Object declared in class LiveDataResponseCallAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:42: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:42: error: cannot find symbol
     public LiveData<Resource<Response<R>>> adapt(Call<R> call) {
            ^
   symbol:   class LiveData
   location: class LiveDataResponseCallAdapter<R>
   where R is a type-variable:
     R extends Object declared in class LiveDataResponseCallAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:42: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:42: error: cannot find symbol
     public LiveData<Resource<Response<R>>> adapt(Call<R> call) {
                              ^
   symbol:   class Response
   location: class LiveDataResponseCallAdapter<R>
   where R is a type-variable:
     R extends Object declared in class LiveDataResponseCallAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:48: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:48: error: cannot find symbol
     private static class LiveDataResponseCallCallback<T> implements Callback<T> {
                                                                     ^
   symbol:   class Callback
   location: class LiveDataResponseCallAdapter<R>
   where R is a type-variable:
     R extends Object declared in class LiveDataResponseCallAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:49: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:49: error: cannot find symbol
         private final MutableLiveData<Response<Resource<T>>> liveData;
                       ^
   symbol:   class MutableLiveData
   location: class LiveDataResponseCallCallback<T>
   where T is a type-variable:
     T extends Object declared in class LiveDataResponseCallCallback
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:49: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:49: error: cannot find symbol
         private final MutableLiveData<Response<Resource<T>>> liveData;
                                       ^
   symbol:   class Response
   location: class LiveDataResponseCallCallback<T>
   where T is a type-variable:
     T extends Object declared in class LiveDataResponseCallCallback
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:51: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:51: error: cannot find symbol
         LiveDataResponseCallCallback(MutableLiveData<Response<Resource<T>>> liveData) {
                                      ^
   symbol:   class MutableLiveData
   location: class LiveDataResponseCallCallback<T>
   where T is a type-variable:
     T extends Object declared in class LiveDataResponseCallCallback
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:51: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:51: error: cannot find symbol
         LiveDataResponseCallCallback(MutableLiveData<Response<Resource<T>>> liveData) {
                                                      ^
   symbol:   class Response
   location: class LiveDataResponseCallCallback<T>
   where T is a type-variable:
     T extends Object declared in class LiveDataResponseCallCallback
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:56: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:56: error: cannot find symbol
         public void onResponse(Call<T> call, Response<T> response) {
                                ^
   symbol:   class Call
   location: class LiveDataResponseCallCallback<T>
   where T is a type-variable:
     T extends Object declared in class LiveDataResponseCallCallback
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:56: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:56: error: cannot find symbol
         public void onResponse(Call<T> call, Response<T> response) {
                                              ^
   symbol:   class Response
   location: class LiveDataResponseCallCallback<T>
   where T is a type-variable:
     T extends Object declared in class LiveDataResponseCallCallback
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:63: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseCallAdapter.java:63: error: cannot find symbol
         public void onFailure(Call<T> call, Throwable t) {
                               ^
   symbol:   class Call
   location: class LiveDataResponseCallCallback<T>
   where T is a type-variable:
     T extends Object declared in class LiveDataResponseCallCallback
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseBodyConverterFactory.java:22: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseBodyConverterFactory.java:22: error: cannot find symbol
 import javax.annotation.Nullable;
                        ^
   symbol:   class Nullable
   location: package javax.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseBodyConverterFactory.java:24: error: package okhttp3 does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseBodyConverterFactory.java:24: error: package okhttp3 does not exist
 import okhttp3.ResponseBody;
               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseBodyConverterFactory.java:25: error: package retrofit2 does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseBodyConverterFactory.java:25: error: package retrofit2 does not exist
 import retrofit2.Converter;
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseBodyConverterFactory.java:26: error: package retrofit2 does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseBodyConverterFactory.java:26: error: package retrofit2 does not exist
 import retrofit2.Response;
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseBodyConverterFactory.java:27: error: package retrofit2 does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseBodyConverterFactory.java:27: error: package retrofit2 does not exist
 import retrofit2.Retrofit;
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseBodyConverterFactory.java:34: error: package Converter does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseBodyConverterFactory.java:34: error: package Converter does not exist
 public final class LiveDataResponseBodyConverterFactory extends Converter.Factory {
                                                                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseBodyConverterFactory.java:45: error: package Converter does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseBodyConverterFactory.java:45: error: package Converter does not exist
     public static LiveDataResponseBodyConverterFactory wrap(Converter.Factory factory) {
                                                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseBodyConverterFactory.java:52: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseBodyConverterFactory.java:52: error: cannot find symbol
                                                             Retrofit retrofit) {
                                                             ^
   symbol:   class Retrofit
   location: class LiveDataResponseBodyConverterFactory
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseBodyConverterFactory.java:51: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseBodyConverterFactory.java:51: error: cannot find symbol
     public Converter<ResponseBody, ?> responseBodyConverter(Type type, Annotation[] annotations,
            ^
   symbol:   class Converter
   location: class LiveDataResponseBodyConverterFactory
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseBodyConverterFactory.java:51: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseBodyConverterFactory.java:51: error: cannot find symbol
     public Converter<ResponseBody, ?> responseBodyConverter(Type type, Annotation[] annotations,
                      ^
   symbol:   class ResponseBody
   location: class LiveDataResponseBodyConverterFactory
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataBodyCallAdapter.java:18: error: package android.arch.lifecycle does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataBodyCallAdapter.java:18: error: package android.arch.lifecycle does not exist
 import android.arch.lifecycle.LiveData;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataBodyCallAdapter.java:19: error: package android.arch.lifecycle does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataBodyCallAdapter.java:19: error: package android.arch.lifecycle does not exist
 import android.arch.lifecycle.MutableLiveData;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataBodyCallAdapter.java:23: error: package retrofit2 does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataBodyCallAdapter.java:23: error: package retrofit2 does not exist
 import retrofit2.Call;
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataBodyCallAdapter.java:24: error: package retrofit2 does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataBodyCallAdapter.java:24: error: package retrofit2 does not exist
 import retrofit2.CallAdapter;
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataBodyCallAdapter.java:25: error: package retrofit2 does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataBodyCallAdapter.java:25: error: package retrofit2 does not exist
 import retrofit2.Callback;
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataBodyCallAdapter.java:26: error: package retrofit2 does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataBodyCallAdapter.java:26: error: package retrofit2 does not exist
 import retrofit2.HttpException;
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataBodyCallAdapter.java:27: error: package retrofit2 does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataBodyCallAdapter.java:27: error: package retrofit2 does not exist
 import retrofit2.Response;
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataBodyCallAdapter.java:29: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataBodyCallAdapter.java:29: error: cannot find symbol
 public final class LiveDataBodyCallAdapter<R> implements CallAdapter<R, LiveData<Resource<R>>> {
                                                          ^
   symbol: class CallAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataBodyCallAdapter.java:29: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataBodyCallAdapter.java:29: error: cannot find symbol
 public final class LiveDataBodyCallAdapter<R> implements CallAdapter<R, LiveData<Resource<R>>> {
                                                                         ^
   symbol: class LiveData
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataBodyCallAdapter.java:42: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataBodyCallAdapter.java:42: error: cannot find symbol
     public LiveData<Resource<R>> adapt(Call<R> call) {
                                        ^
   symbol:   class Call
   location: class LiveDataBodyCallAdapter<R>
   where R is a type-variable:
     R extends Object declared in class LiveDataBodyCallAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataBodyCallAdapter.java:42: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataBodyCallAdapter.java:42: error: cannot find symbol
     public LiveData<Resource<R>> adapt(Call<R> call) {
            ^
   symbol:   class LiveData
   location: class LiveDataBodyCallAdapter<R>
   where R is a type-variable:
     R extends Object declared in class LiveDataBodyCallAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataBodyCallAdapter.java:48: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataBodyCallAdapter.java:48: error: cannot find symbol
     private static class LiveDataBodyCallCallback<T> implements Callback<T> {
                                                                 ^
   symbol:   class Callback
   location: class LiveDataBodyCallAdapter<R>
   where R is a type-variable:
     R extends Object declared in class LiveDataBodyCallAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataBodyCallAdapter.java:49: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataBodyCallAdapter.java:49: error: cannot find symbol
         private final MutableLiveData<Resource<T>> liveData;
                       ^
   symbol:   class MutableLiveData
   location: class LiveDataBodyCallCallback<T>
   where T is a type-variable:
     T extends Object declared in class LiveDataBodyCallCallback
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataBodyCallAdapter.java:51: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataBodyCallAdapter.java:51: error: cannot find symbol
         LiveDataBodyCallCallback(MutableLiveData<Resource<T>> liveData) {
                                  ^
   symbol:   class MutableLiveData
   location: class LiveDataBodyCallCallback<T>
   where T is a type-variable:
     T extends Object declared in class LiveDataBodyCallCallback
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataBodyCallAdapter.java:57: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataBodyCallAdapter.java:57: error: cannot find symbol
         public void onResponse(Call<T> call, Response<T> response) {
                                ^
   symbol:   class Call
   location: class LiveDataBodyCallCallback<T>
   where T is a type-variable:
     T extends Object declared in class LiveDataBodyCallCallback
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataBodyCallAdapter.java:57: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataBodyCallAdapter.java:57: error: cannot find symbol
         public void onResponse(Call<T> call, Response<T> response) {
                                              ^
   symbol:   class Response
   location: class LiveDataBodyCallCallback<T>
   where T is a type-variable:
     T extends Object declared in class LiveDataBodyCallCallback
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataBodyCallAdapter.java:69: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataBodyCallAdapter.java:69: error: cannot find symbol
         public void onFailure(Call<T> call, Throwable t) {
                               ^
   symbol:   class Call
   location: class LiveDataBodyCallCallback<T>
   where T is a type-variable:
     T extends Object declared in class LiveDataBodyCallCallback
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataCallAdapterFactory.java:18: error: package android.arch.lifecycle does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataCallAdapterFactory.java:18: error: package android.arch.lifecycle does not exist
 import android.arch.lifecycle.LiveData;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataCallAdapterFactory.java:24: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataCallAdapterFactory.java:24: error: cannot find symbol
 import javax.annotation.Nullable;
                        ^
   symbol:   class Nullable
   location: package javax.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataCallAdapterFactory.java:26: error: package retrofit2 does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataCallAdapterFactory.java:26: error: package retrofit2 does not exist
 import retrofit2.CallAdapter;
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataCallAdapterFactory.java:27: error: package retrofit2 does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataCallAdapterFactory.java:27: error: package retrofit2 does not exist
 import retrofit2.Response;
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataCallAdapterFactory.java:28: error: package retrofit2 does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataCallAdapterFactory.java:28: error: package retrofit2 does not exist
 import retrofit2.Retrofit;
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataCallAdapterFactory.java:30: error: package CallAdapter does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataCallAdapterFactory.java:30: error: package CallAdapter does not exist
 public final class LiveDataCallAdapterFactory extends CallAdapter.Factory {
                                                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataCallAdapterFactory.java:40: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataCallAdapterFactory.java:40: error: cannot find symbol
     public CallAdapter<?, ?> get(Type returnType, Annotation[] annotations, Retrofit retrofit) {
                                                                             ^
   symbol:   class Retrofit
   location: class LiveDataCallAdapterFactory
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataCallAdapterFactory.java:40: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataCallAdapterFactory.java:40: error: cannot find symbol
     public CallAdapter<?, ?> get(Type returnType, Annotation[] annotations, Retrofit retrofit) {
            ^
   symbol:   class CallAdapter
   location: class LiveDataCallAdapterFactory
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/package-info.java:19: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/package-info.java:19: error: cannot find symbol
 import javax.annotation.ParametersAreNonnullByDefault;
                        ^
   symbol:   class ParametersAreNonnullByDefault
   location: package javax.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/Resource.java:31: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/Resource.java:31: error: cannot find symbol
     @Nullable
      ^
   symbol:   class Nullable
   location: class Resource<T>
   where T is a type-variable:
     T extends Object declared in class Resource
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/Resource.java:36: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/Resource.java:36: error: cannot find symbol
     @Nullable
      ^
   symbol:   class Nullable
   location: class Resource<T>
   where T is a type-variable:
     T extends Object declared in class Resource
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/Resource.java:41: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/Resource.java:41: error: cannot find symbol
     static <T> Resource<T> success(@Nullable T body) {
                                     ^
   symbol:   class Nullable
   location: class Resource<T>
   where T is a type-variable:
     T extends Object declared in class Resource
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/Resource.java:47: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/Resource.java:47: error: cannot find symbol
     static <T> Resource error(@Nullable Throwable error) {
                                ^
   symbol:   class Nullable
   location: class Resource<T>
   where T is a type-variable:
     T extends Object declared in class Resource
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseBodyConverterFactory.java:49: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataResponseBodyConverterFactory.java:49: error: cannot find symbol
     @Nullable
      ^
   symbol:   class Nullable
   location: class LiveDataResponseBodyConverterFactory
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataCallAdapterFactory.java:38: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/LiveDataCallAdapterFactory.java:38: error: cannot find symbol
     @Nullable
      ^
   symbol:   class Nullable
   location: class LiveDataCallAdapterFactory
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/package-info.java:16: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/library/src/main/java/com/github/leonardoxh/livedatacalladapter/package-info.java:16: error: cannot find symbol
 @ParametersAreNonnullByDefault
  ^
   symbol: class ParametersAreNonnullByDefault
@@ -424,14 +424,6 @@ javadoc: warning - Class Nullable not found.
 > Task :library:generateDebugRFile
 > Task :library:generateDebugSources
 > Task :library:compileDebugJavaWithJavac
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.1/lint-kotlin-26.1.1.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.1.1/lint-gradle-26.1.1.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.1/lint-api-26.1.1.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.1/lint-26.1.1.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.1/uast-26.1.1.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.1/intellij-core-26.1.1.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.1/kotlin-compiler-26.1.1.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.1/lint-checks-26.1.1.jar
 > Task :library:extractDebugAnnotations
 > Task :library:transformResourcesWithMergeJavaResForDebug
 > Task :library:transformClassesAndResourcesWithSyncLibJarsForDebug
@@ -451,15 +443,15 @@ Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-che
 > Task :library:assemble
 > Task :library:build
 
-BUILD SUCCESSFUL in 19s
+BUILD SUCCESSFUL in 11s
 51 actionable tasks: 51 executed
 
-2019-01-19 19:07:08,146 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-19 19:07:08,146 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-19 19:07:15,550 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-01-19 19:07:15,551 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-01-19 19:07:15,551 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547899594835-0/src/livedata-call-adapter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-01-19 19:07:23,461 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 02:13:48,182 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 02:13:48,182 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 02:13:54,617 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-03-09 02:13:54,617 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-09 02:13:54,617 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072405694-0/src/livedata-call-adapter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-09 02:14:00,902 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :library:androidJavadocs UP-TO-DATE
 > Task :library:androidJavadocsJar UP-TO-DATE
 > Task :library:androidSourcesJar UP-TO-DATE
@@ -534,8 +526,8 @@ BUILD SUCCESSFUL in 19s
 > Task :library:assemble UP-TO-DATE
 > Task :library:build
 
-BUILD SUCCESSFUL in 7s
+BUILD SUCCESSFUL in 5s
 51 actionable tasks: 51 up-to-date
 
-2019-01-19 19:07:23,479 ERROR FullProcessService - Project build has not produced APK file
-2019-01-19 19:07:23,497 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-09 02:14:00,917 ERROR FullProcessService - Project build has not produced APK file
+2019-03-09 02:14:00,929 ERROR FullProcessService - Could not find generated or existed APK file

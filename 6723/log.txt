@@ -1,244 +1,543 @@
-2018-08-30 11:45:53,760 INFO  DownloadService - Downloading "https://github.com/alexzaitsev/meter-number-picker/archive/master.zip", attempt 3
-2018-08-30 11:46:00,314 INFO  DownloadService - Downloaded https://github.com/alexzaitsev/meter-number-picker/archive/master.zip, attempt 3
-2018-08-30 11:46:00,314 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/master.zip": 4 MB
-2018-08-30 11:46:00,314 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-08-30 11:46:00,321 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/master.zip: true
-2018-08-30 11:46:00,322 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src'.
-2018-08-30 11:46:00,379 INFO  FullProcessService - Size of directory with sources: 5 MB
-2018-08-30 11:46:00,379 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src]
-2018-08-30 11:46:00,395 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/.git/
+2019-03-09 02:28:08,596 INFO  DownloadService - Downloading "https://github.com/alexzaitsev/meter-number-picker/archive/master.zip", attempt 3
+2019-03-09 02:28:18,461 INFO  DownloadService - Downloaded https://github.com/alexzaitsev/meter-number-picker/archive/master.zip, attempt 3
+2019-03-09 02:28:18,461 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552073288593-0/master.zip": 4 MB
+2019-03-09 02:28:18,461 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-09 02:28:18,462 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552073288593-0/master.zip: true
+2019-03-09 02:28:18,462 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552073288593-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552073288593-0/src'.
+2019-03-09 02:28:18,523 INFO  FullProcessService - Size of directory with sources: 5 MB
+2019-03-09 02:28:18,523 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552073288593-0/src]
+2019-03-09 02:28:18,545 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552073288593-0/src/.git/
 
-2018-08-30 11:46:00,397 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/gradlew
-2018-08-30 11:46:00,399 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/meternumberpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/build.gradle
-2018-08-30 11:46:00,401 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/meternumberpicker/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/meternumberpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/settings.gradle
-2018-08-30 11:46:00,402 INFO  ProjectBuildService - Remote scripts: none
-2018-08-30 11:46:00,402 INFO  ProjectFixService - Fixing project...
-2018-08-30 11:46:00,409 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/meternumberpicker/local.properties
-2018-08-30 11:46:00,410 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/meternumberpicker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-08-30 11:46:00,410 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/meternumberpicker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-08-30 11:46:00,411 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/sample/local.properties
-2018-08-30 11:46:00,414 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-08-30 11:46:00,414 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-08-30 11:46:00,415 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/local.properties
-2018-08-30 11:46:00,415 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2018-08-30 11:46:00,416 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2018-08-30 11:46:00,417 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-08-30 11:46:00,417 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-08-30 11:46:00,418 INFO  ProjectFixService - Project was maybe fixed
-2018-08-30 11:46:00,418 INFO  ProjectTaskService - Detecting possible tasks...
-2018-08-30 11:46:00,418 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/meternumberpicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-08-30 11:46:06,094 INFO  ProjectTaskService - Detected possible tasks: 67
-2018-08-30 11:46:06,094 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-08-30 11:46:06,094 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/meternumberpicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-08-30 11:46:17,784 INFO  SysUtils - Configuration on demand is an incubating feature.
-:meternumberpicker:androidSourcesJar
-:meternumberpicker:preBuild UP-TO-DATE
-:meternumberpicker:preDebugBuild UP-TO-DATE
-:meternumberpicker:compileDebugAidl
-:meternumberpicker:compileDebugNdk NO-SOURCE
-:meternumberpicker:compileDebugRenderscript
-:meternumberpicker:checkDebugManifest
-:meternumberpicker:generateDebugBuildConfig
-:meternumberpicker:prepareLintJar
-:meternumberpicker:generateDebugResValues
-:meternumberpicker:generateDebugResources
-:meternumberpicker:packageDebugResources
-:meternumberpicker:platformAttrExtractor
-:meternumberpicker:processDebugManifest
-:meternumberpicker:javaPreCompileDebug
-:meternumberpicker:mergeDebugShaders
-:meternumberpicker:compileDebugShaders
-:meternumberpicker:generateDebugAssets
-:meternumberpicker:mergeDebugAssets
-:meternumberpicker:mergeDebugConsumerProguardFiles
-:meternumberpicker:packageDebugRenderscript NO-SOURCE
-:meternumberpicker:processDebugJavaRes NO-SOURCE
-:meternumberpicker:mergeDebugJniLibFolders
-:meternumberpicker:transformNativeLibsWithMergeJniLibsForDebug
-:meternumberpicker:transformNativeLibsWithStripDebugSymbolForDebug
-:meternumberpicker:transformNativeLibsWithSyncJniLibsForDebug
-:meternumberpicker:preReleaseBuild UP-TO-DATE
-:meternumberpicker:compileReleaseAidl
-:meternumberpicker:compileReleaseNdk NO-SOURCE
-:meternumberpicker:compileReleaseRenderscript
-:meternumberpicker:checkReleaseManifest
-:meternumberpicker:generateReleaseBuildConfig
-:meternumberpicker:generateReleaseResValues
-:meternumberpicker:generateReleaseResources
-:meternumberpicker:packageReleaseResources
-:meternumberpicker:processReleaseManifest
-:meternumberpicker:javaPreCompileRelease
-:meternumberpicker:mergeReleaseShaders
-:meternumberpicker:compileReleaseShaders
-:meternumberpicker:generateReleaseAssets
-:meternumberpicker:mergeReleaseAssets
-:meternumberpicker:mergeReleaseConsumerProguardFiles
-:meternumberpicker:packageReleaseRenderscript NO-SOURCE
-:meternumberpicker:processReleaseJavaRes NO-SOURCE
-:meternumberpicker:mergeReleaseJniLibFolders
-:meternumberpicker:transformNativeLibsWithMergeJniLibsForRelease
-:meternumberpicker:transformNativeLibsWithStripDebugSymbolForRelease
-:meternumberpicker:transformNativeLibsWithSyncJniLibsForRelease
-:meternumberpicker:mergeReleaseResources
-:meternumberpicker:verifyReleaseResources
-:meternumberpicker:processDebugResources
-:meternumberpicker:generateDebugSources
-:meternumberpicker:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/meternumberpicker/src/main/java/com/alexzaitsev/meternumberpicker/MeterNumberPicker.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
+2019-03-09 02:28:18,548 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552073288593-0/src/meter-number-picker-master/gradlew
+2019-03-09 02:28:18,551 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552073288593-0/src/meter-number-picker-master/meternumberpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552073288593-0/src/meter-number-picker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552073288593-0/src/meter-number-picker-master/build.gradle
+2019-03-09 02:28:18,555 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552073288593-0/src/meter-number-picker-master/meternumberpicker/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552073288593-0/src/meter-number-picker-master/meternumberpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552073288593-0/src/meter-number-picker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552073288593-0/src/meter-number-picker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552073288593-0/src/meter-number-picker-master/settings.gradle
+2019-03-09 02:28:18,556 INFO  ProjectBuildService - Remote scripts: none
+2019-03-09 02:28:18,556 INFO  ProjectFixService - Fixing project...
+2019-03-09 02:28:18,569 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552073288593-0/src/meter-number-picker-master/meternumberpicker/local.properties
+2019-03-09 02:28:18,571 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552073288593-0/src/meter-number-picker-master/meternumberpicker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-09 02:28:18,572 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552073288593-0/src/meter-number-picker-master/meternumberpicker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-09 02:28:18,573 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552073288593-0/src/meter-number-picker-master/sample/local.properties
+2019-03-09 02:28:18,575 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552073288593-0/src/meter-number-picker-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-09 02:28:18,575 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552073288593-0/src/meter-number-picker-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-09 02:28:18,576 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552073288593-0/src/meter-number-picker-master/local.properties
+2019-03-09 02:28:18,577 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-03-09 02:28:18,578 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-03-09 02:28:18,581 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552073288593-0/src/meter-number-picker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-09 02:28:18,581 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552073288593-0/src/meter-number-picker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-09 02:28:18,582 INFO  ProjectFixService - Project was maybe fixed
+2019-03-09 02:28:18,582 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 02:28:18,582 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552073288593-0/src/meter-number-picker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552073288593-0/src/meter-number-picker-master/meternumberpicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 02:28:28,018 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-09 02:28:28,018 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-09 02:28:28,018 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-09 02:28:28,018 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552073288593-0/src/meter-number-picker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552073288593-0/src/meter-number-picker-master/meternumberpicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-09 02:28:35,783 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-09 02:28:35,783 INFO  SysUtils - Configuration on demand is an incubating feature.
 
-:meternumberpicker:extractDebugAnnotations
-:meternumberpicker:transformResourcesWithMergeJavaResForDebug
-:meternumberpicker:transformClassesAndResourcesWithSyncLibJarsForDebug
-:meternumberpicker:bundleDebug
-:meternumberpicker:compileDebugSources
-:meternumberpicker:assembleDebug
-:meternumberpicker:processReleaseResources
-:meternumberpicker:generateReleaseSources
-:meternumberpicker:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/meternumberpicker/src/main/java/com/alexzaitsev/meternumberpicker/MeterNumberPicker.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
+FAILURE: Build failed with an exception.
 
-:meternumberpicker:extractReleaseAnnotations
-:meternumberpicker:transformResourcesWithMergeJavaResForRelease
-:meternumberpicker:transformClassesAndResourcesWithSyncLibJarsForRelease
-:meternumberpicker:bundleRelease
-:meternumberpicker:compileReleaseSources
-:meternumberpicker:assembleRelease
-:meternumberpicker:signArchives SKIPPED
-:meternumberpicker:assemble
-:meternumberpicker:build
+* What went wrong:
+A problem occurred configuring project ':meternumberpicker'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mips64el-linux-android
 
-BUILD SUCCESSFUL in 11s
-49 actionable tasks: 49 executed
+* Try:
+Run with --info or --debug option to get more log output.
 
-2018-08-30 11:46:17,823 INFO  ProjectTaskService - Detecting possible tasks...
-2018-08-30 11:46:17,823 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-08-30 11:46:23,327 INFO  ProjectTaskService - Detected possible tasks: 66
-2018-08-30 11:46:23,328 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-08-30 11:46:23,328 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-08-30 11:46:40,992 INFO  SysUtils - Configuration on demand is an incubating feature.
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':meternumberpicker'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:87)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:82)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:69)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:33)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:103)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:49)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:651)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:133)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:60)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:81)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:265)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:173)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:128)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:107)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:45)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:29)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:71)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:51)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:64)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:55)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:42)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:58)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:33)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:287)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:260)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:253)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:182)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mips64el-linux-android
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getDefaultToolchainVersion(DefaultNdkInfo.java:441)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getToolchainPath(DefaultNdkInfo.java:284)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getStripExecutable(DefaultNdkInfo.java:410)
+	at com.android.build.gradle.internal.ndk.NdkHandler.getStripExecutable(NdkHandler.java:459)
+	at com.android.build.gradle.internal.transforms.StripDebugSymbolTransform.<init>(StripDebugSymbolTransform.java:89)
+	at com.android.build.gradle.internal.TaskManager.createStripNativeLibraryTask(TaskManager.java:1718)
+	at com.android.build.gradle.internal.LibraryTaskManager.createTasksForVariantScope(LibraryTaskManager.java:275)
+	at com.android.build.gradle.internal.VariantManager.createTasksForVariantData(VariantManager.java:545)
+	at com.android.build.gradle.internal.VariantManager.lambda$createAndroidTasks$1(VariantManager.java:355)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:351)
+	at com.android.build.gradle.BasePlugin.lambda$createAndroidTasks$5(BasePlugin.java:641)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:636)
+	at com.android.build.gradle.BasePlugin.lambda$null$3(BasePlugin.java:555)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.BasePlugin.lambda$createTasks$4(BasePlugin.java:551)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:91)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:80)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:42)
+	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:230)
+	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:149)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:58)
+	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:324)
+	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:234)
+	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
+	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
+	... 85 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 7s
+
+2019-03-09 02:28:35,787 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 02:28:35,788 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552073288593-0/src/meter-number-picker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552073288593-0/src/meter-number-picker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 02:28:44,450 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-09 02:28:44,451 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-09 02:28:44,451 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-09 02:28:44,451 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552073288593-0/src/meter-number-picker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552073288593-0/src/meter-number-picker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-09 02:28:58,376 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-09 02:28:58,376 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':sample' is deprecated. Use 'implementation' instead.
-:meternumberpicker:preBuild UP-TO-DATE
-:meternumberpicker:preDebugBuild UP-TO-DATE
-:meternumberpicker:compileDebugAidl UP-TO-DATE
-:meternumberpicker:compileDebugRenderscript UP-TO-DATE
-:meternumberpicker:checkDebugManifest UP-TO-DATE
-:meternumberpicker:generateDebugBuildConfig UP-TO-DATE
-:meternumberpicker:prepareLintJar UP-TO-DATE
-:meternumberpicker:generateDebugResValues UP-TO-DATE
-:meternumberpicker:generateDebugResources UP-TO-DATE
-:meternumberpicker:packageDebugResources UP-TO-DATE
-:meternumberpicker:platformAttrExtractor UP-TO-DATE
-:meternumberpicker:processDebugManifest UP-TO-DATE
-:meternumberpicker:processDebugResources UP-TO-DATE
-:meternumberpicker:generateDebugSources UP-TO-DATE
-:meternumberpicker:javaPreCompileDebug UP-TO-DATE
-:meternumberpicker:compileDebugJavaWithJavac UP-TO-DATE
-:meternumberpicker:processDebugJavaRes NO-SOURCE
-:meternumberpicker:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:sample:preBuild UP-TO-DATE
-:sample:preDebugBuild
-:sample:compileDebugAidl
-:meternumberpicker:packageDebugRenderscript NO-SOURCE
-:sample:compileDebugRenderscript
-:sample:checkDebugManifest
-:sample:generateDebugBuildConfig
-:sample:prepareLintJar
-:sample:generateDebugResValues
-:sample:generateDebugResources
-:sample:mergeDebugResources
-:sample:createDebugCompatibleScreenManifests
-:sample:processDebugManifest
-:sample:splitsDiscoveryTaskDebug
-:sample:processDebugResources
-:sample:generateDebugSources
-:sample:javaPreCompileDebug
-:sample:compileDebugJavaWithJavac
-:sample:compileDebugNdk NO-SOURCE
-:sample:compileDebugSources
-:meternumberpicker:mergeDebugShaders UP-TO-DATE
-:meternumberpicker:compileDebugShaders UP-TO-DATE
-:meternumberpicker:generateDebugAssets UP-TO-DATE
-:meternumberpicker:mergeDebugAssets UP-TO-DATE
-:sample:mergeDebugShaders
-:sample:compileDebugShaders
-:sample:generateDebugAssets
-:sample:mergeDebugAssets
-:sample:transformClassesWithDexBuilderForDebug
-:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
-:sample:transformDexArchiveWithDexMergerForDebug
-:meternumberpicker:compileDebugNdk NO-SOURCE
-:meternumberpicker:mergeDebugJniLibFolders UP-TO-DATE
-:meternumberpicker:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-:meternumberpicker:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
-:meternumberpicker:transformNativeLibsWithIntermediateJniLibsForDebug
-:sample:mergeDebugJniLibFolders
-:sample:transformNativeLibsWithMergeJniLibsForDebug
-:sample:transformNativeLibsWithStripDebugSymbolForDebug
-:sample:processDebugJavaRes NO-SOURCE
-:sample:transformResourcesWithMergeJavaResForDebug
-:sample:validateSigningDebug
-:sample:packageDebug
-:sample:assembleDebug
-:meternumberpicker:preReleaseBuild UP-TO-DATE
-:meternumberpicker:compileReleaseAidl UP-TO-DATE
-:meternumberpicker:compileReleaseRenderscript UP-TO-DATE
-:meternumberpicker:checkReleaseManifest UP-TO-DATE
-:meternumberpicker:generateReleaseBuildConfig UP-TO-DATE
-:meternumberpicker:generateReleaseResValues UP-TO-DATE
-:meternumberpicker:generateReleaseResources UP-TO-DATE
-:meternumberpicker:packageReleaseResources UP-TO-DATE
-:meternumberpicker:processReleaseManifest UP-TO-DATE
-:meternumberpicker:processReleaseResources UP-TO-DATE
-:meternumberpicker:generateReleaseSources UP-TO-DATE
-:meternumberpicker:javaPreCompileRelease UP-TO-DATE
-:meternumberpicker:compileReleaseJavaWithJavac UP-TO-DATE
-:meternumberpicker:processReleaseJavaRes NO-SOURCE
-:meternumberpicker:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:sample:preReleaseBuild
-:sample:compileReleaseAidl
-:meternumberpicker:packageReleaseRenderscript NO-SOURCE
-:sample:compileReleaseRenderscript
-:sample:checkReleaseManifest
-:sample:generateReleaseBuildConfig
-:sample:generateReleaseResValues
-:sample:generateReleaseResources
-:sample:mergeReleaseResources
-:sample:createReleaseCompatibleScreenManifests
-:sample:processReleaseManifest
-:sample:splitsDiscoveryTaskRelease
-:sample:processReleaseResources
-:sample:generateReleaseSources
-:sample:javaPreCompileRelease
-:sample:compileReleaseJavaWithJavac
-:sample:compileReleaseNdk NO-SOURCE
-:sample:compileReleaseSources
-:sample:lintVitalRelease
-:meternumberpicker:mergeReleaseShaders UP-TO-DATE
-:meternumberpicker:compileReleaseShaders UP-TO-DATE
-:meternumberpicker:generateReleaseAssets UP-TO-DATE
-:meternumberpicker:mergeReleaseAssets UP-TO-DATE
-:sample:mergeReleaseShaders
-:sample:compileReleaseShaders
-:sample:generateReleaseAssets
-:sample:mergeReleaseAssets
-:sample:transformClassesWithPreDexForRelease
-:sample:transformDexWithDexForRelease
-:meternumberpicker:compileReleaseNdk NO-SOURCE
-:meternumberpicker:mergeReleaseJniLibFolders UP-TO-DATE
-:meternumberpicker:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
-:meternumberpicker:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
-:meternumberpicker:transformNativeLibsWithIntermediateJniLibsForRelease
-:sample:mergeReleaseJniLibFolders
-:sample:transformNativeLibsWithMergeJniLibsForRelease
-:sample:transformNativeLibsWithStripDebugSymbolForRelease
-:sample:processReleaseJavaRes NO-SOURCE
-:sample:transformResourcesWithMergeJavaResForRelease
-:sample:packageRelease
-:sample:assembleRelease
-:sample:assemble
-:sample:build
 
-BUILD SUCCESSFUL in 16s
-88 actionable tasks: 54 executed, 34 up-to-date
+FAILURE: Build failed with an exception.
 
-2018-08-30 11:46:41,074 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535604353757-0/src/meter-number-picker-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+* What went wrong:
+A problem occurred configuring project ':sample'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mips64el-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':sample'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:87)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:82)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:69)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:33)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:103)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:49)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:651)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:133)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:60)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:81)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:265)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:173)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:128)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:107)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:45)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:29)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:71)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:51)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:64)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:55)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:42)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:58)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:33)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:287)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:260)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:253)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:182)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mips64el-linux-android
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getDefaultToolchainVersion(DefaultNdkInfo.java:441)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getToolchainPath(DefaultNdkInfo.java:284)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getStripExecutable(DefaultNdkInfo.java:410)
+	at com.android.build.gradle.internal.ndk.NdkHandler.getStripExecutable(NdkHandler.java:459)
+	at com.android.build.gradle.internal.transforms.StripDebugSymbolTransform.<init>(StripDebugSymbolTransform.java:89)
+	at com.android.build.gradle.internal.TaskManager.createStripNativeLibraryTask(TaskManager.java:1718)
+	at com.android.build.gradle.internal.ApplicationTaskManager.createTasksForVariantScope(ApplicationTaskManager.java:226)
+	at com.android.build.gradle.internal.VariantManager.createTasksForVariantData(VariantManager.java:545)
+	at com.android.build.gradle.internal.VariantManager.lambda$createAndroidTasks$1(VariantManager.java:355)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:351)
+	at com.android.build.gradle.BasePlugin.lambda$createAndroidTasks$5(BasePlugin.java:641)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:636)
+	at com.android.build.gradle.BasePlugin.lambda$null$3(BasePlugin.java:555)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.BasePlugin.lambda$createTasks$4(BasePlugin.java:551)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:91)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:80)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:42)
+	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:230)
+	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:149)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:58)
+	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:324)
+	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:234)
+	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
+	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
+	... 85 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 13s
+
+2019-03-09 02:28:58,380 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 02:28:58,380 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552073288593-0/src/meter-number-picker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552073288593-0/src/meter-number-picker-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 02:29:05,827 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-09 02:29:05,827 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-09 02:29:05,827 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-09 02:29:05,827 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552073288593-0/src/meter-number-picker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552073288593-0/src/meter-number-picker-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-09 02:29:13,332 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-09 02:29:13,332 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':meternumberpicker'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mips64el-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':meternumberpicker'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:87)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:82)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:69)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:33)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:103)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:49)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:651)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:133)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:62)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:81)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:265)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:173)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:128)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:107)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:45)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:29)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:71)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:51)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:64)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:55)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:42)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:58)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:33)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:287)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:260)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:253)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:182)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mips64el-linux-android
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getDefaultToolchainVersion(DefaultNdkInfo.java:441)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getToolchainPath(DefaultNdkInfo.java:284)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getStripExecutable(DefaultNdkInfo.java:410)
+	at com.android.build.gradle.internal.ndk.NdkHandler.getStripExecutable(NdkHandler.java:459)
+	at com.android.build.gradle.internal.transforms.StripDebugSymbolTransform.<init>(StripDebugSymbolTransform.java:89)
+	at com.android.build.gradle.internal.TaskManager.createStripNativeLibraryTask(TaskManager.java:1718)
+	at com.android.build.gradle.internal.LibraryTaskManager.createTasksForVariantScope(LibraryTaskManager.java:275)
+	at com.android.build.gradle.internal.VariantManager.createTasksForVariantData(VariantManager.java:545)
+	at com.android.build.gradle.internal.VariantManager.lambda$createAndroidTasks$1(VariantManager.java:355)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:351)
+	at com.android.build.gradle.BasePlugin.lambda$createAndroidTasks$5(BasePlugin.java:641)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:636)
+	at com.android.build.gradle.BasePlugin.lambda$null$3(BasePlugin.java:555)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.BasePlugin.lambda$createTasks$4(BasePlugin.java:551)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:91)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:80)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:42)
+	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:230)
+	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:149)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:58)
+	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:324)
+	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:234)
+	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
+	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
+	... 85 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 7s
+
+2019-03-09 02:29:13,336 ERROR FullProcessService - Project build has not produced APK file
+2019-03-09 02:29:13,340 ERROR FullProcessService - Could not find generated or existed APK file

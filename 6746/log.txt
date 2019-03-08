@@ -1,33 +1,33 @@
-2018-10-07 21:26:38,545 INFO  DownloadService - Downloading "https://github.com/Pierry/Progress/archive/master.zip", attempt 3
-2018-10-07 21:26:40,762 INFO  DownloadService - Downloaded https://github.com/Pierry/Progress/archive/master.zip, attempt 3
-2018-10-07 21:26:40,763 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538922398537-0/master.zip": 117 KB
-2018-10-07 21:26:40,763 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-07 21:26:40,768 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538922398537-0/master.zip: true
-2018-10-07 21:26:40,768 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538922398537-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538922398537-0/src'.
-2018-10-07 21:26:40,781 INFO  FullProcessService - Size of directory with sources: 137 KB
-2018-10-07 21:26:40,781 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538922398537-0/src]
-2018-10-07 21:26:40,829 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538922398537-0/src/.git/
+2019-03-09 02:11:30,037 INFO  DownloadService - Downloading "https://github.com/Pierry/Progress/archive/master.zip", attempt 3
+2019-03-09 02:11:30,549 INFO  DownloadService - Downloaded https://github.com/Pierry/Progress/archive/master.zip, attempt 3
+2019-03-09 02:11:30,549 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072290034-0/master.zip": 117 KB
+2019-03-09 02:11:30,550 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-09 02:11:30,555 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072290034-0/master.zip: true
+2019-03-09 02:11:30,555 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072290034-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072290034-0/src'.
+2019-03-09 02:11:30,571 INFO  FullProcessService - Size of directory with sources: 137 KB
+2019-03-09 02:11:30,571 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072290034-0/src]
+2019-03-09 02:11:30,590 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072290034-0/src/.git/
 
-2018-10-07 21:26:40,832 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538922398537-0/src/Progress-master/gradlew
-2018-10-07 21:26:40,834 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538922398537-0/src/Progress-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538922398537-0/src/Progress-master/build.gradle
-2018-10-07 21:26:40,837 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538922398537-0/src/Progress-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538922398537-0/src/Progress-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538922398537-0/src/Progress-master/settings.gradle
-2018-10-07 21:26:40,837 INFO  ProjectBuildService - Remote scripts: none
-2018-10-07 21:26:40,837 INFO  ProjectFixService - Fixing project...
-2018-10-07 21:26:40,844 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538922398537-0/src/Progress-master/app/local.properties
-2018-10-07 21:26:40,845 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538922398537-0/src/Progress-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-10-07 21:26:40,845 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538922398537-0/src/Progress-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-10-07 21:26:40,847 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538922398537-0/src/Progress-master/local.properties
-2018-10-07 21:26:40,847 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-10-07 21:26:40,848 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-10-07 21:26:40,850 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538922398537-0/src/Progress-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-10-07 21:26:40,850 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538922398537-0/src/Progress-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-10-07 21:26:40,851 INFO  ProjectFixService - Project was maybe fixed
-2018-10-07 21:26:40,851 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-07 21:26:40,851 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538922398537-0/src/Progress-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538922398537-0/src/Progress-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-07 21:26:49,539 INFO  ProjectTaskService - Detected possible tasks: 65
-2018-10-07 21:26:49,540 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-10-07 21:26:49,540 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538922398537-0/src/Progress-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538922398537-0/src/Progress-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-10-07 21:27:05,191 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 02:11:30,593 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072290034-0/src/Progress-master/gradlew
+2019-03-09 02:11:30,596 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072290034-0/src/Progress-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072290034-0/src/Progress-master/build.gradle
+2019-03-09 02:11:30,599 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072290034-0/src/Progress-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072290034-0/src/Progress-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072290034-0/src/Progress-master/settings.gradle
+2019-03-09 02:11:30,599 INFO  ProjectBuildService - Remote scripts: none
+2019-03-09 02:11:30,599 INFO  ProjectFixService - Fixing project...
+2019-03-09 02:11:30,606 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072290034-0/src/Progress-master/app/local.properties
+2019-03-09 02:11:30,607 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072290034-0/src/Progress-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-09 02:11:30,608 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072290034-0/src/Progress-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-09 02:11:30,609 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072290034-0/src/Progress-master/local.properties
+2019-03-09 02:11:30,609 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-03-09 02:11:30,610 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-03-09 02:11:30,612 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072290034-0/src/Progress-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-09 02:11:30,612 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072290034-0/src/Progress-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-09 02:11:30,613 INFO  ProjectFixService - Project was maybe fixed
+2019-03-09 02:11:30,613 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 02:11:30,613 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072290034-0/src/Progress-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072290034-0/src/Progress-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 02:11:38,236 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-03-09 02:11:38,236 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-09 02:11:38,236 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072290034-0/src/Progress-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072290034-0/src/Progress-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-09 02:11:53,837 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
 :app:compileDebugAidl NO-SOURCE
@@ -42,7 +42,7 @@
 :app:prepareLintJar
 :app:generateDebugSources
 :app:javaPreCompileDebug
-:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538922398537-0/src/Progress-master/app/src/main/java/io/github/pierry/progress/Progress.java uses or overrides a deprecated API.
+:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072290034-0/src/Progress-master/app/src/main/java/io/github/pierry/progress/Progress.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :app:extractDebugAnnotations
@@ -75,7 +75,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :app:generateReleaseRFile
 :app:generateReleaseSources
 :app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538922398537-0/src/Progress-master/app/src/main/java/io/github/pierry/progress/Progress.java uses or overrides a deprecated API.
+:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072290034-0/src/Progress-master/app/src/main/java/io/github/pierry/progress/Progress.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :app:extractReleaseAnnotations
@@ -104,12 +104,12 @@ Note: Recompile with -Xlint:deprecation for details.
 BUILD SUCCESSFUL in 15s
 45 actionable tasks: 45 executed
 
-2018-10-07 21:27:05,242 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-07 21:27:05,243 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538922398537-0/src/Progress-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538922398537-0/src/Progress-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-07 21:27:13,619 INFO  ProjectTaskService - Detected possible tasks: 65
-2018-10-07 21:27:13,620 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-10-07 21:27:13,620 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538922398537-0/src/Progress-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538922398537-0/src/Progress-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-10-07 21:27:22,860 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 02:11:53,902 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 02:11:53,902 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072290034-0/src/Progress-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072290034-0/src/Progress-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 02:12:02,164 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-03-09 02:12:02,164 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-09 02:12:02,164 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072290034-0/src/Progress-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072290034-0/src/Progress-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-09 02:12:11,771 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
 :app:compileDebugAidl NO-SOURCE
@@ -174,13 +174,13 @@ BUILD SUCCESSFUL in 15s
 :app:bundleReleaseAar UP-TO-DATE
 :app:compileReleaseSources UP-TO-DATE
 :app:mergeReleaseResources UP-TO-DATE
-:app:verifyReleaseResources UP-TO-DATE
-:app:assembleRelease UP-TO-DATE
-:app:assemble UP-TO-DATE
+:app:verifyReleaseResources
+:app:assembleRelease
+:app:assemble
 :app:build
 
 BUILD SUCCESSFUL in 9s
-45 actionable tasks: 45 up-to-date
+45 actionable tasks: 1 executed, 44 up-to-date
 
-2018-10-07 21:27:22,920 ERROR FullProcessService - Project build has not produced APK file
-2018-10-07 21:27:22,974 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-09 02:12:11,831 ERROR FullProcessService - Project build has not produced APK file
+2019-03-09 02:12:11,884 ERROR FullProcessService - Could not find generated or existed APK file

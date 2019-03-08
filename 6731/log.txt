@@ -1,118 +1,38 @@
-2018-09-03 02:11:05,238 INFO  DownloadService - Downloading "https://github.com/kibotu/Android-PGP/archive/master.zip", attempt 3
-2018-09-03 02:11:06,179 INFO  DownloadService - Downloaded https://github.com/kibotu/Android-PGP/archive/master.zip, attempt 3
-2018-09-03 02:11:06,180 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/master.zip": 243 KB
-2018-09-03 02:11:06,180 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-09-03 02:11:06,185 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/master.zip: true
-2018-09-03 02:11:06,186 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src'.
-2018-09-03 02:11:06,205 INFO  FullProcessService - Size of directory with sources: 289 KB
-2018-09-03 02:11:06,205 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src]
-2018-09-03 02:11:06,221 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/.git/
+2019-03-09 02:20:51,138 INFO  DownloadService - Downloading "https://github.com/kibotu/Android-PGP/archive/master.zip", attempt 3
+2019-03-09 02:20:52,093 INFO  DownloadService - Downloaded https://github.com/kibotu/Android-PGP/archive/master.zip, attempt 3
+2019-03-09 02:20:52,093 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072851135-0/master.zip": 243 KB
+2019-03-09 02:20:52,093 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-09 02:20:52,098 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072851135-0/master.zip: true
+2019-03-09 02:20:52,098 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072851135-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072851135-0/src'.
+2019-03-09 02:20:52,121 INFO  FullProcessService - Size of directory with sources: 289 KB
+2019-03-09 02:20:52,121 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072851135-0/src]
+2019-03-09 02:20:52,142 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072851135-0/src/.git/
 
-2018-09-03 02:11:06,223 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/gradlew
-2018-09-03 02:11:06,226 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/android-pgp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/build.gradle
-2018-09-03 02:11:06,229 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/android-pgp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/settings.gradle
-2018-09-03 02:11:06,229 INFO  DownloadService - Downloading "https://gist.githubusercontent.com/kibotu/994c9cc65fe623b76b76fedfac74b34b/raw/65ee52482ba65050e015f4b00d8d2fc9172a10e8/javadoc.gradle", attempt 3
-2018-09-03 02:11:07,195 INFO  DownloadService - Downloaded https://gist.githubusercontent.com/kibotu/994c9cc65fe623b76b76fedfac74b34b/raw/65ee52482ba65050e015f4b00d8d2fc9172a10e8/javadoc.gradle, attempt 3
-2018-09-03 02:11:07,195 INFO  ProjectBuildService - Remote scripts: https://gist.githubusercontent.com/kibotu/994c9cc65fe623b76b76fedfac74b34b/raw/65ee52482ba65050e015f4b00d8d2fc9172a10e8/javadoc.gradle
-2018-09-03 02:11:07,196 INFO  ProjectFixService - Fixing project...
-2018-09-03 02:11:07,205 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/android-pgp/local.properties
-2018-09-03 02:11:07,207 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/android-pgp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-09-03 02:11:07,208 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/android-pgp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-09-03 02:11:07,209 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/app/local.properties
-2018-09-03 02:11:07,212 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-09-03 02:11:07,212 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-09-03 02:11:07,213 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/local.properties
-2018-09-03 02:11:07,214 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.5-bin.zip
-2018-09-03 02:11:07,216 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-09-03 02:11:07,216 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-09-03 02:11:07,217 INFO  ProjectFixService - Project was maybe fixed
-2018-09-03 02:11:07,217 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-03 02:11:07,217 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/android-pgp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-03 02:11:14,582 INFO  ProjectTaskService - Detected possible tasks: 67
-2018-09-03 02:11:14,582 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-09-03 02:11:14,582 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/android-pgp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-09-03 02:11:34,076 INFO  SysUtils - Configuration on demand is an incubating feature.
-:android-pgp:preBuild UP-TO-DATE
-:android-pgp:preDebugBuild UP-TO-DATE
-:android-pgp:compileDebugAidl
-:android-pgp:compileDebugNdk NO-SOURCE
-:android-pgp:compileDebugRenderscript
-:android-pgp:checkDebugManifest
-:android-pgp:generateDebugBuildConfig
-:android-pgp:generateDebugResValues
-:android-pgp:generateDebugResources
-:android-pgp:packageDebugResources
-:android-pgp:platformAttrExtractor
-:android-pgp:processDebugManifest
-:android-pgp:prepareLintJar
-:android-pgp:mergeDebugShaders
-:android-pgp:compileDebugShaders
-:android-pgp:generateDebugAssets
-:android-pgp:mergeDebugAssets
-:android-pgp:mergeDebugConsumerProguardFiles
-:android-pgp:packageDebugRenderscript NO-SOURCE
-:android-pgp:processDebugJavaRes NO-SOURCE
-:android-pgp:mergeDebugJniLibFolders
-:android-pgp:transformNativeLibsWithMergeJniLibsForDebug
-:android-pgp:transformNativeLibsWithStripDebugSymbolForDebug
-:android-pgp:transformNativeLibsWithSyncJniLibsForDebug
-:android-pgp:preReleaseBuild UP-TO-DATE
-:android-pgp:compileReleaseAidl
-:android-pgp:compileReleaseNdk NO-SOURCE
-:android-pgp:compileReleaseRenderscript
-:android-pgp:checkReleaseManifest
-:android-pgp:generateReleaseBuildConfig
-:android-pgp:generateReleaseResValues
-:android-pgp:generateReleaseResources
-:android-pgp:packageReleaseResources
-:android-pgp:processReleaseManifest
-:android-pgp:mergeReleaseShaders
-:android-pgp:compileReleaseShaders
-:android-pgp:generateReleaseAssets
-:android-pgp:mergeReleaseAssets
-:android-pgp:mergeReleaseConsumerProguardFiles
-:android-pgp:packageReleaseRenderscript NO-SOURCE
-:android-pgp:processReleaseJavaRes NO-SOURCE
-:android-pgp:mergeReleaseJniLibFolders
-:android-pgp:transformNativeLibsWithMergeJniLibsForRelease
-:android-pgp:transformNativeLibsWithStripDebugSymbolForRelease
-:android-pgp:transformNativeLibsWithSyncJniLibsForRelease
-:android-pgp:mergeReleaseResources
-:android-pgp:verifyReleaseResources
-:android-pgp:processDebugResources
-:android-pgp:compileDebugKotlin
-:android-pgp:generateDebugSources
-:android-pgp:javaPreCompileDebug
-:android-pgp:compileDebugJavaWithJavac
-:android-pgp:extractDebugAnnotations
-:android-pgp:transformResourcesWithMergeJavaResForDebug
-:android-pgp:transformClassesAndResourcesWithSyncLibJarsForDebug
-:android-pgp:bundleDebug
-:android-pgp:compileDebugSources
-:android-pgp:assembleDebug
-:android-pgp:processReleaseResources
-:android-pgp:compileReleaseKotlin
-:android-pgp:generateReleaseSources
-:android-pgp:javaPreCompileRelease
-:android-pgp:compileReleaseJavaWithJavac
-:android-pgp:extractReleaseAnnotations
-:android-pgp:transformResourcesWithMergeJavaResForRelease
-:android-pgp:transformClassesAndResourcesWithSyncLibJarsForRelease
-:android-pgp:bundleRelease
-:android-pgp:compileReleaseSources
-:android-pgp:assembleRelease
-:android-pgp:assemble
-:android-pgp:build
-
-BUILD SUCCESSFUL in 18s
-50 actionable tasks: 50 executed
-
-2018-09-03 02:11:34,091 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-03 02:11:34,091 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-03 02:11:40,139 INFO  ProjectTaskService - Detected possible tasks: 71
-2018-09-03 02:11:40,139 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-09-03 02:11:40,140 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-09-03 02:11:46,238 ERROR SysUtils - Could not process external command
+2019-03-09 02:20:52,145 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072851135-0/src/Android-PGP-master/gradlew
+2019-03-09 02:20:52,148 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072851135-0/src/Android-PGP-master/android-pgp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072851135-0/src/Android-PGP-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072851135-0/src/Android-PGP-master/build.gradle
+2019-03-09 02:20:52,151 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072851135-0/src/Android-PGP-master/android-pgp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072851135-0/src/Android-PGP-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072851135-0/src/Android-PGP-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072851135-0/src/Android-PGP-master/settings.gradle
+2019-03-09 02:20:52,152 INFO  DownloadService - Downloading "https://gist.githubusercontent.com/kibotu/994c9cc65fe623b76b76fedfac74b34b/raw/65ee52482ba65050e015f4b00d8d2fc9172a10e8/javadoc.gradle", attempt 3
+2019-03-09 02:20:52,897 INFO  DownloadService - Downloaded https://gist.githubusercontent.com/kibotu/994c9cc65fe623b76b76fedfac74b34b/raw/65ee52482ba65050e015f4b00d8d2fc9172a10e8/javadoc.gradle, attempt 3
+2019-03-09 02:20:52,897 INFO  ProjectBuildService - Remote scripts: https://gist.githubusercontent.com/kibotu/994c9cc65fe623b76b76fedfac74b34b/raw/65ee52482ba65050e015f4b00d8d2fc9172a10e8/javadoc.gradle
+2019-03-09 02:20:52,897 INFO  ProjectFixService - Fixing project...
+2019-03-09 02:20:52,907 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072851135-0/src/Android-PGP-master/android-pgp/local.properties
+2019-03-09 02:20:52,909 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072851135-0/src/Android-PGP-master/android-pgp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-09 02:20:52,910 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072851135-0/src/Android-PGP-master/android-pgp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-09 02:20:52,911 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072851135-0/src/Android-PGP-master/app/local.properties
+2019-03-09 02:20:52,912 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072851135-0/src/Android-PGP-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-09 02:20:52,913 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072851135-0/src/Android-PGP-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-09 02:20:52,914 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072851135-0/src/Android-PGP-master/local.properties
+2019-03-09 02:20:52,914 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.5-bin.zip
+2019-03-09 02:20:52,916 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072851135-0/src/Android-PGP-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-09 02:20:52,916 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072851135-0/src/Android-PGP-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-09 02:20:52,917 INFO  ProjectFixService - Project was maybe fixed
+2019-03-09 02:20:52,917 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 02:20:52,917 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072851135-0/src/Android-PGP-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072851135-0/src/Android-PGP-master/android-pgp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 02:21:06,981 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-09 02:21:06,981 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-03-09 02:21:06,981 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-03-09 02:21:06,981 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072851135-0/src/Android-PGP-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072851135-0/src/Android-PGP-master/android-pgp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-03-09 02:21:15,001 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -125,34 +45,367 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-09-03 02:11:46,238 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 02:21:15,001 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-Task 'javadocJar' not found in project ':app'.
+A problem occurred configuring project ':android-pgp'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mips64el-linux-android
 
 * Try:
-Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
 
 * Exception is:
-org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in project ':app'.
-	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:116)
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':android-pgp'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:94)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:89)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:70)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:110)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:667)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:136)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:59)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:268)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:175)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:130)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:109)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:49)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:32)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:64)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:290)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:263)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:256)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:190)
+	at org.gradle.launcher.Main.doAction(Main.java:36)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mips64el-linux-android
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getDefaultToolchainVersion(DefaultNdkInfo.java:441)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getToolchainPath(DefaultNdkInfo.java:284)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getStripExecutable(DefaultNdkInfo.java:410)
+	at com.android.build.gradle.internal.ndk.NdkHandler.getStripExecutable(NdkHandler.java:459)
+	at com.android.build.gradle.internal.transforms.StripDebugSymbolTransform.<init>(StripDebugSymbolTransform.java:89)
+	at com.android.build.gradle.internal.TaskManager.createStripNativeLibraryTask(TaskManager.java:1718)
+	at com.android.build.gradle.internal.LibraryTaskManager.createTasksForVariantScope(LibraryTaskManager.java:275)
+	at com.android.build.gradle.internal.VariantManager.createTasksForVariantData(VariantManager.java:545)
+	at com.android.build.gradle.internal.VariantManager.lambda$createAndroidTasks$1(VariantManager.java:355)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:351)
+	at com.android.build.gradle.BasePlugin.lambda$createAndroidTasks$5(BasePlugin.java:641)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:636)
+	at com.android.build.gradle.BasePlugin.lambda$null$3(BasePlugin.java:555)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.BasePlugin.lambda$createTasks$4(BasePlugin.java:551)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:91)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:80)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:42)
+	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:230)
+	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:149)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:58)
+	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:324)
+	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:234)
+	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
+	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:76)
+	... 72 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 7s
+
+2019-03-09 02:21:15,006 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 02:21:15,006 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072851135-0/src/Android-PGP-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072851135-0/src/Android-PGP-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 02:21:21,219 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-09 02:21:21,220 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-03-09 02:21:21,220 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-03-09 02:21:21,220 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072851135-0/src/Android-PGP-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072851135-0/src/Android-PGP-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-03-09 02:21:26,929 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-09 02:21:26,929 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':app'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mips64el-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':app'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:94)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:89)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:70)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:110)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:667)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:136)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:59)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:268)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:175)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:130)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:109)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:49)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:32)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:64)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:290)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:263)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:256)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:190)
+	at org.gradle.launcher.Main.doAction(Main.java:36)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mips64el-linux-android
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getDefaultToolchainVersion(DefaultNdkInfo.java:441)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getToolchainPath(DefaultNdkInfo.java:284)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getStripExecutable(DefaultNdkInfo.java:410)
+	at com.android.build.gradle.internal.ndk.NdkHandler.getStripExecutable(NdkHandler.java:459)
+	at com.android.build.gradle.internal.transforms.StripDebugSymbolTransform.<init>(StripDebugSymbolTransform.java:89)
+	at com.android.build.gradle.internal.TaskManager.createStripNativeLibraryTask(TaskManager.java:1718)
+	at com.android.build.gradle.internal.ApplicationTaskManager.createTasksForVariantScope(ApplicationTaskManager.java:226)
+	at com.android.build.gradle.internal.VariantManager.createTasksForVariantData(VariantManager.java:545)
+	at com.android.build.gradle.internal.VariantManager.lambda$createAndroidTasks$1(VariantManager.java:355)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:351)
+	at com.android.build.gradle.BasePlugin.lambda$createAndroidTasks$5(BasePlugin.java:641)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:636)
+	at com.android.build.gradle.BasePlugin.lambda$null$3(BasePlugin.java:555)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.BasePlugin.lambda$createTasks$4(BasePlugin.java:551)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:91)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:80)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:42)
+	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:230)
+	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:149)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:58)
+	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:324)
+	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:234)
+	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
+	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:76)
+	... 72 more
+
+
+* Get more help at https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+See https://docs.gradle.org/4.5/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 5s
+
+2019-03-09 02:21:26,933 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 02:21:26,934 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072851135-0/src/Android-PGP-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072851135-0/src/Android-PGP-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 02:21:33,766 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-09 02:21:33,766 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-03-09 02:21:33,766 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-03-09 02:21:33,766 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072851135-0/src/Android-PGP-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072851135-0/src/Android-PGP-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-03-09 02:21:40,977 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-09 02:21:40,977 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':android-pgp'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mips64el-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':android-pgp'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:94)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:89)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:70)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:110)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:667)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:136)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:62)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
 	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:66)
 	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
 	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
@@ -214,205 +467,43 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mips64el-linux-android
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getDefaultToolchainVersion(DefaultNdkInfo.java:441)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getToolchainPath(DefaultNdkInfo.java:284)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getStripExecutable(DefaultNdkInfo.java:410)
+	at com.android.build.gradle.internal.ndk.NdkHandler.getStripExecutable(NdkHandler.java:459)
+	at com.android.build.gradle.internal.transforms.StripDebugSymbolTransform.<init>(StripDebugSymbolTransform.java:89)
+	at com.android.build.gradle.internal.TaskManager.createStripNativeLibraryTask(TaskManager.java:1718)
+	at com.android.build.gradle.internal.LibraryTaskManager.createTasksForVariantScope(LibraryTaskManager.java:275)
+	at com.android.build.gradle.internal.VariantManager.createTasksForVariantData(VariantManager.java:545)
+	at com.android.build.gradle.internal.VariantManager.lambda$createAndroidTasks$1(VariantManager.java:355)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:351)
+	at com.android.build.gradle.BasePlugin.lambda$createAndroidTasks$5(BasePlugin.java:641)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:636)
+	at com.android.build.gradle.BasePlugin.lambda$null$3(BasePlugin.java:555)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.BasePlugin.lambda$createTasks$4(BasePlugin.java:551)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:91)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:80)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:42)
+	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:230)
+	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:149)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:58)
+	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:324)
+	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:234)
+	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
+	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:76)
+	... 74 more
 
 
 * Get more help at https://help.gradle.org
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
-See https://docs.gradle.org/4.5/userguide/command_line_interface.html#sec:command_line_warnings
+BUILD FAILED in 6s
 
-BUILD FAILED in 5s
-
-2018-09-03 02:11:46,238 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2018-09-03 02:11:46,239 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-09-03 02:12:40,109 INFO  SysUtils - Configuration on demand is an incubating feature.
-:android-pgp:preBuild UP-TO-DATE
-:android-pgp:preDebugBuild UP-TO-DATE
-:android-pgp:compileDebugAidl UP-TO-DATE
-:android-pgp:compileDebugRenderscript UP-TO-DATE
-:android-pgp:checkDebugManifest UP-TO-DATE
-:android-pgp:generateDebugBuildConfig UP-TO-DATE
-:android-pgp:generateDebugResValues UP-TO-DATE
-:android-pgp:generateDebugResources UP-TO-DATE
-:android-pgp:packageDebugResources UP-TO-DATE
-:android-pgp:platformAttrExtractor UP-TO-DATE
-:android-pgp:processDebugManifest UP-TO-DATE
-:android-pgp:processDebugResources UP-TO-DATE
-:android-pgp:compileDebugKotlin UP-TO-DATE
-:android-pgp:prepareLintJar UP-TO-DATE
-:android-pgp:generateDebugSources UP-TO-DATE
-:android-pgp:javaPreCompileDebug UP-TO-DATE
-:android-pgp:compileDebugJavaWithJavac UP-TO-DATE
-:android-pgp:processDebugJavaRes NO-SOURCE
-:android-pgp:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:app:preBuild UP-TO-DATE
-:app:preDebugBuild
-:app:compileDebugAidl
-:android-pgp:packageDebugRenderscript NO-SOURCE
-:app:compileDebugRenderscript
-:app:checkDebugManifest
-:app:generateDebugBuildConfig
-:app:generateDebugResValues
-:app:generateDebugResources
-:app:mergeDebugResources
-:app:createDebugCompatibleScreenManifests
-:app:processDebugManifest
-:app:splitsDiscoveryTaskDebug
-:app:processDebugResources
-:app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/app/src/main/java/net/kibotu/pgp/app/MainActivity.kt: (50, 13): Variable 'encrypted' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/app/src/main/java/net/kibotu/pgp/app/MainActivity.kt: (51, 13): Variable 'decrypted' is never used
-:app:prepareLintJar
-:app:generateDebugSources
-:app:javaPreCompileDebug
-:app:compileDebugJavaWithJavac
-:app:compileDebugNdk NO-SOURCE
-:app:compileDebugSources
-:android-pgp:mergeDebugShaders UP-TO-DATE
-:android-pgp:compileDebugShaders UP-TO-DATE
-:android-pgp:generateDebugAssets UP-TO-DATE
-:android-pgp:mergeDebugAssets UP-TO-DATE
-:app:mergeDebugShaders
-:app:compileDebugShaders
-:app:generateDebugAssets
-:app:mergeDebugAssets
-:app:transformClassesWithDexBuilderForDebug
-:app:transformDexArchiveWithExternalLibsDexMergerForDebug
-:app:transformDexArchiveWithDexMergerForDebug
-:android-pgp:compileDebugNdk NO-SOURCE
-:android-pgp:mergeDebugJniLibFolders UP-TO-DATE
-:android-pgp:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-:android-pgp:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
-:android-pgp:transformNativeLibsWithIntermediateJniLibsForDebug
-:app:mergeDebugJniLibFolders
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-:app:processDebugJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForDebug
-:app:validateSigningDebug
-:app:packageDebug
-:app:assembleDebug
-:android-pgp:preReleaseBuild UP-TO-DATE
-:android-pgp:compileReleaseAidl UP-TO-DATE
-:android-pgp:compileReleaseRenderscript UP-TO-DATE
-:android-pgp:checkReleaseManifest UP-TO-DATE
-:android-pgp:generateReleaseBuildConfig UP-TO-DATE
-:android-pgp:generateReleaseResValues UP-TO-DATE
-:android-pgp:generateReleaseResources UP-TO-DATE
-:android-pgp:packageReleaseResources UP-TO-DATE
-:android-pgp:processReleaseManifest UP-TO-DATE
-:android-pgp:processReleaseResources UP-TO-DATE
-:android-pgp:compileReleaseKotlin UP-TO-DATE
-:android-pgp:generateReleaseSources UP-TO-DATE
-:android-pgp:javaPreCompileRelease UP-TO-DATE
-:android-pgp:compileReleaseJavaWithJavac UP-TO-DATE
-:android-pgp:processReleaseJavaRes NO-SOURCE
-:android-pgp:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:app:preReleaseBuild
-:app:compileReleaseAidl
-:android-pgp:packageReleaseRenderscript NO-SOURCE
-:app:compileReleaseRenderscript
-:app:checkReleaseManifest
-:app:generateReleaseBuildConfig
-:app:generateReleaseResValues
-:app:generateReleaseResources
-:app:mergeReleaseResources
-:app:createReleaseCompatibleScreenManifests
-:app:processReleaseManifest
-:app:splitsDiscoveryTaskRelease
-:app:processReleaseResources
-:app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/app/src/main/java/net/kibotu/pgp/app/MainActivity.kt: (50, 13): Variable 'encrypted' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/app/src/main/java/net/kibotu/pgp/app/MainActivity.kt: (51, 13): Variable 'decrypted' is never used
-:app:generateReleaseSources
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavac
-:app:compileReleaseNdk NO-SOURCE
-:app:compileReleaseSources
-:app:lintVitalRelease SKIPPED
-:android-pgp:mergeReleaseShaders UP-TO-DATE
-:android-pgp:compileReleaseShaders UP-TO-DATE
-:android-pgp:generateReleaseAssets UP-TO-DATE
-:android-pgp:mergeReleaseAssets UP-TO-DATE
-:app:mergeReleaseShaders
-:app:compileReleaseShaders
-:app:generateReleaseAssets
-:app:mergeReleaseAssets
-:app:transformClassesWithPreDexForRelease
-:app:transformDexWithDexForRelease
-:android-pgp:compileReleaseNdk NO-SOURCE
-:android-pgp:mergeReleaseJniLibFolders UP-TO-DATE
-:android-pgp:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
-:android-pgp:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
-:android-pgp:transformNativeLibsWithIntermediateJniLibsForRelease
-:app:mergeReleaseJniLibFolders
-:app:transformNativeLibsWithMergeJniLibsForRelease
-:app:transformNativeLibsWithStripDebugSymbolForRelease
-:app:processReleaseJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForRelease
-:app:packageRelease
-:app:assembleRelease
-:app:assemble
-:app:lint
-Ran lint on variant release: 16 issues found
-Ran lint on variant debug: 16 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/app/build/reports/lint-results.xml
-:app:compileDebugUnitTestKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/app/src/test/java/net/kibotu/base/BaseTest.kt: (36, 13): Variable 'activity' is never used
-:app:preDebugUnitTestBuild UP-TO-DATE
-:app:javaPreCompileDebugUnitTest
-:app:compileDebugUnitTestJavaWithJavac NO-SOURCE
-:app:generateDebugUnitTestConfig
-:app:mockableAndroidJar
-:app:processDebugUnitTestJavaRes NO-SOURCE
-:app:testDebugUnitTest
-
-net.kibotu.pgp.EncryptionTest > encryptionStringTest FAILED
-    java.lang.SecurityException at EncryptionTest.kt:66
-        Caused by: java.util.jar.JarException at EncryptionTest.kt:66
-
-net.kibotu.pgp.EncryptionTest > encryptionProvidedTest FAILED
-    java.lang.SecurityException at EncryptionTest.kt:41
-        Caused by: java.util.jar.JarException at EncryptionTest.kt:66
-
-net.kibotu.pgp.EncryptionTest > encryptionBytesTest FAILED
-    java.lang.SecurityException at EncryptionTest.kt:89
-        Caused by: java.util.jar.JarException at EncryptionTest.kt:66
-
-3 tests completed, 3 failed
-There were failing tests. See the report at: file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/app/build/reports/tests/testDebugUnitTest/index.html
-:app:compileReleaseUnitTestKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/app/src/test/java/net/kibotu/base/BaseTest.kt: (36, 13): Variable 'activity' is never used
-:app:preReleaseUnitTestBuild UP-TO-DATE
-:app:javaPreCompileReleaseUnitTest
-:app:compileReleaseUnitTestJavaWithJavac NO-SOURCE
-:app:generateReleaseUnitTestConfig
-:app:processReleaseUnitTestJavaRes NO-SOURCE
-:app:testReleaseUnitTest
-
-net.kibotu.pgp.EncryptionTest > encryptionStringTest FAILED
-    java.lang.SecurityException at EncryptionTest.kt:66
-        Caused by: java.util.jar.JarException at EncryptionTest.kt:66
-
-net.kibotu.pgp.EncryptionTest > encryptionProvidedTest FAILED
-    java.lang.SecurityException at EncryptionTest.kt:41
-        Caused by: java.util.jar.JarException at EncryptionTest.kt:66
-
-net.kibotu.pgp.EncryptionTest > encryptionBytesTest FAILED
-    java.lang.SecurityException at EncryptionTest.kt:89
-        Caused by: java.util.jar.JarException at EncryptionTest.kt:66
-
-3 tests completed, 3 failed
-There were failing tests. See the report at: file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/app/build/reports/tests/testReleaseUnitTest/index.html
-:app:test
-:app:check
-:app:build
-
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
-See https://docs.gradle.org/4.5/userguide/command_line_interface.html#sec:command_line_warnings
-
-BUILD SUCCESSFUL in 53s
-101 actionable tasks: 65 executed, 36 up-to-date
-
-2018-09-03 02:12:40,208 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535915465235-0/src/Android-PGP-master/app/build/outputs/apk/debug/app-debug.apk
+2019-03-09 02:21:40,982 ERROR FullProcessService - Project build has not produced APK file
+2019-03-09 02:21:40,985 ERROR FullProcessService - Could not find generated or existed APK file
