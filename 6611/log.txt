@@ -1,220 +1,495 @@
-2019-01-18 12:03:44,442 INFO  DownloadService - Downloading "https://github.com/daothanhduy305/KRichEditor/archive/master.zip", attempt 3
-2019-01-18 12:04:45,084 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-01-18 12:04:46,388 INFO  GithubDownloadService - Default branch of this repository: master
-2019-01-18 12:04:46,388 INFO  DownloadService - Downloading "https://github.com/daothanhduy305/KRichEditor/archive/master.zip", attempt 3
-2019-01-18 12:05:47,661 DEBUG FullProcessService - Repository https://github.com/daothanhduy305/KRichEditor available: true
-2019-01-18 12:05:47,661 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-01-18 12:05:47,661 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/daothanhduy305/KRichEditor, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787824438-0/src]
-2019-01-18 12:05:53,513 INFO  SysUtils - 
-2019-01-18 12:05:53,523 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787824438-0/src/.git": true
-2019-01-18 12:05:53,529 INFO  FullProcessService - Size of directory with sources: 2 MB
-2019-01-18 12:05:53,529 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787824438-0/src]
-2019-01-18 12:05:53,549 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787824438-0/src/.git/
+2019-03-09 20:27:58,388 INFO  DownloadService - Downloading "https://github.com/daothanhduy305/KRichEditor/archive/master.zip", attempt 3
+2019-03-09 20:28:00,223 INFO  DownloadService - Downloaded https://github.com/daothanhduy305/KRichEditor/archive/master.zip, attempt 3
+2019-03-09 20:28:00,224 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138078382-0/master.zip": 957 KB
+2019-03-09 20:28:00,224 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-09 20:28:00,230 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138078382-0/master.zip: true
+2019-03-09 20:28:00,230 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138078382-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138078382-0/src'.
+2019-03-09 20:28:00,289 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-03-09 20:28:00,289 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138078382-0/src]
+2019-03-09 20:28:00,311 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138078382-0/src/.git/
 
-2019-01-18 12:05:53,556 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787824438-0/src/gradlew
-2019-01-18 12:05:53,564 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787824438-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787824438-0/src/krichtexteditor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787824438-0/src/build.gradle
-2019-01-18 12:05:53,569 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787824438-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787824438-0/src/krichtexteditor/deploy.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787824438-0/src/krichtexteditor/keystore.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787824438-0/src/krichtexteditor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787824438-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787824438-0/src/settings.gradle
-2019-01-18 12:05:53,570 INFO  ProjectBuildService - Remote scripts: none
-2019-01-18 12:05:53,570 INFO  ProjectFixService - Fixing project...
-2019-01-18 12:05:53,582 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787824438-0/src/app/local.properties
-2019-01-18 12:05:53,584 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787824438-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-01-18 12:05:53,584 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787824438-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-01-18 12:05:53,585 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787824438-0/src/krichtexteditor/local.properties
-2019-01-18 12:05:53,586 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787824438-0/src/krichtexteditor/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-01-18 12:05:53,586 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787824438-0/src/krichtexteditor/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-01-18 12:05:53,587 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787824438-0/src/local.properties
-2019-01-18 12:05:53,588 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-01-18 12:05:53,588 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-01-18 12:05:53,590 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787824438-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-01-18 12:05:53,590 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787824438-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-01-18 12:05:53,590 INFO  ProjectFixService - Project was maybe fixed
-2019-01-18 12:05:53,591 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-18 12:05:53,591 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787824438-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787824438-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-18 12:06:03,112 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-01-18 12:06:03,112 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-01-18 12:06:03,112 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787824438-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787824438-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-01-18 12:07:52,602 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 20:28:00,317 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138078382-0/src/KRichEditor-master/gradlew
+2019-03-09 20:28:00,323 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138078382-0/src/KRichEditor-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138078382-0/src/KRichEditor-master/krichtexteditor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138078382-0/src/KRichEditor-master/build.gradle
+2019-03-09 20:28:00,328 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138078382-0/src/KRichEditor-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138078382-0/src/KRichEditor-master/krichtexteditor/deploy.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138078382-0/src/KRichEditor-master/krichtexteditor/keystore.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138078382-0/src/KRichEditor-master/krichtexteditor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138078382-0/src/KRichEditor-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138078382-0/src/KRichEditor-master/settings.gradle
+2019-03-09 20:28:00,329 INFO  ProjectBuildService - Remote scripts: none
+2019-03-09 20:28:00,329 INFO  ProjectFixService - Fixing project...
+2019-03-09 20:28:00,342 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138078382-0/src/KRichEditor-master/app/local.properties
+2019-03-09 20:28:00,343 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138078382-0/src/KRichEditor-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-03-09 20:28:00,343 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138078382-0/src/KRichEditor-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-03-09 20:28:00,344 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138078382-0/src/KRichEditor-master/krichtexteditor/local.properties
+2019-03-09 20:28:00,345 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138078382-0/src/KRichEditor-master/krichtexteditor/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-03-09 20:28:00,345 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138078382-0/src/KRichEditor-master/krichtexteditor/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-03-09 20:28:00,346 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138078382-0/src/KRichEditor-master/local.properties
+2019-03-09 20:28:00,347 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-03-09 20:28:00,347 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-03-09 20:28:00,348 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138078382-0/src/KRichEditor-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-03-09 20:28:00,348 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138078382-0/src/KRichEditor-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-03-09 20:28:00,349 INFO  ProjectFixService - Project was maybe fixed
+2019-03-09 20:28:00,349 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 20:28:00,349 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138078382-0/src/KRichEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138078382-0/src/KRichEditor-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 20:28:07,273 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-03-09 20:28:07,273 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-09 20:28:07,273 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138078382-0/src/KRichEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138078382-0/src/KRichEditor-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-09 20:28:17,380 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-09 20:28:17,381 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:checkDebugClasspath
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-cardview-v7/0.10.8/anko-cardview-v7-0.10.8.pom
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-design-coroutines/0.10.8/anko-design-coroutines-0.10.8.pom
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-recyclerview-v7-coroutines/0.10.8/anko-recyclerview-v7-coroutines-0.10.8.pom
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-design/0.10.8/anko-design-0.10.8.pom
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-recyclerview-v7/0.10.8/anko-recyclerview-v7-0.10.8.pom
-Download https://jitpack.io/com/github/esafirm/android-image-picker/imagepicker/1.13.1/imagepicker-1.13.1.pom
-Download https://jcenter.bintray.com/org/jetbrains/anko/design-base/0.10.8/design-base-0.10.8.pom
-Download https://jcenter.bintray.com/com/esotericsoftware/kryo/4.0.1/kryo-4.0.1.pom
-Download https://jcenter.bintray.com/com/esotericsoftware/kryo-parent/4.0.1/kryo-parent-4.0.1.pom
-Download https://jcenter.bintray.com/de/javakaffee/kryo-serializers/0.40/kryo-serializers-0.40.pom
-Download https://jcenter.bintray.com/com/esotericsoftware/reflectasm/1.11.3/reflectasm-1.11.3.pom
-Download https://jcenter.bintray.com/com/esotericsoftware/minlog/1.3.0/minlog-1.3.0.pom
-Download https://jcenter.bintray.com/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.pom
-Download https://jcenter.bintray.com/org/objenesis/objenesis-parent/2.5.1/objenesis-parent-2.5.1.pom
 Download https://dl.google.com/dl/android/maven2/com/android/support/multidex/1.0.2/multidex-1.0.2.aar
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-design-coroutines/0.10.8/anko-design-coroutines-0.10.8.aar
 Download https://jcenter.bintray.com/org/jetbrains/anko/anko-cardview-v7/0.10.8/anko-cardview-v7-0.10.8.aar
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-recyclerview-v7-coroutines/0.10.8/anko-recyclerview-v7-coroutines-0.10.8.aar
 Download https://jcenter.bintray.com/org/jetbrains/anko/design-base/0.10.8/design-base-0.10.8.aar
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-recyclerview-v7/0.10.8/anko-recyclerview-v7-0.10.8.aar
-Download https://jitpack.io/com/github/esafirm/android-image-picker/imagepicker/1.13.1/imagepicker-1.13.1.aar
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-commons/0.10.8/anko-commons-0.10.8.aar
-Download https://jcenter.bintray.com/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar
-Download https://jcenter.bintray.com/de/javakaffee/kryo-serializers/0.40/kryo-serializers-0.40.jar
-Download https://jcenter.bintray.com/org/jetbrains/anko/commons-base/0.10.8/commons-base-0.10.8.aar
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-design-coroutines/0.10.8/anko-design-coroutines-0.10.8.aar
 Download https://jcenter.bintray.com/org/jetbrains/anko/anko-design/0.10.8/anko-design-0.10.8.aar
-Download https://jcenter.bintray.com/com/github/salomonbrys/kotson/kotson/2.5.0/kotson-2.5.0.pom
-Download https://jitpack.io/com/github/whalemare/sheetmenu/1.3.6/sheetmenu-1.3.6.pom
-Download https://jitpack.io/org/bitbucket/eventbus/bus/v1.4.4/bus-v1.4.4.pom
-Download https://jitpack.io/com/github/CymChad/BaseRecyclerViewAdapterHelper/2.9.46/BaseRecyclerViewAdapterHelper-2.9.46.pom
-Download https://jitpack.io/org/bitbucket/eventbus/core/v1.3.0/core-v1.3.0.pom
-Download https://jitpack.io/com/github/whalemare/sheetmenu/1.3.6/sheetmenu-1.3.6.aar
-Download https://jitpack.io/com/github/CymChad/BaseRecyclerViewAdapterHelper/2.9.46/BaseRecyclerViewAdapterHelper-2.9.46.aar
-Download https://jitpack.io/org/bitbucket/eventbus/bus/v1.4.4/bus-v1.4.4.jar
-Download https://jitpack.io/org/bitbucket/eventbus/core/v1.3.0/core-v1.3.0.jar
-Download https://jcenter.bintray.com/com/github/salomonbrys/kotson/kotson/2.5.0/kotson-2.5.0.jar
-:app:preBuild UP-TO-DATE
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-recyclerview-v7-coroutines/0.10.8/anko-recyclerview-v7-coroutines-0.10.8.aar
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-recyclerview-v7/0.10.8/anko-recyclerview-v7-0.10.8.aar
+:app:checkDebugClasspath FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Could not resolve all files for configuration ':app:debugCompileClasspath'.
+> Could not find imagepicker.aar (com.github.esafirm.android-image-picker:imagepicker:1.13.1).
+  Searched in the following locations:
+      https://jitpack.io/com/github/esafirm/android-image-picker/imagepicker/1.13.1/imagepicker-1.13.1.aar
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$ArtifactResolveException: Could not resolve all files for configuration ':app:debugCompileClasspath'.
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.rethrowFailure(DefaultConfiguration.java:944)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$1600(DefaultConfiguration.java:120)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:918)
+	at org.gradle.api.internal.file.AbstractFileCollection.iterator(AbstractFileCollection.java:68)
+	at org.gradle.api.internal.changedetection.state.AbstractFileCollectionSnapshotter$FileCollectionVisitorImpl.visitCollection(AbstractFileCollectionSnapshotter.java:72)
+	at org.gradle.api.internal.file.AbstractFileCollection.visitRootElements(AbstractFileCollection.java:234)
+	at org.gradle.api.internal.file.CompositeFileCollection.visitRootElements(CompositeFileCollection.java:185)
+	at org.gradle.api.internal.changedetection.state.AbstractFileCollectionSnapshotter.snapshot(AbstractFileCollectionSnapshotter.java:55)
+	at org.gradle.api.internal.changedetection.state.DefaultCompileClasspathSnapshotter.snapshot(DefaultCompileClasspathSnapshotter.java:38)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository.snapshotTaskFiles(CacheBackedTaskHistoryRepository.java:329)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository.createExecution(CacheBackedTaskHistoryRepository.java:151)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository.access$100(CacheBackedTaskHistoryRepository.java:61)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository$1.getCurrentExecution(CacheBackedTaskHistoryRepository.java:111)
+	at org.gradle.api.internal.changedetection.changes.DefaultTaskArtifactStateRepository$TaskArtifactStateImpl.getStates(DefaultTaskArtifactStateRepository.java:208)
+	at org.gradle.api.internal.changedetection.changes.DefaultTaskArtifactStateRepository$TaskArtifactStateImpl.isUpToDate(DefaultTaskArtifactStateRepository.java:93)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:50)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
+	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:256)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:249)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:238)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:123)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:104)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:663)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:597)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: org.gradle.internal.resolve.ArtifactNotFoundException: Could not find imagepicker.aar (com.github.esafirm.android-image-picker:imagepicker:1.13.1).
+Searched in the following locations:
+    https://jitpack.io/com/github/esafirm/android-image-picker/imagepicker/1.13.1/imagepicker-1.13.1.aar
+	at org.gradle.internal.resolve.result.DefaultBuildableArtifactResolveResult.notFound(DefaultBuildableArtifactResolveResult.java:27)
+	at org.gradle.api.internal.artifacts.repositories.resolver.ExternalResourceResolver$RemoteRepositoryAccess.resolveArtifact(ExternalResourceResolver.java:434)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$ResolveAndCacheRepositoryAccess.resolveArtifact(CachingModuleComponentRepository.java:427)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveArtifact(ErrorHandlingModuleComponentRepository.java:181)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainArtifactResolver.resolveArtifact(RepositoryChainArtifactResolver.java:80)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:170)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:157)
+	at org.gradle.api.internal.artifacts.DefaultResolvedArtifact.getFile(DefaultResolvedArtifact.java:135)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.ArtifactBackedResolvedVariant$DownloadArtifactFile.run(ArtifactBackedResolvedVariant.java:148)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.access$900(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$ParentPreservingQueueWorker.execute(DefaultBuildOperationExecutor.java:378)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runOperation(DefaultBuildOperationQueue.java:230)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.access$600(DefaultBuildOperationQueue.java:172)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:203)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runBatch(DefaultBuildOperationQueue.java:202)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.run(DefaultBuildOperationQueue.java:177)
+	... 3 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 9s
+1 actionable task: 1 executed
+
+2019-03-09 20:28:17,388 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 20:28:17,388 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138078382-0/src/KRichEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138078382-0/src/KRichEditor-master/krichtexteditor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 20:28:25,313 INFO  ProjectTaskService - Detected possible tasks: 73
+2019-03-09 20:28:25,313 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-09 20:28:25,313 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138078382-0/src/KRichEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138078382-0/src/KRichEditor-master/krichtexteditor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-09 20:29:23,178 INFO  SysUtils - Configuration on demand is an incubating feature.
 :krichtexteditor:preBuild UP-TO-DATE
 :krichtexteditor:preDebugBuild UP-TO-DATE
-:krichtexteditor:checkDebugManifest
-:krichtexteditor:processDebugManifest
-:app:preDebugBuild
 :krichtexteditor:compileDebugAidl NO-SOURCE
-:app:compileDebugAidl NO-SOURCE
-:krichtexteditor:packageDebugRenderscript NO-SOURCE
-:app:compileDebugRenderscript
-:app:checkDebugManifest
-:app:generateDebugBuildConfig
-:app:mainApkListPersistenceDebug
-:app:generateDebugResValues
-:app:generateDebugResources
 :krichtexteditor:compileDebugRenderscript
+Download https://jitpack.io/com/github/CymChad/BaseRecyclerViewAdapterHelper/2.9.46/BaseRecyclerViewAdapterHelper-2.9.46.aar
+Download https://jitpack.io/com/github/whalemare/sheetmenu/1.3.6/sheetmenu-1.3.6.aar
+:krichtexteditor:checkDebugManifest
+:krichtexteditor:generateDebugBuildConfig
 :krichtexteditor:generateDebugResValues
 :krichtexteditor:generateDebugResources
 :krichtexteditor:packageDebugResources
-:app:mergeDebugResources
-:app:createDebugCompatibleScreenManifests
-:app:processDebugManifest
-:app:splitsDiscoveryTaskDebug
+:krichtexteditor:processDebugManifest
 :krichtexteditor:generateDebugRFile
-:app:processDebugResources
-:krichtexteditor:generateDebugBuildConfig
 :krichtexteditor:compileDebugKotlin
+Download https://jitpack.io/org/bitbucket/eventbus/bus/v1.4.4/bus-v1.4.4.jar
+Download https://jitpack.io/org/bitbucket/eventbus/core/v1.3.0/core-v1.3.0.jar
+Download https://jcenter.bintray.com/com/github/salomonbrys/kotson/kotson/2.5.0/kotson-2.5.0.jar
 :krichtexteditor:prepareLintJar
 :krichtexteditor:generateDebugSources
 :krichtexteditor:javaPreCompileDebug
 :krichtexteditor:compileDebugJavaWithJavac
-:krichtexteditor:processDebugJavaRes NO-SOURCE
-:krichtexteditor:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:app:compileDebugKotlin
-:app:prepareLintJar
-:app:generateDebugSources
-:app:javaPreCompileDebug
-:app:compileDebugJavaWithJavac
-:app:compileDebugNdk NO-SOURCE
-:app:compileDebugSources
-:app:mergeDebugShaders
-:app:compileDebugShaders
-:app:generateDebugAssets
+:krichtexteditor:extractDebugAnnotations
+:krichtexteditor:mergeDebugConsumerProguardFiles
 :krichtexteditor:mergeDebugShaders
 :krichtexteditor:compileDebugShaders
 :krichtexteditor:generateDebugAssets
 :krichtexteditor:packageDebugAssets
-:app:mergeDebugAssets
-:app:transformClassesWithDexBuilderForDebug
-D8: Stripped invalid locals information from 2 methods.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/4cbc5922a54376018307a731162ccaf3ef851a39/kotlin-stdlib-1.3.11.jar: D8: Methods with invalid locals information:
-  java.lang.Object kotlin.sequences.SequencesKt__SequencesKt$ifEmpty$1.invokeSuspend(java.lang.Object)
-  Attempt to read local this but no local information was associated with the value being read.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/4cbc5922a54376018307a731162ccaf3ef851a39/kotlin-stdlib-1.3.11.jar: D8: Methods with invalid locals information:
-  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.invokeSuspend(java.lang.Object)
-  Attempt to read local this but no local information was associated with the value being read.
-D8: Stripped invalid locals information from 1 method.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/4cbc5922a54376018307a731162ccaf3ef851a39/kotlin-stdlib-1.3.11.jar: D8: Methods with invalid locals information:
-  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.invokeSuspend(java.lang.Object)
-  Attempt to read local this but no local information was associated with the value being read.
-:app:transformClassesWithMultidexlistForDebug
-:app:transformDexArchiveWithDexMergerForDebug
-:app:mergeDebugJniLibFolders
+:krichtexteditor:packageDebugRenderscript NO-SOURCE
+:krichtexteditor:processDebugJavaRes NO-SOURCE
+:krichtexteditor:transformResourcesWithMergeJavaResForDebug
+:krichtexteditor:transformClassesAndResourcesWithSyncLibJarsForDebug
 :krichtexteditor:compileDebugNdk NO-SOURCE
 :krichtexteditor:mergeDebugJniLibFolders
 :krichtexteditor:transformNativeLibsWithMergeJniLibsForDebug
 :krichtexteditor:transformNativeLibsWithStripDebugSymbolForDebug
-:krichtexteditor:transformNativeLibsWithIntermediateJniLibsForDebug
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-:app:checkDebugLibraries
-:app:processDebugJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForDebug
-:app:validateSigningDebug
-:app:packageDebug
-:app:assembleDebug
-:app:checkReleaseClasspath
+:krichtexteditor:transformNativeLibsWithSyncJniLibsForDebug
+:krichtexteditor:bundleDebugAar
+:krichtexteditor:compileDebugSources
+:krichtexteditor:assembleDebug
 :krichtexteditor:preReleaseBuild UP-TO-DATE
-:krichtexteditor:checkReleaseManifest
-:krichtexteditor:processReleaseManifest
-:app:preReleaseBuild
 :krichtexteditor:compileReleaseAidl NO-SOURCE
-:app:compileReleaseAidl NO-SOURCE
-:krichtexteditor:packageReleaseRenderscript NO-SOURCE
-:app:compileReleaseRenderscript
-:app:checkReleaseManifest
-:app:generateReleaseBuildConfig
-:app:mainApkListPersistenceRelease
-:app:generateReleaseResValues
-:app:generateReleaseResources
 :krichtexteditor:compileReleaseRenderscript
+:krichtexteditor:checkReleaseManifest
+:krichtexteditor:generateReleaseBuildConfig
 :krichtexteditor:generateReleaseResValues
 :krichtexteditor:generateReleaseResources
 :krichtexteditor:packageReleaseResources
-:app:mergeReleaseResources
-:app:createReleaseCompatibleScreenManifests
-:app:processReleaseManifest
-:app:splitsDiscoveryTaskRelease
+:krichtexteditor:processReleaseManifest
 :krichtexteditor:generateReleaseRFile
-:app:processReleaseResources
-:krichtexteditor:generateReleaseBuildConfig
 :krichtexteditor:compileReleaseKotlin
 :krichtexteditor:generateReleaseSources
 :krichtexteditor:javaPreCompileRelease
 :krichtexteditor:compileReleaseJavaWithJavac
-:krichtexteditor:processReleaseJavaRes NO-SOURCE
-:krichtexteditor:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:app:compileReleaseKotlin
-:app:generateReleaseSources
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavac
-:app:compileReleaseNdk NO-SOURCE
-:app:compileReleaseSources
-:app:lintVitalRelease
-Download https://dl.google.com/dl/android/maven2/com/android/support/multidex-instrumentation/1.0.2/multidex-instrumentation-1.0.2.aar
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/48bd1f472af5e27954abce4bbf534784/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-:app:mergeReleaseShaders
-:app:compileReleaseShaders
-:app:generateReleaseAssets
+:krichtexteditor:extractReleaseAnnotations
+:krichtexteditor:mergeReleaseConsumerProguardFiles
 :krichtexteditor:mergeReleaseShaders
 :krichtexteditor:compileReleaseShaders
 :krichtexteditor:generateReleaseAssets
 :krichtexteditor:packageReleaseAssets
-:app:mergeReleaseAssets
-:app:transformClassesWithDexBuilderForRelease
-:app:transformClassesWithMultidexlistForRelease
-:app:transformDexArchiveWithDexMergerForRelease
-:app:mergeReleaseJniLibFolders
+:krichtexteditor:packageReleaseRenderscript NO-SOURCE
+:krichtexteditor:processReleaseJavaRes NO-SOURCE
+:krichtexteditor:transformResourcesWithMergeJavaResForRelease
+:krichtexteditor:transformClassesAndResourcesWithSyncLibJarsForRelease
 :krichtexteditor:compileReleaseNdk NO-SOURCE
 :krichtexteditor:mergeReleaseJniLibFolders
 :krichtexteditor:transformNativeLibsWithMergeJniLibsForRelease
 :krichtexteditor:transformNativeLibsWithStripDebugSymbolForRelease
-:krichtexteditor:transformNativeLibsWithIntermediateJniLibsForRelease
-:app:transformNativeLibsWithMergeJniLibsForRelease
-:app:transformNativeLibsWithStripDebugSymbolForRelease
-:app:checkReleaseLibraries
-:app:processReleaseJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForRelease
-:app:packageRelease
-:app:assembleRelease
-:app:assemble
-:app:build
+:krichtexteditor:transformNativeLibsWithSyncJniLibsForRelease
+:krichtexteditor:bundleReleaseAar
+:krichtexteditor:compileReleaseSources
+:krichtexteditor:mergeReleaseResources
+:krichtexteditor:verifyReleaseResources
+:krichtexteditor:assembleRelease
+:krichtexteditor:dokka
+No documentation for com.ebolo.krichtexteditor.RichEditor$html (RichEditor.kt:54)
+No documentation for com.ebolo.krichtexteditor.RichEditor$placeHolder (RichEditor.kt:70)
+No documentation for com.ebolo.krichtexteditor.RichEditor$mWebView (RichEditor.kt:74)
+No documentation for com.ebolo.krichtexteditor.RichEditor$onInitialized (RichEditor.kt:75)
+No documentation for com.ebolo.krichtexteditor.RichEditor$styleUpdatedCallback (RichEditor.kt:76)
+No documentation for com.ebolo.krichtexteditor.RichEditor.OnHtmlReturned$process(kotlin.String) (RichEditor.kt:139)
+No documentation for com.ebolo.krichtexteditor.RichEditor.OnTextReturned$process(kotlin.String) (RichEditor.kt:147)
+No documentation for com.ebolo.krichtexteditor.RichEditor.OnContentsReturned$process(kotlin.String) (RichEditor.kt:155)
+No documentation for com.ebolo.krichtexteditor.fragments.KRichEditorFragment (KRichEditorFragment.kt:14)
+No documentation for com.ebolo.krichtexteditor.fragments.KRichEditorFragment$<init>() (KRichEditorFragment.kt:14)
+No documentation for com.ebolo.krichtexteditor.fragments.KRichEditorFragment$editor (KRichEditorFragment.kt:16)
+No documentation for com.ebolo.krichtexteditor.fragments.KRichEditorFragment$settings (KRichEditorFragment.kt:17)
+No documentation for com.ebolo.krichtexteditor.fragments.KRichEditorFragment$onCreateView(android.view.LayoutInflater, android.view.ViewGroup, android.os.Bundle) (KRichEditorFragment.kt:19)
+No documentation for com.ebolo.krichtexteditor.fragments.KRichEditorFragment$onResume() (KRichEditorFragment.kt:28)
+No documentation for com.ebolo.krichtexteditor.fragments.KRichEditorFragment$onPause() (KRichEditorFragment.kt:33)
+No documentation for com.ebolo.krichtexteditor.fragments.KRichEditorFragment.Companion$getInstance(com.ebolo.krichtexteditor.fragments.Options) (KRichEditorFragment.kt:39)
+No documentation for com.ebolo.krichtexteditor.fragments$kRichEditorFragment(kotlin.Function1((com.ebolo.krichtexteditor.ui.layouts.KRichEditorFragmentLayout, kotlin.Unit))) (KRichEditorFragment.kt:51)
+No documentation for com.ebolo.krichtexteditor.fragments.Options (KRichEditorFragment.kt:58)
+No documentation for com.ebolo.krichtexteditor.fragments.Options$<init>() (KRichEditorFragment.kt:58)
+No documentation for com.ebolo.krichtexteditor.fragments.Options$placeHolder (KRichEditorFragment.kt:59)
+No documentation for com.ebolo.krichtexteditor.fragments.Options$imageButtonAction (KRichEditorFragment.kt:60)
+No documentation for com.ebolo.krichtexteditor.fragments.Options$buttonsLayout (KRichEditorFragment.kt:61)
+No documentation for com.ebolo.krichtexteditor.fragments.Options$buttonActivatedColorId (KRichEditorFragment.kt:91)
+No documentation for com.ebolo.krichtexteditor.fragments.Options$buttonDeactivatedColorId (KRichEditorFragment.kt:92)
+No documentation for com.ebolo.krichtexteditor.fragments.Options$onInitialized (KRichEditorFragment.kt:93)
+No documentation for com.ebolo.krichtexteditor.fragments.Options$showToolbar (KRichEditorFragment.kt:94)
+No documentation for com.ebolo.krichtexteditor.fragments.Options$placeHolder(kotlin.String) (KRichEditorFragment.kt:96)
+No documentation for com.ebolo.krichtexteditor.fragments.Options$onImageButtonClicked(java.lang.Runnable) (KRichEditorFragment.kt:98)
+No documentation for com.ebolo.krichtexteditor.fragments.Options$buttonLayout(kotlin.collections.List((kotlin.Int))) (KRichEditorFragment.kt:100)
+No documentation for com.ebolo.krichtexteditor.fragments.Options$buttonActivatedColorResource(kotlin.Int) (KRichEditorFragment.kt:102)
+No documentation for com.ebolo.krichtexteditor.fragments.Options$buttonDeactivatedColorResource(kotlin.Int) (KRichEditorFragment.kt:104)
+No documentation for com.ebolo.krichtexteditor.fragments.Options$onInitialized(java.lang.Runnable) (KRichEditorFragment.kt:106)
+No documentation for com.ebolo.krichtexteditor.fragments.Options$showToolbar(kotlin.Boolean) (KRichEditorFragment.kt:108)
+No documentation for com.ebolo.krichtexteditor.fragments.Options.Companion$DEFAULT (KRichEditorFragment.kt:111)
+No documentation for com.ebolo.krichtexteditor.ui.layouts.FontSettingItemLayout (FontSettingItemLayout.kt:9)
+No documentation for com.ebolo.krichtexteditor.ui.layouts.FontSettingItemLayout$<init>() (FontSettingItemLayout.kt:9)
+No documentation for com.ebolo.krichtexteditor.ui.layouts.FontSettingItemLayout$createView(org.jetbrains.anko.AnkoContext((android.view.ViewGroup))) (FontSettingItemLayout.kt:10)
+No documentation for com.ebolo.krichtexteditor.ui.layouts.KRichEditorFragmentLayout (KRichEditorFragmentLayout.kt:71)
+No documentation for com.ebolo.krichtexteditor.ui.layouts.KRichEditorFragmentLayout$<init>() (KRichEditorFragmentLayout.kt:71)
+No documentation for com.ebolo.krichtexteditor.ui.layouts.KRichEditorFragmentLayout$placeHolder (KRichEditorFragmentLayout.kt:86)
+No documentation for com.ebolo.krichtexteditor.ui.layouts.KRichEditorFragmentLayout$imageButtonAction (KRichEditorFragmentLayout.kt:88)
+No documentation for com.ebolo.krichtexteditor.ui.layouts.KRichEditorFragmentLayout$showToolbar (KRichEditorFragmentLayout.kt:89)
+No documentation for com.ebolo.krichtexteditor.ui.layouts.KRichEditorFragmentLayout$buttonsLayout (KRichEditorFragmentLayout.kt:91)
+No documentation for com.ebolo.krichtexteditor.ui.layouts.KRichEditorFragmentLayout$buttonActivatedColorId (KRichEditorFragmentLayout.kt:124)
+No documentation for com.ebolo.krichtexteditor.ui.layouts.KRichEditorFragmentLayout$buttonDeactivatedColorId (KRichEditorFragmentLayout.kt:125)
+No documentation for com.ebolo.krichtexteditor.ui.layouts.KRichEditorFragmentLayout$onInitialized (KRichEditorFragmentLayout.kt:127)
+No documentation for com.ebolo.krichtexteditor.ui.layouts.KRichEditorFragmentLayout$createView(org.jetbrains.anko.AnkoContext((com.ebolo.krichtexteditor.fragments.KRichEditorFragment))) (KRichEditorFragmentLayout.kt:129)
+No documentation for com.ebolo.krichtexteditor.ui.layouts.KRichEditorFragmentLayout$setupListeners(com.ebolo.krichtexteditor.fragments.KRichEditorFragment) (KRichEditorFragmentLayout.kt:615)
+No documentation for com.ebolo.krichtexteditor.ui.layouts.KRichEditorFragmentLayout$removeListeners() (KRichEditorFragmentLayout.kt:666)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.ColorPaletteView$selectedColor (ColorPaletteView.kt:33)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.ColorPaletteView$onColorChange(kotlin.Function1((kotlin.String, kotlin.Unit))) (ColorPaletteView.kt:69)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton (EditorButton.kt:6)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton$<init>(kotlin.Int) (EditorButton.kt:6)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton$type (EditorButton.kt:6)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$NONE (EditorButton.kt:8)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$FAMILY (EditorButton.kt:10)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$SIZE (EditorButton.kt:12)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$LINE_HEIGHT (EditorButton.kt:13)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$FORE_COLOR (EditorButton.kt:14)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$BACK_COLOR (EditorButton.kt:15)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$BOLD (EditorButton.kt:17)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$ITALIC (EditorButton.kt:19)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$UNDERLINE (EditorButton.kt:20)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$SUBSCRIPT (EditorButton.kt:21)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$SUPERSCRIPT (EditorButton.kt:22)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$STRIKETHROUGH (EditorButton.kt:23)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$NORMAL (EditorButton.kt:25)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$H1 (EditorButton.kt:27)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$H2 (EditorButton.kt:28)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$H3 (EditorButton.kt:29)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$H4 (EditorButton.kt:30)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$H5 (EditorButton.kt:31)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$H6 (EditorButton.kt:32)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$JUSTIFY_LEFT (EditorButton.kt:34)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$JUSTIFY_CENTER (EditorButton.kt:36)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$JUSTIFY_RIGHT (EditorButton.kt:37)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$JUSTIFY_FULL (EditorButton.kt:38)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$ORDERED (EditorButton.kt:40)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$UNORDERED (EditorButton.kt:42)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$CHECK (EditorButton.kt:43)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$INDENT (EditorButton.kt:45)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$OUTDENT (EditorButton.kt:46)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$IMAGE (EditorButton.kt:48)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$LINK (EditorButton.kt:50)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$TABLE (EditorButton.kt:51)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$LINE (EditorButton.kt:52)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$BLOCK_QUOTE (EditorButton.kt:54)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$BLOCK_CODE (EditorButton.kt:55)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$CODE_VIEW (EditorButton.kt:57)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$UNDO (EditorButton.kt:59)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$REDO (EditorButton.kt:61)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion.ActionType (EditorButton.kt:63)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion.ActionType$<init>() (EditorButton.kt:63)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorButton.Companion$actionButtonDrawables (EditorButton.kt:67)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorToolbar (EditorToolbar.kt:14)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorToolbar$<init>(com.ebolo.krichtexteditor.RichEditor, kotlin.collections.List((kotlin.Int))) (EditorToolbar.kt:14)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorToolbar$linkButtonAction (EditorToolbar.kt:15)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorToolbar$imageButtonAction (EditorToolbar.kt:16)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorToolbar$buttonActivatedColorId (EditorToolbar.kt:20)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorToolbar$buttonDeactivatedColorId (EditorToolbar.kt:21)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorToolbar$createToolbar(android.view.ViewGroup) (EditorToolbar.kt:23)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.EditorToolbar$setupListeners(android.content.Context) (EditorToolbar.kt:49)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.RoundView$onDraw(android.graphics.Canvas) (RoundView.kt:27)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.RoundView$getBgColor() (RoundView.kt:60)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.RoundView$setSelected(kotlin.Boolean) (RoundView.kt:64)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.RoundView$setBgColor(kotlin.Int) (RoundView.kt:69)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.TextEditorWebView (TextEditorWebView.kt:6)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.TextEditorWebView$<init>(android.content.Context) (TextEditorWebView.kt:6)
+No documentation for com.ebolo.krichtexteditor.ui.widgets.TextEditorWebView$onCheckIsTextEditor() (TextEditorWebView.kt:7)
+No documentation for com.ebolo.krichtexteditor.utils.QuillFormat (QuillFormat.kt:5)
+No documentation for com.ebolo.krichtexteditor.utils.QuillFormat$<init>() (QuillFormat.kt:5)
+No documentation for com.ebolo.krichtexteditor.utils.QuillFormat$isBold (QuillFormat.kt:6)
+No documentation for com.ebolo.krichtexteditor.utils.QuillFormat$isItalic (QuillFormat.kt:7)
+No documentation for com.ebolo.krichtexteditor.utils.QuillFormat$isUnderline (QuillFormat.kt:8)
+No documentation for com.ebolo.krichtexteditor.utils.QuillFormat$isStrike (QuillFormat.kt:9)
+No documentation for com.ebolo.krichtexteditor.utils.QuillFormat$header (QuillFormat.kt:10)
+No documentation for com.ebolo.krichtexteditor.utils.QuillFormat$script (QuillFormat.kt:11)
+No documentation for com.ebolo.krichtexteditor.utils.QuillFormat$align (QuillFormat.kt:12)
+No documentation for com.ebolo.krichtexteditor.utils.QuillFormat$list (QuillFormat.kt:13)
+No documentation for com.ebolo.krichtexteditor.utils.QuillFormat$isCode (QuillFormat.kt:14)
+No documentation for com.ebolo.krichtexteditor.utils.QuillFormat$size (QuillFormat.kt:15)
+No documentation for com.ebolo.krichtexteditor.utils.QuillFormat$link (QuillFormat.kt:16)
+No documentation for com.ebolo.krichtexteditor.utils$rgbToHex(kotlin.String) (Utils.kt:5)
+:krichtexteditor:javadoc NO-SOURCE
+:krichtexteditor:javadocJar
+:krichtexteditor:sourcesJar
+:krichtexteditor:assemble
+:krichtexteditor:build
 
-BUILD SUCCESSFUL in 1m 48s
-94 actionable tasks: 94 executed
+BUILD SUCCESSFUL in 57s
+50 actionable tasks: 50 executed
 
-2019-01-18 12:07:52,763 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787824438-0/src/app/build/outputs/apk/debug/app-debug.apk
+2019-03-09 20:29:23,272 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 20:29:23,272 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138078382-0/src/KRichEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138078382-0/src/KRichEditor-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 20:29:31,018 INFO  ProjectTaskService - Detected possible tasks: 79
+2019-03-09 20:29:31,018 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-09 20:29:31,018 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138078382-0/src/KRichEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138078382-0/src/KRichEditor-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-09 20:29:40,486 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-09 20:29:40,486 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Could not resolve all files for configuration ':app:debugCompileClasspath'.
+> Could not find imagepicker.aar (com.github.esafirm.android-image-picker:imagepicker:1.13.1).
+  Searched in the following locations:
+      https://jitpack.io/com/github/esafirm/android-image-picker/imagepicker/1.13.1/imagepicker-1.13.1.aar
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$ArtifactResolveException: Could not resolve all files for configuration ':app:debugCompileClasspath'.
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.rethrowFailure(DefaultConfiguration.java:944)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$1600(DefaultConfiguration.java:120)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:918)
+	at org.gradle.api.internal.file.AbstractFileCollection.iterator(AbstractFileCollection.java:68)
+	at org.gradle.api.internal.changedetection.state.AbstractFileCollectionSnapshotter$FileCollectionVisitorImpl.visitCollection(AbstractFileCollectionSnapshotter.java:72)
+	at org.gradle.api.internal.file.AbstractFileCollection.visitRootElements(AbstractFileCollection.java:234)
+	at org.gradle.api.internal.file.CompositeFileCollection.visitRootElements(CompositeFileCollection.java:185)
+	at org.gradle.api.internal.changedetection.state.AbstractFileCollectionSnapshotter.snapshot(AbstractFileCollectionSnapshotter.java:55)
+	at org.gradle.api.internal.changedetection.state.DefaultCompileClasspathSnapshotter.snapshot(DefaultCompileClasspathSnapshotter.java:38)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository.snapshotTaskFiles(CacheBackedTaskHistoryRepository.java:329)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository.createExecution(CacheBackedTaskHistoryRepository.java:151)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository.access$100(CacheBackedTaskHistoryRepository.java:61)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository$1.getCurrentExecution(CacheBackedTaskHistoryRepository.java:111)
+	at org.gradle.api.internal.changedetection.changes.DefaultTaskArtifactStateRepository$TaskArtifactStateImpl.getStates(DefaultTaskArtifactStateRepository.java:208)
+	at org.gradle.api.internal.changedetection.changes.DefaultTaskArtifactStateRepository$TaskArtifactStateImpl.isUpToDate(DefaultTaskArtifactStateRepository.java:93)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:50)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
+	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:256)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:249)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:238)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:123)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:104)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:663)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:597)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: org.gradle.internal.resolve.ArtifactNotFoundException: Could not find imagepicker.aar (com.github.esafirm.android-image-picker:imagepicker:1.13.1).
+Searched in the following locations:
+    https://jitpack.io/com/github/esafirm/android-image-picker/imagepicker/1.13.1/imagepicker-1.13.1.aar
+	at org.gradle.internal.resolve.result.DefaultBuildableArtifactResolveResult.notFound(DefaultBuildableArtifactResolveResult.java:27)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifactFromCache(CachingModuleComponentRepository.java:342)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifact(CachingModuleComponentRepository.java:293)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveArtifact(ErrorHandlingModuleComponentRepository.java:181)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainArtifactResolver.resolveArtifact(RepositoryChainArtifactResolver.java:78)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:170)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:157)
+	at org.gradle.api.internal.artifacts.DefaultResolvedArtifact.getFile(DefaultResolvedArtifact.java:135)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.ArtifactBackedResolvedVariant$DownloadArtifactFile.run(ArtifactBackedResolvedVariant.java:148)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.access$900(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$ParentPreservingQueueWorker.execute(DefaultBuildOperationExecutor.java:378)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runOperation(DefaultBuildOperationQueue.java:230)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.access$600(DefaultBuildOperationQueue.java:172)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:203)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runBatch(DefaultBuildOperationQueue.java:202)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.run(DefaultBuildOperationQueue.java:177)
+	... 3 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 9s
+1 actionable task: 1 executed
+
+2019-03-09 20:29:40,575 ERROR FullProcessService - Project build has not produced APK file
+2019-03-09 20:29:40,664 ERROR FullProcessService - Could not find generated or existed APK file

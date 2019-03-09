@@ -1,37 +1,37 @@
-2018-12-26 12:07:21,049 INFO  DownloadService - Downloading "https://github.com/navinilavarasan/rxWebSocket/archive/master.zip", attempt 3
-2018-12-26 12:07:24,289 INFO  DownloadService - Downloaded https://github.com/navinilavarasan/rxWebSocket/archive/master.zip, attempt 3
-2018-12-26 12:07:24,289 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800841045-0/master.zip": 151 KB
-2018-12-26 12:07:24,289 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-26 12:07:24,295 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800841045-0/master.zip: true
-2018-12-26 12:07:24,295 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800841045-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800841045-0/src'.
-2018-12-26 12:07:24,316 INFO  FullProcessService - Size of directory with sources: 183 KB
-2018-12-26 12:07:24,316 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800841045-0/src]
-2018-12-26 12:07:24,340 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800841045-0/src/.git/
+2019-03-09 20:20:17,443 INFO  DownloadService - Downloading "https://github.com/navinilavarasan/rxWebSocket/archive/master.zip", attempt 3
+2019-03-09 20:20:20,635 INFO  DownloadService - Downloaded https://github.com/navinilavarasan/rxWebSocket/archive/master.zip, attempt 3
+2019-03-09 20:20:20,636 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137617439-0/master.zip": 151 KB
+2019-03-09 20:20:20,636 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-09 20:20:20,636 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137617439-0/master.zip: true
+2019-03-09 20:20:20,636 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137617439-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137617439-0/src'.
+2019-03-09 20:20:20,653 INFO  FullProcessService - Size of directory with sources: 183 KB
+2019-03-09 20:20:20,653 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137617439-0/src]
+2019-03-09 20:20:20,675 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137617439-0/src/.git/
 
-2018-12-26 12:07:24,344 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800841045-0/src/rxWebSocket-master/gradlew
-2018-12-26 12:07:24,347 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800841045-0/src/rxWebSocket-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800841045-0/src/rxWebSocket-master/rxwebsocket/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800841045-0/src/rxWebSocket-master/build.gradle
-2018-12-26 12:07:24,351 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800841045-0/src/rxWebSocket-master/rxwebsocket/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800841045-0/src/rxWebSocket-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800841045-0/src/rxWebSocket-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800841045-0/src/rxWebSocket-master/settings.gradle
-2018-12-26 12:07:24,351 INFO  ProjectBuildService - Remote scripts: none
-2018-12-26 12:07:24,351 INFO  ProjectFixService - Fixing project...
-2018-12-26 12:07:24,359 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800841045-0/src/rxWebSocket-master/app/local.properties
-2018-12-26 12:07:24,360 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800841045-0/src/rxWebSocket-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2018-12-26 12:07:24,360 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800841045-0/src/rxWebSocket-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2018-12-26 12:07:24,361 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800841045-0/src/rxWebSocket-master/rxwebsocket/local.properties
-2018-12-26 12:07:24,362 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800841045-0/src/rxWebSocket-master/rxwebsocket/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2018-12-26 12:07:24,362 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800841045-0/src/rxWebSocket-master/rxwebsocket/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2018-12-26 12:07:24,363 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800841045-0/src/rxWebSocket-master/local.properties
-2018-12-26 12:07:24,364 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2018-12-26 12:07:24,364 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2018-12-26 12:07:24,365 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800841045-0/src/rxWebSocket-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2018-12-26 12:07:24,366 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800841045-0/src/rxWebSocket-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2018-12-26 12:07:24,366 INFO  ProjectFixService - Project was maybe fixed
-2018-12-26 12:07:24,366 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-26 12:07:24,367 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800841045-0/src/rxWebSocket-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800841045-0/src/rxWebSocket-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-26 12:07:31,534 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-26 12:07:31,534 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-26 12:07:31,534 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-26 12:07:31,534 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800841045-0/src/rxWebSocket-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800841045-0/src/rxWebSocket-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-26 12:07:36,927 ERROR SysUtils - Could not process external command
+2019-03-09 20:20:20,678 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137617439-0/src/rxWebSocket-master/gradlew
+2019-03-09 20:20:20,681 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137617439-0/src/rxWebSocket-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137617439-0/src/rxWebSocket-master/rxwebsocket/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137617439-0/src/rxWebSocket-master/build.gradle
+2019-03-09 20:20:20,684 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137617439-0/src/rxWebSocket-master/rxwebsocket/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137617439-0/src/rxWebSocket-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137617439-0/src/rxWebSocket-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137617439-0/src/rxWebSocket-master/settings.gradle
+2019-03-09 20:20:20,684 INFO  ProjectBuildService - Remote scripts: none
+2019-03-09 20:20:20,685 INFO  ProjectFixService - Fixing project...
+2019-03-09 20:20:20,692 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137617439-0/src/rxWebSocket-master/app/local.properties
+2019-03-09 20:20:20,693 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137617439-0/src/rxWebSocket-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-03-09 20:20:20,693 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137617439-0/src/rxWebSocket-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-03-09 20:20:20,694 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137617439-0/src/rxWebSocket-master/rxwebsocket/local.properties
+2019-03-09 20:20:20,694 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137617439-0/src/rxWebSocket-master/rxwebsocket/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-03-09 20:20:20,695 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137617439-0/src/rxWebSocket-master/rxwebsocket/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-03-09 20:20:20,695 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137617439-0/src/rxWebSocket-master/local.properties
+2019-03-09 20:20:20,696 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-03-09 20:20:20,696 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-03-09 20:20:20,697 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137617439-0/src/rxWebSocket-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-03-09 20:20:20,697 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137617439-0/src/rxWebSocket-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-03-09 20:20:20,698 INFO  ProjectFixService - Project was maybe fixed
+2019-03-09 20:20:20,698 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 20:20:20,698 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137617439-0/src/rxWebSocket-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137617439-0/src/rxWebSocket-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 20:20:28,954 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-09 20:20:28,954 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-09 20:20:28,955 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-09 20:20:28,955 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137617439-0/src/rxWebSocket-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137617439-0/src/rxWebSocket-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-09 20:20:35,234 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,22 +44,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-26 12:07:36,927 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 20:20:35,235 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -188,7 +187,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
 	... 85 more
 
@@ -197,13 +196,13 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED in 5s
 
-2018-12-26 12:07:36,932 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-26 12:07:36,932 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800841045-0/src/rxWebSocket-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800841045-0/src/rxWebSocket-master/rxwebsocket/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-26 12:07:42,141 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-26 12:07:42,141 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-26 12:07:42,141 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-26 12:07:42,141 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800841045-0/src/rxWebSocket-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800841045-0/src/rxWebSocket-master/rxwebsocket/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-26 12:07:47,699 ERROR SysUtils - Could not process external command
+2019-03-09 20:20:35,239 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 20:20:35,239 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137617439-0/src/rxWebSocket-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137617439-0/src/rxWebSocket-master/rxwebsocket/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 20:20:40,914 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-09 20:20:40,914 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-09 20:20:40,914 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-09 20:20:40,914 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137617439-0/src/rxWebSocket-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137617439-0/src/rxWebSocket-master/rxwebsocket/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-09 20:20:46,585 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -216,22 +215,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-26 12:07:47,699 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 20:20:46,585 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -360,7 +358,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
 	... 85 more
 
@@ -369,13 +367,13 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED in 5s
 
-2018-12-26 12:07:47,704 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-26 12:07:47,704 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800841045-0/src/rxWebSocket-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800841045-0/src/rxWebSocket-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-26 12:07:53,712 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-26 12:07:53,712 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-26 12:07:53,712 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-26 12:07:53,713 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800841045-0/src/rxWebSocket-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800841045-0/src/rxWebSocket-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-26 12:07:59,674 ERROR SysUtils - Could not process external command
+2019-03-09 20:20:46,589 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 20:20:46,589 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137617439-0/src/rxWebSocket-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137617439-0/src/rxWebSocket-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 20:20:52,197 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-09 20:20:52,197 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-09 20:20:52,197 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-09 20:20:52,197 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137617439-0/src/rxWebSocket-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137617439-0/src/rxWebSocket-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-09 20:20:58,165 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -388,22 +386,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-26 12:07:59,674 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 20:20:58,166 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -541,5 +538,5 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED in 5s
 
-2018-12-26 12:07:59,679 ERROR FullProcessService - Project build has not produced APK file
-2018-12-26 12:07:59,683 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-09 20:20:58,170 ERROR FullProcessService - Project build has not produced APK file
+2019-03-09 20:20:58,175 ERROR FullProcessService - Could not find generated or existed APK file

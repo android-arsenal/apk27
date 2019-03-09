@@ -1,33 +1,33 @@
-2018-10-08 11:46:59,539 INFO  DownloadService - Downloading "https://github.com/matteocrippa/karamba/archive/master.zip", attempt 3
-2018-10-08 11:47:00,051 INFO  DownloadService - Downloaded https://github.com/matteocrippa/karamba/archive/master.zip, attempt 3
-2018-10-08 11:47:00,051 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/master.zip": 91 KB
-2018-10-08 11:47:00,052 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-08 11:47:00,057 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/master.zip: true
-2018-10-08 11:47:00,057 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/src'.
-2018-10-08 11:47:00,068 INFO  FullProcessService - Size of directory with sources: 106 KB
-2018-10-08 11:47:00,068 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/src]
-2018-10-08 11:47:00,089 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/src/.git/
+2019-03-09 20:27:13,531 INFO  DownloadService - Downloading "https://github.com/matteocrippa/karamba/archive/master.zip", attempt 3
+2019-03-09 20:27:16,023 INFO  DownloadService - Downloaded https://github.com/matteocrippa/karamba/archive/master.zip, attempt 3
+2019-03-09 20:27:16,024 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138033528-0/master.zip": 91 KB
+2019-03-09 20:27:16,024 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-09 20:27:16,029 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138033528-0/master.zip: true
+2019-03-09 20:27:16,029 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138033528-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138033528-0/src'.
+2019-03-09 20:27:16,043 INFO  FullProcessService - Size of directory with sources: 106 KB
+2019-03-09 20:27:16,043 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138033528-0/src]
+2019-03-09 20:27:16,065 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138033528-0/src/.git/
 
-2018-10-08 11:47:00,091 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/src/karamba-master/gradlew
-2018-10-08 11:47:00,092 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/src/karamba-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/src/karamba-master/build.gradle
-2018-10-08 11:47:00,095 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/src/karamba-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/src/karamba-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/src/karamba-master/settings.gradle
-2018-10-08 11:47:00,095 INFO  ProjectBuildService - Remote scripts: none
-2018-10-08 11:47:00,095 INFO  ProjectFixService - Fixing project...
-2018-10-08 11:47:00,100 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/src/karamba-master/app/local.properties
-2018-10-08 11:47:00,101 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/src/karamba-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2018-10-08 11:47:00,101 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/src/karamba-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2018-10-08 11:47:00,102 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/src/karamba-master/local.properties
-2018-10-08 11:47:00,102 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-10-08 11:47:00,103 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-10-08 11:47:00,103 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/src/karamba-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2018-10-08 11:47:00,103 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/src/karamba-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2018-10-08 11:47:00,104 INFO  ProjectFixService - Project was maybe fixed
-2018-10-08 11:47:00,104 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-08 11:47:00,104 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/src/karamba-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/src/karamba-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-08 11:47:08,218 INFO  ProjectTaskService - Detected possible tasks: 64
-2018-10-08 11:47:08,218 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-10-08 11:47:08,218 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/src/karamba-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/src/karamba-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-10-08 11:47:29,988 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 20:27:16,067 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138033528-0/src/karamba-master/gradlew
+2019-03-09 20:27:16,070 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138033528-0/src/karamba-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138033528-0/src/karamba-master/build.gradle
+2019-03-09 20:27:16,072 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138033528-0/src/karamba-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138033528-0/src/karamba-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138033528-0/src/karamba-master/settings.gradle
+2019-03-09 20:27:16,072 INFO  ProjectBuildService - Remote scripts: none
+2019-03-09 20:27:16,072 INFO  ProjectFixService - Fixing project...
+2019-03-09 20:27:16,077 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138033528-0/src/karamba-master/app/local.properties
+2019-03-09 20:27:16,078 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138033528-0/src/karamba-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2019-03-09 20:27:16,078 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138033528-0/src/karamba-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2019-03-09 20:27:16,079 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138033528-0/src/karamba-master/local.properties
+2019-03-09 20:27:16,080 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-03-09 20:27:16,081 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-03-09 20:27:16,082 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138033528-0/src/karamba-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2019-03-09 20:27:16,082 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138033528-0/src/karamba-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2019-03-09 20:27:16,082 INFO  ProjectFixService - Project was maybe fixed
+2019-03-09 20:27:16,083 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 20:27:16,083 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138033528-0/src/karamba-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138033528-0/src/karamba-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 20:27:24,786 INFO  ProjectTaskService - Detected possible tasks: 64
+2019-03-09 20:27:24,786 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-09 20:27:24,786 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138033528-0/src/karamba-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138033528-0/src/karamba-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-09 20:27:42,930 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
 :app:compileDebugAidl
@@ -77,11 +77,11 @@
 :app:verifyReleaseResources
 :app:generateDebugRFile
 :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/src/karamba-master/app/src/main/java/matteocrippa/it/karamba/Boolean+Extension.kt: (12, 28): This cast can never succeed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/src/karamba-master/app/src/main/java/matteocrippa/it/karamba/String+Extension.kt: (27, 13): Variable 'd' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/src/karamba-master/app/src/main/java/matteocrippa/it/karamba/String+Extension.kt: (40, 9): Variable 'random' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/src/karamba-master/app/src/main/java/matteocrippa/it/karamba/String+Extension.kt: (88, 30): 'fromHtml(String!): Spanned!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/src/karamba-master/app/src/main/java/matteocrippa/it/karamba/String+Extension.kt: (92, 9): Condition 'this == null' is always 'false'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138033528-0/src/karamba-master/app/src/main/java/matteocrippa/it/karamba/Boolean+Extension.kt: (12, 28): This cast can never succeed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138033528-0/src/karamba-master/app/src/main/java/matteocrippa/it/karamba/String+Extension.kt: (27, 13): Variable 'd' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138033528-0/src/karamba-master/app/src/main/java/matteocrippa/it/karamba/String+Extension.kt: (40, 9): Variable 'random' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138033528-0/src/karamba-master/app/src/main/java/matteocrippa/it/karamba/String+Extension.kt: (88, 30): 'fromHtml(String!): Spanned!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138033528-0/src/karamba-master/app/src/main/java/matteocrippa/it/karamba/String+Extension.kt: (92, 9): Condition 'this == null' is always 'false'
 :app:generateDebugSources
 :app:javaPreCompileDebug
 :app:compileDebugJavaWithJavac
@@ -93,11 +93,11 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/src/
 :app:assembleDebug
 :app:generateReleaseRFile
 :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/src/karamba-master/app/src/main/java/matteocrippa/it/karamba/Boolean+Extension.kt: (12, 28): This cast can never succeed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/src/karamba-master/app/src/main/java/matteocrippa/it/karamba/String+Extension.kt: (27, 13): Variable 'd' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/src/karamba-master/app/src/main/java/matteocrippa/it/karamba/String+Extension.kt: (40, 9): Variable 'random' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/src/karamba-master/app/src/main/java/matteocrippa/it/karamba/String+Extension.kt: (88, 30): 'fromHtml(String!): Spanned!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/src/karamba-master/app/src/main/java/matteocrippa/it/karamba/String+Extension.kt: (92, 9): Condition 'this == null' is always 'false'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138033528-0/src/karamba-master/app/src/main/java/matteocrippa/it/karamba/Boolean+Extension.kt: (12, 28): This cast can never succeed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138033528-0/src/karamba-master/app/src/main/java/matteocrippa/it/karamba/String+Extension.kt: (27, 13): Variable 'd' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138033528-0/src/karamba-master/app/src/main/java/matteocrippa/it/karamba/String+Extension.kt: (40, 9): Variable 'random' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138033528-0/src/karamba-master/app/src/main/java/matteocrippa/it/karamba/String+Extension.kt: (88, 30): 'fromHtml(String!): Spanned!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138033528-0/src/karamba-master/app/src/main/java/matteocrippa/it/karamba/String+Extension.kt: (92, 9): Condition 'this == null' is always 'false'
 :app:generateReleaseSources
 :app:javaPreCompileRelease
 :app:compileReleaseJavaWithJavac
@@ -110,15 +110,15 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/src/
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 21s
+BUILD SUCCESSFUL in 17s
 50 actionable tasks: 50 executed
 
-2018-10-08 11:47:30,002 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-08 11:47:30,003 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/src/karamba-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/src/karamba-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-08 11:47:38,331 INFO  ProjectTaskService - Detected possible tasks: 64
-2018-10-08 11:47:38,331 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-10-08 11:47:38,331 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/src/karamba-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538974019536-0/src/karamba-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-10-08 11:47:48,120 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 20:27:42,950 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 20:27:42,950 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138033528-0/src/karamba-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138033528-0/src/karamba-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 20:27:50,332 INFO  ProjectTaskService - Detected possible tasks: 64
+2019-03-09 20:27:50,332 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-09 20:27:50,332 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138033528-0/src/karamba-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552138033528-0/src/karamba-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-09 20:27:58,281 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
 :app:compileDebugAidl UP-TO-DATE
@@ -191,8 +191,8 @@ BUILD SUCCESSFUL in 21s
 :app:assemble UP-TO-DATE
 :app:build
 
-BUILD SUCCESSFUL in 9s
+BUILD SUCCESSFUL in 7s
 50 actionable tasks: 50 up-to-date
 
-2018-10-08 11:47:48,135 ERROR FullProcessService - Project build has not produced APK file
-2018-10-08 11:47:48,149 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-09 20:27:58,297 ERROR FullProcessService - Project build has not produced APK file
+2019-03-09 20:27:58,311 ERROR FullProcessService - Could not find generated or existed APK file

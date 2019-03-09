@@ -1,37 +1,37 @@
-2018-10-08 11:44:07,627 INFO  DownloadService - Downloading "https://github.com/tgirard12/KRecyclerDsl/archive/master.zip", attempt 3
-2018-10-08 11:44:09,752 INFO  DownloadService - Downloaded https://github.com/tgirard12/KRecyclerDsl/archive/master.zip, attempt 3
-2018-10-08 11:44:09,752 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973847618-0/master.zip": 151 KB
-2018-10-08 11:44:09,752 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-08 11:44:09,757 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973847618-0/master.zip: true
-2018-10-08 11:44:09,758 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973847618-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973847618-0/src'.
-2018-10-08 11:44:09,782 INFO  FullProcessService - Size of directory with sources: 170 KB
-2018-10-08 11:44:09,782 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973847618-0/src]
-2018-10-08 11:44:09,806 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973847618-0/src/.git/
+2019-03-09 20:24:39,393 INFO  DownloadService - Downloading "https://github.com/tgirard12/KRecyclerDsl/archive/master.zip", attempt 3
+2019-03-09 20:24:41,616 INFO  DownloadService - Downloaded https://github.com/tgirard12/KRecyclerDsl/archive/master.zip, attempt 3
+2019-03-09 20:24:41,616 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137879385-0/master.zip": 151 KB
+2019-03-09 20:24:41,616 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-09 20:24:41,622 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137879385-0/master.zip: true
+2019-03-09 20:24:41,622 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137879385-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137879385-0/src'.
+2019-03-09 20:24:41,643 INFO  FullProcessService - Size of directory with sources: 170 KB
+2019-03-09 20:24:41,643 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137879385-0/src]
+2019-03-09 20:24:41,664 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137879385-0/src/.git/
 
-2018-10-08 11:44:09,810 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973847618-0/src/KRecyclerDsl-master/gradlew
-2018-10-08 11:44:09,814 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973847618-0/src/KRecyclerDsl-master/krecyclerdsl/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973847618-0/src/KRecyclerDsl-master/samples-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973847618-0/src/KRecyclerDsl-master/build.gradle
-2018-10-08 11:44:09,817 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973847618-0/src/KRecyclerDsl-master/samples-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973847618-0/src/KRecyclerDsl-master/gradle/publish-android-jar.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973847618-0/src/KRecyclerDsl-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973847618-0/src/KRecyclerDsl-master/krecyclerdsl/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973847618-0/src/KRecyclerDsl-master/settings.gradle
-2018-10-08 11:44:09,818 INFO  ProjectBuildService - Remote scripts: none
-2018-10-08 11:44:09,818 INFO  ProjectFixService - Fixing project...
-2018-10-08 11:44:09,826 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973847618-0/src/KRecyclerDsl-master/krecyclerdsl/local.properties
-2018-10-08 11:44:09,829 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973847618-0/src/KRecyclerDsl-master/krecyclerdsl/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-10-08 11:44:09,829 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973847618-0/src/KRecyclerDsl-master/krecyclerdsl/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-10-08 11:44:09,830 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973847618-0/src/KRecyclerDsl-master/samples-app/local.properties
-2018-10-08 11:44:09,833 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973847618-0/src/KRecyclerDsl-master/samples-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-10-08 11:44:09,833 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973847618-0/src/KRecyclerDsl-master/samples-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-10-08 11:44:09,834 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973847618-0/src/KRecyclerDsl-master/local.properties
-2018-10-08 11:44:09,834 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-10-08 11:44:09,835 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-10-08 11:44:09,837 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973847618-0/src/KRecyclerDsl-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-10-08 11:44:09,837 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973847618-0/src/KRecyclerDsl-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-10-08 11:44:09,838 INFO  ProjectFixService - Project was maybe fixed
-2018-10-08 11:44:09,838 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-08 11:44:09,838 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973847618-0/src/KRecyclerDsl-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973847618-0/src/KRecyclerDsl-master/krecyclerdsl/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-08 11:44:18,529 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-08 11:44:18,529 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-08 11:44:18,529 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-08 11:44:18,529 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973847618-0/src/KRecyclerDsl-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973847618-0/src/KRecyclerDsl-master/krecyclerdsl/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-08 11:44:27,018 ERROR SysUtils - Could not process external command
+2019-03-09 20:24:41,669 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137879385-0/src/KRecyclerDsl-master/gradlew
+2019-03-09 20:24:41,674 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137879385-0/src/KRecyclerDsl-master/krecyclerdsl/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137879385-0/src/KRecyclerDsl-master/samples-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137879385-0/src/KRecyclerDsl-master/build.gradle
+2019-03-09 20:24:41,678 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137879385-0/src/KRecyclerDsl-master/samples-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137879385-0/src/KRecyclerDsl-master/gradle/publish-android-jar.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137879385-0/src/KRecyclerDsl-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137879385-0/src/KRecyclerDsl-master/krecyclerdsl/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137879385-0/src/KRecyclerDsl-master/settings.gradle
+2019-03-09 20:24:41,678 INFO  ProjectBuildService - Remote scripts: none
+2019-03-09 20:24:41,678 INFO  ProjectFixService - Fixing project...
+2019-03-09 20:24:41,691 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137879385-0/src/KRecyclerDsl-master/krecyclerdsl/local.properties
+2019-03-09 20:24:41,693 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137879385-0/src/KRecyclerDsl-master/krecyclerdsl/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-09 20:24:41,694 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137879385-0/src/KRecyclerDsl-master/krecyclerdsl/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-09 20:24:41,695 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137879385-0/src/KRecyclerDsl-master/samples-app/local.properties
+2019-03-09 20:24:41,697 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137879385-0/src/KRecyclerDsl-master/samples-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-09 20:24:41,697 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137879385-0/src/KRecyclerDsl-master/samples-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-09 20:24:41,699 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137879385-0/src/KRecyclerDsl-master/local.properties
+2019-03-09 20:24:41,699 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-03-09 20:24:41,699 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-03-09 20:24:41,702 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137879385-0/src/KRecyclerDsl-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-09 20:24:41,703 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137879385-0/src/KRecyclerDsl-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-09 20:24:41,703 INFO  ProjectFixService - Project was maybe fixed
+2019-03-09 20:24:41,703 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 20:24:41,704 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137879385-0/src/KRecyclerDsl-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137879385-0/src/KRecyclerDsl-master/krecyclerdsl/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 20:24:48,502 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-09 20:24:48,502 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-09 20:24:48,502 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-09 20:24:48,502 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137879385-0/src/KRecyclerDsl-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137879385-0/src/KRecyclerDsl-master/krecyclerdsl/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-09 20:24:54,703 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,8 +44,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -59,7 +58,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-08 11:44:27,018 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 20:24:54,703 INFO  SysUtils - Configuration on demand is an incubating feature.
 The CompileOptions.bootClasspath property has been deprecated and is scheduled to be removed in Gradle 5.0. Please use the CompileOptions.bootstrapClasspath property instead.
 	at org.gradle.api.tasks.compile.CompileOptions.setBootClasspath(CompileOptions.java:273)
 	at org.gradle.api.tasks.compile.CompileOptions_Decorated.setBootClasspath(Unknown Source)
@@ -324,15 +323,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 8s
+BUILD FAILED in 5s
 
-2018-10-08 11:44:27,024 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-08 11:44:27,024 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973847618-0/src/KRecyclerDsl-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973847618-0/src/KRecyclerDsl-master/samples-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-08 11:44:35,356 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-08 11:44:35,356 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-08 11:44:35,356 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-08 11:44:35,356 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973847618-0/src/KRecyclerDsl-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973847618-0/src/KRecyclerDsl-master/samples-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-08 11:44:44,187 ERROR SysUtils - Could not process external command
+2019-03-09 20:24:54,708 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 20:24:54,708 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137879385-0/src/KRecyclerDsl-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137879385-0/src/KRecyclerDsl-master/samples-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 20:25:00,989 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-09 20:25:00,989 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-09 20:25:00,990 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-09 20:25:00,990 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137879385-0/src/KRecyclerDsl-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137879385-0/src/KRecyclerDsl-master/samples-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-09 20:25:07,630 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -345,8 +344,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -360,7 +358,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-08 11:44:44,188 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 20:25:07,630 INFO  SysUtils - Configuration on demand is an incubating feature.
 The CompileOptions.bootClasspath property has been deprecated and is scheduled to be removed in Gradle 5.0. Please use the CompileOptions.bootstrapClasspath property instead.
 	at org.gradle.api.tasks.compile.CompileOptions.setBootClasspath(CompileOptions.java:273)
 	at org.gradle.api.tasks.compile.CompileOptions_Decorated.setBootClasspath(Unknown Source)
@@ -626,15 +624,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 8s
+BUILD FAILED in 6s
 
-2018-10-08 11:44:44,192 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-08 11:44:44,192 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973847618-0/src/KRecyclerDsl-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973847618-0/src/KRecyclerDsl-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-08 11:44:52,877 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-08 11:44:52,877 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-08 11:44:52,877 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-08 11:44:52,877 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973847618-0/src/KRecyclerDsl-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538973847618-0/src/KRecyclerDsl-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-08 11:45:01,104 ERROR SysUtils - Could not process external command
+2019-03-09 20:25:07,636 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 20:25:07,637 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137879385-0/src/KRecyclerDsl-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137879385-0/src/KRecyclerDsl-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 20:25:14,950 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-09 20:25:14,950 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-09 20:25:14,950 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-09 20:25:14,951 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137879385-0/src/KRecyclerDsl-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137879385-0/src/KRecyclerDsl-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-09 20:25:22,150 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -647,8 +645,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -662,7 +659,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-08 11:45:01,104 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 20:25:22,150 INFO  SysUtils - Configuration on demand is an incubating feature.
 The CompileOptions.bootClasspath property has been deprecated and is scheduled to be removed in Gradle 5.0. Please use the CompileOptions.bootstrapClasspath property instead.
 	at org.gradle.api.tasks.compile.CompileOptions.setBootClasspath(CompileOptions.java:273)
 	at org.gradle.api.tasks.compile.CompileOptions_Decorated.setBootClasspath(Unknown Source)
@@ -927,7 +924,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 7s
+BUILD FAILED in 6s
 
-2018-10-08 11:45:01,109 ERROR FullProcessService - Project build has not produced APK file
-2018-10-08 11:45:01,113 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-09 20:25:22,155 ERROR FullProcessService - Project build has not produced APK file
+2019-03-09 20:25:22,160 ERROR FullProcessService - Could not find generated or existed APK file

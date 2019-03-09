@@ -1,37 +1,40 @@
-2019-01-18 11:55:35,713 INFO  DownloadService - Downloading "https://github.com/patrickfav/armadillo/archive/master.zip", attempt 3
-2019-01-18 11:56:36,539 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-01-18 11:56:37,418 INFO  GithubDownloadService - Default branch of this repository: master
-2019-01-18 11:56:37,418 INFO  DownloadService - Downloading "https://github.com/patrickfav/armadillo/archive/master.zip", attempt 3
-2019-01-18 11:57:39,180 DEBUG FullProcessService - Repository https://github.com/patrickfav/armadillo available: true
-2019-01-18 11:57:39,180 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-01-18 11:57:39,180 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/patrickfav/armadillo, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787335709-0/src]
-2019-01-18 11:57:49,384 INFO  SysUtils - 
-2019-01-18 11:57:49,394 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787335709-0/src/.git": true
-2019-01-18 11:57:49,401 INFO  FullProcessService - Size of directory with sources: 806 KB
-2019-01-18 11:57:49,401 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787335709-0/src]
-2019-01-18 11:57:49,421 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787335709-0/src/.git/
+2019-03-09 20:13:31,520 INFO  DownloadService - Downloading "https://github.com/patrickfav/armadillo/archive/master.zip", attempt 3
+2019-03-09 20:13:33,149 INFO  DownloadService - Downloaded https://github.com/patrickfav/armadillo/archive/master.zip, attempt 3
+2019-03-09 20:13:33,149 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137211517-0/master.zip": 599 KB
+2019-03-09 20:13:33,149 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-09 20:13:33,155 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137211517-0/master.zip: true
+2019-03-09 20:13:33,155 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137211517-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137211517-0/src'.
+2019-03-09 20:13:33,192 INFO  FullProcessService - Size of directory with sources: 809 KB
+2019-03-09 20:13:33,192 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137211517-0/src]
+2019-03-09 20:13:33,209 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137211517-0/src/.git/
 
-2019-01-18 11:57:49,426 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787335709-0/src/gradlew
-2019-01-18 11:57:49,432 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787335709-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787335709-0/src/armadillo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787335709-0/src/build.gradle
-2019-01-18 11:57:49,438 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787335709-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787335709-0/src/gradle/checkstyle.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787335709-0/src/gradle/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787335709-0/src/gradle/common-build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787335709-0/src/gradle/jacoco-utils.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787335709-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787335709-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787335709-0/src/armadillo/build.gradle
-2019-01-18 11:57:49,438 INFO  ProjectBuildService - Remote scripts: none
-2019-01-18 11:57:49,438 INFO  ProjectFixService - Fixing project...
-2019-01-18 11:57:49,456 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787335709-0/src/app/local.properties
-2019-01-18 11:57:49,459 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787335709-0/src/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-01-18 11:57:49,459 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787335709-0/src/armadillo/local.properties
-2019-01-18 11:57:49,464 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787335709-0/src/armadillo/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-01-18 11:57:49,464 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787335709-0/src/local.properties
-2019-01-18 11:57:49,464 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10-all.zip
-2019-01-18 11:57:49,465 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10-bin.zip)
-2019-01-18 11:57:49,465 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787335709-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-01-18 11:57:49,465 INFO  ProjectFixService - Project was maybe fixed
-2019-01-18 11:57:49,465 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-18 11:57:49,465 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787335709-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787335709-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-18 12:02:31,602 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-01-18 12:02:31,602 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-01-18 12:02:31,602 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787335709-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787335709-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-01-18 12:03:23,352 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :app:checkDebugClasspath
+2019-03-09 20:13:33,214 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137211517-0/src/armadillo-master/gradlew
+2019-03-09 20:13:33,219 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137211517-0/src/armadillo-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137211517-0/src/armadillo-master/armadillo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137211517-0/src/armadillo-master/build.gradle
+2019-03-09 20:13:33,223 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137211517-0/src/armadillo-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137211517-0/src/armadillo-master/gradle/checkstyle.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137211517-0/src/armadillo-master/gradle/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137211517-0/src/armadillo-master/gradle/common-build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137211517-0/src/armadillo-master/gradle/jacoco-utils.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137211517-0/src/armadillo-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137211517-0/src/armadillo-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137211517-0/src/armadillo-master/armadillo/build.gradle
+2019-03-09 20:13:33,223 INFO  ProjectBuildService - Remote scripts: none
+2019-03-09 20:13:33,223 INFO  ProjectFixService - Fixing project...
+2019-03-09 20:13:33,238 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137211517-0/src/armadillo-master/app/local.properties
+2019-03-09 20:13:33,241 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137211517-0/src/armadillo-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-03-09 20:13:33,241 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137211517-0/src/armadillo-master/armadillo/local.properties
+2019-03-09 20:13:33,244 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137211517-0/src/armadillo-master/armadillo/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-03-09 20:13:33,245 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137211517-0/src/armadillo-master/local.properties
+2019-03-09 20:13:33,245 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.3-all.zip
+2019-03-09 20:13:33,245 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.3-bin.zip)
+2019-03-09 20:13:33,246 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137211517-0/src/armadillo-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-03-09 20:13:33,246 INFO  ProjectFixService - Project was maybe fixed
+2019-03-09 20:13:33,246 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 20:13:33,246 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137211517-0/src/armadillo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137211517-0/src/armadillo-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 20:13:41,945 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-03-09 20:13:41,945 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-09 20:13:41,945 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137211517-0/src/armadillo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137211517-0/src/armadillo-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-09 20:14:35,798 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :armadillo
+WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
+
 > Task :app:preBuild UP-TO-DATE
 > Task :armadillo:preBuild UP-TO-DATE
 > Task :armadillo:preDebugBuild UP-TO-DATE
@@ -45,7 +48,10 @@
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
 > Task :app:prepareLintJar
-> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugSources
+> Task :app:dataBindingExportBuildInfoDebug
+> Task :app:dataBindingExportFeaturePackageIdsDebug
+> Task :app:dataBindingMergeDependencyArtifactsDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
 > Task :armadillo:compileDebugRenderscript
@@ -53,30 +59,30 @@
 > Task :armadillo:generateDebugResources
 > Task :armadillo:packageDebugResources
 > Task :app:mergeDebugResources
-> Task :app:createDebugCompatibleScreenManifests
-> Task :app:processDebugManifest
-> Task :app:splitsDiscoveryTaskDebug
-> Task :armadillo:generateDebugRFile
-> Task :app:processDebugResources
-> Task :app:generateDebugSources
-> Task :app:dataBindingExportBuildInfoDebug
-> Task :app:dataBindingExportFeaturePackageIdsDebug
-> Task :app:dataBindingMergeDependencyArtifactsDebug
 > Task :app:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
 > Task :app:dataBindingGenBaseClassesDebug
 > Task :armadillo:generateDebugBuildConfig
+> Task :armadillo:generateDebugRFile
 > Task :armadillo:prepareLintJar
 > Task :armadillo:generateDebugSources
 > Task :armadillo:javaPreCompileDebug
 
 > Task :armadillo:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787335709-0/src/armadillo/src/main/java/at/favre/lib/armadillo/EncryptionFingerprintFactory.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137211517-0/src/armadillo-master/armadillo/src/main/java/at/favre/lib/armadillo/EncryptionFingerprintFactory.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :armadillo:processDebugJavaRes NO-SOURCE
 > Task :armadillo:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 > Task :app:javaPreCompileDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:processDebugResources
+
 > Task :app:compileDebugJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: databinding-compiler-3.3.0.jar (androidx.databinding:databinding-compiler:3.3.0).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+
 > Task :app:compileDebugNdk NO-SOURCE
 > Task :app:compileDebugSources
 > Task :app:mergeDebugShaders
@@ -87,7 +93,8 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :armadillo:generateDebugAssets
 > Task :armadillo:packageDebugAssets
 > Task :app:mergeDebugAssets
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
 > Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
 > Task :app:transformDexArchiveWithDexMergerForDebug
@@ -99,13 +106,10 @@ D8: InnerClass annotations are missing corresponding EnclosingMember annotations
 > Task :armadillo:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :app:transformNativeLibsWithMergeJniLibsForDebug
 > Task :app:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :app:checkDebugLibraries
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :app:transformResourcesWithMergeJavaResForDebug
-> Task :app:validateSigningDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
-> Task :app:checkReleaseClasspath
 > Task :armadillo:preReleaseBuild UP-TO-DATE
 > Task :armadillo:checkReleaseManifest
 > Task :armadillo:processReleaseManifest
@@ -116,7 +120,10 @@ D8: InnerClass annotations are missing corresponding EnclosingMember annotations
 > Task :app:compileReleaseRenderscript
 > Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
-> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseSources
+> Task :app:dataBindingExportBuildInfoRelease
+> Task :app:dataBindingExportFeaturePackageIdsRelease
+> Task :app:dataBindingMergeDependencyArtifactsRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
 > Task :armadillo:compileReleaseRenderscript
@@ -124,35 +131,35 @@ D8: InnerClass annotations are missing corresponding EnclosingMember annotations
 > Task :armadillo:generateReleaseResources
 > Task :armadillo:packageReleaseResources
 > Task :app:mergeReleaseResources
-> Task :app:createReleaseCompatibleScreenManifests
-> Task :app:processReleaseManifest
-> Task :app:splitsDiscoveryTaskRelease
-> Task :armadillo:generateReleaseRFile
-> Task :app:processReleaseResources
-> Task :app:generateReleaseSources
-> Task :app:dataBindingExportBuildInfoRelease
-> Task :app:dataBindingExportFeaturePackageIdsRelease
-> Task :app:dataBindingMergeDependencyArtifactsRelease
 > Task :app:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease
 > Task :app:dataBindingGenBaseClassesRelease
 > Task :armadillo:generateReleaseBuildConfig
+> Task :armadillo:generateReleaseRFile
 > Task :armadillo:generateReleaseSources
 > Task :armadillo:javaPreCompileRelease
 
 > Task :armadillo:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787335709-0/src/armadillo/src/main/java/at/favre/lib/armadillo/EncryptionFingerprintFactory.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137211517-0/src/armadillo-master/armadillo/src/main/java/at/favre/lib/armadillo/EncryptionFingerprintFactory.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :armadillo:processReleaseJavaRes NO-SOURCE
 > Task :armadillo:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
 > Task :app:javaPreCompileRelease
+> Task :app:mainApkListPersistenceRelease
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:processReleaseResources
+
 > Task :app:compileReleaseJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: databinding-compiler-3.3.0.jar (androidx.databinding:databinding-compiler:3.3.0).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+
 > Task :app:compileReleaseNdk NO-SOURCE
 > Task :app:compileReleaseSources
 
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/abf964bc6c33c013756c27c7636fbeba/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/43f266f660604caa05362f6a7cd36396/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/d1a18b663de520664f85f268d1622f60/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/30dc0c144f483c0b6d46f9a9cfd5eaca/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
@@ -162,7 +169,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :armadillo:generateReleaseAssets
 > Task :armadillo:packageReleaseAssets
 > Task :app:mergeReleaseAssets
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+> Task :app:signingConfigWriterRelease
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:transformDexArchiveWithExternalLibsDexMergerForRelease
 > Task :app:transformDexArchiveWithDexMergerForRelease
@@ -174,7 +181,6 @@ D8: InnerClass annotations are missing corresponding EnclosingMember annotations
 > Task :armadillo:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :app:transformNativeLibsWithMergeJniLibsForRelease
 > Task :app:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :app:checkReleaseLibraries
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :app:transformResourcesWithMergeJavaResForRelease
 > Task :app:packageRelease
@@ -182,7 +188,7 @@ D8: InnerClass annotations are missing corresponding EnclosingMember annotations
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 51s
-100 actionable tasks: 100 executed
+BUILD SUCCESSFUL in 53s
+96 actionable tasks: 96 executed
 
-2019-01-18 12:03:23,466 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547787335709-0/src/app/build/outputs/apk/debug/app-debug.apk
+2019-03-09 20:14:35,907 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552137211517-0/src/armadillo-master/app/build/outputs/apk/debug/app-debug.apk
