@@ -1,34 +1,37 @@
-2018-11-11 17:10:12,374 INFO  DownloadService - Downloading "https://github.com/sparrow007/CustomToggleButton/archive/master.zip", attempt 3
-2018-11-11 17:10:14,353 INFO  DownloadService - Downloaded https://github.com/sparrow007/CustomToggleButton/archive/master.zip, attempt 3
-2018-11-11 17:10:14,353 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931012370-0/master.zip": 112 KB
-2018-11-11 17:10:14,353 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-11 17:10:14,358 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931012370-0/master.zip: true
-2018-11-11 17:10:14,359 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931012370-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931012370-0/src'.
-2018-11-11 17:10:14,380 INFO  FullProcessService - Size of directory with sources: 134 KB
-2018-11-11 17:10:14,380 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931012370-0/src]
-2018-11-11 17:10:14,399 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931012370-0/src/.git/
+2019-03-10 02:07:21,621 INFO  DownloadService - Downloading "https://github.com/sparrow007/CustomToggleButton/archive/master.zip", attempt 3
+2019-03-10 02:08:22,440 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-03-10 02:08:23,580 INFO  GithubDownloadService - Default branch of this repository: master
+2019-03-10 02:08:23,580 INFO  DownloadService - Downloading "https://github.com/sparrow007/CustomToggleButton/archive/master.zip", attempt 3
+2019-03-10 02:09:25,480 DEBUG FullProcessService - Repository https://github.com/sparrow007/CustomToggleButton available: true
+2019-03-10 02:09:25,480 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-03-10 02:09:25,481 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/sparrow007/CustomToggleButton, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158441617-0/src]
+2019-03-10 02:09:27,213 INFO  SysUtils - 
+2019-03-10 02:09:27,249 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158441617-0/src/.git": true
+2019-03-10 02:09:27,252 INFO  FullProcessService - Size of directory with sources: 134 KB
+2019-03-10 02:09:27,252 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158441617-0/src]
+2019-03-10 02:09:27,270 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158441617-0/src/.git/
 
-2018-11-11 17:10:14,403 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931012370-0/src/CustomToggleButton-master/gradlew
-2018-11-11 17:10:14,406 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931012370-0/src/CustomToggleButton-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931012370-0/src/CustomToggleButton-master/customtogglebutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931012370-0/src/CustomToggleButton-master/build.gradle
-2018-11-11 17:10:14,410 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931012370-0/src/CustomToggleButton-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931012370-0/src/CustomToggleButton-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931012370-0/src/CustomToggleButton-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931012370-0/src/CustomToggleButton-master/customtogglebutton/build.gradle
-2018-11-11 17:10:14,411 INFO  ProjectBuildService - Remote scripts: none
-2018-11-11 17:10:14,411 INFO  ProjectFixService - Fixing project...
-2018-11-11 17:10:14,420 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931012370-0/src/CustomToggleButton-master/app/local.properties
-2018-11-11 17:10:14,420 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931012370-0/src/CustomToggleButton-master/app/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=13,targetSdkVersion=25]
-2018-11-11 17:10:14,421 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931012370-0/src/CustomToggleButton-master/customtogglebutton/local.properties
-2018-11-11 17:10:14,421 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931012370-0/src/CustomToggleButton-master/customtogglebutton/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=13,targetSdkVersion=25]
-2018-11-11 17:10:14,421 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931012370-0/src/CustomToggleButton-master/local.properties
-2018-11-11 17:10:14,422 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-11-11 17:10:14,422 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-11-11 17:10:14,423 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931012370-0/src/CustomToggleButton-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=13,targetSdkVersion=25]
-2018-11-11 17:10:14,423 INFO  ProjectFixService - Project was maybe fixed
-2018-11-11 17:10:14,423 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 17:10:14,423 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931012370-0/src/CustomToggleButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931012370-0/src/CustomToggleButton-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 17:10:23,059 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-11 17:10:23,059 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-11 17:10:23,059 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-11 17:10:23,059 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931012370-0/src/CustomToggleButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931012370-0/src/CustomToggleButton-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-11 17:10:32,201 ERROR SysUtils - Could not process external command
+2019-03-10 02:09:27,273 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158441617-0/src/gradlew
+2019-03-10 02:09:27,277 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158441617-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158441617-0/src/customtogglebutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158441617-0/src/build.gradle
+2019-03-10 02:09:27,280 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158441617-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158441617-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158441617-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158441617-0/src/customtogglebutton/build.gradle
+2019-03-10 02:09:27,280 INFO  ProjectBuildService - Remote scripts: none
+2019-03-10 02:09:27,280 INFO  ProjectFixService - Fixing project...
+2019-03-10 02:09:27,287 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158441617-0/src/app/local.properties
+2019-03-10 02:09:27,287 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158441617-0/src/app/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=13,targetSdkVersion=25]
+2019-03-10 02:09:27,288 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158441617-0/src/customtogglebutton/local.properties
+2019-03-10 02:09:27,288 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158441617-0/src/customtogglebutton/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=13,targetSdkVersion=25]
+2019-03-10 02:09:27,288 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158441617-0/src/local.properties
+2019-03-10 02:09:27,289 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-03-10 02:09:27,289 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-03-10 02:09:27,289 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158441617-0/src/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=13,targetSdkVersion=25]
+2019-03-10 02:09:27,290 INFO  ProjectFixService - Project was maybe fixed
+2019-03-10 02:09:27,290 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-10 02:09:27,290 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158441617-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158441617-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-10 02:09:34,857 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-10 02:09:34,857 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-10 02:09:34,857 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-10 02:09:34,857 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158441617-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158441617-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-10 02:09:40,746 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -41,22 +44,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-11 17:10:32,201 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-10 02:09:40,746 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -160,22 +162,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 8.47 secs
+Total time: 5.279 secs
 
-2018-11-11 17:10:32,208 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 17:10:32,208 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931012370-0/src/CustomToggleButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931012370-0/src/CustomToggleButton-master/customtogglebutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 17:10:43,066 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-11 17:10:43,067 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-11 17:10:43,067 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-11 17:10:43,067 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931012370-0/src/CustomToggleButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931012370-0/src/CustomToggleButton-master/customtogglebutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-11 17:11:00,254 ERROR SysUtils - Could not process external command
+2019-03-10 02:09:40,750 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-10 02:09:40,750 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158441617-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158441617-0/src/customtogglebutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-10 02:09:47,952 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-10 02:09:47,952 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-10 02:09:47,952 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-10 02:09:47,952 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158441617-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158441617-0/src/customtogglebutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-10 02:10:01,902 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -188,22 +190,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-11 17:11:00,255 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-10 02:10:01,902 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :customtogglebutton:preBuild UP-TO-DATE
 :customtogglebutton:preDebugBuild UP-TO-DATE
@@ -237,7 +238,7 @@ Incremental java compilation is an incubating feature.
 :customtogglebutton:incrementalDebugJavaCompilationSafeguard
 :customtogglebutton:compileDebugJavaWithJavac
 :customtogglebutton:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931012370-0/src/CustomToggleButton-master/customtogglebutton/src/main/java/com/jackandphantom/customtogglebutton/CustomToggle.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158441617-0/src/customtogglebutton/src/main/java/com/jackandphantom/customtogglebutton/CustomToggle.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 :customtogglebutton:extractDebugAnnotations
 :customtogglebutton:mergeDebugShaders
@@ -272,7 +273,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :customtogglebutton:incrementalReleaseJavaCompilationSafeguard
 :customtogglebutton:compileReleaseJavaWithJavac
 :customtogglebutton:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931012370-0/src/CustomToggleButton-master/customtogglebutton/src/main/java/com/jackandphantom/customtogglebutton/CustomToggle.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158441617-0/src/customtogglebutton/src/main/java/com/jackandphantom/customtogglebutton/CustomToggle.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 :customtogglebutton:extractReleaseAnnotations
 :customtogglebutton:mergeReleaseShaders
@@ -291,10 +292,10 @@ Note: Recompile with -Xlint:deprecation for details.
 :customtogglebutton:bundleRelease
 :customtogglebutton:compileReleaseSources
 :customtogglebutton:assembleRelease
-:customtogglebutton:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931012370-0/src/CustomToggleButton-master/customtogglebutton/src/main/java/com/jackandphantom/customtogglebutton/CustomToggle.java:17: error: package android.support.annotation does not exist
+:customtogglebutton:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158441617-0/src/customtogglebutton/src/main/java/com/jackandphantom/customtogglebutton/CustomToggle.java:17: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931012370-0/src/CustomToggleButton-master/customtogglebutton/src/main/java/com/jackandphantom/customtogglebutton/CustomToggle.java:429: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158441617-0/src/customtogglebutton/src/main/java/com/jackandphantom/customtogglebutton/CustomToggle.java:429: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
@@ -400,15 +401,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 16.527 secs
+Total time: 13.365 secs
 
-2018-11-11 17:11:00,341 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 17:11:00,342 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931012370-0/src/CustomToggleButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931012370-0/src/CustomToggleButton-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 17:11:07,803 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-11 17:11:07,803 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-11 17:11:07,804 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-11 17:11:07,804 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931012370-0/src/CustomToggleButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931012370-0/src/CustomToggleButton-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-11 17:11:16,231 ERROR SysUtils - Could not process external command
+2019-03-10 02:10:01,974 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-10 02:10:01,975 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158441617-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158441617-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-10 02:10:08,713 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-10 02:10:08,713 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-10 02:10:08,713 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-10 02:10:08,713 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158441617-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158441617-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-10 02:10:14,948 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -421,22 +422,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-11 17:11:16,231 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-10 02:10:14,949 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -540,14 +540,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 7.801 secs
+Total time: 5.639 secs
 
-2018-11-11 17:11:16,316 ERROR FullProcessService - Project build has not produced APK file
-2018-11-11 17:11:16,400 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-10 02:10:15,018 ERROR FullProcessService - Project build has not produced APK file
+2019-03-10 02:10:15,091 ERROR FullProcessService - Could not find generated or existed APK file

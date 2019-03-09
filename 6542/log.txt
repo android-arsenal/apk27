@@ -1,41 +1,38 @@
-2018-10-08 13:42:26,735 INFO  DownloadService - Downloading "https://github.com/Rishabhk07/Recycler-swipe-drag/archive/master.zip", attempt 3
-2018-10-08 13:43:27,634 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-10-08 13:43:28,633 INFO  GithubDownloadService - Default branch of this repository: master
-2018-10-08 13:43:28,633 INFO  DownloadService - Downloading "https://github.com/Rishabhk07/Recycler-swipe-drag/archive/master.zip", attempt 3
-2018-10-08 13:44:30,256 DEBUG FullProcessService - Repository https://github.com/Rishabhk07/Recycler-swipe-drag available: true
-2018-10-08 13:44:30,256 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-10-08 13:44:30,256 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Rishabhk07/Recycler-swipe-drag, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980946732-0/src]
-2018-10-08 13:44:33,684 INFO  SysUtils - 
-2018-10-08 13:44:33,725 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980946732-0/src/.git": true
-2018-10-08 13:44:33,728 INFO  FullProcessService - Size of directory with sources: 453 KB
-2018-10-08 13:44:33,728 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980946732-0/src]
-2018-10-08 13:44:33,748 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980946732-0/src/.git/
+2019-03-10 01:38:12,348 INFO  DownloadService - Downloading "https://github.com/Rishabhk07/Recycler-swipe-drag/archive/master.zip", attempt 3
+2019-03-10 01:38:14,786 INFO  DownloadService - Downloaded https://github.com/Rishabhk07/Recycler-swipe-drag/archive/master.zip, attempt 3
+2019-03-10 01:38:14,786 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156692345-0/master.zip": 324 KB
+2019-03-10 01:38:14,786 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-10 01:38:14,791 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156692345-0/master.zip: true
+2019-03-10 01:38:14,792 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156692345-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156692345-0/src'.
+2019-03-10 01:38:14,819 INFO  FullProcessService - Size of directory with sources: 453 KB
+2019-03-10 01:38:14,819 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156692345-0/src]
+2019-03-10 01:38:14,841 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156692345-0/src/.git/
 
-2018-10-08 13:44:33,751 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980946732-0/src/gradlew
-2018-10-08 13:44:33,754 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980946732-0/src/RecyclerviewSwipeDrag/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980946732-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980946732-0/src/build.gradle
-2018-10-08 13:44:33,757 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980946732-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980946732-0/src/RecyclerviewSwipeDrag/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980946732-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980946732-0/src/settings.gradle
-2018-10-08 13:44:33,758 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2018-10-08 13:44:34,450 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2018-10-08 13:44:34,450 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2018-10-08 13:44:34,546 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2018-10-08 13:44:34,546 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2018-10-08 13:44:34,546 INFO  ProjectFixService - Fixing project...
-2018-10-08 13:44:34,554 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980946732-0/src/RecyclerviewSwipeDrag/local.properties
-2018-10-08 13:44:34,554 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980946732-0/src/RecyclerviewSwipeDrag/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
-2018-10-08 13:44:34,555 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980946732-0/src/app/local.properties
-2018-10-08 13:44:34,555 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980946732-0/src/app/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
-2018-10-08 13:44:34,556 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980946732-0/src/local.properties
-2018-10-08 13:44:34,556 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2018-10-08 13:44:34,556 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2018-10-08 13:44:34,557 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980946732-0/src/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
-2018-10-08 13:44:34,557 INFO  ProjectFixService - Project was maybe fixed
-2018-10-08 13:44:34,558 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-08 13:44:34,558 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980946732-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980946732-0/src/RecyclerviewSwipeDrag/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-08 13:45:22,320 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-08 13:45:22,323 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-10-08 13:45:22,323 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-10-08 13:45:22,323 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980946732-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980946732-0/src/RecyclerviewSwipeDrag/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-10-08 13:45:31,818 ERROR SysUtils - Could not process external command
+2019-03-10 01:38:14,845 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156692345-0/src/Recycler-swipe-drag-master/gradlew
+2019-03-10 01:38:14,849 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156692345-0/src/Recycler-swipe-drag-master/RecyclerviewSwipeDrag/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156692345-0/src/Recycler-swipe-drag-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156692345-0/src/Recycler-swipe-drag-master/build.gradle
+2019-03-10 01:38:14,852 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156692345-0/src/Recycler-swipe-drag-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156692345-0/src/Recycler-swipe-drag-master/RecyclerviewSwipeDrag/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156692345-0/src/Recycler-swipe-drag-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156692345-0/src/Recycler-swipe-drag-master/settings.gradle
+2019-03-10 01:38:14,858 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-03-10 01:38:15,795 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-03-10 01:38:15,795 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-03-10 01:38:15,989 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-03-10 01:38:15,990 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-03-10 01:38:15,990 INFO  ProjectFixService - Fixing project...
+2019-03-10 01:38:16,001 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156692345-0/src/Recycler-swipe-drag-master/RecyclerviewSwipeDrag/local.properties
+2019-03-10 01:38:16,002 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156692345-0/src/Recycler-swipe-drag-master/RecyclerviewSwipeDrag/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2019-03-10 01:38:16,002 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156692345-0/src/Recycler-swipe-drag-master/app/local.properties
+2019-03-10 01:38:16,003 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156692345-0/src/Recycler-swipe-drag-master/app/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2019-03-10 01:38:16,003 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156692345-0/src/Recycler-swipe-drag-master/local.properties
+2019-03-10 01:38:16,003 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-03-10 01:38:16,004 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-03-10 01:38:16,005 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156692345-0/src/Recycler-swipe-drag-master/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2019-03-10 01:38:16,005 INFO  ProjectFixService - Project was maybe fixed
+2019-03-10 01:38:16,005 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-10 01:38:16,005 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156692345-0/src/Recycler-swipe-drag-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156692345-0/src/Recycler-swipe-drag-master/RecyclerviewSwipeDrag/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-10 01:38:47,907 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-10 01:38:47,908 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-03-10 01:38:47,909 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-03-10 01:38:47,909 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156692345-0/src/Recycler-swipe-drag-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156692345-0/src/Recycler-swipe-drag-master/RecyclerviewSwipeDrag/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-03-10 01:38:54,260 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -48,7 +45,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -62,7 +59,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-08 13:45:31,818 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-10 01:38:54,260 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -159,15 +156,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 9.006 secs
+Total time: 5.983 secs
 
-2018-10-08 13:45:31,822 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-08 13:45:31,822 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980946732-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980946732-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-08 13:45:42,165 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-08 13:45:42,165 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-10-08 13:45:42,165 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-10-08 13:45:42,165 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980946732-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980946732-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-10-08 13:45:51,354 ERROR SysUtils - Could not process external command
+2019-03-10 01:38:54,265 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-10 01:38:54,265 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156692345-0/src/Recycler-swipe-drag-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156692345-0/src/Recycler-swipe-drag-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-10 01:39:00,625 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-10 01:39:00,625 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-03-10 01:39:00,625 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-03-10 01:39:00,626 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156692345-0/src/Recycler-swipe-drag-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156692345-0/src/Recycler-swipe-drag-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-03-10 01:39:07,541 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -180,7 +177,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -194,7 +191,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-08 13:45:51,354 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-10 01:39:07,541 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -369,15 +366,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 8.786 secs
+Total time: 6.57 secs
 
-2018-10-08 13:45:51,359 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-08 13:45:51,359 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980946732-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980946732-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-08 13:46:00,919 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-08 13:46:00,919 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-10-08 13:46:00,919 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-10-08 13:46:00,920 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980946732-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980946732-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-10-08 13:46:09,586 ERROR SysUtils - Could not process external command
+2019-03-10 01:39:07,544 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-10 01:39:07,545 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156692345-0/src/Recycler-swipe-drag-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156692345-0/src/Recycler-swipe-drag-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-10 01:39:13,868 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-10 01:39:13,869 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-03-10 01:39:13,869 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-03-10 01:39:13,869 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156692345-0/src/Recycler-swipe-drag-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156692345-0/src/Recycler-swipe-drag-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-03-10 01:39:20,652 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -390,7 +387,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -404,7 +401,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-08 13:46:09,587 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-10 01:39:20,652 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -503,7 +500,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 8.185 secs
+Total time: 6.454 secs
 
-2018-10-08 13:46:09,591 ERROR FullProcessService - Project build has not produced APK file
-2018-10-08 13:46:09,595 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-10 01:39:20,656 ERROR FullProcessService - Project build has not produced APK file
+2019-03-10 01:39:20,660 ERROR FullProcessService - Could not find generated or existed APK file

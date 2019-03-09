@@ -1,40 +1,40 @@
-2018-10-08 13:55:12,838 INFO  DownloadService - Downloading "https://github.com/ShabanKamell/android-navigator/archive/master.zip", attempt 3
-2018-10-08 13:56:13,678 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-10-08 13:56:14,630 INFO  GithubDownloadService - Default branch of this repository: master
-2018-10-08 13:56:14,630 INFO  DownloadService - Downloading "https://github.com/ShabanKamell/android-navigator/archive/master.zip", attempt 3
-2018-10-08 13:57:16,290 DEBUG FullProcessService - Repository https://github.com/ShabanKamell/android-navigator available: true
-2018-10-08 13:57:16,290 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-10-08 13:57:16,290 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/ShabanKamell/android-navigator, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538981712835-0/src]
-2018-10-08 13:57:19,763 INFO  SysUtils - 
-2018-10-08 13:57:19,776 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538981712835-0/src/.git": true
-2018-10-08 13:57:19,783 INFO  FullProcessService - Size of directory with sources: 253 KB
-2018-10-08 13:57:19,783 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538981712835-0/src]
-2018-10-08 13:57:19,811 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538981712835-0/src/.git/
+2019-03-10 02:12:29,461 INFO  DownloadService - Downloading "https://github.com/ShabanKamell/android-navigator/archive/master.zip", attempt 3
+2019-03-10 02:13:30,427 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-03-10 02:13:31,678 INFO  GithubDownloadService - Default branch of this repository: master
+2019-03-10 02:13:31,678 INFO  DownloadService - Downloading "https://github.com/ShabanKamell/android-navigator/archive/master.zip", attempt 3
+2019-03-10 02:14:33,684 DEBUG FullProcessService - Repository https://github.com/ShabanKamell/android-navigator available: true
+2019-03-10 02:14:33,684 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-03-10 02:14:33,684 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/ShabanKamell/android-navigator, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158749459-0/src]
+2019-03-10 02:14:35,482 INFO  SysUtils - 
+2019-03-10 02:14:35,490 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158749459-0/src/.git": true
+2019-03-10 02:14:35,495 INFO  FullProcessService - Size of directory with sources: 253 KB
+2019-03-10 02:14:35,495 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158749459-0/src]
+2019-03-10 02:14:35,513 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158749459-0/src/.git/
 
-2018-10-08 13:57:19,817 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538981712835-0/src/gradlew
-2018-10-08 13:57:19,823 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538981712835-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538981712835-0/src/navigator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538981712835-0/src/build.gradle
-2018-10-08 13:57:19,828 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538981712835-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538981712835-0/src/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538981712835-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538981712835-0/src/navigator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538981712835-0/src/settings.gradle
-2018-10-08 13:57:19,829 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2018-10-08 13:57:20,610 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2018-10-08 13:57:20,610 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2018-10-08 13:57:20,710 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2018-10-08 13:57:20,710 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2018-10-08 13:57:20,710 INFO  ProjectFixService - Fixing project...
-2018-10-08 13:57:20,723 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538981712835-0/src/app/local.properties
-2018-10-08 13:57:20,723 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538981712835-0/src/app/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-10-08 13:57:20,724 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538981712835-0/src/navigator/local.properties
-2018-10-08 13:57:20,724 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538981712835-0/src/navigator/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-10-08 13:57:20,725 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538981712835-0/src/local.properties
-2018-10-08 13:57:20,725 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-10-08 13:57:20,726 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-10-08 13:57:20,726 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538981712835-0/src/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-10-08 13:57:20,726 INFO  ProjectFixService - Project was maybe fixed
-2018-10-08 13:57:20,726 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-08 13:57:20,727 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538981712835-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538981712835-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-08 13:57:29,566 INFO  ProjectTaskService - Detected possible tasks: 73
-2018-10-08 13:57:29,566 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-08 13:57:29,567 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538981712835-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538981712835-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-08 13:57:36,896 ERROR SysUtils - Could not process external command
+2019-03-10 02:14:35,517 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158749459-0/src/gradlew
+2019-03-10 02:14:35,521 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158749459-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158749459-0/src/navigator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158749459-0/src/build.gradle
+2019-03-10 02:14:35,524 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158749459-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158749459-0/src/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158749459-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158749459-0/src/navigator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158749459-0/src/settings.gradle
+2019-03-10 02:14:35,525 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-03-10 02:14:35,624 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-03-10 02:14:35,624 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-03-10 02:14:35,720 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-03-10 02:14:35,720 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-03-10 02:14:35,720 INFO  ProjectFixService - Fixing project...
+2019-03-10 02:14:35,734 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158749459-0/src/app/local.properties
+2019-03-10 02:14:35,735 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158749459-0/src/app/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-10 02:14:35,735 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158749459-0/src/navigator/local.properties
+2019-03-10 02:14:35,736 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158749459-0/src/navigator/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-10 02:14:35,736 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158749459-0/src/local.properties
+2019-03-10 02:14:35,736 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-03-10 02:14:35,736 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-03-10 02:14:35,737 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158749459-0/src/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-10 02:14:35,737 INFO  ProjectFixService - Project was maybe fixed
+2019-03-10 02:14:35,737 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-10 02:14:35,737 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158749459-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158749459-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-10 02:14:52,960 INFO  ProjectTaskService - Detected possible tasks: 74
+2019-03-10 02:14:52,960 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-10 02:14:52,960 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158749459-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158749459-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-10 02:14:58,746 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -47,7 +47,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -61,7 +61,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-08 13:57:36,896 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-10 02:14:58,746 INFO  SysUtils - Configuration on demand is an incubating feature.
 WARNING: The specified Android SDK Build Tools version (27.0.1) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.2.0-alpha17.
 Android SDK Build Tools 27.0.3 will be used.
 To suppress this warning, remove "buildToolsVersion '27.0.1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
@@ -142,11 +142,11 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 7s
+BUILD FAILED in 5s
 
-2018-10-08 13:57:36,896 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2018-10-08 13:57:36,896 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538981712835-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538981712835-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-08 13:58:33,023 ERROR SysUtils - Could not process external command
+2019-03-10 02:14:58,746 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-03-10 02:14:58,746 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158749459-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158749459-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-10 02:16:08,642 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -159,7 +159,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -173,7 +173,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-08 13:58:33,029 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-10 02:16:08,642 INFO  SysUtils - Configuration on demand is an incubating feature.
 WARNING: The specified Android SDK Build Tools version (27.0.1) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.2.0-alpha17.
 Android SDK Build Tools 27.0.3 will be used.
 To suppress this warning, remove "buildToolsVersion '27.0.1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
@@ -185,6 +185,11 @@ It will be removed at the end of 2018. For more information see: http://d.androi
 :navigator:checkDebugManifest
 :navigator:processDebugManifest
 :app:preDebugBuild
+Download https://jcenter.bintray.com/com/jakewharton/rxbinding2/rxbinding-appcompat-v7/2.0.0/rxbinding-appcompat-v7-2.0.0.aar
+Download https://jcenter.bintray.com/com/trello/rxlifecycle2/rxlifecycle-android/2.2.0/rxlifecycle-android-2.2.0.aar
+Download https://jcenter.bintray.com/com/jakewharton/rxbinding2/rxbinding-design/2.0.0/rxbinding-design-2.0.0.aar
+Download https://jcenter.bintray.com/com/jakewharton/rxbinding2/rxbinding-support-v4/2.0.0/rxbinding-support-v4-2.0.0.aar
+Download https://jcenter.bintray.com/com/jakewharton/rxbinding2/rxbinding-recyclerview-v7/2.0.0/rxbinding-recyclerview-v7-2.0.0.aar
 :navigator:compileDebugAidl NO-SOURCE
 :app:compileDebugAidl NO-SOURCE
 :navigator:packageDebugRenderscript NO-SOURCE
@@ -199,6 +204,7 @@ It will be removed at the end of 2018. For more information see: http://d.androi
 :navigator:generateDebugResValues
 :navigator:generateDebugResources
 :navigator:packageDebugResources
+Download https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/3.2.0-alpha17-4804415/aapt2-3.2.0-alpha17-4804415-osx.jar
 :app:mergeDebugResources
 :app:createDebugCompatibleScreenManifests
 :app:processDebugManifest
@@ -210,14 +216,17 @@ It will be removed at the end of 2018. For more information see: http://d.androi
 :navigator:prepareLintJar
 :navigator:generateDebugSources
 :navigator:javaPreCompileDebug
-:navigator:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538981712835-0/src/navigator/src/main/java/com/sha/kamel/navigator/Navigator.java uses or overrides a deprecated API.
+Download https://jcenter.bintray.com/com/trello/rxlifecycle2/rxlifecycle/2.2.0/rxlifecycle-2.2.0.jar
+:navigator:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158749459-0/src/navigator/src/main/java/com/sha/kamel/navigator/Navigator.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538981712835-0/src/navigator/src/main/java/com/sha/kamel/navigator/Navigator.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158749459-0/src/navigator/src/main/java/com/sha/kamel/navigator/Navigator.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :navigator:processDebugJavaRes NO-SOURCE
 :navigator:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 :app:javaPreCompileDebug
+Download https://jcenter.bintray.com/org/parceler/parceler-api/1.1.9/parceler-api-1.1.9.jar
+Download https://jcenter.bintray.com/org/parceler/parceler/1.1.9/parceler-1.1.9.jar
 :navigator:createFullJarDebug
 :app:compileDebugJavaWithJavac
 :app:compileDebugNdk NO-SOURCE
@@ -231,6 +240,26 @@ Note: Recompile with -Xlint:unchecked for details.
 :navigator:packageDebugAssets
 :app:mergeDebugAssets
 :app:transformClassesWithDexBuilderForDebug
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-compiler/8.5.1/76253d53698d5a93191ebf72534e9eeb7391b5c3/butterknife-compiler-8.5.1.jar: D8: Type `javax.annotation.processing.AbstractProcessor` was not found, it is required for default or static interface methods desugaring of `void butterknife.compiler.ButterKnifeProcessor.init(javax.annotation.processing.ProcessingEnvironment)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-compiler/8.5.1/76253d53698d5a93191ebf72534e9eeb7391b5c3/butterknife-compiler-8.5.1.jar: D8: Type `com.sun.source.util.Trees` was not found, it is required for default or static interface methods desugaring of `void butterknife.compiler.ButterKnifeProcessor.init(javax.annotation.processing.ProcessingEnvironment)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-compiler/8.5.1/76253d53698d5a93191ebf72534e9eeb7391b5c3/butterknife-compiler-8.5.1.jar: D8: Type `javax.lang.model.SourceVersion` was not found, it is required for default or static interface methods desugaring of `javax.lang.model.SourceVersion butterknife.compiler.ButterKnifeProcessor.getSupportedSourceVersion()`
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.1.1.aar/4170c6422f05d55e776c9ac7841df1b1/jars/classes.jar: D8: Type `android.support.v4.animation.AnimatorCompatHelper` was not found, it is required for default or static interface methods desugaring of `void android.support.v7.widget.DefaultItemAnimator.resetAnimation(android.support.v7.widget.RecyclerView$ViewHolder)`
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.1.1.aar/4170c6422f05d55e776c9ac7841df1b1/jars/classes.jar: D8: Interface `android.support.v4.animation.AnimatorUpdateListenerCompat` not found. It's needed to make sure desugaring of `android.support.v7.widget.helper.ItemTouchHelper$RecoverAnimation$1` is correct. Desugaring will assume that this interface has no default method.
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.1.1.aar/4170c6422f05d55e776c9ac7841df1b1/jars/classes.jar: D8: Type `android.support.v4.content.ParallelExecutorCompat` was not found, it is required for default or static interface methods desugaring of `void android.support.v7.util.MessageThreadUtil$2.<init>(android.support.v7.util.MessageThreadUtil, android.support.v7.util.ThreadUtil$BackgroundCallback)`
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.1.1.aar/4170c6422f05d55e776c9ac7841df1b1/jars/classes.jar: D8: Interface `android.support.v4.animation.AnimatorListenerCompat` not found. It's needed to make sure desugaring of `android.support.v7.widget.helper.ItemTouchHelper$RecoverAnimation` is correct. Desugaring will assume that this interface has no default method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.auto.service/auto-service/1.0-rc2/51033a5b8fcf7039159e35b6878f106ccd5fb35f/auto-service-1.0-rc2.jar: D8: Type `javax.lang.model.SourceVersion` was not found, it is required for default or static interface methods desugaring of `javax.lang.model.SourceVersion com.google.auto.service.processor.AutoServiceProcessor.getSupportedSourceVersion()`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.8.0/e858dc62ef484048540d27d36f3ec2177a3fa9b1/javapoet-1.8.0.jar: D8: Type `javax.lang.model.SourceVersion` was not found, it is required for default or static interface methods desugaring of `java.lang.String com.squareup.javapoet.NameAllocator.newName(java.lang.String, java.lang.Object)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.auto/auto-common/0.6/cf7212b0f8bfef12657b942df8f4f2cf032d3f41/auto-common-0.6.jar: D8: Type `javax.lang.model.util.ElementFilter` was not found, it is required for default or static interface methods desugaring of `java.util.Map com.google.auto.common.AnnotationMirrors.getAnnotationValuesWithDefaults(javax.lang.model.element.AnnotationMirror)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.auto/auto-common/0.6/cf7212b0f8bfef12657b942df8f4f2cf032d3f41/auto-common-0.6.jar: D8: Type `javax.lang.model.util.ElementFilter` was not found, it is required for default or static interface methods desugaring of `void com.google.auto.common.MoreElements.getLocalAndInheritedMethods(javax.lang.model.element.PackageElement, javax.lang.model.element.TypeElement, com.google.common.collect.SetMultimap)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.auto/auto-common/0.6/cf7212b0f8bfef12657b942df8f4f2cf032d3f41/auto-common-0.6.jar: D8: Type `javax.lang.model.type.TypeKind` was not found, it is required for default or static interface methods desugaring of `void com.google.auto.common.MoreTypes$18.<clinit>()`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.8.0/e858dc62ef484048540d27d36f3ec2177a3fa9b1/javapoet-1.8.0.jar: D8: Type `javax.lang.model.type.TypeKind` was not found, it is required for default or static interface methods desugaring of `void com.squareup.javapoet.TypeName$2.<clinit>()`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.8.0/e858dc62ef484048540d27d36f3ec2177a3fa9b1/javapoet-1.8.0.jar: D8: Type `javax.lang.model.element.Modifier` was not found, it is required for default or static interface methods desugaring of `void com.squareup.javapoet.Util.<clinit>()`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.8.0/e858dc62ef484048540d27d36f3ec2177a3fa9b1/javapoet-1.8.0.jar: D8: Type `javax.lang.model.SourceVersion` was not found, it is required for default or static interface methods desugaring of `void com.squareup.javapoet.ClassName.<init>(java.util.List, java.util.List)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.8.0/e858dc62ef484048540d27d36f3ec2177a3fa9b1/javapoet-1.8.0.jar: D8: Type `javax.lang.model.util.SimpleTypeVisitor7` was not found, it is required for default or static interface methods desugaring of `com.squareup.javapoet.TypeName com.squareup.javapoet.TypeName$1.visitNoType(javax.lang.model.type.NoType, java.lang.Void)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.auto/auto-common/0.6/cf7212b0f8bfef12657b942df8f4f2cf032d3f41/auto-common-0.6.jar: D8: Type `javax.annotation.processing.AbstractProcessor` was not found, it is required for default or static interface methods desugaring of `void com.google.auto.common.BasicAnnotationProcessor.init(javax.annotation.processing.ProcessingEnvironment)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.8.0/e858dc62ef484048540d27d36f3ec2177a3fa9b1/javapoet-1.8.0.jar: D8: Type `javax.lang.model.SourceVersion` was not found, it is required for default or static interface methods desugaring of `com.squareup.javapoet.FieldSpec$Builder com.squareup.javapoet.FieldSpec.builder(com.squareup.javapoet.TypeName, java.lang.String, javax.lang.model.element.Modifier[])`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar: D8: Type `sun.misc.Unsafe` was not found, it is required for default or static interface methods desugaring of `sun.misc.Unsafe com.google.common.cache.Striped64.getUnsafe()`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar: D8: Type `sun.misc.Unsafe` was not found, it is required for default or static interface methods desugaring of `sun.misc.Unsafe com.google.common.primitives.UnsignedBytes$LexicographicalComparatorHolder$UnsafeComparator.getUnsafe()`
 :app:transformDexArchiveWithExternalLibsDexMergerForDebug
 :app:transformDexArchiveWithDexMergerForDebug
 :app:mergeDebugJniLibFolders
@@ -274,9 +303,9 @@ Note: Recompile with -Xlint:unchecked for details.
 :navigator:generateReleaseBuildConfig
 :navigator:generateReleaseSources
 :navigator:javaPreCompileRelease
-:navigator:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538981712835-0/src/navigator/src/main/java/com/sha/kamel/navigator/Navigator.java uses or overrides a deprecated API.
+:navigator:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158749459-0/src/navigator/src/main/java/com/sha/kamel/navigator/Navigator.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538981712835-0/src/navigator/src/main/java/com/sha/kamel/navigator/Navigator.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158749459-0/src/navigator/src/main/java/com/sha/kamel/navigator/Navigator.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :navigator:processReleaseJavaRes NO-SOURCE
@@ -296,6 +325,26 @@ Note: Recompile with -Xlint:unchecked for details.
 :navigator:packageReleaseAssets
 :app:mergeReleaseAssets
 :app:transformClassesWithDexBuilderForRelease
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-compiler/8.5.1/76253d53698d5a93191ebf72534e9eeb7391b5c3/butterknife-compiler-8.5.1.jar: D8: Type `javax.annotation.processing.AbstractProcessor` was not found, it is required for default or static interface methods desugaring of `void butterknife.compiler.ButterKnifeProcessor.init(javax.annotation.processing.ProcessingEnvironment)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-compiler/8.5.1/76253d53698d5a93191ebf72534e9eeb7391b5c3/butterknife-compiler-8.5.1.jar: D8: Type `com.sun.source.util.Trees` was not found, it is required for default or static interface methods desugaring of `void butterknife.compiler.ButterKnifeProcessor.init(javax.annotation.processing.ProcessingEnvironment)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-compiler/8.5.1/76253d53698d5a93191ebf72534e9eeb7391b5c3/butterknife-compiler-8.5.1.jar: D8: Type `javax.lang.model.SourceVersion` was not found, it is required for default or static interface methods desugaring of `javax.lang.model.SourceVersion butterknife.compiler.ButterKnifeProcessor.getSupportedSourceVersion()`
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.1.1.aar/4170c6422f05d55e776c9ac7841df1b1/jars/classes.jar: D8: Type `android.support.v4.animation.AnimatorCompatHelper` was not found, it is required for default or static interface methods desugaring of `void android.support.v7.widget.DefaultItemAnimator.resetAnimation(android.support.v7.widget.RecyclerView$ViewHolder)`
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.1.1.aar/4170c6422f05d55e776c9ac7841df1b1/jars/classes.jar: D8: Type `android.support.v4.content.ParallelExecutorCompat` was not found, it is required for default or static interface methods desugaring of `void android.support.v7.util.MessageThreadUtil$2.<init>(android.support.v7.util.MessageThreadUtil, android.support.v7.util.ThreadUtil$BackgroundCallback)`
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.1.1.aar/4170c6422f05d55e776c9ac7841df1b1/jars/classes.jar: D8: Interface `android.support.v4.animation.AnimatorUpdateListenerCompat` not found. It's needed to make sure desugaring of `android.support.v7.widget.helper.ItemTouchHelper$RecoverAnimation$1` is correct. Desugaring will assume that this interface has no default method.
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.1.1.aar/4170c6422f05d55e776c9ac7841df1b1/jars/classes.jar: D8: Interface `android.support.v4.animation.AnimatorListenerCompat` not found. It's needed to make sure desugaring of `android.support.v7.widget.helper.ItemTouchHelper$RecoverAnimation` is correct. Desugaring will assume that this interface has no default method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.auto.service/auto-service/1.0-rc2/51033a5b8fcf7039159e35b6878f106ccd5fb35f/auto-service-1.0-rc2.jar: D8: Type `javax.lang.model.SourceVersion` was not found, it is required for default or static interface methods desugaring of `javax.lang.model.SourceVersion com.google.auto.service.processor.AutoServiceProcessor.getSupportedSourceVersion()`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.8.0/e858dc62ef484048540d27d36f3ec2177a3fa9b1/javapoet-1.8.0.jar: D8: Type `javax.lang.model.SourceVersion` was not found, it is required for default or static interface methods desugaring of `void com.squareup.javapoet.TypeSpec$Builder.<init>(com.squareup.javapoet.TypeSpec$Kind, java.lang.String, com.squareup.javapoet.CodeBlock)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.auto/auto-common/0.6/cf7212b0f8bfef12657b942df8f4f2cf032d3f41/auto-common-0.6.jar: D8: Type `javax.lang.model.util.ElementFilter` was not found, it is required for default or static interface methods desugaring of `java.util.Map com.google.auto.common.AnnotationMirrors.getAnnotationValuesWithDefaults(javax.lang.model.element.AnnotationMirror)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.auto/auto-common/0.6/cf7212b0f8bfef12657b942df8f4f2cf032d3f41/auto-common-0.6.jar: D8: Type `javax.lang.model.util.ElementFilter` was not found, it is required for default or static interface methods desugaring of `void com.google.auto.common.MoreElements.getLocalAndInheritedMethods(javax.lang.model.element.PackageElement, javax.lang.model.element.TypeElement, com.google.common.collect.SetMultimap)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.8.0/e858dc62ef484048540d27d36f3ec2177a3fa9b1/javapoet-1.8.0.jar: D8: Type `javax.lang.model.element.Modifier` was not found, it is required for default or static interface methods desugaring of `void com.squareup.javapoet.Util.<clinit>()`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.auto/auto-common/0.6/cf7212b0f8bfef12657b942df8f4f2cf032d3f41/auto-common-0.6.jar: D8: Type `javax.lang.model.type.TypeKind` was not found, it is required for default or static interface methods desugaring of `void com.google.auto.common.MoreTypes$18.<clinit>()`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.8.0/e858dc62ef484048540d27d36f3ec2177a3fa9b1/javapoet-1.8.0.jar: D8: Type `javax.lang.model.util.SimpleTypeVisitor7` was not found, it is required for default or static interface methods desugaring of `com.squareup.javapoet.TypeName com.squareup.javapoet.TypeName$1.visitNoType(javax.lang.model.type.NoType, java.lang.Void)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.8.0/e858dc62ef484048540d27d36f3ec2177a3fa9b1/javapoet-1.8.0.jar: D8: Type `javax.lang.model.SourceVersion` was not found, it is required for default or static interface methods desugaring of `void com.squareup.javapoet.ClassName.<init>(java.util.List, java.util.List)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.8.0/e858dc62ef484048540d27d36f3ec2177a3fa9b1/javapoet-1.8.0.jar: D8: Type `javax.lang.model.type.TypeKind` was not found, it is required for default or static interface methods desugaring of `void com.squareup.javapoet.TypeName$2.<clinit>()`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.auto/auto-common/0.6/cf7212b0f8bfef12657b942df8f4f2cf032d3f41/auto-common-0.6.jar: D8: Type `javax.annotation.processing.AbstractProcessor` was not found, it is required for default or static interface methods desugaring of `void com.google.auto.common.BasicAnnotationProcessor.init(javax.annotation.processing.ProcessingEnvironment)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.8.0/e858dc62ef484048540d27d36f3ec2177a3fa9b1/javapoet-1.8.0.jar: D8: Type `javax.lang.model.SourceVersion` was not found, it is required for default or static interface methods desugaring of `com.squareup.javapoet.FieldSpec$Builder com.squareup.javapoet.FieldSpec.builder(com.squareup.javapoet.TypeName, java.lang.String, javax.lang.model.element.Modifier[])`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar: D8: Type `sun.misc.Unsafe` was not found, it is required for default or static interface methods desugaring of `sun.misc.Unsafe com.google.common.cache.Striped64.getUnsafe()`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar: D8: Type `sun.misc.Unsafe` was not found, it is required for default or static interface methods desugaring of `sun.misc.Unsafe com.google.common.primitives.UnsignedBytes$LexicographicalComparatorHolder$UnsafeComparator.getUnsafe()`
 :app:transformDexArchiveWithExternalLibsDexMergerForRelease
 :app:transformDexArchiveWithDexMergerForRelease
 :app:mergeReleaseJniLibFolders
@@ -313,10 +362,19 @@ Note: Recompile with -Xlint:unchecked for details.
 :app:assembleRelease
 :app:assemble
 :app:lint
-Ran lint on variant release: 25 issues found
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.2.0-alpha17/lint-kotlin-26.2.0-alpha17.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.2.0-alpha17/lint-gradle-26.2.0-alpha17.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.2.0-alpha17/lint-api-26.2.0-alpha17.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.2.0-alpha17/lint-26.2.0-alpha17.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.2.0-alpha17/intellij-core-26.2.0-alpha17.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.2.0-alpha17/kotlin-compiler-26.2.0-alpha17.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.2.0-alpha17/lint-checks-26.2.0-alpha17.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.2.0-alpha17/uast-26.2.0-alpha17.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/b837fef6b55026aab1dac749f5190489/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
 Ran lint on variant debug: 25 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538981712835-0/src/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538981712835-0/src/app/build/reports/lint-results.xml
+Ran lint on variant release: 25 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158749459-0/src/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158749459-0/src/app/build/reports/lint-results.xml
 :app:lint FAILED
 
 FAILURE: Build failed with an exception.
@@ -336,7 +394,7 @@ Execution failed for task ':app:lint'.
   
   Errors found:
   
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538981712835-0/src/app/build.gradle: Error: All com.android.support libraries must use the exact same version specification (mixing versions can lead to runtime crashes). Found versions 27.0.0, 25.1.1. Examples include com.android.support:animated-vector-drawable:27.0.0 and com.android.support:design:25.1.1 [GradleCompatible]
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158749459-0/src/app/build.gradle: Error: All com.android.support libraries must use the exact same version specification (mixing versions can lead to runtime crashes). Found versions 27.0.0, 25.1.1. Examples include com.android.support:animated-vector-drawable:27.0.0 and com.android.support:design:25.1.1 [GradleCompatible]
   /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.8.0/e858dc62ef484048540d27d36f3ec2177a3fa9b1/javapoet-1.8.0.jar: Error: Invalid package reference in library; not included in Android: javax.tools. Referenced from com.squareup.javapoet.JavaFile. [InvalidPackage]
   
 
@@ -390,7 +448,7 @@ android {
 
 Errors found:
 
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538981712835-0/src/app/build.gradle: Error: All com.android.support libraries must use the exact same version specification (mixing versions can lead to runtime crashes). Found versions 27.0.0, 25.1.1. Examples include com.android.support:animated-vector-drawable:27.0.0 and com.android.support:design:25.1.1 [GradleCompatible]
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158749459-0/src/app/build.gradle: Error: All com.android.support libraries must use the exact same version specification (mixing versions can lead to runtime crashes). Found versions 27.0.0, 25.1.1. Examples include com.android.support:animated-vector-drawable:27.0.0 and com.android.support:design:25.1.1 [GradleCompatible]
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.8.0/e858dc62ef484048540d27d36f3ec2177a3fa9b1/javapoet-1.8.0.jar: Error: Invalid package reference in library; not included in Android: javax.tools. Referenced from com.squareup.javapoet.JavaFile. [InvalidPackage]
 
 
@@ -418,7 +476,7 @@ Errors found:
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 55s
+BUILD FAILED in 1m 9s
 90 actionable tasks: 90 executed
 
-2018-10-08 13:58:33,121 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538981712835-0/src/app/build/outputs/apk/debug/app-debug.apk
+2019-03-10 02:16:08,736 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552158749459-0/src/app/build/outputs/apk/debug/app-debug.apk

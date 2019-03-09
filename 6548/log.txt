@@ -1,43 +1,42 @@
-2018-10-08 13:33:08,209 INFO  DownloadService - Downloading "https://github.com/lovejjfg/PowerText/archive/master.zip", attempt 3
-2018-10-08 13:34:08,981 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-10-08 13:34:10,273 INFO  GithubDownloadService - Default branch of this repository: master
-2018-10-08 13:34:10,273 INFO  DownloadService - Downloading "https://github.com/lovejjfg/PowerText/archive/master.zip", attempt 3
-2018-10-08 13:35:11,961 DEBUG FullProcessService - Repository https://github.com/lovejjfg/PowerText available: true
-2018-10-08 13:35:11,961 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-10-08 13:35:11,961 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/lovejjfg/PowerText, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980388205-0/src]
-2018-10-08 13:35:14,395 INFO  SysUtils - 
-2018-10-08 13:35:14,406 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980388205-0/src/.git": true
-2018-10-08 13:35:14,412 INFO  FullProcessService - Size of directory with sources: 412 KB
-2018-10-08 13:35:14,412 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980388205-0/src]
-2018-10-08 13:35:14,439 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980388205-0/src/.git/
+2019-03-10 01:33:07,117 INFO  DownloadService - Downloading "https://github.com/lovejjfg/PowerText/archive/master.zip", attempt 3
+2019-03-10 01:33:09,878 INFO  DownloadService - Downloaded https://github.com/lovejjfg/PowerText/archive/master.zip, attempt 3
+2019-03-10 01:33:09,878 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156387115-0/master.zip": 359 KB
+2019-03-10 01:33:09,878 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-10 01:33:09,879 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156387115-0/master.zip: true
+2019-03-10 01:33:09,879 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156387115-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156387115-0/src'.
+2019-03-10 01:33:09,906 INFO  FullProcessService - Size of directory with sources: 412 KB
+2019-03-10 01:33:09,907 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156387115-0/src]
+2019-03-10 01:33:09,924 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156387115-0/src/.git/
 
-2018-10-08 13:35:14,443 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980388205-0/src/gradlew
-2018-10-08 13:35:14,448 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980388205-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980388205-0/src/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980388205-0/src/build.gradle
-2018-10-08 13:35:14,453 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980388205-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980388205-0/src/util.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980388205-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980388205-0/src/lib/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980388205-0/src/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980388205-0/src/settings.gradle
-2018-10-08 13:35:14,454 INFO  ProjectBuildService - Remote scripts: none
-2018-10-08 13:35:14,454 INFO  ProjectFixService - Fixing project...
-2018-10-08 13:35:14,473 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980388205-0/src/app/local.properties
-2018-10-08 13:35:14,478 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980388205-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-10-08 13:35:14,478 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980388205-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-10-08 13:35:14,479 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980388205-0/src/lib/local.properties
-2018-10-08 13:35:14,483 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980388205-0/src/lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-10-08 13:35:14,483 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980388205-0/src/lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-10-08 13:35:14,484 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980388205-0/src/local.properties
-2018-10-08 13:35:14,485 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-10-08 13:35:14,485 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-10-08 13:35:14,489 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980388205-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-10-08 13:35:14,489 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980388205-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-10-08 13:35:14,490 INFO  ProjectFixService - Project was maybe fixed
-2018-10-08 13:35:14,490 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-08 13:35:14,490 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980388205-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980388205-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-08 13:35:23,734 INFO  ProjectTaskService - Detected possible tasks: 67
-2018-10-08 13:35:23,735 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-08 13:35:23,735 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980388205-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980388205-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-08 13:36:16,120 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-10 01:33:09,928 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156387115-0/src/PowerText-master/gradlew
+2019-03-10 01:33:09,931 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156387115-0/src/PowerText-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156387115-0/src/PowerText-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156387115-0/src/PowerText-master/build.gradle
+2019-03-10 01:33:09,935 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156387115-0/src/PowerText-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156387115-0/src/PowerText-master/util.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156387115-0/src/PowerText-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156387115-0/src/PowerText-master/lib/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156387115-0/src/PowerText-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156387115-0/src/PowerText-master/settings.gradle
+2019-03-10 01:33:09,935 INFO  ProjectBuildService - Remote scripts: none
+2019-03-10 01:33:09,935 INFO  ProjectFixService - Fixing project...
+2019-03-10 01:33:09,948 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156387115-0/src/PowerText-master/app/local.properties
+2019-03-10 01:33:09,952 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156387115-0/src/PowerText-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-10 01:33:09,953 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156387115-0/src/PowerText-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-10 01:33:09,954 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156387115-0/src/PowerText-master/lib/local.properties
+2019-03-10 01:33:09,957 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156387115-0/src/PowerText-master/lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-10 01:33:09,957 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156387115-0/src/PowerText-master/lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-10 01:33:09,958 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156387115-0/src/PowerText-master/local.properties
+2019-03-10 01:33:09,958 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-03-10 01:33:09,958 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-03-10 01:33:09,962 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156387115-0/src/PowerText-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-10 01:33:09,962 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156387115-0/src/PowerText-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-10 01:33:09,962 INFO  ProjectFixService - Project was maybe fixed
+2019-03-10 01:33:09,962 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-10 01:33:09,962 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156387115-0/src/PowerText-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156387115-0/src/PowerText-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-10 01:33:16,228 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-03-10 01:33:16,228 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-10 01:33:16,229 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156387115-0/src/PowerText-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156387115-0/src/PowerText-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-10 01:33:56,691 INFO  SysUtils - Configuration on demand is an incubating feature.
 java.lang.NumberFormatException: For input string: ""
 java.lang.NumberFormatException: For input string: ""
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild
+Download https://jcenter.bintray.com/com/lovejjfg/powertext/lib/0.0.5/lib-0.0.5.aar
+Download https://jcenter.bintray.com/com/lovejjfg/powerrecycle/powerrecycle/1.2.2/powerrecycle-1.2.2.aar
 :app:compileDebugAidl
 :app:compileDebugRenderscript
 :app:checkDebugManifest
@@ -51,8 +50,9 @@ java.lang.NumberFormatException: For input string: ""
 :app:splitsDiscoveryTaskDebug
 :app:processDebugResources
 :app:compileDebugKotlin
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jre7/1.1.51/kotlin-stdlib-jre7-1.1.51.jar
 Using Kotlin incremental compilation
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980388205-0/src/app/src/main/java/com/lovejjfg/powertext/demo/ListActivity.kt: (108, 35): Unnecessary safe call on a non-null receiver of type ListActivity.ListBean?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156387115-0/src/PowerText-master/app/src/main/java/com/lovejjfg/powertext/demo/ListActivity.kt: (108, 35): Unnecessary safe call on a non-null receiver of type ListActivity.ListBean?
 :app:prepareLintJar
 :app:generateDebugSources
 :app:javaPreCompileDebug
@@ -89,7 +89,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980388205-0/src/
 :app:processReleaseResources
 :app:compileReleaseKotlin
 Using Kotlin incremental compilation
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980388205-0/src/app/src/main/java/com/lovejjfg/powertext/demo/ListActivity.kt: (108, 35): Unnecessary safe call on a non-null receiver of type ListActivity.ListBean?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156387115-0/src/PowerText-master/app/src/main/java/com/lovejjfg/powertext/demo/ListActivity.kt: (108, 35): Unnecessary safe call on a non-null receiver of type ListActivity.ListBean?
 :app:generateReleaseSources
 :app:javaPreCompileRelease
 :app:compileReleaseJavaWithJavac
@@ -113,7 +113,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980388205-0/src/
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 51s
+BUILD SUCCESSFUL in 39s
 55 actionable tasks: 55 executed
 
-2018-10-08 13:36:16,201 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538980388205-0/src/app/build/outputs/apk/debug/app-debug.apk
+2019-03-10 01:33:56,763 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156387115-0/src/PowerText-master/app/build/outputs/apk/debug/app-debug.apk
