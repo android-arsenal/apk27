@@ -1,37 +1,37 @@
-2018-12-14 12:43:12,810 INFO  DownloadService - Downloading "https://github.com/jakebonk/ChipView/archive/master.zip", attempt 3
-2018-12-14 12:43:14,830 INFO  DownloadService - Downloaded https://github.com/jakebonk/ChipView/archive/master.zip, attempt 3
-2018-12-14 12:43:14,830 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766192806-0/master.zip": 150 KB
-2018-12-14 12:43:14,830 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-14 12:43:14,835 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766192806-0/master.zip: true
-2018-12-14 12:43:14,836 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766192806-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766192806-0/src'.
-2018-12-14 12:43:14,859 INFO  FullProcessService - Size of directory with sources: 169 KB
-2018-12-14 12:43:14,859 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766192806-0/src]
-2018-12-14 12:43:14,878 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766192806-0/src/.git/
+2019-03-09 18:20:19,829 INFO  DownloadService - Downloading "https://github.com/jakebonk/ChipView/archive/master.zip", attempt 3
+2019-03-09 18:20:20,320 INFO  DownloadService - Downloaded https://github.com/jakebonk/ChipView/archive/master.zip, attempt 3
+2019-03-09 18:20:20,320 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130419826-0/master.zip": 150 KB
+2019-03-09 18:20:20,320 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-09 18:20:20,325 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130419826-0/master.zip: true
+2019-03-09 18:20:20,326 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130419826-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130419826-0/src'.
+2019-03-09 18:20:20,349 INFO  FullProcessService - Size of directory with sources: 169 KB
+2019-03-09 18:20:20,349 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130419826-0/src]
+2019-03-09 18:20:20,368 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130419826-0/src/.git/
 
-2018-12-14 12:43:14,882 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766192806-0/src/ChipView-master/gradlew
-2018-12-14 12:43:14,886 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766192806-0/src/ChipView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766192806-0/src/ChipView-master/chipview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766192806-0/src/ChipView-master/build.gradle
-2018-12-14 12:43:14,889 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766192806-0/src/ChipView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766192806-0/src/ChipView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766192806-0/src/ChipView-master/chipview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766192806-0/src/ChipView-master/settings.gradle
-2018-12-14 12:43:14,889 INFO  ProjectBuildService - Remote scripts: none
-2018-12-14 12:43:14,889 INFO  ProjectFixService - Fixing project...
-2018-12-14 12:43:14,897 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766192806-0/src/ChipView-master/app/local.properties
-2018-12-14 12:43:14,898 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766192806-0/src/ChipView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2018-12-14 12:43:14,898 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766192806-0/src/ChipView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2018-12-14 12:43:14,898 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766192806-0/src/ChipView-master/chipview/local.properties
-2018-12-14 12:43:14,899 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766192806-0/src/ChipView-master/chipview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2018-12-14 12:43:14,899 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766192806-0/src/ChipView-master/chipview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2018-12-14 12:43:14,900 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766192806-0/src/ChipView-master/local.properties
-2018-12-14 12:43:14,900 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2018-12-14 12:43:14,901 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2018-12-14 12:43:14,902 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766192806-0/src/ChipView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2018-12-14 12:43:14,902 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766192806-0/src/ChipView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2018-12-14 12:43:14,902 INFO  ProjectFixService - Project was maybe fixed
-2018-12-14 12:43:14,902 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-14 12:43:14,902 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766192806-0/src/ChipView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766192806-0/src/ChipView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-14 12:43:21,836 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-14 12:43:21,836 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-14 12:43:21,836 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-14 12:43:21,837 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766192806-0/src/ChipView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766192806-0/src/ChipView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-14 12:43:27,322 ERROR SysUtils - Could not process external command
+2019-03-09 18:20:20,372 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130419826-0/src/ChipView-master/gradlew
+2019-03-09 18:20:20,375 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130419826-0/src/ChipView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130419826-0/src/ChipView-master/chipview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130419826-0/src/ChipView-master/build.gradle
+2019-03-09 18:20:20,379 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130419826-0/src/ChipView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130419826-0/src/ChipView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130419826-0/src/ChipView-master/chipview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130419826-0/src/ChipView-master/settings.gradle
+2019-03-09 18:20:20,379 INFO  ProjectBuildService - Remote scripts: none
+2019-03-09 18:20:20,379 INFO  ProjectFixService - Fixing project...
+2019-03-09 18:20:20,387 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130419826-0/src/ChipView-master/app/local.properties
+2019-03-09 18:20:20,388 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130419826-0/src/ChipView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-03-09 18:20:20,388 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130419826-0/src/ChipView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-03-09 18:20:20,389 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130419826-0/src/ChipView-master/chipview/local.properties
+2019-03-09 18:20:20,390 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130419826-0/src/ChipView-master/chipview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-03-09 18:20:20,390 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130419826-0/src/ChipView-master/chipview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-03-09 18:20:20,391 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130419826-0/src/ChipView-master/local.properties
+2019-03-09 18:20:20,391 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-03-09 18:20:20,392 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-03-09 18:20:20,393 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130419826-0/src/ChipView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-03-09 18:20:20,393 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130419826-0/src/ChipView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-03-09 18:20:20,394 INFO  ProjectFixService - Project was maybe fixed
+2019-03-09 18:20:20,394 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 18:20:20,394 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130419826-0/src/ChipView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130419826-0/src/ChipView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 18:20:25,700 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-09 18:20:25,700 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-09 18:20:25,700 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-09 18:20:25,700 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130419826-0/src/ChipView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130419826-0/src/ChipView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-09 18:20:30,982 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -52,14 +52,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-14 12:43:27,322 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 18:20:30,982 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
 
 FAILURE: Build failed with an exception.
@@ -198,13 +198,13 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED in 5s
 
-2018-12-14 12:43:27,327 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-14 12:43:27,327 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766192806-0/src/ChipView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766192806-0/src/ChipView-master/chipview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-14 12:43:32,606 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-14 12:43:32,606 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-14 12:43:32,607 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-14 12:43:32,607 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766192806-0/src/ChipView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766192806-0/src/ChipView-master/chipview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-14 12:43:37,864 ERROR SysUtils - Could not process external command
+2019-03-09 18:20:30,986 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 18:20:30,986 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130419826-0/src/ChipView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130419826-0/src/ChipView-master/chipview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 18:20:36,219 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-09 18:20:36,219 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-09 18:20:36,219 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-09 18:20:36,219 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130419826-0/src/ChipView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130419826-0/src/ChipView-master/chipview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-09 18:20:41,466 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -225,14 +225,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-14 12:43:37,864 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 18:20:41,467 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':chipview' is deprecated. Use 'implementation' instead.
 
 FAILURE: Build failed with an exception.
@@ -362,22 +362,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
 	... 85 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 4s
 
-2018-12-14 12:43:37,868 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-14 12:43:37,869 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766192806-0/src/ChipView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766192806-0/src/ChipView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-14 12:43:43,734 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-14 12:43:43,734 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-14 12:43:43,734 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-14 12:43:43,735 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766192806-0/src/ChipView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766192806-0/src/ChipView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-14 12:43:49,139 ERROR SysUtils - Could not process external command
+2019-03-09 18:20:41,472 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 18:20:41,472 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130419826-0/src/ChipView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130419826-0/src/ChipView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 18:20:46,683 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-09 18:20:46,684 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-09 18:20:46,684 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-09 18:20:46,684 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130419826-0/src/ChipView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130419826-0/src/ChipView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-09 18:20:51,995 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -398,14 +398,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-14 12:43:49,139 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 18:20:51,995 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
 
 FAILURE: Build failed with an exception.
@@ -544,5 +544,5 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED in 5s
 
-2018-12-14 12:43:49,144 ERROR FullProcessService - Project build has not produced APK file
-2018-12-14 12:43:49,147 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-09 18:20:52,000 ERROR FullProcessService - Project build has not produced APK file
+2019-03-09 18:20:52,004 ERROR FullProcessService - Could not find generated or existed APK file

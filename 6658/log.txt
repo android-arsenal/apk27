@@ -1,80 +1,58 @@
-2018-11-02 23:25:13,323 INFO  DownloadService - Downloading "https://github.com/Pierry/Noute/archive/master.zip", attempt 3
-2018-11-02 23:25:16,068 INFO  DownloadService - Downloaded https://github.com/Pierry/Noute/archive/master.zip, attempt 3
-2018-11-02 23:25:16,068 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175913319-0/master.zip": 1 MB
-2018-11-02 23:25:16,068 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-02 23:25:16,074 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175913319-0/master.zip: true
-2018-11-02 23:25:16,074 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175913319-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175913319-0/src'.
-2018-11-02 23:25:16,120 INFO  FullProcessService - Size of directory with sources: 1 MB
-2018-11-02 23:25:16,120 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175913319-0/src]
-2018-11-02 23:25:16,148 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175913319-0/src/.git/
+2019-03-09 18:32:42,896 INFO  DownloadService - Downloading "https://github.com/Pierry/Noute/archive/master.zip", attempt 3
+2019-03-09 18:32:47,743 INFO  DownloadService - Downloaded https://github.com/Pierry/Noute/archive/master.zip, attempt 3
+2019-03-09 18:32:47,744 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552131162889-0/master.zip": 1 MB
+2019-03-09 18:32:47,744 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-09 18:32:47,749 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552131162889-0/master.zip: true
+2019-03-09 18:32:47,750 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552131162889-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552131162889-0/src'.
+2019-03-09 18:32:47,801 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-03-09 18:32:47,801 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552131162889-0/src]
+2019-03-09 18:32:47,825 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552131162889-0/src/.git/
 
-2018-11-02 23:25:16,153 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175913319-0/src/Noute-master/gradlew
-2018-11-02 23:25:16,157 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175913319-0/src/Noute-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175913319-0/src/Noute-master/build.gradle
-2018-11-02 23:25:16,162 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175913319-0/src/Noute-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175913319-0/src/Noute-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175913319-0/src/Noute-master/settings.gradle
-2018-11-02 23:25:16,162 INFO  ProjectBuildService - Remote scripts: none
-2018-11-02 23:25:16,162 INFO  ProjectFixService - Fixing project...
-2018-11-02 23:25:16,173 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175913319-0/src/Noute-master/app/local.properties
-2018-11-02 23:25:16,174 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175913319-0/src/Noute-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=24,targetSdkVersion=28]
-2018-11-02 23:25:16,174 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175913319-0/src/Noute-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=24,targetSdkVersion=28]
-2018-11-02 23:25:16,175 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175913319-0/src/Noute-master/local.properties
-2018-11-02 23:25:16,175 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-11-02 23:25:16,175 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-11-02 23:25:16,176 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175913319-0/src/Noute-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=24,targetSdkVersion=28]
-2018-11-02 23:25:16,177 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175913319-0/src/Noute-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=24,targetSdkVersion=28]
-2018-11-02 23:25:16,177 INFO  ProjectFixService - Project was maybe fixed
-2018-11-02 23:25:16,177 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-02 23:25:16,177 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175913319-0/src/Noute-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175913319-0/src/Noute-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-02 23:25:24,488 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-11-02 23:25:24,488 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-02 23:25:24,488 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175913319-0/src/Noute-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175913319-0/src/Noute-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-02 23:26:57,104 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 18:32:47,830 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552131162889-0/src/Noute-master/gradlew
+2019-03-09 18:32:47,836 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552131162889-0/src/Noute-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552131162889-0/src/Noute-master/build.gradle
+2019-03-09 18:32:47,841 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552131162889-0/src/Noute-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552131162889-0/src/Noute-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552131162889-0/src/Noute-master/settings.gradle
+2019-03-09 18:32:47,841 INFO  ProjectBuildService - Remote scripts: none
+2019-03-09 18:32:47,841 INFO  ProjectFixService - Fixing project...
+2019-03-09 18:32:47,852 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552131162889-0/src/Noute-master/app/local.properties
+2019-03-09 18:32:47,852 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552131162889-0/src/Noute-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=24,targetSdkVersion=28]
+2019-03-09 18:32:47,853 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552131162889-0/src/Noute-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=24,targetSdkVersion=28]
+2019-03-09 18:32:47,853 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552131162889-0/src/Noute-master/local.properties
+2019-03-09 18:32:47,854 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-03-09 18:32:47,854 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-03-09 18:32:47,855 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552131162889-0/src/Noute-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=24,targetSdkVersion=28]
+2019-03-09 18:32:47,855 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552131162889-0/src/Noute-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=24,targetSdkVersion=28]
+2019-03-09 18:32:47,856 INFO  ProjectFixService - Project was maybe fixed
+2019-03-09 18:32:47,856 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 18:32:47,856 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552131162889-0/src/Noute-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552131162889-0/src/Noute-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 18:32:54,879 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-03-09 18:32:54,879 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-09 18:32:54,879 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552131162889-0/src/Noute-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552131162889-0/src/Noute-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-09 18:34:15,042 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:checkDebugClasspath
-Download https://dl.google.com/dl/android/maven2/com/android/support/exifinterface/28.0.0/exifinterface-28.0.0.pom
-Download https://jcenter.bintray.com/com/jakewharton/retrofit/retrofit2-rxjava2-adapter/1.0.0/retrofit2-rxjava2-adapter-1.0.0.pom
-Download https://jcenter.bintray.com/com/amitshekhar/android/debug-db/1.0.4/debug-db-1.0.4.pom
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko/0.10.6/anko-0.10.6.pom
-Download https://jcenter.bintray.com/uk/co/chrisjenx/calligraphy/2.3.0/calligraphy-2.3.0.pom
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-sdk27/0.10.6/anko-sdk27-0.10.6.pom
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-sqlite/0.10.6/anko-sqlite-0.10.6.pom
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-sdk27-coroutines/0.10.6/anko-sdk27-coroutines-0.10.6.pom
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-appcompat-v7/0.10.6/anko-appcompat-v7-0.10.6.pom
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-appcompat-v7-coroutines/0.10.6/anko-appcompat-v7-coroutines-0.10.6.pom
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-coroutines/0.10.6/anko-coroutines-0.10.6.pom
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-commons/0.10.6/anko-commons-0.10.6.pom
-Download https://jcenter.bintray.com/org/jetbrains/anko/commons-base/0.10.6/commons-base-0.10.6.pom
-Download https://jcenter.bintray.com/org/jetbrains/kotlinx/kotlinx-coroutines-android/0.23.4/kotlinx-coroutines-android-0.23.4.pom
-Download https://jcenter.bintray.com/org/jetbrains/anko/sqlite-base/0.10.6/sqlite-base-0.10.6.pom
-Download https://jcenter.bintray.com/org/jetbrains/anko/platform-base/0.10.6/platform-base-0.10.6.pom
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-support-v4/0.10.6/anko-support-v4-0.10.6.pom
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-appcompat-v7-commons/0.10.6/anko-appcompat-v7-commons-0.10.6.pom
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-support-v4-commons/0.10.6/anko-support-v4-commons-0.10.6.pom
-Download https://jcenter.bintray.com/org/jetbrains/kotlinx/kotlinx-coroutines-core/0.23.4/kotlinx-coroutines-core-0.23.4.pom
-Download https://jcenter.bintray.com/org/jetbrains/anko/appcompatV7-base/0.10.6/appcompatV7-base-0.10.6.pom
-Download https://jcenter.bintray.com/org/jetbrains/anko/supportV4-base/0.10.6/supportV4-base-0.10.6.pom
-Download https://jcenter.bintray.com/org/jetbrains/kotlinx/kotlinx-coroutines-core-common/0.23.4/kotlinx-coroutines-core-common-0.23.4.pom
-Download https://jcenter.bintray.com/org/jetbrains/kotlinx/atomicfu-common/0.10.3/atomicfu-common-0.10.3.pom
-Download https://jcenter.bintray.com/com/amitshekhar/android/debug-db/1.0.4/debug-db-1.0.4.aar
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-appcompat-v7-coroutines/0.10.6/anko-appcompat-v7-coroutines-0.10.6.aar
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-appcompat-v7-commons/0.10.6/anko-appcompat-v7-commons-0.10.6.aar
+Download https://jcenter.bintray.com/org/jetbrains/anko/appcompatV7-base/0.10.6/appcompatV7-base-0.10.6.aar
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-support-v4/0.10.6/anko-support-v4-0.10.6.aar
 Download https://jcenter.bintray.com/org/jetbrains/anko/anko/0.10.6/anko-0.10.6.aar
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-appcompat-v7-coroutines/0.10.6/anko-appcompat-v7-coroutines-0.10.6.aar
 Download https://jcenter.bintray.com/org/jetbrains/anko/anko-appcompat-v7/0.10.6/anko-appcompat-v7-0.10.6.aar
 Download https://jcenter.bintray.com/org/jetbrains/anko/anko-support-v4-commons/0.10.6/anko-support-v4-commons-0.10.6.aar
+Download https://jcenter.bintray.com/com/amitshekhar/android/debug-db/1.0.4/debug-db-1.0.4.aar
 Download https://jcenter.bintray.com/org/jetbrains/anko/supportV4-base/0.10.6/supportV4-base-0.10.6.aar
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-support-v4/0.10.6/anko-support-v4-0.10.6.aar
-Download https://jcenter.bintray.com/uk/co/chrisjenx/calligraphy/2.3.0/calligraphy-2.3.0.aar
+Download https://jcenter.bintray.com/com/jakewharton/retrofit/retrofit2-rxjava2-adapter/1.0.0/retrofit2-rxjava2-adapter-1.0.0.jar
 Download https://jcenter.bintray.com/org/jetbrains/anko/anko-sqlite/0.10.6/anko-sqlite-0.10.6.aar
 Download https://jcenter.bintray.com/org/jetbrains/anko/anko-sdk27/0.10.6/anko-sdk27-0.10.6.aar
-Download https://jcenter.bintray.com/com/jakewharton/retrofit/retrofit2-rxjava2-adapter/1.0.0/retrofit2-rxjava2-adapter-1.0.0.jar
 Download https://jcenter.bintray.com/org/jetbrains/anko/anko-sdk27-coroutines/0.10.6/anko-sdk27-coroutines-0.10.6.aar
 Download https://jcenter.bintray.com/org/jetbrains/anko/anko-commons/0.10.6/anko-commons-0.10.6.aar
 Download https://jcenter.bintray.com/org/jetbrains/anko/sqlite-base/0.10.6/sqlite-base-0.10.6.aar
 Download https://jcenter.bintray.com/org/jetbrains/anko/platform-base/0.10.6/platform-base-0.10.6.aar
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/common-java8/1.1.1/common-java8-1.1.1.jar
 Download https://jcenter.bintray.com/org/jetbrains/anko/commons-base/0.10.6/commons-base-0.10.6.aar
 Download https://jcenter.bintray.com/org/jetbrains/anko/anko-coroutines/0.10.6/anko-coroutines-0.10.6.aar
 Download https://jcenter.bintray.com/org/jetbrains/kotlinx/kotlinx-coroutines-android/0.23.4/kotlinx-coroutines-android-0.23.4.jar
-Download https://jcenter.bintray.com/org/jetbrains/kotlinx/kotlinx-coroutines-core-common/0.23.4/kotlinx-coroutines-core-common-0.23.4.jar
 Download https://jcenter.bintray.com/org/jetbrains/kotlinx/atomicfu-common/0.10.3/atomicfu-common-0.10.3.jar
-Download https://jcenter.bintray.com/org/jetbrains/anko/appcompatV7-base/0.10.6/appcompatV7-base-0.10.6.aar
+Download https://jcenter.bintray.com/org/jetbrains/kotlinx/kotlinx-coroutines-core-common/0.23.4/kotlinx-coroutines-core-common-0.23.4.jar
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-appcompat-v7-commons/0.10.6/anko-appcompat-v7-commons-0.10.6.aar
+Download https://jcenter.bintray.com/uk/co/chrisjenx/calligraphy/2.3.0/calligraphy-2.3.0.aar
+Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.0.0/rxjava-2.0.0.jar
 Download https://jcenter.bintray.com/org/jetbrains/kotlinx/kotlinx-coroutines-core/0.23.4/kotlinx-coroutines-core-0.23.4.jar
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild
@@ -92,17 +70,17 @@ Download https://jcenter.bintray.com/org/jetbrains/kotlinx/kotlinx-coroutines-co
 :app:processDebugResources
 :app:kaptGenerateStubsDebugKotlin
 :app:kaptDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175913319-0/src/Noute-master/app/build/tmp/kapt3/stubs/debug/com/github/pierry/noute/core/data/AppDatabase.java:7: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552131162889-0/src/Noute-master/app/build/tmp/kapt3/stubs/debug/com/github/pierry/noute/core/data/AppDatabase.java:7: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
 public abstract class AppDatabase extends android.arch.persistence.room.RoomDatabase {
                 ^
 :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175913319-0/src/Noute-master/app/src/main/java/com/github/pierry/noute/core/presentation/BaseFragment.kt: (18, 11): 'onAttach(Activity!): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175913319-0/src/Noute-master/app/src/main/java/com/github/pierry/noute/favorite/presentation/presenter/FavPresenter.kt: (5, 20): Parameter 'favView' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175913319-0/src/Noute-master/app/src/main/java/com/github/pierry/noute/note/presentation/presenter/NotePresenter.kt: (27, 9): Variable 'mutableData' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552131162889-0/src/Noute-master/app/src/main/java/com/github/pierry/noute/core/presentation/BaseFragment.kt: (18, 11): 'onAttach(Activity!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552131162889-0/src/Noute-master/app/src/main/java/com/github/pierry/noute/favorite/presentation/presenter/FavPresenter.kt: (5, 20): Parameter 'favView' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552131162889-0/src/Noute-master/app/src/main/java/com/github/pierry/noute/note/presentation/presenter/NotePresenter.kt: (27, 9): Variable 'mutableData' is never used
 :app:prepareLintJar
 :app:generateDebugSources
 :app:javaPreCompileDebug
-:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175913319-0/src/Noute-master/app/build/generated/source/kapt/debug/com/github/pierry/noute/core/di/DaggerAppComponent.java uses unchecked or unsafe operations.
+:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552131162889-0/src/Noute-master/app/build/generated/source/kapt/debug/com/github/pierry/noute/core/di/DaggerAppComponent.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :app:compileDebugNdk NO-SOURCE
@@ -126,13 +104,6 @@ D8: Stripped invalid locals information from 2 methods.
 /Users/vbauer/.gradle/caches/transforms-1/files-1.1/anko-appcompat-v7-coroutines-0.10.6.aar/b9284b7e5b0936957e9e5ec02ea939a1/jars/classes.jar: D8: Methods with invalid locals information:
   java.lang.Object org.jetbrains.anko.appcompat.v7.coroutines.__SearchView_OnQueryTextListener$onQueryTextSubmit$1.doResume(java.lang.Object, java.lang.Throwable)
   Attempt to read local throwable but no local information was associated with the value being read.
-D8: Stripped invalid locals information from 2 methods.
-/Users/vbauer/.gradle/caches/transforms-1/files-1.1/anko-appcompat-v7-coroutines-0.10.6.aar/b9284b7e5b0936957e9e5ec02ea939a1/jars/classes.jar: D8: Methods with invalid locals information:
-  java.lang.Object org.jetbrains.anko.appcompat.v7.coroutines.AppcompatV7CoroutinesListenersWithCoroutinesKt$onInflate$1$1.doResume(java.lang.Object, java.lang.Throwable)
-  Attempt to read local throwable but no local information was associated with the value being read.
-/Users/vbauer/.gradle/caches/transforms-1/files-1.1/anko-appcompat-v7-coroutines-0.10.6.aar/b9284b7e5b0936957e9e5ec02ea939a1/jars/classes.jar: D8: Methods with invalid locals information:
-  java.lang.Object org.jetbrains.anko.appcompat.v7.coroutines.AppcompatV7CoroutinesListenersWithCoroutinesKt$onMenuItemClick$2$1.doResume(java.lang.Object, java.lang.Throwable)
-  Attempt to read local throwable but no local information was associated with the value being read.
 D8: Stripped invalid locals information from 4 methods.
 /Users/vbauer/.gradle/caches/transforms-1/files-1.1/anko-appcompat-v7-coroutines-0.10.6.aar/b9284b7e5b0936957e9e5ec02ea939a1/jars/classes.jar: D8: Methods with invalid locals information:
   java.lang.Object org.jetbrains.anko.appcompat.v7.coroutines.AppcompatV7CoroutinesListenersWithCoroutinesKt$onMenuItemClick$1$1.doResume(java.lang.Object, java.lang.Throwable)
@@ -145,6 +116,13 @@ D8: Stripped invalid locals information from 4 methods.
   Attempt to read local throwable but no local information was associated with the value being read.
 /Users/vbauer/.gradle/caches/transforms-1/files-1.1/anko-appcompat-v7-coroutines-0.10.6.aar/b9284b7e5b0936957e9e5ec02ea939a1/jars/classes.jar: D8: Methods with invalid locals information:
   java.lang.Object org.jetbrains.anko.appcompat.v7.coroutines.__SearchView_OnSuggestionListener$onSuggestionSelect$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 2 methods.
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/anko-appcompat-v7-coroutines-0.10.6.aar/b9284b7e5b0936957e9e5ec02ea939a1/jars/classes.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.appcompat.v7.coroutines.AppcompatV7CoroutinesListenersWithCoroutinesKt$onInflate$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/anko-appcompat-v7-coroutines-0.10.6.aar/b9284b7e5b0936957e9e5ec02ea939a1/jars/classes.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.appcompat.v7.coroutines.AppcompatV7CoroutinesListenersWithCoroutinesKt$onMenuItemClick$2$1.doResume(java.lang.Object, java.lang.Throwable)
   Attempt to read local throwable but no local information was associated with the value being read.
 D8: Stripped invalid locals information from 11 methods.
 /Users/vbauer/.gradle/caches/transforms-1/files-1.1/anko-sdk27-coroutines-0.10.6.aar/8069b0f45da8065e8c018ef04a76290a/jars/classes.jar: D8: Methods with invalid locals information:
@@ -424,12 +402,20 @@ D8: Stripped invalid locals information from 6 methods.
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/0.23.4/a0bffdb2c247fa07bd788c79769813dc3e22cdb5/kotlinx-coroutines-core-0.23.4.jar: D8: Methods with invalid locals information:
   java.lang.Object kotlinx.coroutines.experimental.channels.ChannelsKt__Channels_commonKt$zip$2.doResume(java.lang.Object, java.lang.Throwable)
   Attempt to read local this but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.71/d9717625bb3c731561251f8dd2c67a1011d6764c/kotlin-stdlib-1.2.71.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.71/d9717625bb3c731561251f8dd2c67a1011d6764c/kotlin-stdlib-1.2.71.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
 :app:transformDexArchiveWithExternalLibsDexMergerForDebug
 :app:transformDexArchiveWithDexMergerForDebug
 :app:mergeDebugJniLibFolders
 :app:transformNativeLibsWithMergeJniLibsForDebug
 :app:transformNativeLibsWithStripDebugSymbolForDebug
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175913319-0/src/Noute-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libsqlcipher.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552131162889-0/src/Noute-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libsqlcipher.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 :app:checkDebugLibraries
 :app:processDebugJavaRes NO-SOURCE
 :app:transformResourcesWithMergeJavaResForDebug
@@ -452,16 +438,16 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 :app:processReleaseResources
 :app:kaptGenerateStubsReleaseKotlin
 :app:kaptReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175913319-0/src/Noute-master/app/build/tmp/kapt3/stubs/release/com/github/pierry/noute/core/data/AppDatabase.java:7: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552131162889-0/src/Noute-master/app/build/tmp/kapt3/stubs/release/com/github/pierry/noute/core/data/AppDatabase.java:7: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
 public abstract class AppDatabase extends android.arch.persistence.room.RoomDatabase {
                 ^
 :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175913319-0/src/Noute-master/app/src/main/java/com/github/pierry/noute/core/presentation/BaseFragment.kt: (18, 11): 'onAttach(Activity!): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175913319-0/src/Noute-master/app/src/main/java/com/github/pierry/noute/favorite/presentation/presenter/FavPresenter.kt: (5, 20): Parameter 'favView' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175913319-0/src/Noute-master/app/src/main/java/com/github/pierry/noute/note/presentation/presenter/NotePresenter.kt: (27, 9): Variable 'mutableData' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552131162889-0/src/Noute-master/app/src/main/java/com/github/pierry/noute/core/presentation/BaseFragment.kt: (18, 11): 'onAttach(Activity!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552131162889-0/src/Noute-master/app/src/main/java/com/github/pierry/noute/favorite/presentation/presenter/FavPresenter.kt: (5, 20): Parameter 'favView' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552131162889-0/src/Noute-master/app/src/main/java/com/github/pierry/noute/note/presentation/presenter/NotePresenter.kt: (27, 9): Variable 'mutableData' is never used
 :app:generateReleaseSources
 :app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175913319-0/src/Noute-master/app/build/generated/source/kapt/release/com/github/pierry/noute/core/di/DaggerAppComponent.java uses unchecked or unsafe operations.
+:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552131162889-0/src/Noute-master/app/build/generated/source/kapt/release/com/github/pierry/noute/core/di/DaggerAppComponent.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :app:compileReleaseNdk NO-SOURCE
@@ -486,7 +472,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 1m 31s
+BUILD SUCCESSFUL in 1m 19s
 61 actionable tasks: 61 executed
 
-2018-11-02 23:26:57,259 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175913319-0/src/Noute-master/app/build/outputs/apk/debug/app-debug.apk
+2019-03-09 18:34:15,166 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552131162889-0/src/Noute-master/app/build/outputs/apk/debug/app-debug.apk

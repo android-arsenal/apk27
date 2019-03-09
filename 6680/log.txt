@@ -1,36 +1,36 @@
-2018-09-03 10:43:22,469 INFO  DownloadService - Downloading "https://github.com/raulccabreu/redukt/archive/master.zip", attempt 3
-2018-09-03 10:43:22,964 INFO  DownloadService - Downloaded https://github.com/raulccabreu/redukt/archive/master.zip, attempt 3
-2018-09-03 10:43:22,965 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/master.zip": 78 KB
-2018-09-03 10:43:22,965 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-09-03 10:43:22,970 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/master.zip: true
-2018-09-03 10:43:22,970 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/src'.
-2018-09-03 10:43:22,987 INFO  FullProcessService - Size of directory with sources: 111 KB
-2018-09-03 10:43:22,987 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/src]
-2018-09-03 10:43:23,005 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/src/.git/
+2019-03-09 18:21:35,901 INFO  DownloadService - Downloading "https://github.com/raulccabreu/redukt/archive/master.zip", attempt 3
+2019-03-09 18:21:36,577 INFO  DownloadService - Downloaded https://github.com/raulccabreu/redukt/archive/master.zip, attempt 3
+2019-03-09 18:21:36,578 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130495898-0/master.zip": 78 KB
+2019-03-09 18:21:36,578 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-09 18:21:36,583 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130495898-0/master.zip: true
+2019-03-09 18:21:36,583 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130495898-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130495898-0/src'.
+2019-03-09 18:21:36,597 INFO  FullProcessService - Size of directory with sources: 111 KB
+2019-03-09 18:21:36,597 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130495898-0/src]
+2019-03-09 18:21:36,617 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130495898-0/src/.git/
 
-2018-09-03 10:43:23,008 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/src/redukt-master/gradlew
-2018-09-03 10:43:23,011 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/src/redukt-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/src/redukt-master/ui/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/src/redukt-master/build.gradle
-2018-09-03 10:43:23,013 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/src/redukt-master/ui/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/src/redukt-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/src/redukt-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/src/redukt-master/settings.gradle
-2018-09-03 10:43:23,014 INFO  ProjectBuildService - Remote scripts: none
-2018-09-03 10:43:23,014 INFO  ProjectFixService - Fixing project...
-2018-09-03 10:43:23,020 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/src/redukt-master/core/local.properties
-2018-09-03 10:43:23,021 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/src/redukt-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2018-09-03 10:43:23,021 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/src/redukt-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2018-09-03 10:43:23,022 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/src/redukt-master/ui/local.properties
-2018-09-03 10:43:23,023 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/src/redukt-master/ui/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2018-09-03 10:43:23,023 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/src/redukt-master/ui/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2018-09-03 10:43:23,024 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/src/redukt-master/local.properties
-2018-09-03 10:43:23,025 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-09-03 10:43:23,025 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-09-03 10:43:23,026 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/src/redukt-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2018-09-03 10:43:23,026 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/src/redukt-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2018-09-03 10:43:23,027 INFO  ProjectFixService - Project was maybe fixed
-2018-09-03 10:43:23,027 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-03 10:43:23,027 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/src/redukt-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/src/redukt-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-03 10:43:30,341 INFO  ProjectTaskService - Detected possible tasks: 64
-2018-09-03 10:43:30,341 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-09-03 10:43:30,341 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/src/redukt-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/src/redukt-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-09-03 10:43:47,640 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 18:21:36,620 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130495898-0/src/redukt-master/gradlew
+2019-03-09 18:21:36,623 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130495898-0/src/redukt-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130495898-0/src/redukt-master/ui/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130495898-0/src/redukt-master/build.gradle
+2019-03-09 18:21:36,625 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130495898-0/src/redukt-master/ui/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130495898-0/src/redukt-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130495898-0/src/redukt-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130495898-0/src/redukt-master/settings.gradle
+2019-03-09 18:21:36,626 INFO  ProjectBuildService - Remote scripts: none
+2019-03-09 18:21:36,626 INFO  ProjectFixService - Fixing project...
+2019-03-09 18:21:36,632 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130495898-0/src/redukt-master/core/local.properties
+2019-03-09 18:21:36,633 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130495898-0/src/redukt-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-03-09 18:21:36,633 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130495898-0/src/redukt-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-03-09 18:21:36,634 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130495898-0/src/redukt-master/ui/local.properties
+2019-03-09 18:21:36,635 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130495898-0/src/redukt-master/ui/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-03-09 18:21:36,635 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130495898-0/src/redukt-master/ui/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-03-09 18:21:36,636 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130495898-0/src/redukt-master/local.properties
+2019-03-09 18:21:36,637 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-03-09 18:21:36,637 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-03-09 18:21:36,638 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130495898-0/src/redukt-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-03-09 18:21:36,638 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130495898-0/src/redukt-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-03-09 18:21:36,639 INFO  ProjectFixService - Project was maybe fixed
+2019-03-09 18:21:36,639 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 18:21:36,639 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130495898-0/src/redukt-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130495898-0/src/redukt-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 18:21:44,444 INFO  ProjectTaskService - Detected possible tasks: 64
+2019-03-09 18:21:44,444 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-09 18:21:44,444 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130495898-0/src/redukt-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130495898-0/src/redukt-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-09 18:22:02,861 INFO  SysUtils - Configuration on demand is an incubating feature.
 :core:preBuild UP-TO-DATE
 :core:preDebugBuild UP-TO-DATE
 :core:compileDebugAidl
@@ -80,7 +80,8 @@
 :core:verifyReleaseResources
 :core:generateDebugRFile
 :core:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/src/redukt-master/core/src/main/java/com/github/raulccabreu/redukt/reducers/BaseAnnotatedReducer.kt: (37, 69): Unchecked cast: Any! to T
+Download https://jcenter.bintray.com/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4.2/concurrentlinkedhashmap-lru-1.4.2.jar
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130495898-0/src/redukt-master/core/src/main/java/com/github/raulccabreu/redukt/reducers/BaseAnnotatedReducer.kt: (37, 69): Unchecked cast: Any! to T
 :core:generateDebugSources
 :core:javaPreCompileDebug
 :core:compileDebugJavaWithJavac
@@ -92,7 +93,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/src/
 :core:assembleDebug
 :core:generateReleaseRFile
 :core:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/src/redukt-master/core/src/main/java/com/github/raulccabreu/redukt/reducers/BaseAnnotatedReducer.kt: (37, 69): Unchecked cast: Any! to T
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130495898-0/src/redukt-master/core/src/main/java/com/github/raulccabreu/redukt/reducers/BaseAnnotatedReducer.kt: (37, 69): Unchecked cast: Any! to T
 :core:generateReleaseSources
 :core:javaPreCompileRelease
 :core:compileReleaseJavaWithJavac
@@ -105,15 +106,15 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/src/
 :core:assemble
 :core:build
 
-BUILD SUCCESSFUL in 16s
+BUILD SUCCESSFUL in 17s
 50 actionable tasks: 50 executed
 
-2018-09-03 10:43:47,657 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-03 10:43:47,657 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/src/redukt-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/src/redukt-master/ui/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-03 10:43:53,862 INFO  ProjectTaskService - Detected possible tasks: 64
-2018-09-03 10:43:53,863 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-09-03 10:43:53,863 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/src/redukt-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/src/redukt-master/ui/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-09-03 10:44:12,163 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 18:22:02,880 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 18:22:02,880 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130495898-0/src/redukt-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130495898-0/src/redukt-master/ui/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 18:22:09,519 INFO  ProjectTaskService - Detected possible tasks: 64
+2019-03-09 18:22:09,519 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-09 18:22:09,519 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130495898-0/src/redukt-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130495898-0/src/redukt-master/ui/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-09 18:22:26,985 INFO  SysUtils - Configuration on demand is an incubating feature.
 :core:preBuild UP-TO-DATE
 :core:preDebugBuild UP-TO-DATE
 :core:compileDebugAidl UP-TO-DATE
@@ -223,15 +224,15 @@ BUILD SUCCESSFUL in 16s
 :ui:assemble
 :ui:build
 
-BUILD SUCCESSFUL in 17s
+BUILD SUCCESSFUL in 16s
 76 actionable tasks: 52 executed, 24 up-to-date
 
-2018-09-03 10:44:12,221 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-03 10:44:12,221 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/src/redukt-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/src/redukt-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-03 10:44:18,265 INFO  ProjectTaskService - Detected possible tasks: 64
-2018-09-03 10:44:18,266 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-09-03 10:44:18,266 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/src/redukt-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535946202466-0/src/redukt-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-09-03 10:44:25,746 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 18:22:27,045 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 18:22:27,045 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130495898-0/src/redukt-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130495898-0/src/redukt-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 18:22:33,046 INFO  ProjectTaskService - Detected possible tasks: 64
+2019-03-09 18:22:33,046 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-09 18:22:33,047 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130495898-0/src/redukt-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130495898-0/src/redukt-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-09 18:22:40,627 INFO  SysUtils - Configuration on demand is an incubating feature.
 :core:preBuild UP-TO-DATE
 :core:preDebugBuild UP-TO-DATE
 :core:compileDebugAidl UP-TO-DATE
@@ -380,5 +381,5 @@ BUILD SUCCESSFUL in 17s
 BUILD SUCCESSFUL in 7s
 102 actionable tasks: 102 up-to-date
 
-2018-09-03 10:44:25,805 ERROR FullProcessService - Project build has not produced APK file
-2018-09-03 10:44:25,858 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-09 18:22:40,688 ERROR FullProcessService - Project build has not produced APK file
+2019-03-09 18:22:40,741 ERROR FullProcessService - Could not find generated or existed APK file

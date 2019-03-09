@@ -1,41 +1,37 @@
-2018-12-07 16:16:39,662 INFO  DownloadService - Downloading "https://github.com/mengzhidaren/FFmpegCmdSdk/archive/master.zip", attempt 3
-2018-12-07 16:17:40,244 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-12-07 16:17:41,097 INFO  GithubDownloadService - Default branch of this repository: master
-2018-12-07 16:17:41,097 INFO  DownloadService - Downloading "https://github.com/mengzhidaren/FFmpegCmdSdk/archive/master.zip", attempt 3
-2018-12-07 16:18:42,824 DEBUG FullProcessService - Repository https://github.com/mengzhidaren/FFmpegCmdSdk available: true
-2018-12-07 16:18:42,824 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-12-07 16:18:42,824 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/mengzhidaren/FFmpegCmdSdk, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544174199659-0/src]
-2018-12-07 16:18:47,214 INFO  SysUtils - 
-2018-12-07 16:18:47,224 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544174199659-0/src/.git": true
-2018-12-07 16:18:47,231 INFO  FullProcessService - Size of directory with sources: 24 MB
-2018-12-07 16:18:47,231 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544174199659-0/src]
-2018-12-07 16:18:47,248 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544174199659-0/src/.git/
+2019-03-09 18:22:43,155 INFO  DownloadService - Downloading "https://github.com/mengzhidaren/FFmpegCmdSdk/archive/master.zip", attempt 3
+2019-03-09 18:23:23,210 INFO  DownloadService - Downloaded https://github.com/mengzhidaren/FFmpegCmdSdk/archive/master.zip, attempt 3
+2019-03-09 18:23:23,210 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130563153-0/master.zip": 14 MB
+2019-03-09 18:23:23,210 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-09 18:23:23,216 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130563153-0/master.zip: true
+2019-03-09 18:23:23,216 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130563153-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130563153-0/src'.
+2019-03-09 18:23:23,470 INFO  FullProcessService - Size of directory with sources: 24 MB
+2019-03-09 18:23:23,470 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130563153-0/src]
+2019-03-09 18:23:23,489 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130563153-0/src/.git/
 
-2018-12-07 16:18:47,254 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544174199659-0/src/gradlew
-2018-12-07 16:18:47,259 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544174199659-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544174199659-0/src/ffmpeg_cmd/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544174199659-0/src/build.gradle
-2018-12-07 16:18:47,264 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544174199659-0/src/ffmpeg_cmd/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544174199659-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544174199659-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544174199659-0/src/settings.gradle
-2018-12-07 16:18:47,265 INFO  ProjectBuildService - Remote scripts: none
-2018-12-07 16:18:47,265 INFO  ProjectFixService - Fixing project...
-2018-12-07 16:18:47,277 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544174199659-0/src/app/local.properties
-2018-12-07 16:18:47,277 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544174199659-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-12-07 16:18:47,277 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544174199659-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-12-07 16:18:47,278 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544174199659-0/src/ffmpeg_cmd/local.properties
-2018-12-07 16:18:47,279 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544174199659-0/src/ffmpeg_cmd/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-12-07 16:18:47,279 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544174199659-0/src/ffmpeg_cmd/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-12-07 16:18:47,280 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544174199659-0/src/local.properties
-2018-12-07 16:18:47,280 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-12-07 16:18:47,280 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-12-07 16:18:47,281 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544174199659-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-12-07 16:18:47,282 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544174199659-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-12-07 16:18:47,282 INFO  ProjectFixService - Project was maybe fixed
-2018-12-07 16:18:47,282 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-07 16:18:47,282 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544174199659-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544174199659-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-07 16:18:55,036 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-12-07 16:18:55,037 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-07 16:18:55,037 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544174199659-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544174199659-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-07 16:19:19,423 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 18:23:23,495 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130563153-0/src/FFmpegCmdSdk-master/gradlew
+2019-03-09 18:23:23,507 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130563153-0/src/FFmpegCmdSdk-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130563153-0/src/FFmpegCmdSdk-master/ffmpeg_cmd/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130563153-0/src/FFmpegCmdSdk-master/build.gradle
+2019-03-09 18:23:23,513 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130563153-0/src/FFmpegCmdSdk-master/ffmpeg_cmd/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130563153-0/src/FFmpegCmdSdk-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130563153-0/src/FFmpegCmdSdk-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130563153-0/src/FFmpegCmdSdk-master/settings.gradle
+2019-03-09 18:23:23,514 INFO  ProjectBuildService - Remote scripts: none
+2019-03-09 18:23:23,514 INFO  ProjectFixService - Fixing project...
+2019-03-09 18:23:23,529 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130563153-0/src/FFmpegCmdSdk-master/app/local.properties
+2019-03-09 18:23:23,530 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130563153-0/src/FFmpegCmdSdk-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-09 18:23:23,530 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130563153-0/src/FFmpegCmdSdk-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-09 18:23:23,531 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130563153-0/src/FFmpegCmdSdk-master/ffmpeg_cmd/local.properties
+2019-03-09 18:23:23,532 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130563153-0/src/FFmpegCmdSdk-master/ffmpeg_cmd/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-09 18:23:23,532 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130563153-0/src/FFmpegCmdSdk-master/ffmpeg_cmd/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-09 18:23:23,533 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130563153-0/src/FFmpegCmdSdk-master/local.properties
+2019-03-09 18:23:23,533 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-03-09 18:23:23,534 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-03-09 18:23:23,535 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130563153-0/src/FFmpegCmdSdk-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-09 18:23:23,535 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130563153-0/src/FFmpegCmdSdk-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-09 18:23:23,536 INFO  ProjectFixService - Project was maybe fixed
+2019-03-09 18:23:23,536 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 18:23:23,536 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130563153-0/src/FFmpegCmdSdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130563153-0/src/FFmpegCmdSdk-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 18:23:31,630 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-03-09 18:23:31,630 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-09 18:23:31,630 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130563153-0/src/FFmpegCmdSdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130563153-0/src/FFmpegCmdSdk-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-09 18:23:56,710 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:checkDebugClasspath
-Download https://jcenter.bintray.com/com/yyl/ffmpeg/ffmpeg_cmd/4.1.0/ffmpeg_cmd-4.1.0.pom
 Download https://jcenter.bintray.com/com/yyl/ffmpeg/ffmpeg_cmd/4.1.0/ffmpeg_cmd-4.1.0.aar
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild
@@ -93,6 +89,7 @@ Download https://jcenter.bintray.com/com/yyl/ffmpeg/ffmpeg_cmd/4.1.0/ffmpeg_cmd-
 :app:compileReleaseNdk NO-SOURCE
 :app:compileReleaseSources
 :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/962ff1e5de3cf53f8fd2e3dc9cc66ffa/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
 :app:mergeReleaseShaders
 :app:compileReleaseShaders
 :app:generateReleaseAssets
@@ -114,4 +111,4 @@ Download https://jcenter.bintray.com/com/yyl/ffmpeg/ffmpeg_cmd/4.1.0/ffmpeg_cmd-
 BUILD SUCCESSFUL in 24s
 55 actionable tasks: 55 executed
 
-2018-12-07 16:19:19,447 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544174199659-0/src/app/build/outputs/apk/debug/app-debug.apk
+2019-03-09 18:23:56,736 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130563153-0/src/FFmpegCmdSdk-master/app/build/outputs/apk/debug/app-debug.apk
