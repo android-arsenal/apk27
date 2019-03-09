@@ -1,49 +1,45 @@
-2018-12-09 16:47:04,587 INFO  DownloadService - Downloading "https://github.com/karthyks/Crashlytics-Android/archive/master.zip", attempt 3
-2018-12-09 16:47:06,136 INFO  DownloadService - Downloaded https://github.com/karthyks/Crashlytics-Android/archive/master.zip, attempt 3
-2018-12-09 16:47:06,136 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544348824584-0/master.zip": 225 KB
-2018-12-09 16:47:06,136 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-09 16:47:06,141 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544348824584-0/master.zip: true
-2018-12-09 16:47:06,142 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544348824584-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544348824584-0/src'.
-2018-12-09 16:47:06,171 INFO  FullProcessService - Size of directory with sources: 228 KB
-2018-12-09 16:47:06,171 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544348824584-0/src]
-2018-12-09 16:47:06,188 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544348824584-0/src/.git/
+2019-03-10 02:59:43,770 INFO  DownloadService - Downloading "https://github.com/karthyks/Crashlytics-Android/archive/master.zip", attempt 3
+2019-03-10 02:59:44,448 INFO  DownloadService - Downloaded https://github.com/karthyks/Crashlytics-Android/archive/master.zip, attempt 3
+2019-03-10 02:59:44,448 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161583766-0/master.zip": 225 KB
+2019-03-10 02:59:44,448 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-10 02:59:44,453 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161583766-0/master.zip: true
+2019-03-10 02:59:44,454 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161583766-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161583766-0/src'.
+2019-03-10 02:59:44,482 INFO  FullProcessService - Size of directory with sources: 228 KB
+2019-03-10 02:59:44,482 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161583766-0/src]
+2019-03-10 02:59:44,501 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161583766-0/src/.git/
 
-2018-12-09 16:47:06,193 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544348824584-0/src/Crashlytics-Android-master/gradlew
-2018-12-09 16:47:06,197 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544348824584-0/src/Crashlytics-Android-master/crashlytics/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544348824584-0/src/Crashlytics-Android-master/sampleapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544348824584-0/src/Crashlytics-Android-master/build.gradle
-2018-12-09 16:47:06,201 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544348824584-0/src/Crashlytics-Android-master/crashlytics/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544348824584-0/src/Crashlytics-Android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544348824584-0/src/Crashlytics-Android-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544348824584-0/src/Crashlytics-Android-master/sampleapp/build.gradle
-2018-12-09 16:47:06,202 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nisrulz/JCenter/master/bintrayv1.gradle", attempt 3
-2018-12-09 16:47:07,062 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nisrulz/JCenter/master/bintrayv1.gradle, attempt 3
-2018-12-09 16:47:07,063 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nisrulz/JCenter/master/installv1.gradle", attempt 3
-2018-12-09 16:47:07,269 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nisrulz/JCenter/master/installv1.gradle, attempt 3
-2018-12-09 16:47:07,269 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nisrulz/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nisrulz/JCenter/master/installv1.gradle
-2018-12-09 16:47:07,269 INFO  ProjectFixService - Fixing project...
-2018-12-09 16:47:07,283 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544348824584-0/src/Crashlytics-Android-master/crashlytics/local.properties
-2018-12-09 16:47:07,284 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544348824584-0/src/Crashlytics-Android-master/crashlytics/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2018-12-09 16:47:07,285 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544348824584-0/src/Crashlytics-Android-master/sampleapp/local.properties
-2018-12-09 16:47:07,286 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544348824584-0/src/Crashlytics-Android-master/sampleapp/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2018-12-09 16:47:07,287 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544348824584-0/src/Crashlytics-Android-master/local.properties
-2018-12-09 16:47:07,287 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-12-09 16:47:07,288 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-12-09 16:47:07,289 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544348824584-0/src/Crashlytics-Android-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2018-12-09 16:47:07,290 INFO  ProjectFixService - Project was maybe fixed
-2018-12-09 16:47:07,290 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-09 16:47:07,290 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544348824584-0/src/Crashlytics-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544348824584-0/src/Crashlytics-Android-master/crashlytics/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-09 16:47:17,386 INFO  ProjectTaskService - Detected possible tasks: 72
-2018-12-09 16:47:17,386 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-12-09 16:47:17,386 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544348824584-0/src/Crashlytics-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544348824584-0/src/Crashlytics-Android-master/crashlytics/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-12-09 16:47:41,599 INFO  SysUtils - Configuration on demand is an incubating feature.
-Download https://dl.google.com/dl/android/maven2/androidx/room/room-compiler/2.0.0/room-compiler-2.0.0.pom
-Download https://dl.google.com/dl/android/maven2/androidx/room/room-common/2.0.0/room-common-2.0.0.pom
-Download https://dl.google.com/dl/android/maven2/androidx/room/room-migration/2.0.0/room-migration-2.0.0.pom
-Download https://dl.google.com/dl/android/maven2/android/arch/work/work-runtime/1.0.0-alpha11/work-runtime-1.0.0-alpha11.pom
-Download https://dl.google.com/dl/android/maven2/androidx/room/room-runtime/2.0.0/room-runtime-2.0.0.pom
-Download https://jcenter.bintray.com/com/google/guava/listenablefuture/1.0/listenablefuture-1.0.pom
+2019-03-10 02:59:44,506 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161583766-0/src/Crashlytics-Android-master/gradlew
+2019-03-10 02:59:44,510 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161583766-0/src/Crashlytics-Android-master/crashlytics/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161583766-0/src/Crashlytics-Android-master/sampleapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161583766-0/src/Crashlytics-Android-master/build.gradle
+2019-03-10 02:59:44,515 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161583766-0/src/Crashlytics-Android-master/crashlytics/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161583766-0/src/Crashlytics-Android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161583766-0/src/Crashlytics-Android-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161583766-0/src/Crashlytics-Android-master/sampleapp/build.gradle
+2019-03-10 02:59:44,516 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nisrulz/JCenter/master/bintrayv1.gradle", attempt 3
+2019-03-10 02:59:44,777 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nisrulz/JCenter/master/bintrayv1.gradle, attempt 3
+2019-03-10 02:59:44,777 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nisrulz/JCenter/master/installv1.gradle", attempt 3
+2019-03-10 02:59:45,002 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nisrulz/JCenter/master/installv1.gradle, attempt 3
+2019-03-10 02:59:45,002 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nisrulz/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nisrulz/JCenter/master/installv1.gradle
+2019-03-10 02:59:45,002 INFO  ProjectFixService - Fixing project...
+2019-03-10 02:59:45,015 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161583766-0/src/Crashlytics-Android-master/crashlytics/local.properties
+2019-03-10 02:59:45,016 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161583766-0/src/Crashlytics-Android-master/crashlytics/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-10 02:59:45,016 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161583766-0/src/Crashlytics-Android-master/sampleapp/local.properties
+2019-03-10 02:59:45,017 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161583766-0/src/Crashlytics-Android-master/sampleapp/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-10 02:59:45,018 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161583766-0/src/Crashlytics-Android-master/local.properties
+2019-03-10 02:59:45,018 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-03-10 02:59:45,019 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-03-10 02:59:45,020 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161583766-0/src/Crashlytics-Android-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-10 02:59:45,020 INFO  ProjectFixService - Project was maybe fixed
+2019-03-10 02:59:45,020 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-10 02:59:45,020 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161583766-0/src/Crashlytics-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161583766-0/src/Crashlytics-Android-master/crashlytics/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-10 02:59:54,288 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-03-10 02:59:54,288 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-10 02:59:54,288 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161583766-0/src/Crashlytics-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161583766-0/src/Crashlytics-Android-master/crashlytics/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-10 03:00:13,895 INFO  SysUtils - Configuration on demand is an incubating feature.
 :crashlytics:preBuild UP-TO-DATE
 :crashlytics:preDebugBuild UP-TO-DATE
 :crashlytics:compileDebugAidl NO-SOURCE
 :crashlytics:compileDebugRenderscript
+Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-extensions/2.0.0-rc01/lifecycle-extensions-2.0.0-rc01.aar
 Download https://dl.google.com/dl/android/maven2/android/arch/work/work-runtime/1.0.0-alpha11/work-runtime-1.0.0-alpha11.aar
-Download https://dl.google.com/dl/android/maven2/androidx/room/room-runtime/2.0.0/room-runtime-2.0.0.aar
+Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-service/2.0.0-rc01/lifecycle-service-2.0.0-rc01.aar
+Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-process/2.0.0-rc01/lifecycle-process-2.0.0-rc01.aar
 :crashlytics:checkDebugManifest
 :crashlytics:generateDebugBuildConfig
 :crashlytics:generateDebugResValues
@@ -56,10 +52,6 @@ Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-li
 :crashlytics:generateDebugSources
 :crashlytics:javaPreCompileDebug
 ERROR: [TAG] Failed to resolve variable '${project.version}'
-Download https://dl.google.com/dl/android/maven2/androidx/room/room-compiler/2.0.0/room-compiler-2.0.0.jar
-Download https://dl.google.com/dl/android/maven2/androidx/room/room-migration/2.0.0/room-migration-2.0.0.jar
-Download https://dl.google.com/dl/android/maven2/androidx/room/room-common/2.0.0/room-common-2.0.0.jar
-Download https://jcenter.bintray.com/com/google/guava/listenablefuture/1.0/listenablefuture-1.0.jar
 :crashlytics:compileDebugJavaWithJavac
 :crashlytics:extractDebugAnnotations
 :crashlytics:mergeDebugConsumerProguardFiles
@@ -115,15 +107,15 @@ Download https://jcenter.bintray.com/com/google/guava/listenablefuture/1.0/liste
 :crashlytics:assemble
 :crashlytics:build
 
-BUILD SUCCESSFUL in 24s
+BUILD SUCCESSFUL in 19s
 45 actionable tasks: 45 executed
 
-2018-12-09 16:47:41,645 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-09 16:47:41,645 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544348824584-0/src/Crashlytics-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544348824584-0/src/Crashlytics-Android-master/sampleapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-09 16:47:47,219 INFO  ProjectTaskService - Detected possible tasks: 72
-2018-12-09 16:47:47,220 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-09 16:47:47,220 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544348824584-0/src/Crashlytics-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544348824584-0/src/Crashlytics-Android-master/sampleapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-09 16:47:52,433 ERROR SysUtils - Could not process external command
+2019-03-10 03:00:13,944 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-10 03:00:13,944 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161583766-0/src/Crashlytics-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161583766-0/src/Crashlytics-Android-master/sampleapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-10 03:00:20,355 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-03-10 03:00:20,355 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-10 03:00:20,355 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161583766-0/src/Crashlytics-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161583766-0/src/Crashlytics-Android-master/sampleapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-10 03:00:26,698 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -144,14 +136,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-09 16:47:52,433 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-10 03:00:26,698 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -229,12 +221,11 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 6s
 
-2018-12-09 16:47:52,433 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2018-12-09 16:47:52,434 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544348824584-0/src/Crashlytics-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544348824584-0/src/Crashlytics-Android-master/sampleapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-09 16:48:27,323 INFO  SysUtils - Configuration on demand is an incubating feature.
-Download https://jcenter.bintray.com/com/github/karthyks/crashlytics/2.0.0-beta3/crashlytics-2.0.0-beta3.pom
+2019-03-10 03:00:26,698 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-03-10 03:00:26,698 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161583766-0/src/Crashlytics-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161583766-0/src/Crashlytics-Android-master/sampleapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-10 03:01:02,442 INFO  SysUtils - Configuration on demand is an incubating feature.
 :sampleapp:checkDebugClasspath
 Download https://jcenter.bintray.com/com/github/karthyks/crashlytics/2.0.0-beta3/crashlytics-2.0.0-beta3.aar
 :sampleapp:preBuild UP-TO-DATE
@@ -310,10 +301,10 @@ Download https://jcenter.bintray.com/com/github/karthyks/crashlytics/2.0.0-beta3
 :sampleapp:assembleRelease
 :sampleapp:assemble
 :sampleapp:lint
-Ran lint on variant release: 2 issues found
-Ran lint on variant debug: 2 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544348824584-0/src/Crashlytics-Android-master/sampleapp/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544348824584-0/src/Crashlytics-Android-master/sampleapp/build/reports/lint-results.xml
+Ran lint on variant debug: 4 issues found
+Ran lint on variant release: 4 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161583766-0/src/Crashlytics-Android-master/sampleapp/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161583766-0/src/Crashlytics-Android-master/sampleapp/build/reports/lint-results.xml
 :sampleapp:generateDebugUnitTestSources
 :sampleapp:preDebugUnitTestBuild UP-TO-DATE
 :sampleapp:javaPreCompileDebugUnitTest
@@ -330,7 +321,7 @@ Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgby
 :sampleapp:check
 :sampleapp:build
 
-BUILD SUCCESSFUL in 34s
+BUILD SUCCESSFUL in 35s
 61 actionable tasks: 61 executed
 
-2018-12-09 16:48:27,443 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544348824584-0/src/Crashlytics-Android-master/sampleapp/build/outputs/apk/release/sampleapp-release-unsigned.apk
+2019-03-10 03:01:02,558 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161583766-0/src/Crashlytics-Android-master/sampleapp/build/outputs/apk/release/sampleapp-release-unsigned.apk
