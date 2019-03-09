@@ -1,40 +1,41 @@
-2018-10-08 13:08:36,837 INFO  DownloadService - Downloading "https://github.com/hypertrack/hyperlog-android/archive/master.zip", attempt 3
-2018-10-08 13:09:37,596 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-10-08 13:09:38,500 INFO  GithubDownloadService - Default branch of this repository: master
-2018-10-08 13:09:38,500 INFO  DownloadService - Downloading "https://github.com/hypertrack/hyperlog-android/archive/master.zip", attempt 3
-2018-10-08 13:10:40,288 DEBUG FullProcessService - Repository https://github.com/hypertrack/hyperlog-android available: true
-2018-10-08 13:10:40,288 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-10-08 13:10:40,289 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/hypertrack/hyperlog-android, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978916829-0/src]
-2018-10-08 13:10:49,943 INFO  SysUtils - 
-2018-10-08 13:10:49,955 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978916829-0/src/.git": true
-2018-10-08 13:10:49,961 INFO  FullProcessService - Size of directory with sources: 3 MB
-2018-10-08 13:10:49,961 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978916829-0/src]
-2018-10-08 13:10:49,995 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978916829-0/src/.git/
+2019-03-09 21:51:18,905 INFO  DownloadService - Downloading "https://github.com/hypertrack/hyperlog-android/archive/master.zip", attempt 3
+2019-03-09 21:52:19,675 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-03-09 21:52:20,769 INFO  GithubDownloadService - Default branch of this repository: master
+2019-03-09 21:52:20,769 INFO  DownloadService - Downloading "https://github.com/hypertrack/hyperlog-android/archive/master.zip", attempt 3
+2019-03-09 21:53:22,723 DEBUG FullProcessService - Repository https://github.com/hypertrack/hyperlog-android available: true
+2019-03-09 21:53:22,723 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-03-09 21:53:22,724 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/hypertrack/hyperlog-android, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143078902-0/src]
+2019-03-09 21:53:26,499 INFO  SysUtils - 
+2019-03-09 21:53:26,507 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143078902-0/src/.git": true
+2019-03-09 21:53:26,511 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-03-09 21:53:26,511 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143078902-0/src]
+2019-03-09 21:53:26,528 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143078902-0/src/.git/
 
-2018-10-08 13:10:50,000 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978916829-0/src/gradlew
-2018-10-08 13:10:50,007 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978916829-0/src/hyperlog-demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978916829-0/src/hyperlog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978916829-0/src/build.gradle
-2018-10-08 13:10:50,012 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978916829-0/src/hyperlog-demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978916829-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978916829-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978916829-0/src/hyperlog/build.gradle
-2018-10-08 13:10:50,013 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2018-10-08 13:10:50,107 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2018-10-08 13:10:50,108 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2018-10-08 13:10:50,201 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2018-10-08 13:10:50,201 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2018-10-08 13:10:50,201 INFO  ProjectFixService - Fixing project...
-2018-10-08 13:10:50,216 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978916829-0/src/hyperlog-demo/local.properties
-2018-10-08 13:10:50,217 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978916829-0/src/hyperlog-demo/build.gradle": [buildToolsVersion=26.0.3,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2018-10-08 13:10:50,218 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978916829-0/src/hyperlog/local.properties
-2018-10-08 13:10:50,219 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978916829-0/src/hyperlog/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-10-08 13:10:50,219 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978916829-0/src/local.properties
-2018-10-08 13:10:50,220 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-10-08 13:10:50,221 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-10-08 13:10:50,222 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978916829-0/src/build.gradle": [buildToolsVersion=26.0.3,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2018-10-08 13:10:50,222 INFO  ProjectFixService - Project was maybe fixed
-2018-10-08 13:10:50,222 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-08 13:10:50,222 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978916829-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978916829-0/src/hyperlog-demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-08 13:11:03,650 INFO  ProjectTaskService - Detected possible tasks: 71
-2018-10-08 13:11:03,650 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-08 13:11:03,651 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978916829-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978916829-0/src/hyperlog-demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-08 13:11:13,437 ERROR SysUtils - Could not process external command
+2019-03-09 21:53:26,531 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143078902-0/src/gradlew
+2019-03-09 21:53:26,535 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143078902-0/src/hyperlog-demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143078902-0/src/hyperlog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143078902-0/src/build.gradle
+2019-03-09 21:53:26,539 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143078902-0/src/hyperlog-demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143078902-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143078902-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143078902-0/src/hyperlog/build.gradle
+2019-03-09 21:53:26,539 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-03-09 21:53:26,635 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-03-09 21:53:26,635 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-03-09 21:53:26,729 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-03-09 21:53:26,729 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-03-09 21:53:26,729 INFO  ProjectFixService - Fixing project...
+2019-03-09 21:53:26,742 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143078902-0/src/hyperlog-demo/local.properties
+2019-03-09 21:53:26,742 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143078902-0/src/hyperlog-demo/build.gradle": [buildToolsVersion=26.0.3,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-03-09 21:53:26,743 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143078902-0/src/hyperlog/local.properties
+2019-03-09 21:53:26,744 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143078902-0/src/hyperlog/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-03-09 21:53:26,744 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143078902-0/src/local.properties
+2019-03-09 21:53:26,744 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-03-09 21:53:26,745 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-03-09 21:53:26,746 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143078902-0/src/build.gradle": [buildToolsVersion=26.0.3,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-03-09 21:53:26,746 INFO  ProjectFixService - Project was maybe fixed
+2019-03-09 21:53:26,746 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 21:53:26,747 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143078902-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143078902-0/src/hyperlog-demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 21:53:37,593 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-09 21:53:37,593 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-03-09 21:53:37,593 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-03-09 21:53:37,593 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143078902-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143078902-0/src/hyperlog-demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-03-09 21:53:39,945 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -47,8 +48,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -62,43 +62,51 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-08 13:11:13,438 INFO  SysUtils - Configuration on demand is an incubating feature.
-WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation'.
-It will be removed at the end of 2018
-WARNING: Configuration 'androidTestCompile' is obsolete and has been replaced with 'androidTestImplementation'.
-It will be removed at the end of 2018
-WARNING: Configuration 'androidTestApi' is obsolete and has been replaced with 'androidTestImplementation'.
-It will be removed at the end of 2018
-WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation'.
-It will be removed at the end of 2018
-WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
-It will be removed at the end of 2018
-WARNING: The specified Android SDK Build Tools version (26.0.3) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.0.
-Android SDK Build Tools 27.0.3 will be used.
-To suppress this warning, remove "buildToolsVersion '26.0.3'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+2019-03-09 21:53:39,946 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-Task 'javadocJar' not found in project ':hyperlog-demo'.
+A problem occurred configuring root project 'src'.
+> Could not resolve all files for configuration ':classpath'.
+   > Could not find manifest-merger.jar (com.android.tools.build:manifest-merger:26.1.0).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/tools/build/manifest-merger/26.1.0/manifest-merger-26.1.0.jar
+   > Could not find ddmlib.jar (com.android.tools.ddms:ddmlib:26.1.0).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/tools/ddms/ddmlib/26.1.0/ddmlib-26.1.0.jar
+   > Could not find dvlib.jar (com.android.tools:dvlib:26.1.0).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/tools/dvlib/26.1.0/dvlib-26.1.0.jar
+   > Could not find common.jar (com.android.tools:common:26.1.0).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/tools/common/26.1.0/common-26.1.0.jar
 
 * Try:
-Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
 
 * Exception is:
-org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in project ':hyperlog-demo'.
-	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:116)
-	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:66)
-	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
-	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:268)
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring root project 'src'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:94)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:66)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:110)
 	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
 	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
 	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
 	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:175)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:130)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:666)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:135)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$ConfigureBuild.run(DefaultGradleLauncher.java:249)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.initialization.DefaultGradleLauncher.configureBuild(DefaultGradleLauncher.java:167)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:126)
 	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:109)
 	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
 	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
@@ -151,185 +159,63 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$ArtifactResolveException: Could not resolve all files for configuration ':classpath'.
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.rethrowFailure(DefaultConfiguration.java:918)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$1600(DefaultConfiguration.java:116)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:892)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.getFiles(DefaultConfiguration.java:404)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration_Decorated.getFiles(Unknown Source)
+	at org.gradle.api.internal.file.AbstractFileCollection.iterator(AbstractFileCollection.java:68)
+	at org.gradle.internal.classpath.DefaultClassPath.<init>(DefaultClassPath.java:48)
+	at org.gradle.api.internal.initialization.DefaultScriptClassPathResolver.resolveClassPath(DefaultScriptClassPathResolver.java:39)
+	at org.gradle.api.internal.initialization.DefaultScriptHandler.getScriptClassPath(DefaultScriptHandler.java:72)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.defineScriptHandlerClassScope(DefaultPluginRequestApplicator.java:204)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.applyPlugins(DefaultPluginRequestApplicator.java:82)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:179)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.run(BuildOperationScriptPlugin.java:61)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:58)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:41)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:64)
+	... 70 more
+Caused by: org.gradle.internal.resolve.ArtifactNotFoundException: Could not find manifest-merger.jar (com.android.tools.build:manifest-merger:26.1.0).
+Searched in the following locations:
+    https://jcenter.bintray.com/com/android/tools/build/manifest-merger/26.1.0/manifest-merger-26.1.0.jar
+	at org.gradle.internal.resolve.result.DefaultBuildableArtifactResolveResult.notFound(DefaultBuildableArtifactResolveResult.java:27)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifactFromCache(CachingModuleComponentRepository.java:324)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifact(CachingModuleComponentRepository.java:274)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.BaseModuleComponentRepositoryAccess.resolveArtifact(BaseModuleComponentRepositoryAccess.java:65)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedModuleComponentRepository$CachedAccess.resolveArtifact(InMemoryCachedModuleComponentRepository.java:124)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveArtifact(ErrorHandlingModuleComponentRepository.java:171)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainArtifactResolver.resolveArtifact(RepositoryChainArtifactResolver.java:78)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:171)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:158)
+	at org.gradle.api.internal.artifacts.DefaultResolvedArtifact.getFile(DefaultResolvedArtifact.java:135)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.ArtifactBackedResolvedVariant$DownloadArtifactFile.run(ArtifactBackedResolvedVariant.java:146)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.access$900(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$ParentPreservingQueueWorker.execute(DefaultBuildOperationExecutor.java:378)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runOperation(DefaultBuildOperationQueue.java:230)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.access$600(DefaultBuildOperationQueue.java:172)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:203)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runBatch(DefaultBuildOperationQueue.java:202)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.run(DefaultBuildOperationQueue.java:177)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 9s
+BUILD FAILED in 2s
 
-2018-10-08 13:11:13,438 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2018-10-08 13:11:13,439 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978916829-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978916829-0/src/hyperlog-demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-08 13:12:07,643 INFO  SysUtils - Configuration on demand is an incubating feature.
-WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation'.
-It will be removed at the end of 2018
-WARNING: Configuration 'androidTestCompile' is obsolete and has been replaced with 'androidTestImplementation'.
-It will be removed at the end of 2018
-WARNING: Configuration 'androidTestApi' is obsolete and has been replaced with 'androidTestImplementation'.
-It will be removed at the end of 2018
-WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation'.
-It will be removed at the end of 2018
-WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
-It will be removed at the end of 2018
-WARNING: The specified Android SDK Build Tools version (26.0.3) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.0.
-Android SDK Build Tools 27.0.3 will be used.
-To suppress this warning, remove "buildToolsVersion '26.0.3'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
-WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation'.
-It will be removed at the end of 2018
-WARNING: Configuration 'androidTestCompile' is obsolete and has been replaced with 'androidTestImplementation'.
-It will be removed at the end of 2018
-WARNING: Configuration 'androidTestApi' is obsolete and has been replaced with 'androidTestImplementation'.
-It will be removed at the end of 2018
-WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation'.
-It will be removed at the end of 2018
-WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
-It will be removed at the end of 2018
-:hyperlog:preBuild UP-TO-DATE
-:hyperlog:preDebugBuild UP-TO-DATE
-:hyperlog:compileDebugAidl
-:hyperlog:compileDebugRenderscript
-:hyperlog:checkDebugManifest
-:hyperlog:generateDebugBuildConfig
-:hyperlog:generateDebugResValues
-:hyperlog:generateDebugResources
-:hyperlog:packageDebugResources
-:hyperlog:platformAttrExtractor
-:hyperlog:processDebugManifest
-:hyperlog:prepareLintJar
-:hyperlog:javaPreCompileDebug
-:hyperlog:processDebugJavaRes NO-SOURCE
-:hyperlog-demo:preBuild UP-TO-DATE
-:hyperlog-demo:preDebugBuild
-:hyperlog-demo:compileDebugAidl
-:hyperlog:packageDebugRenderscript NO-SOURCE
-:hyperlog-demo:compileDebugRenderscript
-:hyperlog-demo:checkDebugManifest
-:hyperlog-demo:generateDebugBuildConfig
-:hyperlog-demo:prepareLintJar
-:hyperlog-demo:mainApkListPersistenceDebug
-:hyperlog-demo:generateDebugResValues
-:hyperlog-demo:generateDebugResources
-:hyperlog-demo:mergeDebugResources
-:hyperlog-demo:createDebugCompatibleScreenManifests
-:hyperlog-demo:processDebugManifest
-:hyperlog-demo:splitsDiscoveryTaskDebug
-:hyperlog-demo:compileDebugNdk NO-SOURCE
-:hyperlog:mergeDebugShaders
-:hyperlog:compileDebugShaders
-:hyperlog:generateDebugAssets
-:hyperlog:packageDebugAssets
-:hyperlog-demo:mergeDebugShaders
-:hyperlog-demo:compileDebugShaders
-:hyperlog-demo:generateDebugAssets
-:hyperlog-demo:mergeDebugAssets
-:hyperlog:compileDebugNdk NO-SOURCE
-:hyperlog:mergeDebugJniLibFolders
-:hyperlog:transformNativeLibsWithMergeJniLibsForDebug
-:hyperlog:transformNativeLibsWithStripDebugSymbolForDebug
-:hyperlog:transformNativeLibsWithIntermediateJniLibsForDebug
-:hyperlog-demo:mergeDebugJniLibFolders
-:hyperlog-demo:processDebugJavaRes NO-SOURCE
-:hyperlog-demo:validateSigningDebug
-:hyperlog:preReleaseBuild UP-TO-DATE
-:hyperlog:compileReleaseAidl
-:hyperlog:compileReleaseRenderscript
-:hyperlog:checkReleaseManifest
-:hyperlog:generateReleaseBuildConfig
-:hyperlog:generateReleaseResValues
-:hyperlog:generateReleaseResources
-:hyperlog:packageReleaseResources
-:hyperlog:processReleaseManifest
-:hyperlog:javaPreCompileRelease
-:hyperlog:processReleaseJavaRes NO-SOURCE
-:hyperlog-demo:preReleaseBuild
-:hyperlog-demo:compileReleaseAidl
-:hyperlog:packageReleaseRenderscript NO-SOURCE
-:hyperlog-demo:compileReleaseRenderscript
-:hyperlog-demo:checkReleaseManifest
-:hyperlog-demo:generateReleaseBuildConfig
-:hyperlog-demo:mainApkListPersistenceRelease
-:hyperlog-demo:generateReleaseResValues
-:hyperlog-demo:generateReleaseResources
-:hyperlog-demo:mergeReleaseResources
-:hyperlog-demo:createReleaseCompatibleScreenManifests
-:hyperlog-demo:processReleaseManifest
-:hyperlog-demo:splitsDiscoveryTaskRelease
-:hyperlog-demo:compileReleaseNdk NO-SOURCE
-:hyperlog:mergeReleaseShaders
-:hyperlog:compileReleaseShaders
-:hyperlog:generateReleaseAssets
-:hyperlog:packageReleaseAssets
-:hyperlog-demo:mergeReleaseShaders
-:hyperlog:generateDebugRFile
-:hyperlog:generateDebugSources
-:hyperlog:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978916829-0/src/hyperlog/src/main/java/com/hypertrack/hyperlog/HyperLog.java uses unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
-:hyperlog:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:hyperlog-demo:processDebugResources
-:hyperlog-demo:generateDebugSources
-:hyperlog-demo:javaPreCompileDebug
-:hyperlog-demo:compileDebugJavaWithJavac
-:hyperlog-demo:compileDebugSources
-:hyperlog-demo:transformClassesWithDexBuilderForDebug
-:hyperlog-demo:transformDexArchiveWithExternalLibsDexMergerForDebug
-:hyperlog-demo:transformDexArchiveWithDexMergerForDebug
-:hyperlog-demo:transformNativeLibsWithMergeJniLibsForDebug
-:hyperlog-demo:transformNativeLibsWithStripDebugSymbolForDebug
-:hyperlog-demo:transformResourcesWithMergeJavaResForDebug
-:hyperlog-demo:packageDebug
-:hyperlog-demo:assembleDebug
-:hyperlog:generateReleaseRFile
-:hyperlog:generateReleaseSources
-:hyperlog:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978916829-0/src/hyperlog/src/main/java/com/hypertrack/hyperlog/HyperLog.java uses unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
-:hyperlog:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:hyperlog-demo:processReleaseResources
-:hyperlog-demo:generateReleaseSources
-:hyperlog-demo:javaPreCompileRelease
-:hyperlog-demo:compileReleaseJavaWithJavac
-:hyperlog-demo:compileReleaseSources
-:hyperlog-demo:lintVitalRelease SKIPPED
-:hyperlog-demo:compileReleaseShaders
-:hyperlog-demo:generateReleaseAssets
-:hyperlog-demo:mergeReleaseAssets
-:hyperlog-demo:transformClassesWithDexBuilderForRelease
-:hyperlog-demo:transformDexArchiveWithExternalLibsDexMergerForRelease
-:hyperlog-demo:transformDexArchiveWithDexMergerForRelease
-:hyperlog:compileReleaseNdk NO-SOURCE
-:hyperlog:mergeReleaseJniLibFolders
-:hyperlog:transformNativeLibsWithMergeJniLibsForRelease
-:hyperlog:transformNativeLibsWithStripDebugSymbolForRelease
-:hyperlog:transformNativeLibsWithIntermediateJniLibsForRelease
-:hyperlog-demo:mergeReleaseJniLibFolders
-:hyperlog-demo:transformNativeLibsWithMergeJniLibsForRelease
-:hyperlog-demo:transformNativeLibsWithStripDebugSymbolForRelease
-:hyperlog-demo:processReleaseJavaRes NO-SOURCE
-:hyperlog-demo:transformResourcesWithMergeJavaResForRelease
-:hyperlog-demo:packageRelease
-:hyperlog-demo:assembleRelease
-:hyperlog-demo:assemble
-:hyperlog-demo:lint
-Ran lint on variant debug: 10 issues found
-Ran lint on variant release: 10 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978916829-0/src/hyperlog-demo/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978916829-0/src/hyperlog-demo/build/reports/lint-results.xml
-:hyperlog-demo:preDebugUnitTestBuild UP-TO-DATE
-:hyperlog-demo:javaPreCompileDebugUnitTest
-:hyperlog-demo:compileDebugUnitTestJavaWithJavac
-:hyperlog-demo:mockableAndroidJar
-:hyperlog-demo:processDebugUnitTestJavaRes NO-SOURCE
-:hyperlog-demo:testDebugUnitTest
-:hyperlog-demo:preReleaseUnitTestBuild UP-TO-DATE
-:hyperlog-demo:javaPreCompileReleaseUnitTest
-:hyperlog-demo:compileReleaseUnitTestJavaWithJavac
-:hyperlog-demo:processReleaseUnitTestJavaRes NO-SOURCE
-:hyperlog-demo:testReleaseUnitTest
-:hyperlog-demo:test
-:hyperlog-demo:check
-:hyperlog-demo:build
-
-BUILD SUCCESSFUL in 53s
-98 actionable tasks: 98 executed
-
-2018-10-08 13:12:07,762 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978916829-0/src/hyperlog-demo/build/outputs/apk/release/hyperlog-demo-release-unsigned.apk
+2019-03-09 21:53:39,951 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143078902-0/src/hyperlog-demo-debug.apk

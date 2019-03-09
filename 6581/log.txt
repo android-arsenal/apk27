@@ -1,34 +1,34 @@
-2018-10-08 13:03:26,786 INFO  DownloadService - Downloading "https://github.com/ed-george/VersionKontrol/archive/master.zip", attempt 3
-2018-10-08 13:03:33,520 INFO  DownloadService - Downloading "https://github.com/ed-george/VersionKontrol/archive/master.zip", attempt 2
-2018-10-08 13:03:39,307 INFO  DownloadService - Downloading "https://github.com/ed-george/VersionKontrol/archive/master.zip", attempt 1
-2018-10-08 13:04:39,571 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-10-08 13:04:40,973 INFO  GithubDownloadService - Default branch of this repository: 0.x
-2018-10-08 13:04:40,973 INFO  DownloadService - Downloading "https://github.com/ed-george/VersionKontrol/archive/0.x.zip", attempt 3
-2018-10-08 13:05:42,443 DEBUG FullProcessService - Repository https://github.com/ed-george/VersionKontrol available: true
-2018-10-08 13:05:42,443 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-10-08 13:05:42,444 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/ed-george/VersionKontrol, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978606777-0/src]
-2018-10-08 13:05:44,107 INFO  SysUtils - 
-2018-10-08 13:05:44,138 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978606777-0/src/.git": true
-2018-10-08 13:05:44,140 INFO  FullProcessService - Size of directory with sources: 76 KB
-2018-10-08 13:05:44,140 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978606777-0/src]
-2018-10-08 13:05:44,162 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978606777-0/src/.git/
+2019-03-09 21:46:21,465 INFO  DownloadService - Downloading "https://github.com/ed-george/VersionKontrol/archive/master.zip", attempt 3
+2019-03-09 21:46:27,985 INFO  DownloadService - Downloading "https://github.com/ed-george/VersionKontrol/archive/master.zip", attempt 2
+2019-03-09 21:46:33,934 INFO  DownloadService - Downloading "https://github.com/ed-george/VersionKontrol/archive/master.zip", attempt 1
+2019-03-09 21:47:34,192 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-03-09 21:47:35,612 INFO  GithubDownloadService - Default branch of this repository: 0.x
+2019-03-09 21:47:35,613 INFO  DownloadService - Downloading "https://github.com/ed-george/VersionKontrol/archive/0.x.zip", attempt 3
+2019-03-09 21:48:37,584 DEBUG FullProcessService - Repository https://github.com/ed-george/VersionKontrol available: true
+2019-03-09 21:48:37,584 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-03-09 21:48:37,584 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/ed-george/VersionKontrol, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142781457-0/src]
+2019-03-09 21:48:39,106 INFO  SysUtils - 
+2019-03-09 21:48:39,128 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142781457-0/src/.git": true
+2019-03-09 21:48:39,129 INFO  FullProcessService - Size of directory with sources: 76 KB
+2019-03-09 21:48:39,129 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142781457-0/src]
+2019-03-09 21:48:39,149 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142781457-0/src/.git/
 
-2018-10-08 13:05:44,164 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978606777-0/src/gradlew
-2018-10-08 13:05:44,167 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978606777-0/src/build.gradle
-2018-10-08 13:05:44,169 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978606777-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978606777-0/src/settings.gradle
-2018-10-08 13:05:44,169 INFO  ProjectBuildService - Remote scripts: none
-2018-10-08 13:05:44,169 INFO  ProjectFixService - Fixing project...
-2018-10-08 13:05:44,175 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978606777-0/src/local.properties
-2018-10-08 13:05:44,175 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14-bin.zip
-2018-10-08 13:05:44,176 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978606777-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-10-08 13:05:44,177 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978606777-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-10-08 13:05:44,177 INFO  ProjectFixService - Project was maybe fixed
-2018-10-08 13:05:44,178 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-08 13:05:44,178 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978606777-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978606777-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-08 13:05:49,601 INFO  ProjectTaskService - Detected possible tasks: 44
-2018-10-08 13:05:49,601 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2018-10-08 13:05:49,602 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978606777-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978606777-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2018-10-08 13:06:02,032 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 21:48:39,151 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142781457-0/src/gradlew
+2019-03-09 21:48:39,153 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142781457-0/src/build.gradle
+2019-03-09 21:48:39,154 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142781457-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142781457-0/src/settings.gradle
+2019-03-09 21:48:39,155 INFO  ProjectBuildService - Remote scripts: none
+2019-03-09 21:48:39,155 INFO  ProjectFixService - Fixing project...
+2019-03-09 21:48:39,160 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142781457-0/src/local.properties
+2019-03-09 21:48:39,160 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14-bin.zip
+2019-03-09 21:48:39,161 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142781457-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-09 21:48:39,161 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142781457-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-09 21:48:39,161 INFO  ProjectFixService - Project was maybe fixed
+2019-03-09 21:48:39,161 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 21:48:39,162 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142781457-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142781457-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 21:48:43,622 INFO  ProjectTaskService - Detected possible tasks: 44
+2019-03-09 21:48:43,622 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-03-09 21:48:43,623 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142781457-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142781457-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-03-09 21:48:53,081 INFO  SysUtils - Configuration on demand is an incubating feature.
 :compileKotlin
 :compileJava UP-TO-DATE
 :copyMainKotlinClasses
@@ -40,7 +40,7 @@
 
 BUILD SUCCESSFUL
 
-Total time: 11.893 secs
+Total time: 8.969 secs
 
-2018-10-08 13:06:02,040 ERROR FullProcessService - Project build has not produced APK file
-2018-10-08 13:06:02,047 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-09 21:48:53,100 ERROR FullProcessService - Project build has not produced APK file
+2019-03-09 21:48:53,105 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,40 +1,40 @@
-2018-10-08 13:02:13,764 INFO  DownloadService - Downloading "https://github.com/siralam/WebViewSuite/archive/master.zip", attempt 3
-2018-10-08 13:02:16,035 INFO  DownloadService - Downloaded https://github.com/siralam/WebViewSuite/archive/master.zip, attempt 3
-2018-10-08 13:02:16,036 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/master.zip": 148 KB
-2018-10-08 13:02:16,036 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-08 13:02:16,041 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/master.zip: true
-2018-10-08 13:02:16,041 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/src'.
-2018-10-08 13:02:16,064 INFO  FullProcessService - Size of directory with sources: 171 KB
-2018-10-08 13:02:16,064 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/src]
-2018-10-08 13:02:16,090 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/src/.git/
+2019-03-09 21:45:15,126 INFO  DownloadService - Downloading "https://github.com/siralam/WebViewSuite/archive/master.zip", attempt 3
+2019-03-09 21:45:19,740 INFO  DownloadService - Downloaded https://github.com/siralam/WebViewSuite/archive/master.zip, attempt 3
+2019-03-09 21:45:19,740 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/master.zip": 148 KB
+2019-03-09 21:45:19,740 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-09 21:45:19,741 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/master.zip: true
+2019-03-09 21:45:19,741 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/src'.
+2019-03-09 21:45:19,763 INFO  FullProcessService - Size of directory with sources: 171 KB
+2019-03-09 21:45:19,763 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/src]
+2019-03-09 21:45:19,786 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/src/.git/
 
-2018-10-08 13:02:16,093 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/src/WebViewSuite-master/gradlew
-2018-10-08 13:02:16,097 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/src/WebViewSuite-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/src/WebViewSuite-master/webviewsuite/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/src/WebViewSuite-master/build.gradle
-2018-10-08 13:02:16,101 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/src/WebViewSuite-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/src/WebViewSuite-master/webviewsuite/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/src/WebViewSuite-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/src/WebViewSuite-master/settings.gradle
-2018-10-08 13:02:16,108 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2018-10-08 13:02:16,862 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2018-10-08 13:02:16,863 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2018-10-08 13:02:16,955 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2018-10-08 13:02:16,955 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2018-10-08 13:02:16,955 INFO  ProjectFixService - Fixing project...
-2018-10-08 13:02:16,966 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/src/WebViewSuite-master/app/local.properties
-2018-10-08 13:02:16,967 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/src/WebViewSuite-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-10-08 13:02:16,967 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/src/WebViewSuite-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-10-08 13:02:16,968 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/src/WebViewSuite-master/webviewsuite/local.properties
-2018-10-08 13:02:16,972 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/src/WebViewSuite-master/webviewsuite/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-10-08 13:02:16,972 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/src/WebViewSuite-master/webviewsuite/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-10-08 13:02:16,974 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/src/WebViewSuite-master/local.properties
-2018-10-08 13:02:16,975 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-10-08 13:02:16,975 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-10-08 13:02:16,976 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/src/WebViewSuite-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-10-08 13:02:16,977 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/src/WebViewSuite-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-10-08 13:02:16,977 INFO  ProjectFixService - Project was maybe fixed
-2018-10-08 13:02:16,978 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-08 13:02:16,978 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/src/WebViewSuite-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/src/WebViewSuite-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-08 13:02:26,161 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-10-08 13:02:26,161 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-08 13:02:26,162 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/src/WebViewSuite-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/src/WebViewSuite-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-08 13:02:34,825 ERROR SysUtils - Could not process external command
+2019-03-09 21:45:19,790 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/src/WebViewSuite-master/gradlew
+2019-03-09 21:45:19,793 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/src/WebViewSuite-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/src/WebViewSuite-master/webviewsuite/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/src/WebViewSuite-master/build.gradle
+2019-03-09 21:45:19,797 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/src/WebViewSuite-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/src/WebViewSuite-master/webviewsuite/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/src/WebViewSuite-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/src/WebViewSuite-master/settings.gradle
+2019-03-09 21:45:19,797 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-03-09 21:45:19,893 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-03-09 21:45:19,893 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-03-09 21:45:19,986 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-03-09 21:45:19,987 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-03-09 21:45:19,987 INFO  ProjectFixService - Fixing project...
+2019-03-09 21:45:19,998 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/src/WebViewSuite-master/app/local.properties
+2019-03-09 21:45:19,999 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/src/WebViewSuite-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-03-09 21:45:19,999 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/src/WebViewSuite-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-03-09 21:45:20,000 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/src/WebViewSuite-master/webviewsuite/local.properties
+2019-03-09 21:45:20,001 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/src/WebViewSuite-master/webviewsuite/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-03-09 21:45:20,001 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/src/WebViewSuite-master/webviewsuite/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-03-09 21:45:20,002 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/src/WebViewSuite-master/local.properties
+2019-03-09 21:45:20,002 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-03-09 21:45:20,002 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-03-09 21:45:20,004 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/src/WebViewSuite-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-03-09 21:45:20,004 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/src/WebViewSuite-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-03-09 21:45:20,004 INFO  ProjectFixService - Project was maybe fixed
+2019-03-09 21:45:20,004 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 21:45:20,004 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/src/WebViewSuite-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/src/WebViewSuite-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 21:45:26,822 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-03-09 21:45:26,822 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-09 21:45:26,822 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/src/WebViewSuite-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/src/WebViewSuite-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-09 21:45:33,414 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -47,8 +47,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -62,7 +61,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-08 13:02:34,825 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 21:45:33,414 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -142,11 +141,11 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 8s
+BUILD FAILED in 6s
 
-2018-10-08 13:02:34,826 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2018-10-08 13:02:34,826 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/src/WebViewSuite-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/src/WebViewSuite-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-08 13:03:18,015 ERROR SysUtils - Could not process external command
+2019-03-09 21:45:33,415 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-03-09 21:45:33,415 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/src/WebViewSuite-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/src/WebViewSuite-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-09 21:46:13,602 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -159,8 +158,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -174,7 +172,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-08 13:03:18,016 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 21:46:13,608 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :webviewsuite:preBuild UP-TO-DATE
 :webviewsuite:preDebugBuild UP-TO-DATE
@@ -270,7 +268,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 :app:processDebugResources
 :app:generateDebugSources
 :webviewsuite:generateDebugSources
-:webviewsuite:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/src/WebViewSuite-master/webviewsuite/src/main/java/com/asksira/webviewsuite/WebViewSuite.java uses or overrides a deprecated API.
+:webviewsuite:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/src/WebViewSuite-master/webviewsuite/src/main/java/com/asksira/webviewsuite/WebViewSuite.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :webviewsuite:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
@@ -289,7 +287,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :app:processReleaseResources
 :app:generateReleaseSources
 :webviewsuite:generateReleaseSources
-:webviewsuite:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/src/WebViewSuite-master/webviewsuite/src/main/java/com/asksira/webviewsuite/WebViewSuite.java uses or overrides a deprecated API.
+:webviewsuite:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/src/WebViewSuite-master/webviewsuite/src/main/java/com/asksira/webviewsuite/WebViewSuite.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :webviewsuite:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
@@ -309,21 +307,21 @@ Note: Recompile with -Xlint:deprecation for details.
 :app:lint
 Ran lint on variant release: 6 issues found
 Ran lint on variant debug: 6 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/src/WebViewSuite-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/src/WebViewSuite-master/app/build/reports/lint-results.xml
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/src/WebViewSuite-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/src/WebViewSuite-master/app/build/reports/lint-results.xml
 :app:javaPreCompileDebugUnitTest
-:app:compileDebugUnitTestJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/src/WebViewSuite-master/app/src/test/java/com/asksira/webviewsuitedemo/ExampleUnitTest.java:3: error: package org.junit does not exist
+:app:compileDebugUnitTestJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/src/WebViewSuite-master/app/src/test/java/com/asksira/webviewsuitedemo/ExampleUnitTest.java:3: error: package org.junit does not exist
 import org.junit.Test;
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/src/WebViewSuite-master/app/src/test/java/com/asksira/webviewsuitedemo/ExampleUnitTest.java:5: error: package org.junit does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/src/WebViewSuite-master/app/src/test/java/com/asksira/webviewsuitedemo/ExampleUnitTest.java:5: error: package org.junit does not exist
 import static org.junit.Assert.*;
                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/src/WebViewSuite-master/app/src/test/java/com/asksira/webviewsuitedemo/ExampleUnitTest.java:13: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/src/WebViewSuite-master/app/src/test/java/com/asksira/webviewsuitedemo/ExampleUnitTest.java:13: error: cannot find symbol
     @Test
      ^
   symbol:   class Test
   location: class ExampleUnitTest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/src/WebViewSuite-master/app/src/test/java/com/asksira/webviewsuitedemo/ExampleUnitTest.java:15: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/src/WebViewSuite-master/app/src/test/java/com/asksira/webviewsuitedemo/ExampleUnitTest.java:15: error: cannot find symbol
         assertEquals(4, 2 + 2);
         ^
   symbol:   method assertEquals(int,int)
@@ -401,7 +399,7 @@ Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Com
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 42s
+BUILD FAILED in 39s
 94 actionable tasks: 94 executed
 
-2018-10-08 13:03:18,093 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978533760-0/src/WebViewSuite-master/app/build/outputs/apk/debug/app-debug.apk
+2019-03-09 21:46:13,694 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142715123-0/src/WebViewSuite-master/app/build/outputs/apk/debug/app-debug.apk

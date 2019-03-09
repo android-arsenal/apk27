@@ -1,36 +1,36 @@
-2018-10-08 13:00:03,136 INFO  DownloadService - Downloading "https://github.com/adrielcafe/KBus/archive/master.zip", attempt 3
-2018-10-08 13:00:03,813 INFO  DownloadService - Downloaded https://github.com/adrielcafe/KBus/archive/master.zip, attempt 3
-2018-10-08 13:00:03,813 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/master.zip": 139 KB
-2018-10-08 13:00:03,813 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-08 13:00:03,819 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/master.zip: true
-2018-10-08 13:00:03,819 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src'.
-2018-10-08 13:00:03,839 INFO  FullProcessService - Size of directory with sources: 146 KB
-2018-10-08 13:00:03,839 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src]
-2018-10-08 13:00:03,889 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/.git/
+2019-03-09 21:43:41,749 INFO  DownloadService - Downloading "https://github.com/adrielcafe/KBus/archive/master.zip", attempt 3
+2019-03-09 21:43:42,431 INFO  DownloadService - Downloaded https://github.com/adrielcafe/KBus/archive/master.zip, attempt 3
+2019-03-09 21:43:42,431 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/master.zip": 139 KB
+2019-03-09 21:43:42,431 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-09 21:43:42,436 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/master.zip: true
+2019-03-09 21:43:42,437 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src'.
+2019-03-09 21:43:42,455 INFO  FullProcessService - Size of directory with sources: 146 KB
+2019-03-09 21:43:42,455 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src]
+2019-03-09 21:43:42,473 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/.git/
 
-2018-10-08 13:00:03,893 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/gradlew
-2018-10-08 13:00:03,898 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/build.gradle
-2018-10-08 13:00:03,903 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/settings.gradle
-2018-10-08 13:00:03,904 INFO  ProjectBuildService - Remote scripts: none
-2018-10-08 13:00:03,904 INFO  ProjectFixService - Fixing project...
-2018-10-08 13:00:03,916 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/local.properties
-2018-10-08 13:00:03,917 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
-2018-10-08 13:00:03,917 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
-2018-10-08 13:00:03,919 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/library/local.properties
-2018-10-08 13:00:03,920 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
-2018-10-08 13:00:03,920 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
-2018-10-08 13:00:03,922 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/local.properties
-2018-10-08 13:00:03,922 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-10-08 13:00:03,923 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-10-08 13:00:03,925 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
-2018-10-08 13:00:03,925 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
-2018-10-08 13:00:03,926 INFO  ProjectFixService - Project was maybe fixed
-2018-10-08 13:00:03,926 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-08 13:00:03,926 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-08 13:00:16,020 INFO  ProjectTaskService - Detected possible tasks: 66
-2018-10-08 13:00:16,020 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-08 13:00:16,020 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-08 13:00:54,545 ERROR SysUtils - Could not process external command
+2019-03-09 21:43:42,476 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/gradlew
+2019-03-09 21:43:42,480 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/build.gradle
+2019-03-09 21:43:42,483 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/settings.gradle
+2019-03-09 21:43:42,483 INFO  ProjectBuildService - Remote scripts: none
+2019-03-09 21:43:42,483 INFO  ProjectFixService - Fixing project...
+2019-03-09 21:43:42,491 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/local.properties
+2019-03-09 21:43:42,492 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-03-09 21:43:42,492 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-03-09 21:43:42,493 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/library/local.properties
+2019-03-09 21:43:42,493 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-03-09 21:43:42,493 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-03-09 21:43:42,494 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/local.properties
+2019-03-09 21:43:42,494 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-03-09 21:43:42,495 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-03-09 21:43:42,496 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-03-09 21:43:42,496 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-03-09 21:43:42,496 INFO  ProjectFixService - Project was maybe fixed
+2019-03-09 21:43:42,496 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 21:43:42,496 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 21:43:58,221 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-03-09 21:43:58,221 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-09 21:43:58,221 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-09 21:44:27,142 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -43,8 +43,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -58,7 +57,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-08 13:00:54,546 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 21:44:27,143 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :library:preBuild UP-TO-DATE
 :library:preDebugBuild UP-TO-DATE
@@ -113,36 +112,6 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 :library:packageReleaseRenderscript NO-SOURCE
 :app:compileReleaseRenderscript
 :app:checkReleaseManifest
-:app:generateReleaseBuildConfig
-:app:mainApkListPersistenceRelease
-:app:generateReleaseResValues
-:app:generateReleaseResources
-:library:compileReleaseRenderscript
-:library:generateReleaseResValues
-:library:generateReleaseResources
-:library:packageReleaseResources
-:app:mergeReleaseResources
-:app:createReleaseCompatibleScreenManifests
-:app:processReleaseManifest
-:app:splitsDiscoveryTaskRelease
-:library:generateReleaseBuildConfig
-:library:processReleaseJavaRes NO-SOURCE
-:app:compileReleaseNdk NO-SOURCE
-:app:mergeReleaseShaders
-:app:compileReleaseShaders
-:app:generateReleaseAssets
-:library:mergeReleaseShaders
-:library:compileReleaseShaders
-:library:generateReleaseAssets
-:library:packageReleaseAssets
-:app:mergeReleaseAssets
-:app:mergeReleaseJniLibFolders
-:library:compileReleaseNdk NO-SOURCE
-:library:mergeReleaseJniLibFolders
-:library:transformNativeLibsWithMergeJniLibsForRelease
-:library:transformNativeLibsWithStripDebugSymbolForRelease
-:library:transformNativeLibsWithIntermediateJniLibsForRelease
-:app:processReleaseJavaRes NO-SOURCE
 :library:generateDebugRFile
 :app:processDebugResources
 :library:compileDebugKotlin
@@ -151,18 +120,20 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 :library:compileDebugJavaWithJavac
 :library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/src/main/java/cafe/adriel/kbus/MainActivity.kt: (24, 19): Parameter 'v' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/src/main/java/cafe/adriel/kbus/MainActivity.kt: (24, 19): Parameter 'v' is never used
 :app:generateDebugSources
 :app:javaPreCompileDebug
 :app:compileDebugJavaWithJavac
 :app:compileDebugSources
 :app:transformClassesWithDexBuilderForDebug
 D8 is used to build dex.
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
 :app:transformDexArchiveWithExternalLibsDexMergerForDebug
 :app:transformDexArchiveWithDexMergerForDebug
 D8 is used to merge dex.
 D8: Program type already present: cafe.adriel.kbus.BuildConfig
-java.lang.RuntimeException: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/22, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/23, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/externalLibsDexMerger/debug/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/18.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/20.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/21.jar
+java.lang.RuntimeException: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/90, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/91, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/externalLibsDexMerger/debug/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/88.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/89.jar
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -223,13 +194,13 @@ java.lang.RuntimeException: java.lang.RuntimeException: com.android.builder.dexi
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/22, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/23, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/externalLibsDexMerger/debug/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/18.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/20.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/21.jar
+Caused by: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/90, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/91, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/externalLibsDexMerger/debug/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/88.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/89.jar
 	at java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1431)
 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
-Caused by: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/22, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/23, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/externalLibsDexMerger/debug/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/18.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/20.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/21.jar
+Caused by: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/90, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/91, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/externalLibsDexMerger/debug/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/88.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/89.jar
 	at com.android.builder.dexing.D8DexArchiveMerger.getExceptionToRethrow(D8DexArchiveMerger.java:123)
 	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:108)
 	at com.android.build.gradle.internal.transforms.DexMergerTransformCallable.call(DexMergerTransformCallable.java:101)
@@ -254,7 +225,7 @@ FAILURE: Build failed with an exception.
 
 * What went wrong:
 Execution failed for task ':app:transformDexArchiveWithDexMergerForDebug'.
-> com.android.build.api.transform.TransformException: java.lang.RuntimeException: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/22, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/23, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/externalLibsDexMerger/debug/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/18.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/20.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/21.jar
+> com.android.build.api.transform.TransformException: java.lang.RuntimeException: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/90, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/91, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/externalLibsDexMerger/debug/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/88.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/89.jar
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -291,7 +262,7 @@ org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:tra
 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
-Caused by: java.lang.RuntimeException: com.android.build.api.transform.TransformException: java.lang.RuntimeException: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/22, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/23, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/externalLibsDexMerger/debug/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/18.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/20.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/21.jar
+Caused by: java.lang.RuntimeException: com.android.build.api.transform.TransformException: java.lang.RuntimeException: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/90, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/91, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/externalLibsDexMerger/debug/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/88.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/89.jar
 	at com.android.builder.profile.Recorder$Block.handleException(Recorder.java:55)
 	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:104)
 	at com.android.build.gradle.internal.pipeline.TransformTask.transform(TransformTask.java:212)
@@ -307,18 +278,18 @@ Caused by: java.lang.RuntimeException: com.android.build.api.transform.Transform
 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:110)
 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:92)
 	... 29 more
-Caused by: com.android.build.api.transform.TransformException: java.lang.RuntimeException: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/22, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/23, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/externalLibsDexMerger/debug/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/18.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/20.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/21.jar
+Caused by: com.android.build.api.transform.TransformException: java.lang.RuntimeException: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/90, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/91, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/externalLibsDexMerger/debug/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/88.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/89.jar
 	at com.android.build.gradle.internal.transforms.DexMergerTransform.transform(DexMergerTransform.java:229)
 	at com.android.build.gradle.internal.pipeline.TransformTask$2.call(TransformTask.java:221)
 	at com.android.build.gradle.internal.pipeline.TransformTask$2.call(TransformTask.java:217)
 	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:102)
 	... 41 more
-Caused by: java.lang.RuntimeException: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/22, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/23, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/externalLibsDexMerger/debug/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/18.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/20.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/21.jar
+Caused by: java.lang.RuntimeException: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/90, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/91, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/externalLibsDexMerger/debug/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/88.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/89.jar
 	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:397)
 	at com.android.build.gradle.internal.transforms.DexMergerTransform.transform(DexMergerTransform.java:225)
 	... 44 more
-Caused by: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/22, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/23, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/externalLibsDexMerger/debug/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/18.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/20.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/21.jar
-Caused by: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/22, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/23, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/externalLibsDexMerger/debug/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/18.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/20.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/21.jar
+Caused by: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/90, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/91, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/externalLibsDexMerger/debug/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/88.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/89.jar
+Caused by: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/90, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/91, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/externalLibsDexMerger/debug/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/88.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/89.jar
 	at com.android.builder.dexing.D8DexArchiveMerger.getExceptionToRethrow(D8DexArchiveMerger.java:123)
 	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:108)
 	at com.android.build.gradle.internal.transforms.DexMergerTransformCallable.call(DexMergerTransformCallable.java:101)
@@ -338,15 +309,15 @@ Caused by: com.android.tools.r8.utils.AbortException
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 37s
-74 actionable tasks: 74 executed
+BUILD FAILED in 28s
+52 actionable tasks: 52 executed
 
-2018-10-08 13:00:54,668 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-08 13:00:54,669 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-08 13:01:13,348 INFO  ProjectTaskService - Detected possible tasks: 64
-2018-10-08 13:01:13,349 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-10-08 13:01:13,349 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-10-08 13:01:48,094 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 21:44:27,186 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 21:44:27,186 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 21:44:34,067 INFO  ProjectTaskService - Detected possible tasks: 64
+2019-03-09 21:44:34,067 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-09 21:44:34,067 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-09 21:44:58,795 INFO  SysUtils - Configuration on demand is an incubating feature.
 :library:preBuild UP-TO-DATE
 :library:preDebugBuild UP-TO-DATE
 :library:compileDebugAidl UP-TO-DATE
@@ -365,6 +336,14 @@ BUILD FAILED in 37s
 :library:javaPreCompileDebug UP-TO-DATE
 :library:compileDebugJavaWithJavac UP-TO-DATE
 :library:extractDebugAnnotations
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.0-beta1/lint-kotlin-26.1.0-beta1.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.1.0-beta1/lint-gradle-26.1.0-beta1.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.0-beta1/lint-26.1.0-beta1.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.0-beta1/uast-26.1.0-beta1.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.0-beta1/lint-api-26.1.0-beta1.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.0-beta1/intellij-core-26.1.0-beta1.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.0-beta1/lint-checks-26.1.0-beta1.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.0-beta1/kotlin-compiler-26.1.0-beta1.jar
 :library:mergeDebugConsumerProguardFiles
 :library:mergeDebugShaders UP-TO-DATE
 :library:compileDebugShaders UP-TO-DATE
@@ -384,12 +363,12 @@ BUILD FAILED in 37s
 :library:assembleDebug
 :library:preReleaseBuild UP-TO-DATE
 :library:compileReleaseAidl UP-TO-DATE
-:library:compileReleaseRenderscript UP-TO-DATE
+:library:compileReleaseRenderscript
 :library:checkReleaseManifest UP-TO-DATE
-:library:generateReleaseBuildConfig UP-TO-DATE
-:library:generateReleaseResValues UP-TO-DATE
-:library:generateReleaseResources UP-TO-DATE
-:library:packageReleaseResources UP-TO-DATE
+:library:generateReleaseBuildConfig
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
 :library:processReleaseManifest UP-TO-DATE
 :library:generateReleaseRFile
 :library:compileReleaseKotlin
@@ -398,18 +377,18 @@ BUILD FAILED in 37s
 :library:compileReleaseJavaWithJavac
 :library:extractReleaseAnnotations
 :library:mergeReleaseConsumerProguardFiles
-:library:mergeReleaseShaders UP-TO-DATE
-:library:compileReleaseShaders UP-TO-DATE
-:library:generateReleaseAssets UP-TO-DATE
-:library:packageReleaseAssets UP-TO-DATE
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:packageReleaseAssets
 :library:packageReleaseRenderscript NO-SOURCE
 :library:processReleaseJavaRes NO-SOURCE
 :library:transformResourcesWithMergeJavaResForRelease
 :library:transformClassesAndResourcesWithSyncLibJarsForRelease
 :library:compileReleaseNdk NO-SOURCE
-:library:mergeReleaseJniLibFolders UP-TO-DATE
-:library:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
-:library:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithStripDebugSymbolForRelease
 :library:transformNativeLibsWithSyncJniLibsForRelease
 :library:bundleRelease
 :library:compileReleaseSources
@@ -419,15 +398,15 @@ BUILD FAILED in 37s
 :library:assemble
 :library:build
 
-BUILD SUCCESSFUL in 33s
-50 actionable tasks: 18 executed, 32 up-to-date
+BUILD SUCCESSFUL in 24s
+50 actionable tasks: 28 executed, 22 up-to-date
 
-2018-10-08 13:01:48,208 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-08 13:01:48,208 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-08 13:01:59,260 INFO  ProjectTaskService - Detected possible tasks: 68
-2018-10-08 13:01:59,261 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-08 13:01:59,261 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-08 13:02:12,567 ERROR SysUtils - Could not process external command
+2019-03-09 21:44:58,870 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 21:44:58,871 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 21:45:05,223 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-03-09 21:45:05,223 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-09 21:45:05,223 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-09 21:45:14,560 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -440,8 +419,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -455,7 +433,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-08 13:02:12,567 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 21:45:14,560 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :library:preBuild UP-TO-DATE
 :library:preDebugBuild UP-TO-DATE
@@ -510,7 +488,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 :app:transformDexArchiveWithDexMergerForDebug
 D8 is used to merge dex.
 D8: Program type already present: cafe.adriel.kbus.BuildConfig
-java.lang.RuntimeException: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/22, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/23, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/externalLibsDexMerger/debug/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/18.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/20.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/21.jar
+java.lang.RuntimeException: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/90, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/91, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/externalLibsDexMerger/debug/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/88.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/89.jar
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -571,13 +549,13 @@ java.lang.RuntimeException: java.lang.RuntimeException: com.android.builder.dexi
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/22, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/23, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/externalLibsDexMerger/debug/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/18.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/20.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/21.jar
+Caused by: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/90, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/91, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/externalLibsDexMerger/debug/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/88.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/89.jar
 	at java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1431)
 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
-Caused by: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/22, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/23, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/externalLibsDexMerger/debug/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/18.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/20.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/21.jar
+Caused by: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/90, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/91, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/externalLibsDexMerger/debug/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/88.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/89.jar
 	at com.android.builder.dexing.D8DexArchiveMerger.getExceptionToRethrow(D8DexArchiveMerger.java:123)
 	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:108)
 	at com.android.build.gradle.internal.transforms.DexMergerTransformCallable.call(DexMergerTransformCallable.java:101)
@@ -602,7 +580,7 @@ FAILURE: Build failed with an exception.
 
 * What went wrong:
 Execution failed for task ':app:transformDexArchiveWithDexMergerForDebug'.
-> com.android.build.api.transform.TransformException: java.lang.RuntimeException: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/22, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/23, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/externalLibsDexMerger/debug/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/18.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/20.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/21.jar
+> com.android.build.api.transform.TransformException: java.lang.RuntimeException: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/90, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/91, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/externalLibsDexMerger/debug/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/88.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/89.jar
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -639,7 +617,7 @@ org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:tra
 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
-Caused by: java.lang.RuntimeException: com.android.build.api.transform.TransformException: java.lang.RuntimeException: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/22, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/23, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/externalLibsDexMerger/debug/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/18.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/20.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/21.jar
+Caused by: java.lang.RuntimeException: com.android.build.api.transform.TransformException: java.lang.RuntimeException: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/90, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/91, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/externalLibsDexMerger/debug/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/88.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/89.jar
 	at com.android.builder.profile.Recorder$Block.handleException(Recorder.java:55)
 	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:104)
 	at com.android.build.gradle.internal.pipeline.TransformTask.transform(TransformTask.java:212)
@@ -655,18 +633,18 @@ Caused by: java.lang.RuntimeException: com.android.build.api.transform.Transform
 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:110)
 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:92)
 	... 29 more
-Caused by: com.android.build.api.transform.TransformException: java.lang.RuntimeException: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/22, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/23, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/externalLibsDexMerger/debug/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/18.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/20.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/21.jar
+Caused by: com.android.build.api.transform.TransformException: java.lang.RuntimeException: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/90, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/91, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/externalLibsDexMerger/debug/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/88.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/89.jar
 	at com.android.build.gradle.internal.transforms.DexMergerTransform.transform(DexMergerTransform.java:229)
 	at com.android.build.gradle.internal.pipeline.TransformTask$2.call(TransformTask.java:221)
 	at com.android.build.gradle.internal.pipeline.TransformTask$2.call(TransformTask.java:217)
 	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:102)
 	... 41 more
-Caused by: java.lang.RuntimeException: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/22, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/23, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/externalLibsDexMerger/debug/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/18.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/20.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/21.jar
+Caused by: java.lang.RuntimeException: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/90, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/91, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/externalLibsDexMerger/debug/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/88.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/89.jar
 	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:397)
 	at com.android.build.gradle.internal.transforms.DexMergerTransform.transform(DexMergerTransform.java:225)
 	... 44 more
-Caused by: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/22, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/23, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/externalLibsDexMerger/debug/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/18.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/20.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/21.jar
-Caused by: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/22, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/23, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/externalLibsDexMerger/debug/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/18.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/20.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978403131-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/21.jar
+Caused by: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/90, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/91, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/externalLibsDexMerger/debug/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/88.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/89.jar
+Caused by: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/90, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/91, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/externalLibsDexMerger/debug/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/88.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142621746-0/src/KBus-master/app/build/intermediates/transforms/dexBuilder/debug/89.jar
 	at com.android.builder.dexing.D8DexArchiveMerger.getExceptionToRethrow(D8DexArchiveMerger.java:123)
 	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:108)
 	at com.android.build.gradle.internal.transforms.DexMergerTransformCallable.call(DexMergerTransformCallable.java:101)
@@ -686,8 +664,8 @@ Caused by: com.android.tools.r8.utils.AbortException
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 12s
+BUILD FAILED in 9s
 39 actionable tasks: 1 executed, 38 up-to-date
 
-2018-10-08 13:02:12,680 ERROR FullProcessService - Project build has not produced APK file
-2018-10-08 13:02:12,804 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-09 21:45:14,636 ERROR FullProcessService - Project build has not produced APK file
+2019-03-09 21:45:14,706 ERROR FullProcessService - Could not find generated or existed APK file

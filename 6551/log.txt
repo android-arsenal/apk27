@@ -1,12 +1,15 @@
-2018-09-16 19:07:05,432 INFO  DownloadService - Downloading "https://github.com/QuixomTech/WeatherStream/archive/master.zip", attempt 3
-2018-09-16 19:07:15,884 INFO  DownloadService - Downloaded https://github.com/QuixomTech/WeatherStream/archive/master.zip, attempt 3
-2018-09-16 19:07:15,884 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099625429-0/master.zip": 36 MB
-2018-09-16 19:07:15,884 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-09-16 19:07:15,890 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099625429-0/master.zip: true
-2018-09-16 19:07:15,890 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099625429-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099625429-0/src'.
-2018-09-16 19:07:16,961 INFO  FullProcessService - Size of directory with sources: 59 MB
-2018-09-16 19:07:16,961 ERROR FullProcessService - Source directory should be less than 50 MB
-2018-09-16 19:07:16,961 ERROR FullProcessService - Project will not be processed
-2018-09-16 19:07:16,961 ERROR FullProcessService - Project build has not produced APK file
-2018-09-16 19:07:17,011 INFO  FullProcessService - Found existed APK file in the project: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099625429-0/src/WeatherStream-master/app/build/outputs/apk/debug/app-debug.apk
-2018-09-16 19:07:17,011 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099625429-0/src/WeatherStream-master/app/build/outputs/apk/debug/app-debug.apk
+2019-03-09 22:38:36,216 INFO  DownloadService - Downloading "https://github.com/QuixomTech/WeatherStream/archive/master.zip", attempt 3
+2019-03-09 22:39:37,104 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-03-09 22:39:38,343 INFO  GithubDownloadService - Default branch of this repository: master
+2019-03-09 22:39:38,344 INFO  DownloadService - Downloading "https://github.com/QuixomTech/WeatherStream/archive/master.zip", attempt 3
+2019-03-09 22:40:40,252 DEBUG FullProcessService - Repository https://github.com/QuixomTech/WeatherStream available: true
+2019-03-09 22:40:40,252 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-03-09 22:40:40,252 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/QuixomTech/WeatherStream, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145916213-0/src]
+2019-03-09 22:40:56,659 INFO  SysUtils - 
+2019-03-09 22:40:56,704 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145916213-0/src/.git": true
+2019-03-09 22:40:56,778 INFO  FullProcessService - Size of directory with sources: 59 MB
+2019-03-09 22:40:56,778 ERROR FullProcessService - Source directory should be less than 50 MB
+2019-03-09 22:40:56,778 ERROR FullProcessService - Project will not be processed
+2019-03-09 22:40:56,778 ERROR FullProcessService - Project build has not produced APK file
+2019-03-09 22:40:56,829 INFO  FullProcessService - Found existed APK file in the project: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145916213-0/src/app/build/outputs/apk/debug/app-debug.apk
+2019-03-09 22:40:56,829 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145916213-0/src/app/build/outputs/apk/debug/app-debug.apk

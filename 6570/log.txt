@@ -1,36 +1,39 @@
-2018-11-03 23:19:00,853 INFO  DownloadService - Downloading "https://github.com/robertlevonyan/customFloatingActionButton/archive/master.zip", attempt 3
-2018-11-03 23:19:03,655 INFO  DownloadService - Downloaded https://github.com/robertlevonyan/customFloatingActionButton/archive/master.zip, attempt 3
-2018-11-03 23:19:03,656 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/master.zip": 604 KB
-2018-11-03 23:19:03,656 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-03 23:19:03,657 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/master.zip: true
-2018-11-03 23:19:03,657 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src'.
-2018-11-03 23:19:03,711 INFO  FullProcessService - Size of directory with sources: 973 KB
-2018-11-03 23:19:03,712 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src]
-2018-11-03 23:19:03,754 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/.git/
+2019-03-09 22:06:51,542 INFO  DownloadService - Downloading "https://github.com/robertlevonyan/customFloatingActionButton/archive/master.zip", attempt 3
+2019-03-09 22:07:52,387 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-03-09 22:07:53,428 INFO  GithubDownloadService - Default branch of this repository: master
+2019-03-09 22:07:53,428 INFO  DownloadService - Downloading "https://github.com/robertlevonyan/customFloatingActionButton/archive/master.zip", attempt 3
+2019-03-09 22:08:55,315 DEBUG FullProcessService - Repository https://github.com/robertlevonyan/customFloatingActionButton available: true
+2019-03-09 22:08:55,315 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-03-09 22:08:55,315 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/robertlevonyan/customFloatingActionButton, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src]
+2019-03-09 22:08:57,736 INFO  SysUtils - 
+2019-03-09 22:08:57,743 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/.git": true
+2019-03-09 22:08:57,747 INFO  FullProcessService - Size of directory with sources: 973 KB
+2019-03-09 22:08:57,747 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src]
+2019-03-09 22:08:57,764 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/.git/
 
-2018-11-03 23:19:03,761 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/sample/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/CustomFloatingActionButton/gradlew
-2018-11-03 23:19:03,769 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/CustomFloatingActionButton/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/sample/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/CustomFloatingActionButton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/sample/build.gradle
-2018-11-03 23:19:03,775 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/sample/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/sample/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/CustomFloatingActionButton/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/CustomFloatingActionButton/build.gradle
-2018-11-03 23:19:03,776 INFO  ProjectBuildService - Remote scripts: none
-2018-11-03 23:19:03,776 INFO  ProjectFixService - Fixing project...
-2018-11-03 23:19:03,797 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/CustomFloatingActionButton/app/local.properties
-2018-11-03 23:19:03,797 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/CustomFloatingActionButton/app/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-11-03 23:19:03,798 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/sample/app/local.properties
-2018-11-03 23:19:03,799 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/sample/app/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=25,targetSdkVersion=27]
-2018-11-03 23:19:03,800 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/CustomFloatingActionButton/local.properties
-2018-11-03 23:19:03,802 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2018-11-03 23:19:03,804 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2018-11-03 23:19:03,811 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/CustomFloatingActionButton/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=25,targetSdkVersion=27]
-2018-11-03 23:19:03,812 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/sample/local.properties
-2018-11-03 23:19:03,813 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/sample/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=25,targetSdkVersion=27]
-2018-11-03 23:19:03,818 INFO  ProjectFixService - Project was maybe fixed
-2018-11-03 23:19:03,818 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-03 23:19:03,820 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/CustomFloatingActionButton/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/CustomFloatingActionButton/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-03 23:19:13,625 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-03 23:19:13,625 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-03 23:19:13,625 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-03 23:19:13,625 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/CustomFloatingActionButton/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/CustomFloatingActionButton/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-03 23:19:21,502 ERROR SysUtils - Could not process external command
+2019-03-09 22:08:57,768 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/sample/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/CustomFloatingActionButton/gradlew
+2019-03-09 22:08:57,771 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/CustomFloatingActionButton/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/sample/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/CustomFloatingActionButton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/sample/build.gradle
+2019-03-09 22:08:57,774 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/sample/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/sample/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/CustomFloatingActionButton/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/CustomFloatingActionButton/build.gradle
+2019-03-09 22:08:57,775 INFO  ProjectBuildService - Remote scripts: none
+2019-03-09 22:08:57,775 INFO  ProjectFixService - Fixing project...
+2019-03-09 22:08:57,783 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/CustomFloatingActionButton/app/local.properties
+2019-03-09 22:08:57,783 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/CustomFloatingActionButton/app/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-03-09 22:08:57,784 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/sample/app/local.properties
+2019-03-09 22:08:57,784 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/sample/app/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=25,targetSdkVersion=27]
+2019-03-09 22:08:57,785 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/CustomFloatingActionButton/local.properties
+2019-03-09 22:08:57,785 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-03-09 22:08:57,785 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-03-09 22:08:57,786 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/CustomFloatingActionButton/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=25,targetSdkVersion=27]
+2019-03-09 22:08:57,786 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/sample/local.properties
+2019-03-09 22:08:57,787 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/sample/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=25,targetSdkVersion=27]
+2019-03-09 22:08:57,787 INFO  ProjectFixService - Project was maybe fixed
+2019-03-09 22:08:57,787 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 22:08:57,787 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/CustomFloatingActionButton/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/CustomFloatingActionButton/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 22:09:00,020 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-09 22:09:00,020 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-09 22:09:00,020 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-09 22:09:00,020 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/CustomFloatingActionButton/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/CustomFloatingActionButton/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-09 22:09:01,562 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -43,8 +46,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -58,12 +60,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-03 23:19:21,502 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 22:09:01,563 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/CustomFloatingActionButton/app/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/CustomFloatingActionButton/app/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating root project 'app'.
@@ -137,22 +139,22 @@ Caused by: org.gradle.api.plugins.UnknownPluginException: Plugin with id 'com.an
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:44)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply.callCurrent(Unknown Source)
-	at build_8oh58qckrxzw99iieh9wz905u.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/CustomFloatingActionButton/app/build.gradle:1)
+	at build_1mtzabmxxhmj3s6j6b3p1ti4v.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/CustomFloatingActionButton/app/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 53 more
 
 
 BUILD FAILED
 
-Total time: 7.648 secs
+Total time: 1.425 secs
 
-2018-11-03 23:19:21,508 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-03 23:19:21,509 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/sample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/sample/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-03 23:19:21,816 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-03 23:19:21,816 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-03 23:19:21,816 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-03 23:19:21,817 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/sample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/sample/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-03 23:19:22,119 ERROR SysUtils - Could not process external command
+2019-03-09 22:09:01,567 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 22:09:01,567 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/sample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/sample/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 22:09:01,687 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-09 22:09:01,687 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-09 22:09:01,688 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-09 22:09:01,688 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/sample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/sample/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-09 22:09:01,805 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -165,8 +167,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -180,15 +181,15 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-03 23:19:22,119 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2019-03-09 22:09:01,805 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2018-11-03 23:19:22,125 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-03 23:19:22,126 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/CustomFloatingActionButton/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/CustomFloatingActionButton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-03 23:19:27,880 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-03 23:19:27,880 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-03 23:19:27,881 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-03 23:19:27,881 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/CustomFloatingActionButton/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/CustomFloatingActionButton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-03 23:19:31,988 ERROR SysUtils - Could not process external command
+2019-03-09 22:09:01,808 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 22:09:01,809 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/CustomFloatingActionButton/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/CustomFloatingActionButton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 22:09:03,531 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-09 22:09:03,531 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-09 22:09:03,531 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-09 22:09:03,532 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/CustomFloatingActionButton/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/CustomFloatingActionButton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-09 22:09:05,250 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -201,8 +202,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -216,12 +216,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-03 23:19:31,988 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 22:09:05,251 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/CustomFloatingActionButton/build.gradle' line: 6
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/CustomFloatingActionButton/build.gradle' line: 6
 
 * What went wrong:
 A problem occurred evaluating root project 'CustomFloatingActionButton'.
@@ -287,7 +287,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating root project
 Caused by: org.gradle.internal.metaobject.AbstractDynamicObject$CustomMessageMissingMethodException: Could not find method google() for arguments [] on repository container.
 	at org.gradle.internal.metaobject.AbstractDynamicObject.methodMissingException(AbstractDynamicObject.java:182)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:89)
-	at build_z5qvq5lkeby87e5znn8l8j30$_run_closure1$_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/CustomFloatingActionButton/build.gradle:6)
+	at build_6hqf5kf6d7n5ar3kw2bgtx8sz$_run_closure1$_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/CustomFloatingActionButton/build.gradle:6)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:136)
@@ -298,29 +298,29 @@ Caused by: org.gradle.internal.metaobject.AbstractDynamicObject$CustomMessageMis
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:382)
 	at org.gradle.internal.metaobject.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:170)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:59)
-	at build_z5qvq5lkeby87e5znn8l8j30$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/CustomFloatingActionButton/build.gradle:4)
+	at build_6hqf5kf6d7n5ar3kw2bgtx8sz$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/CustomFloatingActionButton/build.gradle:4)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
 	at org.gradle.api.internal.project.DefaultProject.buildscript(DefaultProject.java:1010)
 	at org.gradle.api.internal.project.ProjectScript.buildscript(ProjectScript.java:42)
 	at org.gradle.api.Script$buildscript.callCurrent(Unknown Source)
-	at build_z5qvq5lkeby87e5znn8l8j30.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/CustomFloatingActionButton/build.gradle:3)
+	at build_6hqf5kf6d7n5ar3kw2bgtx8sz.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/CustomFloatingActionButton/build.gradle:3)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 51 more
 
 
 BUILD FAILED
 
-Total time: 3.903 secs
+Total time: 1.604 secs
 
-2018-11-03 23:19:31,995 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-03 23:19:31,996 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/sample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-03 23:19:32,204 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-03 23:19:32,205 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-03 23:19:32,205 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-03 23:19:32,205 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/sample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541261940848-0/src/customFloatingActionButton-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-03 23:19:32,420 ERROR SysUtils - Could not process external command
+2019-03-09 22:09:05,255 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 22:09:05,255 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/sample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 22:09:05,377 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-09 22:09:05,377 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-09 22:09:05,377 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-09 22:09:05,377 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/sample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144011538-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-09 22:09:05,499 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -333,8 +333,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -348,7 +347,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-03 23:19:32,420 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2019-03-09 22:09:05,499 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2018-11-03 23:19:32,425 ERROR FullProcessService - Project build has not produced APK file
-2018-11-03 23:19:32,431 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-09 22:09:05,502 ERROR FullProcessService - Project build has not produced APK file
+2019-03-09 22:09:05,506 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,34 +1,34 @@
-2018-10-08 12:57:41,599 INFO  DownloadService - Downloading "https://github.com/po10cio/Android-Kotlin-Boilerplate/archive/master.zip", attempt 3
-2018-10-08 12:57:44,630 INFO  DownloadService - Downloaded https://github.com/po10cio/Android-Kotlin-Boilerplate/archive/master.zip, attempt 3
-2018-10-08 12:57:44,631 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978261595-0/master.zip": 351 KB
-2018-10-08 12:57:44,631 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-08 12:57:44,636 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978261595-0/master.zip: true
-2018-10-08 12:57:44,636 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978261595-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978261595-0/src'.
-2018-10-08 12:57:44,676 INFO  FullProcessService - Size of directory with sources: 382 KB
-2018-10-08 12:57:44,677 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978261595-0/src]
-2018-10-08 12:57:44,708 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978261595-0/src/.git/
+2019-03-09 21:41:19,928 INFO  DownloadService - Downloading "https://github.com/jerryOkafor/Android-Kotlin-Boilerplate/archive/master.zip", attempt 3
+2019-03-09 21:41:23,576 INFO  DownloadService - Downloaded https://github.com/jerryOkafor/Android-Kotlin-Boilerplate/archive/master.zip, attempt 3
+2019-03-09 21:41:23,576 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142479923-0/master.zip": 351 KB
+2019-03-09 21:41:23,576 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-09 21:41:23,581 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142479923-0/master.zip: true
+2019-03-09 21:41:23,582 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142479923-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142479923-0/src'.
+2019-03-09 21:41:23,621 INFO  FullProcessService - Size of directory with sources: 382 KB
+2019-03-09 21:41:23,621 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142479923-0/src]
+2019-03-09 21:41:23,648 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142479923-0/src/.git/
 
-2018-10-08 12:57:44,712 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978261595-0/src/Android-Kotlin-Boilerplate-master/gradlew
-2018-10-08 12:57:44,718 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978261595-0/src/Android-Kotlin-Boilerplate-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978261595-0/src/Android-Kotlin-Boilerplate-master/build.gradle
-2018-10-08 12:57:44,722 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978261595-0/src/Android-Kotlin-Boilerplate-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978261595-0/src/Android-Kotlin-Boilerplate-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978261595-0/src/Android-Kotlin-Boilerplate-master/settings.gradle
-2018-10-08 12:57:44,722 INFO  ProjectBuildService - Remote scripts: none
-2018-10-08 12:57:44,723 INFO  ProjectFixService - Fixing project...
-2018-10-08 12:57:44,735 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978261595-0/src/Android-Kotlin-Boilerplate-master/app/local.properties
-2018-10-08 12:57:44,737 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978261595-0/src/Android-Kotlin-Boilerplate-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-10-08 12:57:44,738 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978261595-0/src/Android-Kotlin-Boilerplate-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-10-08 12:57:44,741 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978261595-0/src/Android-Kotlin-Boilerplate-master/local.properties
-2018-10-08 12:57:44,742 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.3-all.zip
-2018-10-08 12:57:44,743 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.3-bin.zip)
-2018-10-08 12:57:44,745 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978261595-0/src/Android-Kotlin-Boilerplate-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-10-08 12:57:44,746 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978261595-0/src/Android-Kotlin-Boilerplate-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-10-08 12:57:44,747 INFO  ProjectFixService - Project was maybe fixed
-2018-10-08 12:57:44,747 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-08 12:57:44,747 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978261595-0/src/Android-Kotlin-Boilerplate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978261595-0/src/Android-Kotlin-Boilerplate-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-08 12:57:54,858 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-08 12:57:54,858 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-08 12:57:54,858 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-08 12:57:54,859 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978261595-0/src/Android-Kotlin-Boilerplate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978261595-0/src/Android-Kotlin-Boilerplate-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-08 12:58:04,125 ERROR SysUtils - Could not process external command
+2019-03-09 21:41:23,655 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142479923-0/src/Android-Kotlin-Boilerplate-master/gradlew
+2019-03-09 21:41:23,662 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142479923-0/src/Android-Kotlin-Boilerplate-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142479923-0/src/Android-Kotlin-Boilerplate-master/build.gradle
+2019-03-09 21:41:23,668 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142479923-0/src/Android-Kotlin-Boilerplate-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142479923-0/src/Android-Kotlin-Boilerplate-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142479923-0/src/Android-Kotlin-Boilerplate-master/settings.gradle
+2019-03-09 21:41:23,669 INFO  ProjectBuildService - Remote scripts: none
+2019-03-09 21:41:23,669 INFO  ProjectFixService - Fixing project...
+2019-03-09 21:41:23,682 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142479923-0/src/Android-Kotlin-Boilerplate-master/app/local.properties
+2019-03-09 21:41:23,685 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142479923-0/src/Android-Kotlin-Boilerplate-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-09 21:41:23,685 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142479923-0/src/Android-Kotlin-Boilerplate-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-09 21:41:23,687 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142479923-0/src/Android-Kotlin-Boilerplate-master/local.properties
+2019-03-09 21:41:23,687 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.3-all.zip
+2019-03-09 21:41:23,688 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.3-bin.zip)
+2019-03-09 21:41:23,690 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142479923-0/src/Android-Kotlin-Boilerplate-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-09 21:41:23,690 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142479923-0/src/Android-Kotlin-Boilerplate-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-09 21:41:23,691 INFO  ProjectFixService - Project was maybe fixed
+2019-03-09 21:41:23,691 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 21:41:23,691 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142479923-0/src/Android-Kotlin-Boilerplate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142479923-0/src/Android-Kotlin-Boilerplate-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 21:42:04,450 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-09 21:42:04,451 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-09 21:42:04,451 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-09 21:42:04,451 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142479923-0/src/Android-Kotlin-Boilerplate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142479923-0/src/Android-Kotlin-Boilerplate-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-09 21:42:11,775 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -56,7 +56,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-08 12:58:04,125 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 21:42:11,775 INFO  SysUtils - Configuration on demand is an incubating feature.
 app: 'androidProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.0.1'.
 
 FAILURE: Build failed with an exception.
@@ -193,15 +193,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 8s
+BUILD FAILED in 7s
 
-2018-10-08 12:58:04,131 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-08 12:58:04,131 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978261595-0/src/Android-Kotlin-Boilerplate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978261595-0/src/Android-Kotlin-Boilerplate-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-08 12:58:14,006 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-08 12:58:14,007 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-08 12:58:14,007 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-08 12:58:14,007 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978261595-0/src/Android-Kotlin-Boilerplate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538978261595-0/src/Android-Kotlin-Boilerplate-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-08 12:58:24,316 ERROR SysUtils - Could not process external command
+2019-03-09 21:42:11,782 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 21:42:11,782 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142479923-0/src/Android-Kotlin-Boilerplate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142479923-0/src/Android-Kotlin-Boilerplate-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 21:42:19,013 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-09 21:42:19,014 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-09 21:42:19,014 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-09 21:42:19,014 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142479923-0/src/Android-Kotlin-Boilerplate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142479923-0/src/Android-Kotlin-Boilerplate-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-09 21:42:25,628 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -229,7 +229,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-08 12:58:24,316 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 21:42:25,629 INFO  SysUtils - Configuration on demand is an incubating feature.
 app: 'androidProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.0.1'.
 
 FAILURE: Build failed with an exception.
@@ -366,7 +366,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 9s
+BUILD FAILED in 6s
 
-2018-10-08 12:58:24,321 ERROR FullProcessService - Project build has not produced APK file
-2018-10-08 12:58:24,326 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-09 21:42:25,634 ERROR FullProcessService - Project build has not produced APK file
+2019-03-09 21:42:25,640 ERROR FullProcessService - Could not find generated or existed APK file

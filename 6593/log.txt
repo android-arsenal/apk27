@@ -1,30 +1,30 @@
-2018-10-16 01:42:13,396 INFO  DownloadService - Downloading "https://github.com/xvik/gradle-mkdocs-plugin/archive/master.zip", attempt 3
-2018-10-16 01:42:16,802 INFO  DownloadService - Downloaded https://github.com/xvik/gradle-mkdocs-plugin/archive/master.zip, attempt 3
-2018-10-16 01:42:16,802 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539628933388-0/master.zip": 107 KB
-2018-10-16 01:42:16,802 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-16 01:42:16,808 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539628933388-0/master.zip: true
-2018-10-16 01:42:16,808 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539628933388-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539628933388-0/src'.
-2018-10-16 01:42:16,829 INFO  FullProcessService - Size of directory with sources: 166 KB
-2018-10-16 01:42:16,829 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539628933388-0/src]
-2018-10-16 01:42:16,845 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539628933388-0/src/.git/
+2019-03-09 21:39:00,667 INFO  DownloadService - Downloading "https://github.com/xvik/gradle-mkdocs-plugin/archive/master.zip", attempt 3
+2019-03-09 21:39:01,366 INFO  DownloadService - Downloaded https://github.com/xvik/gradle-mkdocs-plugin/archive/master.zip, attempt 3
+2019-03-09 21:39:01,366 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142340661-0/master.zip": 107 KB
+2019-03-09 21:39:01,366 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-09 21:39:01,366 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142340661-0/master.zip: true
+2019-03-09 21:39:01,367 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142340661-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142340661-0/src'.
+2019-03-09 21:39:01,384 INFO  FullProcessService - Size of directory with sources: 166 KB
+2019-03-09 21:39:01,384 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142340661-0/src]
+2019-03-09 21:39:01,403 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142340661-0/src/.git/
 
-2018-10-16 01:42:16,848 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539628933388-0/src/gradle-mkdocs-plugin-master/gradlew
-2018-10-16 01:42:16,851 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539628933388-0/src/gradle-mkdocs-plugin-master/build.gradle
-2018-10-16 01:42:16,854 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539628933388-0/src/gradle-mkdocs-plugin-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539628933388-0/src/gradle-mkdocs-plugin-master/settings.gradle
-2018-10-16 01:42:16,854 INFO  ProjectBuildService - Remote scripts: none
-2018-10-16 01:42:16,854 INFO  ProjectFixService - Fixing project...
-2018-10-16 01:42:16,860 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539628933388-0/src/gradle-mkdocs-plugin-master/local.properties
-2018-10-16 01:42:16,861 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.8.1-all.zip
-2018-10-16 01:42:16,861 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.8.1-bin.zip)
-2018-10-16 01:42:16,862 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539628933388-0/src/gradle-mkdocs-plugin-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-10-16 01:42:16,862 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539628933388-0/src/gradle-mkdocs-plugin-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-10-16 01:42:16,863 INFO  ProjectFixService - Project was maybe fixed
-2018-10-16 01:42:16,863 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-16 01:42:16,863 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539628933388-0/src/gradle-mkdocs-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539628933388-0/src/gradle-mkdocs-plugin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-16 01:42:30,703 INFO  ProjectTaskService - Detected possible tasks: 111
-2018-10-16 01:42:30,703 INFO  ProjectTaskService - Excluded tasks (4): javadoc sourcesJar test check
-2018-10-16 01:42:30,703 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539628933388-0/src/gradle-mkdocs-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539628933388-0/src/gradle-mkdocs-plugin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
-2018-10-16 01:42:46,177 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 21:39:01,406 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142340661-0/src/gradle-mkdocs-plugin-master/gradlew
+2019-03-09 21:39:01,409 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142340661-0/src/gradle-mkdocs-plugin-master/build.gradle
+2019-03-09 21:39:01,413 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142340661-0/src/gradle-mkdocs-plugin-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142340661-0/src/gradle-mkdocs-plugin-master/settings.gradle
+2019-03-09 21:39:01,413 INFO  ProjectBuildService - Remote scripts: none
+2019-03-09 21:39:01,413 INFO  ProjectFixService - Fixing project...
+2019-03-09 21:39:01,423 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142340661-0/src/gradle-mkdocs-plugin-master/local.properties
+2019-03-09 21:39:01,423 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.8.1-all.zip
+2019-03-09 21:39:01,424 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.8.1-bin.zip)
+2019-03-09 21:39:01,427 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142340661-0/src/gradle-mkdocs-plugin-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-09 21:39:01,427 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142340661-0/src/gradle-mkdocs-plugin-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-09 21:39:01,429 INFO  ProjectFixService - Project was maybe fixed
+2019-03-09 21:39:01,429 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 21:39:01,429 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142340661-0/src/gradle-mkdocs-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142340661-0/src/gradle-mkdocs-plugin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 21:39:32,414 INFO  ProjectTaskService - Detected possible tasks: 113
+2019-03-09 21:39:32,414 INFO  ProjectTaskService - Excluded tasks (4): javadoc sourcesJar test check
+2019-03-09 21:39:32,414 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142340661-0/src/gradle-mkdocs-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142340661-0/src/gradle-mkdocs-plugin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
+2019-03-09 21:39:54,579 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :
 STABLE_PUBLISHING preview option enabled by 'ru.vyarus.pom' plugin to prevent errors like 
@@ -33,8 +33,8 @@ If you still see such error or want to hide this message then enable option manu
 https://docs.gradle.org/4.8/userguide/publishing_maven.html#publishing_maven:deferred_configuration
 
 > Task :compileJava NO-SOURCE
-Download https://jcenter.bintray.com/ru/vyarus/gradle-use-python-plugin/1.2.0/gradle-use-python-plugin-1.2.0.pom
 Download https://jcenter.bintray.com/org/ajoberstar/grgit/maven-metadata.xml
+Generating JAR file 'gradle-api-4.8.1.jar'
 > Task :compileGroovy
 > Task :pluginDescriptors
 > Task :processResources
@@ -52,8 +52,8 @@ Trying to override old definition of task fileScanner
 > Task :assemble
 > Task :build
 
-BUILD SUCCESSFUL in 15s
+BUILD SUCCESSFUL in 21s
 10 actionable tasks: 10 executed
 
-2018-10-16 01:42:46,185 ERROR FullProcessService - Project build has not produced APK file
-2018-10-16 01:42:46,193 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-09 21:39:54,588 ERROR FullProcessService - Project build has not produced APK file
+2019-03-09 21:39:54,597 ERROR FullProcessService - Could not find generated or existed APK file

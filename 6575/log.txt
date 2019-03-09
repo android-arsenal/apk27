@@ -1,40 +1,40 @@
-2018-12-07 16:39:40,197 INFO  DownloadService - Downloading "https://github.com/siralam/CameraViewPlus/archive/master.zip", attempt 3
-2018-12-07 16:40:40,784 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-12-07 16:40:41,691 INFO  GithubDownloadService - Default branch of this repository: master
-2018-12-07 16:40:41,691 INFO  DownloadService - Downloading "https://github.com/siralam/CameraViewPlus/archive/master.zip", attempt 3
-2018-12-07 16:41:43,095 DEBUG FullProcessService - Repository https://github.com/siralam/CameraViewPlus available: true
-2018-12-07 16:41:43,095 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-12-07 16:41:43,095 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/siralam/CameraViewPlus, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src]
-2018-12-07 16:41:45,552 INFO  SysUtils - 
-2018-12-07 16:41:45,561 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/.git": true
-2018-12-07 16:41:45,566 INFO  FullProcessService - Size of directory with sources: 312 KB
-2018-12-07 16:41:45,566 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src]
-2018-12-07 16:41:45,583 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/.git/
+2019-03-09 21:59:53,401 INFO  DownloadService - Downloading "https://github.com/siralam/CameraViewPlus/archive/master.zip", attempt 3
+2019-03-09 22:00:54,249 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-03-09 22:00:55,519 INFO  GithubDownloadService - Default branch of this repository: master
+2019-03-09 22:00:55,519 INFO  DownloadService - Downloading "https://github.com/siralam/CameraViewPlus/archive/master.zip", attempt 3
+2019-03-09 22:01:57,497 DEBUG FullProcessService - Repository https://github.com/siralam/CameraViewPlus available: true
+2019-03-09 22:01:57,498 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-03-09 22:01:57,498 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/siralam/CameraViewPlus, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src]
+2019-03-09 22:01:59,261 INFO  SysUtils - 
+2019-03-09 22:01:59,269 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/.git": true
+2019-03-09 22:01:59,274 INFO  FullProcessService - Size of directory with sources: 312 KB
+2019-03-09 22:01:59,274 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src]
+2019-03-09 22:01:59,291 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/.git/
 
-2018-12-07 16:41:45,588 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/gradlew
-2018-12-07 16:41:45,593 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/cameraviewplus/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/build.gradle
-2018-12-07 16:41:45,597 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/cameraviewplus/build.gradle
-2018-12-07 16:41:45,597 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2018-12-07 16:41:45,699 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2018-12-07 16:41:45,700 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2018-12-07 16:41:45,801 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2018-12-07 16:41:45,801 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2018-12-07 16:41:45,801 INFO  ProjectFixService - Fixing project...
-2018-12-07 16:41:45,816 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/cameraviewplus/local.properties
-2018-12-07 16:41:45,817 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/cameraviewplus/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-12-07 16:41:45,817 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/local.properties
-2018-12-07 16:41:45,818 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-12-07 16:41:45,819 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/local.properties
-2018-12-07 16:41:45,819 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-12-07 16:41:45,820 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-12-07 16:41:45,820 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-12-07 16:41:45,820 INFO  ProjectFixService - Project was maybe fixed
-2018-12-07 16:41:45,820 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-07 16:41:45,820 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/cameraviewplus/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-07 16:41:55,443 INFO  ProjectTaskService - Detected possible tasks: 71
-2018-12-07 16:41:55,444 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-12-07 16:41:55,444 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/cameraviewplus/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-12-07 16:42:10,727 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 22:01:59,296 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/gradlew
+2019-03-09 22:01:59,300 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/cameraviewplus/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/build.gradle
+2019-03-09 22:01:59,304 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/cameraviewplus/build.gradle
+2019-03-09 22:01:59,305 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-03-09 22:01:59,399 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-03-09 22:01:59,399 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-03-09 22:01:59,496 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-03-09 22:01:59,496 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-03-09 22:01:59,496 INFO  ProjectFixService - Fixing project...
+2019-03-09 22:01:59,512 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/cameraviewplus/local.properties
+2019-03-09 22:01:59,513 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/cameraviewplus/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-09 22:01:59,513 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/demo/local.properties
+2019-03-09 22:01:59,514 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/demo/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-09 22:01:59,515 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/local.properties
+2019-03-09 22:01:59,515 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-03-09 22:01:59,516 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-03-09 22:01:59,516 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-09 22:01:59,516 INFO  ProjectFixService - Project was maybe fixed
+2019-03-09 22:01:59,516 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 22:01:59,516 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/cameraviewplus/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 22:02:06,961 INFO  ProjectTaskService - Detected possible tasks: 71
+2019-03-09 22:02:06,961 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-09 22:02:06,961 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/cameraviewplus/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-09 22:02:21,030 INFO  SysUtils - Configuration on demand is an incubating feature.
 :cameraviewplus:preBuild UP-TO-DATE
 :cameraviewplus:preDebugBuild UP-TO-DATE
 :cameraviewplus:compileDebugAidl NO-SOURCE
@@ -51,7 +51,7 @@
 :cameraviewplus:javaPreCompileDebug
 :cameraviewplus:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/cameraviewplus/src/main/api21/com/google/android/cameraview/Camera2.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/cameraviewplus/src/main/api21/com/google/android/cameraview/Camera2.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :cameraviewplus:extractDebugAnnotations
@@ -87,7 +87,7 @@ Warning: com.google.android.cameraview.CameraView.Flash: The typedef annotation 
 :cameraviewplus:javaPreCompileRelease
 :cameraviewplus:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/cameraviewplus/src/main/api21/com/google/android/cameraview/Camera2.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/cameraviewplus/src/main/api21/com/google/android/cameraview/Camera2.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :cameraviewplus:extractReleaseAnnotations
@@ -114,15 +114,15 @@ Warning: com.google.android.cameraview.CameraView.Flash: The typedef annotation 
 :cameraviewplus:assemble
 :cameraviewplus:build
 
-BUILD SUCCESSFUL in 14s
+BUILD SUCCESSFUL in 13s
 45 actionable tasks: 45 executed
 
-2018-12-07 16:42:10,778 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-07 16:42:10,778 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-07 16:42:17,168 INFO  ProjectTaskService - Detected possible tasks: 72
-2018-12-07 16:42:17,168 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-07 16:42:17,169 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-07 16:42:22,809 ERROR SysUtils - Could not process external command
+2019-03-09 22:02:21,073 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 22:02:21,073 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 22:02:26,800 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-03-09 22:02:26,800 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-09 22:02:26,801 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-09 22:02:32,265 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -135,21 +135,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-07 16:42:22,809 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 22:02:32,265 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -229,9 +229,9 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 BUILD FAILED in 5s
 
-2018-12-07 16:42:22,809 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2018-12-07 16:42:22,809 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-07 16:43:16,756 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 22:02:32,265 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-03-09 22:02:32,265 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-09 22:03:22,008 INFO  SysUtils - Configuration on demand is an incubating feature.
 :cameraviewplus:preBuild UP-TO-DATE
 :cameraviewplus:preDebugBuild UP-TO-DATE
 :cameraviewplus:compileDebugAidl NO-SOURCE
@@ -250,10 +250,7 @@ BUILD FAILED in 5s
 :cameraviewplus:processDebugJavaRes NO-SOURCE
 :cameraviewplus:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 :demo:checkDebugClasspath
-Download https://jcenter.bintray.com/com/jaredrummler/android-device-names/1.1.5/android-device-names-1.1.5.pom
-Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.1.10/rxjava-2.1.10.pom
-Download https://jcenter.bintray.com/io/github/silvaren/easyrs/0.5.3/easyrs-0.5.3.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/exifinterface/28.0.0/exifinterface-28.0.0.aar
+Download https://jcenter.bintray.com/com/jakewharton/rxbinding2/rxbinding/2.0.0/rxbinding-2.0.0.aar
 Download https://jcenter.bintray.com/com/jaredrummler/android-device-names/1.1.5/android-device-names-1.1.5.aar
 Download https://jcenter.bintray.com/io/github/silvaren/easyrs/0.5.3/easyrs-0.5.3.aar
 Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.1.10/rxjava-2.1.10.jar
@@ -297,11 +294,11 @@ Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.1.10/rxjava-2
 :demo:mergeDebugJniLibFolders
 :demo:transformNativeLibsWithMergeJniLibsForDebug
 :demo:transformNativeLibsWithStripDebugSymbolForDebug
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/libRSSupport.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/librs.channel.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/libblasV8.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/librs.uvencode.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/librsjni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/demo/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/libRSSupport.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/demo/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/librs.channel.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/demo/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/libblasV8.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/demo/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/librs.uvencode.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/demo/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/librsjni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
 :demo:checkDebugLibraries
 :demo:processDebugJavaRes NO-SOURCE
 :demo:transformResourcesWithMergeJavaResForDebug
@@ -363,11 +360,11 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 :demo:mergeReleaseJniLibFolders
 :demo:transformNativeLibsWithMergeJniLibsForRelease
 :demo:transformNativeLibsWithStripDebugSymbolForRelease
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/libRSSupport.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/librs.channel.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/libblasV8.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/librs.uvencode.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/librsjni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/demo/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/libRSSupport.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/demo/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/librs.channel.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/demo/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/libblasV8.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/demo/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/librs.uvencode.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/demo/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/librsjni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
 :demo:checkReleaseLibraries
 :demo:processReleaseJavaRes NO-SOURCE
 :demo:transformResourcesWithMergeJavaResForRelease
@@ -375,10 +372,10 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 :demo:assembleRelease
 :demo:assemble
 :demo:lint
-Ran lint on variant debug: 31 issues found
 Ran lint on variant release: 31 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build/reports/lint-results.xml
+Ran lint on variant debug: 31 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/demo/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/demo/build/reports/lint-results.xml
 :demo:generateDebugUnitTestSources
 :demo:preDebugUnitTestBuild UP-TO-DATE
 :demo:javaPreCompileDebugUnitTest
@@ -395,7 +392,7 @@ Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgby
 :demo:check
 :demo:build
 
-BUILD SUCCESSFUL in 53s
+BUILD SUCCESSFUL in 49s
 92 actionable tasks: 61 executed, 31 up-to-date
 
-2018-12-07 16:43:16,881 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175580195-0/src/demo/build/outputs/apk/release/demo-release-unsigned.apk
+2019-03-09 22:03:22,128 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143593397-0/src/demo/build/outputs/apk/release/demo-release-unsigned.apk

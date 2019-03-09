@@ -1,42 +1,45 @@
-2019-01-02 19:07:46,399 INFO  DownloadService - Downloading "https://github.com/Omega-R/OmegaIntentBuilder/archive/master.zip", attempt 3
-2019-01-02 19:07:47,040 INFO  DownloadService - Downloaded https://github.com/Omega-R/OmegaIntentBuilder/archive/master.zip, attempt 3
-2019-01-02 19:07:47,040 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/master.zip": 287 KB
-2019-01-02 19:07:47,040 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-02 19:07:47,046 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/master.zip: true
-2019-01-02 19:07:47,046 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src'.
-2019-01-02 19:07:47,133 INFO  FullProcessService - Size of directory with sources: 442 KB
-2019-01-02 19:07:47,134 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src]
-2019-01-02 19:07:47,161 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/.git/
+2019-03-09 22:23:20,968 INFO  DownloadService - Downloading "https://github.com/Omega-R/OmegaIntentBuilder/archive/master.zip", attempt 3
+2019-03-09 22:24:21,828 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-03-09 22:24:23,067 INFO  GithubDownloadService - Default branch of this repository: master
+2019-03-09 22:24:23,067 INFO  DownloadService - Downloading "https://github.com/Omega-R/OmegaIntentBuilder/archive/master.zip", attempt 3
+2019-03-09 22:25:25,062 DEBUG FullProcessService - Repository https://github.com/Omega-R/OmegaIntentBuilder available: true
+2019-03-09 22:25:25,062 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-03-09 22:25:25,063 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Omega-R/OmegaIntentBuilder, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src]
+2019-03-09 22:25:27,465 INFO  SysUtils - 
+2019-03-09 22:25:27,474 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/.git": true
+2019-03-09 22:25:27,480 INFO  FullProcessService - Size of directory with sources: 442 KB
+2019-03-09 22:25:27,480 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src]
+2019-03-09 22:25:27,497 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/.git/
 
-2019-01-02 19:07:47,169 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/gradlew
-2019-01-02 19:07:47,177 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/examples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/processor/build.gradle
-2019-01-02 19:07:47,183 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/examples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/settings.gradle
-2019-01-02 19:07:47,184 INFO  ProjectBuildService - Remote scripts: none
-2019-01-02 19:07:47,184 INFO  ProjectFixService - Fixing project...
-2019-01-02 19:07:47,201 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/core/local.properties
-2019-01-02 19:07:47,203 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
-2019-01-02 19:07:47,203 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-01-02 19:07:47,204 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/examples/local.properties
-2019-01-02 19:07:47,206 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/examples/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
-2019-01-02 19:07:47,206 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/examples/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-01-02 19:07:47,207 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/local.properties
-2019-01-02 19:07:47,208 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-01-02 19:07:47,208 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-01-02 19:07:47,210 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
-2019-01-02 19:07:47,210 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-01-02 19:07:47,212 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/annotations/local.properties
-2019-01-02 19:07:47,215 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/annotations/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
-2019-01-02 19:07:47,215 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/annotations/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-01-02 19:07:47,216 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/processor/local.properties
-2019-01-02 19:07:47,218 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/processor/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
-2019-01-02 19:07:47,218 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/processor/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-01-02 19:07:47,219 INFO  ProjectFixService - Project was maybe fixed
-2019-01-02 19:07:47,219 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-02 19:07:47,219 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-02 19:07:54,199 INFO  ProjectTaskService - Detected possible tasks: 65
-2019-01-02 19:07:54,199 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-01-02 19:07:54,199 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-01-02 19:08:27,767 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 22:25:27,503 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/gradlew
+2019-03-09 22:25:27,508 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/examples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/processor/build.gradle
+2019-03-09 22:25:27,513 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/examples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/settings.gradle
+2019-03-09 22:25:27,513 INFO  ProjectBuildService - Remote scripts: none
+2019-03-09 22:25:27,513 INFO  ProjectFixService - Fixing project...
+2019-03-09 22:25:27,524 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/core/local.properties
+2019-03-09 22:25:27,526 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-03-09 22:25:27,526 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-09 22:25:27,527 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/examples/local.properties
+2019-03-09 22:25:27,528 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/examples/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-03-09 22:25:27,529 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/examples/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-09 22:25:27,529 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/local.properties
+2019-03-09 22:25:27,530 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-03-09 22:25:27,530 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-03-09 22:25:27,532 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-03-09 22:25:27,532 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-09 22:25:27,533 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/annotations/local.properties
+2019-03-09 22:25:27,535 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/annotations/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-03-09 22:25:27,535 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/annotations/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-09 22:25:27,535 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/processor/local.properties
+2019-03-09 22:25:27,537 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/processor/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-03-09 22:25:27,537 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/processor/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-09 22:25:27,538 INFO  ProjectFixService - Project was maybe fixed
+2019-03-09 22:25:27,538 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 22:25:27,538 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 22:25:36,448 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-03-09 22:25:36,448 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-09 22:25:36,449 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-09 22:26:05,082 INFO  SysUtils - Configuration on demand is an incubating feature.
 :core:preBuild UP-TO-DATE
 :core:preDebugBuild UP-TO-DATE
 :core:compileDebugAidl NO-SOURCE
@@ -49,17 +52,17 @@
 :core:processDebugManifest
 :core:generateDebugRFile
 :core:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/core/src/main/java/com/omega_r/libs/omegaintentbuilder/builders/ActivityIntentBuilder.kt: (14, 20): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/core/src/main/java/com/omega_r/libs/omegaintentbuilder/builders/ActivityIntentBuilder.kt: (35, 48): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/core/src/main/java/com/omega_r/libs/omegaintentbuilder/builders/BaseActivityBuilder.kt: (14, 20): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/core/src/main/java/com/omega_r/libs/omegaintentbuilder/builders/BaseActivityBuilder.kt: (32, 46): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/core/src/main/java/com/omega_r/libs/omegaintentbuilder/builders/CallIntentBuilder.kt: (54, 7): 'when' expression on enum is recommended to be exhaustive, add 'SYSTEM_CALL' branch or 'else' branch instead
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/core/src/main/java/com/omega_r/libs/omegaintentbuilder/builders/share/BaseShareBuilder.kt: (154, 21): 'fromHtml(String!): Spanned!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/core/src/main/java/com/omega_r/libs/omegaintentbuilder/handlers/ContextIntentHandler.kt: (106, 31): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/core/src/main/java/com/omega_r/libs/omegaintentbuilder/handlers/FragmentIntentHandler.kt: (14, 20): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/core/src/main/java/com/omega_r/libs/omegaintentbuilder/handlers/FragmentIntentHandler.kt: (23, 51): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/core/src/main/java/com/omega_r/libs/omegaintentbuilder/interfaces/IntentHandler.kt: (4, 20): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/core/src/main/java/com/omega_r/libs/omegaintentbuilder/interfaces/IntentHandler.kt: (29, 37): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/core/src/main/java/com/omega_r/libs/omegaintentbuilder/builders/ActivityIntentBuilder.kt: (14, 20): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/core/src/main/java/com/omega_r/libs/omegaintentbuilder/builders/ActivityIntentBuilder.kt: (35, 48): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/core/src/main/java/com/omega_r/libs/omegaintentbuilder/builders/BaseActivityBuilder.kt: (14, 20): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/core/src/main/java/com/omega_r/libs/omegaintentbuilder/builders/BaseActivityBuilder.kt: (32, 46): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/core/src/main/java/com/omega_r/libs/omegaintentbuilder/builders/CallIntentBuilder.kt: (54, 7): 'when' expression on enum is recommended to be exhaustive, add 'SYSTEM_CALL' branch or 'else' branch instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/core/src/main/java/com/omega_r/libs/omegaintentbuilder/builders/share/BaseShareBuilder.kt: (154, 21): 'fromHtml(String!): Spanned!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/core/src/main/java/com/omega_r/libs/omegaintentbuilder/handlers/ContextIntentHandler.kt: (106, 31): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/core/src/main/java/com/omega_r/libs/omegaintentbuilder/handlers/FragmentIntentHandler.kt: (14, 20): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/core/src/main/java/com/omega_r/libs/omegaintentbuilder/handlers/FragmentIntentHandler.kt: (23, 51): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/core/src/main/java/com/omega_r/libs/omegaintentbuilder/interfaces/IntentHandler.kt: (4, 20): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/core/src/main/java/com/omega_r/libs/omegaintentbuilder/interfaces/IntentHandler.kt: (29, 37): 'Fragment' is deprecated. Deprecated in Java
 :core:prepareLintJar
 :core:generateDebugSources
 :core:javaPreCompileDebug
@@ -93,17 +96,17 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/
 :core:processReleaseManifest
 :core:generateReleaseRFile
 :core:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/core/src/main/java/com/omega_r/libs/omegaintentbuilder/builders/ActivityIntentBuilder.kt: (14, 20): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/core/src/main/java/com/omega_r/libs/omegaintentbuilder/builders/ActivityIntentBuilder.kt: (35, 48): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/core/src/main/java/com/omega_r/libs/omegaintentbuilder/builders/BaseActivityBuilder.kt: (14, 20): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/core/src/main/java/com/omega_r/libs/omegaintentbuilder/builders/BaseActivityBuilder.kt: (32, 46): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/core/src/main/java/com/omega_r/libs/omegaintentbuilder/builders/CallIntentBuilder.kt: (54, 7): 'when' expression on enum is recommended to be exhaustive, add 'SYSTEM_CALL' branch or 'else' branch instead
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/core/src/main/java/com/omega_r/libs/omegaintentbuilder/builders/share/BaseShareBuilder.kt: (154, 21): 'fromHtml(String!): Spanned!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/core/src/main/java/com/omega_r/libs/omegaintentbuilder/handlers/ContextIntentHandler.kt: (106, 31): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/core/src/main/java/com/omega_r/libs/omegaintentbuilder/handlers/FragmentIntentHandler.kt: (14, 20): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/core/src/main/java/com/omega_r/libs/omegaintentbuilder/handlers/FragmentIntentHandler.kt: (23, 51): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/core/src/main/java/com/omega_r/libs/omegaintentbuilder/interfaces/IntentHandler.kt: (4, 20): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/core/src/main/java/com/omega_r/libs/omegaintentbuilder/interfaces/IntentHandler.kt: (29, 37): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/core/src/main/java/com/omega_r/libs/omegaintentbuilder/builders/ActivityIntentBuilder.kt: (14, 20): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/core/src/main/java/com/omega_r/libs/omegaintentbuilder/builders/ActivityIntentBuilder.kt: (35, 48): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/core/src/main/java/com/omega_r/libs/omegaintentbuilder/builders/BaseActivityBuilder.kt: (14, 20): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/core/src/main/java/com/omega_r/libs/omegaintentbuilder/builders/BaseActivityBuilder.kt: (32, 46): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/core/src/main/java/com/omega_r/libs/omegaintentbuilder/builders/CallIntentBuilder.kt: (54, 7): 'when' expression on enum is recommended to be exhaustive, add 'SYSTEM_CALL' branch or 'else' branch instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/core/src/main/java/com/omega_r/libs/omegaintentbuilder/builders/share/BaseShareBuilder.kt: (154, 21): 'fromHtml(String!): Spanned!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/core/src/main/java/com/omega_r/libs/omegaintentbuilder/handlers/ContextIntentHandler.kt: (106, 31): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/core/src/main/java/com/omega_r/libs/omegaintentbuilder/handlers/FragmentIntentHandler.kt: (14, 20): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/core/src/main/java/com/omega_r/libs/omegaintentbuilder/handlers/FragmentIntentHandler.kt: (23, 51): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/core/src/main/java/com/omega_r/libs/omegaintentbuilder/interfaces/IntentHandler.kt: (4, 20): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/core/src/main/java/com/omega_r/libs/omegaintentbuilder/interfaces/IntentHandler.kt: (29, 37): 'Fragment' is deprecated. Deprecated in Java
 :core:generateReleaseSources
 :core:javaPreCompileRelease
 :core:compileReleaseJavaWithJavac
@@ -130,15 +133,15 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/
 :core:assemble
 :core:build
 
-BUILD SUCCESSFUL in 33s
+BUILD SUCCESSFUL in 28s
 47 actionable tasks: 47 executed
 
-2019-01-02 19:08:27,791 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-02 19:08:27,791 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/examples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-02 19:08:36,134 INFO  ProjectTaskService - Detected possible tasks: 70
-2019-01-02 19:08:36,134 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-01-02 19:08:36,134 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/examples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-01-02 19:09:25,649 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 22:26:05,116 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 22:26:05,116 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/examples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 22:26:11,235 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-03-09 22:26:11,235 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-09 22:26:11,235 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/examples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-09 22:26:57,849 INFO  SysUtils - Configuration on demand is an incubating feature.
 'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
 'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
 'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
@@ -214,6 +217,17 @@ Note: Recompile with -Xlint:deprecation for details.
 :examples:generateDebugAssets
 :examples:mergeDebugAssets
 :examples:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 2 methods.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/4cbc5922a54376018307a731162ccaf3ef851a39/kotlin-stdlib-1.3.11.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.sequences.SequencesKt__SequencesKt$ifEmpty$1.invokeSuspend(java.lang.Object)
+  Attempt to read local this but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/4cbc5922a54376018307a731162ccaf3ef851a39/kotlin-stdlib-1.3.11.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.invokeSuspend(java.lang.Object)
+  Attempt to read local this but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/4cbc5922a54376018307a731162ccaf3ef851a39/kotlin-stdlib-1.3.11.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.invokeSuspend(java.lang.Object)
+  Attempt to read local this but no local information was associated with the value being read.
 :examples:transformClassesWithMultidexlistForDebug
 :examples:transformDexArchiveWithDexMergerForDebug
 :core:compileDebugNdk NO-SOURCE
@@ -274,6 +288,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :examples:compileReleaseNdk NO-SOURCE
 :examples:compileReleaseSources
 :examples:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/e00dec4eb62acbd1a633639f45411796/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 :core:mergeReleaseShaders UP-TO-DATE
 :core:compileReleaseShaders UP-TO-DATE
 :core:generateReleaseAssets UP-TO-DATE
@@ -304,7 +319,7 @@ Note: Recompile with -Xlint:deprecation for details.
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
 See https://docs.gradle.org/4.6/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 48s
+BUILD SUCCESSFUL in 45s
 102 actionable tasks: 69 executed, 33 up-to-date
 
-2019-01-02 19:09:25,755 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430866396-0/src/OmegaIntentBuilder-master/examples/build/outputs/apk/release/examples-release-unsigned.apk
+2019-03-09 22:26:57,987 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145000964-0/src/examples/build/outputs/apk/release/examples-release-unsigned.apk

@@ -1,40 +1,32 @@
-2018-12-07 16:32:53,171 INFO  DownloadService - Downloading "https://github.com/xvik/gradle-quality-plugin/archive/master.zip", attempt 3
-2018-12-07 16:33:53,966 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-12-07 16:33:54,965 INFO  GithubDownloadService - Default branch of this repository: master
-2018-12-07 16:33:54,965 INFO  DownloadService - Downloading "https://github.com/xvik/gradle-quality-plugin/archive/master.zip", attempt 3
-2018-12-07 16:34:56,598 DEBUG FullProcessService - Repository https://github.com/xvik/gradle-quality-plugin available: true
-2018-12-07 16:34:56,598 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-12-07 16:34:56,598 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/xvik/gradle-quality-plugin, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175173169-0/src]
-2018-12-07 16:34:58,586 INFO  SysUtils - 
-2018-12-07 16:34:58,594 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175173169-0/src/.git": true
-2018-12-07 16:34:58,599 INFO  FullProcessService - Size of directory with sources: 445 KB
-2018-12-07 16:34:58,599 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175173169-0/src]
-2018-12-07 16:34:58,616 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175173169-0/src/.git/
+2019-03-09 21:37:34,784 INFO  DownloadService - Downloading "https://github.com/xvik/gradle-quality-plugin/archive/master.zip", attempt 3
+2019-03-09 21:37:37,132 INFO  DownloadService - Downloaded https://github.com/xvik/gradle-quality-plugin/archive/master.zip, attempt 3
+2019-03-09 21:37:37,132 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142254781-0/master.zip": 200 KB
+2019-03-09 21:37:37,132 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-09 21:37:37,137 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142254781-0/master.zip: true
+2019-03-09 21:37:37,138 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142254781-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142254781-0/src'.
+2019-03-09 21:37:37,174 INFO  FullProcessService - Size of directory with sources: 450 KB
+2019-03-09 21:37:37,175 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142254781-0/src]
+2019-03-09 21:37:37,195 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142254781-0/src/.git/
 
-2018-12-07 16:34:58,621 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175173169-0/src/gradlew
-2018-12-07 16:34:58,625 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175173169-0/src/build.gradle
-2018-12-07 16:34:58,629 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175173169-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175173169-0/src/settings.gradle
-2018-12-07 16:34:58,629 INFO  ProjectBuildService - Remote scripts: none
-2018-12-07 16:34:58,629 INFO  ProjectFixService - Fixing project...
-2018-12-07 16:34:58,639 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175173169-0/src/local.properties
-2018-12-07 16:34:58,639 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
-2018-12-07 16:34:58,639 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
-2018-12-07 16:34:58,641 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175173169-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-12-07 16:34:58,641 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175173169-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-12-07 16:34:58,642 INFO  ProjectFixService - Project was maybe fixed
-2018-12-07 16:34:58,642 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-07 16:34:58,642 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175173169-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175173169-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-07 16:35:15,331 INFO  ProjectTaskService - Detected possible tasks: 110
-2018-12-07 16:35:15,331 INFO  ProjectTaskService - Excluded tasks (4): javadoc sourcesJar test check
-2018-12-07 16:35:15,331 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175173169-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544175173169-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
-2018-12-07 16:35:26,819 INFO  SysUtils - Configuration on demand is an incubating feature.
-
-> Configure project :
-STABLE_PUBLISHING preview option enabled by 'ru.vyarus.pom' plugin to prevent errors like 
-"Cannot configure the 'publishing' extension after it has been accessed".
-If you still see such error or want to hide this message then enable option manually in settings.grade:
-https://docs.gradle.org/4.8/userguide/publishing_maven.html#publishing_maven:deferred_configuration
-
+2019-03-09 21:37:37,200 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142254781-0/src/gradle-quality-plugin-master/gradlew
+2019-03-09 21:37:37,206 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142254781-0/src/gradle-quality-plugin-master/build.gradle
+2019-03-09 21:37:37,210 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142254781-0/src/gradle-quality-plugin-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142254781-0/src/gradle-quality-plugin-master/settings.gradle
+2019-03-09 21:37:37,211 INFO  ProjectBuildService - Remote scripts: none
+2019-03-09 21:37:37,211 INFO  ProjectFixService - Fixing project...
+2019-03-09 21:37:37,222 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142254781-0/src/gradle-quality-plugin-master/local.properties
+2019-03-09 21:37:37,222 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.2.1-all.zip
+2019-03-09 21:37:37,223 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.2.1-bin.zip)
+2019-03-09 21:37:37,224 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142254781-0/src/gradle-quality-plugin-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-09 21:37:37,224 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142254781-0/src/gradle-quality-plugin-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-09 21:37:37,226 INFO  ProjectFixService - Project was maybe fixed
+2019-03-09 21:37:37,226 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 21:37:37,226 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142254781-0/src/gradle-quality-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142254781-0/src/gradle-quality-plugin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 21:38:26,888 INFO  ProjectTaskService - Detected possible tasks: 110
+2019-03-09 21:38:26,889 INFO  ProjectTaskService - Excluded tasks (4): javadoc sourcesJar test check
+2019-03-09 21:38:26,889 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142254781-0/src/gradle-quality-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142254781-0/src/gradle-quality-plugin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
+2019-03-09 21:38:56,878 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.2.1/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+Configuration on demand is an incubating feature.
 > Task :compileJava NO-SOURCE
 > Task :compileGroovy
 > Task :pluginDescriptors
@@ -53,8 +45,8 @@ Trying to override old definition of task fileScanner
 > Task :assemble
 > Task :build
 
-BUILD SUCCESSFUL in 11s
+BUILD SUCCESSFUL in 29s
 10 actionable tasks: 10 executed
 
-2018-12-07 16:35:26,830 ERROR FullProcessService - Project build has not produced APK file
-2018-12-07 16:35:26,839 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-09 21:38:56,890 ERROR FullProcessService - Project build has not produced APK file
+2019-03-09 21:38:56,904 ERROR FullProcessService - Could not find generated or existed APK file

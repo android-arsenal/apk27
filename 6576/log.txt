@@ -1,40 +1,43 @@
-2018-12-09 18:33:03,104 INFO  DownloadService - Downloading "https://github.com/siralam/LoopingViewPager/archive/master.zip", attempt 3
-2018-12-09 18:33:05,156 INFO  DownloadService - Downloaded https://github.com/siralam/LoopingViewPager/archive/master.zip, attempt 3
-2018-12-09 18:33:05,156 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/master.zip": 4 MB
-2018-12-09 18:33:05,156 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-09 18:33:05,163 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/master.zip: true
-2018-12-09 18:33:05,164 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/src'.
-2018-12-09 18:33:05,224 INFO  FullProcessService - Size of directory with sources: 5 MB
-2018-12-09 18:33:05,225 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/src]
-2018-12-09 18:33:05,243 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/src/.git/
+2019-03-09 21:56:31,234 INFO  DownloadService - Downloading "https://github.com/siralam/LoopingViewPager/archive/master.zip", attempt 3
+2019-03-09 21:57:32,045 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-03-09 21:57:33,403 INFO  GithubDownloadService - Default branch of this repository: master
+2019-03-09 21:57:33,403 INFO  DownloadService - Downloading "https://github.com/siralam/LoopingViewPager/archive/master.zip", attempt 3
+2019-03-09 21:58:35,150 DEBUG FullProcessService - Repository https://github.com/siralam/LoopingViewPager available: true
+2019-03-09 21:58:35,151 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-03-09 21:58:35,151 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/siralam/LoopingViewPager, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src]
+2019-03-09 21:58:39,866 INFO  SysUtils - 
+2019-03-09 21:58:39,902 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src/.git": true
+2019-03-09 21:58:39,905 INFO  FullProcessService - Size of directory with sources: 5 MB
+2019-03-09 21:58:39,905 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src]
+2019-03-09 21:58:39,922 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src/.git/
 
-2018-12-09 18:33:05,247 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/src/LoopingViewPager-master/gradlew
-2018-12-09 18:33:05,250 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/src/LoopingViewPager-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/src/LoopingViewPager-master/loopingviewpager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/src/LoopingViewPager-master/build.gradle
-2018-12-09 18:33:05,253 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/src/LoopingViewPager-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/src/LoopingViewPager-master/loopingviewpager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/src/LoopingViewPager-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/src/LoopingViewPager-master/settings.gradle
-2018-12-09 18:33:05,254 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2018-12-09 18:33:05,352 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2018-12-09 18:33:05,353 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2018-12-09 18:33:05,449 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2018-12-09 18:33:05,449 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2018-12-09 18:33:05,449 INFO  ProjectFixService - Fixing project...
-2018-12-09 18:33:05,460 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/src/LoopingViewPager-master/app/local.properties
-2018-12-09 18:33:05,461 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/src/LoopingViewPager-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-12-09 18:33:05,461 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/src/LoopingViewPager-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-12-09 18:33:05,462 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/src/LoopingViewPager-master/loopingviewpager/local.properties
-2018-12-09 18:33:05,463 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/src/LoopingViewPager-master/loopingviewpager/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-12-09 18:33:05,463 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/src/LoopingViewPager-master/loopingviewpager/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-12-09 18:33:05,464 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/src/LoopingViewPager-master/local.properties
-2018-12-09 18:33:05,470 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-12-09 18:33:05,471 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-12-09 18:33:05,472 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/src/LoopingViewPager-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-12-09 18:33:05,473 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/src/LoopingViewPager-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-12-09 18:33:05,473 INFO  ProjectFixService - Project was maybe fixed
-2018-12-09 18:33:05,473 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-09 18:33:05,473 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/src/LoopingViewPager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/src/LoopingViewPager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-09 18:33:12,896 INFO  ProjectTaskService - Detected possible tasks: 72
-2018-12-09 18:33:12,896 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-09 18:33:12,896 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/src/LoopingViewPager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/src/LoopingViewPager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-09 18:33:19,205 ERROR SysUtils - Could not process external command
+2019-03-09 21:58:39,925 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src/gradlew
+2019-03-09 21:58:39,928 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src/loopingviewpager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src/build.gradle
+2019-03-09 21:58:39,931 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src/loopingviewpager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src/settings.gradle
+2019-03-09 21:58:39,932 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-03-09 21:58:40,028 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-03-09 21:58:40,028 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-03-09 21:58:40,122 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-03-09 21:58:40,122 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-03-09 21:58:40,122 INFO  ProjectFixService - Fixing project...
+2019-03-09 21:58:40,134 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src/app/local.properties
+2019-03-09 21:58:40,135 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-09 21:58:40,135 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-09 21:58:40,136 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src/loopingviewpager/local.properties
+2019-03-09 21:58:40,140 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src/loopingviewpager/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-09 21:58:40,140 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src/loopingviewpager/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-09 21:58:40,141 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src/local.properties
+2019-03-09 21:58:40,141 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-03-09 21:58:40,142 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-03-09 21:58:40,143 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-09 21:58:40,143 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-09 21:58:40,143 INFO  ProjectFixService - Project was maybe fixed
+2019-03-09 21:58:40,143 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 21:58:40,144 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 21:58:47,332 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-03-09 21:58:47,332 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-09 21:58:47,332 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-09 21:58:52,838 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -47,22 +50,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-09 18:33:19,205 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 21:58:52,838 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -140,11 +142,11 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 5s
 
-2018-12-09 18:33:19,205 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2018-12-09 18:33:19,206 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/src/LoopingViewPager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/src/LoopingViewPager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-09 18:34:05,803 ERROR SysUtils - Could not process external command
+2019-03-09 21:58:52,838 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-03-09 21:58:52,838 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-09 21:59:29,690 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -157,37 +159,23 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-09 18:34:05,804 INFO  SysUtils - Configuration on demand is an incubating feature.
-Download https://jcenter.bintray.com/com/romandanylyk/pageindicatorview/1.0.1/pageindicatorview-1.0.1.pom
-Download https://jcenter.bintray.com/com/facebook/fresco/fresco/1.9.0/fresco-1.9.0.pom
-Download https://jcenter.bintray.com/com/facebook/fresco/fbcore/1.9.0/fbcore-1.9.0.pom
-Download https://jcenter.bintray.com/com/facebook/fresco/drawee/1.9.0/drawee-1.9.0.pom
-Download https://jcenter.bintray.com/com/facebook/soloader/soloader/0.3.0/soloader-0.3.0.pom
-Download https://jcenter.bintray.com/com/facebook/fresco/imagepipeline/1.9.0/imagepipeline-1.9.0.pom
-Download https://jcenter.bintray.com/com/facebook/fresco/imagepipeline-base/1.9.0/imagepipeline-base-1.9.0.pom
+2019-03-09 21:59:29,690 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:checkDebugClasspath
 Download https://jcenter.bintray.com/com/romandanylyk/pageindicatorview/1.0.1/pageindicatorview-1.0.1.aar
-Download https://jcenter.bintray.com/com/facebook/fresco/fresco/1.9.0/fresco-1.9.0.aar
-Download https://jcenter.bintray.com/com/facebook/fresco/drawee/1.9.0/drawee-1.9.0.aar
-Download https://jcenter.bintray.com/com/facebook/fresco/imagepipeline/1.9.0/imagepipeline-1.9.0.aar
-Download https://jcenter.bintray.com/com/facebook/soloader/soloader/0.3.0/soloader-0.3.0.aar
-Download https://jcenter.bintray.com/com/facebook/fresco/imagepipeline-base/1.9.0/imagepipeline-base-1.9.0.aar
-Download https://jcenter.bintray.com/com/facebook/fresco/fbcore/1.9.0/fbcore-1.9.0.aar
 :app:preBuild UP-TO-DATE
 :loopingviewpager:preBuild UP-TO-DATE
 :loopingviewpager:preDebugBuild UP-TO-DATE
@@ -223,7 +211,7 @@ Download https://jcenter.bintray.com/com/facebook/fresco/fbcore/1.9.0/fbcore-1.9
 :loopingviewpager:processDebugJavaRes NO-SOURCE
 :loopingviewpager:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 :app:javaPreCompileDebug
-:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/src/LoopingViewPager-master/app/src/main/java/com/asksira/loopingviewpagerdemo/DemoInfiniteAdapter.java uses or overrides a deprecated API.
+:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src/app/src/main/java/com/asksira/loopingviewpagerdemo/DemoInfiniteAdapter.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :app:compileDebugNdk NO-SOURCE
@@ -247,7 +235,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :loopingviewpager:transformNativeLibsWithIntermediateJniLibsForDebug
 :app:transformNativeLibsWithMergeJniLibsForDebug
 :app:transformNativeLibsWithStripDebugSymbolForDebug
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/src/LoopingViewPager-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libimagepipeline.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libimagepipeline.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 :app:checkDebugLibraries
 :app:processDebugJavaRes NO-SOURCE
 :app:transformResourcesWithMergeJavaResForDebug
@@ -286,7 +274,7 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 :loopingviewpager:processReleaseJavaRes NO-SOURCE
 :loopingviewpager:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
 :app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/src/LoopingViewPager-master/app/src/main/java/com/asksira/loopingviewpagerdemo/DemoInfiniteAdapter.java uses or overrides a deprecated API.
+:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src/app/src/main/java/com/asksira/loopingviewpagerdemo/DemoInfiniteAdapter.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :app:compileReleaseNdk NO-SOURCE
@@ -311,7 +299,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :loopingviewpager:transformNativeLibsWithIntermediateJniLibsForRelease
 :app:transformNativeLibsWithMergeJniLibsForRelease
 :app:transformNativeLibsWithStripDebugSymbolForRelease
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/src/LoopingViewPager-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/libimagepipeline.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/libimagepipeline.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 :app:checkReleaseLibraries
 :app:processReleaseJavaRes NO-SOURCE
 :app:transformResourcesWithMergeJavaResForRelease
@@ -319,25 +307,25 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 :app:assembleRelease
 :app:assemble
 :app:lint
-Ran lint on variant release: 14 issues found
-Ran lint on variant debug: 14 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/src/LoopingViewPager-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/src/LoopingViewPager-master/app/build/reports/lint-results.xml
+Ran lint on variant release: 13 issues found
+Ran lint on variant debug: 13 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src/app/build/reports/lint-results.xml
 :app:generateDebugUnitTestSources
 :app:preDebugUnitTestBuild UP-TO-DATE
 :app:javaPreCompileDebugUnitTest
-:app:compileDebugUnitTestJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/src/LoopingViewPager-master/app/src/test/java/com/asksira/loopingviewpagerdemo/ExampleUnitTest.java:3: error: package org.junit does not exist
+:app:compileDebugUnitTestJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src/app/src/test/java/com/asksira/loopingviewpagerdemo/ExampleUnitTest.java:3: error: package org.junit does not exist
 import org.junit.Test;
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/src/LoopingViewPager-master/app/src/test/java/com/asksira/loopingviewpagerdemo/ExampleUnitTest.java:5: error: package org.junit does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src/app/src/test/java/com/asksira/loopingviewpagerdemo/ExampleUnitTest.java:5: error: package org.junit does not exist
 import static org.junit.Assert.*;
                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/src/LoopingViewPager-master/app/src/test/java/com/asksira/loopingviewpagerdemo/ExampleUnitTest.java:13: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src/app/src/test/java/com/asksira/loopingviewpagerdemo/ExampleUnitTest.java:13: error: cannot find symbol
     @Test
      ^
   symbol:   class Test
   location: class ExampleUnitTest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/src/LoopingViewPager-master/app/src/test/java/com/asksira/loopingviewpagerdemo/ExampleUnitTest.java:15: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src/app/src/test/java/com/asksira/loopingviewpagerdemo/ExampleUnitTest.java:15: error: cannot find symbol
         assertEquals(4, 2 + 2);
         ^
   symbol:   method assertEquals(int,int)
@@ -418,7 +406,7 @@ Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Com
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 45s
+BUILD FAILED in 36s
 92 actionable tasks: 92 executed
 
-2018-12-09 18:34:05,904 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355183100-0/src/LoopingViewPager-master/app/build/outputs/apk/debug/app-debug.apk
+2019-03-09 21:59:29,781 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552143391230-0/src/app/build/outputs/apk/debug/app-debug.apk

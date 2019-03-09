@@ -1,48 +1,48 @@
-2019-01-18 12:08:34,209 INFO  DownloadService - Downloading "https://github.com/SysdataSpA/SDHtmlTextView/archive/master.zip", attempt 3
-2019-01-18 12:09:34,825 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-01-18 12:09:35,726 INFO  GithubDownloadService - Default branch of this repository: master
-2019-01-18 12:09:35,726 INFO  DownloadService - Downloading "https://github.com/SysdataSpA/SDHtmlTextView/archive/master.zip", attempt 3
-2019-01-18 12:10:37,263 DEBUG FullProcessService - Repository https://github.com/SysdataSpA/SDHtmlTextView available: true
-2019-01-18 12:10:37,263 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-01-18 12:10:37,263 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/SysdataSpA/SDHtmlTextView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src]
-2019-01-18 12:10:40,232 INFO  SysUtils - 
-2019-01-18 12:10:40,242 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/.git": true
-2019-01-18 12:10:40,249 INFO  FullProcessService - Size of directory with sources: 398 KB
-2019-01-18 12:10:40,249 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src]
-2019-01-18 12:10:40,266 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/.git/
+2019-03-09 22:15:00,960 INFO  DownloadService - Downloading "https://github.com/SysdataSpA/SDHtmlTextView/archive/master.zip", attempt 3
+2019-03-09 22:16:02,779 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-03-09 22:16:03,753 INFO  GithubDownloadService - Default branch of this repository: master
+2019-03-09 22:16:03,753 INFO  DownloadService - Downloading "https://github.com/SysdataSpA/SDHtmlTextView/archive/master.zip", attempt 3
+2019-03-09 22:17:06,310 DEBUG FullProcessService - Repository https://github.com/SysdataSpA/SDHtmlTextView available: true
+2019-03-09 22:17:06,310 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-03-09 22:17:06,311 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/SysdataSpA/SDHtmlTextView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src]
+2019-03-09 22:17:08,157 INFO  SysUtils - 
+2019-03-09 22:17:08,166 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/.git": true
+2019-03-09 22:17:08,172 INFO  FullProcessService - Size of directory with sources: 398 KB
+2019-03-09 22:17:08,172 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src]
+2019-03-09 22:17:08,189 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/.git/
 
-2019-01-18 12:10:40,271 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/HtmlSpanner/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/gradlew
-2019-01-18 12:10:40,277 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/HtmlSpanner/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/htmltextview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/build.gradle
-2019-01-18 12:10:40,282 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/HtmlSpanner/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/HtmlSpanner/publishBintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/htmltextview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/htmltextview/publishBintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/settings.gradle
-2019-01-18 12:10:40,283 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2019-01-18 12:10:41,133 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2019-01-18 12:10:41,133 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2019-01-18 12:10:41,235 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2019-01-18 12:10:41,235 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2019-01-18 12:10:41,235 INFO  ProjectFixService - Fixing project...
-2019-01-18 12:10:41,253 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/HtmlSpanner/local.properties
-2019-01-18 12:10:41,253 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.3-bin.zip
-2019-01-18 12:10:41,256 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/HtmlSpanner/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=21,minSdkVersion=9,targetSdkVersion=21]
-2019-01-18 12:10:41,256 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/HtmlSpanner/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=21,minSdkVersion=9,targetSdkVersion=21]
-2019-01-18 12:10:41,257 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/app/local.properties
-2019-01-18 12:10:41,260 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-01-18 12:10:41,260 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-01-18 12:10:41,261 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/htmltextview/local.properties
-2019-01-18 12:10:41,264 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/htmltextview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-01-18 12:10:41,264 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/htmltextview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-01-18 12:10:41,265 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/local.properties
-2019-01-18 12:10:41,265 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-01-18 12:10:41,265 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-01-18 12:10:41,268 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=21,minSdkVersion=9,targetSdkVersion=21]
-2019-01-18 12:10:41,268 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=21,minSdkVersion=9,targetSdkVersion=21]
-2019-01-18 12:10:41,269 INFO  ProjectFixService - Project was maybe fixed
-2019-01-18 12:10:41,269 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-18 12:10:41,269 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/HtmlSpanner/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/HtmlSpanner/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-18 12:10:44,685 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-18 12:10:44,685 INFO  ProjectTaskService - Detected possible tasks: 3
-2019-01-18 12:10:44,685 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2019-01-18 12:10:44,685 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/HtmlSpanner/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/HtmlSpanner/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2019-01-18 12:10:46,449 ERROR SysUtils - Could not process external command
+2019-03-09 22:17:08,194 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/HtmlSpanner/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/gradlew
+2019-03-09 22:17:08,198 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/HtmlSpanner/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/htmltextview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/build.gradle
+2019-03-09 22:17:08,203 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/HtmlSpanner/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/HtmlSpanner/publishBintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/htmltextview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/htmltextview/publishBintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/settings.gradle
+2019-03-09 22:17:08,204 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-03-09 22:17:09,081 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-03-09 22:17:09,081 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-03-09 22:17:09,258 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-03-09 22:17:09,258 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-03-09 22:17:09,258 INFO  ProjectFixService - Fixing project...
+2019-03-09 22:17:09,275 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/HtmlSpanner/local.properties
+2019-03-09 22:17:09,275 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.3-bin.zip
+2019-03-09 22:17:09,277 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/HtmlSpanner/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=21,minSdkVersion=9,targetSdkVersion=21]
+2019-03-09 22:17:09,278 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/HtmlSpanner/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=21,minSdkVersion=9,targetSdkVersion=21]
+2019-03-09 22:17:09,279 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/app/local.properties
+2019-03-09 22:17:09,281 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-03-09 22:17:09,281 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-03-09 22:17:09,282 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/htmltextview/local.properties
+2019-03-09 22:17:09,284 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/htmltextview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-03-09 22:17:09,284 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/htmltextview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-03-09 22:17:09,285 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/local.properties
+2019-03-09 22:17:09,285 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-03-09 22:17:09,286 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-03-09 22:17:09,288 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=21,minSdkVersion=9,targetSdkVersion=21]
+2019-03-09 22:17:09,288 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=21,minSdkVersion=9,targetSdkVersion=21]
+2019-03-09 22:17:09,289 INFO  ProjectFixService - Project was maybe fixed
+2019-03-09 22:17:09,289 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 22:17:09,289 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/HtmlSpanner/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/HtmlSpanner/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 22:17:12,604 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-09 22:17:12,604 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-03-09 22:17:12,604 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-03-09 22:17:12,604 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/HtmlSpanner/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/HtmlSpanner/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-03-09 22:17:14,250 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -62,19 +62,19 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-18 12:10:46,450 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 22:17:14,250 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/build.gradle' line: 6
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/build.gradle' line: 6
 
 * What went wrong:
 A problem occurred evaluating root project 'src'.
@@ -126,7 +126,7 @@ Caused by: org.gradle.api.internal.MissingMethodException: Could not find method
 	at org.gradle.api.internal.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:56)
 	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:172)
 	at org.gradle.api.internal.artifacts.dsl.DefaultRepositoryHandler_Decorated.invokeMethod(Unknown Source)
-	at build_2gnfb3f8lyjun4k0qlazu9uzh$_run_closure1_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/build.gradle:6)
+	at build_cwqdth6dg310r8jo7n3nzqhnm$_run_closure1_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/build.gradle:6)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:110)
@@ -136,7 +136,7 @@ Caused by: org.gradle.api.internal.MissingMethodException: Could not find method
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:91)
 	at org.gradle.api.internal.initialization.DefaultScriptHandler.repositories(DefaultScriptHandler.java:70)
-	at build_2gnfb3f8lyjun4k0qlazu9uzh$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/build.gradle:5)
+	at build_cwqdth6dg310r8jo7n3nzqhnm$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/build.gradle:5)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:91)
@@ -144,21 +144,21 @@ Caused by: org.gradle.api.internal.MissingMethodException: Could not find method
 	at org.gradle.api.Project$buildscript.call(Unknown Source)
 	at org.gradle.api.internal.project.ProjectScript.buildscript(ProjectScript.groovy:42)
 	at org.gradle.api.Script$buildscript.callCurrent(Unknown Source)
-	at build_2gnfb3f8lyjun4k0qlazu9uzh.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/build.gradle:3)
+	at build_cwqdth6dg310r8jo7n3nzqhnm.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/build.gradle:3)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:52)
 	... 35 more
 
 
 BUILD FAILED
 
-Total time: 1.647 secs
+Total time: 1.522 secs
 
-2019-01-18 12:10:46,456 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-18 12:10:46,456 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-18 12:11:02,254 INFO  ProjectTaskService - Detected possible tasks: 70
-2019-01-18 12:11:02,254 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-01-18 12:11:02,254 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-01-18 12:11:08,453 ERROR SysUtils - Could not process external command
+2019-03-09 22:17:14,257 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 22:17:14,257 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 22:17:20,574 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-03-09 22:17:20,575 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-09 22:17:20,575 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-09 22:17:26,955 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -178,14 +178,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-18 12:11:08,453 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 22:17:26,955 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -267,13 +267,9 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 BUILD FAILED in 5s
 
-2019-01-18 12:11:08,453 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-01-18 12:11:08,453 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-18 12:12:06,543 INFO  SysUtils - Configuration on demand is an incubating feature.
-Download https://plugins.gradle.org/m2/org/jfrog/buildinfo/build-info-client/2.5.1/build-info-client-2.5.1.jar
-Download https://plugins.gradle.org/m2/org/jfrog/buildinfo/build-info-extractor/2.5.1/build-info-extractor-2.5.1.jar
-Download https://plugins.gradle.org/m2/org/jfrog/buildinfo/build-info-api/2.5.1/build-info-api-2.5.1.jar
-Download https://plugins.gradle.org/m2/org/jfrog/buildinfo/build-info-extractor-gradle/3.1.1/build-info-extractor-gradle-3.1.1.jar
+2019-03-09 22:17:26,955 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-03-09 22:17:26,955 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-09 22:18:31,376 INFO  SysUtils - Configuration on demand is an incubating feature.
 [buildinfo] Not using buildInfo properties file for this build.
 :app:preBuild UP-TO-DATE
 :htmlspanner:preBuild UP-TO-DATE
@@ -285,6 +281,7 @@ Download https://plugins.gradle.org/m2/org/jfrog/buildinfo/build-info-extractor-
 :htmltextview:checkDebugManifest
 :htmltextview:processDebugManifest
 :app:preDebugBuild
+Download https://jcenter.bintray.com/io/reactivex/rxandroid/1.2.1/rxandroid-1.2.1.aar
 :htmlspanner:compileDebugAidl
 :htmltextview:compileDebugAidl
 :app:compileDebugAidl
@@ -313,6 +310,9 @@ Download https://plugins.gradle.org/m2/org/jfrog/buildinfo/build-info-extractor-
 :htmlspanner:generateDebugBuildConfig
 :htmlspanner:prepareLintJar
 :htmlspanner:javaPreCompileDebug
+Download https://jcenter.bintray.com/net/sourceforge/htmlcleaner/htmlcleaner/2.16/htmlcleaner-2.16.jar
+Download http://repo.pageturner-reader.org/com/osbcp/cssparser/cssparser/1.5/cssparser-1.5.jar
+Download https://jcenter.bintray.com/io/reactivex/rxjava/1.2.10/rxjava-1.2.10.jar
 :htmlspanner:processDebugJavaRes NO-SOURCE
 :htmltextview:generateDebugBuildConfig
 :htmltextview:prepareLintJar
@@ -413,7 +413,7 @@ Download https://plugins.gradle.org/m2/org/jfrog/buildinfo/build-info-extractor-
 :htmltextview:generateDebugRFile
 :app:processDebugResources
 :htmlspanner:generateDebugSources
-:htmlspanner:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/HtmlSpanner/src/main/java/com/sysdata/htmlspanner/handlers/ImageHandler.java uses or overrides a deprecated API.
+:htmlspanner:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/HtmlSpanner/src/main/java/com/sysdata/htmlspanner/handlers/ImageHandler.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :htmlspanner:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
@@ -428,6 +428,8 @@ Note: Recompile with -Xlint:deprecation for details.
 :app:compileDebugJavaWithJavac
 :app:compileDebugSources
 :app:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
 :app:transformDexArchiveWithExternalLibsDexMergerForDebug
 :app:transformDexArchiveWithDexMergerForDebug
 :app:transformNativeLibsWithMergeJniLibsForDebug
@@ -439,7 +441,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :htmltextview:generateReleaseRFile
 :app:processReleaseResources
 :htmlspanner:generateReleaseSources
-:htmlspanner:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/HtmlSpanner/src/main/java/com/sysdata/htmlspanner/handlers/ImageHandler.java uses or overrides a deprecated API.
+:htmlspanner:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/HtmlSpanner/src/main/java/com/sysdata/htmlspanner/handlers/ImageHandler.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :htmlspanner:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
@@ -466,8 +468,8 @@ Note: Recompile with -Xlint:deprecation for details.
 :app:lint
 Ran lint on variant debug: 4 issues found
 Ran lint on variant release: 4 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/app/build/reports/lint-results.xml
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/app/build/reports/lint-results.xml
 :app:compileDebugUnitTestKotlin
 :app:javaPreCompileDebugUnitTest
 :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
@@ -480,7 +482,7 @@ Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgby
 :app:check
 :app:build
 
-BUILD SUCCESSFUL in 57s
+BUILD SUCCESSFUL in 1m 3s
 140 actionable tasks: 140 executed
 
-2019-01-18 12:12:06,649 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547788114205-0/src/app/build/outputs/apk/debug/app-debug.apk
+2019-03-09 22:18:31,501 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552144500958-0/src/app/build/outputs/apk/debug/app-debug.apk
