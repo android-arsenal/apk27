@@ -1,37 +1,37 @@
-2019-03-23 22:39:18,251 INFO  DownloadService - Downloading "https://github.com/burhanrashid52/PhotoEditor/archive/master.zip", attempt 3
-2019-03-23 22:39:24,677 INFO  DownloadService - Downloaded https://github.com/burhanrashid52/PhotoEditor/archive/master.zip, attempt 3
-2019-03-23 22:39:24,677 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553355558242-0/master.zip": 6 MB
-2019-03-23 22:39:24,677 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-23 22:39:24,679 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553355558242-0/master.zip: true
-2019-03-23 22:39:24,680 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553355558242-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553355558242-0/src'.
-2019-03-23 22:39:24,763 INFO  FullProcessService - Size of directory with sources: 7 MB
-2019-03-23 22:39:24,763 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553355558242-0/src]
-2019-03-23 22:39:24,784 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553355558242-0/src/.git/
+2019-04-23 11:36:38,500 INFO  DownloadService - Downloading "https://github.com/burhanrashid52/PhotoEditor/archive/master.zip", attempt 3
+2019-04-23 11:36:44,833 INFO  DownloadService - Downloaded https://github.com/burhanrashid52/PhotoEditor/archive/master.zip, attempt 3
+2019-04-23 11:36:44,834 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555994198492-0/master.zip": 6 MB
+2019-04-23 11:36:44,834 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-23 11:36:44,842 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555994198492-0/master.zip: true
+2019-04-23 11:36:44,842 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555994198492-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555994198492-0/src'.
+2019-04-23 11:36:44,984 INFO  FullProcessService - Size of directory with sources: 7 MB
+2019-04-23 11:36:44,984 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555994198492-0/src]
+2019-04-23 11:36:45,021 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555994198492-0/src/.git/
 
-2019-03-23 22:39:24,788 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553355558242-0/src/PhotoEditor-master/gradlew
-2019-03-23 22:39:24,794 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553355558242-0/src/PhotoEditor-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553355558242-0/src/PhotoEditor-master/photoeditor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553355558242-0/src/PhotoEditor-master/build.gradle
-2019-03-23 22:39:24,798 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553355558242-0/src/PhotoEditor-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553355558242-0/src/PhotoEditor-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553355558242-0/src/PhotoEditor-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553355558242-0/src/PhotoEditor-master/photoeditor/build.gradle
-2019-03-23 22:39:24,805 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2019-03-23 22:39:25,394 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2019-03-23 22:39:25,394 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2019-03-23 22:39:25,496 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2019-03-23 22:39:25,496 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2019-03-23 22:39:25,496 INFO  ProjectFixService - Fixing project...
-2019-03-23 22:39:25,512 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553355558242-0/src/PhotoEditor-master/app/local.properties
-2019-03-23 22:39:25,513 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553355558242-0/src/PhotoEditor-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2019-03-23 22:39:25,513 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553355558242-0/src/PhotoEditor-master/photoeditor/local.properties
-2019-03-23 22:39:25,514 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553355558242-0/src/PhotoEditor-master/photoeditor/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2019-03-23 22:39:25,514 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553355558242-0/src/PhotoEditor-master/local.properties
-2019-03-23 22:39:25,515 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-03-23 22:39:25,515 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-03-23 22:39:25,516 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553355558242-0/src/PhotoEditor-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2019-03-23 22:39:25,516 INFO  ProjectFixService - Project was maybe fixed
-2019-03-23 22:39:25,516 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-23 22:39:25,517 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553355558242-0/src/PhotoEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553355558242-0/src/PhotoEditor-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-23 22:39:41,351 INFO  ProjectTaskService - Detected possible tasks: 70
-2019-03-23 22:39:41,351 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-23 22:39:41,351 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553355558242-0/src/PhotoEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553355558242-0/src/PhotoEditor-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-23 22:39:47,684 ERROR SysUtils - Could not process external command
+2019-04-23 11:36:45,030 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555994198492-0/src/PhotoEditor-master/gradlew
+2019-04-23 11:36:45,039 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555994198492-0/src/PhotoEditor-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555994198492-0/src/PhotoEditor-master/photoeditor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555994198492-0/src/PhotoEditor-master/build.gradle
+2019-04-23 11:36:45,047 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555994198492-0/src/PhotoEditor-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555994198492-0/src/PhotoEditor-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555994198492-0/src/PhotoEditor-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555994198492-0/src/PhotoEditor-master/photoeditor/build.gradle
+2019-04-23 11:36:45,061 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-04-23 11:36:45,673 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-04-23 11:36:45,674 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-04-23 11:36:45,853 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-04-23 11:36:45,853 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-04-23 11:36:45,853 INFO  ProjectFixService - Fixing project...
+2019-04-23 11:36:45,873 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555994198492-0/src/PhotoEditor-master/app/local.properties
+2019-04-23 11:36:45,875 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555994198492-0/src/PhotoEditor-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-04-23 11:36:45,876 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555994198492-0/src/PhotoEditor-master/photoeditor/local.properties
+2019-04-23 11:36:45,877 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555994198492-0/src/PhotoEditor-master/photoeditor/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-04-23 11:36:45,878 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555994198492-0/src/PhotoEditor-master/local.properties
+2019-04-23 11:36:45,879 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-04-23 11:36:45,880 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-04-23 11:36:45,882 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555994198492-0/src/PhotoEditor-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-04-23 11:36:45,882 INFO  ProjectFixService - Project was maybe fixed
+2019-04-23 11:36:45,882 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-23 11:36:45,883 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555994198492-0/src/PhotoEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555994198492-0/src/PhotoEditor-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-23 11:37:01,187 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-04-23 11:37:01,187 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-04-23 11:37:01,187 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555994198492-0/src/PhotoEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555994198492-0/src/PhotoEditor-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-04-23 11:37:14,830 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -59,7 +59,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-23 22:39:47,684 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-23 11:37:14,831 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -139,11 +139,11 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 13s
 
-2019-03-23 22:39:47,684 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-03-23 22:39:47,684 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553355558242-0/src/PhotoEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553355558242-0/src/PhotoEditor-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-23 22:40:26,064 ERROR SysUtils - Could not process external command
+2019-04-23 11:37:14,831 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-04-23 11:37:14,831 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555994198492-0/src/PhotoEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555994198492-0/src/PhotoEditor-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-23 11:38:46,899 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -171,9 +171,10 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-23 22:40:26,064 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-23 11:38:46,899 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild
+Download https://jcenter.bintray.com/ja/burhanrashid52/photoeditor/0.3.3/photoeditor-0.3.3.aar
 :app:compileDebugAidl
 :app:compileDebugRenderscript
 :app:checkDebugManifest
@@ -248,8 +249,8 @@ Note: Recompile with -Xlint:deprecation for details.
 :app:lint
 Ran lint on variant debug: 55 issues found
 Ran lint on variant release: 55 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553355558242-0/src/PhotoEditor-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553355558242-0/src/PhotoEditor-master/app/build/reports/lint-results.xml
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555994198492-0/src/PhotoEditor-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555994198492-0/src/PhotoEditor-master/app/build/reports/lint-results.xml
 :app:lint FAILED
 
 FAILURE: Build failed with an exception.
@@ -269,13 +270,13 @@ Execution failed for task ':app:lint'.
   
   Errors found:
   
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553355558242-0/src/PhotoEditor-master/app/src/main/res/layout/fragment_bottom_properties_dialog.xml:13: Error: To support older versions than API 17 (project specifies 14) you should also add android:layout_alignParentRight="true" [RtlCompat]
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555994198492-0/src/PhotoEditor-master/app/src/main/res/layout/fragment_bottom_properties_dialog.xml:13: Error: To support older versions than API 17 (project specifies 14) you should also add android:layout_alignParentRight="true" [RtlCompat]
           android:layout_alignParentEnd="true"
           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553355558242-0/src/PhotoEditor-master/app/src/main/res/layout/fragment_bottom_sticker_emoji_dialog.xml:20: Error: To support older versions than API 17 (project specifies 14) you should also add android:layout_marginLeft="8dp" [RtlCompat]
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555994198492-0/src/PhotoEditor-master/app/src/main/res/layout/fragment_bottom_sticker_emoji_dialog.xml:20: Error: To support older versions than API 17 (project specifies 14) you should also add android:layout_marginLeft="8dp" [RtlCompat]
               android:layout_marginStart="8dp"
               ~~~~~~~~~~~~~~~~~~~~~~~~~~
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553355558242-0/src/PhotoEditor-master/app/src/main/res/layout/fragment_bottom_sticker_emoji_dialog.xml:51: Error: To support older versions than API 17 (project specifies 14) you should also add android:layout_marginRight="8dp" [RtlCompat]
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555994198492-0/src/PhotoEditor-master/app/src/main/res/layout/fragment_bottom_sticker_emoji_dialog.xml:51: Error: To support older versions than API 17 (project specifies 14) you should also add android:layout_marginRight="8dp" [RtlCompat]
               android:layout_marginEnd="8dp"
               ~~~~~~~~~~~~~~~~~~~~~~~~
   
@@ -329,13 +330,13 @@ android {
 
 Errors found:
 
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553355558242-0/src/PhotoEditor-master/app/src/main/res/layout/fragment_bottom_properties_dialog.xml:13: Error: To support older versions than API 17 (project specifies 14) you should also add android:layout_alignParentRight="true" [RtlCompat]
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555994198492-0/src/PhotoEditor-master/app/src/main/res/layout/fragment_bottom_properties_dialog.xml:13: Error: To support older versions than API 17 (project specifies 14) you should also add android:layout_alignParentRight="true" [RtlCompat]
         android:layout_alignParentEnd="true"
         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553355558242-0/src/PhotoEditor-master/app/src/main/res/layout/fragment_bottom_sticker_emoji_dialog.xml:20: Error: To support older versions than API 17 (project specifies 14) you should also add android:layout_marginLeft="8dp" [RtlCompat]
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555994198492-0/src/PhotoEditor-master/app/src/main/res/layout/fragment_bottom_sticker_emoji_dialog.xml:20: Error: To support older versions than API 17 (project specifies 14) you should also add android:layout_marginLeft="8dp" [RtlCompat]
             android:layout_marginStart="8dp"
             ~~~~~~~~~~~~~~~~~~~~~~~~~~
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553355558242-0/src/PhotoEditor-master/app/src/main/res/layout/fragment_bottom_sticker_emoji_dialog.xml:51: Error: To support older versions than API 17 (project specifies 14) you should also add android:layout_marginRight="8dp" [RtlCompat]
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555994198492-0/src/PhotoEditor-master/app/src/main/res/layout/fragment_bottom_sticker_emoji_dialog.xml:51: Error: To support older versions than API 17 (project specifies 14) you should also add android:layout_marginRight="8dp" [RtlCompat]
             android:layout_marginEnd="8dp"
             ~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -364,7 +365,7 @@ Errors found:
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 37s
+BUILD FAILED in 1m 31s
 53 actionable tasks: 53 executed
 
-2019-03-23 22:40:26,146 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553355558242-0/src/PhotoEditor-master/app/build/outputs/apk/debug/app-debug.apk
+2019-04-23 11:38:47,047 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555994198492-0/src/PhotoEditor-master/app/build/outputs/apk/debug/app-debug.apk
