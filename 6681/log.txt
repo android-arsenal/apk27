@@ -1,37 +1,38 @@
-2018-08-22 15:40:09,365 INFO  DownloadService - Downloading "https://github.com/kibotu/Heart-Rate-Ometer/archive/master.zip", attempt 3
-2018-08-22 15:40:09,857 INFO  DownloadService - Downloaded https://github.com/kibotu/Heart-Rate-Ometer/archive/master.zip, attempt 3
-2018-08-22 15:40:09,857 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/master.zip": 193 KB
-2018-08-22 15:40:09,857 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-08-22 15:40:09,863 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/master.zip: true
-2018-08-22 15:40:09,863 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src'.
-2018-08-22 15:40:09,883 INFO  FullProcessService - Size of directory with sources: 247 KB
-2018-08-22 15:40:09,884 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src]
-2018-08-22 15:40:09,899 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/.git/
+2019-05-16 13:18:53,180 INFO  DownloadService - Downloading "https://github.com/kibotu/Heart-Rate-Ometer/archive/master.zip", attempt 3
+2019-05-16 13:18:55,648 INFO  DownloadService - Downloaded https://github.com/kibotu/Heart-Rate-Ometer/archive/master.zip, attempt 3
+2019-05-16 13:18:55,648 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557987533176-0/master.zip": 193 KB
+2019-05-16 13:18:55,649 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-16 13:18:55,654 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557987533176-0/master.zip: true
+2019-05-16 13:18:55,654 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557987533176-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557987533176-0/src'.
+2019-05-16 13:18:55,676 INFO  FullProcessService - Size of directory with sources: 247 KB
+2019-05-16 13:18:55,677 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557987533176-0/src]
+2019-05-16 13:18:55,708 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557987533176-0/src/.git/
 
-2018-08-22 15:40:09,902 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/gradlew
-2018-08-22 15:40:09,905 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/build.gradle
-2018-08-22 15:40:09,907 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/settings.gradle
-2018-08-22 15:40:09,908 INFO  DownloadService - Downloading "https://gist.githubusercontent.com/kibotu/994c9cc65fe623b76b76fedfac74b34b/raw/65ee52482ba65050e015f4b00d8d2fc9172a10e8/javadoc.gradle", attempt 3
-2018-08-22 15:40:10,770 INFO  DownloadService - Downloaded https://gist.githubusercontent.com/kibotu/994c9cc65fe623b76b76fedfac74b34b/raw/65ee52482ba65050e015f4b00d8d2fc9172a10e8/javadoc.gradle, attempt 3
-2018-08-22 15:40:10,770 INFO  ProjectBuildService - Remote scripts: https://gist.githubusercontent.com/kibotu/994c9cc65fe623b76b76fedfac74b34b/raw/65ee52482ba65050e015f4b00d8d2fc9172a10e8/javadoc.gradle
-2018-08-22 15:40:10,770 INFO  ProjectFixService - Fixing project...
-2018-08-22 15:40:10,777 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/app/local.properties
-2018-08-22 15:40:10,779 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-08-22 15:40:10,779 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-08-22 15:40:10,780 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/local.properties
-2018-08-22 15:40:10,784 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-08-22 15:40:10,784 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-08-22 15:40:10,785 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/local.properties
-2018-08-22 15:40:10,786 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.5.1-bin.zip
-2018-08-22 15:40:10,788 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-08-22 15:40:10,788 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-08-22 15:40:10,788 INFO  ProjectFixService - Project was maybe fixed
-2018-08-22 15:40:10,788 INFO  ProjectTaskService - Detecting possible tasks...
-2018-08-22 15:40:10,789 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-08-22 15:40:51,150 INFO  ProjectTaskService - Detected possible tasks: 73
-2018-08-22 15:40:51,150 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-08-22 15:40:51,150 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-08-22 15:40:57,633 ERROR SysUtils - Could not process external command
+2019-05-16 13:18:55,711 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557987533176-0/src/Heart-Rate-Ometer-master/gradlew
+2019-05-16 13:18:55,714 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557987533176-0/src/Heart-Rate-Ometer-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557987533176-0/src/Heart-Rate-Ometer-master/heartrateometer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557987533176-0/src/Heart-Rate-Ometer-master/build.gradle
+2019-05-16 13:18:55,717 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557987533176-0/src/Heart-Rate-Ometer-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557987533176-0/src/Heart-Rate-Ometer-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557987533176-0/src/Heart-Rate-Ometer-master/heartrateometer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557987533176-0/src/Heart-Rate-Ometer-master/settings.gradle
+2019-05-16 13:18:55,718 INFO  DownloadService - Downloading "https://gist.githubusercontent.com/kibotu/994c9cc65fe623b76b76fedfac74b34b/raw/65ee52482ba65050e015f4b00d8d2fc9172a10e8/javadoc.gradle", attempt 3
+2019-05-16 13:18:56,855 INFO  DownloadService - Downloaded https://gist.githubusercontent.com/kibotu/994c9cc65fe623b76b76fedfac74b34b/raw/65ee52482ba65050e015f4b00d8d2fc9172a10e8/javadoc.gradle, attempt 3
+2019-05-16 13:18:56,855 INFO  ProjectBuildService - Remote scripts: https://gist.githubusercontent.com/kibotu/994c9cc65fe623b76b76fedfac74b34b/raw/65ee52482ba65050e015f4b00d8d2fc9172a10e8/javadoc.gradle
+2019-05-16 13:18:56,855 INFO  ProjectFixService - Fixing project...
+2019-05-16 13:18:56,866 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557987533176-0/src/Heart-Rate-Ometer-master/app/local.properties
+2019-05-16 13:18:56,868 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557987533176-0/src/Heart-Rate-Ometer-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-16 13:18:56,868 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557987533176-0/src/Heart-Rate-Ometer-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-16 13:18:56,869 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557987533176-0/src/Heart-Rate-Ometer-master/heartrateometer/local.properties
+2019-05-16 13:18:56,873 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557987533176-0/src/Heart-Rate-Ometer-master/heartrateometer/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-16 13:18:56,873 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557987533176-0/src/Heart-Rate-Ometer-master/heartrateometer/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-16 13:18:56,874 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557987533176-0/src/Heart-Rate-Ometer-master/local.properties
+2019-05-16 13:18:56,874 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.5.1-bin.zip
+2019-05-16 13:18:56,876 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557987533176-0/src/Heart-Rate-Ometer-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-16 13:18:56,876 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557987533176-0/src/Heart-Rate-Ometer-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-16 13:18:56,877 INFO  ProjectFixService - Project was maybe fixed
+2019-05-16 13:18:56,877 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-16 13:18:56,877 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557987533176-0/src/Heart-Rate-Ometer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557987533176-0/src/Heart-Rate-Ometer-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-16 13:19:34,034 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-05-16 13:19:34,035 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-05-16 13:19:34,035 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-05-16 13:19:34,035 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557987533176-0/src/Heart-Rate-Ometer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557987533176-0/src/Heart-Rate-Ometer-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-05-16 13:19:40,040 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,35 +45,367 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-08-22 15:40:57,633 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-16 13:19:40,040 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-Task 'javadocJar' not found in project ':app'.
+A problem occurred configuring project ':app'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mips64el-linux-android
 
 * Try:
-Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
 
 * Exception is:
-org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in project ':app'.
-	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:116)
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':app'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:94)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:89)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:70)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:110)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:667)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:136)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:59)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:268)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:175)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:130)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:109)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:49)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:32)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:64)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:290)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:263)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:256)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:190)
+	at org.gradle.launcher.Main.doAction(Main.java:36)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mips64el-linux-android
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getDefaultToolchainVersion(DefaultNdkInfo.java:441)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getToolchainPath(DefaultNdkInfo.java:284)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getStripExecutable(DefaultNdkInfo.java:410)
+	at com.android.build.gradle.internal.ndk.NdkHandler.getStripExecutable(NdkHandler.java:459)
+	at com.android.build.gradle.internal.transforms.StripDebugSymbolTransform.<init>(StripDebugSymbolTransform.java:89)
+	at com.android.build.gradle.internal.TaskManager.createStripNativeLibraryTask(TaskManager.java:1718)
+	at com.android.build.gradle.internal.ApplicationTaskManager.createTasksForVariantScope(ApplicationTaskManager.java:226)
+	at com.android.build.gradle.internal.VariantManager.createTasksForVariantData(VariantManager.java:545)
+	at com.android.build.gradle.internal.VariantManager.lambda$createAndroidTasks$1(VariantManager.java:355)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:351)
+	at com.android.build.gradle.BasePlugin.lambda$createAndroidTasks$5(BasePlugin.java:641)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:636)
+	at com.android.build.gradle.BasePlugin.lambda$null$3(BasePlugin.java:555)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.BasePlugin.lambda$createTasks$4(BasePlugin.java:551)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:91)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:80)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:42)
+	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:230)
+	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:149)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:58)
+	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:324)
+	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:234)
+	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
+	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:76)
+	... 72 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 5s
+
+2019-05-16 13:19:40,044 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-16 13:19:40,044 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557987533176-0/src/Heart-Rate-Ometer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557987533176-0/src/Heart-Rate-Ometer-master/heartrateometer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-16 13:19:46,982 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-05-16 13:19:46,983 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-05-16 13:19:46,983 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-05-16 13:19:46,983 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557987533176-0/src/Heart-Rate-Ometer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557987533176-0/src/Heart-Rate-Ometer-master/heartrateometer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-05-16 13:19:53,554 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-16 13:19:53,555 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'provided' in project ':heartrateometer' is deprecated. Use 'compileOnly' instead.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':heartrateometer'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mips64el-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':heartrateometer'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:94)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:89)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:70)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:110)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:667)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:136)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:59)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:268)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:175)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:130)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:109)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:49)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:32)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:64)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:290)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:263)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:256)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:190)
+	at org.gradle.launcher.Main.doAction(Main.java:36)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mips64el-linux-android
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getDefaultToolchainVersion(DefaultNdkInfo.java:441)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getToolchainPath(DefaultNdkInfo.java:284)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getStripExecutable(DefaultNdkInfo.java:410)
+	at com.android.build.gradle.internal.ndk.NdkHandler.getStripExecutable(NdkHandler.java:459)
+	at com.android.build.gradle.internal.transforms.StripDebugSymbolTransform.<init>(StripDebugSymbolTransform.java:89)
+	at com.android.build.gradle.internal.TaskManager.createStripNativeLibraryTask(TaskManager.java:1718)
+	at com.android.build.gradle.internal.LibraryTaskManager.createTasksForVariantScope(LibraryTaskManager.java:275)
+	at com.android.build.gradle.internal.VariantManager.createTasksForVariantData(VariantManager.java:545)
+	at com.android.build.gradle.internal.VariantManager.lambda$createAndroidTasks$1(VariantManager.java:355)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:351)
+	at com.android.build.gradle.BasePlugin.lambda$createAndroidTasks$5(BasePlugin.java:641)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:636)
+	at com.android.build.gradle.BasePlugin.lambda$null$3(BasePlugin.java:555)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.BasePlugin.lambda$createTasks$4(BasePlugin.java:551)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:91)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:80)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:42)
+	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:230)
+	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:149)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:58)
+	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:324)
+	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:234)
+	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
+	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:76)
+	... 72 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 6s
+
+2019-05-16 13:19:53,560 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-16 13:19:53,560 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557987533176-0/src/Heart-Rate-Ometer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557987533176-0/src/Heart-Rate-Ometer-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-16 13:19:59,509 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-05-16 13:19:59,509 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-05-16 13:19:59,510 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-05-16 13:19:59,510 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557987533176-0/src/Heart-Rate-Ometer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557987533176-0/src/Heart-Rate-Ometer-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-05-16 13:20:05,302 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-16 13:20:05,302 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':app'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mips64el-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':app'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:94)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:89)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:70)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:110)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:667)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:136)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:62)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
 	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:66)
 	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
 	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
@@ -134,311 +467,43 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mips64el-linux-android
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getDefaultToolchainVersion(DefaultNdkInfo.java:441)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getToolchainPath(DefaultNdkInfo.java:284)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getStripExecutable(DefaultNdkInfo.java:410)
+	at com.android.build.gradle.internal.ndk.NdkHandler.getStripExecutable(NdkHandler.java:459)
+	at com.android.build.gradle.internal.transforms.StripDebugSymbolTransform.<init>(StripDebugSymbolTransform.java:89)
+	at com.android.build.gradle.internal.TaskManager.createStripNativeLibraryTask(TaskManager.java:1718)
+	at com.android.build.gradle.internal.ApplicationTaskManager.createTasksForVariantScope(ApplicationTaskManager.java:226)
+	at com.android.build.gradle.internal.VariantManager.createTasksForVariantData(VariantManager.java:545)
+	at com.android.build.gradle.internal.VariantManager.lambda$createAndroidTasks$1(VariantManager.java:355)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:351)
+	at com.android.build.gradle.BasePlugin.lambda$createAndroidTasks$5(BasePlugin.java:641)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:636)
+	at com.android.build.gradle.BasePlugin.lambda$null$3(BasePlugin.java:555)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.BasePlugin.lambda$createTasks$4(BasePlugin.java:551)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:91)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:80)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:42)
+	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:230)
+	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:149)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:58)
+	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:324)
+	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:234)
+	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
+	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:76)
+	... 74 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 5s
 
-2018-08-22 15:40:57,633 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2018-08-22 15:40:57,634 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-08-22 15:42:13,767 INFO  SysUtils - Configuration on demand is an incubating feature.
-Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
-Configuration 'provided' in project ':heartrateometer' is deprecated. Use 'compileOnly' instead.
-Download https://gist.githubusercontent.com/kibotu/994c9cc65fe623b76b76fedfac74b34b/raw/65ee52482ba65050e015f4b00d8d2fc9172a10e8/javadoc.gradle
-:app:preBuild UP-TO-DATE
-:heartrateometer:preBuild UP-TO-DATE
-:heartrateometer:preDebugBuild UP-TO-DATE
-:heartrateometer:checkDebugManifest
-:heartrateometer:processDebugManifest
-:app:preDebugBuild
-Download https://jitpack.io/com/github/kibotu/KalmanRx/1.2.1/KalmanRx-1.2.1.pom
-Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.0.0/rxjava-2.0.0.pom
-Download https://jcenter.bintray.com/io/reactivex/rxandroid/1.2.1/rxandroid-1.2.1.pom
-Download https://jcenter.bintray.com/io/reactivex/rxjava/1.1.6/rxjava-1.1.6.pom
-Download https://jitpack.io/com/github/kibotu/KalmanRx/1.2.1/KalmanRx-1.2.1.aar
-Download https://jcenter.bintray.com/io/reactivex/rxandroid/1.2.1/rxandroid-1.2.1.aar
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.2.21/kotlin-stdlib-jdk8-1.2.21.pom
-:heartrateometer:compileDebugAidl
-:app:compileDebugAidl
-:heartrateometer:packageDebugRenderscript NO-SOURCE
-:app:compileDebugRenderscript
-:app:checkDebugManifest
-:app:generateDebugBuildConfig
-:app:generateDebugResValues
-:app:generateDebugResources
-:heartrateometer:compileDebugRenderscript
-:heartrateometer:generateDebugResValues
-:heartrateometer:generateDebugResources
-:heartrateometer:packageDebugResources
-:app:mergeDebugResources
-:app:createDebugCompatibleScreenManifests
-:app:processDebugManifest
-:app:splitsDiscoveryTaskDebug
-:heartrateometer:platformAttrExtractor
-:heartrateometer:generateDebugBuildConfig
-:heartrateometer:prepareLintJar
-:heartrateometer:processDebugJavaRes NO-SOURCE
-:app:prepareLintJar
-:app:compileDebugNdk NO-SOURCE
-:app:mergeDebugShaders
-:app:compileDebugShaders
-:app:generateDebugAssets
-:heartrateometer:mergeDebugShaders
-:heartrateometer:compileDebugShaders
-:heartrateometer:generateDebugAssets
-:heartrateometer:mergeDebugAssets
-:app:mergeDebugAssets
-:app:extractTryWithResourcesSupportJarDebug
-:app:mergeDebugJniLibFolders
-:heartrateometer:compileDebugNdk NO-SOURCE
-:heartrateometer:mergeDebugJniLibFolders
-:heartrateometer:transformNativeLibsWithMergeJniLibsForDebug
-:heartrateometer:transformNativeLibsWithStripDebugSymbolForDebug
-:heartrateometer:transformNativeLibsWithIntermediateJniLibsForDebug
-:app:processDebugJavaRes NO-SOURCE
-:app:validateSigningDebug
-:heartrateometer:preReleaseBuild UP-TO-DATE
-:heartrateometer:checkReleaseManifest
-:heartrateometer:processReleaseManifest
-:app:preReleaseBuild
-:heartrateometer:compileReleaseAidl
-:app:compileReleaseAidl
-:heartrateometer:packageReleaseRenderscript NO-SOURCE
-:app:compileReleaseRenderscript
-:app:checkReleaseManifest
-:app:generateReleaseBuildConfig
-:app:generateReleaseResValues
-:app:generateReleaseResources
-:heartrateometer:compileReleaseRenderscript
-:heartrateometer:generateReleaseResValues
-:heartrateometer:generateReleaseResources
-:heartrateometer:packageReleaseResources
-:app:mergeReleaseResources
-:app:createReleaseCompatibleScreenManifests
-:app:processReleaseManifest
-:app:splitsDiscoveryTaskRelease
-:heartrateometer:generateReleaseBuildConfig
-:heartrateometer:processReleaseJavaRes NO-SOURCE
-:app:compileReleaseNdk NO-SOURCE
-:app:mergeReleaseShaders
-:app:compileReleaseShaders
-:app:generateReleaseAssets
-:heartrateometer:mergeReleaseShaders
-:heartrateometer:compileReleaseShaders
-:heartrateometer:generateReleaseAssets
-:heartrateometer:mergeReleaseAssets
-:app:mergeReleaseAssets
-:app:extractTryWithResourcesSupportJarRelease
-:app:mergeReleaseJniLibFolders
-:heartrateometer:compileReleaseNdk NO-SOURCE
-:heartrateometer:mergeReleaseJniLibFolders
-:heartrateometer:transformNativeLibsWithMergeJniLibsForRelease
-:heartrateometer:transformNativeLibsWithStripDebugSymbolForRelease
-:heartrateometer:transformNativeLibsWithIntermediateJniLibsForRelease
-:app:processReleaseJavaRes NO-SOURCE
-:app:preDebugUnitTestBuild UP-TO-DATE
-:app:mockableAndroidJar
-:app:processDebugUnitTestJavaRes NO-SOURCE
-:app:preReleaseUnitTestBuild UP-TO-DATE
-:app:processReleaseUnitTestJavaRes NO-SOURCE
-:heartrateometer:processDebugResources
-:app:processDebugResources
-:heartrateometer:compileDebugKotlin
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.2.21/kotlin-stdlib-jdk8-1.2.21.jar
-Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.0.0/rxjava-2.0.0.jar
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (5, 25): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (44, 45): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (44, 52): 'PreviewCallback' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (108, 24): 'setType(Int): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (108, 46): 'SURFACE_TYPE_PUSH_BUFFERS: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (172, 33): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (172, 40): 'Parameters' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (216, 50): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (216, 57): 'PreviewCallback' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (217, 25): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (217, 32): 'PreviewCallback' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (230, 67): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (270, 82): Unchecked cast: Array<(out) Double?>! to Array<Double>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (271, 81): Unchecked cast: Array<(out) Long?>! to Array<Long>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (311, 51): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (311, 58): 'PreviewCallback' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (313, 25): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (313, 32): 'PreviewCallback' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (332, 67): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (506, 79): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (506, 86): 'Parameters' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (506, 100): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (506, 107): 'Size' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (508, 21): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (508, 28): 'Size' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/ImageProcessing.kt: (46, 21): Variable 'red' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraModule.kt: (8, 30): Parameter 'context' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPostLolipop.kt: (5, 25): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPostLolipop.kt: (70, 54): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPostLolipop.kt: (70, 61): 'PreviewCallback' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (3, 25): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (8, 25): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (10, 30): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (10, 37): 'Parameters' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (17, 23): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (22, 20): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (22, 27): 'CameraInfo' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (23, 9): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (35, 54): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (35, 61): 'PreviewCallback' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (63, 79): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (63, 86): 'Parameters' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (76, 62): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (76, 69): 'Parameters' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (77, 37): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (77, 44): 'Parameters' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (78, 69): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (78, 76): 'Parameters' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (79, 37): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (79, 44): 'Parameters' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (80, 69): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (80, 76): 'Parameters' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (81, 37): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (81, 44): 'Parameters' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraSupport.kt: (3, 25): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraSupport.kt: (21, 26): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraSupport.kt: (21, 33): 'Parameters' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraSupport.kt: (25, 54): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraSupport.kt: (25, 61): 'PreviewCallback' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/org/apache/commons/collections4/BoundedCollection.kt: (35, 34): This class shouldn't be used in Kotlin. Use kotlin.collections.Collection or kotlin.collections.MutableCollection instead.
-:heartrateometer:generateDebugSources
-:heartrateometer:javaPreCompileDebug
-:heartrateometer:compileDebugJavaWithJavac
-:heartrateometer:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:app:compileDebugKotlin
-Download https://jcenter.bintray.com/io/reactivex/rxjava/1.1.6/rxjava-1.1.6.jar
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/app/src/main/kotlin/net/kibotu/heartrateometer/MainActivity.kt: (58, 25): Variable 's' is never used
-:app:generateDebugSources
-:app:javaPreCompileDebug
-:app:compileDebugJavaWithJavac
-:app:compileDebugSources
-:app:transformClassesWithStackFramesFixerForDebug
-:app:transformClassesWithDesugarForDebug
-:app:transformClassesWithDexBuilderForDebug
-:app:transformDexArchiveWithExternalLibsDexMergerForDebug
-:app:transformDexArchiveWithDexMergerForDebug
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-:app:transformResourcesWithMergeJavaResForDebug
-:app:packageDebug
-:app:assembleDebug
-:heartrateometer:processReleaseResources
-:app:processReleaseResources
-:heartrateometer:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (5, 25): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (44, 45): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (44, 52): 'PreviewCallback' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (108, 24): 'setType(Int): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (108, 46): 'SURFACE_TYPE_PUSH_BUFFERS: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (172, 33): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (172, 40): 'Parameters' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (216, 50): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (216, 57): 'PreviewCallback' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (217, 25): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (217, 32): 'PreviewCallback' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (230, 67): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (270, 82): Unchecked cast: Array<(out) Double?>! to Array<Double>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (271, 81): Unchecked cast: Array<(out) Long?>! to Array<Long>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (311, 51): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (311, 58): 'PreviewCallback' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (313, 25): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (313, 32): 'PreviewCallback' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (332, 67): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (506, 79): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (506, 86): 'Parameters' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (506, 100): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (506, 107): 'Size' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (508, 21): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/HeartRateOmeter.kt: (508, 28): 'Size' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/ImageProcessing.kt: (46, 21): Variable 'red' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraModule.kt: (8, 30): Parameter 'context' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPostLolipop.kt: (5, 25): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPostLolipop.kt: (70, 54): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPostLolipop.kt: (70, 61): 'PreviewCallback' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (3, 25): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (8, 25): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (10, 30): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (10, 37): 'Parameters' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (17, 23): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (22, 20): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (22, 27): 'CameraInfo' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (23, 9): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (35, 54): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (35, 61): 'PreviewCallback' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (63, 79): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (63, 86): 'Parameters' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (76, 62): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (76, 69): 'Parameters' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (77, 37): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (77, 44): 'Parameters' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (78, 69): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (78, 76): 'Parameters' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (79, 37): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (79, 44): 'Parameters' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (80, 69): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (80, 76): 'Parameters' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (81, 37): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraPreLolipop.kt: (81, 44): 'Parameters' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraSupport.kt: (3, 25): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraSupport.kt: (21, 26): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraSupport.kt: (21, 33): 'Parameters' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraSupport.kt: (25, 54): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/net.kibotu.heartrateometer/camera/CameraSupport.kt: (25, 61): 'PreviewCallback' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/heartrateometer/src/main/kotlin/org/apache/commons/collections4/BoundedCollection.kt: (35, 34): This class shouldn't be used in Kotlin. Use kotlin.collections.Collection or kotlin.collections.MutableCollection instead.
-:heartrateometer:generateReleaseSources
-:heartrateometer:javaPreCompileRelease
-:heartrateometer:compileReleaseJavaWithJavac
-:heartrateometer:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/app/src/main/kotlin/net/kibotu/heartrateometer/MainActivity.kt: (58, 25): Variable 's' is never used
-:app:generateReleaseSources
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavac
-:app:compileReleaseSources
-:app:lintVitalRelease SKIPPED
-:app:transformClassesWithStackFramesFixerForRelease
-:app:transformClassesWithDesugarForRelease
-:app:transformClassesWithPreDexForRelease
-:app:transformDexWithDexForRelease
-:app:transformNativeLibsWithMergeJniLibsForRelease
-:app:transformNativeLibsWithStripDebugSymbolForRelease
-:app:transformResourcesWithMergeJavaResForRelease
-:app:packageRelease
-:app:assembleRelease
-:app:assemble
-:app:lint
-Ran lint on variant release: 7 issues found
-Ran lint on variant debug: 7 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/app/build/reports/lint-results.xml
-:app:compileDebugUnitTestKotlin
-:app:javaPreCompileDebugUnitTest
-:app:compileDebugUnitTestJavaWithJavac NO-SOURCE
-:app:testDebugUnitTest NO-SOURCE
-:app:compileReleaseUnitTestKotlin
-:app:javaPreCompileReleaseUnitTest
-:app:compileReleaseUnitTestJavaWithJavac NO-SOURCE
-:app:testReleaseUnitTest NO-SOURCE
-:app:test UP-TO-DATE
-:app:check
-:app:build
-
-BUILD SUCCESSFUL in 1m 15s
-103 actionable tasks: 103 executed
-Exception in thread "Thread-33" java.lang.NoClassDefFoundError: com/android/utils/PathUtils$1
-	at com.android.utils.PathUtils.deleteIfExists(PathUtils.java:47)
-	at com.android.utils.PathUtils.lambda$addRemovePathHook$0(PathUtils.java:125)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.ClassNotFoundException: com.android.utils.PathUtils$1
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-	... 3 more
-
-2018-08-22 15:42:13,860 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534927209357-0/src/Heart-Rate-Ometer-master/app/build/outputs/apk/debug/app-debug.apk
+2019-05-16 13:20:05,306 ERROR FullProcessService - Project build has not produced APK file
+2019-05-16 13:20:05,310 ERROR FullProcessService - Could not find generated or existed APK file
