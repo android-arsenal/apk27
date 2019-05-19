@@ -1,70 +1,86 @@
-2019-03-09 20:08:56,849 INFO  DownloadService - Downloading "https://github.com/prof18/RSS-Parser/archive/master.zip", attempt 3
-2019-03-09 20:09:02,488 INFO  DownloadService - Downloaded https://github.com/prof18/RSS-Parser/archive/master.zip, attempt 3
-2019-03-09 20:09:02,488 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552136936845-0/master.zip": 3 MB
-2019-03-09 20:09:02,488 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-09 20:09:02,489 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552136936845-0/master.zip: true
-2019-03-09 20:09:02,489 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552136936845-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552136936845-0/src'.
-2019-03-09 20:09:02,564 INFO  FullProcessService - Size of directory with sources: 3 MB
-2019-03-09 20:09:02,564 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552136936845-0/src]
-2019-03-09 20:09:02,586 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552136936845-0/src/.git/
+2019-05-19 17:30:10,782 INFO  DownloadService - Downloading "https://github.com/prof18/RSS-Parser/archive/master.zip", attempt 3
+2019-05-19 17:30:15,327 INFO  DownloadService - Downloaded https://github.com/prof18/RSS-Parser/archive/master.zip, attempt 3
+2019-05-19 17:30:15,328 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261810774-0/master.zip": 3 MB
+2019-05-19 17:30:15,328 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-19 17:30:15,329 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261810774-0/master.zip: true
+2019-05-19 17:30:15,329 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261810774-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261810774-0/src'.
+2019-05-19 17:30:15,392 INFO  FullProcessService - Size of directory with sources: 4 MB
+2019-05-19 17:30:15,392 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261810774-0/src]
+2019-05-19 17:30:15,423 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261810774-0/src/.git/
 
-2019-03-09 20:09:02,592 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552136936845-0/src/RSS-Parser-master/gradlew
-2019-03-09 20:09:02,598 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552136936845-0/src/RSS-Parser-master/rssparser/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552136936845-0/src/RSS-Parser-master/samplejava/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552136936845-0/src/RSS-Parser-master/samplekotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552136936845-0/src/RSS-Parser-master/build.gradle
-2019-03-09 20:09:02,604 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552136936845-0/src/RSS-Parser-master/samplekotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552136936845-0/src/RSS-Parser-master/samplejava/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552136936845-0/src/RSS-Parser-master/rssparser/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552136936845-0/src/RSS-Parser-master/rssparser/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552136936845-0/src/RSS-Parser-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552136936845-0/src/RSS-Parser-master/settings.gradle
-2019-03-09 20:09:02,605 INFO  ProjectBuildService - Remote scripts: none
-2019-03-09 20:09:02,605 INFO  ProjectFixService - Fixing project...
-2019-03-09 20:09:02,620 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552136936845-0/src/RSS-Parser-master/rssparser/local.properties
-2019-03-09 20:09:02,621 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552136936845-0/src/RSS-Parser-master/rssparser/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-09 20:09:02,621 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552136936845-0/src/RSS-Parser-master/rssparser/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-09 20:09:02,622 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552136936845-0/src/RSS-Parser-master/samplejava/local.properties
-2019-03-09 20:09:02,623 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552136936845-0/src/RSS-Parser-master/samplejava/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-09 20:09:02,624 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552136936845-0/src/RSS-Parser-master/samplejava/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-09 20:09:02,624 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552136936845-0/src/RSS-Parser-master/samplekotlin/local.properties
-2019-03-09 20:09:02,626 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552136936845-0/src/RSS-Parser-master/samplekotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-09 20:09:02,626 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552136936845-0/src/RSS-Parser-master/samplekotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-09 20:09:02,627 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552136936845-0/src/RSS-Parser-master/local.properties
-2019-03-09 20:09:02,627 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-03-09 20:09:02,628 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-03-09 20:09:02,630 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552136936845-0/src/RSS-Parser-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-09 20:09:02,631 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552136936845-0/src/RSS-Parser-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-09 20:09:02,631 INFO  ProjectFixService - Project was maybe fixed
-2019-03-09 20:09:02,631 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-09 20:09:02,632 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552136936845-0/src/RSS-Parser-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552136936845-0/src/RSS-Parser-master/rssparser/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-09 20:09:12,790 INFO  ProjectTaskService - Detected possible tasks: 75
-2019-03-09 20:09:12,790 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-03-09 20:09:12,790 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552136936845-0/src/RSS-Parser-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552136936845-0/src/RSS-Parser-master/rssparser/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-03-09 20:09:30,617 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-19 17:30:15,429 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261810774-0/src/RSS-Parser-master/gradlew
+2019-05-19 17:30:15,435 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261810774-0/src/RSS-Parser-master/rssparser/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261810774-0/src/RSS-Parser-master/samplejava/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261810774-0/src/RSS-Parser-master/samplekotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261810774-0/src/RSS-Parser-master/build.gradle
+2019-05-19 17:30:15,441 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261810774-0/src/RSS-Parser-master/samplekotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261810774-0/src/RSS-Parser-master/samplejava/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261810774-0/src/RSS-Parser-master/rssparser/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261810774-0/src/RSS-Parser-master/rssparser/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261810774-0/src/RSS-Parser-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261810774-0/src/RSS-Parser-master/settings.gradle
+2019-05-19 17:30:15,442 INFO  ProjectBuildService - Remote scripts: none
+2019-05-19 17:30:15,442 INFO  ProjectFixService - Fixing project...
+2019-05-19 17:30:15,456 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261810774-0/src/RSS-Parser-master/rssparser/local.properties
+2019-05-19 17:30:15,458 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261810774-0/src/RSS-Parser-master/rssparser/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-05-19 17:30:15,458 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261810774-0/src/RSS-Parser-master/rssparser/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-05-19 17:30:15,459 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261810774-0/src/RSS-Parser-master/samplejava/local.properties
+2019-05-19 17:30:15,462 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261810774-0/src/RSS-Parser-master/samplejava/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-05-19 17:30:15,462 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261810774-0/src/RSS-Parser-master/samplejava/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-05-19 17:30:15,463 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261810774-0/src/RSS-Parser-master/samplekotlin/local.properties
+2019-05-19 17:30:15,465 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261810774-0/src/RSS-Parser-master/samplekotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-05-19 17:30:15,466 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261810774-0/src/RSS-Parser-master/samplekotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-05-19 17:30:15,467 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261810774-0/src/RSS-Parser-master/local.properties
+2019-05-19 17:30:15,467 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-05-19 17:30:15,468 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-05-19 17:30:15,471 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261810774-0/src/RSS-Parser-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-05-19 17:30:15,471 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261810774-0/src/RSS-Parser-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-05-19 17:30:15,472 INFO  ProjectFixService - Project was maybe fixed
+2019-05-19 17:30:15,472 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-19 17:30:15,472 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261810774-0/src/RSS-Parser-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261810774-0/src/RSS-Parser-master/rssparser/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-19 17:30:32,537 INFO  ProjectTaskService - Detected possible tasks: 79
+2019-05-19 17:30:32,537 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-19 17:30:32,537 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261810774-0/src/RSS-Parser-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261810774-0/src/RSS-Parser-master/rssparser/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-19 17:30:51,680 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :rssparser
+WARNING: The option setting 'android.enableUnitTestBinaryResources=true' is experimental and unsupported.
+The current default is 'false'.
+
+WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
 Configuration(s) specified but the install task does not exist in project :rssparser.
+
 > Task :rssparser:preBuild UP-TO-DATE
 > Task :rssparser:preDebugBuild UP-TO-DATE
 > Task :rssparser:compileDebugAidl NO-SOURCE
+> Transform kotlinx-coroutines-core-common.jar (org.jetbrains.kotlinx:kotlinx-coroutines-core-common:1.1.1) with JetifyTransform
+> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.31) with JetifyTransform
+> Transform kotlinx-coroutines-core-common.jar (org.jetbrains.kotlinx:kotlinx-coroutines-core-common:1.1.1) with IdentityTransform
+> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.31) with IdentityTransform
 > Transform annotations.jar (org.jetbrains:annotations:13.0) with JetifyTransform
-> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.20) with JetifyTransform
-> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.20) with JetifyTransform
-> Transform annotations.jar (org.jetbrains:annotations:13.0) with IdentityTransform
-> Transform kotlinx-coroutines-core-common.jar (org.jetbrains.kotlinx:kotlinx-coroutines-core-common:1.1.0) with JetifyTransform
-> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.20) with IdentityTransform
-> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.20) with IdentityTransform
-> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.20) with JetifyTransform
-> Transform kotlinx-coroutines-core.jar (org.jetbrains.kotlinx:kotlinx-coroutines-core:1.1.0) with JetifyTransform
-> Transform kotlinx-coroutines-core-common.jar (org.jetbrains.kotlinx:kotlinx-coroutines-core-common:1.1.0) with IdentityTransform
+> Transform kotlinx-coroutines-android.jar (org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.1) with JetifyTransform
+> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.31) with JetifyTransform
 > Task :rssparser:compileDebugRenderscript
-> Transform kotlinx-coroutines-core.jar (org.jetbrains.kotlinx:kotlinx-coroutines-core:1.1.0) with IdentityTransform
-> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.20) with IdentityTransform
+> Transform annotations.jar (org.jetbrains:annotations:13.0) with IdentityTransform
+> Transform kotlinx-coroutines-android.jar (org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.1) with IdentityTransform
+> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.31) with IdentityTransform
 > Task :rssparser:checkDebugManifest
 > Task :rssparser:generateDebugBuildConfig
 > Task :rssparser:generateDebugResValues
 > Task :rssparser:generateDebugResources
-> Transform aapt2-osx.jar (com.android.tools.build:aapt2:3.3.0-5013011) with Aapt2Extractor
 > Transform okio.jar (com.squareup.okio:okio:1.15.0) with JetifyTransform
+> Transform aapt2-osx.jar (com.android.tools.build:aapt2:3.3.2-5309881) with Aapt2Extractor
 > Transform okhttp.jar (com.squareup.okhttp3:okhttp:3.12.0) with JetifyTransform
+> Transform kotlinx-coroutines-core.jar (org.jetbrains.kotlinx:kotlinx-coroutines-core:1.1.1) with JetifyTransform
 > Task :rssparser:processDebugManifest
+> Transform kotlinx-coroutines-core.jar (org.jetbrains.kotlinx:kotlinx-coroutines-core:1.1.1) with IdentityTransform
 > Transform okio.jar (com.squareup.okio:okio:1.15.0) with IdentityTransform
 > Transform okhttp.jar (com.squareup.okhttp3:okhttp:3.12.0) with IdentityTransform
+> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.31) with JetifyTransform
 > Task :rssparser:packageDebugResources
+> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.31) with IdentityTransform
 > Task :rssparser:generateDebugRFile
+> Task :rssparser:compileDebugKotlin
 > Task :rssparser:prepareLintJar
 > Task :rssparser:generateDebugSources
+> Task :rssparser:javaPreCompileDebug
+> Task :rssparser:compileDebugJavaWithJavac
+> Task :rssparser:extractDebugAnnotations
 > Task :rssparser:mergeDebugConsumerProguardFiles
 > Task :rssparser:mergeDebugShaders
 > Task :rssparser:compileDebugShaders
@@ -72,11 +88,17 @@ Configuration(s) specified but the install task does not exist in project :rsspa
 > Task :rssparser:packageDebugAssets
 > Task :rssparser:packageDebugRenderscript NO-SOURCE
 > Task :rssparser:processDebugJavaRes NO-SOURCE
+> Task :rssparser:transformResourcesWithMergeJavaResForDebug
+> Task :rssparser:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :rssparser:compileDebugNdk NO-SOURCE
 > Task :rssparser:mergeDebugJniLibFolders
 > Task :rssparser:transformNativeLibsWithMergeJniLibsForDebug
 > Task :rssparser:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :rssparser:transformNativeLibsWithSyncJniLibsForDebug
+> Task :rssparser:bundleDebugAar
+> Task :rssparser:mergeDebugResources
+> Task :rssparser:compileDebugSources
+> Task :rssparser:assembleDebug
 > Task :rssparser:preReleaseBuild UP-TO-DATE
 > Task :rssparser:compileReleaseAidl NO-SOURCE
 > Task :rssparser:compileReleaseRenderscript
@@ -87,7 +109,11 @@ Configuration(s) specified but the install task does not exist in project :rsspa
 > Task :rssparser:packageReleaseResources
 > Task :rssparser:processReleaseManifest
 > Task :rssparser:generateReleaseRFile
+> Task :rssparser:compileReleaseKotlin
 > Task :rssparser:generateReleaseSources
+> Task :rssparser:javaPreCompileRelease
+> Task :rssparser:compileReleaseJavaWithJavac
+> Task :rssparser:extractReleaseAnnotations
 > Task :rssparser:mergeReleaseConsumerProguardFiles
 > Task :rssparser:mergeReleaseShaders
 > Task :rssparser:compileReleaseShaders
@@ -95,32 +121,17 @@ Configuration(s) specified but the install task does not exist in project :rsspa
 > Task :rssparser:packageReleaseAssets
 > Task :rssparser:packageReleaseRenderscript NO-SOURCE
 > Task :rssparser:processReleaseJavaRes NO-SOURCE
+> Task :rssparser:transformResourcesWithMergeJavaResForRelease
+> Task :rssparser:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :rssparser:compileReleaseNdk NO-SOURCE
 > Task :rssparser:mergeReleaseJniLibFolders
 > Task :rssparser:transformNativeLibsWithMergeJniLibsForRelease
 > Task :rssparser:transformNativeLibsWithStripDebugSymbolForRelease
 > Task :rssparser:transformNativeLibsWithSyncJniLibsForRelease
-> Task :rssparser:mergeReleaseResources
-> Transform kotlinx-coroutines-android.jar (org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.0) with JetifyTransform
-> Task :rssparser:verifyReleaseResources
-> Transform kotlinx-coroutines-android.jar (org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.0) with IdentityTransform
-> Task :rssparser:compileDebugKotlin
-> Task :rssparser:javaPreCompileDebug
-> Task :rssparser:compileDebugJavaWithJavac
-> Task :rssparser:extractDebugAnnotations
-> Task :rssparser:transformResourcesWithMergeJavaResForDebug
-> Task :rssparser:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :rssparser:bundleDebugAar
-> Task :rssparser:compileDebugSources
-> Task :rssparser:assembleDebug
-> Task :rssparser:compileReleaseKotlin
-> Task :rssparser:javaPreCompileRelease
-> Task :rssparser:compileReleaseJavaWithJavac
-> Task :rssparser:extractReleaseAnnotations
-> Task :rssparser:transformResourcesWithMergeJavaResForRelease
-> Task :rssparser:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :rssparser:bundleReleaseAar
+> Task :rssparser:mergeReleaseResources
 > Task :rssparser:compileReleaseSources
+> Task :rssparser:verifyReleaseResources
 > Task :rssparser:assembleRelease
 > Task :rssparser:assemble
 > Task :rssparser:build
@@ -129,7 +140,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 17s
-47 actionable tasks: 47 executed
+BUILD SUCCESSFUL in 18s
+48 actionable tasks: 48 executed
 
-2019-03-09 20:09:30,638 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552136936845-0/src/RSS-Parser-master/RSS Parser.apk
+2019-05-19 17:30:51,701 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261810774-0/src/RSS-Parser-master/RSS Parser.apk
