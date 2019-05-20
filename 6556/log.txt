@@ -1,217 +1,67 @@
-2019-03-09 22:29:20,798 INFO  DownloadService - Downloading "https://github.com/ShabanKamell/android-form-validator/archive/master.zip", attempt 3
-2019-03-09 22:30:21,759 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-03-09 22:30:22,980 INFO  GithubDownloadService - Default branch of this repository: master
-2019-03-09 22:30:22,980 INFO  DownloadService - Downloading "https://github.com/ShabanKamell/android-form-validator/archive/master.zip", attempt 3
-2019-03-09 22:31:24,717 DEBUG FullProcessService - Repository https://github.com/ShabanKamell/android-form-validator available: true
-2019-03-09 22:31:24,717 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-03-09 22:31:24,718 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/ShabanKamell/android-form-validator, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145360796-0/src]
-2019-03-09 22:31:26,469 INFO  SysUtils - 
-2019-03-09 22:31:26,479 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145360796-0/src/.git": true
-2019-03-09 22:31:26,485 INFO  FullProcessService - Size of directory with sources: 476 KB
-2019-03-09 22:31:26,485 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145360796-0/src]
-2019-03-09 22:31:26,502 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145360796-0/src/.git/
+2019-05-20 12:57:37,608 INFO  DownloadService - Downloading "https://github.com/ShabanKamell/android-form-validator/archive/master.zip", attempt 3
+2019-05-20 12:57:43,395 INFO  DownloadService - Downloaded https://github.com/ShabanKamell/android-form-validator/archive/master.zip, attempt 3
+2019-05-20 12:57:43,396 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331857599-0/master.zip": 5 MB
+2019-05-20 12:57:43,396 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-20 12:57:43,403 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331857599-0/master.zip: true
+2019-05-20 12:57:43,404 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331857599-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331857599-0/src'.
+2019-05-20 12:57:43,483 INFO  FullProcessService - Size of directory with sources: 5 MB
+2019-05-20 12:57:43,484 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331857599-0/src]
+2019-05-20 12:57:43,501 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331857599-0/src/.git/
 
-2019-03-09 22:31:26,508 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145360796-0/src/gradlew
-2019-03-09 22:31:26,513 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145360796-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145360796-0/src/formvalidator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145360796-0/src/build.gradle
-2019-03-09 22:31:26,518 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145360796-0/src/versions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145360796-0/src/formvalidator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145360796-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145360796-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145360796-0/src/settings.gradle
-2019-03-09 22:31:26,518 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2019-03-09 22:31:27,343 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2019-03-09 22:31:27,343 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2019-03-09 22:31:27,538 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2019-03-09 22:31:27,538 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2019-03-09 22:31:27,538 INFO  ProjectFixService - Fixing project...
-2019-03-09 22:31:27,555 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145360796-0/src/app/local.properties
-2019-03-09 22:31:27,559 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145360796-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-03-09 22:31:27,559 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145360796-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-03-09 22:31:27,560 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145360796-0/src/formvalidator/local.properties
-2019-03-09 22:31:27,563 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145360796-0/src/formvalidator/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-03-09 22:31:27,563 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145360796-0/src/formvalidator/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-03-09 22:31:27,565 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145360796-0/src/local.properties
-2019-03-09 22:31:27,565 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.9-all.zip
-2019-03-09 22:31:27,565 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.9-bin.zip)
-2019-03-09 22:31:27,568 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145360796-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-03-09 22:31:27,568 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145360796-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-03-09 22:31:27,569 INFO  ProjectFixService - Project was maybe fixed
-2019-03-09 22:31:27,569 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-09 22:31:27,569 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145360796-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145360796-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-09 22:31:36,284 INFO  ProjectTaskService - Detected possible tasks: 72
-2019-03-09 22:31:36,284 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-09 22:31:36,284 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145360796-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145360796-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-09 22:31:42,804 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2019-03-09 22:31:42,804 INFO  SysUtils - Configuration on demand is an incubating feature.
-
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-Task 'javadocJar' not found in project ':app'.
-
-* Try:
-Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
-
-* Exception is:
-org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in project ':app'.
-	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:116)
-	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:66)
-	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
-	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:297)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:187)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:142)
-	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:121)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:77)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:74)
-	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
-	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:38)
-	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:96)
-	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:74)
-	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
-	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
-	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.run(RunAsBuildOperationBuildActionRunner.java:47)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:43)
-	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:50)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:46)
-	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:74)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:46)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:32)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:62)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:34)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
-	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
-	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:59)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:31)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:46)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
-	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:52)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:207)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:402)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:375)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:37)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:23)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:368)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:298)
-	at org.gradle.launcher.Main.doAction(Main.java:36)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-
-
-* Get more help at https://help.gradle.org
-
-BUILD FAILED in 6s
-
-2019-03-09 22:31:42,804 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-03-09 22:31:42,804 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145360796-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145360796-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-09 22:32:45,058 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:69)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2019-03-09 22:32:45,064 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :formvalidator:preBuild UP-TO-DATE
-> Task :formvalidator:preDebugBuild UP-TO-DATE
-> Task :formvalidator:compileDebugAidl NO-SOURCE
-> Task :formvalidator:compileDebugRenderscript
-> Task :formvalidator:checkDebugManifest
-> Task :formvalidator:generateDebugBuildConfig
-> Task :formvalidator:generateDebugResValues
-> Task :formvalidator:generateDebugResources
-> Task :formvalidator:packageDebugResources
-> Task :formvalidator:processDebugManifest
-> Task :formvalidator:generateDebugRFile
-> Task :formvalidator:prepareLintJar
-> Task :formvalidator:generateDebugSources
-Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.1.3/rxjava-2.1.3.jar
-> Task :formvalidator:javaPreCompileDebug
-> Task :formvalidator:compileDebugJavaWithJavac
-> Task :formvalidator:processDebugJavaRes NO-SOURCE
-> Task :formvalidator:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-> Task :formvalidator:createFullJarDebug
-> Transform full.jar (project :formvalidator) with IdentityTransform
-Download https://jcenter.bintray.com/com/jakewharton/butterknife/8.5.1/butterknife-8.5.1.aar
-Download https://jcenter.bintray.com/com/jakewharton/butterknife-compiler/8.5.1/butterknife-compiler-8.5.1.jar
-Download https://jcenter.bintray.com/com/jakewharton/butterknife-annotations/8.5.1/butterknife-annotations-8.5.1.jar
-> Task :app:checkDebugClasspath
+2019-05-20 12:57:43,506 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331857599-0/src/FormValidator-master/gradlew
+2019-05-20 12:57:43,511 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331857599-0/src/FormValidator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331857599-0/src/FormValidator-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331857599-0/src/FormValidator-master/build.gradle
+2019-05-20 12:57:43,515 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331857599-0/src/FormValidator-master/versions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331857599-0/src/FormValidator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331857599-0/src/FormValidator-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331857599-0/src/FormValidator-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331857599-0/src/FormValidator-master/settings.gradle
+2019-05-20 12:57:43,516 INFO  ProjectBuildService - Remote scripts: none
+2019-05-20 12:57:43,516 INFO  ProjectFixService - Fixing project...
+2019-05-20 12:57:43,526 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331857599-0/src/FormValidator-master/app/local.properties
+2019-05-20 12:57:43,528 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331857599-0/src/FormValidator-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-20 12:57:43,528 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331857599-0/src/FormValidator-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-20 12:57:43,529 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331857599-0/src/FormValidator-master/lib/local.properties
+2019-05-20 12:57:43,530 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331857599-0/src/FormValidator-master/lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-05-20 12:57:43,531 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331857599-0/src/FormValidator-master/lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-05-20 12:57:43,531 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331857599-0/src/FormValidator-master/local.properties
+2019-05-20 12:57:43,532 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-05-20 12:57:43,532 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-05-20 12:57:43,534 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331857599-0/src/FormValidator-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-20 12:57:43,535 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331857599-0/src/FormValidator-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-20 12:57:43,535 INFO  ProjectFixService - Project was maybe fixed
+2019-05-20 12:57:43,535 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-20 12:57:43,535 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331857599-0/src/FormValidator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331857599-0/src/FormValidator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-20 12:57:52,897 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-05-20 12:57:52,897 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-05-20 12:57:52,897 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331857599-0/src/FormValidator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331857599-0/src/FormValidator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-05-20 12:58:44,354 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
+> Task :lib:preBuild UP-TO-DATE
+> Task :lib:preDebugBuild UP-TO-DATE
+> Task :lib:checkDebugManifest
+> Task :lib:processDebugManifest
+> Task :lib:compileDebugAidl NO-SOURCE
+> Task :lib:packageDebugRenderscript NO-SOURCE
+> Task :app:prepareLintJar
+> Task :lib:compileDebugRenderscript NO-SOURCE
+> Task :lib:generateDebugBuildConfig
+> Task :lib:generateDebugResValues
+> Task :lib:generateDebugResources
+> Task :lib:prepareLintJar
+> Task :lib:generateDebugSources
+> Task :lib:javaPreCompileDebug
+> Task :lib:packageDebugResources
+> Task :lib:generateDebugRFile
+> Task :lib:compileDebugJavaWithJavac
+> Task :lib:bundleLibCompileDebug
+> Task :lib:mergeDebugShaders
+> Task :lib:compileDebugShaders
+> Task :lib:generateDebugAssets
+> Task :lib:packageDebugAssets
+> Task :lib:bundleLibRuntimeDebug
 > Task :app:preDebugBuild
 > Task :app:compileDebugAidl NO-SOURCE
-> Task :formvalidator:packageDebugRenderscript NO-SOURCE
-> Task :app:compileDebugRenderscript
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
-> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :app:javaPreCompileDebug
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
@@ -219,75 +69,62 @@ Download https://jcenter.bintray.com/com/jakewharton/butterknife-annotations/8.5
 > Task :app:createDebugCompatibleScreenManifests
 > Task :app:processDebugManifest
 > Task :app:processDebugResources
-> Task :app:generateDebugSources
-> Task :app:javaPreCompileDebug
+
 > Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugNdk NO-SOURCE
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331857599-0/src/FormValidator-master/app/src/main/java/com/sha/formvalidatorsample/ui/SettingsActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
 > Task :app:compileDebugSources
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
-> Task :formvalidator:mergeDebugShaders
-> Task :formvalidator:compileDebugShaders
-> Task :formvalidator:generateDebugAssets
-> Task :formvalidator:packageDebugAssets
 > Task :app:mergeDebugAssets
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-compiler/8.5.1/76253d53698d5a93191ebf72534e9eeb7391b5c3/butterknife-compiler-8.5.1.jar: D8: Type `javax.annotation.processing.AbstractProcessor` was not found, it is required for default or static interface methods desugaring of `void butterknife.compiler.ButterKnifeProcessor.init(javax.annotation.processing.ProcessingEnvironment)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-compiler/8.5.1/76253d53698d5a93191ebf72534e9eeb7391b5c3/butterknife-compiler-8.5.1.jar: D8: Type `com.sun.source.util.Trees` was not found, it is required for default or static interface methods desugaring of `void butterknife.compiler.ButterKnifeProcessor.init(javax.annotation.processing.ProcessingEnvironment)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-compiler/8.5.1/76253d53698d5a93191ebf72534e9eeb7391b5c3/butterknife-compiler-8.5.1.jar: D8: Type `javax.lang.model.SourceVersion` was not found, it is required for default or static interface methods desugaring of `javax.lang.model.SourceVersion butterknife.compiler.ButterKnifeProcessor.getSupportedSourceVersion()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.auto.service/auto-service/1.0-rc2/51033a5b8fcf7039159e35b6878f106ccd5fb35f/auto-service-1.0-rc2.jar: D8: Type `javax.lang.model.SourceVersion` was not found, it is required for default or static interface methods desugaring of `javax.lang.model.SourceVersion com.google.auto.service.processor.AutoServiceProcessor.getSupportedSourceVersion()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.8.0/e858dc62ef484048540d27d36f3ec2177a3fa9b1/javapoet-1.8.0.jar: D8: Type `javax.lang.model.SourceVersion` was not found, it is required for default or static interface methods desugaring of `java.lang.String com.squareup.javapoet.NameAllocator.newName(java.lang.String, java.lang.Object)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.auto/auto-common/0.6/cf7212b0f8bfef12657b942df8f4f2cf032d3f41/auto-common-0.6.jar: D8: Type `javax.lang.model.util.ElementFilter` was not found, it is required for default or static interface methods desugaring of `java.util.Map com.google.auto.common.AnnotationMirrors.getAnnotationValuesWithDefaults(javax.lang.model.element.AnnotationMirror)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.auto/auto-common/0.6/cf7212b0f8bfef12657b942df8f4f2cf032d3f41/auto-common-0.6.jar: D8: Type `javax.lang.model.type.TypeKind` was not found, it is required for default or static interface methods desugaring of `void com.google.auto.common.MoreTypes$18.<clinit>()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.auto/auto-common/0.6/cf7212b0f8bfef12657b942df8f4f2cf032d3f41/auto-common-0.6.jar: D8: Type `javax.lang.model.util.ElementFilter` was not found, it is required for default or static interface methods desugaring of `void com.google.auto.common.MoreElements.getLocalAndInheritedMethods(javax.lang.model.element.PackageElement, javax.lang.model.element.TypeElement, com.google.common.collect.SetMultimap)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.8.0/e858dc62ef484048540d27d36f3ec2177a3fa9b1/javapoet-1.8.0.jar: D8: Type `javax.lang.model.SourceVersion` was not found, it is required for default or static interface methods desugaring of `void com.squareup.javapoet.ClassName.<init>(java.util.List, java.util.List)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.8.0/e858dc62ef484048540d27d36f3ec2177a3fa9b1/javapoet-1.8.0.jar: D8: Type `javax.lang.model.element.Modifier` was not found, it is required for default or static interface methods desugaring of `void com.squareup.javapoet.Util.<clinit>()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.auto/auto-common/0.6/cf7212b0f8bfef12657b942df8f4f2cf032d3f41/auto-common-0.6.jar: D8: Type `javax.annotation.processing.AbstractProcessor` was not found, it is required for default or static interface methods desugaring of `void com.google.auto.common.BasicAnnotationProcessor.init(javax.annotation.processing.ProcessingEnvironment)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.8.0/e858dc62ef484048540d27d36f3ec2177a3fa9b1/javapoet-1.8.0.jar: D8: Type `javax.lang.model.util.SimpleTypeVisitor7` was not found, it is required for default or static interface methods desugaring of `com.squareup.javapoet.TypeName com.squareup.javapoet.TypeName$1.visitNoType(javax.lang.model.type.NoType, java.lang.Void)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.8.0/e858dc62ef484048540d27d36f3ec2177a3fa9b1/javapoet-1.8.0.jar: D8: Type `javax.lang.model.type.TypeKind` was not found, it is required for default or static interface methods desugaring of `void com.squareup.javapoet.TypeName$2.<clinit>()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.8.0/e858dc62ef484048540d27d36f3ec2177a3fa9b1/javapoet-1.8.0.jar: D8: Type `javax.lang.model.SourceVersion` was not found, it is required for default or static interface methods desugaring of `com.squareup.javapoet.FieldSpec$Builder com.squareup.javapoet.FieldSpec.builder(com.squareup.javapoet.TypeName, java.lang.String, javax.lang.model.element.Modifier[])`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar: D8: Type `sun.misc.Unsafe` was not found, it is required for default or static interface methods desugaring of `sun.misc.Unsafe com.google.common.cache.Striped64.getUnsafe()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar: D8: Type `sun.misc.Unsafe` was not found, it is required for default or static interface methods desugaring of `sun.misc.Unsafe com.google.common.primitives.UnsignedBytes$LexicographicalComparatorHolder$UnsafeComparator.getUnsafe()`
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:checkDebugDuplicateClasses
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.10.0/7ef0f1d95bf4c0b3ba30bbae25e0e562b05cf75e/okhttp-3.10.0.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `okhttp3.internal.platform.Platform okhttp3.internal.platform.ConscryptPlatform.buildIfSupported()`
 > Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
 > Task :app:transformDexArchiveWithDexMergerForDebug
 > Task :app:mergeDebugJniLibFolders
-> Task :formvalidator:compileDebugNdk NO-SOURCE
-> Task :formvalidator:mergeDebugJniLibFolders
-> Task :formvalidator:transformNativeLibsWithMergeJniLibsForDebug
-> Task :formvalidator:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :formvalidator:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :lib:processDebugJavaRes NO-SOURCE
+> Task :lib:bundleLibResDebug
+> Task :lib:mergeDebugJniLibFolders
+> Task :lib:transformNativeLibsWithMergeJniLibsForDebug
+> Task :lib:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :lib:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :app:transformNativeLibsWithMergeJniLibsForDebug
+
 > Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331857599-0/src/FormValidator-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/libRSSupport.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331857599-0/src/FormValidator-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/librsjni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :app:transformResourcesWithMergeJavaResForDebug
-> Task :app:validateSigningDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
-> Task :formvalidator:preReleaseBuild UP-TO-DATE
-> Task :formvalidator:compileReleaseAidl NO-SOURCE
-> Task :formvalidator:compileReleaseRenderscript
-> Task :formvalidator:checkReleaseManifest
-> Task :formvalidator:generateReleaseBuildConfig
-> Task :formvalidator:generateReleaseResValues
-> Task :formvalidator:generateReleaseResources
-> Task :formvalidator:packageReleaseResources
-> Task :formvalidator:processReleaseManifest
-> Task :formvalidator:generateReleaseRFile
-> Task :formvalidator:generateReleaseSources
-> Task :formvalidator:javaPreCompileRelease
-> Task :formvalidator:compileReleaseJavaWithJavac
-> Task :formvalidator:processReleaseJavaRes NO-SOURCE
-> Task :formvalidator:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-> Task :formvalidator:createFullJarRelease
-> Transform full.jar (project :formvalidator) with IdentityTransform
-> Task :app:checkReleaseClasspath
+> Task :lib:preReleaseBuild UP-TO-DATE
+> Task :lib:checkReleaseManifest
+> Task :lib:processReleaseManifest
 > Task :app:preReleaseBuild
+> Task :lib:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
-> Task :formvalidator:packageReleaseRenderscript NO-SOURCE
-> Task :app:compileReleaseRenderscript
+> Task :lib:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
+> Task :app:generateReleaseSources
+> Task :lib:compileReleaseRenderscript NO-SOURCE
+> Task :lib:generateReleaseBuildConfig
+> Task :lib:generateReleaseResValues
+> Task :lib:generateReleaseResources
+> Task :lib:packageReleaseResources
+> Task :lib:generateReleaseRFile
+> Task :lib:generateReleaseSources
+> Task :lib:javaPreCompileRelease
+> Task :lib:compileReleaseJavaWithJavac
+> Task :lib:bundleLibCompileRelease
+> Task :app:javaPreCompileRelease
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
@@ -295,162 +132,57 @@ Download https://jcenter.bintray.com/com/jakewharton/butterknife-annotations/8.5
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:processReleaseManifest
 > Task :app:processReleaseResources
-> Task :app:generateReleaseSources
-> Task :app:javaPreCompileRelease
+
 > Task :app:compileReleaseJavaWithJavac
-> Task :app:compileReleaseNdk NO-SOURCE
+
 > Task :app:compileReleaseSources
-> Task :app:lintVitalRelease SKIPPED
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331857599-0/src/FormValidator-master/app/src/main/java/com/sha/formvalidatorsample/ui/SettingsActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+> Task :lib:prepareLintJarForPublish
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/a40652288a3c62fbaa39d040e38e0a35/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
-> Task :formvalidator:mergeReleaseShaders
-> Task :formvalidator:compileReleaseShaders
-> Task :formvalidator:generateReleaseAssets
-> Task :formvalidator:packageReleaseAssets
+> Task :lib:mergeReleaseShaders
+> Task :lib:compileReleaseShaders
+> Task :lib:generateReleaseAssets
+> Task :lib:packageReleaseAssets
 > Task :app:mergeReleaseAssets
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-compiler/8.5.1/76253d53698d5a93191ebf72534e9eeb7391b5c3/butterknife-compiler-8.5.1.jar: D8: Type `javax.annotation.processing.AbstractProcessor` was not found, it is required for default or static interface methods desugaring of `void butterknife.compiler.ButterKnifeProcessor.init(javax.annotation.processing.ProcessingEnvironment)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-compiler/8.5.1/76253d53698d5a93191ebf72534e9eeb7391b5c3/butterknife-compiler-8.5.1.jar: D8: Type `com.sun.source.util.Trees` was not found, it is required for default or static interface methods desugaring of `void butterknife.compiler.ButterKnifeProcessor.init(javax.annotation.processing.ProcessingEnvironment)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-compiler/8.5.1/76253d53698d5a93191ebf72534e9eeb7391b5c3/butterknife-compiler-8.5.1.jar: D8: Type `javax.lang.model.SourceVersion` was not found, it is required for default or static interface methods desugaring of `javax.lang.model.SourceVersion butterknife.compiler.ButterKnifeProcessor.getSupportedSourceVersion()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.auto.service/auto-service/1.0-rc2/51033a5b8fcf7039159e35b6878f106ccd5fb35f/auto-service-1.0-rc2.jar: D8: Type `javax.lang.model.SourceVersion` was not found, it is required for default or static interface methods desugaring of `javax.lang.model.SourceVersion com.google.auto.service.processor.AutoServiceProcessor.getSupportedSourceVersion()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.8.0/e858dc62ef484048540d27d36f3ec2177a3fa9b1/javapoet-1.8.0.jar: D8: Type `javax.lang.model.SourceVersion` was not found, it is required for default or static interface methods desugaring of `java.lang.String com.squareup.javapoet.NameAllocator.newName(java.lang.String, java.lang.Object)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.auto/auto-common/0.6/cf7212b0f8bfef12657b942df8f4f2cf032d3f41/auto-common-0.6.jar: D8: Type `javax.lang.model.util.ElementFilter` was not found, it is required for default or static interface methods desugaring of `java.util.Map com.google.auto.common.AnnotationMirrors.getAnnotationValuesWithDefaults(javax.lang.model.element.AnnotationMirror)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.auto/auto-common/0.6/cf7212b0f8bfef12657b942df8f4f2cf032d3f41/auto-common-0.6.jar: D8: Type `javax.lang.model.type.TypeKind` was not found, it is required for default or static interface methods desugaring of `void com.google.auto.common.MoreTypes$18.<clinit>()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.auto/auto-common/0.6/cf7212b0f8bfef12657b942df8f4f2cf032d3f41/auto-common-0.6.jar: D8: Type `javax.lang.model.util.ElementFilter` was not found, it is required for default or static interface methods desugaring of `void com.google.auto.common.MoreElements.getLocalAndInheritedMethods(javax.lang.model.element.PackageElement, javax.lang.model.element.TypeElement, com.google.common.collect.SetMultimap)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.8.0/e858dc62ef484048540d27d36f3ec2177a3fa9b1/javapoet-1.8.0.jar: D8: Type `javax.lang.model.SourceVersion` was not found, it is required for default or static interface methods desugaring of `void com.squareup.javapoet.ClassName.<init>(java.util.List, java.util.List)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.8.0/e858dc62ef484048540d27d36f3ec2177a3fa9b1/javapoet-1.8.0.jar: D8: Type `javax.lang.model.element.Modifier` was not found, it is required for default or static interface methods desugaring of `void com.squareup.javapoet.Util.<clinit>()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.auto/auto-common/0.6/cf7212b0f8bfef12657b942df8f4f2cf032d3f41/auto-common-0.6.jar: D8: Type `javax.annotation.processing.AbstractProcessor` was not found, it is required for default or static interface methods desugaring of `void com.google.auto.common.BasicAnnotationProcessor.init(javax.annotation.processing.ProcessingEnvironment)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.8.0/e858dc62ef484048540d27d36f3ec2177a3fa9b1/javapoet-1.8.0.jar: D8: Type `javax.lang.model.util.SimpleTypeVisitor7` was not found, it is required for default or static interface methods desugaring of `com.squareup.javapoet.TypeName com.squareup.javapoet.TypeName$1.visitNoType(javax.lang.model.type.NoType, java.lang.Void)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.8.0/e858dc62ef484048540d27d36f3ec2177a3fa9b1/javapoet-1.8.0.jar: D8: Type `javax.lang.model.type.TypeKind` was not found, it is required for default or static interface methods desugaring of `void com.squareup.javapoet.TypeName$2.<clinit>()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.8.0/e858dc62ef484048540d27d36f3ec2177a3fa9b1/javapoet-1.8.0.jar: D8: Type `javax.lang.model.SourceVersion` was not found, it is required for default or static interface methods desugaring of `com.squareup.javapoet.FieldSpec$Builder com.squareup.javapoet.FieldSpec.builder(com.squareup.javapoet.TypeName, java.lang.String, javax.lang.model.element.Modifier[])`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar: D8: Type `sun.misc.Unsafe` was not found, it is required for default or static interface methods desugaring of `sun.misc.Unsafe com.google.common.cache.Striped64.getUnsafe()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar: D8: Type `sun.misc.Unsafe` was not found, it is required for default or static interface methods desugaring of `sun.misc.Unsafe com.google.common.primitives.UnsignedBytes$LexicographicalComparatorHolder$UnsafeComparator.getUnsafe()`
+> Task :app:signingConfigWriterRelease
+> Task :app:checkReleaseDuplicateClasses
+> Task :lib:bundleLibRuntimeRelease
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.10.0/7ef0f1d95bf4c0b3ba30bbae25e0e562b05cf75e/okhttp-3.10.0.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `okhttp3.internal.platform.Platform okhttp3.internal.platform.ConscryptPlatform.buildIfSupported()`
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:transformDexArchiveWithExternalLibsDexMergerForRelease
 > Task :app:transformDexArchiveWithDexMergerForRelease
 > Task :app:mergeReleaseJniLibFolders
-> Task :formvalidator:compileReleaseNdk NO-SOURCE
-> Task :formvalidator:mergeReleaseJniLibFolders
-> Task :formvalidator:transformNativeLibsWithMergeJniLibsForRelease
-> Task :formvalidator:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :formvalidator:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :lib:processReleaseJavaRes NO-SOURCE
+> Task :lib:bundleLibResRelease
+> Task :lib:mergeReleaseJniLibFolders
+> Task :lib:transformNativeLibsWithMergeJniLibsForRelease
+> Task :lib:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :lib:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :app:transformNativeLibsWithMergeJniLibsForRelease
+
 > Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331857599-0/src/FormValidator-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/libRSSupport.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331857599-0/src/FormValidator-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/librsjni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :app:transformResourcesWithMergeJavaResForRelease
 > Task :app:packageRelease
 > Task :app:assembleRelease
 > Task :app:assemble
+> Task :app:build
 
-> Task :app:lint
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/a516de2bde1fae960536f63abcbb9b50/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-Ran lint on variant release: 39 issues found
-Ran lint on variant debug: 39 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145360796-0/src/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145360796-0/src/app/build/reports/lint-results.xml
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-> Task :app:lint FAILED
+BUILD SUCCESSFUL in 51s
+89 actionable tasks: 89 executed
 
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-Execution failed for task ':app:lint'.
-> Lint found errors in the project; aborting build.
-  
-  Fix the issues identified by lint, or add the following to your build script to proceed with errors:
-  ...
-  android {
-      lintOptions {
-          abortOnError false
-      }
-  }
-  ...
-  
-  Errors found:
-  
-  /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.8.0/e858dc62ef484048540d27d36f3ec2177a3fa9b1/javapoet-1.8.0.jar: Error: Invalid package reference in library; not included in Android: javax.tools. Referenced from com.squareup.javapoet.JavaFile. [InvalidPackage]
-  
-
-
-* Try:
-Run with --info or --debug option to get more log output. Run with --scan to get full insights.
-
-* Exception is:
-org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:lint'.
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:110)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:77)
-	at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
-	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:59)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
-	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
-	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
-	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
-	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
-	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:59)
-	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
-	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
-	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.run(EventFiringTaskExecuter.java:51)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:46)
-	at org.gradle.execution.taskgraph.LocalTaskInfoExecutor.execute(LocalTaskInfoExecutor.java:42)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:273)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:258)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:135)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:130)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.execute(DefaultTaskPlanExecutor.java:200)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.executeWithWork(DefaultTaskPlanExecutor.java:191)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.run(DefaultTaskPlanExecutor.java:130)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
-Caused by: org.gradle.api.GradleException: Lint found errors in the project; aborting build.
-
-Fix the issues identified by lint, or add the following to your build script to proceed with errors:
-...
-android {
-    lintOptions {
-        abortOnError false
-    }
-}
-...
-
-Errors found:
-
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.8.0/e858dc62ef484048540d27d36f3ec2177a3fa9b1/javapoet-1.8.0.jar: Error: Invalid package reference in library; not included in Android: javax.tools. Referenced from com.squareup.javapoet.JavaFile. [InvalidPackage]
-
-
-	at com.android.tools.lint.gradle.LintGradleExecution.abort(LintGradleExecution.java:206)
-	at com.android.tools.lint.gradle.LintGradleExecution.lintAllVariants(LintGradleExecution.java:515)
-	at com.android.tools.lint.gradle.LintGradleExecution.analyze(LintGradleExecution.java:96)
-	at com.android.tools.lint.gradle.api.ReflectiveLintRunner.runLint(ReflectiveLintRunner.kt:38)
-	at com.android.build.gradle.tasks.LintBaseTask.runLint(LintBaseTask.java:88)
-	at com.android.build.gradle.tasks.LintGlobalTask.lint(LintGlobalTask.java:47)
-	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
-	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:46)
-	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:39)
-	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:26)
-	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:786)
-	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:753)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:131)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:120)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:99)
-	... 31 more
-
-
-* Get more help at https://help.gradle.org
-
-BUILD FAILED in 1m 1s
-88 actionable tasks: 88 executed
-
-2019-03-09 22:32:45,157 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145360796-0/src/app/build/outputs/apk/debug/app-debug.apk
+2019-05-20 12:58:44,470 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331857599-0/src/FormValidator-master/app/build/outputs/apk/debug/app-debug.apk
