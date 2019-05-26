@@ -1,38 +1,38 @@
-2019-04-23 12:02:23,149 INFO  DownloadService - Downloading "https://github.com/Rajagopalr3/CustomizedTextView/archive/master.zip", attempt 3
-2019-04-23 12:02:25,690 INFO  DownloadService - Downloaded https://github.com/Rajagopalr3/CustomizedTextView/archive/master.zip, attempt 3
-2019-04-23 12:02:25,691 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555995743146-0/master.zip": 537 KB
-2019-04-23 12:02:25,691 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-04-23 12:02:25,696 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555995743146-0/master.zip: true
-2019-04-23 12:02:25,696 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555995743146-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555995743146-0/src'.
-2019-04-23 12:02:25,726 INFO  FullProcessService - Size of directory with sources: 834 KB
-2019-04-23 12:02:25,726 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555995743146-0/src]
-2019-04-23 12:02:25,753 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555995743146-0/src/.git/
+2019-05-26 18:11:06,322 INFO  DownloadService - Downloading "https://github.com/Rajagopalr3/CustomizedTextView/archive/master.zip", attempt 3
+2019-05-26 18:11:07,504 INFO  DownloadService - Downloaded https://github.com/Rajagopalr3/CustomizedTextView/archive/master.zip, attempt 3
+2019-05-26 18:11:07,504 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869066318-0/master.zip": 537 KB
+2019-05-26 18:11:07,504 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-26 18:11:07,510 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869066318-0/master.zip: true
+2019-05-26 18:11:07,510 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869066318-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869066318-0/src'.
+2019-05-26 18:11:07,533 INFO  FullProcessService - Size of directory with sources: 834 KB
+2019-05-26 18:11:07,533 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869066318-0/src]
+2019-05-26 18:11:07,550 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869066318-0/src/.git/
 
-2019-04-23 12:02:25,757 INFO  ProjectBuildService - Gradle wrapper(s): none
-2019-04-23 12:02:25,758 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
-2019-04-23 12:02:25,763 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555995743146-0/src/CustomizedTextView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555995743146-0/src/CustomizedTextView-master/customtextview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555995743146-0/src/CustomizedTextView-master/build.gradle
-2019-04-23 12:02:25,767 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555995743146-0/src/CustomizedTextView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555995743146-0/src/CustomizedTextView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555995743146-0/src/CustomizedTextView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555995743146-0/src/CustomizedTextView-master/customtextview/build.gradle
-2019-04-23 12:02:25,768 INFO  ProjectBuildService - Remote scripts: none
-2019-04-23 12:02:25,768 INFO  ProjectFixService - Fixing project...
-2019-04-23 12:02:25,777 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555995743146-0/src/CustomizedTextView-master/app/local.properties
-2019-04-23 12:02:25,778 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555995743146-0/src/CustomizedTextView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-23 12:02:25,778 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555995743146-0/src/CustomizedTextView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-23 12:02:25,779 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555995743146-0/src/CustomizedTextView-master/customtextview/local.properties
-2019-04-23 12:02:25,780 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555995743146-0/src/CustomizedTextView-master/customtextview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-23 12:02:25,780 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555995743146-0/src/CustomizedTextView-master/customtextview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-23 12:02:25,781 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555995743146-0/src/CustomizedTextView-master/local.properties
-2019-04-23 12:02:25,781 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-04-23 12:02:25,782 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-04-23 12:02:25,783 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555995743146-0/src/CustomizedTextView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-23 12:02:25,783 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555995743146-0/src/CustomizedTextView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-23 12:02:25,783 INFO  ProjectFixService - Project was maybe fixed
-2019-04-23 12:02:25,783 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-23 12:02:25,784 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555995743146-0/src/CustomizedTextView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-23 12:02:25,794 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2019-04-23 12:02:25,794 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-23 12:02:25,794 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-23 12:02:25,794 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555995743146-0/src/CustomizedTextView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-23 12:02:25,799 ERROR SysUtils - Could not process external command
+2019-05-26 18:11:07,553 INFO  ProjectBuildService - Gradle wrapper(s): none
+2019-05-26 18:11:07,553 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2019-05-26 18:11:07,556 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869066318-0/src/CustomizedTextView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869066318-0/src/CustomizedTextView-master/customtextview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869066318-0/src/CustomizedTextView-master/build.gradle
+2019-05-26 18:11:07,559 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869066318-0/src/CustomizedTextView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869066318-0/src/CustomizedTextView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869066318-0/src/CustomizedTextView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869066318-0/src/CustomizedTextView-master/customtextview/build.gradle
+2019-05-26 18:11:07,559 INFO  ProjectBuildService - Remote scripts: none
+2019-05-26 18:11:07,559 INFO  ProjectFixService - Fixing project...
+2019-05-26 18:11:07,566 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869066318-0/src/CustomizedTextView-master/app/local.properties
+2019-05-26 18:11:07,566 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869066318-0/src/CustomizedTextView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-26 18:11:07,566 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869066318-0/src/CustomizedTextView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-26 18:11:07,567 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869066318-0/src/CustomizedTextView-master/customtextview/local.properties
+2019-05-26 18:11:07,568 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869066318-0/src/CustomizedTextView-master/customtextview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-26 18:11:07,568 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869066318-0/src/CustomizedTextView-master/customtextview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-26 18:11:07,569 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869066318-0/src/CustomizedTextView-master/local.properties
+2019-05-26 18:11:07,569 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-05-26 18:11:07,569 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-05-26 18:11:07,570 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869066318-0/src/CustomizedTextView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-26 18:11:07,570 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869066318-0/src/CustomizedTextView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-26 18:11:07,571 INFO  ProjectFixService - Project was maybe fixed
+2019-05-26 18:11:07,571 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-26 18:11:07,571 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869066318-0/src/CustomizedTextView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-26 18:11:07,577 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-05-26 18:11:07,577 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-05-26 18:11:07,577 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-05-26 18:11:07,577 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869066318-0/src/CustomizedTextView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-05-26 18:11:07,583 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -57,7 +57,7 @@ java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
@@ -70,14 +70,14 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 29 common frames omitted
-2019-04-23 12:02:25,799 INFO  SysUtils - 
-2019-04-23 12:02:25,803 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-23 12:02:25,803 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555995743146-0/src/CustomizedTextView-master/customtextview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-23 12:02:25,808 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2019-04-23 12:02:25,808 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-23 12:02:25,808 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-23 12:02:25,808 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555995743146-0/src/CustomizedTextView-master/customtextview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-23 12:02:25,813 ERROR SysUtils - Could not process external command
+2019-05-26 18:11:07,583 INFO  SysUtils - 
+2019-05-26 18:11:07,586 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-26 18:11:07,586 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869066318-0/src/CustomizedTextView-master/customtextview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-26 18:11:07,591 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-05-26 18:11:07,591 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-05-26 18:11:07,591 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-05-26 18:11:07,592 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869066318-0/src/CustomizedTextView-master/customtextview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-05-26 18:11:07,597 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -102,7 +102,7 @@ java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
@@ -115,14 +115,14 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 29 common frames omitted
-2019-04-23 12:02:25,814 INFO  SysUtils - 
-2019-04-23 12:02:25,817 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-23 12:02:25,818 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555995743146-0/src/CustomizedTextView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-23 12:02:25,822 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2019-04-23 12:02:25,823 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-23 12:02:25,823 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-23 12:02:25,823 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555995743146-0/src/CustomizedTextView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-23 12:02:25,828 ERROR SysUtils - Could not process external command
+2019-05-26 18:11:07,597 INFO  SysUtils - 
+2019-05-26 18:11:07,600 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-26 18:11:07,600 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869066318-0/src/CustomizedTextView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-26 18:11:07,605 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-05-26 18:11:07,605 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-05-26 18:11:07,605 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-05-26 18:11:07,605 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869066318-0/src/CustomizedTextView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-05-26 18:11:07,610 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -147,7 +147,7 @@ java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
@@ -160,6 +160,6 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 29 common frames omitted
-2019-04-23 12:02:25,828 INFO  SysUtils - 
-2019-04-23 12:02:25,832 ERROR FullProcessService - Project build has not produced APK file
-2019-04-23 12:02:25,836 ERROR FullProcessService - Could not find generated or existed APK file
+2019-05-26 18:11:07,610 INFO  SysUtils - 
+2019-05-26 18:11:07,614 ERROR FullProcessService - Project build has not produced APK file
+2019-05-26 18:11:07,616 ERROR FullProcessService - Could not find generated or existed APK file
