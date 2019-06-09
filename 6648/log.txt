@@ -1,53 +1,53 @@
-2019-05-26 18:05:43,392 INFO  DownloadService - Downloading "https://github.com/oleksiyp/mockk/archive/master.zip", attempt 3
-2019-05-26 18:05:49,218 INFO  DownloadService - Downloaded https://github.com/oleksiyp/mockk/archive/master.zip, attempt 3
-2019-05-26 18:05:49,218 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/master.zip": 7 MB
-2019-05-26 18:05:49,219 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-26 18:05:49,222 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/master.zip: true
-2019-05-26 18:05:49,222 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src'.
-2019-05-26 18:05:49,375 INFO  FullProcessService - Size of directory with sources: 8 MB
-2019-05-26 18:05:49,376 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src]
-2019-05-26 18:05:49,394 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/.git/
+2019-06-09 22:23:51,891 INFO  DownloadService - Downloading "https://github.com/oleksiyp/mockk/archive/master.zip", attempt 3
+2019-06-09 22:23:57,763 INFO  DownloadService - Downloaded https://github.com/oleksiyp/mockk/archive/master.zip, attempt 3
+2019-06-09 22:23:57,763 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/master.zip": 7 MB
+2019-06-09 22:23:57,763 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-09 22:23:57,767 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/master.zip: true
+2019-06-09 22:23:57,767 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src'.
+2019-06-09 22:23:57,909 INFO  FullProcessService - Size of directory with sources: 8 MB
+2019-06-09 22:23:57,910 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src]
+2019-06-09 22:23:57,926 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/.git/
 
-2019-05-26 18:05:49,404 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/gradlew
-2019-05-26 18:05:49,416 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/android/dispatcher/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/mockk/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/api/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/jvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/dsl/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/dsl/js/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/dsl/jvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/mockk/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/mockk/js/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/mockk/jvm/build.gradle
-2019-05-26 18:05:49,426 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/jvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/android/dispatcher/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/api/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/mockk/js/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/mockk/jvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/mockk/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/mockk/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/gradle/upload-archives.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/gradle/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/gradle/jdk6-boot.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/gradle/additional-archives.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/gradle/android-module.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/gradle/js-module.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/gradle/common-module.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/gradle/jvm-module.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/gradle/upload-archives-android.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/gradle/detect-android-sdk.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/gradle/signing.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/matrix/android-ait.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/matrix/jvm.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/matrix/android.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/matrix/matrix-results.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/matrix/android-ait-before-p.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/dsl/js/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/dsl/jvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/dsl/common/build.gradle
-2019-05-26 18:05:49,429 INFO  ProjectBuildService - Remote scripts: none
-2019-05-26 18:05:49,429 INFO  ProjectFixService - Fixing project...
-2019-05-26 18:05:49,460 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/android/local.properties
-2019-05-26 18:05:49,471 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/android/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
-2019-05-26 18:05:49,471 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/android/dispatcher/local.properties
-2019-05-26 18:05:49,476 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/android/dispatcher/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
-2019-05-26 18:05:49,477 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/mockk/android/local.properties
-2019-05-26 18:05:49,483 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/mockk/android/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
-2019-05-26 18:05:49,483 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/local.properties
-2019-05-26 18:05:49,484 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
-2019-05-26 18:05:49,484 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
-2019-05-26 18:05:49,489 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
-2019-05-26 18:05:49,490 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/api/local.properties
-2019-05-26 18:05:49,494 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/api/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
-2019-05-26 18:05:49,495 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/common/local.properties
-2019-05-26 18:05:49,499 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/common/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
-2019-05-26 18:05:49,500 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/jvm/local.properties
-2019-05-26 18:05:49,505 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/jvm/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
-2019-05-26 18:05:49,506 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/dsl/common/local.properties
-2019-05-26 18:05:49,511 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/dsl/common/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
-2019-05-26 18:05:49,511 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/dsl/js/local.properties
-2019-05-26 18:05:49,515 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/dsl/js/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
-2019-05-26 18:05:49,515 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/dsl/jvm/local.properties
-2019-05-26 18:05:49,519 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/dsl/jvm/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
-2019-05-26 18:05:49,520 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/mockk/common/local.properties
-2019-05-26 18:05:49,523 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/mockk/common/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
-2019-05-26 18:05:49,524 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/mockk/js/local.properties
-2019-05-26 18:05:49,527 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/mockk/js/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
-2019-05-26 18:05:49,528 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/mockk/jvm/local.properties
-2019-05-26 18:05:49,532 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/mockk/jvm/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
-2019-05-26 18:05:49,532 INFO  ProjectFixService - Project was maybe fixed
-2019-05-26 18:05:49,532 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-26 18:05:49,532 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-26 18:05:57,799 INFO  ProjectTaskService - Detected possible tasks: 72
-2019-05-26 18:05:57,800 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-05-26 18:05:57,800 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-05-26 18:08:19,396 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-09 22:23:57,936 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/gradlew
+2019-06-09 22:23:57,947 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/android/dispatcher/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/mockk/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/api/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/jvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/dsl/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/dsl/js/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/dsl/jvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/mockk/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/mockk/js/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/mockk/jvm/build.gradle
+2019-06-09 22:23:57,956 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/jvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/android/dispatcher/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/api/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/mockk/js/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/mockk/jvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/mockk/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/mockk/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/gradle/upload-archives.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/gradle/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/gradle/jdk6-boot.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/gradle/additional-archives.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/gradle/android-module.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/gradle/js-module.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/gradle/common-module.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/gradle/jvm-module.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/gradle/upload-archives-android.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/gradle/detect-android-sdk.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/gradle/signing.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/matrix/android-ait.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/matrix/jvm.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/matrix/android.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/matrix/matrix-results.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/matrix/android-ait-before-p.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/dsl/js/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/dsl/jvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/dsl/common/build.gradle
+2019-06-09 22:23:57,958 INFO  ProjectBuildService - Remote scripts: none
+2019-06-09 22:23:57,958 INFO  ProjectFixService - Fixing project...
+2019-06-09 22:23:57,984 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/android/local.properties
+2019-06-09 22:23:57,987 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/android/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
+2019-06-09 22:23:57,988 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/android/dispatcher/local.properties
+2019-06-09 22:23:57,991 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/android/dispatcher/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
+2019-06-09 22:23:57,991 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/mockk/android/local.properties
+2019-06-09 22:23:57,994 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/mockk/android/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
+2019-06-09 22:23:57,994 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/local.properties
+2019-06-09 22:23:57,995 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+2019-06-09 22:23:57,995 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
+2019-06-09 22:23:57,998 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
+2019-06-09 22:23:57,999 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/api/local.properties
+2019-06-09 22:23:58,013 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/api/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
+2019-06-09 22:23:58,014 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/common/local.properties
+2019-06-09 22:23:58,017 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/common/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
+2019-06-09 22:23:58,017 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/jvm/local.properties
+2019-06-09 22:23:58,020 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/jvm/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
+2019-06-09 22:23:58,020 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/dsl/common/local.properties
+2019-06-09 22:23:58,024 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/dsl/common/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
+2019-06-09 22:23:58,024 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/dsl/js/local.properties
+2019-06-09 22:23:58,027 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/dsl/js/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
+2019-06-09 22:23:58,028 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/dsl/jvm/local.properties
+2019-06-09 22:23:58,031 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/dsl/jvm/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
+2019-06-09 22:23:58,032 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/mockk/common/local.properties
+2019-06-09 22:23:58,035 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/mockk/common/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
+2019-06-09 22:23:58,036 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/mockk/js/local.properties
+2019-06-09 22:23:58,039 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/mockk/js/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
+2019-06-09 22:23:58,039 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/mockk/jvm/local.properties
+2019-06-09 22:23:58,043 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/mockk/jvm/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
+2019-06-09 22:23:58,043 INFO  ProjectFixService - Project was maybe fixed
+2019-06-09 22:23:58,043 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-09 22:23:58,043 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-09 22:24:06,533 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-06-09 22:24:06,533 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-06-09 22:24:06,533 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-06-09 22:26:19,079 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :mockk-agent-android:androidSourcesJar
 > Task :mockk-agent-android-dispatcher:checkReleaseClasspath
 > Task :mockk-agent-android-dispatcher:preBuild UP-TO-DATE
@@ -119,12 +119,12 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :mockk-agent-android:packageDebugResources
 > Task :mockk-agent-android:processDebugManifest
 > Task :mockk-agent-android:generateDebugRFile
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/android/src/main/kotlin/io/mockk/proxy/android/AndroidMockKAgentFactory.kt: (39, 21): Unsafe use of a nullable receiver of type ClassLoader?
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/android/src/main/kotlin/io/mockk/proxy/android/JvmtiAgent.kt: (78, 9): Parameter 'loader' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/android/src/main/kotlin/io/mockk/proxy/android/JvmtiAgent.kt: (79, 9): Parameter 'className' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/android/src/main/kotlin/io/mockk/proxy/android/JvmtiAgent.kt: (81, 9): Parameter 'protectionDomain' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/android/src/main/kotlin/io/mockk/proxy/android/OnjenesisInstantiator.kt: (27, 40): Unchecked cast: Any? to T
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/android/src/main/kotlin/io/mockk/proxy/android/advice/Advice.kt: (156, 31): Unsafe use of a nullable receiver of type Class<in Nothing!>?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/android/src/main/kotlin/io/mockk/proxy/android/AndroidMockKAgentFactory.kt: (39, 21): Unsafe use of a nullable receiver of type ClassLoader?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/android/src/main/kotlin/io/mockk/proxy/android/JvmtiAgent.kt: (78, 9): Parameter 'loader' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/android/src/main/kotlin/io/mockk/proxy/android/JvmtiAgent.kt: (79, 9): Parameter 'className' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/android/src/main/kotlin/io/mockk/proxy/android/JvmtiAgent.kt: (81, 9): Parameter 'protectionDomain' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/android/src/main/kotlin/io/mockk/proxy/android/OnjenesisInstantiator.kt: (27, 40): Unchecked cast: Any? to T
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/android/src/main/kotlin/io/mockk/proxy/android/advice/Advice.kt: (156, 31): Unsafe use of a nullable receiver of type Class<in Nothing!>?
 > Task :mockk-agent-android:compileDebugKotlin
 > Task :mockk-agent-android:prepareLintJar
 > Task :mockk-agent-android:generateDebugSources
@@ -156,7 +156,7 @@ Variant=debug ABI=armeabi-v7a :-- Detecting CXX compile features
 Variant=debug ABI=armeabi-v7a :-- Detecting CXX compile features - done
 Variant=debug ABI=armeabi-v7a :-- Configuring done
 Variant=debug ABI=armeabi-v7a :-- Generating done
-Variant=debug ABI=armeabi-v7a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/android/.externalNativeBuild/cmake/debug/armeabi-v7a
+Variant=debug ABI=armeabi-v7a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/android/.externalNativeBuild/cmake/debug/armeabi-v7a
 Variant=debug ABI=arm64-v8a :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
 Variant=debug ABI=arm64-v8a :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
 Variant=debug ABI=arm64-v8a :-- Detecting C compiler ABI info
@@ -171,7 +171,7 @@ Variant=debug ABI=arm64-v8a :-- Detecting CXX compile features
 Variant=debug ABI=arm64-v8a :-- Detecting CXX compile features - done
 Variant=debug ABI=arm64-v8a :-- Configuring done
 Variant=debug ABI=arm64-v8a :-- Generating done
-Variant=debug ABI=arm64-v8a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/android/.externalNativeBuild/cmake/debug/arm64-v8a
+Variant=debug ABI=arm64-v8a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/android/.externalNativeBuild/cmake/debug/arm64-v8a
 Variant=debug ABI=x86 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
 Variant=debug ABI=x86 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
 Variant=debug ABI=x86 :-- Detecting C compiler ABI info
@@ -186,7 +186,7 @@ Variant=debug ABI=x86 :-- Detecting CXX compile features
 Variant=debug ABI=x86 :-- Detecting CXX compile features - done
 Variant=debug ABI=x86 :-- Configuring done
 Variant=debug ABI=x86 :-- Generating done
-Variant=debug ABI=x86 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/android/.externalNativeBuild/cmake/debug/x86
+Variant=debug ABI=x86 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/android/.externalNativeBuild/cmake/debug/x86
 Variant=debug ABI=x86_64 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
 Variant=debug ABI=x86_64 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
 Variant=debug ABI=x86_64 :-- Detecting C compiler ABI info
@@ -201,7 +201,7 @@ Variant=debug ABI=x86_64 :-- Detecting CXX compile features
 Variant=debug ABI=x86_64 :-- Detecting CXX compile features - done
 Variant=debug ABI=x86_64 :-- Configuring done
 Variant=debug ABI=x86_64 :-- Generating done
-Variant=debug ABI=x86_64 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/android/.externalNativeBuild/cmake/debug/x86_64
+Variant=debug ABI=x86_64 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/android/.externalNativeBuild/cmake/debug/x86_64
 
 > Task :mockk-agent-android:externalNativeBuildDebug
 Build mockkjvmtiagent x86_64
@@ -294,12 +294,12 @@ Build mockkjvmtiagent armeabi-v7a
 > Task :mockk-agent-android:packageReleaseResources
 > Task :mockk-agent-android:processReleaseManifest
 > Task :mockk-agent-android:generateReleaseRFile
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/android/src/main/kotlin/io/mockk/proxy/android/AndroidMockKAgentFactory.kt: (39, 21): Unsafe use of a nullable receiver of type ClassLoader?
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/android/src/main/kotlin/io/mockk/proxy/android/JvmtiAgent.kt: (78, 9): Parameter 'loader' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/android/src/main/kotlin/io/mockk/proxy/android/JvmtiAgent.kt: (79, 9): Parameter 'className' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/android/src/main/kotlin/io/mockk/proxy/android/JvmtiAgent.kt: (81, 9): Parameter 'protectionDomain' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/android/src/main/kotlin/io/mockk/proxy/android/OnjenesisInstantiator.kt: (27, 40): Unchecked cast: Any? to T
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/android/src/main/kotlin/io/mockk/proxy/android/advice/Advice.kt: (156, 31): Unsafe use of a nullable receiver of type Class<in Nothing!>?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/android/src/main/kotlin/io/mockk/proxy/android/AndroidMockKAgentFactory.kt: (39, 21): Unsafe use of a nullable receiver of type ClassLoader?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/android/src/main/kotlin/io/mockk/proxy/android/JvmtiAgent.kt: (78, 9): Parameter 'loader' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/android/src/main/kotlin/io/mockk/proxy/android/JvmtiAgent.kt: (79, 9): Parameter 'className' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/android/src/main/kotlin/io/mockk/proxy/android/JvmtiAgent.kt: (81, 9): Parameter 'protectionDomain' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/android/src/main/kotlin/io/mockk/proxy/android/OnjenesisInstantiator.kt: (27, 40): Unchecked cast: Any? to T
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/android/src/main/kotlin/io/mockk/proxy/android/advice/Advice.kt: (156, 31): Unsafe use of a nullable receiver of type Class<in Nothing!>?
 > Task :mockk-agent-android:compileReleaseKotlin
 > Task :mockk-agent-android:generateReleaseSources
 > Task :mockk-agent-android:javaPreCompileRelease
@@ -330,7 +330,7 @@ Variant=release ABI=armeabi-v7a :-- Detecting CXX compile features
 Variant=release ABI=armeabi-v7a :-- Detecting CXX compile features - done
 Variant=release ABI=armeabi-v7a :-- Configuring done
 Variant=release ABI=armeabi-v7a :-- Generating done
-Variant=release ABI=armeabi-v7a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/android/.externalNativeBuild/cmake/release/armeabi-v7a
+Variant=release ABI=armeabi-v7a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/android/.externalNativeBuild/cmake/release/armeabi-v7a
 Variant=release ABI=arm64-v8a :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
 Variant=release ABI=arm64-v8a :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
 Variant=release ABI=arm64-v8a :-- Detecting C compiler ABI info
@@ -345,7 +345,7 @@ Variant=release ABI=arm64-v8a :-- Detecting CXX compile features
 Variant=release ABI=arm64-v8a :-- Detecting CXX compile features - done
 Variant=release ABI=arm64-v8a :-- Configuring done
 Variant=release ABI=arm64-v8a :-- Generating done
-Variant=release ABI=arm64-v8a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/android/.externalNativeBuild/cmake/release/arm64-v8a
+Variant=release ABI=arm64-v8a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/android/.externalNativeBuild/cmake/release/arm64-v8a
 Variant=release ABI=x86 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
 Variant=release ABI=x86 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
 Variant=release ABI=x86 :-- Detecting C compiler ABI info
@@ -360,7 +360,7 @@ Variant=release ABI=x86 :-- Detecting CXX compile features
 Variant=release ABI=x86 :-- Detecting CXX compile features - done
 Variant=release ABI=x86 :-- Configuring done
 Variant=release ABI=x86 :-- Generating done
-Variant=release ABI=x86 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/android/.externalNativeBuild/cmake/release/x86
+Variant=release ABI=x86 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/android/.externalNativeBuild/cmake/release/x86
 Variant=release ABI=x86_64 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
 Variant=release ABI=x86_64 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
 Variant=release ABI=x86_64 :-- Detecting C compiler ABI info
@@ -375,7 +375,7 @@ Variant=release ABI=x86_64 :-- Detecting CXX compile features
 Variant=release ABI=x86_64 :-- Detecting CXX compile features - done
 Variant=release ABI=x86_64 :-- Configuring done
 Variant=release ABI=x86_64 :-- Generating done
-Variant=release ABI=x86_64 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/android/.externalNativeBuild/cmake/release/x86_64
+Variant=release ABI=x86_64 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/android/.externalNativeBuild/cmake/release/x86_64
 
 > Task :mockk-agent-android:externalNativeBuildRelease
 Build mockkjvmtiagent x86_64
@@ -488,7 +488,7 @@ No documentation for io.mockk.proxy.android.AndroidMockKAgentFactory.Companion (
 > Task :mockk-agent-android:assemble
 > Task :mockk-agent-android:build
 
-BUILD SUCCESSFUL in 2m 20s
+BUILD SUCCESSFUL in 2m 11s
 93 actionable tasks: 93 executed
 
-2019-05-26 18:08:19,455 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868743387-0/src/mockk-master/agent/android/dispatcher/build/outputs/apk/release/mockk-agent-android-dispatcher-release-unsigned.apk
+2019-06-09 22:26:19,120 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093831888-0/src/mockk-master/agent/android/dispatcher/build/outputs/apk/release/mockk-agent-android-dispatcher-release-unsigned.apk

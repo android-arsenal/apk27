@@ -1,36 +1,36 @@
-2019-05-16 18:47:07,671 INFO  DownloadService - Downloading "https://github.com/marcoscgdev/DialogSheet/archive/master.zip", attempt 3
-2019-05-16 18:47:10,034 INFO  DownloadService - Downloaded https://github.com/marcoscgdev/DialogSheet/archive/master.zip, attempt 3
-2019-05-16 18:47:10,034 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007227663-0/master.zip": 519 KB
-2019-05-16 18:47:10,035 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-16 18:47:10,040 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007227663-0/master.zip: true
-2019-05-16 18:47:10,041 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007227663-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007227663-0/src'.
-2019-05-16 18:47:10,068 INFO  FullProcessService - Size of directory with sources: 600 KB
-2019-05-16 18:47:10,068 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007227663-0/src]
-2019-05-16 18:47:10,087 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007227663-0/src/.git/
+2019-06-09 22:29:18,592 INFO  DownloadService - Downloading "https://github.com/marcoscgdev/DialogSheet/archive/master.zip", attempt 3
+2019-06-09 22:29:19,290 INFO  DownloadService - Downloaded https://github.com/marcoscgdev/DialogSheet/archive/master.zip, attempt 3
+2019-06-09 22:29:19,290 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560094158588-0/master.zip": 519 KB
+2019-06-09 22:29:19,290 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-09 22:29:19,296 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560094158588-0/master.zip: true
+2019-06-09 22:29:19,296 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560094158588-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560094158588-0/src'.
+2019-06-09 22:29:19,323 INFO  FullProcessService - Size of directory with sources: 601 KB
+2019-06-09 22:29:19,324 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560094158588-0/src]
+2019-06-09 22:29:19,339 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560094158588-0/src/.git/
 
-2019-05-16 18:47:10,090 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007227663-0/src/DialogSheet-master/gradlew
-2019-05-16 18:47:10,094 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007227663-0/src/DialogSheet-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007227663-0/src/DialogSheet-master/dialogsheet/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007227663-0/src/DialogSheet-master/build.gradle
-2019-05-16 18:47:10,097 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007227663-0/src/DialogSheet-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007227663-0/src/DialogSheet-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007227663-0/src/DialogSheet-master/dialogsheet/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007227663-0/src/DialogSheet-master/settings.gradle
-2019-05-16 18:47:10,098 INFO  ProjectBuildService - Remote scripts: none
-2019-05-16 18:47:10,098 INFO  ProjectFixService - Fixing project...
-2019-05-16 18:47:10,106 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007227663-0/src/DialogSheet-master/app/local.properties
-2019-05-16 18:47:10,106 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007227663-0/src/DialogSheet-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-16 18:47:10,107 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007227663-0/src/DialogSheet-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-16 18:47:10,107 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007227663-0/src/DialogSheet-master/dialogsheet/local.properties
-2019-05-16 18:47:10,108 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007227663-0/src/DialogSheet-master/dialogsheet/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-16 18:47:10,108 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007227663-0/src/DialogSheet-master/dialogsheet/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-16 18:47:10,109 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007227663-0/src/DialogSheet-master/local.properties
-2019-05-16 18:47:10,110 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-05-16 18:47:10,110 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-05-16 18:47:10,111 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007227663-0/src/DialogSheet-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-16 18:47:10,111 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007227663-0/src/DialogSheet-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-16 18:47:10,112 INFO  ProjectFixService - Project was maybe fixed
-2019-05-16 18:47:10,112 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-16 18:47:10,112 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007227663-0/src/DialogSheet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007227663-0/src/DialogSheet-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-16 18:47:17,929 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-05-16 18:47:17,929 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-16 18:47:17,929 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007227663-0/src/DialogSheet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007227663-0/src/DialogSheet-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-16 18:47:54,083 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-09 22:29:19,342 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560094158588-0/src/DialogSheet-master/gradlew
+2019-06-09 22:29:19,345 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560094158588-0/src/DialogSheet-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560094158588-0/src/DialogSheet-master/dialogsheet/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560094158588-0/src/DialogSheet-master/build.gradle
+2019-06-09 22:29:19,347 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560094158588-0/src/DialogSheet-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560094158588-0/src/DialogSheet-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560094158588-0/src/DialogSheet-master/dialogsheet/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560094158588-0/src/DialogSheet-master/settings.gradle
+2019-06-09 22:29:19,347 INFO  ProjectBuildService - Remote scripts: none
+2019-06-09 22:29:19,347 INFO  ProjectFixService - Fixing project...
+2019-06-09 22:29:19,353 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560094158588-0/src/DialogSheet-master/app/local.properties
+2019-06-09 22:29:19,354 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560094158588-0/src/DialogSheet-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-06-09 22:29:19,354 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560094158588-0/src/DialogSheet-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-06-09 22:29:19,355 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560094158588-0/src/DialogSheet-master/dialogsheet/local.properties
+2019-06-09 22:29:19,355 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560094158588-0/src/DialogSheet-master/dialogsheet/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-06-09 22:29:19,355 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560094158588-0/src/DialogSheet-master/dialogsheet/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-06-09 22:29:19,356 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560094158588-0/src/DialogSheet-master/local.properties
+2019-06-09 22:29:19,357 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-06-09 22:29:19,357 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-06-09 22:29:19,358 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560094158588-0/src/DialogSheet-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-06-09 22:29:19,358 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560094158588-0/src/DialogSheet-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-06-09 22:29:19,358 INFO  ProjectFixService - Project was maybe fixed
+2019-06-09 22:29:19,358 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-09 22:29:19,358 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560094158588-0/src/DialogSheet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560094158588-0/src/DialogSheet-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-09 22:29:25,174 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-06-09 22:29:25,174 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-06-09 22:29:25,174 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560094158588-0/src/DialogSheet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560094158588-0/src/DialogSheet-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-06-09 22:30:02,675 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :dialogsheet:preBuild UP-TO-DATE
 > Task :dialogsheet:preDebugBuild UP-TO-DATE
@@ -56,7 +56,7 @@
 > Task :dialogsheet:javaPreCompileDebug
 
 > Task :dialogsheet:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007227663-0/src/DialogSheet-master/dialogsheet/src/main/java/com/marcoscg/dialogsheet/DialogSheet.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560094158588-0/src/DialogSheet-master/dialogsheet/src/main/java/com/marcoscg/dialogsheet/DialogSheet.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :dialogsheet:bundleLibCompileDebug
@@ -120,7 +120,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :dialogsheet:javaPreCompileRelease
 
 > Task :dialogsheet:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007227663-0/src/DialogSheet-master/dialogsheet/src/main/java/com/marcoscg/dialogsheet/DialogSheet.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560094158588-0/src/DialogSheet-master/dialogsheet/src/main/java/com/marcoscg/dialogsheet/DialogSheet.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :dialogsheet:bundleLibCompileRelease
@@ -135,7 +135,10 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
 > Task :dialogsheet:prepareLintJarForPublish
+
 > Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/7adda830cc54ee2a4a6502c899ec7444/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
 > Task :dialogsheet:processReleaseJavaRes NO-SOURCE
 > Task :dialogsheet:bundleLibResRelease
 > Task :dialogsheet:bundleLibRuntimeRelease
@@ -171,7 +174,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 35s
+BUILD SUCCESSFUL in 37s
 91 actionable tasks: 91 executed
 
-2019-05-16 18:47:54,161 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007227663-0/src/DialogSheet-master/app/build/outputs/apk/debug/app-debug.apk
+2019-06-09 22:30:02,728 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560094158588-0/src/DialogSheet-master/app/build/outputs/apk/debug/app-debug.apk
