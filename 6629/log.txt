@@ -1,39 +1,37 @@
-2019-05-26 18:08:20,458 INFO  DownloadService - Downloading "https://github.com/maltaisn/recurpickerlib/archive/master.zip", attempt 3
-2019-05-26 18:08:33,947 INFO  DownloadService - Downloaded https://github.com/maltaisn/recurpickerlib/archive/master.zip, attempt 3
-2019-05-26 18:08:33,947 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/master.zip": 21 MB
-2019-05-26 18:08:33,947 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-26 18:08:33,949 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/master.zip: true
-2019-05-26 18:08:33,949 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/src'.
-2019-05-26 18:08:34,059 INFO  FullProcessService - Size of directory with sources: 23 MB
-2019-05-26 18:08:34,059 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/src]
-2019-05-26 18:08:34,082 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/src/.git/
+2019-06-10 13:25:23,604 INFO  DownloadService - Downloading "https://github.com/maltaisn/recurpickerlib/archive/master.zip", attempt 3
+2019-06-10 13:25:37,899 INFO  DownloadService - Downloaded https://github.com/maltaisn/recurpickerlib/archive/master.zip, attempt 3
+2019-06-10 13:25:37,899 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560147923601-0/master.zip": 21 MB
+2019-06-10 13:25:37,899 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-10 13:25:37,901 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560147923601-0/master.zip: true
+2019-06-10 13:25:37,901 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560147923601-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560147923601-0/src'.
+2019-06-10 13:25:38,044 INFO  FullProcessService - Size of directory with sources: 23 MB
+2019-06-10 13:25:38,044 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560147923601-0/src]
+2019-06-10 13:25:38,062 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560147923601-0/src/.git/
 
-2019-05-26 18:08:34,084 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/src/recurpickerlib-master/recurpicker/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/src/recurpickerlib-master/gradlew
-2019-05-26 18:08:34,088 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/src/recurpickerlib-master/recurpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/src/recurpickerlib-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/src/recurpickerlib-master/build.gradle
-2019-05-26 18:08:34,090 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/src/recurpickerlib-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/src/recurpickerlib-master/recurpicker/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/src/recurpickerlib-master/recurpicker/maven-install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/src/recurpickerlib-master/recurpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/src/recurpickerlib-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/src/recurpickerlib-master/settings.gradle
-2019-05-26 18:08:34,091 INFO  ProjectBuildService - Remote scripts: none
-2019-05-26 18:08:34,091 INFO  ProjectFixService - Fixing project...
-2019-05-26 18:08:34,098 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/src/recurpickerlib-master/recurpicker/local.properties
-2019-05-26 18:08:34,098 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-05-26 18:08:34,098 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-05-26 18:08:34,099 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/src/recurpickerlib-master/recurpicker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-05-26 18:08:34,100 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/src/recurpickerlib-master/recurpicker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-05-26 18:08:34,100 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/src/recurpickerlib-master/app/local.properties
-2019-05-26 18:08:34,101 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/src/recurpickerlib-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-05-26 18:08:34,102 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/src/recurpickerlib-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-05-26 18:08:34,103 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/src/recurpickerlib-master/local.properties
-2019-05-26 18:08:34,104 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4-all.zip
-2019-05-26 18:08:34,104 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4-bin.zip)
-2019-05-26 18:08:34,105 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/src/recurpickerlib-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-05-26 18:08:34,105 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/src/recurpickerlib-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-05-26 18:08:34,106 INFO  ProjectFixService - Project was maybe fixed
-2019-05-26 18:08:34,106 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-26 18:08:34,106 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/src/recurpickerlib-master/recurpicker/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/src/recurpickerlib-master/recurpicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-26 18:08:38,059 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-05-26 18:08:38,059 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-05-26 18:08:38,059 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-05-26 18:08:38,059 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/src/recurpickerlib-master/recurpicker/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/src/recurpickerlib-master/recurpicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-05-26 18:08:40,742 ERROR SysUtils - Could not process external command
+2019-06-10 13:25:38,065 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560147923601-0/src/recurpickerlib-master/recurpicker/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560147923601-0/src/recurpickerlib-master/gradlew
+2019-06-10 13:25:38,068 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560147923601-0/src/recurpickerlib-master/recurpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560147923601-0/src/recurpickerlib-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560147923601-0/src/recurpickerlib-master/build.gradle
+2019-06-10 13:25:38,071 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560147923601-0/src/recurpickerlib-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560147923601-0/src/recurpickerlib-master/recurpicker/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560147923601-0/src/recurpickerlib-master/recurpicker/maven-install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560147923601-0/src/recurpickerlib-master/recurpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560147923601-0/src/recurpickerlib-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560147923601-0/src/recurpickerlib-master/settings.gradle
+2019-06-10 13:25:38,072 INFO  ProjectBuildService - Remote scripts: none
+2019-06-10 13:25:38,072 INFO  ProjectFixService - Fixing project...
+2019-06-10 13:25:38,079 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560147923601-0/src/recurpickerlib-master/recurpicker/local.properties
+2019-06-10 13:25:38,080 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560147923601-0/src/recurpickerlib-master/recurpicker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-06-10 13:25:38,080 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560147923601-0/src/recurpickerlib-master/recurpicker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-06-10 13:25:38,081 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560147923601-0/src/recurpickerlib-master/app/local.properties
+2019-06-10 13:25:38,083 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560147923601-0/src/recurpickerlib-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-06-10 13:25:38,083 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560147923601-0/src/recurpickerlib-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-06-10 13:25:38,084 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560147923601-0/src/recurpickerlib-master/local.properties
+2019-06-10 13:25:38,084 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4-all.zip
+2019-06-10 13:25:38,085 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4-bin.zip)
+2019-06-10 13:25:38,086 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560147923601-0/src/recurpickerlib-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-06-10 13:25:38,086 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560147923601-0/src/recurpickerlib-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-06-10 13:25:38,087 INFO  ProjectFixService - Project was maybe fixed
+2019-06-10 13:25:38,087 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-10 13:25:38,087 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560147923601-0/src/recurpickerlib-master/recurpicker/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560147923601-0/src/recurpickerlib-master/recurpicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-10 13:25:38,231 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-06-10 13:25:38,231 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-06-10 13:25:38,231 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-06-10 13:25:38,231 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560147923601-0/src/recurpickerlib-master/recurpicker/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560147923601-0/src/recurpickerlib-master/recurpicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-06-10 13:25:38,400 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -61,200 +59,50 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-05-26 18:08:40,742 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-10 13:25:38,401 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-FAILURE: Build failed with an exception.
-
-* Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/src/recurpickerlib-master/recurpicker/build.gradle' line: 1
-
-* What went wrong:
-A problem occurred evaluating project ':recurpicker'.
-> Failed to apply plugin [id 'com.android.library']
-   > Minimum supported Gradle version is 5.1.1. Current version is 4.4. If using the gradle wrapper, try editing the distributionUrl in /Users/vbauer/Documents/workspace/java/bloodhound/gradle/wrapper/gradle-wrapper.properties to gradle-5.1.1-all.zip
-
-* Try:
-Run with --info or --debug option to get more log output. Run with --scan to get full insights.
-
-* Exception is:
-org.gradle.api.GradleScriptException: A problem occurred evaluating project ':recurpicker'.
-	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:92)
-	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:199)
-	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
-	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:204)
-	at org.gradle.configuration.BuildOperationScriptPlugin$1.run(BuildOperationScriptPlugin.java:61)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:58)
-	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:41)
-	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
-	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:64)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:34)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:110)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:666)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:135)
-	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
-	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:60)
-	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
-	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:81)
-	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
-	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
-	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
-	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
-	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:268)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:175)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:130)
-	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:109)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
-	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
-	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
-	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
-	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
-	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
-	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
-	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:47)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
-	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
-	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:69)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:30)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
-	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:291)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:264)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:257)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:191)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to apply plugin [id 'com.android.library']
-	at org.gradle.api.internal.plugins.DefaultPluginManager.doApply(DefaultPluginManager.java:150)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.apply(DefaultPluginManager.java:125)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.applyType(DefaultObjectConfigurationAction.java:120)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.access$200(DefaultObjectConfigurationAction.java:38)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction$3.run(DefaultObjectConfigurationAction.java:86)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.execute(DefaultObjectConfigurationAction.java:143)
-	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
-	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
-	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_1gwhrf8jw4yd6mo8nzo1n1r4g.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/src/recurpickerlib-master/recurpicker/build.gradle:1)
-	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
-	... 97 more
-Caused by: java.lang.RuntimeException: Minimum supported Gradle version is 5.1.1. Current version is 4.4. If using the gradle wrapper, try editing the distributionUrl in /Users/vbauer/Documents/workspace/java/bloodhound/gradle/wrapper/gradle-wrapper.properties to gradle-5.1.1-all.zip
-	at com.android.build.gradle.BasePlugin.checkGradleVersion(BasePlugin.java:678)
-	at com.android.build.gradle.BasePlugin.basePluginApply(BasePlugin.java:256)
-	at com.android.build.gradle.BasePlugin.lambda$apply$0(BasePlugin.java:245)
-	at com.android.build.gradle.internal.crash.CrashReporting.runAction(crash_reporting.kt:27)
-	at com.android.build.gradle.BasePlugin.apply(BasePlugin.java:243)
-	at com.android.build.gradle.BasePlugin.apply(BasePlugin.java:136)
-	at org.gradle.api.internal.plugins.ImperativeOnlyPluginTarget.applyImperative(ImperativeOnlyPluginTarget.java:42)
-	at org.gradle.api.internal.plugins.RuleBasedPluginTarget.applyImperative(RuleBasedPluginTarget.java:50)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.addPlugin(DefaultPluginManager.java:165)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.access$200(DefaultPluginManager.java:47)
-	at org.gradle.api.internal.plugins.DefaultPluginManager$AddPluginBuildOperation.run(DefaultPluginManager.java:252)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.doApply(DefaultPluginManager.java:144)
-	... 107 more
-
-
-* Get more help at https://help.gradle.org
-
-BUILD FAILED in 2s
-
-2019-05-26 18:08:40,747 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-26 18:08:40,747 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/src/recurpickerlib-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/src/recurpickerlib-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-26 18:08:48,885 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-05-26 18:08:48,885 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-26 18:08:48,885 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/src/recurpickerlib-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/src/recurpickerlib-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-26 18:09:18,854 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-10 13:25:38,405 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-10 13:25:38,405 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560147923601-0/src/recurpickerlib-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560147923601-0/src/recurpickerlib-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-10 13:25:46,969 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-06-10 13:25:46,969 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-06-10 13:25:46,969 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560147923601-0/src/recurpickerlib-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560147923601-0/src/recurpickerlib-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-06-10 13:26:21,378 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :recurpicker:preBuild UP-TO-DATE
 > Task :recurpicker:preDebugBuild UP-TO-DATE
 > Task :recurpicker:checkDebugManifest
 > Task :recurpicker:processDebugManifest
-> Task :recurpicker:compileDebugAidl NO-SOURCE
-> Task :app:preDebugBuild
-> Task :app:compileDebugAidl NO-SOURCE
 > Task :recurpicker:packageDebugRenderscript NO-SOURCE
-> Task :app:checkDebugManifest
-> Task :app:compileDebugRenderscript NO-SOURCE
-> Task :app:generateDebugBuildConfig
 > Task :app:prepareLintJar
-> Task :app:generateDebugSources
 > Task :recurpicker:generateDebugBuildConfig
-> Task :recurpicker:compileDebugRenderscript NO-SOURCE
 > Task :recurpicker:generateDebugResValues
-> Task :recurpicker:generateDebugResources
 > Task :recurpicker:prepareLintJar
+> Task :app:preDebugBuild
+> Task :recurpicker:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:generateDebugSources
+> Task :recurpicker:compileDebugRenderscript NO-SOURCE
+> Task :recurpicker:generateDebugResources
 > Task :recurpicker:generateDebugSources
 > Task :recurpicker:javaPreCompileDebug
-> Task :app:mainApkListPersistenceDebug
-> Task :app:generateDebugResValues
-> Task :app:generateDebugResources
-> Task :app:createDebugCompatibleScreenManifests
-> Task :app:processDebugManifest
 > Task :recurpicker:packageDebugResources
 > Task :recurpicker:generateDebugRFile
 > Task :recurpicker:compileDebugJavaWithJavac
 > Task :recurpicker:bundleLibCompileDebug
 > Task :app:javaPreCompileDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
 > Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
 > Task :app:processDebugResources
 
 > Task :app:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/src/recurpickerlib-master/app/src/main/java/com/maltaisn/recurpickerdemo/MainActivity.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560147923601-0/src/recurpickerlib-master/app/src/main/java/com/maltaisn/recurpickerdemo/MainActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileDebugSources
@@ -318,14 +166,14 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:assembleDebug
 
 > Task :app:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/src/recurpickerlib-master/app/src/main/java/com/maltaisn/recurpickerdemo/MainActivity.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560147923601-0/src/recurpickerlib-master/app/src/main/java/com/maltaisn/recurpickerdemo/MainActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileReleaseSources
 > Task :recurpicker:prepareLintJarForPublish
 
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/4c97ecc73c8ec92c3fdb87a701343e09/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/0f66fe0a8a7ae3da4e3faca3849d0e03/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
 > Task :recurpicker:processReleaseJavaRes NO-SOURCE
 > Task :recurpicker:bundleLibResRelease
@@ -362,7 +210,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 29s
+BUILD SUCCESSFUL in 33s
 91 actionable tasks: 91 executed
 
-2019-05-26 18:09:18,919 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868900455-0/src/recurpickerlib-master/app/build/outputs/apk/debug/app-debug.apk
+2019-06-10 13:26:21,442 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560147923601-0/src/recurpickerlib-master/app/build/outputs/apk/debug/app-debug.apk
