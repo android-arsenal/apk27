@@ -1,38 +1,38 @@
-2019-05-26 17:53:24,124 INFO  DownloadService - Downloading "https://github.com/Fondesa/KPermissions/archive/master.zip", attempt 3
-2019-05-26 17:53:40,145 INFO  DownloadService - Downloaded https://github.com/Fondesa/KPermissions/archive/master.zip, attempt 3
-2019-05-26 17:53:40,146 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868004122-0/master.zip": 201 KB
-2019-05-26 17:53:40,146 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-26 17:53:40,146 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868004122-0/master.zip: true
-2019-05-26 17:53:40,146 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868004122-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868004122-0/src'.
-2019-05-26 17:53:40,176 INFO  FullProcessService - Size of directory with sources: 300 KB
-2019-05-26 17:53:40,177 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868004122-0/src]
-2019-05-26 17:53:40,202 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868004122-0/src/.git/
+2019-06-13 11:05:07,757 INFO  DownloadService - Downloading "https://github.com/Fondesa/KPermissions/archive/master.zip", attempt 3
+2019-06-13 11:05:10,073 INFO  DownloadService - Downloaded https://github.com/Fondesa/KPermissions/archive/master.zip, attempt 3
+2019-06-13 11:05:10,073 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398707755-0/master.zip": 201 KB
+2019-06-13 11:05:10,073 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-13 11:05:10,079 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398707755-0/master.zip: true
+2019-06-13 11:05:10,079 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398707755-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398707755-0/src'.
+2019-06-13 11:05:10,111 INFO  FullProcessService - Size of directory with sources: 300 KB
+2019-06-13 11:05:10,111 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398707755-0/src]
+2019-06-13 11:05:10,130 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398707755-0/src/.git/
 
-2019-05-26 17:53:40,206 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868004122-0/src/KPermissions-master/gradlew
-2019-05-26 17:53:40,210 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868004122-0/src/KPermissions-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868004122-0/src/KPermissions-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868004122-0/src/KPermissions-master/buildSrc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868004122-0/src/KPermissions-master/kpermissions/build.gradle
-2019-05-26 17:53:40,214 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868004122-0/src/KPermissions-master/kpermissions/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868004122-0/src/KPermissions-master/buildSrc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868004122-0/src/KPermissions-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868004122-0/src/KPermissions-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868004122-0/src/KPermissions-master/settings.gradle
-2019-05-26 17:53:40,215 INFO  ProjectBuildService - Remote scripts: none
-2019-05-26 17:53:40,215 INFO  ProjectFixService - Fixing project...
-2019-05-26 17:53:40,225 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868004122-0/src/KPermissions-master/sample/local.properties
-2019-05-26 17:53:40,228 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868004122-0/src/KPermissions-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-05-26 17:53:40,228 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868004122-0/src/KPermissions-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-26 17:53:40,230 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868004122-0/src/KPermissions-master/local.properties
-2019-05-26 17:53:40,230 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-bin.zip
-2019-05-26 17:53:40,232 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868004122-0/src/KPermissions-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-05-26 17:53:40,233 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868004122-0/src/KPermissions-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-26 17:53:40,234 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868004122-0/src/KPermissions-master/buildSrc/local.properties
-2019-05-26 17:53:40,236 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868004122-0/src/KPermissions-master/buildSrc/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-05-26 17:53:40,236 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868004122-0/src/KPermissions-master/buildSrc/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-26 17:53:40,237 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868004122-0/src/KPermissions-master/kpermissions/local.properties
-2019-05-26 17:53:40,239 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868004122-0/src/KPermissions-master/kpermissions/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-05-26 17:53:40,239 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868004122-0/src/KPermissions-master/kpermissions/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-26 17:53:40,239 INFO  ProjectFixService - Project was maybe fixed
-2019-05-26 17:53:40,239 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-26 17:53:40,239 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868004122-0/src/KPermissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868004122-0/src/KPermissions-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-26 17:53:53,142 INFO  ProjectTaskService - Detected possible tasks: 94
-2019-05-26 17:53:53,143 INFO  ProjectTaskService - Excluded tasks (8): deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
-2019-05-26 17:53:53,143 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868004122-0/src/KPermissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868004122-0/src/KPermissions-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
-2019-05-26 17:55:10,095 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
+2019-06-13 11:05:10,134 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398707755-0/src/KPermissions-master/gradlew
+2019-06-13 11:05:10,138 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398707755-0/src/KPermissions-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398707755-0/src/KPermissions-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398707755-0/src/KPermissions-master/buildSrc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398707755-0/src/KPermissions-master/kpermissions/build.gradle
+2019-06-13 11:05:10,142 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398707755-0/src/KPermissions-master/kpermissions/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398707755-0/src/KPermissions-master/buildSrc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398707755-0/src/KPermissions-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398707755-0/src/KPermissions-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398707755-0/src/KPermissions-master/settings.gradle
+2019-06-13 11:05:10,142 INFO  ProjectBuildService - Remote scripts: none
+2019-06-13 11:05:10,142 INFO  ProjectFixService - Fixing project...
+2019-06-13 11:05:10,151 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398707755-0/src/KPermissions-master/sample/local.properties
+2019-06-13 11:05:10,153 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398707755-0/src/KPermissions-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-06-13 11:05:10,153 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398707755-0/src/KPermissions-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-13 11:05:10,154 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398707755-0/src/KPermissions-master/local.properties
+2019-06-13 11:05:10,155 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-bin.zip
+2019-06-13 11:05:10,156 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398707755-0/src/KPermissions-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-06-13 11:05:10,156 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398707755-0/src/KPermissions-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-13 11:05:10,157 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398707755-0/src/KPermissions-master/buildSrc/local.properties
+2019-06-13 11:05:10,159 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398707755-0/src/KPermissions-master/buildSrc/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-06-13 11:05:10,159 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398707755-0/src/KPermissions-master/buildSrc/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-13 11:05:10,159 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398707755-0/src/KPermissions-master/kpermissions/local.properties
+2019-06-13 11:05:10,161 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398707755-0/src/KPermissions-master/kpermissions/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-06-13 11:05:10,161 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398707755-0/src/KPermissions-master/kpermissions/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-13 11:05:10,161 INFO  ProjectFixService - Project was maybe fixed
+2019-06-13 11:05:10,161 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-13 11:05:10,161 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398707755-0/src/KPermissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398707755-0/src/KPermissions-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-13 11:05:21,289 INFO  ProjectTaskService - Detected possible tasks: 94
+2019-06-13 11:05:21,290 INFO  ProjectTaskService - Excluded tasks (8): deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
+2019-06-13 11:05:21,290 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398707755-0/src/KPermissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398707755-0/src/KPermissions-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
+2019-06-13 11:06:32,874 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 > Task :buildSrc:compileJava NO-SOURCE
 > Task :buildSrc:compileGroovy UP-TO-DATE
@@ -59,15 +59,15 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :kpermissions:preDebugBuild UP-TO-DATE
 > Task :kpermissions:checkDebugManifest
 > Task :kpermissions:generateDebugBuildConfig
-> Task :kpermissions:generateDebugResValues
-> Task :kpermissions:processDebugManifest
-> Task :kpermissions:compileDebugAidl NO-SOURCE
-> Task :kpermissions:prepareLintJar
 > Task :kpermissions:compileDebugRenderscript NO-SOURCE
+> Task :kpermissions:generateDebugResValues
+> Task :kpermissions:compileDebugAidl NO-SOURCE
 > Task :kpermissions:generateDebugResources
+> Task :kpermissions:processDebugManifest
 > Task :kpermissions:packageDebugResources
 > Task :kpermissions:generateDebugRFile
 > Task :kpermissions:compileDebugKotlin
+> Task :kpermissions:prepareLintJar
 > Task :kpermissions:generateDebugSources
 > Task :kpermissions:javaPreCompileDebug
 > Task :kpermissions:compileDebugJavaWithJavac
@@ -142,11 +142,11 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :sample:createRemoteDebugCompatibleScreenManifests
 > Task :sample:processRemoteDebugManifest
 > Task :sample:processRemoteDebugResources
-> Task :sample:compileRemoteDebugKotlin
 > Task :sample:mergeExtDexLocalDebug
 > Task :sample:mergeDexLocalDebug
 > Task :sample:packageLocalDebug
 > Task :sample:assembleLocalDebug
+> Task :sample:compileRemoteDebugKotlin
 > Task :sample:generateRemoteDebugSources
 > Task :sample:javaPreCompileRemoteDebug
 > Task :sample:compileRemoteDebugJavaWithJavac
@@ -190,13 +190,13 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :sample:compileLocalReleaseJavaWithJavac
 > Task :sample:compileLocalReleaseSources
 > Task :kpermissions:prepareLintJarForPublish
+> Task :kpermissions:processReleaseJavaRes NO-SOURCE
+> Task :kpermissions:bundleLibResRelease
+> Task :kpermissions:bundleLibRuntimeRelease
 
 > Task :sample:lintVitalLocalRelease
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/f7c2398beb8fd4a5a408fb14568c6443/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
-> Task :kpermissions:processReleaseJavaRes NO-SOURCE
-> Task :kpermissions:bundleLibResRelease
-> Task :kpermissions:bundleLibRuntimeRelease
 > Task :kpermissions:createFullJarRelease
 > Task :sample:checkLocalReleaseDuplicateClasses
 > Task :sample:transformClassesWithDexBuilderForLocalRelease
@@ -266,7 +266,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 16s
+BUILD SUCCESSFUL in 1m 10s
 147 actionable tasks: 147 executed
 
-2019-05-26 17:55:10,291 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868004122-0/src/KPermissions-master/sample/build/outputs/apk/local/release/sample-local-release-unsigned.apk
+2019-06-13 11:06:33,029 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398707755-0/src/KPermissions-master/sample/build/outputs/apk/local/release/sample-local-release-unsigned.apk
