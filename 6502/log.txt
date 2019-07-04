@@ -1,673 +1,930 @@
-2019-05-26 18:34:01,530 INFO  DownloadService - Downloading "https://github.com/skydoves/PreferenceRoom/archive/master.zip", attempt 3
-2019-05-26 18:34:24,269 INFO  DownloadService - Downloaded https://github.com/skydoves/PreferenceRoom/archive/master.zip, attempt 3
-2019-05-26 18:34:24,269 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/master.zip": 304 KB
-2019-05-26 18:34:24,269 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-26 18:34:24,269 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/master.zip: true
-2019-05-26 18:34:24,269 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src'.
-2019-05-26 18:34:24,313 INFO  FullProcessService - Size of directory with sources: 426 KB
-2019-05-26 18:34:24,313 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src]
-2019-05-26 18:34:24,339 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/.git/
+2019-07-05 01:56:13,711 INFO  DownloadService - Downloading "https://github.com/skydoves/PreferenceRoom/archive/master.zip", attempt 3
+2019-07-05 01:56:14,564 INFO  DownloadService - Downloaded https://github.com/skydoves/PreferenceRoom/archive/master.zip, attempt 3
+2019-07-05 01:56:14,564 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/master.zip": 305 KB
+2019-07-05 01:56:14,564 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 01:56:14,570 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/master.zip: true
+2019-07-05 01:56:14,571 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src'.
+2019-07-05 01:56:14,607 INFO  FullProcessService - Size of directory with sources: 426 KB
+2019-07-05 01:56:14,607 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src]
+2019-07-05 01:56:14,623 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/.git/
 
-2019-05-26 18:34:24,344 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/gradlew
-2019-05-26 18:34:24,348 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/demo-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/preferenceroom-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/preferenceroom/build.gradle
-2019-05-26 18:34:24,352 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/preferenceroom/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/preferenceroom-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/demo-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/metadata.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/spotless.gradle
-2019-05-26 18:34:24,352 INFO  ProjectBuildService - Remote scripts: none
-2019-05-26 18:34:24,352 INFO  ProjectFixService - Fixing project...
-2019-05-26 18:34:24,362 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/demo-kotlin/local.properties
-2019-05-26 18:34:24,364 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/demo-kotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-26 18:34:24,364 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/demo-kotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-26 18:34:24,365 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/demo/local.properties
-2019-05-26 18:34:24,367 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-26 18:34:24,367 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-26 18:34:24,368 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/local.properties
-2019-05-26 18:34:24,369 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-05-26 18:34:24,369 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-05-26 18:34:24,372 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-26 18:34:24,372 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-26 18:34:24,373 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/preferenceroom-compiler/local.properties
-2019-05-26 18:34:24,375 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/preferenceroom-compiler/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-26 18:34:24,375 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/preferenceroom-compiler/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-26 18:34:24,377 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/preferenceroom/local.properties
-2019-05-26 18:34:24,378 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/preferenceroom/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-26 18:34:24,378 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/preferenceroom/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-26 18:34:24,379 INFO  ProjectFixService - Project was maybe fixed
-2019-05-26 18:34:24,379 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-26 18:34:24,379 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/demo-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-26 18:34:32,480 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-05-26 18:34:32,480 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-26 18:34:32,481 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/demo-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-26 18:34:58,054 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2019-05-26 18:34:58,054 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 01:56:14,627 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/gradlew
+2019-07-05 01:56:14,631 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/demo-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/preferenceroom-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/preferenceroom/build.gradle
+2019-07-05 01:56:14,634 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/preferenceroom/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/preferenceroom-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/demo-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/metadata.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/spotless.gradle
+2019-07-05 01:56:14,635 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 01:56:14,635 INFO  ProjectFixService - Fixing project...
+2019-07-05 01:56:14,643 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/demo-kotlin/local.properties
+2019-07-05 01:56:14,644 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/demo-kotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-05 01:56:14,644 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/demo-kotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-05 01:56:14,645 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/demo/local.properties
+2019-07-05 01:56:14,646 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-05 01:56:14,646 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-05 01:56:14,646 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/local.properties
+2019-07-05 01:56:14,647 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-07-05 01:56:14,647 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-07-05 01:56:14,648 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-05 01:56:14,648 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-05 01:56:14,649 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/preferenceroom-compiler/local.properties
+2019-07-05 01:56:14,650 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/preferenceroom-compiler/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-05 01:56:14,650 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/preferenceroom-compiler/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-05 01:56:14,651 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/preferenceroom/local.properties
+2019-07-05 01:56:14,652 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/preferenceroom/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-05 01:56:14,652 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/preferenceroom/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-05 01:56:14,652 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 01:56:14,653 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 01:56:14,653 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/demo-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 01:56:21,764 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-07-05 01:56:21,764 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-05 01:56:21,764 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/demo-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-05 01:57:18,239 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Transform annotation.jar (androidx.annotation:annotation:1.1.0-rc01) with JetifyTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform core-common.jar (androidx.arch.core:core-common:2.1.0-beta01) with JetifyTransform
+> Transform core-common.jar (androidx.arch.core:core-common:2.1.0-beta01) with IdentityTransform
+> Transform annotation.jar (androidx.annotation:annotation:1.1.0-rc01) with IdentityTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with ExtractAarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with ExtractAarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with ExtractAarTransform
+> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.30) with JetifyTransform
+> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.30) with IdentityTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarCompileClassesTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarCompileClassesTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarCompileClassesTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform print.aar (androidx.print:print:1.0.0) with ExtractAarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarCompileClassesTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with ExtractAarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarCompileClassesTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with ExtractAarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarCompileClassesTransform
+> Transform jsr305.jar (com.google.code.findbugs:jsr305:2.0.1) with JetifyTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform savedstate.aar (androidx.savedstate:savedstate:1.0.0-beta01) with JetifyTransform
+> Transform jsr305.jar (com.google.code.findbugs:jsr305:2.0.1) with IdentityTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
+> Transform savedstate.aar (androidx.savedstate:savedstate:1.0.0-beta01) with ExtractAarTransform
+> Transform collection.jar (androidx.collection:collection:1.1.0-rc01) with JetifyTransform
+> Transform collection.jar (androidx.collection:collection:1.1.0-rc01) with IdentityTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarCompileClassesTransform
+> Transform savedstate.aar (androidx.savedstate:savedstate:1.0.0-beta01) with AarCompileClassesTransform
+> Transform annotations.jar (org.jetbrains:annotations:13.0) with JetifyTransform
+> Transform annotations.jar (org.jetbrains:annotations:13.0) with IdentityTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with JetifyTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with ExtractAarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with ExtractAarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarCompileClassesTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarCompileClassesTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with ExtractAarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarCompileClassesTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with ExtractAarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with ExtractAarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarCompileClassesTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarCompileClassesTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with ExtractAarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarCompileClassesTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with ExtractAarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarCompileClassesTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with ExtractAarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarCompileClassesTransform
+> Transform commons-cli.jar (commons-cli:commons-cli:1.2) with JetifyTransform
+> Transform commons-cli.jar (commons-cli:commons-cli:1.2) with IdentityTransform
+> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.1.0-beta01) with JetifyTransform
+> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.1.0-beta01) with IdentityTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0-beta01) with JetifyTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.1.0-beta01) with JetifyTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-rc01) with JetifyTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-beta01) with JetifyTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0-beta01) with ExtractAarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.1.0-beta01) with ExtractAarTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-beta01) with ExtractAarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-rc01) with ExtractAarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0-beta01) with AarCompileClassesTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-beta01) with AarCompileClassesTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0-alpha05) with JetifyTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.1.0-beta01) with AarCompileClassesTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-rc01) with AarCompileClassesTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform transition.aar (androidx.transition:transition:1.0.1) with JetifyTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01) with JetifyTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with ExtractAarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarCompileClassesTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0-alpha05) with ExtractAarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01) with ExtractAarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.1) with ExtractAarTransform
+> Transform core.aar (androidx.core:core:1.1.0-rc01) with JetifyTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with ExtractAarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01) with AarCompileClassesTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0-alpha05) with AarCompileClassesTransform
+> Transform transition.aar (androidx.transition:transition:1.0.1) with AarCompileClassesTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarCompileClassesTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with ExtractAarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarCompileClassesTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0-beta02) with JetifyTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0-beta02) with JetifyTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0-beta02) with ExtractAarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0-beta02) with ExtractAarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0-beta02) with AarCompileClassesTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0-beta02) with AarCompileClassesTransform
+
+> Transform kotlinx-coroutines-android.jar (org.jetbrains.kotlinx:kotlinx-coroutines-android:0.15) with JetifyTransform
+ERROR: [TAG] Failed to resolve variable '${project.version}'
+ERROR: [TAG] Failed to resolve variable '${project.version}'
+
+> Transform core.aar (androidx.core:core:1.1.0-rc01) with ExtractAarTransform
+> Transform anko-coroutines.jar (org.jetbrains.anko:anko-coroutines:0.10.4) with JetifyTransform
+> Transform kotlinx-coroutines-android.jar (org.jetbrains.kotlinx:kotlinx-coroutines-android:0.15) with IdentityTransform
+> Transform anko-coroutines.jar (org.jetbrains.anko:anko-coroutines:0.10.4) with IdentityTransform
+> Transform anko-support-v4-commons.jar (org.jetbrains.anko:anko-support-v4-commons:0.10.4) with JetifyTransform
+> Transform anko-support-v4-commons.jar (org.jetbrains.anko:anko-support-v4-commons:0.10.4) with IdentityTransform
+> Transform anko-appcompat-v7-commons.jar (org.jetbrains.anko:anko-appcompat-v7-commons:0.10.4) with JetifyTransform
+> Transform anko-appcompat-v7-commons.jar (org.jetbrains.anko:anko-appcompat-v7-commons:0.10.4) with IdentityTransform
+> Transform core.aar (androidx.core:core:1.1.0-rc01) with AarCompileClassesTransform
+> Transform anko-appcompat-v7-coroutines.jar (org.jetbrains.anko:anko-appcompat-v7-coroutines:0.10.4) with JetifyTransform
+> Transform anko-appcompat-v7-coroutines.jar (org.jetbrains.anko:anko-appcompat-v7-coroutines:0.10.4) with IdentityTransform
+> Transform kotlinx-coroutines-core.jar (org.jetbrains.kotlinx:kotlinx-coroutines-core:0.15) with JetifyTransform
+> Transform kotlinx-coroutines-core.jar (org.jetbrains.kotlinx:kotlinx-coroutines-core:0.15) with IdentityTransform
+> Transform anko-commons.jar (org.jetbrains.anko:anko-commons:0.10.4) with JetifyTransform
+> Transform anko-support-v4.jar (org.jetbrains.anko:anko-support-v4:0.10.4) with JetifyTransform
+> Transform anko-support-v4.jar (org.jetbrains.anko:anko-support-v4:0.10.4) with IdentityTransform
+> Transform anko-commons.jar (org.jetbrains.anko:anko-commons:0.10.4) with IdentityTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-beta01) with JetifyTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-beta01) with ExtractAarTransform
+> Transform viewpager2.aar (androidx.viewpager2:viewpager2:1.0.0-alpha04) with JetifyTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-beta01) with AarCompileClassesTransform
+> Transform viewpager2.aar (androidx.viewpager2:viewpager2:1.0.0-alpha04) with ExtractAarTransform
+> Transform appcompat-resources.aar (androidx.appcompat:appcompat-resources:1.1.0-beta01) with JetifyTransform
+> Transform anko-sqlite.jar (org.jetbrains.anko:anko-sqlite:0.10.4) with JetifyTransform
+> Transform anko-sdk25-coroutines.jar (org.jetbrains.anko:anko-sdk25-coroutines:0.10.4) with JetifyTransform
+> Transform anko-appcompat-v7.jar (org.jetbrains.anko:anko-appcompat-v7:0.10.4) with JetifyTransform
+> Transform anko-sdk25.jar (org.jetbrains.anko:anko-sdk25:0.10.4) with JetifyTransform
+> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.30) with JetifyTransform
 > Task :preferenceroom:compileJava
+> Transform anko-sdk25-coroutines.jar (org.jetbrains.anko:anko-sdk25-coroutines:0.10.4) with IdentityTransform
+> Transform anko-sdk25.jar (org.jetbrains.anko:anko-sdk25:0.10.4) with IdentityTransform
+> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.30) with IdentityTransform
+> Transform anko-sqlite.jar (org.jetbrains.anko:anko-sqlite:0.10.4) with IdentityTransform
+> Transform anko-appcompat-v7.jar (org.jetbrains.anko:anko-appcompat-v7:0.10.4) with IdentityTransform
 > Task :preferenceroom:processResources NO-SOURCE
 > Task :preferenceroom:classes
+> Transform viewpager2.aar (androidx.viewpager2:viewpager2:1.0.0-alpha04) with AarCompileClassesTransform
+> Transform appcompat-resources.aar (androidx.appcompat:appcompat-resources:1.1.0-beta01) with ExtractAarTransform
 > Task :preferenceroom:jar
+> Transform anko.jar (org.jetbrains.anko:anko:0.10.4) with JetifyTransform
+> Transform anko.jar (org.jetbrains.anko:anko:0.10.4) with IdentityTransform
+> Transform appcompat-resources.aar (androidx.appcompat:appcompat-resources:1.1.0-beta01) with AarCompileClassesTransform
+> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.30) with JetifyTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.30) with IdentityTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform savedstate.aar (androidx.savedstate:savedstate:1.0.0-beta01) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0-beta01) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.1.0-beta01) with AarTransform
+> Transform kotlin-android-extensions-runtime.jar (org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.30) with JetifyTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform kotlin-android-extensions-runtime.jar (org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.30) with IdentityTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-rc01) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform preferenceroom.jar (project :preferenceroom) with JetifyTransform
+> Transform core.aar (androidx.core:core:1.1.0-rc01) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-beta01) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0-beta02) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0-beta02) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0-alpha05) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.1) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform appcompat-resources.aar (androidx.appcompat:appcompat-resources:1.1.0-beta01) with AarTransform
+> Transform viewpager2.aar (androidx.viewpager2:viewpager2:1.0.0-alpha04) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-beta01) with AarTransform
+> Transform preferenceroom.jar (project :preferenceroom) with IdentityTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0-beta01) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.1.0-beta01) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-rc01) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform savedstate.aar (androidx.savedstate:savedstate:1.0.0-beta01) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.1.0-rc01) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0-alpha05) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0-beta02) with AarTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-beta01) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.1) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0-beta02) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-beta01) with AarTransform
+> Transform viewpager2.aar (androidx.viewpager2:viewpager2:1.0.0-alpha04) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform savedstate.aar (androidx.savedstate:savedstate:1.0.0-beta01) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.1.0-beta01) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0-beta01) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-rc01) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.1.0-rc01) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform appcompat-resources.aar (androidx.appcompat:appcompat-resources:1.1.0-beta01) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0-beta02) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0-beta02) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0-alpha05) with AarTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-beta01) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.1) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform appcompat-resources.aar (androidx.appcompat:appcompat-resources:1.1.0-beta01) with AarTransform
 > Task :demo-kotlin:preBuild UP-TO-DATE
+> Transform viewpager2.aar (androidx.viewpager2:viewpager2:1.0.0-alpha04) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-beta01) with AarTransform
+> Transform savedstate.aar (androidx.savedstate:savedstate:1.0.0-beta01) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0-beta01) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.1.0-beta01) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-rc01) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.1.0-rc01) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-beta01) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0-alpha05) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0-beta02) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0-beta02) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.1) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01) with AarTransform
+> Transform appcompat-resources.aar (androidx.appcompat:appcompat-resources:1.1.0-beta01) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-beta01) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform viewpager2.aar (androidx.viewpager2:viewpager2:1.0.0-alpha04) with AarTransform
+> Transform animal-sniffer-annotations.jar (org.codehaus.mojo:animal-sniffer-annotations:1.14) with JetifyTransform
+> Transform j2objc-annotations.jar (com.google.j2objc:j2objc-annotations:1.1) with JetifyTransform
+> Transform error_prone_annotations.jar (com.google.errorprone:error_prone_annotations:2.0.18) with JetifyTransform
+> Transform jsr305.jar (com.google.code.findbugs:jsr305:1.3.9) with JetifyTransform
+> Transform annotation.jar (androidx.annotation:annotation:1.0.1) with JetifyTransform
+> Transform gson.jar (com.google.code.gson:gson:2.8.2) with JetifyTransform
+> Transform gson.jar (com.google.code.gson:gson:2.8.2) with IdentityTransform
+> Transform auto-service.jar (com.google.auto.service:auto-service:1.0-rc4) with JetifyTransform
+> Transform checker-qual.jar (org.checkerframework:checker-qual:2.0.0) with JetifyTransform
+> Transform auto-common.jar (com.google.auto:auto-common:0.8) with JetifyTransform
+> Transform javapoet.jar (com.squareup:javapoet:1.11.1) with JetifyTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-beta01) with JetifyTransform
+> Transform material.aar (com.google.android.material:material:1.1.0-alpha07) with JetifyTransform
+> Transform stetho.aar (com.facebook.stetho:stetho:1.5.1) with JetifyTransform
 > Task :preferenceroom-compiler:compileJava
 > Task :preferenceroom-compiler:processResources NO-SOURCE
 > Task :preferenceroom-compiler:classes
+
+> Transform guava.jar (com.google.guava:guava:23.5-jre) with JetifyTransform
+ERROR: [TAG] Failed to resolve variable '${animal.sniffer.version}'
+
+> Transform stetho.aar (com.facebook.stetho:stetho:1.5.1) with ExtractAarTransform
 > Task :preferenceroom-compiler:jar
+> Transform stetho.aar (com.facebook.stetho:stetho:1.5.1) with AarCompileClassesTransform
+> Transform stetho.aar (com.facebook.stetho:stetho:1.5.1) with AarTransform
+> Transform stetho.aar (com.facebook.stetho:stetho:1.5.1) with AarTransform
+> Transform stetho.aar (com.facebook.stetho:stetho:1.5.1) with AarTransform
+> Transform stetho.aar (com.facebook.stetho:stetho:1.5.1) with AarTransform
+> Transform preferenceroom-compiler.jar (project :preferenceroom-compiler) with JetifyTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with LibrarySymbolTableTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with LibrarySymbolTableTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with LibrarySymbolTableTransform
+> Transform savedstate.aar (androidx.savedstate:savedstate:1.0.0-beta01) with LibrarySymbolTableTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0-beta01) with LibrarySymbolTableTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.1.0-beta01) with LibrarySymbolTableTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with LibrarySymbolTableTransform
+> Transform print.aar (androidx.print:print:1.0.0) with LibrarySymbolTableTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with LibrarySymbolTableTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with LibrarySymbolTableTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-rc01) with LibrarySymbolTableTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with LibrarySymbolTableTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with LibrarySymbolTableTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with LibrarySymbolTableTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with LibrarySymbolTableTransform
+> Transform core.aar (androidx.core:core:1.1.0-rc01) with LibrarySymbolTableTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with LibrarySymbolTableTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with LibrarySymbolTableTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0-beta02) with LibrarySymbolTableTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0-beta02) with LibrarySymbolTableTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0-alpha05) with LibrarySymbolTableTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-beta01) with LibrarySymbolTableTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with LibrarySymbolTableTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with LibrarySymbolTableTransform
+> Transform transition.aar (androidx.transition:transition:1.0.1) with LibrarySymbolTableTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with LibrarySymbolTableTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01) with LibrarySymbolTableTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with LibrarySymbolTableTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-beta01) with LibrarySymbolTableTransform
+> Transform appcompat-resources.aar (androidx.appcompat:appcompat-resources:1.1.0-beta01) with LibrarySymbolTableTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform savedstate.aar (androidx.savedstate:savedstate:1.0.0-beta01) with AarTransform
+> Transform viewpager2.aar (androidx.viewpager2:viewpager2:1.0.0-alpha04) with LibrarySymbolTableTransform
+> Transform stetho.aar (com.facebook.stetho:stetho:1.5.1) with LibrarySymbolTableTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0-beta01) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.1.0-beta01) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-rc01) with AarTransform
+> Transform core.aar (androidx.core:core:1.1.0-rc01) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0-beta02) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0-beta02) with AarTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-beta01) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with LibrarySymbolTableTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0-alpha05) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.1) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform appcompat-resources.aar (androidx.appcompat:appcompat-resources:1.1.0-beta01) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-beta01) with AarTransform
+> Transform stetho.aar (com.facebook.stetho:stetho:1.5.1) with AarTransform
+> Transform viewpager2.aar (androidx.viewpager2:viewpager2:1.0.0-alpha04) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01) with AarTransform
+> Task :demo-kotlin:prepareLintJar
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform savedstate.aar (androidx.savedstate:savedstate:1.0.0-beta01) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.1.0-beta01) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-rc01) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.1.0-rc01) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0-alpha05) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0-beta01) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0-beta02) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0-beta02) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-beta01) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.1) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-beta01) with AarTransform
+> Transform viewpager2.aar (androidx.viewpager2:viewpager2:1.0.0-alpha04) with AarTransform
+> Transform stetho.aar (com.facebook.stetho:stetho:1.5.1) with AarTransform
+> Transform appcompat-resources.aar (androidx.appcompat:appcompat-resources:1.1.0-beta01) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.1.0-alpha07) with ExtractAarTransform
+> Transform aapt2-osx.jar (com.android.tools.build:aapt2:3.3.0-5013011) with Aapt2Extractor
+> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.30) with DexingTransform
+> Transform material.aar (com.google.android.material:material:1.1.0-alpha07) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.1.0-alpha07) with AarCompileClassesTransform
+> Transform material.aar (com.google.android.material:material:1.1.0-alpha07) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.1.0-alpha07) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.1.0-alpha07) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.1.0-alpha07) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.1.0-alpha07) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.1.0-alpha07) with LibrarySymbolTableTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-beta01) with ExtractAarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-beta01) with AarCompileClassesTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-beta01) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-beta01) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-beta01) with AarTransform
 > Task :demo-kotlin:preDebugBuild
 > Task :demo-kotlin:compileDebugAidl NO-SOURCE
-> Task :demo-kotlin:compileDebugRenderscript NO-SOURCE
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-beta01) with AarTransform
+> Task :demo-kotlin:compileDebugRenderscript
 > Task :demo-kotlin:checkDebugManifest
 > Task :demo-kotlin:generateDebugBuildConfig
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-beta01) with LibrarySymbolTableTransform
 > Task :demo-kotlin:mainApkListPersistenceDebug
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-beta01) with AarTransform
 > Task :demo-kotlin:generateDebugResValues
 > Task :demo-kotlin:generateDebugResources
+> Transform jsr305.jar (com.google.code.findbugs:jsr305:2.0.1) with DexingTransform
+> Transform annotations.jar (org.jetbrains:annotations:13.0) with DexingTransform
+> Transform annotation.jar (androidx.annotation:annotation:1.1.0-rc01) with DexingTransform
+> Transform core-common.jar (androidx.arch.core:core-common:2.1.0-beta01) with DexingTransform
+> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.1.0-beta01) with DexingTransform
+> Transform preferenceroom.jar (project :preferenceroom) with DexingTransform
+> Transform commons-cli.jar (commons-cli:commons-cli:1.2) with DexingTransform
+> Task :demo-kotlin:mergeDebugResources
 > Task :demo-kotlin:createDebugCompatibleScreenManifests
 > Task :demo-kotlin:processDebugManifest
-> Task :demo-kotlin:mergeDebugResources
 > Task :demo-kotlin:processDebugResources
 > Task :demo-kotlin:kaptGenerateStubsDebugKotlin
+> Task :demo-kotlin:kaptDebugKotlin
 
-> Task :demo-kotlin:kaptDebugKotlin FAILED
-e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/demo-kotlin/build/tmp/kapt3/stubs/debug/com/skydoves/preferenceroomdemo/MainActivity.java:28: error: cannot find symbol
-    public PreferenceComponent_UserProfileComponent component;
-           ^
-  symbol:   class PreferenceComponent_UserProfileComponent
-  location: class MainActivity
-e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/demo-kotlin/build/tmp/kapt3/stubs/debug/com/skydoves/preferenceroomdemo/MainActivity.java:33: error: cannot find symbol
-    public final PreferenceComponent_UserProfileComponent getComponent() {
-                 ^
-  symbol:   class PreferenceComponent_UserProfileComponent
-  location: class MainActivity
-e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/demo-kotlin/build/tmp/kapt3/stubs/debug/com/skydoves/preferenceroomdemo/MainActivity.java:38: error: cannot find symbol
-    PreferenceComponent_UserProfileComponent p0) {
-    ^
-  symbol:   class PreferenceComponent_UserProfileComponent
-  location: class MainActivity
-e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/demo-kotlin/build/tmp/kapt3/stubs/debug/com/skydoves/preferenceroomdemo/LoginActivity.java:24: error: cannot find symbol
-    public Preference_UserProfile userProfile;
-           ^
-  symbol:   class Preference_UserProfile
-  location: class LoginActivity
-e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/demo-kotlin/build/tmp/kapt3/stubs/debug/com/skydoves/preferenceroomdemo/LoginActivity.java:28: error: cannot find symbol
-    public final Preference_UserProfile getUserProfile() {
-                 ^
-  symbol:   class Preference_UserProfile
-  location: class LoginActivity
-e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/demo-kotlin/build/tmp/kapt3/stubs/debug/com/skydoves/preferenceroomdemo/LoginActivity.java:33: error: cannot find symbol
-    Preference_UserProfile p0) {
-    ^
-  symbol:   class Preference_UserProfile
-  location: class LoginActivity
+> Task :demo-kotlin:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/demo-kotlin/src/main/java/com/skydoves/preferenceroomdemo/entities/Profile.kt: (86, 13): Name shadowed: count
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/demo-kotlin/src/main/java/com/skydoves/preferenceroomdemo/utils/ListViewAdapter.kt: (55, 13): Name shadowed: view
 
-FAILURE: Build failed with an exception.
+> Task :demo-kotlin:generateDebugSources
+> Task :demo-kotlin:javaPreCompileDebug
 
-* What went wrong:
-Execution failed for task ':demo-kotlin:kaptDebugKotlin'.
-> Compilation error. See log for more details
+> Task :demo-kotlin:compileDebugJavaWithJavac
 
-* Try:
-Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+> Task :demo-kotlin:compileDebugNdk NO-SOURCE
+> Task :demo-kotlin:compileDebugSources
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-beta01) with AarTransform
+> Task :demo-kotlin:mergeDebugShaders
+> Task :demo-kotlin:compileDebugShaders
+> Task :demo-kotlin:generateDebugAssets
+> Task :demo-kotlin:mergeDebugAssets
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform savedstate.aar (androidx.savedstate:savedstate:1.0.0-beta01) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0-beta01) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.1.0-beta01) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.1.0-beta01) with JetifyTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0-beta01) with JetifyTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform savedstate.aar (androidx.savedstate:savedstate:1.0.0-beta01) with JetifyTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with DexingTransform
+> Transform savedstate.aar (androidx.savedstate:savedstate:1.0.0-beta01) with DexingTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with DexingTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0-beta01) with DexingTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-rc01) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with DexingTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.1.0-beta01) with DexingTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-rc01) with JetifyTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with JetifyTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with DexingTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with DexingTransform
+> Transform core.aar (androidx.core:core:1.1.0-rc01) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with DexingTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with DexingTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with DexingTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0-alpha05) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with DexingTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with DexingTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0-beta02) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0-beta02) with JetifyTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0-alpha05) with JetifyTransform
+> Transform core.aar (androidx.core:core:1.1.0-rc01) with JetifyTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with DexingTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0-beta02) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0-beta02) with JetifyTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-rc01) with DexingTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-beta01) with AarTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-beta01) with JetifyTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with DexingTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-beta01) with DexingTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with DexingTransform
+> Transform transition.aar (androidx.transition:transition:1.0.1) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform transition.aar (androidx.transition:transition:1.0.1) with JetifyTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0-beta02) with DexingTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with DexingTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01) with AarTransform
+> Transform collection.jar (androidx.collection:collection:1.1.0-rc01) with DexingTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01) with JetifyTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with DexingTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0-beta02) with DexingTransform
+> Transform appcompat-resources.aar (androidx.appcompat:appcompat-resources:1.1.0-beta01) with AarTransform
+> Transform appcompat-resources.aar (androidx.appcompat:appcompat-resources:1.1.0-beta01) with JetifyTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with DexingTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-beta01) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-beta01) with JetifyTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with DexingTransform
+> Transform viewpager2.aar (androidx.viewpager2:viewpager2:1.0.0-alpha04) with AarTransform
+> Transform viewpager2.aar (androidx.viewpager2:viewpager2:1.0.0-alpha04) with JetifyTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with DexingTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01) with DexingTransform
+> Transform viewpager2.aar (androidx.viewpager2:viewpager2:1.0.0-alpha04) with DexingTransform
+> Transform appcompat-resources.aar (androidx.appcompat:appcompat-resources:1.1.0-beta01) with DexingTransform
+> Transform kotlinx-coroutines-android.jar (org.jetbrains.kotlinx:kotlinx-coroutines-android:0.15) with DexingTransform
+> Transform anko-coroutines.jar (org.jetbrains.anko:anko-coroutines:0.10.4) with DexingTransform
+> Transform anko-support-v4-commons.jar (org.jetbrains.anko:anko-support-v4-commons:0.10.4) with DexingTransform
+> Transform anko-appcompat-v7-commons.jar (org.jetbrains.anko:anko-appcompat-v7-commons:0.10.4) with DexingTransform
+> Transform anko-appcompat-v7-coroutines.jar (org.jetbrains.anko:anko-appcompat-v7-coroutines:0.10.4) with DexingTransform
+> Transform transition.aar (androidx.transition:transition:1.0.1) with DexingTransform
+> Transform anko-support-v4.jar (org.jetbrains.anko:anko-support-v4:0.10.4) with DexingTransform
+> Transform anko-commons.jar (org.jetbrains.anko:anko-commons:0.10.4) with DexingTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-beta01) with DexingTransform
+> Transform kotlinx-coroutines-core.jar (org.jetbrains.kotlinx:kotlinx-coroutines-core:0.15) with DexingTransform
+> Transform stetho.aar (com.facebook.stetho:stetho:1.5.1) with AarTransform
+> Transform stetho.aar (com.facebook.stetho:stetho:1.5.1) with JetifyTransform
+> Transform anko-sqlite.jar (org.jetbrains.anko:anko-sqlite:0.10.4) with DexingTransform
+> Transform anko.jar (org.jetbrains.anko:anko:0.10.4) with DexingTransform
+> Transform anko-sdk25-coroutines.jar (org.jetbrains.anko:anko-sdk25-coroutines:0.10.4) with DexingTransform
+> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.30) with DexingTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-beta01) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-beta01) with JetifyTransform
+> Transform anko-appcompat-v7.jar (org.jetbrains.anko:anko-appcompat-v7:0.10.4) with DexingTransform
+> Transform material.aar (com.google.android.material:material:1.1.0-alpha07) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.1.0-alpha07) with JetifyTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0-alpha05) with DexingTransform
+> Transform kotlin-android-extensions-runtime.jar (org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.30) with DexingTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform savedstate.aar (androidx.savedstate:savedstate:1.0.0-beta01) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0-beta01) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.1.0-beta01) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-rc01) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.1.0-rc01) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0-alpha05) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0-beta02) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0-beta02) with AarTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-beta01) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.1) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform appcompat-resources.aar (androidx.appcompat:appcompat-resources:1.1.0-beta01) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-beta01) with AarTransform
+> Transform viewpager2.aar (androidx.viewpager2:viewpager2:1.0.0-alpha04) with AarTransform
+> Transform stetho.aar (com.facebook.stetho:stetho:1.5.1) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-beta01) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.1.0-alpha07) with AarTransform
+> Transform gson.jar (com.google.code.gson:gson:2.8.2) with DexingTransform
+> Task :demo-kotlin:transformClassesWithDexBuilderForDebug
+> Task :demo-kotlin:validateSigningDebug
+> Task :demo-kotlin:signingConfigWriterDebug
+> Transform preferenceroom.jar (project :preferenceroom) with IdentityTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0-beta01) with AarTransform
+> Transform savedstate.aar (androidx.savedstate:savedstate:1.0.0-beta01) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.1.0-beta01) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-rc01) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.1.0-rc01) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0-alpha05) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0-beta02) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0-beta02) with AarTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-beta01) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.1) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform appcompat-resources.aar (androidx.appcompat:appcompat-resources:1.1.0-beta01) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-beta01) with AarTransform
+> Transform viewpager2.aar (androidx.viewpager2:viewpager2:1.0.0-alpha04) with AarTransform
+> Transform stetho.aar (com.facebook.stetho:stetho:1.5.1) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.1.0-alpha07) with AarTransform
+> Transform annotations.jar (org.jetbrains:annotations:13.0) with IdentityTransform
+> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.30) with IdentityTransform
+> Transform jsr305.jar (com.google.code.findbugs:jsr305:2.0.1) with IdentityTransform
+> Transform commons-cli.jar (commons-cli:commons-cli:1.2) with IdentityTransform
+> Transform annotation.jar (androidx.annotation:annotation:1.1.0-rc01) with IdentityTransform
+> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.1.0-beta01) with IdentityTransform
+> Transform core-common.jar (androidx.arch.core:core-common:2.1.0-beta01) with IdentityTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-beta01) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform savedstate.aar (androidx.savedstate:savedstate:1.0.0-beta01) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0-beta01) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.1.0-beta01) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform collection.jar (androidx.collection:collection:1.1.0-rc01) with IdentityTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-rc01) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.1.0-rc01) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0-alpha05) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0-beta02) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0-beta02) with AarTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-beta01) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.1) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform appcompat-resources.aar (androidx.appcompat:appcompat-resources:1.1.0-beta01) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-beta01) with AarTransform
+> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.30) with IdentityTransform
+> Transform kotlinx-coroutines-core.jar (org.jetbrains.kotlinx:kotlinx-coroutines-core:0.15) with IdentityTransform
+> Transform kotlinx-coroutines-android.jar (org.jetbrains.kotlinx:kotlinx-coroutines-android:0.15) with IdentityTransform
+> Transform anko-coroutines.jar (org.jetbrains.anko:anko-coroutines:0.10.4) with IdentityTransform
+> Transform anko-commons.jar (org.jetbrains.anko:anko-commons:0.10.4) with IdentityTransform
+> Transform anko-support-v4-commons.jar (org.jetbrains.anko:anko-support-v4-commons:0.10.4) with IdentityTransform
+> Transform anko-appcompat-v7-commons.jar (org.jetbrains.anko:anko-appcompat-v7-commons:0.10.4) with IdentityTransform
+> Transform anko-appcompat-v7-coroutines.jar (org.jetbrains.anko:anko-appcompat-v7-coroutines:0.10.4) with IdentityTransform
+> Transform anko-support-v4.jar (org.jetbrains.anko:anko-support-v4:0.10.4) with IdentityTransform
+> Transform anko-appcompat-v7.jar (org.jetbrains.anko:anko-appcompat-v7:0.10.4) with IdentityTransform
+> Transform anko-sdk25-coroutines.jar (org.jetbrains.anko:anko-sdk25-coroutines:0.10.4) with IdentityTransform
+> Transform anko-sdk25.jar (org.jetbrains.anko:anko-sdk25:0.10.4) with IdentityTransform
+> Transform anko-sqlite.jar (org.jetbrains.anko:anko-sqlite:0.10.4) with IdentityTransform
+> Transform viewpager2.aar (androidx.viewpager2:viewpager2:1.0.0-alpha04) with AarTransform
+> Transform anko.jar (org.jetbrains.anko:anko:0.10.4) with IdentityTransform
+> Transform gson.jar (com.google.code.gson:gson:2.8.2) with IdentityTransform
+> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.30) with IdentityTransform
+> Transform stetho.aar (com.facebook.stetho:stetho:1.5.1) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.1.0-alpha07) with AarTransform
+> Transform kotlin-android-extensions-runtime.jar (org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.30) with IdentityTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-beta01) with AarTransform
+> Task :demo-kotlin:mergeDebugJniLibFolders
+> Transform core.aar (androidx.core:core:1.1.0-rc01) with DexingTransform
+> Transform stetho.aar (com.facebook.stetho:stetho:1.5.1) with DexingTransform
+> Transform anko-sdk25.jar (org.jetbrains.anko:anko-sdk25:0.10.4) with DexingTransform
+> Task :demo-kotlin:transformNativeLibsWithMergeJniLibsForDebug
+> Task :demo-kotlin:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :demo-kotlin:processDebugJavaRes NO-SOURCE
+> Task :demo-kotlin:transformResourcesWithMergeJavaResForDebug
+> Task :demo-kotlin:preReleaseBuild
+> Task :demo-kotlin:compileReleaseAidl NO-SOURCE
+> Task :demo-kotlin:compileReleaseRenderscript
+> Task :demo-kotlin:checkReleaseManifest
+> Task :demo-kotlin:generateReleaseBuildConfig
+> Task :demo-kotlin:mainApkListPersistenceRelease
+> Task :demo-kotlin:generateReleaseResValues
+> Task :demo-kotlin:generateReleaseResources
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-beta01) with DexingTransform
+> Transform material.aar (com.google.android.material:material:1.1.0-alpha07) with DexingTransform
+> Task :demo-kotlin:mergeReleaseResources
+> Task :demo-kotlin:createReleaseCompatibleScreenManifests
+> Task :demo-kotlin:processReleaseManifest
+> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.30) with DexingTransform
+> Task :demo-kotlin:processReleaseResources
+> Task :demo-kotlin:mergeExtDexDebug
+> Task :demo-kotlin:mergeDexDebug
+> Task :demo-kotlin:packageDebug
+> Task :demo-kotlin:assembleDebug
+> Task :demo-kotlin:kaptGenerateStubsReleaseKotlin
+> Task :demo-kotlin:kaptReleaseKotlin
 
-* Exception is:
-org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':demo-kotlin:kaptDebugKotlin'.
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:95)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:91)
-	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:57)
-	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:119)
-	at org.gradle.api.internal.tasks.execution.ResolvePreviousStateExecuter.execute(ResolvePreviousStateExecuter.java:43)
-	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:93)
-	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:45)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:94)
-	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:56)
-	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:55)
-	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:67)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:49)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:315)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:305)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:101)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:49)
-	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:43)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:355)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:343)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:336)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:322)
-	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:134)
-	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:129)
-	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:202)
-	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.executeNextNode(DefaultPlanExecutor.java:193)
-	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:129)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
-Caused by: org.gradle.api.GradleException: Compilation error. See log for more details
-	at org.jetbrains.kotlin.gradle.tasks.TasksUtilsKt.throwGradleExceptionIfError(tasksUtils.kt:14)
-	at org.jetbrains.kotlin.compilerRunner.GradleKotlinCompilerWork.run(GradleKotlinCompilerWork.kt:129)
-	at org.jetbrains.kotlin.compilerRunner.GradleCompilerRunner.runCompilerAsync(GradleKotlinCompilerRunner.kt:158)
-	at org.jetbrains.kotlin.compilerRunner.GradleCompilerRunner.runCompilerAsync(GradleKotlinCompilerRunner.kt:153)
-	at org.jetbrains.kotlin.compilerRunner.GradleCompilerRunner.runJvmCompilerAsync(GradleKotlinCompilerRunner.kt:92)
-	at org.jetbrains.kotlin.gradle.internal.KaptWithKotlincTask.compile(KaptWithKotlincTask.kt:91)
-	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
-	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.doExecute(IncrementalTaskAction.java:47)
-	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:41)
-	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:28)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$2.run(ExecuteActionsTaskExecuter.java:284)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:273)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:258)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.access$200(ExecuteActionsTaskExecuter.java:67)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$TaskExecution.execute(ExecuteActionsTaskExecuter.java:145)
-	at org.gradle.internal.execution.impl.steps.ExecuteStep.execute(ExecuteStep.java:49)
-	at org.gradle.internal.execution.impl.steps.CancelExecutionStep.execute(CancelExecutionStep.java:34)
-	at org.gradle.internal.execution.impl.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:69)
-	at org.gradle.internal.execution.impl.steps.TimeoutStep.execute(TimeoutStep.java:49)
-	at org.gradle.internal.execution.impl.steps.CatchExceptionStep.execute(CatchExceptionStep.java:33)
-	at org.gradle.internal.execution.impl.steps.CreateOutputsStep.execute(CreateOutputsStep.java:50)
-	at org.gradle.internal.execution.impl.steps.SnapshotOutputStep.execute(SnapshotOutputStep.java:43)
-	at org.gradle.internal.execution.impl.steps.SnapshotOutputStep.execute(SnapshotOutputStep.java:29)
-	at org.gradle.internal.execution.impl.steps.CacheStep.executeWithoutCache(CacheStep.java:134)
-	at org.gradle.internal.execution.impl.steps.CacheStep.lambda$execute$3(CacheStep.java:83)
-	at org.gradle.internal.execution.impl.steps.CacheStep.execute(CacheStep.java:82)
-	at org.gradle.internal.execution.impl.steps.CacheStep.execute(CacheStep.java:36)
-	at org.gradle.internal.execution.impl.steps.PrepareCachingStep.execute(PrepareCachingStep.java:33)
-	at org.gradle.internal.execution.impl.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:38)
-	at org.gradle.internal.execution.impl.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:23)
-	at org.gradle.internal.execution.impl.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:96)
-	at org.gradle.internal.execution.impl.steps.SkipUpToDateStep.lambda$execute$1(SkipUpToDateStep.java:91)
-	at org.gradle.internal.execution.impl.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:91)
-	at org.gradle.internal.execution.impl.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:36)
-	at org.gradle.internal.execution.impl.DefaultWorkExecutor.execute(DefaultWorkExecutor.java:34)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:91)
-	... 32 more
+> Task :demo-kotlin:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/demo-kotlin/src/main/java/com/skydoves/preferenceroomdemo/entities/Profile.kt: (86, 13): Name shadowed: count
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/demo-kotlin/src/main/java/com/skydoves/preferenceroomdemo/utils/ListViewAdapter.kt: (55, 13): Name shadowed: view
 
+> Task :demo-kotlin:generateReleaseSources
+> Task :demo-kotlin:javaPreCompileRelease
 
-* Get more help at https://help.gradle.org
+> Task :demo-kotlin:compileReleaseJavaWithJavac
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+> Task :demo-kotlin:compileReleaseNdk NO-SOURCE
+> Task :demo-kotlin:compileReleaseSources
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0-beta01) with AarTransform
+> Transform savedstate.aar (androidx.savedstate:savedstate:1.0.0-beta01) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.1.0-beta01) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-rc01) with AarTransform
+> Transform core.aar (androidx.core:core:1.1.0-rc01) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0-alpha05) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0-beta02) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0-beta02) with AarTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-beta01) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.1) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform appcompat-resources.aar (androidx.appcompat:appcompat-resources:1.1.0-beta01) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-beta01) with AarTransform
+> Transform viewpager2.aar (androidx.viewpager2:viewpager2:1.0.0-alpha04) with AarTransform
+> Transform stetho.aar (com.facebook.stetho:stetho:1.5.1) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-beta01) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.1.0-alpha07) with AarTransform
+> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.30) with DexingTransform
+> Transform annotations.jar (org.jetbrains:annotations:13.0) with DexingTransform
+> Transform jsr305.jar (com.google.code.findbugs:jsr305:2.0.1) with DexingTransform
+> Transform annotation.jar (androidx.annotation:annotation:1.1.0-rc01) with DexingTransform
+> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.1.0-beta01) with DexingTransform
+> Transform preferenceroom.jar (project :preferenceroom) with DexingTransform
+> Transform commons-cli.jar (commons-cli:commons-cli:1.2) with DexingTransform
+
+> Task :demo-kotlin:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/a82c62647cae1419d7f3d001bf258bd5/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Transform savedstate.aar (androidx.savedstate:savedstate:1.0.0-beta01) with DexingTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with DexingTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with DexingTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with DexingTransform
+> Transform core-common.jar (androidx.arch.core:core-common:2.1.0-beta01) with DexingTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0-beta01) with DexingTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.1.0-beta01) with DexingTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with DexingTransform
+> Transform print.aar (androidx.print:print:1.0.0) with DexingTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with DexingTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with DexingTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with DexingTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with DexingTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with DexingTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-rc01) with DexingTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with DexingTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with DexingTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-beta01) with DexingTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with DexingTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0-beta02) with DexingTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with DexingTransform
+> Transform collection.jar (androidx.collection:collection:1.1.0-rc01) with DexingTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with DexingTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with DexingTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0-beta02) with DexingTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with DexingTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01) with DexingTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with DexingTransform
+> Transform appcompat-resources.aar (androidx.appcompat:appcompat-resources:1.1.0-beta01) with DexingTransform
+> Transform kotlinx-coroutines-android.jar (org.jetbrains.kotlinx:kotlinx-coroutines-android:0.15) with DexingTransform
+> Transform anko-coroutines.jar (org.jetbrains.anko:anko-coroutines:0.10.4) with DexingTransform
+> Transform viewpager2.aar (androidx.viewpager2:viewpager2:1.0.0-alpha04) with DexingTransform
+> Transform anko-support-v4-commons.jar (org.jetbrains.anko:anko-support-v4-commons:0.10.4) with DexingTransform
+> Transform anko-appcompat-v7-commons.jar (org.jetbrains.anko:anko-appcompat-v7-commons:0.10.4) with DexingTransform
+> Transform transition.aar (androidx.transition:transition:1.0.1) with DexingTransform
+> Transform anko-appcompat-v7-coroutines.jar (org.jetbrains.anko:anko-appcompat-v7-coroutines:0.10.4) with DexingTransform
+> Transform anko-support-v4.jar (org.jetbrains.anko:anko-support-v4:0.10.4) with DexingTransform
+> Transform anko-commons.jar (org.jetbrains.anko:anko-commons:0.10.4) with DexingTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-beta01) with DexingTransform
+> Transform kotlinx-coroutines-core.jar (org.jetbrains.kotlinx:kotlinx-coroutines-core:0.15) with DexingTransform
+> Transform anko-sqlite.jar (org.jetbrains.anko:anko-sqlite:0.10.4) with DexingTransform
+> Transform anko.jar (org.jetbrains.anko:anko:0.10.4) with DexingTransform
+> Transform anko-sdk25-coroutines.jar (org.jetbrains.anko:anko-sdk25-coroutines:0.10.4) with DexingTransform
+> Transform anko-appcompat-v7.jar (org.jetbrains.anko:anko-appcompat-v7:0.10.4) with DexingTransform
+> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.30) with DexingTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0-alpha05) with DexingTransform
+> Transform kotlin-android-extensions-runtime.jar (org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.30) with DexingTransform
+> Task :demo-kotlin:transformClassesWithDexBuilderForRelease
+> Task :demo-kotlin:mergeReleaseShaders
+> Task :demo-kotlin:compileReleaseShaders
+> Task :demo-kotlin:generateReleaseAssets
+> Task :demo-kotlin:mergeReleaseAssets
+> Task :demo-kotlin:signingConfigWriterRelease
+> Task :demo-kotlin:mergeReleaseJniLibFolders
+> Transform gson.jar (com.google.code.gson:gson:2.8.2) with DexingTransform
+> Transform core.aar (androidx.core:core:1.1.0-rc01) with DexingTransform
+> Task :demo-kotlin:transformNativeLibsWithMergeJniLibsForRelease
+> Transform stetho.aar (com.facebook.stetho:stetho:1.5.1) with DexingTransform
+> Task :demo-kotlin:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :demo-kotlin:processReleaseJavaRes NO-SOURCE
+> Transform anko-sdk25.jar (org.jetbrains.anko:anko-sdk25:0.10.4) with DexingTransform
+> Task :demo-kotlin:transformResourcesWithMergeJavaResForRelease
+> Transform material.aar (com.google.android.material:material:1.1.0-alpha07) with DexingTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-beta01) with DexingTransform
+> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.30) with DexingTransform
+> Task :demo-kotlin:mergeExtDexRelease
+> Task :demo-kotlin:mergeDexRelease
+> Task :demo-kotlin:packageRelease
+> Task :demo-kotlin:assembleRelease
+> Task :demo-kotlin:assemble
+> Task :demo-kotlin:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 24s
-15 actionable tasks: 15 executed
+BUILD SUCCESSFUL in 55s
+61 actionable tasks: 61 executed
 
-2019-05-26 18:34:58,087 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-26 18:34:58,087 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-26 18:35:05,470 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-05-26 18:35:05,471 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-26 18:35:05,471 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-26 18:35:20,647 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2019-05-26 18:35:20,647 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :preferenceroom:compileJava UP-TO-DATE
-> Task :preferenceroom:processResources NO-SOURCE
-> Task :preferenceroom:classes UP-TO-DATE
-> Task :preferenceroom:jar UP-TO-DATE
-> Task :preferenceroom-compiler:compileJava UP-TO-DATE
-> Task :preferenceroom-compiler:processResources NO-SOURCE
-> Task :preferenceroom-compiler:classes UP-TO-DATE
-> Task :preferenceroom-compiler:jar UP-TO-DATE
-> Task :demo:preBuild UP-TO-DATE
-> Task :demo:preDebugBuild
-> Task :demo:compileDebugAidl NO-SOURCE
-> Task :demo:checkDebugManifest
-> Task :demo:compileDebugRenderscript NO-SOURCE
-> Task :demo:generateDebugBuildConfig
-> Task :demo:prepareLintJar
-> Task :demo:generateDebugSources
-> Task :demo:javaPreCompileDebug
-> Task :demo:mainApkListPersistenceDebug
-> Task :demo:generateDebugResValues
-> Task :demo:generateDebugResources
-> Task :demo:mergeDebugResources
-> Task :demo:createDebugCompatibleScreenManifests
-> Task :demo:processDebugManifest
-> Task :demo:processDebugResources
-
-> Task :demo:compileDebugJavaWithJavac FAILED
-Gradle may disable incremental compilation as the following annotation processors are not incremental: auto-service-1.0-rc4.jar (com.google.auto.service:auto-service:1.0-rc4).
-Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/demo/src/main/java/com/skydoves/preferenceroomdemo/MainActivity.java:30: error: cannot find symbol
-import com.skydoves.preferenceroomdemo.components.PreferenceComponent_AppComponent;
-                                                 ^
-  symbol:   class PreferenceComponent_AppComponent
-  location: package com.skydoves.preferenceroomdemo.components
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/demo/src/main/java/com/skydoves/preferenceroomdemo/MainActivity.java:37: error: cannot find symbol
-  @InjectPreference public PreferenceComponent_AppComponent component;
-                           ^
-  symbol:   class PreferenceComponent_AppComponent
-  location: class MainActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/demo/src/main/java/com/skydoves/preferenceroomdemo/LoginActivity.java:27: error: cannot find symbol
-import com.skydoves.preferenceroomdemo.components.PreferenceComponent_AppComponent;
-                                                 ^
-  symbol:   class PreferenceComponent_AppComponent
-  location: package com.skydoves.preferenceroomdemo.components
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/demo/src/main/java/com/skydoves/preferenceroomdemo/LoginActivity.java:28: error: cannot find symbol
-import com.skydoves.preferenceroomdemo.entities.Preference_UserProfile;
-                                               ^
-  symbol:   class Preference_UserProfile
-  location: package com.skydoves.preferenceroomdemo.entities
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/demo/src/main/java/com/skydoves/preferenceroomdemo/LoginActivity.java:34: error: cannot find symbol
-  @InjectPreference public Preference_UserProfile userProfile;
-                           ^
-  symbol:   class Preference_UserProfile
-  location: class LoginActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/demo/src/main/java/com/skydoves/preferenceroomdemo/MyApplication.java:21: error: cannot find symbol
-import com.skydoves.preferenceroomdemo.components.PreferenceComponent_AppComponent;
-                                                 ^
-  symbol:   class PreferenceComponent_AppComponent
-  location: package com.skydoves.preferenceroomdemo.components
-6 errors
-
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-Execution failed for task ':demo:compileDebugJavaWithJavac'.
-> Compilation failed; see the compiler error output for details.
-
-* Try:
-Run with --info or --debug option to get more log output. Run with --scan to get full insights.
-
-* Exception is:
-org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':demo:compileDebugJavaWithJavac'.
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:95)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:91)
-	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:57)
-	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:119)
-	at org.gradle.api.internal.tasks.execution.ResolvePreviousStateExecuter.execute(ResolvePreviousStateExecuter.java:43)
-	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:93)
-	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:45)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:94)
-	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:56)
-	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:55)
-	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:67)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:49)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:315)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:305)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:101)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:49)
-	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:43)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:355)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:343)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:336)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:322)
-	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:134)
-	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:129)
-	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:202)
-	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.executeNextNode(DefaultPlanExecutor.java:193)
-	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:129)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
-Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Compilation failed; see the compiler error output for details.
-	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:52)
-	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:36)
-	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.delegateAndHandleErrors(NormalizingJavaCompiler.java:100)
-	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:52)
-	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:38)
-	at org.gradle.api.internal.tasks.compile.AnnotationProcessorDiscoveringCompiler.execute(AnnotationProcessorDiscoveringCompiler.java:51)
-	at org.gradle.api.internal.tasks.compile.AnnotationProcessorDiscoveringCompiler.execute(AnnotationProcessorDiscoveringCompiler.java:37)
-	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:39)
-	at org.gradle.api.internal.tasks.compile.incremental.IncrementalCompilerFactory$2.execute(IncrementalCompilerFactory.java:110)
-	at org.gradle.api.internal.tasks.compile.incremental.IncrementalCompilerFactory$2.execute(IncrementalCompilerFactory.java:106)
-	at org.gradle.api.internal.tasks.compile.incremental.IncrementalResultStoringCompiler.execute(IncrementalResultStoringCompiler.java:59)
-	at org.gradle.api.internal.tasks.compile.incremental.IncrementalResultStoringCompiler.execute(IncrementalResultStoringCompiler.java:43)
-	at org.gradle.api.internal.tasks.compile.CompileJavaBuildOperationReportingCompiler$2.call(CompileJavaBuildOperationReportingCompiler.java:59)
-	at org.gradle.api.internal.tasks.compile.CompileJavaBuildOperationReportingCompiler$2.call(CompileJavaBuildOperationReportingCompiler.java:51)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:315)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:305)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:101)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
-	at org.gradle.api.internal.tasks.compile.CompileJavaBuildOperationReportingCompiler.execute(CompileJavaBuildOperationReportingCompiler.java:51)
-	at org.gradle.api.tasks.compile.JavaCompile.performCompilation(JavaCompile.java:154)
-	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:122)
-	at com.android.build.gradle.tasks.AndroidJavaCompile.compile(AndroidJavaCompile.kt:214)
-	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
-	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.doExecute(IncrementalTaskAction.java:47)
-	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:41)
-	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:28)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$2.run(ExecuteActionsTaskExecuter.java:284)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:273)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:258)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.access$200(ExecuteActionsTaskExecuter.java:67)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$TaskExecution.execute(ExecuteActionsTaskExecuter.java:145)
-	at org.gradle.internal.execution.impl.steps.ExecuteStep.execute(ExecuteStep.java:49)
-	at org.gradle.internal.execution.impl.steps.CancelExecutionStep.execute(CancelExecutionStep.java:34)
-	at org.gradle.internal.execution.impl.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:69)
-	at org.gradle.internal.execution.impl.steps.TimeoutStep.execute(TimeoutStep.java:49)
-	at org.gradle.internal.execution.impl.steps.CatchExceptionStep.execute(CatchExceptionStep.java:33)
-	at org.gradle.internal.execution.impl.steps.CreateOutputsStep.execute(CreateOutputsStep.java:50)
-	at org.gradle.internal.execution.impl.steps.SnapshotOutputStep.execute(SnapshotOutputStep.java:43)
-	at org.gradle.internal.execution.impl.steps.SnapshotOutputStep.execute(SnapshotOutputStep.java:29)
-	at org.gradle.internal.execution.impl.steps.CacheStep.executeWithoutCache(CacheStep.java:134)
-	at org.gradle.internal.execution.impl.steps.CacheStep.lambda$execute$3(CacheStep.java:83)
-	at org.gradle.internal.execution.impl.steps.CacheStep.execute(CacheStep.java:82)
-	at org.gradle.internal.execution.impl.steps.CacheStep.execute(CacheStep.java:36)
-	at org.gradle.internal.execution.impl.steps.PrepareCachingStep.execute(PrepareCachingStep.java:33)
-	at org.gradle.internal.execution.impl.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:38)
-	at org.gradle.internal.execution.impl.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:23)
-	at org.gradle.internal.execution.impl.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:96)
-	at org.gradle.internal.execution.impl.steps.SkipUpToDateStep.lambda$execute$1(SkipUpToDateStep.java:91)
-	at org.gradle.internal.execution.impl.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:91)
-	at org.gradle.internal.execution.impl.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:36)
-	at org.gradle.internal.execution.impl.DefaultWorkExecutor.execute(DefaultWorkExecutor.java:34)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:91)
-	... 32 more
-
-
-* Get more help at https://help.gradle.org
-
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
-
-BUILD FAILED in 14s
-16 actionable tasks: 12 executed, 4 up-to-date
-
-2019-05-26 18:35:20,702 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-26 18:35:20,702 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-26 18:35:28,925 INFO  ProjectTaskService - Detected possible tasks: 86
-2019-05-26 18:35:28,925 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-26 18:35:28,925 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-26 18:35:41,051 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2019-05-26 18:35:41,051 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :preferenceroom:compileJava UP-TO-DATE
-> Task :preferenceroom:processResources NO-SOURCE
-> Task :preferenceroom:classes UP-TO-DATE
-> Task :preferenceroom:jar UP-TO-DATE
-> Task :preferenceroom-compiler:compileJava UP-TO-DATE
-> Task :preferenceroom-compiler:processResources NO-SOURCE
-> Task :preferenceroom-compiler:classes UP-TO-DATE
-> Task :preferenceroom-compiler:jar UP-TO-DATE
-> Task :demo:preBuild UP-TO-DATE
-> Task :demo:preDebugBuild UP-TO-DATE
-> Task :demo:compileDebugAidl NO-SOURCE
-> Task :demo:checkDebugManifest UP-TO-DATE
-> Task :demo:compileDebugRenderscript NO-SOURCE
-> Task :demo:generateDebugBuildConfig UP-TO-DATE
-> Task :demo:prepareLintJar UP-TO-DATE
-> Task :demo:generateDebugSources UP-TO-DATE
-> Task :demo:javaPreCompileDebug UP-TO-DATE
-> Task :demo:mainApkListPersistenceDebug UP-TO-DATE
-> Task :demo:generateDebugResValues UP-TO-DATE
-> Task :demo:generateDebugResources UP-TO-DATE
-> Task :demo:createDebugCompatibleScreenManifests UP-TO-DATE
-> Task :demo:mergeDebugResources UP-TO-DATE
-> Task :demo:processDebugManifest UP-TO-DATE
-> Task :demo:processDebugResources UP-TO-DATE
-
-> Task :demo:compileDebugJavaWithJavac FAILED
-Gradle may disable incremental compilation as the following annotation processors are not incremental: auto-service-1.0-rc4.jar (com.google.auto.service:auto-service:1.0-rc4).
-Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/demo/src/main/java/com/skydoves/preferenceroomdemo/MainActivity.java:30: error: cannot find symbol
-import com.skydoves.preferenceroomdemo.components.PreferenceComponent_AppComponent;
-                                                 ^
-  symbol:   class PreferenceComponent_AppComponent
-  location: package com.skydoves.preferenceroomdemo.components
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/demo/src/main/java/com/skydoves/preferenceroomdemo/MainActivity.java:37: error: cannot find symbol
-  @InjectPreference public PreferenceComponent_AppComponent component;
-                           ^
-  symbol:   class PreferenceComponent_AppComponent
-  location: class MainActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/demo/src/main/java/com/skydoves/preferenceroomdemo/LoginActivity.java:27: error: cannot find symbol
-import com.skydoves.preferenceroomdemo.components.PreferenceComponent_AppComponent;
-                                                 ^
-  symbol:   class PreferenceComponent_AppComponent
-  location: package com.skydoves.preferenceroomdemo.components
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/demo/src/main/java/com/skydoves/preferenceroomdemo/LoginActivity.java:28: error: cannot find symbol
-import com.skydoves.preferenceroomdemo.entities.Preference_UserProfile;
-                                               ^
-  symbol:   class Preference_UserProfile
-  location: package com.skydoves.preferenceroomdemo.entities
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/demo/src/main/java/com/skydoves/preferenceroomdemo/LoginActivity.java:34: error: cannot find symbol
-  @InjectPreference public Preference_UserProfile userProfile;
-                           ^
-  symbol:   class Preference_UserProfile
-  location: class LoginActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/demo/src/main/java/com/skydoves/preferenceroomdemo/MyApplication.java:21: error: cannot find symbol
-import com.skydoves.preferenceroomdemo.components.PreferenceComponent_AppComponent;
-                                                 ^
-  symbol:   class PreferenceComponent_AppComponent
-  location: package com.skydoves.preferenceroomdemo.components
-6 errors
-
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-Execution failed for task ':demo:compileDebugJavaWithJavac'.
-> Compilation failed; see the compiler error output for details.
-
-* Try:
-Run with --info or --debug option to get more log output. Run with --scan to get full insights.
-
-* Exception is:
-org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':demo:compileDebugJavaWithJavac'.
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:95)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:91)
-	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:57)
-	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:119)
-	at org.gradle.api.internal.tasks.execution.ResolvePreviousStateExecuter.execute(ResolvePreviousStateExecuter.java:43)
-	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:93)
-	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:45)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:94)
-	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:56)
-	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:55)
-	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:67)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:49)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:315)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:305)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:101)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:49)
-	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:43)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:355)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:343)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:336)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:322)
-	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:134)
-	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:129)
-	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:202)
-	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.executeNextNode(DefaultPlanExecutor.java:193)
-	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:129)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
-Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Compilation failed; see the compiler error output for details.
-	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:52)
-	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:36)
-	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.delegateAndHandleErrors(NormalizingJavaCompiler.java:100)
-	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:52)
-	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:38)
-	at org.gradle.api.internal.tasks.compile.AnnotationProcessorDiscoveringCompiler.execute(AnnotationProcessorDiscoveringCompiler.java:51)
-	at org.gradle.api.internal.tasks.compile.AnnotationProcessorDiscoveringCompiler.execute(AnnotationProcessorDiscoveringCompiler.java:37)
-	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:39)
-	at org.gradle.api.internal.tasks.compile.incremental.IncrementalCompilerFactory$2.execute(IncrementalCompilerFactory.java:110)
-	at org.gradle.api.internal.tasks.compile.incremental.IncrementalCompilerFactory$2.execute(IncrementalCompilerFactory.java:106)
-	at org.gradle.api.internal.tasks.compile.incremental.IncrementalResultStoringCompiler.execute(IncrementalResultStoringCompiler.java:59)
-	at org.gradle.api.internal.tasks.compile.incremental.IncrementalResultStoringCompiler.execute(IncrementalResultStoringCompiler.java:43)
-	at org.gradle.api.internal.tasks.compile.CompileJavaBuildOperationReportingCompiler$2.call(CompileJavaBuildOperationReportingCompiler.java:59)
-	at org.gradle.api.internal.tasks.compile.CompileJavaBuildOperationReportingCompiler$2.call(CompileJavaBuildOperationReportingCompiler.java:51)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:315)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:305)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:101)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
-	at org.gradle.api.internal.tasks.compile.CompileJavaBuildOperationReportingCompiler.execute(CompileJavaBuildOperationReportingCompiler.java:51)
-	at org.gradle.api.tasks.compile.JavaCompile.performCompilation(JavaCompile.java:154)
-	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:122)
-	at com.android.build.gradle.tasks.AndroidJavaCompile.compile(AndroidJavaCompile.kt:214)
-	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
-	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.doExecute(IncrementalTaskAction.java:47)
-	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:41)
-	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:28)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$2.run(ExecuteActionsTaskExecuter.java:284)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:273)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:258)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.access$200(ExecuteActionsTaskExecuter.java:67)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$TaskExecution.execute(ExecuteActionsTaskExecuter.java:145)
-	at org.gradle.internal.execution.impl.steps.ExecuteStep.execute(ExecuteStep.java:49)
-	at org.gradle.internal.execution.impl.steps.CancelExecutionStep.execute(CancelExecutionStep.java:34)
-	at org.gradle.internal.execution.impl.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:69)
-	at org.gradle.internal.execution.impl.steps.TimeoutStep.execute(TimeoutStep.java:49)
-	at org.gradle.internal.execution.impl.steps.CatchExceptionStep.execute(CatchExceptionStep.java:33)
-	at org.gradle.internal.execution.impl.steps.CreateOutputsStep.execute(CreateOutputsStep.java:50)
-	at org.gradle.internal.execution.impl.steps.SnapshotOutputStep.execute(SnapshotOutputStep.java:43)
-	at org.gradle.internal.execution.impl.steps.SnapshotOutputStep.execute(SnapshotOutputStep.java:29)
-	at org.gradle.internal.execution.impl.steps.CacheStep.executeWithoutCache(CacheStep.java:134)
-	at org.gradle.internal.execution.impl.steps.CacheStep.lambda$execute$3(CacheStep.java:83)
-	at org.gradle.internal.execution.impl.steps.CacheStep.execute(CacheStep.java:82)
-	at org.gradle.internal.execution.impl.steps.CacheStep.execute(CacheStep.java:36)
-	at org.gradle.internal.execution.impl.steps.PrepareCachingStep.execute(PrepareCachingStep.java:33)
-	at org.gradle.internal.execution.impl.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:38)
-	at org.gradle.internal.execution.impl.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:23)
-	at org.gradle.internal.execution.impl.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:96)
-	at org.gradle.internal.execution.impl.steps.SkipUpToDateStep.lambda$execute$0(SkipUpToDateStep.java:89)
-	at org.gradle.internal.execution.impl.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:52)
-	at org.gradle.internal.execution.impl.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:36)
-	at org.gradle.internal.execution.impl.DefaultWorkExecutor.execute(DefaultWorkExecutor.java:34)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:91)
-	... 32 more
-
-
-* Get more help at https://help.gradle.org
-
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
-
-BUILD FAILED in 11s
-16 actionable tasks: 1 executed, 15 up-to-date
-
-2019-05-26 18:35:41,100 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-26 18:35:41,100 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/preferenceroom-compiler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-26 18:35:45,590 INFO  ProjectTaskService - Detected possible tasks: 52
-2019-05-26 18:35:45,590 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-05-26 18:35:45,590 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/preferenceroom-compiler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-05-26 18:35:50,101 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :preferenceroom:compileJava UP-TO-DATE
-> Task :preferenceroom-compiler:compileJava UP-TO-DATE
-> Task :preferenceroom-compiler:processResources NO-SOURCE
-> Task :preferenceroom-compiler:classes UP-TO-DATE
-> Task :preferenceroom-compiler:jar UP-TO-DATE
-> Task :preferenceroom-compiler:assemble UP-TO-DATE
-> Task :preferenceroom-compiler:build
-
-BUILD SUCCESSFUL in 4s
-3 actionable tasks: 3 up-to-date
-
-2019-05-26 18:35:50,149 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-26 18:35:50,149 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/preferenceroom/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-26 18:35:54,896 INFO  ProjectTaskService - Detected possible tasks: 52
-2019-05-26 18:35:54,897 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-05-26 18:35:54,897 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870441527-0/src/PreferenceRoom-master/preferenceroom/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-05-26 18:35:59,858 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :preferenceroom:compileJava UP-TO-DATE
-> Task :preferenceroom:processResources NO-SOURCE
-> Task :preferenceroom:classes UP-TO-DATE
-> Task :preferenceroom:jar UP-TO-DATE
-> Task :preferenceroom:assemble UP-TO-DATE
-> Task :preferenceroom:build
-
-BUILD SUCCESSFUL in 4s
-2 actionable tasks: 2 up-to-date
-
-2019-05-26 18:35:59,907 ERROR FullProcessService - Project build has not produced APK file
-2019-05-26 18:35:59,949 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-05 01:57:18,312 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266573702-0/src/PreferenceRoom-master/demo-kotlin/build/outputs/apk/release/demo-kotlin-release-unsigned.apk

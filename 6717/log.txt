@@ -1,73 +1,75 @@
-2019-05-26 17:46:48,763 INFO  DownloadService - Downloading "https://github.com/Pulimet/ExoPlayer-Wrapper/archive/master.zip", attempt 3
-2019-05-26 17:46:49,652 INFO  DownloadService - Downloaded https://github.com/Pulimet/ExoPlayer-Wrapper/archive/master.zip, attempt 3
-2019-05-26 17:46:49,652 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867608758-0/master.zip": 374 KB
-2019-05-26 17:46:49,652 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-26 17:46:49,652 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867608758-0/master.zip: true
-2019-05-26 17:46:49,652 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867608758-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867608758-0/src'.
-2019-05-26 17:46:49,684 INFO  FullProcessService - Size of directory with sources: 477 KB
-2019-05-26 17:46:49,684 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867608758-0/src]
-2019-05-26 17:46:49,703 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867608758-0/src/.git/
+2019-07-05 01:36:37,752 INFO  DownloadService - Downloading "https://github.com/Pulimet/ExoPlayer-Wrapper/archive/master.zip", attempt 3
+2019-07-05 01:36:40,257 INFO  DownloadService - Downloaded https://github.com/Pulimet/ExoPlayer-Wrapper/archive/master.zip, attempt 3
+2019-07-05 01:36:40,257 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562265397750-0/master.zip": 375 KB
+2019-07-05 01:36:40,257 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 01:36:40,263 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562265397750-0/master.zip: true
+2019-07-05 01:36:40,263 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562265397750-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562265397750-0/src'.
+2019-07-05 01:36:40,292 INFO  FullProcessService - Size of directory with sources: 482 KB
+2019-07-05 01:36:40,292 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562265397750-0/src]
+2019-07-05 01:36:40,307 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562265397750-0/src/.git/
 
-2019-05-26 17:46:49,706 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867608758-0/src/ExoPlayer-Wrapper-master/gradlew
-2019-05-26 17:46:49,709 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867608758-0/src/ExoPlayer-Wrapper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867608758-0/src/ExoPlayer-Wrapper-master/exoplayerhelper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867608758-0/src/ExoPlayer-Wrapper-master/build.gradle
-2019-05-26 17:46:49,712 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867608758-0/src/ExoPlayer-Wrapper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867608758-0/src/ExoPlayer-Wrapper-master/exoplayerhelper/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867608758-0/src/ExoPlayer-Wrapper-master/exoplayerhelper/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867608758-0/src/ExoPlayer-Wrapper-master/exoplayerhelper/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867608758-0/src/ExoPlayer-Wrapper-master/exoplayerhelper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867608758-0/src/ExoPlayer-Wrapper-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867608758-0/src/ExoPlayer-Wrapper-master/settings.gradle
-2019-05-26 17:46:49,717 INFO  ProjectBuildService - Remote scripts: none
-2019-05-26 17:46:49,717 INFO  ProjectFixService - Fixing project...
-2019-05-26 17:46:49,726 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867608758-0/src/ExoPlayer-Wrapper-master/app/local.properties
-2019-05-26 17:46:49,727 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867608758-0/src/ExoPlayer-Wrapper-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-26 17:46:49,727 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867608758-0/src/ExoPlayer-Wrapper-master/exoplayerhelper/local.properties
-2019-05-26 17:46:49,728 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867608758-0/src/ExoPlayer-Wrapper-master/exoplayerhelper/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-26 17:46:49,729 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867608758-0/src/ExoPlayer-Wrapper-master/local.properties
-2019-05-26 17:46:49,729 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.3-rc-2-all.zip
-2019-05-26 17:46:49,729 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.3-bin.zip)
-2019-05-26 17:46:49,730 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867608758-0/src/ExoPlayer-Wrapper-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-26 17:46:49,730 INFO  ProjectFixService - Project was maybe fixed
-2019-05-26 17:46:49,730 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-26 17:46:49,730 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867608758-0/src/ExoPlayer-Wrapper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867608758-0/src/ExoPlayer-Wrapper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-26 17:46:58,673 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-05-26 17:46:58,674 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-26 17:46:58,674 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867608758-0/src/ExoPlayer-Wrapper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867608758-0/src/ExoPlayer-Wrapper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-26 17:48:16,964 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 01:36:40,311 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562265397750-0/src/ExoPlayer-Wrapper-master/gradlew
+2019-07-05 01:36:40,314 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562265397750-0/src/ExoPlayer-Wrapper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562265397750-0/src/ExoPlayer-Wrapper-master/exoplayerhelper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562265397750-0/src/ExoPlayer-Wrapper-master/build.gradle
+2019-07-05 01:36:40,316 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562265397750-0/src/ExoPlayer-Wrapper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562265397750-0/src/ExoPlayer-Wrapper-master/exoplayerhelper/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562265397750-0/src/ExoPlayer-Wrapper-master/exoplayerhelper/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562265397750-0/src/ExoPlayer-Wrapper-master/exoplayerhelper/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562265397750-0/src/ExoPlayer-Wrapper-master/exoplayerhelper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562265397750-0/src/ExoPlayer-Wrapper-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562265397750-0/src/ExoPlayer-Wrapper-master/settings.gradle
+2019-07-05 01:36:40,317 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 01:36:40,317 INFO  ProjectFixService - Fixing project...
+2019-07-05 01:36:40,323 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562265397750-0/src/ExoPlayer-Wrapper-master/app/local.properties
+2019-07-05 01:36:40,324 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562265397750-0/src/ExoPlayer-Wrapper-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-07-05 01:36:40,325 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562265397750-0/src/ExoPlayer-Wrapper-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-07-05 01:36:40,325 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562265397750-0/src/ExoPlayer-Wrapper-master/exoplayerhelper/local.properties
+2019-07-05 01:36:40,327 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562265397750-0/src/ExoPlayer-Wrapper-master/exoplayerhelper/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-07-05 01:36:40,327 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562265397750-0/src/ExoPlayer-Wrapper-master/exoplayerhelper/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-07-05 01:36:40,327 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562265397750-0/src/ExoPlayer-Wrapper-master/local.properties
+2019-07-05 01:36:40,328 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-07-05 01:36:40,328 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-07-05 01:36:40,329 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562265397750-0/src/ExoPlayer-Wrapper-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-07-05 01:36:40,330 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562265397750-0/src/ExoPlayer-Wrapper-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-07-05 01:36:40,330 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 01:36:40,330 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 01:36:40,330 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562265397750-0/src/ExoPlayer-Wrapper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562265397750-0/src/ExoPlayer-Wrapper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 01:36:51,719 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-05 01:36:51,720 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-05 01:36:51,720 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562265397750-0/src/ExoPlayer-Wrapper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562265397750-0/src/ExoPlayer-Wrapper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-05 01:38:05,809 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
 > Task :exoplayerhelper:preBuild UP-TO-DATE
 > Task :exoplayerhelper:preDebugBuild UP-TO-DATE
-> Task :exoplayerhelper:checkDebugManifest
-> Task :exoplayerhelper:processDebugManifest
-> Task :app:preDebugBuild
 > Task :exoplayerhelper:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :exoplayerhelper:packageDebugRenderscript NO-SOURCE
-> Task :app:compileDebugRenderscript
 > Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
-> Task :app:prepareLintJar
-> Task :app:generateDebugSources
-> Task :exoplayerhelper:compileDebugRenderscript
+> Task :exoplayerhelper:checkDebugManifest
+> Task :exoplayerhelper:compileDebugRenderscript NO-SOURCE
 > Task :exoplayerhelper:generateDebugBuildConfig
 > Task :exoplayerhelper:generateDebugResValues
 > Task :exoplayerhelper:generateDebugResources
 > Task :exoplayerhelper:packageDebugResources
-> Task :exoplayerhelper:generateDebugRFile
-> Task :exoplayerhelper:prepareLintJar
-> Task :exoplayerhelper:generateDebugSources
+> Task :exoplayerhelper:parseDebugLibraryResources
+> Task :exoplayerhelper:processDebugManifest
 > Task :exoplayerhelper:javaPreCompileDebug
-> Task :exoplayerhelper:compileDebugJavaWithJavac
-> Task :exoplayerhelper:processDebugJavaRes NO-SOURCE
-> Task :exoplayerhelper:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-> Task :app:javaPreCompileDebug
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
+> Task :exoplayerhelper:generateDebugRFile
+
+> Task :exoplayerhelper:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562265397750-0/src/ExoPlayer-Wrapper-master/exoplayerhelper/src/main/java/net/alexandroid/utils/exoplayerhelper/ExoPlayerHelper.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
 > Task :app:mergeDebugResources
+> Task :exoplayerhelper:bundleLibCompileDebug
+> Task :app:javaPreCompileDebug
 > Task :app:createDebugCompatibleScreenManifests
 > Task :app:processDebugManifest
 > Task :app:processDebugResources
 
 > Task :app:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867608758-0/src/ExoPlayer-Wrapper-master/app/src/main/java/net/alexandroid/utils/exoplayerlibrary/MainActivity.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562265397750-0/src/ExoPlayer-Wrapper-master/app/src/main/java/net/alexandroid/utils/exoplayerlibrary/MainActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-> Task :app:compileDebugNdk NO-SOURCE
 > Task :app:compileDebugSources
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
@@ -77,69 +79,75 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :exoplayerhelper:generateDebugAssets
 > Task :exoplayerhelper:packageDebugAssets
 > Task :app:mergeDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :exoplayerhelper:processDebugJavaRes NO-SOURCE
+> Task :exoplayerhelper:bundleLibResDebug
+> Task :exoplayerhelper:bundleLibRuntimeDebug
+> Task :exoplayerhelper:createFullJarDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeDebugJavaResource
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:desugarDebugFileDependencies
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/143d1e974d184cb0c318a362eb2d3ffa/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.measurement.zzxj$zzb.zza(long, byte)`
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/143d1e974d184cb0c318a362eb2d3ffa/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.measurement.zzxj$zza.zza(long, byte)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.10.0/7ef0f1d95bf4c0b3ba30bbae25e0e562b05cf75e/okhttp-3.10.0.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `okhttp3.internal.platform.Platform okhttp3.internal.platform.ConscryptPlatform.buildIfSupported()`
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/3887aa8cda795cad253c5b46a23f9612/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.ads.zzbua$zzb.zza(long, byte)`
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/3887aa8cda795cad253c5b46a23f9612/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.ads.zzbua$zza.zza(long, byte)`
-> Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
-> Task :app:transformDexArchiveWithDexMergerForDebug
 > Task :app:mergeDebugJniLibFolders
-> Task :exoplayerhelper:compileDebugNdk NO-SOURCE
 > Task :exoplayerhelper:mergeDebugJniLibFolders
-> Task :exoplayerhelper:transformNativeLibsWithMergeJniLibsForDebug
-> Task :exoplayerhelper:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :exoplayerhelper:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :app:transformNativeLibsWithMergeJniLibsForDebug
-> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
+> Task :app:preReleaseBuild UP-TO-DATE
 > Task :exoplayerhelper:preReleaseBuild UP-TO-DATE
-> Task :exoplayerhelper:checkReleaseManifest
-> Task :exoplayerhelper:processReleaseManifest
-> Task :app:preReleaseBuild
 > Task :exoplayerhelper:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :exoplayerhelper:packageReleaseRenderscript NO-SOURCE
-> Task :app:compileReleaseRenderscript
+> Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
-> Task :app:generateReleaseSources
-> Task :exoplayerhelper:compileReleaseRenderscript
+> Task :exoplayerhelper:compileReleaseRenderscript NO-SOURCE
+> Task :exoplayerhelper:checkReleaseManifest
 > Task :exoplayerhelper:generateReleaseBuildConfig
 > Task :exoplayerhelper:generateReleaseResValues
 > Task :exoplayerhelper:generateReleaseResources
 > Task :exoplayerhelper:packageReleaseResources
-> Task :exoplayerhelper:generateReleaseRFile
-> Task :exoplayerhelper:generateReleaseSources
+> Task :exoplayerhelper:mergeDebugNativeLibs
+> Task :exoplayerhelper:stripDebugDebugSymbols
+> Task :exoplayerhelper:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :exoplayerhelper:parseReleaseLibraryResources
 > Task :exoplayerhelper:javaPreCompileRelease
-> Task :exoplayerhelper:compileReleaseJavaWithJavac
-> Task :exoplayerhelper:processReleaseJavaRes NO-SOURCE
-> Task :exoplayerhelper:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-> Task :app:javaPreCompileRelease
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
-> Task :app:mergeReleaseResources
 > Task :app:createReleaseCompatibleScreenManifests
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :app:prepareLintJar
+> Task :exoplayerhelper:processReleaseManifest
 > Task :app:processReleaseManifest
-> Task :app:processReleaseResources
+> Task :exoplayerhelper:processReleaseJavaRes NO-SOURCE
+> Task :app:checkReleaseDuplicateClasses
+> Task :exoplayerhelper:prepareLintJarForPublish
+> Task :exoplayerhelper:generateReleaseRFile
 
-> Task :app:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867608758-0/src/ExoPlayer-Wrapper-master/app/src/main/java/net/alexandroid/utils/exoplayerlibrary/MainActivity.java uses or overrides a deprecated API.
+> Task :exoplayerhelper:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562265397750-0/src/ExoPlayer-Wrapper-master/exoplayerhelper/src/main/java/net/alexandroid/utils/exoplayerhelper/ExoPlayerHelper.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-> Task :app:compileReleaseNdk NO-SOURCE
+> Task :app:mergeReleaseResources
+> Task :app:processReleaseResources
+> Task :exoplayerhelper:bundleLibResRelease
+> Task :exoplayerhelper:bundleLibRuntimeRelease
+> Task :exoplayerhelper:createFullJarRelease
+> Task :exoplayerhelper:bundleLibCompileRelease
+> Task :app:javaPreCompileRelease
+
+> Task :app:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562265397750-0/src/ExoPlayer-Wrapper-master/app/src/main/java/net/alexandroid/utils/exoplayerlibrary/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
 > Task :app:compileReleaseSources
 
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/1342680a30af7f85a8041d44759f65b7/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/b074a8cd551d16c777e624b9c58bab58/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
+> Task :app:desugarReleaseFileDependencies
+> Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
@@ -148,35 +156,32 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :exoplayerhelper:generateReleaseAssets
 > Task :exoplayerhelper:packageReleaseAssets
 > Task :app:mergeReleaseAssets
-> Task :app:signingConfigWriterRelease
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/143d1e974d184cb0c318a362eb2d3ffa/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.measurement.zzxj$zzb.zza(long, byte)`
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/143d1e974d184cb0c318a362eb2d3ffa/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.measurement.zzxj$zza.zza(long, byte)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.10.0/7ef0f1d95bf4c0b3ba30bbae25e0e562b05cf75e/okhttp-3.10.0.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `okhttp3.internal.platform.Platform okhttp3.internal.platform.ConscryptPlatform.buildIfSupported()`
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/3887aa8cda795cad253c5b46a23f9612/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.ads.zzbua$zzb.zza(long, byte)`
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/3887aa8cda795cad253c5b46a23f9612/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.ads.zzbua$zza.zza(long, byte)`
-> Task :app:transformClassesWithDexBuilderForRelease
-> Task :app:transformDexArchiveWithExternalLibsDexMergerForRelease
-> Task :app:transformDexArchiveWithDexMergerForRelease
-> Task :app:mergeReleaseJniLibFolders
-> Task :exoplayerhelper:compileReleaseNdk NO-SOURCE
-> Task :exoplayerhelper:mergeReleaseJniLibFolders
-> Task :exoplayerhelper:transformNativeLibsWithMergeJniLibsForRelease
-> Task :exoplayerhelper:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :exoplayerhelper:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :app:transformNativeLibsWithMergeJniLibsForRelease
-> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
 > Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :exoplayerhelper:mergeReleaseJniLibFolders
+> Task :exoplayerhelper:mergeReleaseNativeLibs
+> Task :exoplayerhelper:stripReleaseDebugSymbols
+> Task :exoplayerhelper:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
 > Task :app:packageRelease
 > Task :app:assembleRelease
+> Task :app:mergeExtDexDebug
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :app:assemble
 > Task :app:build
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.3/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 17s
-86 actionable tasks: 86 executed
+BUILD SUCCESSFUL in 1m 13s
+92 actionable tasks: 92 executed
 
-2019-05-26 17:48:17,056 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867608758-0/src/ExoPlayer-Wrapper-master/app/build/outputs/apk/debug/app-debug.apk
+2019-07-05 01:38:05,878 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562265397750-0/src/ExoPlayer-Wrapper-master/app/build/outputs/apk/debug/app-debug.apk

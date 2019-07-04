@@ -1,473 +1,493 @@
-2019-06-14 11:14:25,650 INFO  DownloadService - Downloading "https://github.com/Kyson/AndroidGodEye/archive/master.zip", attempt 3
-2019-06-14 11:14:30,142 INFO  DownloadService - Downloaded https://github.com/Kyson/AndroidGodEye/archive/master.zip, attempt 3
-2019-06-14 11:14:30,142 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/master.zip": 3 MB
-2019-06-14 11:14:30,142 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-06-14 11:14:30,144 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/master.zip: true
-2019-06-14 11:14:30,144 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src'.
-2019-06-14 11:14:30,271 INFO  FullProcessService - Size of directory with sources: 9 MB
-2019-06-14 11:14:30,271 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src]
-2019-06-14 11:14:30,290 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/.git/
+2019-07-05 01:50:53,671 INFO  DownloadService - Downloading "https://github.com/Kyson/AndroidGodEye/archive/master.zip", attempt 3
+2019-07-05 01:51:39,199 INFO  DownloadService - Downloaded https://github.com/Kyson/AndroidGodEye/archive/master.zip, attempt 3
+2019-07-05 01:51:39,200 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/master.zip": 6 MB
+2019-07-05 01:51:39,200 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 01:51:39,201 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/master.zip: true
+2019-07-05 01:51:39,201 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src'.
+2019-07-05 01:51:39,398 INFO  FullProcessService - Size of directory with sources: 21 MB
+2019-07-05 01:51:39,398 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src]
+2019-07-05 01:51:39,414 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/.git/
 
-2019-06-14 11:14:30,298 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/gradlew
-2019-06-14 11:14:30,306 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-toolbox/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/build.gradle
-2019-06-14 11:14:30,314 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-toolbox/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/gradle/jitpack.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/gradle/gradle-jcenter-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/build.gradle
-2019-06-14 11:14:30,314 INFO  ProjectBuildService - Remote scripts: none
-2019-06-14 11:14:30,314 INFO  ProjectFixService - Fixing project...
-2019-06-14 11:14:30,335 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor-no-op/local.properties
-2019-06-14 11:14:30,337 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor-no-op/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-06-14 11:14:30,337 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor-no-op/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-06-14 11:14:30,337 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/local.properties
-2019-06-14 11:14:30,339 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-06-14 11:14:30,339 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-06-14 11:14:30,340 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-sample/local.properties
-2019-06-14 11:14:30,341 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-06-14 11:14:30,341 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-06-14 11:14:30,342 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-toolbox/local.properties
-2019-06-14 11:14:30,343 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-toolbox/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-06-14 11:14:30,343 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-toolbox/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-06-14 11:14:30,344 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye/local.properties
-2019-06-14 11:14:30,346 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-06-14 11:14:30,346 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-06-14 11:14:30,346 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/local.properties
-2019-06-14 11:14:30,347 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-06-14 11:14:30,347 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-06-14 11:14:30,349 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-06-14 11:14:30,349 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-06-14 11:14:30,350 INFO  ProjectFixService - Project was maybe fixed
-2019-06-14 11:14:30,350 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-14 11:14:30,350 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor-no-op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-14 11:14:38,267 INFO  ProjectTaskService - Detected possible tasks: 78
-2019-06-14 11:14:38,267 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-06-14 11:14:38,267 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor-no-op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-06-14 11:14:47,958 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 01:51:39,422 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/gradlew
+2019-07-05 01:51:39,430 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-toolbox/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/build.gradle
+2019-07-05 01:51:39,438 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-toolbox/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/gradle/jitpack.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/gradle/gradle-jcenter-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/build.gradle
+2019-07-05 01:51:39,439 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 01:51:39,439 INFO  ProjectFixService - Fixing project...
+2019-07-05 01:51:39,459 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor-no-op/local.properties
+2019-07-05 01:51:39,461 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor-no-op/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-05 01:51:39,461 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor-no-op/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-05 01:51:39,462 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/local.properties
+2019-07-05 01:51:39,463 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-05 01:51:39,463 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-05 01:51:39,464 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-sample/local.properties
+2019-07-05 01:51:39,465 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-05 01:51:39,465 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-05 01:51:39,466 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-toolbox/local.properties
+2019-07-05 01:51:39,467 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-toolbox/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-05 01:51:39,467 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-toolbox/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-05 01:51:39,468 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye/local.properties
+2019-07-05 01:51:39,470 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-05 01:51:39,470 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-05 01:51:39,470 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/local.properties
+2019-07-05 01:51:39,471 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+2019-07-05 01:51:39,471 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
+2019-07-05 01:51:39,472 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-05 01:51:39,473 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-05 01:51:39,473 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 01:51:39,473 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 01:51:39,473 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor-no-op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 01:51:50,344 INFO  ProjectTaskService - Detected possible tasks: 83
+2019-07-05 01:51:50,344 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-05 01:51:50,344 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor-no-op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-05 01:51:59,616 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :android-godeye-monitor-no-op
 [MVN] SONATYPE_NEXUS_USERNAME: 
 [MVN] SONATYPE_NEXUS_PASSWORD: SECRET
 [MVN] SONATYPE_NEXUS_USERNAME: 
 [MVN] SONATYPE_NEXUS_PASSWORD: SECRET
-:android-godeye-monitor-no-op:androidJavadocs
-:android-godeye-monitor-no-op:androidJavadocsJar
-:android-godeye-monitor-no-op:androidSourcesJar
-:android-godeye-monitor-no-op:preBuild UP-TO-DATE
-:android-godeye-monitor-no-op:preDebugBuild UP-TO-DATE
-:android-godeye-monitor-no-op:compileDebugAidl
-:android-godeye-monitor-no-op:compileDebugRenderscript
-:android-godeye-monitor-no-op:checkDebugManifest
-:android-godeye-monitor-no-op:generateDebugBuildConfig
-:android-godeye-monitor-no-op:generateDebugResValues
-:android-godeye-monitor-no-op:generateDebugResources
-:android-godeye-monitor-no-op:packageDebugResources
-:android-godeye-monitor-no-op:platformAttrExtractor
-:android-godeye-monitor-no-op:processDebugManifest
-:android-godeye-monitor-no-op:prepareLintJar
-:android-godeye-monitor-no-op:javaPreCompileDebug
-:android-godeye-monitor-no-op:mergeDebugConsumerProguardFiles
-:android-godeye-monitor-no-op:mergeDebugShaders
-:android-godeye-monitor-no-op:compileDebugShaders
-:android-godeye-monitor-no-op:generateDebugAssets
-:android-godeye-monitor-no-op:packageDebugAssets
-:android-godeye-monitor-no-op:packageDebugRenderscript NO-SOURCE
-:android-godeye-monitor-no-op:processDebugJavaRes NO-SOURCE
-:android-godeye-monitor-no-op:compileDebugNdk NO-SOURCE
-:android-godeye-monitor-no-op:mergeDebugJniLibFolders
-:android-godeye-monitor-no-op:transformNativeLibsWithMergeJniLibsForDebug
-:android-godeye-monitor-no-op:transformNativeLibsWithStripDebugSymbolForDebug
-:android-godeye-monitor-no-op:transformNativeLibsWithSyncJniLibsForDebug
-:android-godeye-monitor-no-op:preReleaseBuild UP-TO-DATE
-:android-godeye-monitor-no-op:compileReleaseAidl
-:android-godeye-monitor-no-op:compileReleaseRenderscript
-:android-godeye-monitor-no-op:checkReleaseManifest
-:android-godeye-monitor-no-op:generateReleaseBuildConfig
-:android-godeye-monitor-no-op:generateReleaseResValues
-:android-godeye-monitor-no-op:generateReleaseResources
-:android-godeye-monitor-no-op:packageReleaseResources
-:android-godeye-monitor-no-op:processReleaseManifest
-:android-godeye-monitor-no-op:javaPreCompileRelease
-:android-godeye-monitor-no-op:mergeReleaseConsumerProguardFiles
-:android-godeye-monitor-no-op:mergeReleaseShaders
-:android-godeye-monitor-no-op:compileReleaseShaders
-:android-godeye-monitor-no-op:generateReleaseAssets
-:android-godeye-monitor-no-op:packageReleaseAssets
-:android-godeye-monitor-no-op:packageReleaseRenderscript NO-SOURCE
-:android-godeye-monitor-no-op:processReleaseJavaRes NO-SOURCE
-:android-godeye-monitor-no-op:compileReleaseNdk NO-SOURCE
-:android-godeye-monitor-no-op:mergeReleaseJniLibFolders
-:android-godeye-monitor-no-op:transformNativeLibsWithMergeJniLibsForRelease
-:android-godeye-monitor-no-op:transformNativeLibsWithStripDebugSymbolForRelease
-:android-godeye-monitor-no-op:transformNativeLibsWithSyncJniLibsForRelease
-:android-godeye-monitor-no-op:mergeReleaseResources
-:android-godeye-monitor-no-op:verifyReleaseResources
-:android-godeye-monitor-no-op:generateDebugRFile
-:android-godeye-monitor-no-op:generateDebugSources
-:android-godeye-monitor-no-op:compileDebugJavaWithJavac
-:android-godeye-monitor-no-op:extractDebugAnnotations
-:android-godeye-monitor-no-op:transformResourcesWithMergeJavaResForDebug
-:android-godeye-monitor-no-op:transformClassesAndResourcesWithSyncLibJarsForDebug
-:android-godeye-monitor-no-op:bundleDebug
-:android-godeye-monitor-no-op:compileDebugSources
-:android-godeye-monitor-no-op:assembleDebug
-:android-godeye-monitor-no-op:generateReleaseRFile
-:android-godeye-monitor-no-op:generateReleaseSources
-:android-godeye-monitor-no-op:compileReleaseJavaWithJavac
-:android-godeye-monitor-no-op:extractReleaseAnnotations
-:android-godeye-monitor-no-op:transformResourcesWithMergeJavaResForRelease
-:android-godeye-monitor-no-op:transformClassesAndResourcesWithSyncLibJarsForRelease
-:android-godeye-monitor-no-op:bundleRelease
-:android-godeye-monitor-no-op:compileReleaseSources
-:android-godeye-monitor-no-op:assembleRelease
-:android-godeye-monitor-no-op:signArchives SKIPPED
-:android-godeye-monitor-no-op:assemble
-:android-godeye-monitor-no-op:build
+
+> Task :android-godeye-monitor-no-op:androidJavadocs
+> Task :android-godeye-monitor-no-op:androidJavadocsJar
+> Task :android-godeye-monitor-no-op:androidSourcesJar
+> Task :android-godeye-monitor-no-op:preBuild UP-TO-DATE
+> Task :android-godeye-monitor-no-op:preDebugBuild UP-TO-DATE
+> Task :android-godeye-monitor-no-op:compileDebugAidl NO-SOURCE
+> Task :android-godeye-monitor-no-op:compileDebugRenderscript
+> Task :android-godeye-monitor-no-op:checkDebugManifest
+> Task :android-godeye-monitor-no-op:generateDebugBuildConfig
+> Task :android-godeye-monitor-no-op:generateDebugResValues
+> Task :android-godeye-monitor-no-op:generateDebugResources
+> Task :android-godeye-monitor-no-op:packageDebugResources
+> Task :android-godeye-monitor-no-op:processDebugManifest
+> Task :android-godeye-monitor-no-op:generateDebugRFile
+> Task :android-godeye-monitor-no-op:prepareLintJar
+> Task :android-godeye-monitor-no-op:generateDebugSources
+> Task :android-godeye-monitor-no-op:javaPreCompileDebug
+> Task :android-godeye-monitor-no-op:compileDebugJavaWithJavac
+> Task :android-godeye-monitor-no-op:extractDebugAnnotations
+> Task :android-godeye-monitor-no-op:mergeDebugConsumerProguardFiles
+> Task :android-godeye-monitor-no-op:mergeDebugShaders
+> Task :android-godeye-monitor-no-op:compileDebugShaders
+> Task :android-godeye-monitor-no-op:generateDebugAssets
+> Task :android-godeye-monitor-no-op:packageDebugAssets
+> Task :android-godeye-monitor-no-op:packageDebugRenderscript NO-SOURCE
+> Task :android-godeye-monitor-no-op:processDebugJavaRes NO-SOURCE
+> Task :android-godeye-monitor-no-op:transformResourcesWithMergeJavaResForDebug
+> Task :android-godeye-monitor-no-op:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :android-godeye-monitor-no-op:compileDebugNdk NO-SOURCE
+> Task :android-godeye-monitor-no-op:mergeDebugJniLibFolders
+> Task :android-godeye-monitor-no-op:transformNativeLibsWithMergeJniLibsForDebug
+> Task :android-godeye-monitor-no-op:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :android-godeye-monitor-no-op:transformNativeLibsWithSyncJniLibsForDebug
+> Task :android-godeye-monitor-no-op:bundleDebugAar
+> Task :android-godeye-monitor-no-op:compileDebugSources
+> Task :android-godeye-monitor-no-op:assembleDebug
+> Task :android-godeye-monitor-no-op:preReleaseBuild UP-TO-DATE
+> Task :android-godeye-monitor-no-op:compileReleaseAidl NO-SOURCE
+> Task :android-godeye-monitor-no-op:compileReleaseRenderscript
+> Task :android-godeye-monitor-no-op:checkReleaseManifest
+> Task :android-godeye-monitor-no-op:generateReleaseBuildConfig
+> Task :android-godeye-monitor-no-op:generateReleaseResValues
+> Task :android-godeye-monitor-no-op:generateReleaseResources
+> Task :android-godeye-monitor-no-op:packageReleaseResources
+> Task :android-godeye-monitor-no-op:processReleaseManifest
+> Task :android-godeye-monitor-no-op:generateReleaseRFile
+> Task :android-godeye-monitor-no-op:generateReleaseSources
+> Task :android-godeye-monitor-no-op:javaPreCompileRelease
+> Task :android-godeye-monitor-no-op:compileReleaseJavaWithJavac
+> Task :android-godeye-monitor-no-op:extractReleaseAnnotations
+> Task :android-godeye-monitor-no-op:mergeReleaseConsumerProguardFiles
+> Task :android-godeye-monitor-no-op:mergeReleaseShaders
+> Task :android-godeye-monitor-no-op:compileReleaseShaders
+> Task :android-godeye-monitor-no-op:generateReleaseAssets
+> Task :android-godeye-monitor-no-op:packageReleaseAssets
+> Task :android-godeye-monitor-no-op:packageReleaseRenderscript NO-SOURCE
+> Task :android-godeye-monitor-no-op:processReleaseJavaRes NO-SOURCE
+> Task :android-godeye-monitor-no-op:transformResourcesWithMergeJavaResForRelease
+> Task :android-godeye-monitor-no-op:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :android-godeye-monitor-no-op:compileReleaseNdk NO-SOURCE
+> Task :android-godeye-monitor-no-op:mergeReleaseJniLibFolders
+> Task :android-godeye-monitor-no-op:transformNativeLibsWithMergeJniLibsForRelease
+> Task :android-godeye-monitor-no-op:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :android-godeye-monitor-no-op:transformNativeLibsWithSyncJniLibsForRelease
+> Task :android-godeye-monitor-no-op:bundleReleaseAar
+> Task :android-godeye-monitor-no-op:compileReleaseSources
+> Task :android-godeye-monitor-no-op:mergeReleaseResources
+> Task :android-godeye-monitor-no-op:verifyReleaseResources
+> Task :android-godeye-monitor-no-op:assembleRelease
+> Task :android-godeye-monitor-no-op:signArchives SKIPPED
+> Task :android-godeye-monitor-no-op:assemble
+> Task :android-godeye-monitor-no-op:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
 
 BUILD SUCCESSFUL in 9s
-51 actionable tasks: 51 executed
+48 actionable tasks: 48 executed
 
-2019-06-14 11:14:47,976 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-14 11:14:47,976 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-14 11:14:54,433 INFO  ProjectTaskService - Detected possible tasks: 77
-2019-06-14 11:14:54,433 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-06-14 11:14:54,433 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-06-14 11:15:12,463 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 01:51:59,634 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 01:51:59,634 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 01:52:06,138 INFO  ProjectTaskService - Detected possible tasks: 83
+2019-07-05 01:52:06,138 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-05 01:52:06,138 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-05 01:52:28,026 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :android-godeye-monitor
 [MVN] SONATYPE_NEXUS_USERNAME: 
 [MVN] SONATYPE_NEXUS_PASSWORD: SECRET
 [MVN] SONATYPE_NEXUS_USERNAME: 
 [MVN] SONATYPE_NEXUS_PASSWORD: SECRET
+
+> Configure project :android-godeye
 [MVN] SONATYPE_NEXUS_USERNAME: 
 [MVN] SONATYPE_NEXUS_PASSWORD: SECRET
 [MVN] SONATYPE_NEXUS_USERNAME: 
 [MVN] SONATYPE_NEXUS_PASSWORD: SECRET
-:android-godeye-monitor:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/SendMessageConsumer.java:3: error: package cn.hikyson.godeye.core.utils does not exist
+
+> Task :android-godeye-monitor:androidJavadocs
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/SendMessageConsumer.java:3: error: package cn.hikyson.godeye.core.utils does not exist
 import cn.hikyson.godeye.core.utils.ThreadUtil;
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/SendMessageConsumer.java:5: error: package io.reactivex.functions does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/SendMessageConsumer.java:5: error: package io.reactivex.functions does not exist
 import io.reactivex.functions.Consumer;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/SendMessageConsumer.java:7: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/SendMessageConsumer.java:7: error: cannot find symbol
 public class SendMessageConsumer implements Consumer<ServerMessage> {
                                             ^
   symbol: class Consumer
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:5: error: package com.koushikdutta.async.http does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:3: error: package com.koushikdutta.async.http does not exist
 import com.koushikdutta.async.http.WebSocket;
                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:16: error: package cn.hikyson.godeye.core does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:11: error: package cn.hikyson.godeye.core does not exist
 import cn.hikyson.godeye.core.GodEye;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:17: error: package cn.hikyson.godeye.core.internal.modules.battery does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:12: error: package cn.hikyson.godeye.core.internal.modules.battery does not exist
 import cn.hikyson.godeye.core.internal.modules.battery.Battery;
                                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:18: error: package cn.hikyson.godeye.core.internal.modules.battery does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:13: error: package cn.hikyson.godeye.core.internal.modules.battery does not exist
 import cn.hikyson.godeye.core.internal.modules.battery.BatteryInfo;
                                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:19: error: package cn.hikyson.godeye.core.internal.modules.cpu does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:14: error: package cn.hikyson.godeye.core.internal.modules.cpu does not exist
 import cn.hikyson.godeye.core.internal.modules.cpu.Cpu;
                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:20: error: package cn.hikyson.godeye.core.internal.modules.cpu does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:15: error: package cn.hikyson.godeye.core.internal.modules.cpu does not exist
 import cn.hikyson.godeye.core.internal.modules.cpu.CpuInfo;
                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:21: error: package cn.hikyson.godeye.core.internal.modules.crash does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:16: error: package cn.hikyson.godeye.core.internal.modules.crash does not exist
 import cn.hikyson.godeye.core.internal.modules.crash.Crash;
                                                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:22: error: package cn.hikyson.godeye.core.internal.modules.crash does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:17: error: package cn.hikyson.godeye.core.internal.modules.crash does not exist
 import cn.hikyson.godeye.core.internal.modules.crash.CrashInfo;
                                                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:23: error: package cn.hikyson.godeye.core.internal.modules.fps does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:18: error: package cn.hikyson.godeye.core.internal.modules.fps does not exist
 import cn.hikyson.godeye.core.internal.modules.fps.Fps;
                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:24: error: package cn.hikyson.godeye.core.internal.modules.fps does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:19: error: package cn.hikyson.godeye.core.internal.modules.fps does not exist
 import cn.hikyson.godeye.core.internal.modules.fps.FpsInfo;
                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:25: error: package cn.hikyson.godeye.core.internal.modules.leakdetector does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:20: error: package cn.hikyson.godeye.core.internal.modules.leakdetector does not exist
 import cn.hikyson.godeye.core.internal.modules.leakdetector.LeakDetector;
                                                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:26: error: package cn.hikyson.godeye.core.internal.modules.leakdetector does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:21: error: package cn.hikyson.godeye.core.internal.modules.leakdetector does not exist
 import cn.hikyson.godeye.core.internal.modules.leakdetector.LeakQueue;
                                                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:27: error: package cn.hikyson.godeye.core.internal.modules.memory does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:22: error: package cn.hikyson.godeye.core.internal.modules.memory does not exist
 import cn.hikyson.godeye.core.internal.modules.memory.Heap;
                                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:28: error: package cn.hikyson.godeye.core.internal.modules.memory does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:23: error: package cn.hikyson.godeye.core.internal.modules.memory does not exist
 import cn.hikyson.godeye.core.internal.modules.memory.HeapInfo;
                                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:29: error: package cn.hikyson.godeye.core.internal.modules.memory does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:24: error: package cn.hikyson.godeye.core.internal.modules.memory does not exist
 import cn.hikyson.godeye.core.internal.modules.memory.Pss;
                                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:30: error: package cn.hikyson.godeye.core.internal.modules.memory does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:25: error: package cn.hikyson.godeye.core.internal.modules.memory does not exist
 import cn.hikyson.godeye.core.internal.modules.memory.PssInfo;
                                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:31: error: package cn.hikyson.godeye.core.internal.modules.memory does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:26: error: package cn.hikyson.godeye.core.internal.modules.memory does not exist
 import cn.hikyson.godeye.core.internal.modules.memory.Ram;
                                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:32: error: package cn.hikyson.godeye.core.internal.modules.memory does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:27: error: package cn.hikyson.godeye.core.internal.modules.memory does not exist
 import cn.hikyson.godeye.core.internal.modules.memory.RamInfo;
                                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:33: error: package cn.hikyson.godeye.core.internal.modules.network does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:28: error: package cn.hikyson.godeye.core.internal.modules.methodcanary does not exist
+import cn.hikyson.godeye.core.internal.modules.methodcanary.MethodCanary;
+                                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:29: error: package cn.hikyson.godeye.core.internal.modules.methodcanary does not exist
+import cn.hikyson.godeye.core.internal.modules.methodcanary.MethodsRecordInfo;
+                                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:30: error: package cn.hikyson.godeye.core.internal.modules.network does not exist
 import cn.hikyson.godeye.core.internal.modules.network.Network;
                                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:34: error: package cn.hikyson.godeye.core.internal.modules.network does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:31: error: package cn.hikyson.godeye.core.internal.modules.network does not exist
 import cn.hikyson.godeye.core.internal.modules.network.RequestBaseInfo;
                                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:35: error: package cn.hikyson.godeye.core.internal.modules.pageload does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:32: error: package cn.hikyson.godeye.core.internal.modules.pageload does not exist
 import cn.hikyson.godeye.core.internal.modules.pageload.Pageload;
                                                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:36: error: package cn.hikyson.godeye.core.internal.modules.pageload does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:33: error: package cn.hikyson.godeye.core.internal.modules.pageload does not exist
 import cn.hikyson.godeye.core.internal.modules.pageload.PageloadInfo;
                                                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:37: error: package cn.hikyson.godeye.core.internal.modules.sm does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:34: error: package cn.hikyson.godeye.core.internal.modules.sm does not exist
 import cn.hikyson.godeye.core.internal.modules.sm.BlockInfo;
                                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:38: error: package cn.hikyson.godeye.core.internal.modules.sm does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:35: error: package cn.hikyson.godeye.core.internal.modules.sm does not exist
 import cn.hikyson.godeye.core.internal.modules.sm.Sm;
                                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:39: error: package cn.hikyson.godeye.core.internal.modules.startup does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:36: error: package cn.hikyson.godeye.core.internal.modules.startup does not exist
 import cn.hikyson.godeye.core.internal.modules.startup.Startup;
                                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:40: error: package cn.hikyson.godeye.core.internal.modules.startup does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:37: error: package cn.hikyson.godeye.core.internal.modules.startup does not exist
 import cn.hikyson.godeye.core.internal.modules.startup.StartupInfo;
                                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:41: error: package cn.hikyson.godeye.core.internal.modules.thread does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:38: error: package cn.hikyson.godeye.core.internal.modules.thread does not exist
 import cn.hikyson.godeye.core.internal.modules.thread.ThreadDump;
                                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:42: error: package cn.hikyson.godeye.core.internal.modules.traffic does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:39: error: package cn.hikyson.godeye.core.internal.modules.traffic does not exist
 import cn.hikyson.godeye.core.internal.modules.traffic.Traffic;
                                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:43: error: package cn.hikyson.godeye.core.internal.modules.traffic does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:40: error: package cn.hikyson.godeye.core.internal.modules.traffic does not exist
 import cn.hikyson.godeye.core.internal.modules.traffic.TrafficInfo;
                                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:44: error: package cn.hikyson.godeye.core.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:41: error: package cn.hikyson.godeye.core.utils does not exist
 import cn.hikyson.godeye.core.utils.ThreadUtil;
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:51: error: package io.reactivex does not exist
-import io.reactivex.Observable;
-                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:52: error: package io.reactivex does not exist
-import io.reactivex.Scheduler;
-                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:53: error: package io.reactivex.disposables does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:49: error: package io.reactivex.disposables does not exist
 import io.reactivex.disposables.CompositeDisposable;
                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:54: error: package io.reactivex.disposables does not exist
-import io.reactivex.disposables.Disposable;
-                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:55: error: package io.reactivex.functions does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:50: error: package io.reactivex.functions does not exist
 import io.reactivex.functions.Consumer;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:56: error: package io.reactivex.functions does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:51: error: package io.reactivex.functions does not exist
 import io.reactivex.functions.Function;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:57: error: package io.reactivex.functions does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:52: error: package io.reactivex.functions does not exist
 import io.reactivex.functions.Predicate;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:58: error: package io.reactivex.schedulers does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:53: error: package io.reactivex.schedulers does not exist
 import io.reactivex.schedulers.Schedulers;
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/processors/Processor.java:3: error: package com.koushikdutta.async.http does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:54: error: package io.reactivex.subjects does not exist
+import io.reactivex.subjects.Subject;
+                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/processors/Processor.java:3: error: package com.koushikdutta.async.http does not exist
 import com.koushikdutta.async.http.WebSocket;
                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:65: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:61: error: cannot find symbol
     private CompositeDisposable mCompositeDisposable;
             ^
   symbol:   class CompositeDisposable
   location: class Watcher
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:153: error: cannot find symbol
-    public void process(WebSocket webSocket, String msg) {
-                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:157: error: cannot find symbol
+    public void process(final WebSocket webSocket, String msg) {
+                              ^
   symbol:   class WebSocket
   location: class Watcher
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/ConvertServerMessageFunction.java:3: error: package cn.hikyson.godeye.core.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/ConvertServerMessageFunction.java:3: error: package cn.hikyson.godeye.core.utils does not exist
 import cn.hikyson.godeye.core.utils.ThreadUtil;
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/ConvertServerMessageFunction.java:4: error: package io.reactivex.functions does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/ConvertServerMessageFunction.java:4: error: package io.reactivex.functions does not exist
 import io.reactivex.functions.Function;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/ConvertServerMessageFunction.java:6: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/ConvertServerMessageFunction.java:6: error: cannot find symbol
 public class ConvertServerMessageFunction<T> implements Function<T, ServerMessage> {
                                                         ^
   symbol: class Function
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:171: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:189: error: cannot find symbol
     private Predicate<List<CrashInfo>> crashPredicate() {
             ^
   symbol:   class Predicate
   location: class Watcher
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:171: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:189: error: cannot find symbol
     private Predicate<List<CrashInfo>> crashPredicate() {
                            ^
   symbol:   class CrashInfo
   location: class Watcher
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:180: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:198: error: cannot find symbol
     private Function<List<CrashInfo>, CrashInfo> firstCrashMap() {
             ^
   symbol:   class Function
   location: class Watcher
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:180: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:198: error: cannot find symbol
     private Function<List<CrashInfo>, CrashInfo> firstCrashMap() {
                           ^
   symbol:   class CrashInfo
   location: class Watcher
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:180: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:198: error: cannot find symbol
     private Function<List<CrashInfo>, CrashInfo> firstCrashMap() {
                                       ^
   symbol:   class CrashInfo
   location: class Watcher
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:202: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:220: error: cannot find symbol
     private Function<List<Thread>, List<ThreadInfo>> threadMap() {
             ^
   symbol:   class Function
   location: class Watcher
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/modulemodel/ThreadInfo.java:3: error: package com.google.gson.annotations does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/modulemodel/ThreadInfo.java:3: error: package com.google.gson.annotations does not exist
 import com.google.gson.annotations.Expose;
                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/modulemodel/ThreadInfo.java:8: error: package cn.hikyson.godeye.core.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/modulemodel/ThreadInfo.java:8: error: package cn.hikyson.godeye.core.utils does not exist
 import cn.hikyson.godeye.core.utils.StacktraceUtil;
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:211: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:229: error: cannot find symbol
     private Function<BlockInfo, BlockSimpleInfo> blockMap() {
             ^
   symbol:   class Function
   location: class Watcher
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:211: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/driver/Watcher.java:229: error: cannot find symbol
     private Function<BlockInfo, BlockSimpleInfo> blockMap() {
                      ^
   symbol:   class BlockInfo
   location: class Watcher
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/modulemodel/BlockSimpleInfo.java:3: error: package cn.hikyson.godeye.core.internal.modules.sm does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/modulemodel/BlockSimpleInfo.java:3: error: package cn.hikyson.godeye.core.internal.modules.sm does not exist
 import cn.hikyson.godeye.core.internal.modules.sm.BlockInfo;
                                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/processors/Processor.java:6: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/processors/Processor.java:6: error: cannot find symbol
     void process(WebSocket webSocket, String msg);
                  ^
   symbol:   class WebSocket
   location: interface Processor
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/modulemodel/BlockSimpleInfo.java:10: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/modulemodel/BlockSimpleInfo.java:10: error: cannot find symbol
     public BlockSimpleInfo(BlockInfo blockInfo) {
                            ^
   symbol:   class BlockInfo
   location: class BlockSimpleInfo
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/server/GodEyeMonitorServer.java:3: error: package com.koushikdutta.async does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/server/GodEyeMonitorServer.java:3: error: package com.koushikdutta.async does not exist
 import com.koushikdutta.async.AsyncServer;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/server/GodEyeMonitorServer.java:4: error: package com.koushikdutta.async.callback does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/server/GodEyeMonitorServer.java:4: error: package com.koushikdutta.async.callback does not exist
 import com.koushikdutta.async.callback.CompletedCallback;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/server/GodEyeMonitorServer.java:5: error: package com.koushikdutta.async.http does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/server/GodEyeMonitorServer.java:5: error: package com.koushikdutta.async.http does not exist
 import com.koushikdutta.async.http.WebSocket;
                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/server/GodEyeMonitorServer.java:6: error: package com.koushikdutta.async.http.server does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/server/GodEyeMonitorServer.java:6: error: package com.koushikdutta.async.http.server does not exist
 import com.koushikdutta.async.http.server.AsyncHttpServer;
                                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/server/GodEyeMonitorServer.java:7: error: package com.koushikdutta.async.http.server does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/server/GodEyeMonitorServer.java:7: error: package com.koushikdutta.async.http.server does not exist
 import com.koushikdutta.async.http.server.AsyncHttpServerRequest;
                                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/server/GodEyeMonitorServer.java:8: error: package com.koushikdutta.async.http.server does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/server/GodEyeMonitorServer.java:8: error: package com.koushikdutta.async.http.server does not exist
 import com.koushikdutta.async.http.server.AsyncHttpServerResponse;
                                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/server/GodEyeMonitorServer.java:9: error: package com.koushikdutta.async.http.server does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/server/GodEyeMonitorServer.java:9: error: package com.koushikdutta.async.http.server does not exist
 import com.koushikdutta.async.http.server.HttpServerRequestCallback;
                                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/server/GodEyeMonitorServer.java:17: error: package cn.hikyson.godeye.core.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/server/GodEyeMonitorServer.java:17: error: package cn.hikyson.godeye.core.utils does not exist
 import cn.hikyson.godeye.core.utils.L;
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/server/GodEyeMonitorServer.java:22: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/server/GodEyeMonitorServer.java:22: error: cannot find symbol
     private AsyncHttpServer mServer;
             ^
   symbol:   class AsyncHttpServer
   location: class GodEyeMonitorServer
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/server/GodEyeMonitorServer.java:23: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/server/GodEyeMonitorServer.java:23: error: cannot find symbol
     private final List<WebSocket> mWebSockets;
                        ^
   symbol:   class WebSocket
   location: class GodEyeMonitorServer
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/server/GodEyeMonitorServer.java:30: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/server/GodEyeMonitorServer.java:30: error: cannot find symbol
         void onHttpRequest(AsyncHttpServerRequest request, AsyncHttpServerResponse response);
                            ^
   symbol:   class AsyncHttpServerRequest
   location: interface MonitorServerCallback
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/server/GodEyeMonitorServer.java:30: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/server/GodEyeMonitorServer.java:30: error: cannot find symbol
         void onHttpRequest(AsyncHttpServerRequest request, AsyncHttpServerResponse response);
                                                            ^
   symbol:   class AsyncHttpServerResponse
   location: interface MonitorServerCallback
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/server/GodEyeMonitorServer.java:32: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/server/GodEyeMonitorServer.java:32: error: cannot find symbol
         void onWebSocketRequest(WebSocket webSocket, String messageFromClient);
                                 ^
   symbol:   class WebSocket
   location: interface MonitorServerCallback
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/utils/GsonUtil.java:3: error: package com.google.gson does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/utils/GsonUtil.java:3: error: package com.google.gson does not exist
 import com.google.gson.Gson;
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/utils/GsonUtil.java:4: error: package com.google.gson does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/utils/GsonUtil.java:4: error: package com.google.gson does not exist
 import com.google.gson.GsonBuilder;
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/utils/GsonUtil.java:12: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/utils/GsonUtil.java:12: error: cannot find symbol
     private static Gson sGson = new GsonBuilder().create();
                    ^
   symbol:   class Gson
   location: class GsonUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/processors/WebSocketProcessor.java:3: error: package com.koushikdutta.async.http does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/processors/WebSocketProcessor.java:3: error: package com.koushikdutta.async.http does not exist
 import com.koushikdutta.async.http.WebSocket;
                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/processors/WebSocketProcessor.java:5: error: package cn.hikyson.godeye.core.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/processors/WebSocketProcessor.java:5: error: package cn.hikyson.godeye.core.utils does not exist
 import cn.hikyson.godeye.core.utils.ThreadUtil;
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/processors/WebSocketProcessor.java:27: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/processors/WebSocketProcessor.java:27: error: cannot find symbol
     public void process(WebSocket webSocket, String msg) {
                         ^
   symbol:   class WebSocket
   location: class WebSocketProcessor
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/GodEyeMonitor.java:8: error: package com.koushikdutta.async.http does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/modulemodel/MethodCanaryStatus.java:3: error: package cn.hikyson.godeye.core.internal.modules.methodcanary does not exist
+import cn.hikyson.godeye.core.internal.modules.methodcanary.MethodCanaryContext;
+                                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/modulemodel/MethodCanaryStatus.java:11: error: cannot find symbol
+    public MethodCanaryStatus(MethodCanaryContext methodCanaryContext, boolean isInstalled, boolean isMonitoring) {
+                              ^
+  symbol:   class MethodCanaryContext
+  location: class MethodCanaryStatus
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/GodEyeMonitor.java:8: error: package com.koushikdutta.async.http does not exist
 import com.koushikdutta.async.http.WebSocket;
                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/GodEyeMonitor.java:9: error: package com.koushikdutta.async.http.server does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/GodEyeMonitor.java:9: error: package com.koushikdutta.async.http.server does not exist
 import com.koushikdutta.async.http.server.AsyncHttpServerRequest;
                                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/GodEyeMonitor.java:10: error: package com.koushikdutta.async.http.server does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/GodEyeMonitor.java:10: error: package com.koushikdutta.async.http.server does not exist
 import com.koushikdutta.async.http.server.AsyncHttpServerResponse;
                                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/GodEyeMonitor.java:14: error: package cn.hikyson.godeye.core.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/GodEyeMonitor.java:14: error: package cn.hikyson.godeye.core.utils does not exist
 import cn.hikyson.godeye.core.utils.L;
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/GodEyeMonitor.java:15: error: package cn.hikyson.godeye.core.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/GodEyeMonitor.java:15: error: package cn.hikyson.godeye.core.utils does not exist
 import cn.hikyson.godeye.core.utils.ThreadUtil;
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/modulemodel/ThreadInfo.java:14: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/modulemodel/ThreadInfo.java:14: error: cannot find symbol
     @Expose
      ^
   symbol:   class Expose
   location: class ThreadInfo
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/modulemodel/ThreadInfo.java:16: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/modulemodel/ThreadInfo.java:16: error: cannot find symbol
     @Expose
      ^
   symbol:   class Expose
   location: class ThreadInfo
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/modulemodel/ThreadInfo.java:18: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/modulemodel/ThreadInfo.java:18: error: cannot find symbol
     @Expose
      ^
   symbol:   class Expose
   location: class ThreadInfo
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/modulemodel/ThreadInfo.java:20: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/modulemodel/ThreadInfo.java:20: error: cannot find symbol
     @Expose
      ^
   symbol:   class Expose
   location: class ThreadInfo
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/modulemodel/ThreadInfo.java:22: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/modulemodel/ThreadInfo.java:22: error: cannot find symbol
     @Expose
      ^
   symbol:   class Expose
   location: class ThreadInfo
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/modulemodel/ThreadInfo.java:24: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/modulemodel/ThreadInfo.java:24: error: cannot find symbol
     @Expose
      ^
   symbol:   class Expose
   location: class ThreadInfo
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/modulemodel/ThreadInfo.java:26: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/modulemodel/ThreadInfo.java:26: error: cannot find symbol
     @Expose
      ^
   symbol:   class Expose
   location: class ThreadInfo
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/modulemodel/ThreadInfo.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/modulemodel/ThreadInfo.java:28: error: cannot find symbol
     @Expose
      ^
   symbol:   class Expose
   location: class ThreadInfo
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/modulemodel/ThreadInfo.java:30: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-monitor/src/main/java/cn/hikyson/godeye/monitor/modulemodel/ThreadInfo.java:30: error: cannot find symbol
     @Expose
      ^
   symbol:   class Expose
@@ -477,384 +497,485 @@ javadoc: warning - Class Expose not found.
 javadoc: warning - Class Expose not found.
 javadoc: warning - Class Expose not found.
 javadoc: warning - Class Expose not found.
-javadoc: warning - Class Expose not found.
-javadoc: warning - Class Expose not found.
-
 100 warnings
-:android-godeye-monitor:androidJavadocsJar
-:android-godeye-monitor:androidSourcesJar
-:android-godeye:preBuild UP-TO-DATE
-:android-godeye:preDebugBuild UP-TO-DATE
-:android-godeye:compileDebugAidl
-Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-support-fragment/1.6.3/leakcanary-support-fragment-1.6.3.aar
-:android-godeye-monitor:preBuild UP-TO-DATE
-:android-godeye-monitor:preDebugBuild UP-TO-DATE
-:android-godeye-monitor:compileDebugAidl
-:android-godeye:compileDebugRenderscript
-:android-godeye:checkDebugManifest
-:android-godeye:generateDebugBuildConfig
-:android-godeye:generateDebugResValues
-:android-godeye:generateDebugResources
-:android-godeye:packageDebugResources
-:android-godeye:platformAttrExtractor
-:android-godeye:processDebugManifest
-:android-godeye:prepareLintJar
-:android-godeye:javaPreCompileDebug
-Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.1.0/rxjava-2.1.0.jar
-:android-godeye:processDebugJavaRes NO-SOURCE
-:android-godeye:packageDebugRenderscript NO-SOURCE
-:android-godeye-monitor:compileDebugRenderscript
-:android-godeye-monitor:checkDebugManifest
-:android-godeye-monitor:generateDebugBuildConfig
-:android-godeye-monitor:generateDebugResValues
-:android-godeye-monitor:generateDebugResources
-:android-godeye-monitor:packageDebugResources
-:android-godeye-monitor:platformAttrExtractor
-:android-godeye-monitor:processDebugManifest
-:android-godeye-monitor:prepareLintJar
-:android-godeye-monitor:mergeDebugConsumerProguardFiles
-:android-godeye-monitor:mergeDebugShaders
-:android-godeye-monitor:compileDebugShaders
-:android-godeye-monitor:generateDebugAssets
-:android-godeye-monitor:packageDebugAssets
-:android-godeye-monitor:packageDebugRenderscript NO-SOURCE
-:android-godeye-monitor:processDebugJavaRes NO-SOURCE
-:android-godeye-monitor:compileDebugNdk NO-SOURCE
-:android-godeye-monitor:mergeDebugJniLibFolders
-:android-godeye-monitor:transformNativeLibsWithMergeJniLibsForDebug
-:android-godeye-monitor:transformNativeLibsWithStripDebugSymbolForDebug
-:android-godeye-monitor:transformNativeLibsWithSyncJniLibsForDebug
-:android-godeye:preReleaseBuild UP-TO-DATE
-:android-godeye:compileReleaseAidl
-:android-godeye-monitor:preReleaseBuild UP-TO-DATE
-:android-godeye-monitor:compileReleaseAidl
-:android-godeye:compileReleaseRenderscript
-:android-godeye:checkReleaseManifest
-:android-godeye:generateReleaseBuildConfig
-:android-godeye:generateReleaseResValues
-:android-godeye:generateReleaseResources
-:android-godeye:packageReleaseResources
-:android-godeye:processReleaseManifest
-:android-godeye:javaPreCompileRelease
-:android-godeye:processReleaseJavaRes NO-SOURCE
-:android-godeye:packageReleaseRenderscript NO-SOURCE
-:android-godeye-monitor:compileReleaseRenderscript
-:android-godeye-monitor:checkReleaseManifest
-:android-godeye-monitor:generateReleaseBuildConfig
-:android-godeye-monitor:generateReleaseResValues
-:android-godeye-monitor:generateReleaseResources
-:android-godeye-monitor:packageReleaseResources
-:android-godeye-monitor:processReleaseManifest
-:android-godeye-monitor:mergeReleaseConsumerProguardFiles
-:android-godeye-monitor:mergeReleaseShaders
-:android-godeye-monitor:compileReleaseShaders
-:android-godeye-monitor:generateReleaseAssets
-:android-godeye-monitor:packageReleaseAssets
-:android-godeye-monitor:packageReleaseRenderscript NO-SOURCE
-:android-godeye-monitor:processReleaseJavaRes NO-SOURCE
-:android-godeye-monitor:compileReleaseNdk NO-SOURCE
-:android-godeye-monitor:mergeReleaseJniLibFolders
-:android-godeye-monitor:transformNativeLibsWithMergeJniLibsForRelease
-:android-godeye-monitor:transformNativeLibsWithStripDebugSymbolForRelease
-:android-godeye-monitor:transformNativeLibsWithSyncJniLibsForRelease
-:android-godeye-monitor:mergeReleaseResources
-:android-godeye-monitor:verifyReleaseResources
-:android-godeye:generateDebugRFile
-:android-godeye:generateDebugSources
-:android-godeye:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+
+> Task :android-godeye-monitor:androidJavadocsJar
+> Task :android-godeye-monitor:androidSourcesJar
+> Task :android-godeye:preBuild UP-TO-DATE
+> Task :android-godeye:preDebugBuild UP-TO-DATE
+> Task :android-godeye:compileDebugAidl NO-SOURCE
+> Task :android-godeye-monitor:preBuild UP-TO-DATE
+> Task :android-godeye-monitor:preDebugBuild UP-TO-DATE
+> Task :android-godeye-monitor:compileDebugAidl NO-SOURCE
+> Task :android-godeye:compileDebugRenderscript
+> Task :android-godeye:checkDebugManifest
+> Task :android-godeye:generateDebugBuildConfig
+> Task :android-godeye:generateDebugResValues
+> Task :android-godeye:generateDebugResources
+> Task :android-godeye:packageDebugResources
+> Task :android-godeye:processDebugManifest
+> Task :android-godeye:generateDebugRFile
+> Task :android-godeye:prepareLintJar
+> Task :android-godeye:generateDebugSources
+> Task :android-godeye:javaPreCompileDebug
+
+> Task :android-godeye:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye/src/main/java/cn/hikyson/godeye/core/GodEye.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye/src/main/java/cn/hikyson/godeye/core/GodEye.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-:android-godeye:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:android-godeye-monitor:javaPreCompileDebug
-:android-godeye:generateReleaseRFile
-:android-godeye:generateReleaseSources
-:android-godeye:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+> Task :android-godeye:processDebugJavaRes NO-SOURCE
+> Task :android-godeye:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :android-godeye:packageDebugRenderscript NO-SOURCE
+> Task :android-godeye-monitor:compileDebugRenderscript
+> Task :android-godeye-monitor:checkDebugManifest
+> Task :android-godeye-monitor:generateDebugBuildConfig
+> Task :android-godeye-monitor:generateDebugResValues
+> Task :android-godeye-monitor:generateDebugResources
+> Task :android-godeye-monitor:packageDebugResources
+> Task :android-godeye-monitor:processDebugManifest
+> Task :android-godeye-monitor:generateDebugRFile
+> Task :android-godeye-monitor:prepareLintJar
+> Task :android-godeye-monitor:generateDebugSources
+> Task :android-godeye-monitor:javaPreCompileDebug
+> Task :android-godeye-monitor:compileDebugJavaWithJavac
+> Task :android-godeye-monitor:extractDebugAnnotations
+> Task :android-godeye-monitor:mergeDebugConsumerProguardFiles
+> Task :android-godeye-monitor:mergeDebugShaders
+> Task :android-godeye-monitor:compileDebugShaders
+> Task :android-godeye-monitor:generateDebugAssets
+> Task :android-godeye-monitor:packageDebugAssets
+> Task :android-godeye-monitor:packageDebugRenderscript NO-SOURCE
+> Task :android-godeye-monitor:processDebugJavaRes NO-SOURCE
+> Task :android-godeye-monitor:transformResourcesWithMergeJavaResForDebug
+> Task :android-godeye-monitor:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :android-godeye-monitor:compileDebugNdk NO-SOURCE
+> Task :android-godeye-monitor:mergeDebugJniLibFolders
+> Task :android-godeye-monitor:transformNativeLibsWithMergeJniLibsForDebug
+> Task :android-godeye-monitor:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :android-godeye-monitor:transformNativeLibsWithSyncJniLibsForDebug
+> Task :android-godeye-monitor:bundleDebugAar
+> Task :android-godeye-monitor:compileDebugSources
+> Task :android-godeye-monitor:assembleDebug
+> Task :android-godeye:preReleaseBuild UP-TO-DATE
+> Task :android-godeye:compileReleaseAidl NO-SOURCE
+> Task :android-godeye-monitor:preReleaseBuild UP-TO-DATE
+> Task :android-godeye-monitor:compileReleaseAidl NO-SOURCE
+> Task :android-godeye:compileReleaseRenderscript
+> Task :android-godeye:checkReleaseManifest
+> Task :android-godeye:generateReleaseBuildConfig
+> Task :android-godeye:generateReleaseResValues
+> Task :android-godeye:generateReleaseResources
+> Task :android-godeye:packageReleaseResources
+> Task :android-godeye:processReleaseManifest
+> Task :android-godeye:generateReleaseRFile
+> Task :android-godeye:generateReleaseSources
+> Task :android-godeye:javaPreCompileRelease
+
+> Task :android-godeye:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye/src/main/java/cn/hikyson/godeye/core/GodEye.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye/src/main/java/cn/hikyson/godeye/core/GodEye.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-:android-godeye:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:android-godeye-monitor:javaPreCompileRelease
-:android-godeye-monitor:generateDebugRFile
-:android-godeye-monitor:generateDebugSources
-:android-godeye-monitor:compileDebugJavaWithJavac
-:android-godeye-monitor:extractDebugAnnotations
-:android-godeye-monitor:transformResourcesWithMergeJavaResForDebug
-:android-godeye-monitor:transformClassesAndResourcesWithSyncLibJarsForDebug
-:android-godeye-monitor:bundleDebug
-:android-godeye-monitor:compileDebugSources
-:android-godeye-monitor:assembleDebug
-:android-godeye-monitor:generateReleaseRFile
-:android-godeye-monitor:generateReleaseSources
-:android-godeye-monitor:compileReleaseJavaWithJavac
-:android-godeye-monitor:extractReleaseAnnotations
-:android-godeye-monitor:transformResourcesWithMergeJavaResForRelease
-:android-godeye-monitor:transformClassesAndResourcesWithSyncLibJarsForRelease
-:android-godeye-monitor:bundleRelease
-:android-godeye-monitor:compileReleaseSources
-:android-godeye-monitor:assembleRelease
-:android-godeye-monitor:signArchives SKIPPED
-:android-godeye-monitor:assemble
-:android-godeye-monitor:build
+> Task :android-godeye:processReleaseJavaRes NO-SOURCE
+> Task :android-godeye:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :android-godeye:packageReleaseRenderscript NO-SOURCE
+> Task :android-godeye-monitor:compileReleaseRenderscript
+> Task :android-godeye-monitor:checkReleaseManifest
+> Task :android-godeye-monitor:generateReleaseBuildConfig
+> Task :android-godeye-monitor:generateReleaseResValues
+> Task :android-godeye-monitor:generateReleaseResources
+> Task :android-godeye-monitor:packageReleaseResources
+> Task :android-godeye-monitor:processReleaseManifest
+> Task :android-godeye-monitor:generateReleaseRFile
+> Task :android-godeye-monitor:generateReleaseSources
+> Task :android-godeye-monitor:javaPreCompileRelease
+> Task :android-godeye-monitor:compileReleaseJavaWithJavac
+> Task :android-godeye-monitor:extractReleaseAnnotations
+> Task :android-godeye-monitor:mergeReleaseConsumerProguardFiles
+> Task :android-godeye-monitor:mergeReleaseShaders
+> Task :android-godeye-monitor:compileReleaseShaders
+> Task :android-godeye-monitor:generateReleaseAssets
+> Task :android-godeye-monitor:packageReleaseAssets
+> Task :android-godeye-monitor:packageReleaseRenderscript NO-SOURCE
+> Task :android-godeye-monitor:processReleaseJavaRes NO-SOURCE
+> Task :android-godeye-monitor:transformResourcesWithMergeJavaResForRelease
+> Task :android-godeye-monitor:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :android-godeye-monitor:compileReleaseNdk NO-SOURCE
+> Task :android-godeye-monitor:mergeReleaseJniLibFolders
+> Task :android-godeye-monitor:transformNativeLibsWithMergeJniLibsForRelease
+> Task :android-godeye-monitor:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :android-godeye-monitor:transformNativeLibsWithSyncJniLibsForRelease
+> Task :android-godeye-monitor:bundleReleaseAar
+> Task :android-godeye-monitor:compileReleaseSources
+> Task :android-godeye-monitor:mergeReleaseResources
+> Task :android-godeye-monitor:verifyReleaseResources
+> Task :android-godeye-monitor:assembleRelease
+> Task :android-godeye-monitor:signArchives SKIPPED
+> Task :android-godeye-monitor:assemble
+> Task :android-godeye-monitor:build
 
-BUILD SUCCESSFUL in 17s
-75 actionable tasks: 75 executed
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
 
-2019-06-14 11:15:12,527 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-14 11:15:12,527 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-14 11:15:18,034 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-06-14 11:15:18,034 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-06-14 11:15:18,034 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-06-14 11:16:00,190 INFO  SysUtils - Configuration on demand is an incubating feature.
+BUILD SUCCESSFUL in 21s
+69 actionable tasks: 69 executed
+
+2019-07-05 01:52:28,107 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 01:52:28,108 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 01:52:33,458 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-07-05 01:52:33,458 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-05 01:52:33,458 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-05 01:53:30,069 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :android-godeye-sample
+[MethodCanary] Plugin entry >>>
+[MethodCanary] registerTransform.
+
+> Configure project :android-godeye-monitor
 [MVN] SONATYPE_NEXUS_USERNAME: 
 [MVN] SONATYPE_NEXUS_PASSWORD: SECRET
 [MVN] SONATYPE_NEXUS_USERNAME: 
 [MVN] SONATYPE_NEXUS_PASSWORD: SECRET
+
+> Configure project :android-godeye
 [MVN] SONATYPE_NEXUS_USERNAME: 
 [MVN] SONATYPE_NEXUS_PASSWORD: SECRET
 [MVN] SONATYPE_NEXUS_USERNAME: 
 [MVN] SONATYPE_NEXUS_PASSWORD: SECRET
+
+> Configure project :android-godeye-toolbox
 [MVN] SONATYPE_NEXUS_USERNAME: 
 [MVN] SONATYPE_NEXUS_PASSWORD: SECRET
 [MVN] SONATYPE_NEXUS_USERNAME: 
 [MVN] SONATYPE_NEXUS_PASSWORD: SECRET
-:android-godeye:preBuild UP-TO-DATE
-:android-godeye:preDebugBuild UP-TO-DATE
-:android-godeye:compileDebugAidl UP-TO-DATE
-:android-godeye:compileDebugRenderscript UP-TO-DATE
-:android-godeye:checkDebugManifest UP-TO-DATE
-:android-godeye:generateDebugBuildConfig UP-TO-DATE
-:android-godeye:generateDebugResValues UP-TO-DATE
-:android-godeye:generateDebugResources UP-TO-DATE
-:android-godeye:packageDebugResources UP-TO-DATE
-:android-godeye:platformAttrExtractor UP-TO-DATE
-:android-godeye:processDebugManifest UP-TO-DATE
-:android-godeye:generateDebugRFile UP-TO-DATE
-:android-godeye:prepareLintJar UP-TO-DATE
-:android-godeye:generateDebugSources UP-TO-DATE
-:android-godeye:javaPreCompileDebug UP-TO-DATE
-:android-godeye:compileDebugJavaWithJavac UP-TO-DATE
-:android-godeye:processDebugJavaRes NO-SOURCE
-:android-godeye:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
-:android-godeye-monitor:preBuild UP-TO-DATE
-:android-godeye-monitor:preDebugBuild UP-TO-DATE
-:android-godeye-monitor:compileDebugAidl UP-TO-DATE
-:android-godeye:packageDebugRenderscript NO-SOURCE
-:android-godeye-monitor:compileDebugRenderscript UP-TO-DATE
-:android-godeye-monitor:checkDebugManifest UP-TO-DATE
-:android-godeye-monitor:generateDebugBuildConfig UP-TO-DATE
-:android-godeye-monitor:generateDebugResValues UP-TO-DATE
-:android-godeye-monitor:generateDebugResources UP-TO-DATE
-:android-godeye-monitor:packageDebugResources UP-TO-DATE
-:android-godeye-monitor:platformAttrExtractor UP-TO-DATE
-:android-godeye-monitor:processDebugManifest UP-TO-DATE
-:android-godeye-monitor:generateDebugRFile UP-TO-DATE
-:android-godeye-monitor:prepareLintJar UP-TO-DATE
-:android-godeye-monitor:generateDebugSources UP-TO-DATE
-:android-godeye-monitor:javaPreCompileDebug UP-TO-DATE
-:android-godeye-monitor:compileDebugJavaWithJavac UP-TO-DATE
-:android-godeye-monitor:processDebugJavaRes NO-SOURCE
-:android-godeye-monitor:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:android-godeye-sample:preBuild UP-TO-DATE
-:android-godeye-toolbox:preBuild UP-TO-DATE
-:android-godeye-toolbox:preDebugBuild UP-TO-DATE
-:android-godeye-toolbox:checkDebugManifest
-:android-godeye-toolbox:processDebugManifest
-:android-godeye-sample:preDebugBuild
-:android-godeye-toolbox:compileDebugAidl
-:android-godeye-sample:compileDebugAidl
-:android-godeye-monitor:packageDebugRenderscript NO-SOURCE
-:android-godeye-toolbox:packageDebugRenderscript NO-SOURCE
-:android-godeye-sample:compileDebugRenderscript
-:android-godeye-sample:checkDebugManifest
-:android-godeye-sample:generateDebugBuildConfig
-:android-godeye-sample:prepareLintJar
-:android-godeye-sample:mainApkListPersistenceDebug
-:android-godeye-sample:generateDebugResValues
-:android-godeye-sample:generateDebugResources
-:android-godeye-toolbox:compileDebugRenderscript
-:android-godeye-toolbox:generateDebugResValues
-:android-godeye-toolbox:generateDebugResources
-:android-godeye-toolbox:packageDebugResources
-:android-godeye-sample:mergeDebugResources
-:android-godeye-sample:createDebugCompatibleScreenManifests
-:android-godeye-sample:processDebugManifest
-:android-godeye-sample:splitsDiscoveryTaskDebug
-:android-godeye-toolbox:platformAttrExtractor
-:android-godeye-toolbox:generateDebugBuildConfig
-:android-godeye-toolbox:prepareLintJar
-:android-godeye-toolbox:javaPreCompileDebug
-:android-godeye-toolbox:processDebugJavaRes NO-SOURCE
-:android-godeye-sample:compileDebugNdk NO-SOURCE
-:android-godeye:mergeDebugShaders
-:android-godeye:compileDebugShaders
-:android-godeye:generateDebugAssets
-:android-godeye:packageDebugAssets
-:android-godeye-monitor:mergeDebugShaders UP-TO-DATE
-:android-godeye-monitor:compileDebugShaders UP-TO-DATE
-:android-godeye-monitor:generateDebugAssets UP-TO-DATE
-:android-godeye-monitor:packageDebugAssets UP-TO-DATE
-:android-godeye-sample:mergeDebugShaders
-:android-godeye-sample:compileDebugShaders
-:android-godeye-sample:generateDebugAssets
-:android-godeye-toolbox:mergeDebugShaders
-:android-godeye-toolbox:compileDebugShaders
-:android-godeye-toolbox:generateDebugAssets
-:android-godeye-toolbox:packageDebugAssets
-:android-godeye-sample:mergeDebugAssets
-:android-godeye:compileDebugNdk NO-SOURCE
-:android-godeye:mergeDebugJniLibFolders
-:android-godeye:transformNativeLibsWithMergeJniLibsForDebug
-:android-godeye:transformNativeLibsWithStripDebugSymbolForDebug
-:android-godeye:transformNativeLibsWithIntermediateJniLibsForDebug
-:android-godeye-monitor:compileDebugNdk NO-SOURCE
-:android-godeye-monitor:mergeDebugJniLibFolders UP-TO-DATE
-:android-godeye-monitor:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-:android-godeye-monitor:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
-:android-godeye-monitor:transformNativeLibsWithIntermediateJniLibsForDebug
-:android-godeye-sample:mergeDebugJniLibFolders
-:android-godeye-toolbox:compileDebugNdk NO-SOURCE
-:android-godeye-toolbox:mergeDebugJniLibFolders
-:android-godeye-toolbox:transformNativeLibsWithMergeJniLibsForDebug
-:android-godeye-toolbox:transformNativeLibsWithStripDebugSymbolForDebug
-:android-godeye-toolbox:transformNativeLibsWithIntermediateJniLibsForDebug
-:android-godeye-sample:processDebugJavaRes NO-SOURCE
-:android-godeye-sample:validateSigningDebug
-:android-godeye:preReleaseBuild UP-TO-DATE
-:android-godeye:compileReleaseAidl UP-TO-DATE
-:android-godeye:compileReleaseRenderscript UP-TO-DATE
-:android-godeye:checkReleaseManifest UP-TO-DATE
-:android-godeye:generateReleaseBuildConfig UP-TO-DATE
-:android-godeye:generateReleaseResValues UP-TO-DATE
-:android-godeye:generateReleaseResources UP-TO-DATE
-:android-godeye:packageReleaseResources UP-TO-DATE
-:android-godeye:processReleaseManifest UP-TO-DATE
-:android-godeye:generateReleaseRFile UP-TO-DATE
-:android-godeye:generateReleaseSources UP-TO-DATE
-:android-godeye:javaPreCompileRelease UP-TO-DATE
-:android-godeye:compileReleaseJavaWithJavac UP-TO-DATE
-:android-godeye:processReleaseJavaRes NO-SOURCE
-:android-godeye:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
-:android-godeye-monitor:preReleaseBuild UP-TO-DATE
-:android-godeye-monitor:compileReleaseAidl UP-TO-DATE
-:android-godeye:packageReleaseRenderscript NO-SOURCE
-:android-godeye-monitor:compileReleaseRenderscript UP-TO-DATE
-:android-godeye-monitor:checkReleaseManifest UP-TO-DATE
-:android-godeye-monitor:generateReleaseBuildConfig UP-TO-DATE
-:android-godeye-monitor:generateReleaseResValues UP-TO-DATE
-:android-godeye-monitor:generateReleaseResources UP-TO-DATE
-:android-godeye-monitor:packageReleaseResources UP-TO-DATE
-:android-godeye-monitor:processReleaseManifest UP-TO-DATE
-:android-godeye-monitor:generateReleaseRFile UP-TO-DATE
-:android-godeye-monitor:generateReleaseSources UP-TO-DATE
-:android-godeye-monitor:javaPreCompileRelease UP-TO-DATE
-:android-godeye-monitor:compileReleaseJavaWithJavac UP-TO-DATE
-:android-godeye-monitor:processReleaseJavaRes NO-SOURCE
-:android-godeye-monitor:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:android-godeye-toolbox:preReleaseBuild UP-TO-DATE
-:android-godeye-toolbox:checkReleaseManifest
-:android-godeye-toolbox:processReleaseManifest
-:android-godeye-sample:preReleaseBuild
-:android-godeye-toolbox:compileReleaseAidl
-:android-godeye-sample:compileReleaseAidl
-:android-godeye-monitor:packageReleaseRenderscript NO-SOURCE
-:android-godeye-toolbox:packageReleaseRenderscript NO-SOURCE
-:android-godeye-sample:compileReleaseRenderscript
-:android-godeye-sample:checkReleaseManifest
-:android-godeye-sample:generateReleaseBuildConfig
-:android-godeye-sample:mainApkListPersistenceRelease
-:android-godeye-sample:generateReleaseResValues
-:android-godeye-sample:generateReleaseResources
-:android-godeye-toolbox:compileReleaseRenderscript
-:android-godeye-toolbox:generateReleaseResValues
-:android-godeye-toolbox:generateReleaseResources
-:android-godeye-toolbox:packageReleaseResources
-:android-godeye-sample:mergeReleaseResources
-:android-godeye-sample:createReleaseCompatibleScreenManifests
-:android-godeye-sample:processReleaseManifest
-:android-godeye-sample:splitsDiscoveryTaskRelease
-:android-godeye-toolbox:generateReleaseBuildConfig
-:android-godeye-toolbox:javaPreCompileRelease
-:android-godeye-toolbox:processReleaseJavaRes NO-SOURCE
-:android-godeye-sample:compileReleaseNdk NO-SOURCE
-:android-godeye:mergeReleaseShaders
-:android-godeye:compileReleaseShaders
-:android-godeye:generateReleaseAssets
-:android-godeye:packageReleaseAssets
-:android-godeye-monitor:mergeReleaseShaders UP-TO-DATE
-:android-godeye-monitor:compileReleaseShaders UP-TO-DATE
-:android-godeye-monitor:generateReleaseAssets UP-TO-DATE
-:android-godeye-monitor:packageReleaseAssets UP-TO-DATE
-:android-godeye-sample:mergeReleaseShaders
-:android-godeye-sample:compileReleaseShaders
-:android-godeye-sample:generateReleaseAssets
-:android-godeye-toolbox:mergeReleaseShaders
-:android-godeye-toolbox:compileReleaseShaders
-:android-godeye-toolbox:generateReleaseAssets
-:android-godeye-toolbox:packageReleaseAssets
-:android-godeye-sample:mergeReleaseAssets
-:android-godeye:compileReleaseNdk NO-SOURCE
-:android-godeye:mergeReleaseJniLibFolders
-:android-godeye:transformNativeLibsWithMergeJniLibsForRelease
-:android-godeye:transformNativeLibsWithStripDebugSymbolForRelease
-:android-godeye:transformNativeLibsWithIntermediateJniLibsForRelease
-:android-godeye-monitor:compileReleaseNdk NO-SOURCE
-:android-godeye-monitor:mergeReleaseJniLibFolders UP-TO-DATE
-:android-godeye-monitor:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
-:android-godeye-monitor:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
-:android-godeye-monitor:transformNativeLibsWithIntermediateJniLibsForRelease
-:android-godeye-sample:mergeReleaseJniLibFolders
-:android-godeye-toolbox:compileReleaseNdk NO-SOURCE
-:android-godeye-toolbox:mergeReleaseJniLibFolders
-:android-godeye-toolbox:transformNativeLibsWithMergeJniLibsForRelease
-:android-godeye-toolbox:transformNativeLibsWithStripDebugSymbolForRelease
-:android-godeye-toolbox:transformNativeLibsWithIntermediateJniLibsForRelease
-:android-godeye-sample:processReleaseJavaRes NO-SOURCE
-:android-godeye-toolbox:generateDebugRFile
-:android-godeye-sample:processDebugResources
-:android-godeye-sample:generateDebugSources
-:android-godeye-toolbox:generateDebugSources
-:android-godeye-toolbox:compileDebugJavaWithJavac
-:android-godeye-toolbox:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:android-godeye-sample:javaPreCompileDebug
-:android-godeye-sample:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+
+> Task :android-godeye:preBuild UP-TO-DATE
+> Task :android-godeye:preDebugBuild UP-TO-DATE
+> Task :android-godeye:compileDebugAidl NO-SOURCE
+> Task :android-godeye:compileDebugRenderscript UP-TO-DATE
+> Task :android-godeye:checkDebugManifest UP-TO-DATE
+> Task :android-godeye:generateDebugBuildConfig UP-TO-DATE
+> Task :android-godeye:generateDebugResValues UP-TO-DATE
+> Task :android-godeye:generateDebugResources UP-TO-DATE
+> Task :android-godeye:packageDebugResources UP-TO-DATE
+> Task :android-godeye:processDebugManifest UP-TO-DATE
+> Task :android-godeye:generateDebugRFile UP-TO-DATE
+> Task :android-godeye:prepareLintJar UP-TO-DATE
+> Task :android-godeye:generateDebugSources UP-TO-DATE
+> Task :android-godeye:javaPreCompileDebug UP-TO-DATE
+> Task :android-godeye:compileDebugJavaWithJavac UP-TO-DATE
+> Task :android-godeye:processDebugJavaRes NO-SOURCE
+> Task :android-godeye:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+> Task :android-godeye-monitor:preBuild UP-TO-DATE
+> Task :android-godeye-monitor:preDebugBuild UP-TO-DATE
+> Task :android-godeye-monitor:compileDebugAidl NO-SOURCE
+> Task :android-godeye:packageDebugRenderscript NO-SOURCE
+> Task :android-godeye-monitor:compileDebugRenderscript UP-TO-DATE
+> Task :android-godeye-monitor:checkDebugManifest UP-TO-DATE
+> Task :android-godeye-monitor:generateDebugBuildConfig UP-TO-DATE
+> Task :android-godeye-monitor:generateDebugResValues UP-TO-DATE
+> Task :android-godeye-monitor:generateDebugResources UP-TO-DATE
+> Task :android-godeye-monitor:packageDebugResources UP-TO-DATE
+> Task :android-godeye-monitor:processDebugManifest UP-TO-DATE
+> Task :android-godeye-monitor:generateDebugRFile UP-TO-DATE
+> Task :android-godeye-monitor:prepareLintJar UP-TO-DATE
+> Task :android-godeye-monitor:generateDebugSources UP-TO-DATE
+> Task :android-godeye-monitor:javaPreCompileDebug UP-TO-DATE
+> Task :android-godeye-monitor:compileDebugJavaWithJavac UP-TO-DATE
+> Task :android-godeye-monitor:processDebugJavaRes NO-SOURCE
+> Task :android-godeye-monitor:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+
+> Task :android-godeye-sample:checkDebugClasspath
+WARNING: Conflict with dependency 'com.squareup.okio:okio' in project ':android-godeye-sample'. Resolved versions for runtime classpath (2.2.2) and compile classpath (1.15.0) differ. This can lead to runtime crashes. To resolve this issue follow advice at https://developer.android.com/studio/build/gradle-tips#configure-project-wide-properties. Alternatively, you can try to fix the problem by adding this snippet to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-sample/build.gradle:
+dependencies {
+    implementation("com.squareup.okio:okio:2.2.2")
+}
+
+
+> Task :android-godeye-sample:preBuild UP-TO-DATE
+> Task :android-godeye-toolbox:preBuild UP-TO-DATE
+> Task :android-godeye-toolbox:preDebugBuild UP-TO-DATE
+> Task :android-godeye-toolbox:checkDebugManifest
+> Task :android-godeye-toolbox:processDebugManifest
+> Task :android-godeye-sample:preDebugBuild
+> Task :android-godeye-toolbox:compileDebugAidl NO-SOURCE
+> Task :android-godeye-sample:compileDebugAidl NO-SOURCE
+> Task :android-godeye-monitor:packageDebugRenderscript NO-SOURCE
+> Task :android-godeye-toolbox:packageDebugRenderscript NO-SOURCE
+> Task :android-godeye-sample:compileDebugRenderscript
+> Task :android-godeye-sample:checkDebugManifest
+> Task :android-godeye-sample:generateDebugBuildConfig
+> Task :android-godeye-sample:prepareLintJar
+> Task :android-godeye-sample:mainApkListPersistenceDebug
+> Task :android-godeye-sample:generateDebugResValues
+> Task :android-godeye-sample:generateDebugResources
+> Task :android-godeye-toolbox:compileDebugRenderscript
+> Task :android-godeye-toolbox:generateDebugResValues
+> Task :android-godeye-toolbox:generateDebugResources
+> Task :android-godeye-toolbox:packageDebugResources
+> Task :android-godeye-sample:mergeDebugResources
+> Task :android-godeye-sample:createDebugCompatibleScreenManifests
+> Task :android-godeye-sample:processDebugManifest
+> Task :android-godeye-sample:splitsDiscoveryTaskDebug
+> Task :android-godeye-toolbox:generateDebugRFile
+> Task :android-godeye-sample:processDebugResources
+> Task :android-godeye-sample:generateDebugSources
+> Task :android-godeye-toolbox:generateDebugBuildConfig
+> Task :android-godeye-toolbox:prepareLintJar
+> Task :android-godeye-toolbox:generateDebugSources
+> Task :android-godeye-toolbox:javaPreCompileDebug
+> Task :android-godeye-toolbox:compileDebugJavaWithJavac
+> Task :android-godeye-toolbox:processDebugJavaRes NO-SOURCE
+> Task :android-godeye-toolbox:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :android-godeye-sample:javaPreCompileDebug
+
+> Task :android-godeye-sample:compileDebugJavaWithJavac
+
+> Task :android-godeye-sample:compileDebugNdk NO-SOURCE
+> Task :android-godeye-sample:compileDebugSources
+> Task :android-godeye:mergeDebugShaders
+> Task :android-godeye:compileDebugShaders
+> Task :android-godeye:generateDebugAssets
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+> Task :android-godeye:packageDebugAssets
+> Task :android-godeye-monitor:mergeDebugShaders UP-TO-DATE
+> Task :android-godeye-monitor:compileDebugShaders UP-TO-DATE
+> Task :android-godeye-monitor:generateDebugAssets UP-TO-DATE
+> Task :android-godeye-monitor:packageDebugAssets UP-TO-DATE
+> Task :android-godeye-sample:mergeDebugShaders
+> Task :android-godeye-sample:compileDebugShaders
+> Task :android-godeye-sample:generateDebugAssets
+> Task :android-godeye-toolbox:mergeDebugShaders
+> Task :android-godeye-toolbox:compileDebugShaders
+> Task :android-godeye-toolbox:generateDebugAssets
+> Task :android-godeye-toolbox:packageDebugAssets
+> Task :android-godeye-sample:mergeDebugAssets
+
+> Task :android-godeye-sample:transformClassesWithMethodCanaryTransformForDebug
+[MethodCanary] ======================== transform start ========================
+[MethodCanary] TransformHandler handle, inExcludeEngineContent:/**
+    classInfo
+        {int access
+         String name
+         String superName
+         String[] interfaces}
+
+     methodInfo
+         {int access
+         String name
+         String desc}
+**/
+function isExclude(classInfo,methodInfo){
+    return false
+}
+
+function isInclude(classInfo,methodInfo){
+    return classInfo.name.startsWith('cn/hikyson/android/godeye/sample') || classInfo.name.startsWith('cn/hikyson/godeye')
+}
+[MethodCanary] Inject start.
+[MethodCanary] Inject end.
+[MethodCanary] Generate result start.
+[MethodCanary] Generate result end.
+[MethodCanary] ======================== transform end, cost 4.517 s ========================
+D8: Stripped invalid locals information from 1 method.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-sample/build/intermediates/transforms/MethodCanaryTransform/debug/49.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 1 method.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-sample/build/intermediates/transforms/MethodCanaryTransform/debug/49.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+
+> Task :android-godeye-sample:transformClassesWithDexBuilderForDebug
+> Task :android-godeye-sample:transformDexArchiveWithDexMergerForDebug
+> Task :android-godeye:compileDebugNdk NO-SOURCE
+> Task :android-godeye:mergeDebugJniLibFolders
+> Task :android-godeye:transformNativeLibsWithMergeJniLibsForDebug
+> Task :android-godeye:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :android-godeye:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :android-godeye-monitor:compileDebugNdk NO-SOURCE
+> Task :android-godeye-monitor:mergeDebugJniLibFolders UP-TO-DATE
+> Task :android-godeye-monitor:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :android-godeye-monitor:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :android-godeye-monitor:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :android-godeye-sample:mergeDebugJniLibFolders
+> Task :android-godeye-toolbox:compileDebugNdk NO-SOURCE
+> Task :android-godeye-toolbox:mergeDebugJniLibFolders
+> Task :android-godeye-toolbox:transformNativeLibsWithMergeJniLibsForDebug
+> Task :android-godeye-toolbox:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :android-godeye-toolbox:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :android-godeye-sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :android-godeye-sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :android-godeye-sample:checkDebugLibraries
+> Task :android-godeye-sample:processDebugJavaRes NO-SOURCE
+> Task :android-godeye-sample:transformResourcesWithMergeJavaResForDebug
+> Task :android-godeye-sample:validateSigningDebug
+> Task :android-godeye-sample:packageDebug
+> Task :android-godeye-sample:assembleDebug
+> Task :android-godeye:preReleaseBuild UP-TO-DATE
+> Task :android-godeye:compileReleaseAidl NO-SOURCE
+> Task :android-godeye:compileReleaseRenderscript UP-TO-DATE
+> Task :android-godeye:checkReleaseManifest UP-TO-DATE
+> Task :android-godeye:generateReleaseBuildConfig UP-TO-DATE
+> Task :android-godeye:generateReleaseResValues UP-TO-DATE
+> Task :android-godeye:generateReleaseResources UP-TO-DATE
+> Task :android-godeye:packageReleaseResources UP-TO-DATE
+> Task :android-godeye:processReleaseManifest UP-TO-DATE
+> Task :android-godeye:generateReleaseRFile UP-TO-DATE
+> Task :android-godeye:generateReleaseSources UP-TO-DATE
+> Task :android-godeye:javaPreCompileRelease UP-TO-DATE
+> Task :android-godeye:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :android-godeye:processReleaseJavaRes NO-SOURCE
+> Task :android-godeye:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+> Task :android-godeye-monitor:preReleaseBuild UP-TO-DATE
+> Task :android-godeye-monitor:compileReleaseAidl NO-SOURCE
+> Task :android-godeye:packageReleaseRenderscript NO-SOURCE
+> Task :android-godeye-monitor:compileReleaseRenderscript UP-TO-DATE
+> Task :android-godeye-monitor:checkReleaseManifest UP-TO-DATE
+> Task :android-godeye-monitor:generateReleaseBuildConfig UP-TO-DATE
+> Task :android-godeye-monitor:generateReleaseResValues UP-TO-DATE
+> Task :android-godeye-monitor:generateReleaseResources UP-TO-DATE
+> Task :android-godeye-monitor:packageReleaseResources UP-TO-DATE
+> Task :android-godeye-monitor:processReleaseManifest UP-TO-DATE
+> Task :android-godeye-monitor:generateReleaseRFile UP-TO-DATE
+> Task :android-godeye-monitor:generateReleaseSources UP-TO-DATE
+> Task :android-godeye-monitor:javaPreCompileRelease UP-TO-DATE
+> Task :android-godeye-monitor:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :android-godeye-monitor:processReleaseJavaRes NO-SOURCE
+> Task :android-godeye-monitor:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+
+> Task :android-godeye-sample:checkReleaseClasspath
+WARNING: Conflict with dependency 'com.squareup.okio:okio' in project ':android-godeye-sample'. Resolved versions for runtime classpath (2.2.2) and compile classpath (1.15.0) differ. This can lead to runtime crashes. To resolve this issue follow advice at https://developer.android.com/studio/build/gradle-tips#configure-project-wide-properties. Alternatively, you can try to fix the problem by adding this snippet to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-sample/build.gradle:
+dependencies {
+    implementation("com.squareup.okio:okio:2.2.2")
+}
+
+
+> Task :android-godeye-toolbox:preReleaseBuild UP-TO-DATE
+> Task :android-godeye-toolbox:checkReleaseManifest
+> Task :android-godeye-toolbox:processReleaseManifest
+> Task :android-godeye-sample:preReleaseBuild
+> Task :android-godeye-toolbox:compileReleaseAidl NO-SOURCE
+> Task :android-godeye-sample:compileReleaseAidl NO-SOURCE
+> Task :android-godeye-monitor:packageReleaseRenderscript NO-SOURCE
+> Task :android-godeye-toolbox:packageReleaseRenderscript NO-SOURCE
+> Task :android-godeye-sample:compileReleaseRenderscript
+> Task :android-godeye-sample:checkReleaseManifest
+> Task :android-godeye-sample:generateReleaseBuildConfig
+> Task :android-godeye-sample:mainApkListPersistenceRelease
+> Task :android-godeye-sample:generateReleaseResValues
+> Task :android-godeye-sample:generateReleaseResources
+> Task :android-godeye-toolbox:compileReleaseRenderscript
+> Task :android-godeye-toolbox:generateReleaseResValues
+> Task :android-godeye-toolbox:generateReleaseResources
+> Task :android-godeye-toolbox:packageReleaseResources
+> Task :android-godeye-sample:mergeReleaseResources
+> Task :android-godeye-sample:createReleaseCompatibleScreenManifests
+> Task :android-godeye-sample:processReleaseManifest
+> Task :android-godeye-sample:splitsDiscoveryTaskRelease
+> Task :android-godeye-toolbox:generateReleaseRFile
+> Task :android-godeye-sample:processReleaseResources
+> Task :android-godeye-sample:generateReleaseSources
+> Task :android-godeye-toolbox:generateReleaseBuildConfig
+> Task :android-godeye-toolbox:generateReleaseSources
+> Task :android-godeye-toolbox:javaPreCompileRelease
+> Task :android-godeye-toolbox:compileReleaseJavaWithJavac
+> Task :android-godeye-toolbox:processReleaseJavaRes NO-SOURCE
+> Task :android-godeye-toolbox:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :android-godeye-sample:javaPreCompileRelease
+
+> Task :android-godeye-sample:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-:android-godeye-sample:compileDebugSources
-:android-godeye-sample:transformClassesWithDexBuilderForDebug
-:android-godeye-sample:transformDexArchiveWithExternalLibsDexMergerForDebug
-:android-godeye-sample:transformDexArchiveWithDexMergerForDebug
-:android-godeye-sample:transformNativeLibsWithMergeJniLibsForDebug
-:android-godeye-sample:transformNativeLibsWithStripDebugSymbolForDebug
-:android-godeye-sample:transformResourcesWithMergeJavaResForDebug
-:android-godeye-sample:packageDebug
-:android-godeye-sample:assembleDebug
-:android-godeye-toolbox:generateReleaseRFile
-:android-godeye-sample:processReleaseResources
-:android-godeye-sample:generateReleaseSources
-:android-godeye-toolbox:generateReleaseSources
-:android-godeye-toolbox:compileReleaseJavaWithJavac
-:android-godeye-toolbox:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:android-godeye-sample:javaPreCompileRelease
-:android-godeye-sample:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
+> Task :android-godeye-sample:compileReleaseNdk NO-SOURCE
+> Task :android-godeye-sample:compileReleaseSources
 
-:android-godeye-sample:compileReleaseSources
-:android-godeye-sample:lintVitalRelease
-:android-godeye-sample:transformClassesWithDexBuilderForRelease
-:android-godeye-sample:transformDexArchiveWithExternalLibsDexMergerForRelease
-:android-godeye-sample:transformDexArchiveWithDexMergerForRelease
-:android-godeye-sample:transformNativeLibsWithMergeJniLibsForRelease
-:android-godeye-sample:transformNativeLibsWithStripDebugSymbolForRelease
-:android-godeye-sample:transformResourcesWithMergeJavaResForRelease
-:android-godeye-sample:packageRelease
-:android-godeye-sample:assembleRelease
-:android-godeye-sample:assemble
-:android-godeye-sample:build
+> Task :android-godeye-sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/c011a53583f745bae824dc5050196ac8/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
-BUILD SUCCESSFUL in 41s
-167 actionable tasks: 109 executed, 58 up-to-date
+> Task :android-godeye:mergeReleaseShaders
+> Task :android-godeye:compileReleaseShaders
+> Task :android-godeye:generateReleaseAssets
+> Task :android-godeye:packageReleaseAssets
+> Task :android-godeye-monitor:mergeReleaseShaders UP-TO-DATE
+> Task :android-godeye-monitor:compileReleaseShaders UP-TO-DATE
+> Task :android-godeye-monitor:generateReleaseAssets UP-TO-DATE
+> Task :android-godeye-monitor:packageReleaseAssets UP-TO-DATE
+> Task :android-godeye-sample:mergeReleaseShaders
+> Task :android-godeye-sample:compileReleaseShaders
+> Task :android-godeye-sample:generateReleaseAssets
+> Task :android-godeye-toolbox:mergeReleaseShaders
+> Task :android-godeye-toolbox:compileReleaseShaders
+> Task :android-godeye-toolbox:generateReleaseAssets
+> Task :android-godeye-toolbox:packageReleaseAssets
+> Task :android-godeye-sample:mergeReleaseAssets
 
-2019-06-14 11:16:00,328 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560485665642-0/src/AndroidGodEye-master/android-godeye-sample/build/outputs/apk/release/android-godeye-sample-release-unsigned.apk
+> Task :android-godeye-sample:transformClassesWithMethodCanaryTransformForRelease
+[MethodCanary] ======================== transform start ========================
+[MethodCanary] TransformHandler handle, inExcludeEngineContent:/**
+    classInfo
+        {int access
+         String name
+         String superName
+         String[] interfaces}
+
+     methodInfo
+         {int access
+         String name
+         String desc}
+**/
+function isExclude(classInfo,methodInfo){
+    return false
+}
+
+function isInclude(classInfo,methodInfo){
+    return classInfo.name.startsWith('cn/hikyson/android/godeye/sample') || classInfo.name.startsWith('cn/hikyson/godeye')
+}
+[MethodCanary] Inject start.
+[MethodCanary] Inject end.
+[MethodCanary] Generate result start.
+[MethodCanary] Generate result end.
+[MethodCanary] ======================== transform end, cost 3.148 s ========================
+
+> Task :android-godeye-sample:transformClassesWithDexBuilderForRelease
+> Task :android-godeye-sample:transformDexArchiveWithDexMergerForRelease
+> Task :android-godeye:compileReleaseNdk NO-SOURCE
+> Task :android-godeye:mergeReleaseJniLibFolders
+> Task :android-godeye:transformNativeLibsWithMergeJniLibsForRelease
+> Task :android-godeye:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :android-godeye:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :android-godeye-monitor:compileReleaseNdk NO-SOURCE
+> Task :android-godeye-monitor:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :android-godeye-monitor:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :android-godeye-monitor:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :android-godeye-monitor:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :android-godeye-sample:mergeReleaseJniLibFolders
+> Task :android-godeye-toolbox:compileReleaseNdk NO-SOURCE
+> Task :android-godeye-toolbox:mergeReleaseJniLibFolders
+> Task :android-godeye-toolbox:transformNativeLibsWithMergeJniLibsForRelease
+> Task :android-godeye-toolbox:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :android-godeye-toolbox:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :android-godeye-sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :android-godeye-sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :android-godeye-sample:checkReleaseLibraries
+> Task :android-godeye-sample:processReleaseJavaRes NO-SOURCE
+> Task :android-godeye-sample:transformResourcesWithMergeJavaResForRelease
+> Task :android-godeye-sample:packageRelease
+> Task :android-godeye-sample:assembleRelease
+> Task :android-godeye-sample:assemble
+> Task :android-godeye-sample:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 55s
+160 actionable tasks: 108 executed, 52 up-to-date
+
+2019-07-05 01:53:30,232 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562266253669-0/src/AndroidGodEye-master/android-godeye-sample/build/outputs/apk/release/android-godeye-sample-release-unsigned.apk
