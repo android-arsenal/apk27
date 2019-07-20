@@ -1,39 +1,39 @@
-2019-07-05 01:28:25,198 INFO  DownloadService - Downloading "https://github.com/infinum/Android-Goldfinger/archive/master.zip", attempt 3
-2019-07-05 01:28:26,024 INFO  DownloadService - Downloaded https://github.com/infinum/Android-Goldfinger/archive/master.zip, attempt 3
-2019-07-05 01:28:26,025 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/master.zip": 105 KB
-2019-07-05 01:28:26,025 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-05 01:28:26,030 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/master.zip: true
-2019-07-05 01:28:26,031 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src'.
-2019-07-05 01:28:26,052 INFO  FullProcessService - Size of directory with sources: 172 KB
-2019-07-05 01:28:26,052 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src]
-2019-07-05 01:28:26,068 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src/.git/
+2019-07-20 12:51:32,299 INFO  DownloadService - Downloading "https://github.com/infinum/Android-Goldfinger/archive/master.zip", attempt 3
+2019-07-20 12:51:34,394 INFO  DownloadService - Downloaded https://github.com/infinum/Android-Goldfinger/archive/master.zip, attempt 3
+2019-07-20 12:51:34,394 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/master.zip": 105 KB
+2019-07-20 12:51:34,394 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-20 12:51:34,396 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/master.zip: true
+2019-07-20 12:51:34,396 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src'.
+2019-07-20 12:51:34,418 INFO  FullProcessService - Size of directory with sources: 172 KB
+2019-07-20 12:51:34,418 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src]
+2019-07-20 12:51:34,443 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src/.git/
 
-2019-07-05 01:28:26,071 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src/Android-Goldfinger-master/gradlew
-2019-07-05 01:28:26,073 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src/Android-Goldfinger-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src/Android-Goldfinger-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src/Android-Goldfinger-master/rx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src/Android-Goldfinger-master/build.gradle
-2019-07-05 01:28:26,075 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src/Android-Goldfinger-master/tasks.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src/Android-Goldfinger-master/core/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src/Android-Goldfinger-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src/Android-Goldfinger-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src/Android-Goldfinger-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src/Android-Goldfinger-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src/Android-Goldfinger-master/rx/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src/Android-Goldfinger-master/rx/build.gradle
-2019-07-05 01:28:26,076 INFO  ProjectBuildService - Remote scripts: none
-2019-07-05 01:28:26,076 INFO  ProjectFixService - Fixing project...
-2019-07-05 01:28:26,082 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src/Android-Goldfinger-master/core/local.properties
-2019-07-05 01:28:26,090 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src/Android-Goldfinger-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-05 01:28:26,090 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src/Android-Goldfinger-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-05 01:28:26,091 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src/Android-Goldfinger-master/example/local.properties
-2019-07-05 01:28:26,094 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src/Android-Goldfinger-master/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-05 01:28:26,094 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src/Android-Goldfinger-master/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-05 01:28:26,095 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src/Android-Goldfinger-master/rx/local.properties
-2019-07-05 01:28:26,097 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src/Android-Goldfinger-master/rx/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-05 01:28:26,097 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src/Android-Goldfinger-master/rx/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-05 01:28:26,098 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src/Android-Goldfinger-master/local.properties
-2019-07-05 01:28:26,098 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-07-05 01:28:26,099 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-07-05 01:28:26,101 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src/Android-Goldfinger-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-05 01:28:26,101 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src/Android-Goldfinger-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-05 01:28:26,102 INFO  ProjectFixService - Project was maybe fixed
-2019-07-05 01:28:26,102 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-05 01:28:26,102 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src/Android-Goldfinger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src/Android-Goldfinger-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-05 01:28:33,332 INFO  ProjectTaskService - Detected possible tasks: 74
-2019-07-05 01:28:33,332 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-07-05 01:28:33,332 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src/Android-Goldfinger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src/Android-Goldfinger-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-07-05 01:28:43,623 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-20 12:51:34,445 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src/Android-Goldfinger-master/gradlew
+2019-07-20 12:51:34,449 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src/Android-Goldfinger-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src/Android-Goldfinger-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src/Android-Goldfinger-master/rx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src/Android-Goldfinger-master/build.gradle
+2019-07-20 12:51:34,452 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src/Android-Goldfinger-master/tasks.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src/Android-Goldfinger-master/core/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src/Android-Goldfinger-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src/Android-Goldfinger-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src/Android-Goldfinger-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src/Android-Goldfinger-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src/Android-Goldfinger-master/rx/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src/Android-Goldfinger-master/rx/build.gradle
+2019-07-20 12:51:34,452 INFO  ProjectBuildService - Remote scripts: none
+2019-07-20 12:51:34,452 INFO  ProjectFixService - Fixing project...
+2019-07-20 12:51:34,460 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src/Android-Goldfinger-master/core/local.properties
+2019-07-20 12:51:34,464 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src/Android-Goldfinger-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-20 12:51:34,464 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src/Android-Goldfinger-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-20 12:51:34,465 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src/Android-Goldfinger-master/example/local.properties
+2019-07-20 12:51:34,469 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src/Android-Goldfinger-master/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-20 12:51:34,469 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src/Android-Goldfinger-master/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-20 12:51:34,470 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src/Android-Goldfinger-master/rx/local.properties
+2019-07-20 12:51:34,473 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src/Android-Goldfinger-master/rx/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-20 12:51:34,473 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src/Android-Goldfinger-master/rx/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-20 12:51:34,474 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src/Android-Goldfinger-master/local.properties
+2019-07-20 12:51:34,475 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-07-20 12:51:34,475 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-07-20 12:51:34,478 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src/Android-Goldfinger-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-20 12:51:34,478 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src/Android-Goldfinger-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-20 12:51:34,479 INFO  ProjectFixService - Project was maybe fixed
+2019-07-20 12:51:34,479 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-20 12:51:34,479 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src/Android-Goldfinger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src/Android-Goldfinger-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-20 12:51:43,206 INFO  ProjectTaskService - Detected possible tasks: 74
+2019-07-20 12:51:43,206 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-20 12:51:43,207 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src/Android-Goldfinger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src/Android-Goldfinger-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-20 12:51:55,265 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :core
 WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -122,15 +122,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 10s
+BUILD SUCCESSFUL in 11s
 45 actionable tasks: 45 executed
 
-2019-07-05 01:28:43,649 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-05 01:28:43,649 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src/Android-Goldfinger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src/Android-Goldfinger-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-05 01:28:49,651 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-07-05 01:28:49,651 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-05 01:28:49,651 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src/Android-Goldfinger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src/Android-Goldfinger-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-05 01:29:26,375 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-20 12:51:55,298 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-20 12:51:55,298 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src/Android-Goldfinger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src/Android-Goldfinger-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-20 12:52:01,694 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-20 12:52:01,694 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-20 12:52:01,694 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src/Android-Goldfinger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src/Android-Goldfinger-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-20 12:52:35,761 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :core
 WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -147,8 +147,8 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Task :core:generateDebugBuildConfig UP-TO-DATE
 > Task :core:generateDebugResValues UP-TO-DATE
 > Task :core:generateDebugResources UP-TO-DATE
-> Task :core:packageDebugResources UP-TO-DATE
 > Task :core:processDebugManifest UP-TO-DATE
+> Task :core:packageDebugResources UP-TO-DATE
 > Task :core:generateDebugRFile UP-TO-DATE
 > Task :core:prepareLintJar UP-TO-DATE
 > Task :core:generateDebugSources UP-TO-DATE
@@ -185,7 +185,7 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Task :example:mainApkListPersistenceDebug
 > Task :example:generateDebugResValues
 > Task :example:generateDebugResources
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src/Android-Goldfinger-master/example/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:268: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src/Android-Goldfinger-master/example/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:268: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
 
 > Task :example:mergeDebugResources
 > Task :example:createDebugCompatibleScreenManifests
@@ -270,7 +270,7 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Task :example:mainApkListPersistenceRelease
 > Task :example:generateReleaseResValues
 > Task :example:generateReleaseResources
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src/Android-Goldfinger-master/example/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml:268: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src/Android-Goldfinger-master/example/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml:268: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
 
 > Task :example:mergeReleaseResources
 > Task :example:createReleaseCompatibleScreenManifests
@@ -336,7 +336,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 36s
+BUILD SUCCESSFUL in 33s
 132 actionable tasks: 102 executed, 30 up-to-date
 
-2019-07-05 01:29:26,457 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264905194-0/src/Android-Goldfinger-master/example/build/outputs/apk/release/example-release-unsigned.apk
+2019-07-20 12:52:35,848 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601892291-0/src/Android-Goldfinger-master/example/build/outputs/apk/release/example-release-unsigned.apk
