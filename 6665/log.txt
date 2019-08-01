@@ -1,33 +1,33 @@
-2019-05-26 17:55:20,203 INFO  DownloadService - Downloading "https://github.com/bitstadium/HockeySDK-Android/archive/master.zip", attempt 3
-2019-05-26 17:55:29,477 INFO  DownloadService - Downloaded https://github.com/bitstadium/HockeySDK-Android/archive/master.zip, attempt 3
-2019-05-26 17:55:29,478 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868120199-0/master.zip": 282 KB
-2019-05-26 17:55:29,478 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-26 17:55:29,479 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868120199-0/master.zip: true
-2019-05-26 17:55:29,480 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868120199-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868120199-0/src'.
-2019-05-26 17:55:29,529 INFO  FullProcessService - Size of directory with sources: 794 KB
-2019-05-26 17:55:29,529 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868120199-0/src]
-2019-05-26 17:55:29,559 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868120199-0/src/.git/
+2019-08-01 11:22:09,663 INFO  DownloadService - Downloading "https://github.com/bitstadium/HockeySDK-Android/archive/master.zip", attempt 3
+2019-08-01 11:22:10,364 INFO  DownloadService - Downloaded https://github.com/bitstadium/HockeySDK-Android/archive/master.zip, attempt 3
+2019-08-01 11:22:10,364 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564633329660-0/master.zip": 282 KB
+2019-08-01 11:22:10,364 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-01 11:22:10,369 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564633329660-0/master.zip: true
+2019-08-01 11:22:10,370 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564633329660-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564633329660-0/src'.
+2019-08-01 11:22:10,414 INFO  FullProcessService - Size of directory with sources: 794 KB
+2019-08-01 11:22:10,414 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564633329660-0/src]
+2019-08-01 11:22:10,430 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564633329660-0/src/.git/
 
-2019-05-26 17:55:29,563 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868120199-0/src/HockeySDK-Android-master/gradlew
-2019-05-26 17:55:29,567 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868120199-0/src/HockeySDK-Android-master/hockeysdk/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868120199-0/src/HockeySDK-Android-master/build.gradle
-2019-05-26 17:55:29,571 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868120199-0/src/HockeySDK-Android-master/hockeysdk/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868120199-0/src/HockeySDK-Android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868120199-0/src/HockeySDK-Android-master/settings.gradle
-2019-05-26 17:55:29,571 INFO  ProjectBuildService - Remote scripts: none
-2019-05-26 17:55:29,571 INFO  ProjectFixService - Fixing project...
-2019-05-26 17:55:29,580 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868120199-0/src/HockeySDK-Android-master/hockeysdk/local.properties
-2019-05-26 17:55:29,582 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868120199-0/src/HockeySDK-Android-master/hockeysdk/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=28]
-2019-05-26 17:55:29,582 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868120199-0/src/HockeySDK-Android-master/hockeysdk/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-26 17:55:29,583 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868120199-0/src/HockeySDK-Android-master/local.properties
-2019-05-26 17:55:29,584 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.3-all.zip
-2019-05-26 17:55:29,584 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.3-bin.zip)
-2019-05-26 17:55:29,586 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868120199-0/src/HockeySDK-Android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=28]
-2019-05-26 17:55:29,587 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868120199-0/src/HockeySDK-Android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-26 17:55:29,587 INFO  ProjectFixService - Project was maybe fixed
-2019-05-26 17:55:29,588 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-26 17:55:29,588 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868120199-0/src/HockeySDK-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868120199-0/src/HockeySDK-Android-master/hockeysdk/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-26 17:55:44,866 INFO  ProjectTaskService - Detected possible tasks: 83
-2019-05-26 17:55:44,866 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-05-26 17:55:44,866 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868120199-0/src/HockeySDK-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868120199-0/src/HockeySDK-Android-master/hockeysdk/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-05-26 17:56:18,038 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-01 11:22:10,433 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564633329660-0/src/HockeySDK-Android-master/gradlew
+2019-08-01 11:22:10,437 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564633329660-0/src/HockeySDK-Android-master/hockeysdk/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564633329660-0/src/HockeySDK-Android-master/build.gradle
+2019-08-01 11:22:10,441 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564633329660-0/src/HockeySDK-Android-master/hockeysdk/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564633329660-0/src/HockeySDK-Android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564633329660-0/src/HockeySDK-Android-master/settings.gradle
+2019-08-01 11:22:10,441 INFO  ProjectBuildService - Remote scripts: none
+2019-08-01 11:22:10,441 INFO  ProjectFixService - Fixing project...
+2019-08-01 11:22:10,451 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564633329660-0/src/HockeySDK-Android-master/hockeysdk/local.properties
+2019-08-01 11:22:10,452 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564633329660-0/src/HockeySDK-Android-master/hockeysdk/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=28]
+2019-08-01 11:22:10,452 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564633329660-0/src/HockeySDK-Android-master/hockeysdk/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=28]
+2019-08-01 11:22:10,454 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564633329660-0/src/HockeySDK-Android-master/local.properties
+2019-08-01 11:22:10,454 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.3-all.zip
+2019-08-01 11:22:10,454 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.3-bin.zip)
+2019-08-01 11:22:10,456 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564633329660-0/src/HockeySDK-Android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=28]
+2019-08-01 11:22:10,457 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564633329660-0/src/HockeySDK-Android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=28]
+2019-08-01 11:22:10,457 INFO  ProjectFixService - Project was maybe fixed
+2019-08-01 11:22:10,458 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-01 11:22:10,458 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564633329660-0/src/HockeySDK-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564633329660-0/src/HockeySDK-Android-master/hockeysdk/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-01 11:22:35,737 INFO  ProjectTaskService - Detected possible tasks: 83
+2019-08-01 11:22:35,737 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-08-01 11:22:35,737 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564633329660-0/src/HockeySDK-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564633329660-0/src/HockeySDK-Android-master/hockeysdk/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-08-01 11:23:47,198 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :hockeysdk
 WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -84,7 +84,6 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :hockeysdk:generateReleaseRFile
 > Task :hockeysdk:generateReleaseSources
 > Task :hockeysdk:javaPreCompileRelease
-
 > Task :hockeysdk:compileReleaseJavaWithJavac
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
@@ -116,15 +115,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/4.10.3/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 32s
+BUILD SUCCESSFUL in 1m 11s
 45 actionable tasks: 45 executed
 
-2019-05-26 17:56:18,058 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-26 17:56:18,058 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868120199-0/src/HockeySDK-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868120199-0/src/HockeySDK-Android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-26 17:56:27,250 INFO  ProjectTaskService - Detected possible tasks: 83
-2019-05-26 17:56:27,250 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-05-26 17:56:27,250 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868120199-0/src/HockeySDK-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558868120199-0/src/HockeySDK-Android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-05-26 17:56:37,202 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-01 11:23:47,219 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-01 11:23:47,219 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564633329660-0/src/HockeySDK-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564633329660-0/src/HockeySDK-Android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-01 11:23:55,308 INFO  ProjectTaskService - Detected possible tasks: 83
+2019-08-01 11:23:55,309 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-08-01 11:23:55,309 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564633329660-0/src/HockeySDK-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564633329660-0/src/HockeySDK-Android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-08-01 11:24:04,293 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :hockeysdk
 WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -196,17 +195,17 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Task :hockeysdk:bundleReleaseAar UP-TO-DATE
 > Task :hockeysdk:compileReleaseSources UP-TO-DATE
 > Task :hockeysdk:mergeReleaseResources UP-TO-DATE
-> Task :hockeysdk:verifyReleaseResources
-> Task :hockeysdk:assembleRelease
-> Task :hockeysdk:assemble
+> Task :hockeysdk:verifyReleaseResources UP-TO-DATE
+> Task :hockeysdk:assembleRelease UP-TO-DATE
+> Task :hockeysdk:assemble UP-TO-DATE
 > Task :hockeysdk:build
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/4.10.3/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 9s
-45 actionable tasks: 1 executed, 44 up-to-date
+BUILD SUCCESSFUL in 8s
+45 actionable tasks: 45 up-to-date
 
-2019-05-26 17:56:37,225 ERROR FullProcessService - Project build has not produced APK file
-2019-05-26 17:56:37,247 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-01 11:24:04,314 ERROR FullProcessService - Project build has not produced APK file
+2019-08-01 11:24:04,332 ERROR FullProcessService - Could not find generated or existed APK file
