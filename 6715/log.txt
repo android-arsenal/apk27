@@ -1,37 +1,37 @@
-2019-06-09 22:23:26,443 INFO  DownloadService - Downloading "https://github.com/PicnicSupermarket/FingerPaintView/archive/master.zip", attempt 3
-2019-06-09 22:23:28,775 INFO  DownloadService - Downloaded https://github.com/PicnicSupermarket/FingerPaintView/archive/master.zip, attempt 3
-2019-06-09 22:23:28,775 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/master.zip": 329 KB
-2019-06-09 22:23:28,775 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-06-09 22:23:28,781 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/master.zip: true
-2019-06-09 22:23:28,781 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src'.
-2019-06-09 22:23:28,798 INFO  FullProcessService - Size of directory with sources: 406 KB
-2019-06-09 22:23:28,798 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src]
-2019-06-09 22:23:28,816 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src/.git/
+2019-08-13 15:14:35,063 INFO  DownloadService - Downloading "https://github.com/PicnicSupermarket/FingerPaintView/archive/master.zip", attempt 3
+2019-08-13 15:14:37,774 INFO  DownloadService - Downloaded https://github.com/PicnicSupermarket/FingerPaintView/archive/master.zip, attempt 3
+2019-08-13 15:14:37,775 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/master.zip": 329 KB
+2019-08-13 15:14:37,775 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-13 15:14:37,775 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/master.zip: true
+2019-08-13 15:14:37,776 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src'.
+2019-08-13 15:14:37,794 INFO  FullProcessService - Size of directory with sources: 406 KB
+2019-08-13 15:14:37,795 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src]
+2019-08-13 15:14:37,844 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src/.git/
 
-2019-06-09 22:23:28,818 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src/FingerPaintView-master/gradlew
-2019-06-09 22:23:28,821 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src/FingerPaintView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src/FingerPaintView-master/fingerpaintview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src/FingerPaintView-master/build.gradle
-2019-06-09 22:23:28,823 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src/FingerPaintView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src/FingerPaintView-master/fingerpaintview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src/FingerPaintView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src/FingerPaintView-master/settings.gradle
-2019-06-09 22:23:28,823 INFO  ProjectBuildService - Remote scripts: none
-2019-06-09 22:23:28,823 INFO  ProjectFixService - Fixing project...
-2019-06-09 22:23:28,828 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src/FingerPaintView-master/app/local.properties
-2019-06-09 22:23:28,829 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src/FingerPaintView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=21,targetSdkVersion=26]
-2019-06-09 22:23:28,829 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src/FingerPaintView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=21,targetSdkVersion=26]
-2019-06-09 22:23:28,829 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src/FingerPaintView-master/fingerpaintview/local.properties
-2019-06-09 22:23:28,830 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src/FingerPaintView-master/fingerpaintview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=21,targetSdkVersion=26]
-2019-06-09 22:23:28,830 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src/FingerPaintView-master/fingerpaintview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=21,targetSdkVersion=26]
-2019-06-09 22:23:28,831 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src/FingerPaintView-master/local.properties
-2019-06-09 22:23:28,831 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-06-09 22:23:28,832 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-06-09 22:23:28,832 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src/FingerPaintView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=21,targetSdkVersion=26]
-2019-06-09 22:23:28,832 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src/FingerPaintView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=21,targetSdkVersion=26]
-2019-06-09 22:23:28,833 INFO  ProjectFixService - Project was maybe fixed
-2019-06-09 22:23:28,833 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-09 22:23:28,833 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src/FingerPaintView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src/FingerPaintView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-09 22:23:39,289 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-06-09 22:23:39,290 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-06-09 22:23:39,290 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-06-09 22:23:39,290 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src/FingerPaintView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src/FingerPaintView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-06-09 22:23:41,796 ERROR SysUtils - Could not process external command
+2019-08-13 15:14:37,847 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src/FingerPaintView-master/gradlew
+2019-08-13 15:14:37,850 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src/FingerPaintView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src/FingerPaintView-master/fingerpaintview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src/FingerPaintView-master/build.gradle
+2019-08-13 15:14:37,853 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src/FingerPaintView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src/FingerPaintView-master/fingerpaintview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src/FingerPaintView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src/FingerPaintView-master/settings.gradle
+2019-08-13 15:14:37,853 INFO  ProjectBuildService - Remote scripts: none
+2019-08-13 15:14:37,853 INFO  ProjectFixService - Fixing project...
+2019-08-13 15:14:37,860 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src/FingerPaintView-master/app/local.properties
+2019-08-13 15:14:37,862 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src/FingerPaintView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=21,targetSdkVersion=26]
+2019-08-13 15:14:37,862 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src/FingerPaintView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=21,targetSdkVersion=26]
+2019-08-13 15:14:37,863 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src/FingerPaintView-master/fingerpaintview/local.properties
+2019-08-13 15:14:37,864 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src/FingerPaintView-master/fingerpaintview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=21,targetSdkVersion=26]
+2019-08-13 15:14:37,864 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src/FingerPaintView-master/fingerpaintview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=21,targetSdkVersion=26]
+2019-08-13 15:14:37,865 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src/FingerPaintView-master/local.properties
+2019-08-13 15:14:37,866 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-08-13 15:14:37,866 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-08-13 15:14:37,868 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src/FingerPaintView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=21,targetSdkVersion=26]
+2019-08-13 15:14:37,868 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src/FingerPaintView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=21,targetSdkVersion=26]
+2019-08-13 15:14:37,868 INFO  ProjectFixService - Project was maybe fixed
+2019-08-13 15:14:37,868 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-13 15:14:37,869 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src/FingerPaintView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src/FingerPaintView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-13 15:14:41,768 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-13 15:14:41,768 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-13 15:14:41,768 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-13 15:14:41,769 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src/FingerPaintView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src/FingerPaintView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-13 15:14:44,649 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -59,12 +59,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-06-09 22:23:41,796 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-13 15:14:44,650 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src/FingerPaintView-master/app/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src/FingerPaintView-master/app/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating project ':app'.
@@ -184,7 +184,7 @@ Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_dwbprk6q852petcyf05781ccp.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src/FingerPaintView-master/app/build.gradle:1)
+	at build_1mg7vvv2yql7kf5y57qzt6e00.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src/FingerPaintView-master/app/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 97 more
 Caused by: java.lang.RuntimeException: Minimum supported Gradle version is 5.1.1. Current version is 4.4. If using the gradle wrapper, try editing the distributionUrl in /Users/vbauer/Documents/workspace/java/bloodhound/gradle/wrapper/gradle-wrapper.properties to gradle-5.1.1-all.zip
@@ -211,13 +211,13 @@ Caused by: java.lang.RuntimeException: Minimum supported Gradle version is 5.1.1
 
 BUILD FAILED in 2s
 
-2019-06-09 22:23:41,799 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-09 22:23:41,799 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src/FingerPaintView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src/FingerPaintView-master/fingerpaintview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-09 22:23:44,488 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-06-09 22:23:44,488 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-06-09 22:23:44,488 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-06-09 22:23:44,488 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src/FingerPaintView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src/FingerPaintView-master/fingerpaintview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-06-09 22:23:46,918 ERROR SysUtils - Could not process external command
+2019-08-13 15:14:44,653 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-13 15:14:44,654 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src/FingerPaintView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src/FingerPaintView-master/fingerpaintview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-13 15:14:47,497 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-13 15:14:47,498 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-13 15:14:47,498 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-13 15:14:47,498 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src/FingerPaintView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src/FingerPaintView-master/fingerpaintview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-13 15:14:50,101 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -245,12 +245,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-06-09 22:23:46,918 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-13 15:14:50,102 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src/FingerPaintView-master/fingerpaintview/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src/FingerPaintView-master/fingerpaintview/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating project ':fingerpaintview'.
@@ -370,7 +370,7 @@ Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_dkfbgngxxx7bmpwu6mhz32y39.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src/FingerPaintView-master/fingerpaintview/build.gradle:1)
+	at build_3qpgt3s46t22hwj04by758g3a.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src/FingerPaintView-master/fingerpaintview/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 97 more
 Caused by: java.lang.RuntimeException: Minimum supported Gradle version is 5.1.1. Current version is 4.4. If using the gradle wrapper, try editing the distributionUrl in /Users/vbauer/Documents/workspace/java/bloodhound/gradle/wrapper/gradle-wrapper.properties to gradle-5.1.1-all.zip
@@ -397,13 +397,13 @@ Caused by: java.lang.RuntimeException: Minimum supported Gradle version is 5.1.1
 
 BUILD FAILED in 2s
 
-2019-06-09 22:23:46,921 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-09 22:23:46,921 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src/FingerPaintView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src/FingerPaintView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-09 22:23:49,393 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-06-09 22:23:49,393 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-06-09 22:23:49,393 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-06-09 22:23:49,393 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src/FingerPaintView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src/FingerPaintView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-06-09 22:23:51,852 ERROR SysUtils - Could not process external command
+2019-08-13 15:14:50,106 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-13 15:14:50,106 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src/FingerPaintView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src/FingerPaintView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-13 15:14:52,700 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-13 15:14:52,700 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-13 15:14:52,700 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-13 15:14:52,700 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src/FingerPaintView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src/FingerPaintView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-13 15:14:55,181 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -431,12 +431,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-06-09 22:23:51,852 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-13 15:14:55,181 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src/FingerPaintView-master/app/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src/FingerPaintView-master/app/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating project ':app'.
@@ -556,7 +556,7 @@ Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_dwbprk6q852petcyf05781ccp.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093806434-0/src/FingerPaintView-master/app/build.gradle:1)
+	at build_1mg7vvv2yql7kf5y57qzt6e00.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684075054-0/src/FingerPaintView-master/app/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 97 more
 Caused by: java.lang.RuntimeException: Minimum supported Gradle version is 5.1.1. Current version is 4.4. If using the gradle wrapper, try editing the distributionUrl in /Users/vbauer/Documents/workspace/java/bloodhound/gradle/wrapper/gradle-wrapper.properties to gradle-5.1.1-all.zip
@@ -583,5 +583,5 @@ Caused by: java.lang.RuntimeException: Minimum supported Gradle version is 5.1.1
 
 BUILD FAILED in 2s
 
-2019-06-09 22:23:51,855 ERROR FullProcessService - Project build has not produced APK file
-2019-06-09 22:23:51,857 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-13 15:14:55,185 ERROR FullProcessService - Project build has not produced APK file
+2019-08-13 15:14:55,187 ERROR FullProcessService - Could not find generated or existed APK file
