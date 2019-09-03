@@ -1,37 +1,37 @@
-2019-03-10 03:06:24,317 INFO  DownloadService - Downloading "https://github.com/HassanUsman/CircularDialogs/archive/master.zip", attempt 3
-2019-03-10 03:06:28,416 INFO  DownloadService - Downloaded https://github.com/HassanUsman/CircularDialogs/archive/master.zip, attempt 3
-2019-03-10 03:06:28,416 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161984309-0/master.zip": 2 MB
-2019-03-10 03:06:28,416 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-10 03:06:28,417 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161984309-0/master.zip: true
-2019-03-10 03:06:28,417 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161984309-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161984309-0/src'.
-2019-03-10 03:06:28,514 INFO  FullProcessService - Size of directory with sources: 10 MB
-2019-03-10 03:06:28,515 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161984309-0/src]
-2019-03-10 03:06:28,536 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161984309-0/src/.git/
+2019-09-03 16:00:19,720 INFO  DownloadService - Downloading "https://github.com/HassanUsman/CircularDialogs/archive/master.zip", attempt 3
+2019-09-03 16:00:23,660 INFO  DownloadService - Downloaded https://github.com/HassanUsman/CircularDialogs/archive/master.zip, attempt 3
+2019-09-03 16:00:23,661 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501219715-0/master.zip": 2 MB
+2019-09-03 16:00:23,661 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-03 16:00:23,667 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501219715-0/master.zip: true
+2019-09-03 16:00:23,667 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501219715-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501219715-0/src'.
+2019-09-03 16:00:23,767 INFO  FullProcessService - Size of directory with sources: 10 MB
+2019-09-03 16:00:23,768 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501219715-0/src]
+2019-09-03 16:00:23,792 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501219715-0/src/.git/
 
-2019-03-10 03:06:28,542 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161984309-0/src/CircularDialogs-master/gradlew
-2019-03-10 03:06:28,548 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161984309-0/src/CircularDialogs-master/CircularDialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161984309-0/src/CircularDialogs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161984309-0/src/CircularDialogs-master/build.gradle
-2019-03-10 03:06:28,554 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161984309-0/src/CircularDialogs-master/app/deploy.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161984309-0/src/CircularDialogs-master/app/keystore.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161984309-0/src/CircularDialogs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161984309-0/src/CircularDialogs-master/CircularDialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161984309-0/src/CircularDialogs-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161984309-0/src/CircularDialogs-master/settings.gradle
-2019-03-10 03:06:28,555 INFO  ProjectBuildService - Remote scripts: none
-2019-03-10 03:06:28,555 INFO  ProjectFixService - Fixing project...
-2019-03-10 03:06:28,568 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161984309-0/src/CircularDialogs-master/CircularDialog/local.properties
-2019-03-10 03:06:28,570 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161984309-0/src/CircularDialogs-master/CircularDialog/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2019-03-10 03:06:28,570 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161984309-0/src/CircularDialogs-master/CircularDialog/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2019-03-10 03:06:28,571 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161984309-0/src/CircularDialogs-master/app/local.properties
-2019-03-10 03:06:28,572 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161984309-0/src/CircularDialogs-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2019-03-10 03:06:28,572 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161984309-0/src/CircularDialogs-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2019-03-10 03:06:28,573 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161984309-0/src/CircularDialogs-master/local.properties
-2019-03-10 03:06:28,574 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2019-03-10 03:06:28,574 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2019-03-10 03:06:28,576 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161984309-0/src/CircularDialogs-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2019-03-10 03:06:28,576 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161984309-0/src/CircularDialogs-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2019-03-10 03:06:28,577 INFO  ProjectFixService - Project was maybe fixed
-2019-03-10 03:06:28,577 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-10 03:06:28,577 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161984309-0/src/CircularDialogs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161984309-0/src/CircularDialogs-master/CircularDialog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-10 03:06:34,636 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-10 03:06:34,636 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-10 03:06:34,636 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-10 03:06:34,636 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161984309-0/src/CircularDialogs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161984309-0/src/CircularDialogs-master/CircularDialog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-10 03:06:40,950 ERROR SysUtils - Could not process external command
+2019-09-03 16:00:23,797 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501219715-0/src/CircularDialogs-master/gradlew
+2019-09-03 16:00:23,803 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501219715-0/src/CircularDialogs-master/CircularDialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501219715-0/src/CircularDialogs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501219715-0/src/CircularDialogs-master/build.gradle
+2019-09-03 16:00:23,807 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501219715-0/src/CircularDialogs-master/app/deploy.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501219715-0/src/CircularDialogs-master/app/keystore.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501219715-0/src/CircularDialogs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501219715-0/src/CircularDialogs-master/CircularDialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501219715-0/src/CircularDialogs-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501219715-0/src/CircularDialogs-master/settings.gradle
+2019-09-03 16:00:23,808 INFO  ProjectBuildService - Remote scripts: none
+2019-09-03 16:00:23,808 INFO  ProjectFixService - Fixing project...
+2019-09-03 16:00:23,820 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501219715-0/src/CircularDialogs-master/CircularDialog/local.properties
+2019-09-03 16:00:23,822 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501219715-0/src/CircularDialogs-master/CircularDialog/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-09-03 16:00:23,823 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501219715-0/src/CircularDialogs-master/CircularDialog/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-09-03 16:00:23,825 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501219715-0/src/CircularDialogs-master/app/local.properties
+2019-09-03 16:00:23,826 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501219715-0/src/CircularDialogs-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-09-03 16:00:23,826 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501219715-0/src/CircularDialogs-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-09-03 16:00:23,828 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501219715-0/src/CircularDialogs-master/local.properties
+2019-09-03 16:00:23,828 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-09-03 16:00:23,829 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-09-03 16:00:23,831 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501219715-0/src/CircularDialogs-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-09-03 16:00:23,831 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501219715-0/src/CircularDialogs-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-09-03 16:00:23,833 INFO  ProjectFixService - Project was maybe fixed
+2019-09-03 16:00:23,833 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-03 16:00:23,833 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501219715-0/src/CircularDialogs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501219715-0/src/CircularDialogs-master/CircularDialog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-03 16:00:30,561 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-09-03 16:00:30,561 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-09-03 16:00:30,561 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-09-03 16:00:30,562 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501219715-0/src/CircularDialogs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501219715-0/src/CircularDialogs-master/CircularDialog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-09-03 16:00:35,853 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -59,7 +59,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-10 03:06:40,950 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-03 16:00:35,854 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -188,22 +188,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
 	... 85 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 5s
 
-2019-03-10 03:06:40,957 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-10 03:06:40,958 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161984309-0/src/CircularDialogs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161984309-0/src/CircularDialogs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-10 03:06:47,169 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-10 03:06:47,169 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-10 03:06:47,169 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-10 03:06:47,169 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161984309-0/src/CircularDialogs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161984309-0/src/CircularDialogs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-10 03:06:53,429 ERROR SysUtils - Could not process external command
+2019-09-03 16:00:35,860 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-03 16:00:35,860 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501219715-0/src/CircularDialogs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501219715-0/src/CircularDialogs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-03 16:00:41,326 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-09-03 16:00:41,327 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-09-03 16:00:41,327 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-09-03 16:00:41,327 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501219715-0/src/CircularDialogs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501219715-0/src/CircularDialogs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-09-03 16:00:48,914 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -231,7 +231,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-10 03:06:53,430 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-03 16:00:48,914 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -360,22 +360,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
 	... 85 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 7s
 
-2019-03-10 03:06:53,436 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-10 03:06:53,437 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161984309-0/src/CircularDialogs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161984309-0/src/CircularDialogs-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-10 03:06:59,019 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-10 03:06:59,019 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-10 03:06:59,019 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-10 03:06:59,019 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161984309-0/src/CircularDialogs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552161984309-0/src/CircularDialogs-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-10 03:07:05,219 ERROR SysUtils - Could not process external command
+2019-09-03 16:00:48,921 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-03 16:00:48,922 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501219715-0/src/CircularDialogs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501219715-0/src/CircularDialogs-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-03 16:00:54,641 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-09-03 16:00:54,642 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-09-03 16:00:54,642 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-09-03 16:00:54,642 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501219715-0/src/CircularDialogs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501219715-0/src/CircularDialogs-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-09-03 16:01:00,907 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -403,7 +403,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-10 03:07:05,219 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-03 16:01:00,907 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -539,7 +539,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 6s
 
-2019-03-10 03:07:05,227 ERROR FullProcessService - Project build has not produced APK file
-2019-03-10 03:07:05,233 ERROR FullProcessService - Could not find generated or existed APK file
+2019-09-03 16:01:00,913 ERROR FullProcessService - Project build has not produced APK file
+2019-09-03 16:01:00,918 ERROR FullProcessService - Could not find generated or existed APK file
