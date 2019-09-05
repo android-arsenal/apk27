@@ -1,37 +1,33 @@
-2019-07-22 11:51:35,457 INFO  DownloadService - Downloading "https://github.com/evrencoskun/TableView/archive/master.zip", attempt 3
-2019-07-22 11:54:07,896 DEBUG DownloadService - Error during downloading "https://github.com/evrencoskun/TableView/archive/master.zip": org.apache.http.TruncatedChunkException: Truncated chunk (expected size: 19,922,649; actual size: 1,830,219)
-2019-07-22 11:54:07,896 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-07-22 11:54:09,300 INFO  GithubDownloadService - Default branch of this repository: master
-2019-07-22 11:54:09,300 INFO  DownloadService - Downloading "https://github.com/evrencoskun/TableView/archive/master.zip", attempt 3
-2019-07-22 11:54:27,982 INFO  DownloadService - Downloaded https://github.com/evrencoskun/TableView/archive/master.zip, attempt 3
-2019-07-22 11:54:27,983 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563771095454-0/master.zip": 25 MB
-2019-07-22 11:54:27,983 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-22 11:54:27,989 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563771095454-0/master.zip: true
-2019-07-22 11:54:27,989 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563771095454-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563771095454-0/src'.
-2019-07-22 11:54:28,237 INFO  FullProcessService - Size of directory with sources: 26 MB
-2019-07-22 11:54:28,237 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563771095454-0/src]
-2019-07-22 11:54:28,253 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563771095454-0/src/.git/
+2019-09-05 11:01:54,577 INFO  DownloadService - Downloading "https://github.com/evrencoskun/TableView/archive/master.zip", attempt 3
+2019-09-05 11:02:14,650 INFO  DownloadService - Downloaded https://github.com/evrencoskun/TableView/archive/master.zip, attempt 3
+2019-09-05 11:02:14,651 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656114575-0/master.zip": 25 MB
+2019-09-05 11:02:14,651 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-05 11:02:14,651 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656114575-0/master.zip: true
+2019-09-05 11:02:14,652 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656114575-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656114575-0/src'.
+2019-09-05 11:02:14,916 INFO  FullProcessService - Size of directory with sources: 26 MB
+2019-09-05 11:02:14,916 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656114575-0/src]
+2019-09-05 11:02:14,933 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656114575-0/src/.git/
 
-2019-07-22 11:54:28,257 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563771095454-0/src/TableView-master/gradlew
-2019-07-22 11:54:28,263 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563771095454-0/src/TableView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563771095454-0/src/TableView-master/tableview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563771095454-0/src/TableView-master/build.gradle
-2019-07-22 11:54:28,266 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563771095454-0/src/TableView-master/tableview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563771095454-0/src/TableView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563771095454-0/src/TableView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563771095454-0/src/TableView-master/settings.gradle
-2019-07-22 11:54:28,266 INFO  ProjectBuildService - Remote scripts: none
-2019-07-22 11:54:28,266 INFO  ProjectFixService - Fixing project...
-2019-07-22 11:54:28,275 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563771095454-0/src/TableView-master/app/local.properties
-2019-07-22 11:54:28,276 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563771095454-0/src/TableView-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-07-22 11:54:28,276 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563771095454-0/src/TableView-master/tableview/local.properties
-2019-07-22 11:54:28,276 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563771095454-0/src/TableView-master/tableview/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-07-22 11:54:28,277 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563771095454-0/src/TableView-master/local.properties
-2019-07-22 11:54:28,277 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-07-22 11:54:28,278 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-07-22 11:54:28,278 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563771095454-0/src/TableView-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-07-22 11:54:28,278 INFO  ProjectFixService - Project was maybe fixed
-2019-07-22 11:54:28,278 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-22 11:54:28,279 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563771095454-0/src/TableView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563771095454-0/src/TableView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-22 11:54:35,933 INFO  ProjectTaskService - Detected possible tasks: 67
-2019-07-22 11:54:35,933 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-22 11:54:35,933 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563771095454-0/src/TableView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563771095454-0/src/TableView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-22 11:55:16,244 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.4.1/userguide/gradle_daemon.html.
+2019-09-05 11:02:14,936 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656114575-0/src/TableView-master/gradlew
+2019-09-05 11:02:14,944 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656114575-0/src/TableView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656114575-0/src/TableView-master/tableview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656114575-0/src/TableView-master/build.gradle
+2019-09-05 11:02:14,948 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656114575-0/src/TableView-master/tableview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656114575-0/src/TableView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656114575-0/src/TableView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656114575-0/src/TableView-master/settings.gradle
+2019-09-05 11:02:14,948 INFO  ProjectBuildService - Remote scripts: none
+2019-09-05 11:02:14,948 INFO  ProjectFixService - Fixing project...
+2019-09-05 11:02:14,957 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656114575-0/src/TableView-master/app/local.properties
+2019-09-05 11:02:14,958 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656114575-0/src/TableView-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-09-05 11:02:14,958 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656114575-0/src/TableView-master/tableview/local.properties
+2019-09-05 11:02:14,959 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656114575-0/src/TableView-master/tableview/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-09-05 11:02:14,959 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656114575-0/src/TableView-master/local.properties
+2019-09-05 11:02:14,959 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-09-05 11:02:14,960 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-09-05 11:02:14,961 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656114575-0/src/TableView-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-09-05 11:02:14,961 INFO  ProjectFixService - Project was maybe fixed
+2019-09-05 11:02:14,961 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-05 11:02:14,961 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656114575-0/src/TableView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656114575-0/src/TableView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-05 11:02:24,739 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-09-05 11:02:24,739 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-09-05 11:02:24,739 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656114575-0/src/TableView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656114575-0/src/TableView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-09-05 11:03:11,992 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.4.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
@@ -70,7 +66,7 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :tableview:javaPreCompileDebug
 
 > Task :tableview:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563771095454-0/src/TableView-master/tableview/src/main/java/com/evrencoskun/tableview/adapter/recyclerview/CellRecyclerView.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656114575-0/src/TableView-master/tableview/src/main/java/com/evrencoskun/tableview/adapter/recyclerview/CellRecyclerView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
@@ -80,7 +76,7 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563771095454-0/src/TableView-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:315: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656114575-0/src/TableView-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:315: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
 
 > Task :app:mergeDebugResources
 > Task :app:createDebugCompatibleScreenManifests
@@ -138,7 +134,7 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :tableview:javaPreCompileRelease
 
 > Task :tableview:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563771095454-0/src/TableView-master/tableview/src/main/java/com/evrencoskun/tableview/adapter/recyclerview/CellRecyclerView.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656114575-0/src/TableView-master/tableview/src/main/java/com/evrencoskun/tableview/adapter/recyclerview/CellRecyclerView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
@@ -148,7 +144,7 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563771095454-0/src/TableView-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml:315: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656114575-0/src/TableView-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml:315: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
 
 > Task :app:mergeReleaseResources
 > Task :app:createReleaseCompatibleScreenManifests
@@ -196,7 +192,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 39s
+BUILD SUCCESSFUL in 46s
 91 actionable tasks: 91 executed
 
-2019-07-22 11:55:16,328 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563771095454-0/src/TableView-master/app/build/outputs/apk/debug/app-debug.apk
+2019-09-05 11:03:12,078 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656114575-0/src/TableView-master/app/build/outputs/apk/debug/app-debug.apk
