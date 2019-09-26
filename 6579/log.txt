@@ -1,39 +1,36 @@
-2019-03-09 21:48:53,140 INFO  DownloadService - Downloading "https://github.com/enricocid/ColorBox-library/archive/master.zip", attempt 3
-2019-03-09 21:49:53,924 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-03-09 21:49:55,154 INFO  GithubDownloadService - Default branch of this repository: master
-2019-03-09 21:49:55,154 INFO  DownloadService - Downloading "https://github.com/enricocid/ColorBox-library/archive/master.zip", attempt 3
-2019-03-09 21:50:57,109 DEBUG FullProcessService - Repository https://github.com/enricocid/ColorBox-library available: true
-2019-03-09 21:50:57,109 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-03-09 21:50:57,110 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/enricocid/ColorBox-library, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142933137-0/src]
-2019-03-09 21:51:01,195 INFO  SysUtils - 
-2019-03-09 21:51:01,203 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142933137-0/src/.git": true
-2019-03-09 21:51:01,207 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-03-09 21:51:01,208 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142933137-0/src]
-2019-03-09 21:51:01,225 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142933137-0/src/.git/
+2019-09-26 15:24:45,716 INFO  DownloadService - Downloading "https://github.com/enricocid/ColorBox-library/archive/master.zip", attempt 3
+2019-09-26 15:24:47,451 INFO  DownloadService - Downloaded https://github.com/enricocid/ColorBox-library/archive/master.zip, attempt 3
+2019-09-26 15:24:47,452 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486285712-0/master.zip": 1 MB
+2019-09-26 15:24:47,452 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-26 15:24:47,452 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486285712-0/master.zip: true
+2019-09-26 15:24:47,453 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486285712-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486285712-0/src'.
+2019-09-26 15:24:47,486 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-09-26 15:24:47,486 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486285712-0/src]
+2019-09-26 15:24:47,507 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486285712-0/src/.git/
 
-2019-03-09 21:51:01,229 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142933137-0/src/gradlew
-2019-03-09 21:51:01,232 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142933137-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142933137-0/src/cbl/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142933137-0/src/build.gradle
-2019-03-09 21:51:01,236 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142933137-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142933137-0/src/cbl/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142933137-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142933137-0/src/settings.gradle
-2019-03-09 21:51:01,236 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/enricocid/bintrayScript/master/productionScript.gradle", attempt 3
-2019-03-09 21:51:01,467 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/enricocid/bintrayScript/master/productionScript.gradle, attempt 3
-2019-03-09 21:51:01,467 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/enricocid/bintrayScript/master/productionScript.gradle
-2019-03-09 21:51:01,468 INFO  ProjectFixService - Fixing project...
-2019-03-09 21:51:01,479 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142933137-0/src/app/local.properties
-2019-03-09 21:51:01,480 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142933137-0/src/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
-2019-03-09 21:51:01,480 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142933137-0/src/cbl/local.properties
-2019-03-09 21:51:01,480 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142933137-0/src/cbl/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
-2019-03-09 21:51:01,481 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142933137-0/src/local.properties
-2019-03-09 21:51:01,481 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-03-09 21:51:01,482 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-03-09 21:51:01,483 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142933137-0/src/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
-2019-03-09 21:51:01,483 INFO  ProjectFixService - Project was maybe fixed
-2019-03-09 21:51:01,483 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-09 21:51:01,483 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142933137-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142933137-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-09 21:51:08,212 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-09 21:51:08,212 INFO  ProjectTaskService - Detected possible tasks: 3
-2019-03-09 21:51:08,213 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2019-03-09 21:51:08,213 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142933137-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142933137-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2019-03-09 21:51:14,533 ERROR SysUtils - Could not process external command
+2019-09-26 15:24:47,510 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486285712-0/src/ColorBox-library-master/gradlew
+2019-09-26 15:24:47,513 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486285712-0/src/ColorBox-library-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486285712-0/src/ColorBox-library-master/cbl/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486285712-0/src/ColorBox-library-master/build.gradle
+2019-09-26 15:24:47,515 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486285712-0/src/ColorBox-library-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486285712-0/src/ColorBox-library-master/cbl/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486285712-0/src/ColorBox-library-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486285712-0/src/ColorBox-library-master/settings.gradle
+2019-09-26 15:24:47,516 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/enricocid/bintrayScript/master/productionScript.gradle", attempt 3
+2019-09-26 15:24:48,432 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/enricocid/bintrayScript/master/productionScript.gradle, attempt 3
+2019-09-26 15:24:48,433 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/enricocid/bintrayScript/master/productionScript.gradle
+2019-09-26 15:24:48,433 INFO  ProjectFixService - Fixing project...
+2019-09-26 15:24:48,445 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486285712-0/src/ColorBox-library-master/app/local.properties
+2019-09-26 15:24:48,445 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486285712-0/src/ColorBox-library-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-09-26 15:24:48,446 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486285712-0/src/ColorBox-library-master/cbl/local.properties
+2019-09-26 15:24:48,446 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486285712-0/src/ColorBox-library-master/cbl/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-09-26 15:24:48,446 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486285712-0/src/ColorBox-library-master/local.properties
+2019-09-26 15:24:48,447 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-09-26 15:24:48,447 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-09-26 15:24:48,447 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486285712-0/src/ColorBox-library-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-09-26 15:24:48,448 INFO  ProjectFixService - Project was maybe fixed
+2019-09-26 15:24:48,448 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-26 15:24:48,448 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486285712-0/src/ColorBox-library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486285712-0/src/ColorBox-library-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-26 15:24:58,607 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-09-26 15:24:58,607 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-09-26 15:24:58,608 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-09-26 15:24:58,608 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486285712-0/src/ColorBox-library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486285712-0/src/ColorBox-library-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-09-26 15:25:04,221 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -60,7 +57,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-09 21:51:14,533 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-26 15:25:04,221 INFO  SysUtils - Configuration on demand is an incubating feature.
 The CompileOptions.bootClasspath property has been deprecated and is scheduled to be removed in Gradle 5.0. Please use the CompileOptions.bootstrapClasspath property instead.
 	at org.gradle.api.tasks.compile.CompileOptions.setBootClasspath(CompileOptions.java:273)
 	at org.gradle.api.tasks.compile.CompileOptions_Decorated.setBootClasspath(Unknown Source)
@@ -304,6 +301,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 5s
 
-2019-03-09 21:51:14,538 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552142933137-0/src/files/release/app-release.apk
+2019-09-26 15:25:04,225 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486285712-0/src/ColorBox-library-master/files/release/app-release.apk

@@ -1,195 +1,173 @@
-2019-05-16 18:40:27,884 INFO  DownloadService - Downloading "https://github.com/daothanhduy305/KRichEditor/archive/master.zip", attempt 3
-2019-05-16 18:40:30,829 INFO  DownloadService - Downloaded https://github.com/daothanhduy305/KRichEditor/archive/master.zip, attempt 3
-2019-05-16 18:40:30,829 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558006827876-0/master.zip": 957 KB
-2019-05-16 18:40:30,829 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-16 18:40:30,830 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558006827876-0/master.zip: true
-2019-05-16 18:40:30,830 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558006827876-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558006827876-0/src'.
-2019-05-16 18:40:30,889 INFO  FullProcessService - Size of directory with sources: 2 MB
-2019-05-16 18:40:30,889 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558006827876-0/src]
-2019-05-16 18:40:30,914 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558006827876-0/src/.git/
+2019-09-26 15:20:52,825 INFO  DownloadService - Downloading "https://github.com/daothanhduy305/KRichEditor/archive/master.zip", attempt 3
+2019-09-26 15:20:55,914 INFO  DownloadService - Downloaded https://github.com/daothanhduy305/KRichEditor/archive/master.zip, attempt 3
+2019-09-26 15:20:55,914 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486052821-0/master.zip": 957 KB
+2019-09-26 15:20:55,914 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-26 15:20:55,920 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486052821-0/master.zip: true
+2019-09-26 15:20:55,920 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486052821-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486052821-0/src'.
+2019-09-26 15:20:55,970 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-09-26 15:20:55,970 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486052821-0/src]
+2019-09-26 15:20:55,990 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486052821-0/src/.git/
 
-2019-05-16 18:40:30,920 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558006827876-0/src/KRichEditor-master/gradlew
-2019-05-16 18:40:30,927 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558006827876-0/src/KRichEditor-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558006827876-0/src/KRichEditor-master/krichtexteditor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558006827876-0/src/KRichEditor-master/build.gradle
-2019-05-16 18:40:30,933 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558006827876-0/src/KRichEditor-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558006827876-0/src/KRichEditor-master/krichtexteditor/deploy.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558006827876-0/src/KRichEditor-master/krichtexteditor/keystore.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558006827876-0/src/KRichEditor-master/krichtexteditor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558006827876-0/src/KRichEditor-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558006827876-0/src/KRichEditor-master/settings.gradle
-2019-05-16 18:40:30,934 INFO  ProjectBuildService - Remote scripts: none
-2019-05-16 18:40:30,934 INFO  ProjectFixService - Fixing project...
-2019-05-16 18:40:30,949 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558006827876-0/src/KRichEditor-master/app/local.properties
-2019-05-16 18:40:30,950 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558006827876-0/src/KRichEditor-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-05-16 18:40:30,951 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558006827876-0/src/KRichEditor-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-05-16 18:40:30,952 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558006827876-0/src/KRichEditor-master/krichtexteditor/local.properties
-2019-05-16 18:40:30,953 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558006827876-0/src/KRichEditor-master/krichtexteditor/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-05-16 18:40:30,954 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558006827876-0/src/KRichEditor-master/krichtexteditor/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-05-16 18:40:30,955 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558006827876-0/src/KRichEditor-master/local.properties
-2019-05-16 18:40:30,955 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-05-16 18:40:30,955 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-05-16 18:40:30,957 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558006827876-0/src/KRichEditor-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-05-16 18:40:30,957 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558006827876-0/src/KRichEditor-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-05-16 18:40:30,958 INFO  ProjectFixService - Project was maybe fixed
-2019-05-16 18:40:30,958 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-16 18:40:30,958 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558006827876-0/src/KRichEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558006827876-0/src/KRichEditor-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-16 18:40:39,343 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-05-16 18:40:39,343 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-16 18:40:39,344 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558006827876-0/src/KRichEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558006827876-0/src/KRichEditor-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-16 18:42:16,947 INFO  SysUtils - Configuration on demand is an incubating feature.
-:app:checkDebugClasspath
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-cardview-v7/0.10.8/anko-cardview-v7-0.10.8.aar
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-recyclerview-v7/0.10.8/anko-recyclerview-v7-0.10.8.aar
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-design/0.10.8/anko-design-0.10.8.aar
-Download https://jcenter.bintray.com/org/jetbrains/anko/design-base/0.10.8/design-base-0.10.8.aar
-Download https://jitpack.io/com/github/esafirm/android-image-picker/imagepicker/1.13.1/imagepicker-1.13.1.aar
-Download https://jcenter.bintray.com/com/github/bumptech/glide/gifdecoder/4.5.0/gifdecoder-4.5.0.aar
-Download https://jcenter.bintray.com/com/github/bumptech/glide/disklrucache/4.5.0/disklrucache-4.5.0.jar
-Download https://jcenter.bintray.com/com/github/bumptech/glide/annotations/4.5.0/annotations-4.5.0.jar
-Download https://jcenter.bintray.com/com/github/bumptech/glide/glide/4.5.0/glide-4.5.0.aar
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-recyclerview-v7-coroutines/0.10.8/anko-recyclerview-v7-coroutines-0.10.8.aar
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-design-coroutines/0.10.8/anko-design-coroutines-0.10.8.aar
-Download https://jitpack.io/org/bitbucket/eventbus/core/v1.3.0/core-v1.3.0.jar
-Download https://jitpack.io/org/bitbucket/eventbus/bus/v1.4.4/bus-v1.4.4.jar
-Download https://jitpack.io/com/github/whalemare/sheetmenu/1.3.6/sheetmenu-1.3.6.aar
-Download https://jcenter.bintray.com/com/github/salomonbrys/kotson/kotson/2.5.0/kotson-2.5.0.jar
-:app:preBuild UP-TO-DATE
-:krichtexteditor:preBuild UP-TO-DATE
-:krichtexteditor:preDebugBuild UP-TO-DATE
-:krichtexteditor:checkDebugManifest
-:krichtexteditor:processDebugManifest
-:app:preDebugBuild
-:krichtexteditor:compileDebugAidl NO-SOURCE
-:app:compileDebugAidl NO-SOURCE
-:krichtexteditor:packageDebugRenderscript NO-SOURCE
-:app:compileDebugRenderscript
-:app:checkDebugManifest
-:app:generateDebugBuildConfig
-:app:mainApkListPersistenceDebug
-:app:generateDebugResValues
-:app:generateDebugResources
-:krichtexteditor:compileDebugRenderscript
-:krichtexteditor:generateDebugResValues
-:krichtexteditor:generateDebugResources
-:krichtexteditor:packageDebugResources
-:app:mergeDebugResources
-:app:createDebugCompatibleScreenManifests
-:app:processDebugManifest
-:app:splitsDiscoveryTaskDebug
-:krichtexteditor:generateDebugRFile
-:app:processDebugResources
-:krichtexteditor:generateDebugBuildConfig
-:krichtexteditor:compileDebugKotlin
-:krichtexteditor:prepareLintJar
-:krichtexteditor:generateDebugSources
-:krichtexteditor:javaPreCompileDebug
-:krichtexteditor:compileDebugJavaWithJavac
-:krichtexteditor:processDebugJavaRes NO-SOURCE
-:krichtexteditor:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:app:compileDebugKotlin
-:app:prepareLintJar
-:app:generateDebugSources
-:app:javaPreCompileDebug
-:app:compileDebugJavaWithJavac
-:app:compileDebugNdk NO-SOURCE
-:app:compileDebugSources
-:app:mergeDebugShaders
-:app:compileDebugShaders
-:app:generateDebugAssets
-:krichtexteditor:mergeDebugShaders
-:krichtexteditor:compileDebugShaders
-:krichtexteditor:generateDebugAssets
-:krichtexteditor:packageDebugAssets
-:app:mergeDebugAssets
-:app:transformClassesWithDexBuilderForDebug
-D8: Stripped invalid locals information from 2 methods.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/4cbc5922a54376018307a731162ccaf3ef851a39/kotlin-stdlib-1.3.11.jar: D8: Methods with invalid locals information:
-  java.lang.Object kotlin.sequences.SequencesKt__SequencesKt$ifEmpty$1.invokeSuspend(java.lang.Object)
-  Attempt to read local this but no local information was associated with the value being read.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/4cbc5922a54376018307a731162ccaf3ef851a39/kotlin-stdlib-1.3.11.jar: D8: Methods with invalid locals information:
-  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.invokeSuspend(java.lang.Object)
-  Attempt to read local this but no local information was associated with the value being read.
-D8: Stripped invalid locals information from 1 method.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/4cbc5922a54376018307a731162ccaf3ef851a39/kotlin-stdlib-1.3.11.jar: D8: Methods with invalid locals information:
-  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.invokeSuspend(java.lang.Object)
-  Attempt to read local this but no local information was associated with the value being read.
-:app:transformClassesWithMultidexlistForDebug
-:app:transformDexArchiveWithDexMergerForDebug
-:app:mergeDebugJniLibFolders
-:krichtexteditor:compileDebugNdk NO-SOURCE
-:krichtexteditor:mergeDebugJniLibFolders
-:krichtexteditor:transformNativeLibsWithMergeJniLibsForDebug
-:krichtexteditor:transformNativeLibsWithStripDebugSymbolForDebug
-:krichtexteditor:transformNativeLibsWithIntermediateJniLibsForDebug
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-:app:checkDebugLibraries
-:app:processDebugJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForDebug
-:app:validateSigningDebug
-:app:packageDebug
-:app:assembleDebug
-:app:checkReleaseClasspath
-:krichtexteditor:preReleaseBuild UP-TO-DATE
-:krichtexteditor:checkReleaseManifest
-:krichtexteditor:processReleaseManifest
-:app:preReleaseBuild
-:krichtexteditor:compileReleaseAidl NO-SOURCE
-:app:compileReleaseAidl NO-SOURCE
-:krichtexteditor:packageReleaseRenderscript NO-SOURCE
-:app:compileReleaseRenderscript
-:app:checkReleaseManifest
-:app:generateReleaseBuildConfig
-:app:mainApkListPersistenceRelease
-:app:generateReleaseResValues
-:app:generateReleaseResources
-:krichtexteditor:compileReleaseRenderscript
-:krichtexteditor:generateReleaseResValues
-:krichtexteditor:generateReleaseResources
-:krichtexteditor:packageReleaseResources
-:app:mergeReleaseResources
-:app:createReleaseCompatibleScreenManifests
-:app:processReleaseManifest
-:app:splitsDiscoveryTaskRelease
-:krichtexteditor:generateReleaseRFile
-:app:processReleaseResources
-:krichtexteditor:generateReleaseBuildConfig
-:krichtexteditor:compileReleaseKotlin
-:krichtexteditor:generateReleaseSources
-:krichtexteditor:javaPreCompileRelease
-:krichtexteditor:compileReleaseJavaWithJavac
-:krichtexteditor:processReleaseJavaRes NO-SOURCE
-:krichtexteditor:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:app:compileReleaseKotlin
-:app:generateReleaseSources
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavac
-:app:compileReleaseNdk NO-SOURCE
-:app:compileReleaseSources
-:app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/48bd1f472af5e27954abce4bbf534784/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-:app:mergeReleaseShaders
-:app:compileReleaseShaders
-:app:generateReleaseAssets
-:krichtexteditor:mergeReleaseShaders
-:krichtexteditor:compileReleaseShaders
-:krichtexteditor:generateReleaseAssets
-:krichtexteditor:packageReleaseAssets
-:app:mergeReleaseAssets
-:app:transformClassesWithDexBuilderForRelease
-:app:transformClassesWithMultidexlistForRelease
-:app:transformDexArchiveWithDexMergerForRelease
-:app:mergeReleaseJniLibFolders
-:krichtexteditor:compileReleaseNdk NO-SOURCE
-:krichtexteditor:mergeReleaseJniLibFolders
-:krichtexteditor:transformNativeLibsWithMergeJniLibsForRelease
-:krichtexteditor:transformNativeLibsWithStripDebugSymbolForRelease
-:krichtexteditor:transformNativeLibsWithIntermediateJniLibsForRelease
-:app:transformNativeLibsWithMergeJniLibsForRelease
-:app:transformNativeLibsWithStripDebugSymbolForRelease
-:app:checkReleaseLibraries
-:app:processReleaseJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForRelease
-:app:packageRelease
-:app:assembleRelease
-:app:assemble
-:app:build
+2019-09-26 15:20:55,995 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486052821-0/src/KRichEditor-master/gradlew
+2019-09-26 15:20:56,000 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486052821-0/src/KRichEditor-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486052821-0/src/KRichEditor-master/krichtexteditor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486052821-0/src/KRichEditor-master/build.gradle
+2019-09-26 15:20:56,004 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486052821-0/src/KRichEditor-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486052821-0/src/KRichEditor-master/krichtexteditor/deploy.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486052821-0/src/KRichEditor-master/krichtexteditor/keystore.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486052821-0/src/KRichEditor-master/krichtexteditor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486052821-0/src/KRichEditor-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486052821-0/src/KRichEditor-master/settings.gradle
+2019-09-26 15:20:56,005 INFO  ProjectBuildService - Remote scripts: none
+2019-09-26 15:20:56,005 INFO  ProjectFixService - Fixing project...
+2019-09-26 15:20:56,016 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486052821-0/src/KRichEditor-master/app/local.properties
+2019-09-26 15:20:56,017 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486052821-0/src/KRichEditor-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2019-09-26 15:20:56,017 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486052821-0/src/KRichEditor-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2019-09-26 15:20:56,018 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486052821-0/src/KRichEditor-master/krichtexteditor/local.properties
+2019-09-26 15:20:56,019 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486052821-0/src/KRichEditor-master/krichtexteditor/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2019-09-26 15:20:56,019 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486052821-0/src/KRichEditor-master/krichtexteditor/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2019-09-26 15:20:56,019 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486052821-0/src/KRichEditor-master/local.properties
+2019-09-26 15:20:56,020 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-09-26 15:20:56,020 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-09-26 15:20:56,021 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486052821-0/src/KRichEditor-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2019-09-26 15:20:56,022 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486052821-0/src/KRichEditor-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2019-09-26 15:20:56,022 INFO  ProjectFixService - Project was maybe fixed
+2019-09-26 15:20:56,022 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-26 15:20:56,022 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486052821-0/src/KRichEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486052821-0/src/KRichEditor-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-26 15:21:08,121 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-09-26 15:21:08,122 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-09-26 15:21:08,122 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486052821-0/src/KRichEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486052821-0/src/KRichEditor-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-09-26 15:22:37,936 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :krichtexteditor:preBuild UP-TO-DATE
+> Task :krichtexteditor:preDebugBuild UP-TO-DATE
+> Task :krichtexteditor:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :krichtexteditor:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :krichtexteditor:generateDebugResValues
+> Task :krichtexteditor:compileDebugRenderscript NO-SOURCE
+> Task :krichtexteditor:generateDebugResources
+> Task :krichtexteditor:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :krichtexteditor:checkDebugManifest
+> Task :app:mergeDebugResources
+> Task :krichtexteditor:processDebugManifest
+> Task :app:processDebugManifest
+> Task :krichtexteditor:generateDebugBuildConfig
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :krichtexteditor:mergeDebugShaders
+> Task :krichtexteditor:compileDebugShaders
+> Task :krichtexteditor:generateDebugAssets
+> Task :krichtexteditor:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :krichtexteditor:parseDebugLibraryResources
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :krichtexteditor:processDebugJavaRes NO-SOURCE
+> Task :krichtexteditor:generateDebugRFile
+> Task :app:processDebugResources
+> Task :krichtexteditor:compileDebugKotlin
+> Task :krichtexteditor:javaPreCompileDebug
+> Task :krichtexteditor:compileDebugJavaWithJavac
+> Task :krichtexteditor:bundleLibResDebug
+> Task :krichtexteditor:bundleLibCompileDebug
+> Task :app:compileDebugKotlin
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:mergeDebugJavaResource
+> Task :krichtexteditor:bundleLibRuntimeDebug
+> Task :krichtexteditor:createFullJarDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :krichtexteditor:mergeDebugJniLibFolders
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :krichtexteditor:preReleaseBuild UP-TO-DATE
+> Task :krichtexteditor:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :krichtexteditor:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :krichtexteditor:compileReleaseRenderscript NO-SOURCE
+> Task :krichtexteditor:generateReleaseResValues
+> Task :krichtexteditor:generateReleaseResources
+> Task :krichtexteditor:packageReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :krichtexteditor:checkReleaseManifest
+> Task :krichtexteditor:processReleaseManifest
+> Task :app:processReleaseManifest
+> Task :krichtexteditor:generateReleaseBuildConfig
+> Task :app:mergeReleaseResources
+> Task :krichtexteditor:parseReleaseLibraryResources
+> Task :krichtexteditor:mergeDebugNativeLibs
+> Task :krichtexteditor:stripDebugDebugSymbols
+> Task :krichtexteditor:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:prepareLintJar
+> Task :app:multiDexListDebug
+> Task :krichtexteditor:prepareLintJarForPublish
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :krichtexteditor:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :krichtexteditor:compileReleaseKotlin
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :krichtexteditor:javaPreCompileRelease
+> Task :krichtexteditor:compileReleaseJavaWithJavac
+> Task :krichtexteditor:bundleLibCompileRelease
+> Task :app:compileReleaseKotlin
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
 
-BUILD SUCCESSFUL in 1m 36s
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/af654e4493228e19a8af9f2275f0a49d/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+
+> Task :krichtexteditor:processReleaseJavaRes NO-SOURCE
+> Task :krichtexteditor:bundleLibResRelease
+> Task :krichtexteditor:bundleLibRuntimeRelease
+> Task :krichtexteditor:createFullJarRelease
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :krichtexteditor:mergeReleaseShaders
+> Task :krichtexteditor:compileReleaseShaders
+> Task :krichtexteditor:generateReleaseAssets
+> Task :krichtexteditor:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :krichtexteditor:mergeReleaseJniLibFolders
+> Task :krichtexteditor:mergeReleaseNativeLibs
+> Task :krichtexteditor:stripReleaseDebugSymbols
+> Task :krichtexteditor:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:multiDexListRelease
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 29s
 94 actionable tasks: 94 executed
 
-2019-05-16 18:42:17,200 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558006827876-0/src/KRichEditor-master/app/build/outputs/apk/debug/app-debug.apk
+2019-09-26 15:22:38,048 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569486052821-0/src/KRichEditor-master/app/build/outputs/apk/debug/app-debug.apk
