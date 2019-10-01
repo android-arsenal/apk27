@@ -1,46 +1,43 @@
-2019-08-28 11:48:28,430 INFO  DownloadService - Downloading "https://github.com/artyomd/Injector/archive/master.zip", attempt 3
-2019-08-28 11:48:29,294 INFO  DownloadService - Downloaded https://github.com/artyomd/Injector/archive/master.zip, attempt 3
-2019-08-28 11:48:29,294 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/master.zip": 394 KB
-2019-08-28 11:48:29,294 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-28 11:48:29,299 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/master.zip: true
-2019-08-28 11:48:29,300 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src'.
-2019-08-28 11:48:29,332 INFO  FullProcessService - Size of directory with sources: 470 KB
-2019-08-28 11:48:29,332 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src]
-2019-08-28 11:48:29,348 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/.git/
+2019-10-01 12:35:21,617 INFO  DownloadService - Downloading "https://github.com/artyomd/Injector/archive/master.zip", attempt 3
+2019-10-01 12:35:22,347 INFO  DownloadService - Downloaded https://github.com/artyomd/Injector/archive/master.zip, attempt 3
+2019-10-01 12:35:22,347 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/master.zip": 404 KB
+2019-10-01 12:35:22,347 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-01 12:35:22,348 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/master.zip: true
+2019-10-01 12:35:22,348 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src'.
+2019-10-01 12:35:22,384 INFO  FullProcessService - Size of directory with sources: 479 KB
+2019-10-01 12:35:22,384 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src]
+2019-10-01 12:35:22,434 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/.git/
 
-2019-08-28 11:48:29,352 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android-example/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector/gradlew
-2019-08-28 11:48:29,356 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android-example/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android-example/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector/build.gradle
-2019-08-28 11:48:29,359 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/versions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android-example/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android-example/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android-example/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector/settings.gradle
-2019-08-28 11:48:29,360 INFO  ProjectBuildService - Remote scripts: none
-2019-08-28 11:48:29,360 INFO  ProjectFixService - Fixing project...
-2019-08-28 11:48:29,369 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android/local.properties
-2019-08-28 11:48:29,371 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-08-28 11:48:29,371 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-08-28 11:48:29,372 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android-example/app/local.properties
-2019-08-28 11:48:29,374 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android-example/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-08-28 11:48:29,374 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android-example/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-08-28 11:48:29,375 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android-example/lib/local.properties
-2019-08-28 11:48:29,376 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android-example/lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-08-28 11:48:29,376 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android-example/lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-08-28 11:48:29,377 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/local.properties
-2019-08-28 11:48:29,377 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-08-28 11:48:29,378 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-08-28 11:48:29,379 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-08-28 11:48:29,379 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-08-28 11:48:29,380 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android-example/local.properties
-2019-08-28 11:48:29,382 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android-example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-08-28 11:48:29,382 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android-example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-08-28 11:48:29,383 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector/local.properties
-2019-08-28 11:48:29,384 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-08-28 11:48:29,385 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-08-28 11:48:29,385 INFO  ProjectFixService - Project was maybe fixed
-2019-08-28 11:48:29,385 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-28 11:48:29,386 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-28 11:48:29,393 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 127 (Exit value: 127)
-2019-08-28 11:48:29,394 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-08-28 11:48:29,394 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-08-28 11:48:29,394 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-08-28 11:48:29,401 ERROR SysUtils - Could not process external command
+2019-10-01 12:35:22,438 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android-example/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector/gradlew
+2019-10-01 12:35:22,447 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android-example/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android-example/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector/build.gradle
+2019-10-01 12:35:22,451 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/versions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android-example/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android-example/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android-example/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector/settings.gradle
+2019-10-01 12:35:22,452 INFO  ProjectBuildService - Remote scripts: none
+2019-10-01 12:35:22,452 INFO  ProjectFixService - Fixing project...
+2019-10-01 12:35:22,464 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android/local.properties
+2019-10-01 12:35:22,465 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-10-01 12:35:22,465 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-10-01 12:35:22,467 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android-example/app/local.properties
+2019-10-01 12:35:22,467 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android-example/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-01 12:35:22,467 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android-example/app/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-01 12:35:22,468 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android-example/lib/local.properties
+2019-10-01 12:35:22,469 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android-example/lib/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-01 12:35:22,469 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android-example/lib/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-01 12:35:22,471 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/local.properties
+2019-10-01 12:35:22,472 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.2-all.zip
+2019-10-01 12:35:22,472 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.2-bin.zip)
+2019-10-01 12:35:22,474 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-10-01 12:35:22,475 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android-example/local.properties
+2019-10-01 12:35:22,477 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android-example/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-10-01 12:35:22,478 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector/local.properties
+2019-10-01 12:35:22,479 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-10-01 12:35:22,480 INFO  ProjectFixService - Project was maybe fixed
+2019-10-01 12:35:22,480 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-01 12:35:22,480 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-01 12:35:22,491 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 127 (Exit value: 127)
+2019-10-01 12:35:22,491 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-10-01 12:35:22,491 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-10-01 12:35:22,492 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-10-01 12:35:22,502 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 127 (Exit value: 127)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -68,15 +65,15 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 127 (Exi
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-28 11:48:29,401 INFO  SysUtils - /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android/gradlew: line 1: ../gradlew: No such file or directory
+2019-10-01 12:35:22,502 INFO  SysUtils - /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android/gradlew: line 1: ../gradlew: No such file or directory
 
-2019-08-28 11:48:29,404 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-28 11:48:29,404 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android-example/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android-example/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-28 11:48:29,411 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 127 (Exit value: 127)
-2019-08-28 11:48:29,411 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-08-28 11:48:29,411 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-08-28 11:48:29,411 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android-example/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android-example/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-08-28 11:48:29,418 ERROR SysUtils - Could not process external command
+2019-10-01 12:35:22,508 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-01 12:35:22,508 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android-example/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android-example/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-01 12:35:22,517 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 127 (Exit value: 127)
+2019-10-01 12:35:22,517 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-10-01 12:35:22,517 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-10-01 12:35:22,517 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android-example/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android-example/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-10-01 12:35:22,527 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 127 (Exit value: 127)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -104,15 +101,15 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 127 (Exi
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-28 11:48:29,418 INFO  SysUtils - /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android-example/gradlew: line 1: ../gradlew: No such file or directory
+2019-10-01 12:35:22,527 INFO  SysUtils - /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android-example/gradlew: line 1: ../gradlew: No such file or directory
 
-2019-08-28 11:48:29,421 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-28 11:48:29,421 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android-example/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android-example/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-28 11:48:29,428 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 127 (Exit value: 127)
-2019-08-28 11:48:29,428 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-08-28 11:48:29,428 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-08-28 11:48:29,428 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android-example/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android-example/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-08-28 11:48:29,435 ERROR SysUtils - Could not process external command
+2019-10-01 12:35:22,531 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-01 12:35:22,531 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android-example/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android-example/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-01 12:35:22,538 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 127 (Exit value: 127)
+2019-10-01 12:35:22,539 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-10-01 12:35:22,539 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-10-01 12:35:22,539 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android-example/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android-example/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-10-01 12:35:22,547 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 127 (Exit value: 127)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -140,14 +137,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 127 (Exi
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-28 11:48:29,435 INFO  SysUtils - /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android-example/gradlew: line 1: ../gradlew: No such file or directory
+2019-10-01 12:35:22,547 INFO  SysUtils - /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android-example/gradlew: line 1: ../gradlew: No such file or directory
 
-2019-08-28 11:48:29,438 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-28 11:48:29,438 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-28 11:48:31,535 INFO  ProjectTaskService - Detected possible tasks: 23
-2019-08-28 11:48:31,535 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-08-28 11:48:31,535 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-08-28 11:48:33,816 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-01 12:35:22,551 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-01 12:35:22,551 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-01 12:35:26,092 INFO  ProjectTaskService - Detected possible tasks: 23
+2019-10-01 12:35:26,093 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-10-01 12:35:26,093 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-10-01 12:35:28,984 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Task :buildEnvironment
 
@@ -163,13 +160,13 @@ A web-based, searchable dependency report is available by adding the --scan opti
 BUILD SUCCESSFUL in 2s
 1 actionable task: 1 executed
 
-2019-08-28 11:48:33,821 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-28 11:48:33,821 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android-example/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-28 11:48:33,829 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 127 (Exit value: 127)
-2019-08-28 11:48:33,829 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-08-28 11:48:33,829 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-08-28 11:48:33,829 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android-example/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-08-28 11:48:33,837 ERROR SysUtils - Could not process external command
+2019-10-01 12:35:28,989 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-01 12:35:28,989 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android-example/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-01 12:35:28,998 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 127 (Exit value: 127)
+2019-10-01 12:35:28,998 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-10-01 12:35:28,998 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-10-01 12:35:28,998 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android-example/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-10-01 12:35:29,006 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 127 (Exit value: 127)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -197,15 +194,15 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 127 (Exi
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-28 11:48:33,837 INFO  SysUtils - /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector-android-example/gradlew: line 1: ../gradlew: No such file or directory
+2019-10-01 12:35:29,006 INFO  SysUtils - /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector-android-example/gradlew: line 1: ../gradlew: No such file or directory
 
-2019-08-28 11:48:33,841 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-28 11:48:33,841 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-28 11:48:33,848 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 127 (Exit value: 127)
-2019-08-28 11:48:33,848 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-08-28 11:48:33,848 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-08-28 11:48:33,848 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-08-28 11:48:33,855 ERROR SysUtils - Could not process external command
+2019-10-01 12:35:29,012 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-01 12:35:29,012 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-01 12:35:29,020 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 127 (Exit value: 127)
+2019-10-01 12:35:29,020 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-10-01 12:35:29,020 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-10-01 12:35:29,021 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-10-01 12:35:29,028 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 127 (Exit value: 127)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -233,7 +230,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 127 (Exi
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-28 11:48:33,855 INFO  SysUtils - /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967708424-0/src/Injector-master/injector/gradlew: line 1: ../gradlew: No such file or directory
+2019-10-01 12:35:29,028 INFO  SysUtils - /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908121613-0/src/Injector-master/injector/gradlew: line 1: ../gradlew: No such file or directory
 
-2019-08-28 11:48:33,859 ERROR FullProcessService - Project build has not produced APK file
-2019-08-28 11:48:33,863 ERROR FullProcessService - Could not find generated or existed APK file
+2019-10-01 12:35:29,033 ERROR FullProcessService - Project build has not produced APK file
+2019-10-01 12:35:29,038 ERROR FullProcessService - Could not find generated or existed APK file
