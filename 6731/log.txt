@@ -1,38 +1,38 @@
-2019-08-28 11:50:22,579 INFO  DownloadService - Downloading "https://github.com/kibotu/Android-PGP/archive/master.zip", attempt 3
-2019-08-28 11:50:24,648 INFO  DownloadService - Downloaded https://github.com/kibotu/Android-PGP/archive/master.zip, attempt 3
-2019-08-28 11:50:24,648 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967822575-0/master.zip": 243 KB
-2019-08-28 11:50:24,648 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-28 11:50:24,649 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967822575-0/master.zip: true
-2019-08-28 11:50:24,649 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967822575-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967822575-0/src'.
-2019-08-28 11:50:24,666 INFO  FullProcessService - Size of directory with sources: 290 KB
-2019-08-28 11:50:24,667 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967822575-0/src]
-2019-08-28 11:50:24,690 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967822575-0/src/.git/
+2019-10-08 13:22:59,168 INFO  DownloadService - Downloading "https://github.com/kibotu/Android-PGP/archive/master.zip", attempt 3
+2019-10-08 13:22:59,999 INFO  DownloadService - Downloaded https://github.com/kibotu/Android-PGP/archive/master.zip, attempt 3
+2019-10-08 13:22:59,999 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515779165-0/master.zip": 243 KB
+2019-10-08 13:22:59,999 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-08 13:23:00,004 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515779165-0/master.zip: true
+2019-10-08 13:23:00,004 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515779165-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515779165-0/src'.
+2019-10-08 13:23:00,023 INFO  FullProcessService - Size of directory with sources: 290 KB
+2019-10-08 13:23:00,023 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515779165-0/src]
+2019-10-08 13:23:00,042 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515779165-0/src/.git/
 
-2019-08-28 11:50:24,692 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967822575-0/src/Android-PGP-master/gradlew
-2019-08-28 11:50:24,694 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967822575-0/src/Android-PGP-master/android-pgp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967822575-0/src/Android-PGP-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967822575-0/src/Android-PGP-master/build.gradle
-2019-08-28 11:50:24,696 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967822575-0/src/Android-PGP-master/android-pgp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967822575-0/src/Android-PGP-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967822575-0/src/Android-PGP-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967822575-0/src/Android-PGP-master/settings.gradle
-2019-08-28 11:50:24,696 INFO  DownloadService - Downloading "https://gist.githubusercontent.com/kibotu/994c9cc65fe623b76b76fedfac74b34b/raw/65ee52482ba65050e015f4b00d8d2fc9172a10e8/javadoc.gradle", attempt 3
-2019-08-28 11:50:25,721 INFO  DownloadService - Downloaded https://gist.githubusercontent.com/kibotu/994c9cc65fe623b76b76fedfac74b34b/raw/65ee52482ba65050e015f4b00d8d2fc9172a10e8/javadoc.gradle, attempt 3
-2019-08-28 11:50:25,722 INFO  ProjectBuildService - Remote scripts: https://gist.githubusercontent.com/kibotu/994c9cc65fe623b76b76fedfac74b34b/raw/65ee52482ba65050e015f4b00d8d2fc9172a10e8/javadoc.gradle
-2019-08-28 11:50:25,722 INFO  ProjectFixService - Fixing project...
-2019-08-28 11:50:25,730 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967822575-0/src/Android-PGP-master/android-pgp/local.properties
-2019-08-28 11:50:25,732 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967822575-0/src/Android-PGP-master/android-pgp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-08-28 11:50:25,732 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967822575-0/src/Android-PGP-master/android-pgp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-08-28 11:50:25,733 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967822575-0/src/Android-PGP-master/app/local.properties
-2019-08-28 11:50:25,737 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967822575-0/src/Android-PGP-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-08-28 11:50:25,737 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967822575-0/src/Android-PGP-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-08-28 11:50:25,738 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967822575-0/src/Android-PGP-master/local.properties
-2019-08-28 11:50:25,739 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.5-bin.zip
-2019-08-28 11:50:25,741 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967822575-0/src/Android-PGP-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-08-28 11:50:25,741 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967822575-0/src/Android-PGP-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-08-28 11:50:25,741 INFO  ProjectFixService - Project was maybe fixed
-2019-08-28 11:50:25,742 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-28 11:50:25,742 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967822575-0/src/Android-PGP-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967822575-0/src/Android-PGP-master/android-pgp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-28 11:50:40,109 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-08-28 11:50:40,109 INFO  ProjectTaskService - Detected possible tasks: 3
-2019-08-28 11:50:40,109 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2019-08-28 11:50:40,109 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967822575-0/src/Android-PGP-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967822575-0/src/Android-PGP-master/android-pgp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2019-08-28 11:50:46,153 ERROR SysUtils - Could not process external command
+2019-10-08 13:23:00,045 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515779165-0/src/Android-PGP-master/gradlew
+2019-10-08 13:23:00,048 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515779165-0/src/Android-PGP-master/android-pgp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515779165-0/src/Android-PGP-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515779165-0/src/Android-PGP-master/build.gradle
+2019-10-08 13:23:00,050 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515779165-0/src/Android-PGP-master/android-pgp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515779165-0/src/Android-PGP-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515779165-0/src/Android-PGP-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515779165-0/src/Android-PGP-master/settings.gradle
+2019-10-08 13:23:00,051 INFO  DownloadService - Downloading "https://gist.githubusercontent.com/kibotu/994c9cc65fe623b76b76fedfac74b34b/raw/65ee52482ba65050e015f4b00d8d2fc9172a10e8/javadoc.gradle", attempt 3
+2019-10-08 13:23:00,972 INFO  DownloadService - Downloaded https://gist.githubusercontent.com/kibotu/994c9cc65fe623b76b76fedfac74b34b/raw/65ee52482ba65050e015f4b00d8d2fc9172a10e8/javadoc.gradle, attempt 3
+2019-10-08 13:23:00,972 INFO  ProjectBuildService - Remote scripts: https://gist.githubusercontent.com/kibotu/994c9cc65fe623b76b76fedfac74b34b/raw/65ee52482ba65050e015f4b00d8d2fc9172a10e8/javadoc.gradle
+2019-10-08 13:23:00,972 INFO  ProjectFixService - Fixing project...
+2019-10-08 13:23:00,978 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515779165-0/src/Android-PGP-master/android-pgp/local.properties
+2019-10-08 13:23:00,980 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515779165-0/src/Android-PGP-master/android-pgp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-08 13:23:00,980 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515779165-0/src/Android-PGP-master/android-pgp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-08 13:23:00,981 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515779165-0/src/Android-PGP-master/app/local.properties
+2019-10-08 13:23:00,984 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515779165-0/src/Android-PGP-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-08 13:23:00,984 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515779165-0/src/Android-PGP-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-08 13:23:00,985 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515779165-0/src/Android-PGP-master/local.properties
+2019-10-08 13:23:00,985 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.5-bin.zip
+2019-10-08 13:23:00,987 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515779165-0/src/Android-PGP-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-08 13:23:00,987 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515779165-0/src/Android-PGP-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-08 13:23:00,988 INFO  ProjectFixService - Project was maybe fixed
+2019-10-08 13:23:00,988 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-08 13:23:00,988 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515779165-0/src/Android-PGP-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515779165-0/src/Android-PGP-master/android-pgp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-08 13:23:21,305 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-10-08 13:23:21,305 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-10-08 13:23:21,305 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-10-08 13:23:21,305 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515779165-0/src/Android-PGP-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515779165-0/src/Android-PGP-master/android-pgp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-10-08 13:23:28,763 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -60,7 +60,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-28 11:50:46,154 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-08 13:23:28,763 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -183,15 +183,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 7s
 
-2019-08-28 11:50:46,157 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-28 11:50:46,157 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967822575-0/src/Android-PGP-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967822575-0/src/Android-PGP-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-28 11:50:51,358 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-08-28 11:50:51,358 INFO  ProjectTaskService - Detected possible tasks: 3
-2019-08-28 11:50:51,358 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2019-08-28 11:50:51,358 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967822575-0/src/Android-PGP-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967822575-0/src/Android-PGP-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2019-08-28 11:50:56,731 ERROR SysUtils - Could not process external command
+2019-10-08 13:23:28,767 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-08 13:23:28,767 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515779165-0/src/Android-PGP-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515779165-0/src/Android-PGP-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-08 13:23:34,989 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-10-08 13:23:34,989 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-10-08 13:23:34,989 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-10-08 13:23:34,989 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515779165-0/src/Android-PGP-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515779165-0/src/Android-PGP-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-10-08 13:23:43,324 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -219,7 +219,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-28 11:50:56,732 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-08 13:23:43,324 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -345,15 +345,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
 See https://docs.gradle.org/4.5/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 5s
+BUILD FAILED in 7s
 
-2019-08-28 11:50:56,735 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-28 11:50:56,735 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967822575-0/src/Android-PGP-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967822575-0/src/Android-PGP-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-28 11:51:02,837 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-08-28 11:51:02,837 INFO  ProjectTaskService - Detected possible tasks: 3
-2019-08-28 11:51:02,837 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2019-08-28 11:51:02,838 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967822575-0/src/Android-PGP-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566967822575-0/src/Android-PGP-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2019-08-28 11:51:08,898 ERROR SysUtils - Could not process external command
+2019-10-08 13:23:43,328 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-08 13:23:43,328 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515779165-0/src/Android-PGP-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515779165-0/src/Android-PGP-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-08 13:23:52,415 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-10-08 13:23:52,416 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-10-08 13:23:52,416 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-10-08 13:23:52,416 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515779165-0/src/Android-PGP-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515779165-0/src/Android-PGP-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-10-08 13:24:02,255 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -381,7 +381,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-28 11:51:08,898 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-08 13:24:02,256 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -506,7 +506,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 9s
 
-2019-08-28 11:51:08,902 ERROR FullProcessService - Project build has not produced APK file
-2019-08-28 11:51:08,904 ERROR FullProcessService - Could not find generated or existed APK file
+2019-10-08 13:24:02,259 ERROR FullProcessService - Project build has not produced APK file
+2019-10-08 13:24:02,262 ERROR FullProcessService - Could not find generated or existed APK file

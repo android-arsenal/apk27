@@ -1,34 +1,34 @@
-2019-08-09 12:19:47,975 INFO  DownloadService - Downloading "https://github.com/Binary-Finery/Bungee/archive/master.zip", attempt 3
-2019-08-09 12:19:48,638 INFO  DownloadService - Downloaded https://github.com/Binary-Finery/Bungee/archive/master.zip, attempt 3
-2019-08-09 12:19:48,639 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327987967-0/master.zip": 156 KB
-2019-08-09 12:19:48,639 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-09 12:19:48,644 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327987967-0/master.zip: true
-2019-08-09 12:19:48,645 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327987967-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327987967-0/src'.
-2019-08-09 12:19:48,667 INFO  FullProcessService - Size of directory with sources: 168 KB
-2019-08-09 12:19:48,667 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327987967-0/src]
-2019-08-09 12:19:48,683 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327987967-0/src/.git/
+2019-10-08 13:26:31,532 INFO  DownloadService - Downloading "https://github.com/Binary-Finery/Bungee/archive/master.zip", attempt 3
+2019-10-08 13:26:32,215 INFO  DownloadService - Downloaded https://github.com/Binary-Finery/Bungee/archive/master.zip, attempt 3
+2019-10-08 13:26:32,215 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515991529-0/master.zip": 156 KB
+2019-10-08 13:26:32,215 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-08 13:26:32,216 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515991529-0/master.zip: true
+2019-10-08 13:26:32,216 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515991529-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515991529-0/src'.
+2019-10-08 13:26:32,239 INFO  FullProcessService - Size of directory with sources: 168 KB
+2019-10-08 13:26:32,240 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515991529-0/src]
+2019-10-08 13:26:32,258 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515991529-0/src/.git/
 
-2019-08-09 12:19:48,686 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327987967-0/src/Bungee-master/gradlew
-2019-08-09 12:19:48,689 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327987967-0/src/Bungee-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327987967-0/src/Bungee-master/bungeelib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327987967-0/src/Bungee-master/build.gradle
-2019-08-09 12:19:48,691 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327987967-0/src/Bungee-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327987967-0/src/Bungee-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327987967-0/src/Bungee-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327987967-0/src/Bungee-master/bungeelib/build.gradle
-2019-08-09 12:19:48,692 INFO  ProjectBuildService - Remote scripts: none
-2019-08-09 12:19:48,692 INFO  ProjectFixService - Fixing project...
-2019-08-09 12:19:48,698 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327987967-0/src/Bungee-master/app/local.properties
-2019-08-09 12:19:48,698 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327987967-0/src/Bungee-master/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
-2019-08-09 12:19:48,699 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327987967-0/src/Bungee-master/bungeelib/local.properties
-2019-08-09 12:19:48,699 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327987967-0/src/Bungee-master/bungeelib/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
-2019-08-09 12:19:48,699 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327987967-0/src/Bungee-master/local.properties
-2019-08-09 12:19:48,699 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2019-08-09 12:19:48,700 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2019-08-09 12:19:48,700 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327987967-0/src/Bungee-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
-2019-08-09 12:19:48,700 INFO  ProjectFixService - Project was maybe fixed
-2019-08-09 12:19:48,700 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-09 12:19:48,700 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327987967-0/src/Bungee-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327987967-0/src/Bungee-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-09 12:20:02,258 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-08-09 12:20:02,258 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-08-09 12:20:02,258 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-08-09 12:20:02,258 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327987967-0/src/Bungee-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327987967-0/src/Bungee-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-08-09 12:20:07,097 ERROR SysUtils - Could not process external command
+2019-10-08 13:26:32,261 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515991529-0/src/Bungee-master/gradlew
+2019-10-08 13:26:32,264 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515991529-0/src/Bungee-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515991529-0/src/Bungee-master/bungeelib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515991529-0/src/Bungee-master/build.gradle
+2019-10-08 13:26:32,266 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515991529-0/src/Bungee-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515991529-0/src/Bungee-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515991529-0/src/Bungee-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515991529-0/src/Bungee-master/bungeelib/build.gradle
+2019-10-08 13:26:32,266 INFO  ProjectBuildService - Remote scripts: none
+2019-10-08 13:26:32,266 INFO  ProjectFixService - Fixing project...
+2019-10-08 13:26:32,272 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515991529-0/src/Bungee-master/app/local.properties
+2019-10-08 13:26:32,272 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515991529-0/src/Bungee-master/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2019-10-08 13:26:32,273 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515991529-0/src/Bungee-master/bungeelib/local.properties
+2019-10-08 13:26:32,273 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515991529-0/src/Bungee-master/bungeelib/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2019-10-08 13:26:32,273 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515991529-0/src/Bungee-master/local.properties
+2019-10-08 13:26:32,274 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-10-08 13:26:32,274 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-10-08 13:26:32,275 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515991529-0/src/Bungee-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2019-10-08 13:26:32,275 INFO  ProjectFixService - Project was maybe fixed
+2019-10-08 13:26:32,275 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-08 13:26:32,275 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515991529-0/src/Bungee-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515991529-0/src/Bungee-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-08 13:26:50,229 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-10-08 13:26:50,229 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-10-08 13:26:50,229 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-10-08 13:26:50,229 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515991529-0/src/Bungee-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515991529-0/src/Bungee-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-10-08 13:26:55,390 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -49,14 +49,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-09 12:20:07,097 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-08 13:26:55,390 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -242,15 +242,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 4.562 secs
+Total time: 4.878 secs
 
-2019-08-09 12:20:07,101 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-09 12:20:07,101 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327987967-0/src/Bungee-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327987967-0/src/Bungee-master/bungeelib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-09 12:20:11,833 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-08-09 12:20:11,833 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-08-09 12:20:11,833 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-08-09 12:20:11,833 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327987967-0/src/Bungee-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327987967-0/src/Bungee-master/bungeelib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-08-09 12:20:16,658 ERROR SysUtils - Could not process external command
+2019-10-08 13:26:55,394 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-08 13:26:55,395 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515991529-0/src/Bungee-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515991529-0/src/Bungee-master/bungeelib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-08 13:27:00,887 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-10-08 13:27:00,887 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-10-08 13:27:00,887 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-10-08 13:27:00,887 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515991529-0/src/Bungee-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515991529-0/src/Bungee-master/bungeelib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-10-08 13:27:05,924 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -271,14 +271,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-09 12:20:16,658 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-08 13:27:05,924 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -386,15 +386,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 4.576 secs
+Total time: 4.776 secs
 
-2019-08-09 12:20:16,662 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-09 12:20:16,662 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327987967-0/src/Bungee-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327987967-0/src/Bungee-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-09 12:20:21,467 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-08-09 12:20:21,467 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-08-09 12:20:21,468 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-08-09 12:20:21,468 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327987967-0/src/Bungee-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327987967-0/src/Bungee-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-08-09 12:20:26,384 ERROR SysUtils - Could not process external command
+2019-10-08 13:27:05,927 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-08 13:27:05,928 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515991529-0/src/Bungee-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515991529-0/src/Bungee-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-08 13:27:11,610 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-10-08 13:27:11,610 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-10-08 13:27:11,611 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-10-08 13:27:11,611 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515991529-0/src/Bungee-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515991529-0/src/Bungee-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-10-08 13:27:16,821 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -415,14 +415,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-09 12:20:26,384 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-08 13:27:16,821 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -608,7 +608,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 4.557 secs
+Total time: 4.978 secs
 
-2019-08-09 12:20:26,388 ERROR FullProcessService - Project build has not produced APK file
-2019-08-09 12:20:26,391 ERROR FullProcessService - Could not find generated or existed APK file
+2019-10-08 13:27:16,825 ERROR FullProcessService - Project build has not produced APK file
+2019-10-08 13:27:16,828 ERROR FullProcessService - Could not find generated or existed APK file
