@@ -1,37 +1,40 @@
-2019-10-04 14:51:19,217 INFO  DownloadService - Downloading "https://github.com/rbro112/Android-Indefinite-Pager-Indicator/archive/master.zip", attempt 3
-2019-10-04 14:51:26,742 INFO  DownloadService - Downloaded https://github.com/rbro112/Android-Indefinite-Pager-Indicator/archive/master.zip, attempt 3
-2019-10-04 14:51:26,742 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175479213-0/master.zip": 10 MB
-2019-10-04 14:51:26,742 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-10-04 14:51:26,743 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175479213-0/master.zip: true
-2019-10-04 14:51:26,743 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175479213-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175479213-0/src'.
-2019-10-04 14:51:26,846 INFO  FullProcessService - Size of directory with sources: 10 MB
-2019-10-04 14:51:26,846 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175479213-0/src]
-2019-10-04 14:51:26,863 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175479213-0/src/.git/
+2019-11-01 11:48:28,096 INFO  DownloadService - Downloading "https://github.com/rbro112/Android-Indefinite-Pager-Indicator/archive/master.zip", attempt 3
+2019-11-01 11:49:28,705 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-11-01 11:49:29,669 INFO  GithubDownloadService - Default branch of this repository: master
+2019-11-01 11:49:29,672 INFO  DownloadService - Downloading "https://github.com/rbro112/Android-Indefinite-Pager-Indicator/archive/master.zip", attempt 3
+2019-11-01 11:50:31,115 DEBUG FullProcessService - Repository https://github.com/rbro112/Android-Indefinite-Pager-Indicator available: true
+2019-11-01 11:50:31,115 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-11-01 11:50:31,115 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/rbro112/Android-Indefinite-Pager-Indicator, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583708093-0/src]
+2019-11-01 11:50:40,506 INFO  SysUtils - 
+2019-11-01 11:50:40,513 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583708093-0/src/.git": true
+2019-11-01 11:50:40,516 INFO  FullProcessService - Size of directory with sources: 10 MB
+2019-11-01 11:50:40,516 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583708093-0/src]
+2019-11-01 11:50:40,533 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583708093-0/src/.git/
 
-2019-10-04 14:51:26,866 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175479213-0/src/Android-Indefinite-Pager-Indicator-master/gradlew
-2019-10-04 14:51:26,869 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175479213-0/src/Android-Indefinite-Pager-Indicator-master/indefinitepagerindicator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175479213-0/src/Android-Indefinite-Pager-Indicator-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175479213-0/src/Android-Indefinite-Pager-Indicator-master/build.gradle
-2019-10-04 14:51:26,872 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175479213-0/src/Android-Indefinite-Pager-Indicator-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175479213-0/src/Android-Indefinite-Pager-Indicator-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175479213-0/src/Android-Indefinite-Pager-Indicator-master/indefinitepagerindicator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175479213-0/src/Android-Indefinite-Pager-Indicator-master/settings.gradle
-2019-10-04 14:51:26,872 INFO  ProjectBuildService - Remote scripts: none
-2019-10-04 14:51:26,872 INFO  ProjectFixService - Fixing project...
-2019-10-04 14:51:26,879 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175479213-0/src/Android-Indefinite-Pager-Indicator-master/indefinitepagerindicator/local.properties
-2019-10-04 14:51:26,880 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175479213-0/src/Android-Indefinite-Pager-Indicator-master/indefinitepagerindicator/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
-2019-10-04 14:51:26,880 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175479213-0/src/Android-Indefinite-Pager-Indicator-master/indefinitepagerindicator/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
-2019-10-04 14:51:26,881 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175479213-0/src/Android-Indefinite-Pager-Indicator-master/sample/local.properties
-2019-10-04 14:51:26,881 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175479213-0/src/Android-Indefinite-Pager-Indicator-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
-2019-10-04 14:51:26,881 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175479213-0/src/Android-Indefinite-Pager-Indicator-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
-2019-10-04 14:51:26,882 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175479213-0/src/Android-Indefinite-Pager-Indicator-master/local.properties
-2019-10-04 14:51:26,882 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-10-04 14:51:26,883 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-10-04 14:51:26,884 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175479213-0/src/Android-Indefinite-Pager-Indicator-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
-2019-10-04 14:51:26,884 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175479213-0/src/Android-Indefinite-Pager-Indicator-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
-2019-10-04 14:51:26,885 INFO  ProjectFixService - Project was maybe fixed
-2019-10-04 14:51:26,885 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-04 14:51:26,885 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175479213-0/src/Android-Indefinite-Pager-Indicator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175479213-0/src/Android-Indefinite-Pager-Indicator-master/indefinitepagerindicator/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-04 14:51:39,123 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-10-04 14:51:39,123 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-10-04 14:51:39,123 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-10-04 14:51:39,123 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175479213-0/src/Android-Indefinite-Pager-Indicator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175479213-0/src/Android-Indefinite-Pager-Indicator-master/indefinitepagerindicator/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-10-04 14:51:41,391 ERROR SysUtils - Could not process external command
+2019-11-01 11:50:40,535 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583708093-0/src/gradlew
+2019-11-01 11:50:40,538 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583708093-0/src/indefinitepagerindicator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583708093-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583708093-0/src/build.gradle
+2019-11-01 11:50:40,541 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583708093-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583708093-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583708093-0/src/indefinitepagerindicator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583708093-0/src/settings.gradle
+2019-11-01 11:50:40,541 INFO  ProjectBuildService - Remote scripts: none
+2019-11-01 11:50:40,541 INFO  ProjectFixService - Fixing project...
+2019-11-01 11:50:40,548 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583708093-0/src/indefinitepagerindicator/local.properties
+2019-11-01 11:50:40,549 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583708093-0/src/indefinitepagerindicator/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2019-11-01 11:50:40,549 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583708093-0/src/indefinitepagerindicator/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2019-11-01 11:50:40,550 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583708093-0/src/sample/local.properties
+2019-11-01 11:50:40,550 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583708093-0/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2019-11-01 11:50:40,550 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583708093-0/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2019-11-01 11:50:40,551 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583708093-0/src/local.properties
+2019-11-01 11:50:40,552 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-11-01 11:50:40,552 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-11-01 11:50:40,553 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583708093-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2019-11-01 11:50:40,553 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583708093-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2019-11-01 11:50:40,553 INFO  ProjectFixService - Project was maybe fixed
+2019-11-01 11:50:40,553 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-01 11:50:40,553 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583708093-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583708093-0/src/indefinitepagerindicator/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-01 11:50:47,333 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-11-01 11:50:47,333 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-11-01 11:50:47,333 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-11-01 11:50:47,333 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583708093-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583708093-0/src/indefinitepagerindicator/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-11-01 11:50:50,411 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -59,12 +62,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-10-04 14:51:41,392 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-11-01 11:50:50,411 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-A problem occurred configuring root project 'Android-Indefinite-Pager-Indicator-master'.
+A problem occurred configuring root project 'src'.
 > Could not resolve all files for configuration ':classpath'.
    > Could not find manifest-merger.jar (com.android.tools.build:manifest-merger:26.1.2).
      Searched in the following locations:
@@ -83,7 +86,7 @@ A problem occurred configuring root project 'Android-Indefinite-Pager-Indicator-
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
 
 * Exception is:
-org.gradle.api.ProjectConfigurationException: A problem occurred configuring root project 'Android-Indefinite-Pager-Indicator-master'.
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring root project 'src'.
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:94)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:66)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:34)
@@ -215,13 +218,13 @@ Searched in the following locations:
 
 BUILD FAILED in 2s
 
-2019-10-04 14:51:41,396 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-04 14:51:41,396 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175479213-0/src/Android-Indefinite-Pager-Indicator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175479213-0/src/Android-Indefinite-Pager-Indicator-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-04 14:51:43,633 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-10-04 14:51:43,633 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-10-04 14:51:43,633 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-10-04 14:51:43,633 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175479213-0/src/Android-Indefinite-Pager-Indicator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175479213-0/src/Android-Indefinite-Pager-Indicator-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-10-04 14:51:46,316 ERROR SysUtils - Could not process external command
+2019-11-01 11:50:50,415 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-01 11:50:50,415 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583708093-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583708093-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-01 11:50:53,132 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-11-01 11:50:53,132 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-11-01 11:50:53,132 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-11-01 11:50:53,132 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583708093-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583708093-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-11-01 11:50:55,881 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -249,12 +252,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-10-04 14:51:46,316 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-11-01 11:50:55,881 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-A problem occurred configuring root project 'Android-Indefinite-Pager-Indicator-master'.
+A problem occurred configuring root project 'src'.
 > Could not resolve all files for configuration ':classpath'.
    > Could not find manifest-merger.jar (com.android.tools.build:manifest-merger:26.1.2).
      Searched in the following locations:
@@ -273,7 +276,7 @@ A problem occurred configuring root project 'Android-Indefinite-Pager-Indicator-
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
 
 * Exception is:
-org.gradle.api.ProjectConfigurationException: A problem occurred configuring root project 'Android-Indefinite-Pager-Indicator-master'.
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring root project 'src'.
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:94)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:66)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:34)
@@ -405,13 +408,13 @@ Searched in the following locations:
 
 BUILD FAILED in 2s
 
-2019-10-04 14:51:46,320 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-04 14:51:46,320 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175479213-0/src/Android-Indefinite-Pager-Indicator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175479213-0/src/Android-Indefinite-Pager-Indicator-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-04 14:51:48,893 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-10-04 14:51:48,893 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-10-04 14:51:48,893 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-10-04 14:51:48,893 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175479213-0/src/Android-Indefinite-Pager-Indicator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175479213-0/src/Android-Indefinite-Pager-Indicator-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-10-04 14:51:51,424 ERROR SysUtils - Could not process external command
+2019-11-01 11:50:55,885 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-01 11:50:55,885 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583708093-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583708093-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-01 11:50:58,355 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-11-01 11:50:58,355 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-11-01 11:50:58,355 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-11-01 11:50:58,355 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583708093-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583708093-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-11-01 11:51:00,777 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -439,12 +442,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-10-04 14:51:51,424 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-11-01 11:51:00,777 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-A problem occurred configuring root project 'Android-Indefinite-Pager-Indicator-master'.
+A problem occurred configuring root project 'src'.
 > Could not resolve all files for configuration ':classpath'.
    > Could not find manifest-merger.jar (com.android.tools.build:manifest-merger:26.1.2).
      Searched in the following locations:
@@ -463,7 +466,7 @@ A problem occurred configuring root project 'Android-Indefinite-Pager-Indicator-
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
 
 * Exception is:
-org.gradle.api.ProjectConfigurationException: A problem occurred configuring root project 'Android-Indefinite-Pager-Indicator-master'.
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring root project 'src'.
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:94)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:66)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:34)
@@ -595,5 +598,5 @@ Searched in the following locations:
 
 BUILD FAILED in 2s
 
-2019-10-04 14:51:51,429 ERROR FullProcessService - Project build has not produced APK file
-2019-10-04 14:51:51,433 ERROR FullProcessService - Could not find generated or existed APK file
+2019-11-01 11:51:00,781 ERROR FullProcessService - Project build has not produced APK file
+2019-11-01 11:51:00,784 ERROR FullProcessService - Could not find generated or existed APK file
