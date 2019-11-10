@@ -1,39 +1,36 @@
-2019-11-01 11:40:15,256 INFO  DownloadService - Downloading "https://github.com/WindSekirun/NaraeImagePicker/archive/master.zip", attempt 3
-2019-11-01 11:41:15,848 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-11-01 11:41:16,820 INFO  GithubDownloadService - Default branch of this repository: master
-2019-11-01 11:41:16,820 INFO  DownloadService - Downloading "https://github.com/WindSekirun/NaraeImagePicker/archive/master.zip", attempt 3
-2019-11-01 11:42:18,461 DEBUG FullProcessService - Repository https://github.com/WindSekirun/NaraeImagePicker available: true
-2019-11-01 11:42:18,462 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-11-01 11:42:18,462 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/WindSekirun/NaraeImagePicker, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583215254-0/src]
-2019-11-01 11:42:21,383 INFO  SysUtils - 
-2019-11-01 11:42:21,394 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583215254-0/src/.git": true
-2019-11-01 11:42:21,402 INFO  FullProcessService - Size of directory with sources: 2 MB
-2019-11-01 11:42:21,403 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583215254-0/src]
-2019-11-01 11:42:21,443 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583215254-0/src/.git/
+2019-11-10 21:14:23,175 INFO  DownloadService - Downloading "https://github.com/WindSekirun/NaraeImagePicker/archive/master.zip", attempt 3
+2019-11-10 21:14:26,326 INFO  DownloadService - Downloaded https://github.com/WindSekirun/NaraeImagePicker/archive/master.zip, attempt 3
+2019-11-10 21:14:26,326 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395263164-0/master.zip": 1 MB
+2019-11-10 21:14:26,326 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-11-10 21:14:26,332 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395263164-0/master.zip: true
+2019-11-10 21:14:26,332 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395263164-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395263164-0/src'.
+2019-11-10 21:14:26,371 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-11-10 21:14:26,371 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395263164-0/src]
+2019-11-10 21:14:26,390 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395263164-0/src/.git/
 
-2019-11-01 11:42:21,449 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583215254-0/src/gradlew
-2019-11-01 11:42:21,456 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583215254-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583215254-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583215254-0/src/build.gradle
-2019-11-01 11:42:21,461 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583215254-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583215254-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583215254-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583215254-0/src/settings.gradle
-2019-11-01 11:42:21,462 INFO  ProjectBuildService - Remote scripts: none
-2019-11-01 11:42:21,462 INFO  ProjectFixService - Fixing project...
-2019-11-01 11:42:21,475 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583215254-0/src/demo/local.properties
-2019-11-01 11:42:21,476 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583215254-0/src/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-11-01 11:42:21,477 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583215254-0/src/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-11-01 11:42:21,478 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583215254-0/src/library/local.properties
-2019-11-01 11:42:21,479 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583215254-0/src/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-11-01 11:42:21,480 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583215254-0/src/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-11-01 11:42:21,481 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583215254-0/src/local.properties
-2019-11-01 11:42:21,482 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-11-01 11:42:21,482 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-11-01 11:42:21,485 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583215254-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-11-01 11:42:21,485 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583215254-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-11-01 11:42:21,486 INFO  ProjectFixService - Project was maybe fixed
-2019-11-01 11:42:21,486 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-01 11:42:21,487 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583215254-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583215254-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-01 11:42:33,644 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-11-01 11:42:33,646 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-11-01 11:42:33,646 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583215254-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583215254-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-11-01 11:44:22,283 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-11-10 21:14:26,394 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395263164-0/src/NaraeImagePicker-master/gradlew
+2019-11-10 21:14:26,397 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395263164-0/src/NaraeImagePicker-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395263164-0/src/NaraeImagePicker-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395263164-0/src/NaraeImagePicker-master/build.gradle
+2019-11-10 21:14:26,401 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395263164-0/src/NaraeImagePicker-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395263164-0/src/NaraeImagePicker-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395263164-0/src/NaraeImagePicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395263164-0/src/NaraeImagePicker-master/settings.gradle
+2019-11-10 21:14:26,402 INFO  ProjectBuildService - Remote scripts: none
+2019-11-10 21:14:26,402 INFO  ProjectFixService - Fixing project...
+2019-11-10 21:14:26,410 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395263164-0/src/NaraeImagePicker-master/demo/local.properties
+2019-11-10 21:14:26,411 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395263164-0/src/NaraeImagePicker-master/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-11-10 21:14:26,411 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395263164-0/src/NaraeImagePicker-master/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-11-10 21:14:26,412 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395263164-0/src/NaraeImagePicker-master/library/local.properties
+2019-11-10 21:14:26,412 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395263164-0/src/NaraeImagePicker-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-11-10 21:14:26,413 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395263164-0/src/NaraeImagePicker-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-11-10 21:14:26,413 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395263164-0/src/NaraeImagePicker-master/local.properties
+2019-11-10 21:14:26,414 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-11-10 21:14:26,414 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-11-10 21:14:26,416 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395263164-0/src/NaraeImagePicker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-11-10 21:14:26,416 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395263164-0/src/NaraeImagePicker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-11-10 21:14:26,417 INFO  ProjectFixService - Project was maybe fixed
+2019-11-10 21:14:26,417 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-10 21:14:26,417 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395263164-0/src/NaraeImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395263164-0/src/NaraeImagePicker-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-10 21:14:35,083 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-11-10 21:14:35,083 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-11-10 21:14:35,083 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395263164-0/src/NaraeImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395263164-0/src/NaraeImagePicker-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-11-10 21:16:16,915 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :library
 WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
@@ -100,9 +97,9 @@ w: Runtime JAR files in the classpath should have the same version. These files 
 w: Some runtime JAR files in the classpath have an incompatible version. Consider removing them from the classpath
 w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
 w: warning: activity.viewModeCheck.getValue() is a boxed field but needs to be un-boxed to execute app:checkedPosition. This may cause NPE so Data Binding will safely unbox it. You can change the expression and explicitly wrap activity.viewModeCheck.getValue() with safeUnbox() to prevent the warning
-  file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583215254-0/src/demo/src/main/res/layout/main_activity.xml Line:32
+  file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395263164-0/src/NaraeImagePicker-master/demo/src/main/res/layout/main_activity.xml Line:32
 w: warning: activity.detailModeEnable.getValue() is a boxed field but needs to be un-boxed to execute android:checked. This may cause NPE so Data Binding will safely unbox it. You can change the expression and explicitly wrap activity.detailModeEnable.getValue() with safeUnbox() to prevent the warning
-  file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583215254-0/src/demo/src/main/res/layout/main_activity.xml Line:56
+  file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395263164-0/src/NaraeImagePicker-master/demo/src/main/res/layout/main_activity.xml Line:56
 
 > Task :demo:compileDebugKotlin
 w: Runtime JAR files in the classpath should have the same version. These files were found in the classpath:
@@ -112,7 +109,7 @@ w: Runtime JAR files in the classpath should have the same version. These files 
     /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.31/20c34a04ea25cb1ef0139598bd67c764562cb170/kotlin-stdlib-common-1.3.31.jar (version 1.3)
 w: Some runtime JAR files in the classpath have an incompatible version. Consider removing them from the classpath
 w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583215254-0/src/demo/src/main/java/com/github/windsekirun/naraeimagepickerdemo/MainActivity.kt: (42, 19): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395263164-0/src/NaraeImagePicker-master/demo/src/main/java/com/github/windsekirun/naraeimagepickerdemo/MainActivity.kt: (42, 19): Parameter 'view' is never used
 
 > Task :demo:javaPreCompileDebug
 > Task :demo:compileDebugJavaWithJavac
@@ -144,7 +141,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583215254-0/src/
 > Task :demo:transformNativeLibsWithMergeJniLibsForDebug
 
 > Task :demo:transformNativeLibsWithStripDebugSymbolForDebug
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583215254-0/src/demo/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libglide-webp.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395263164-0/src/NaraeImagePicker-master/demo/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libglide-webp.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 
 > Task :demo:processDebugJavaRes NO-SOURCE
 > Task :demo:transformResourcesWithMergeJavaResForDebug
@@ -205,9 +202,9 @@ w: Runtime JAR files in the classpath should have the same version. These files 
 w: Some runtime JAR files in the classpath have an incompatible version. Consider removing them from the classpath
 w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
 w: warning: activity.viewModeCheck.getValue() is a boxed field but needs to be un-boxed to execute app:checkedPosition. This may cause NPE so Data Binding will safely unbox it. You can change the expression and explicitly wrap activity.viewModeCheck.getValue() with safeUnbox() to prevent the warning
-  file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583215254-0/src/demo/src/main/res/layout/main_activity.xml Line:32
+  file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395263164-0/src/NaraeImagePicker-master/demo/src/main/res/layout/main_activity.xml Line:32
 w: warning: activity.detailModeEnable.getValue() is a boxed field but needs to be un-boxed to execute android:checked. This may cause NPE so Data Binding will safely unbox it. You can change the expression and explicitly wrap activity.detailModeEnable.getValue() with safeUnbox() to prevent the warning
-  file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583215254-0/src/demo/src/main/res/layout/main_activity.xml Line:56
+  file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395263164-0/src/NaraeImagePicker-master/demo/src/main/res/layout/main_activity.xml Line:56
 
 > Task :demo:compileReleaseKotlin
 w: Runtime JAR files in the classpath should have the same version. These files were found in the classpath:
@@ -217,7 +214,7 @@ w: Runtime JAR files in the classpath should have the same version. These files 
     /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.31/20c34a04ea25cb1ef0139598bd67c764562cb170/kotlin-stdlib-common-1.3.31.jar (version 1.3)
 w: Some runtime JAR files in the classpath have an incompatible version. Consider removing them from the classpath
 w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583215254-0/src/demo/src/main/java/com/github/windsekirun/naraeimagepickerdemo/MainActivity.kt: (42, 19): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395263164-0/src/NaraeImagePicker-master/demo/src/main/java/com/github/windsekirun/naraeimagepickerdemo/MainActivity.kt: (42, 19): Parameter 'view' is never used
 
 > Task :demo:javaPreCompileRelease
 > Task :demo:compileReleaseJavaWithJavac
@@ -252,7 +249,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :demo:transformNativeLibsWithMergeJniLibsForRelease
 
 > Task :demo:transformNativeLibsWithStripDebugSymbolForRelease
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583215254-0/src/demo/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/libglide-webp.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395263164-0/src/NaraeImagePicker-master/demo/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/libglide-webp.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 
 > Task :demo:processReleaseJavaRes NO-SOURCE
 > Task :demo:transformResourcesWithMergeJavaResForRelease
@@ -265,7 +262,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 48s
+BUILD SUCCESSFUL in 1m 41s
 114 actionable tasks: 114 executed
 
-2019-11-01 11:44:22,381 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572583215254-0/src/demo/build/outputs/apk/release/demo-release-unsigned.apk
+2019-11-10 21:16:17,018 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395263164-0/src/NaraeImagePicker-master/demo/build/outputs/apk/release/demo-release-unsigned.apk
