@@ -1,37 +1,34 @@
-2019-03-09 22:35:46,008 INFO  DownloadService - Downloading "https://github.com/datalink747/NiceNavigation/archive/master.zip", attempt 3
-2019-03-09 22:36:46,977 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-03-09 22:36:48,032 INFO  GithubDownloadService - Default branch of this repository: master
-2019-03-09 22:36:48,032 INFO  DownloadService - Downloading "https://github.com/datalink747/NiceNavigation/archive/master.zip", attempt 3
-2019-03-09 22:37:49,988 DEBUG FullProcessService - Repository https://github.com/datalink747/NiceNavigation available: true
-2019-03-09 22:37:49,988 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-03-09 22:37:49,988 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/datalink747/NiceNavigation, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145746006-0/src]
-2019-03-09 22:37:52,283 INFO  SysUtils - 
-2019-03-09 22:37:52,292 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145746006-0/src/.git": true
-2019-03-09 22:37:52,297 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-03-09 22:37:52,297 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145746006-0/src]
-2019-03-09 22:37:52,315 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145746006-0/src/.git/
+2019-12-29 18:26:45,896 INFO  DownloadService - Downloading "https://github.com/datalink747/NiceNavigation/archive/master.zip", attempt 3
+2019-12-29 18:26:47,744 INFO  DownloadService - Downloaded https://github.com/datalink747/NiceNavigation/archive/master.zip, attempt 3
+2019-12-29 18:26:47,745 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618805893-0/master.zip": 1 MB
+2019-12-29 18:26:47,745 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-29 18:26:47,745 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618805893-0/master.zip: true
+2019-12-29 18:26:47,745 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618805893-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618805893-0/src'.
+2019-12-29 18:26:47,777 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-12-29 18:26:47,777 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618805893-0/src]
+2019-12-29 18:26:47,800 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618805893-0/src/.git/
 
-2019-03-09 22:37:52,319 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145746006-0/src/gradlew
-2019-03-09 22:37:52,322 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145746006-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145746006-0/src/navigationview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145746006-0/src/build.gradle
-2019-03-09 22:37:52,326 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145746006-0/src/navigationview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145746006-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145746006-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145746006-0/src/settings.gradle
-2019-03-09 22:37:52,327 INFO  ProjectBuildService - Remote scripts: none
-2019-03-09 22:37:52,327 INFO  ProjectFixService - Fixing project...
-2019-03-09 22:37:52,335 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145746006-0/src/app/local.properties
-2019-03-09 22:37:52,336 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145746006-0/src/app/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
-2019-03-09 22:37:52,336 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145746006-0/src/navigationview/local.properties
-2019-03-09 22:37:52,336 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145746006-0/src/navigationview/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
-2019-03-09 22:37:52,336 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145746006-0/src/local.properties
-2019-03-09 22:37:52,337 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2019-03-09 22:37:52,337 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2019-03-09 22:37:52,338 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145746006-0/src/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
-2019-03-09 22:37:52,338 INFO  ProjectFixService - Project was maybe fixed
-2019-03-09 22:37:52,338 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-09 22:37:52,338 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145746006-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145746006-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-09 22:38:04,995 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-09 22:38:04,995 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-09 22:38:04,995 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-09 22:38:04,995 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145746006-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145746006-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-09 22:38:11,104 ERROR SysUtils - Could not process external command
+2019-12-29 18:26:47,803 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618805893-0/src/NiceNavigation-master/gradlew
+2019-12-29 18:26:47,806 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618805893-0/src/NiceNavigation-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618805893-0/src/NiceNavigation-master/navigationview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618805893-0/src/NiceNavigation-master/build.gradle
+2019-12-29 18:26:47,809 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618805893-0/src/NiceNavigation-master/navigationview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618805893-0/src/NiceNavigation-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618805893-0/src/NiceNavigation-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618805893-0/src/NiceNavigation-master/settings.gradle
+2019-12-29 18:26:47,809 INFO  ProjectBuildService - Remote scripts: none
+2019-12-29 18:26:47,809 INFO  ProjectFixService - Fixing project...
+2019-12-29 18:26:47,816 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618805893-0/src/NiceNavigation-master/app/local.properties
+2019-12-29 18:26:47,817 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618805893-0/src/NiceNavigation-master/app/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2019-12-29 18:26:47,817 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618805893-0/src/NiceNavigation-master/navigationview/local.properties
+2019-12-29 18:26:47,817 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618805893-0/src/NiceNavigation-master/navigationview/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2019-12-29 18:26:47,818 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618805893-0/src/NiceNavigation-master/local.properties
+2019-12-29 18:26:47,818 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-12-29 18:26:47,818 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-12-29 18:26:47,819 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618805893-0/src/NiceNavigation-master/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2019-12-29 18:26:47,819 INFO  ProjectFixService - Project was maybe fixed
+2019-12-29 18:26:47,819 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-29 18:26:47,819 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618805893-0/src/NiceNavigation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618805893-0/src/NiceNavigation-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-29 18:27:40,687 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-12-29 18:27:40,688 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-12-29 18:27:40,688 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-12-29 18:27:40,688 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618805893-0/src/NiceNavigation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618805893-0/src/NiceNavigation-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-12-29 18:27:47,042 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -58,7 +55,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-09 22:38:11,104 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-29 18:27:47,042 INFO  SysUtils - Configuration on demand is an incubating feature.
 Constructor DefaultSourceDirectorySet(String, FileResolver) has been deprecated and is scheduled to be removed in Gradle 4.0
 	at org.gradle.api.internal.file.DefaultSourceDirectorySet.<init>(DefaultSourceDirectorySet.java:70)
 	at org.jetbrains.kotlin.gradle.internal.KotlinSourceSetImpl.<init>(KotlinSourceSet.kt:19)
@@ -83,7 +80,7 @@ Constructor DefaultSourceDirectorySet(String, FileResolver) has been deprecated 
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
-	at build_9xanvibf6i7r25bpm28v9c4zv.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145746006-0/src/app/build.gradle:2)
+	at build_6jcl6zjlkn76051o7k20qvis4.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618805893-0/src/NiceNavigation-master/app/build.gradle:2)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:176)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
@@ -267,15 +264,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.608 secs
+Total time: 5.789 secs
 
-2019-03-09 22:38:11,109 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-09 22:38:11,110 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145746006-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145746006-0/src/navigationview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-09 22:38:17,383 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-09 22:38:17,383 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-09 22:38:17,383 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-09 22:38:17,384 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145746006-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145746006-0/src/navigationview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-09 22:38:23,589 ERROR SysUtils - Could not process external command
+2019-12-29 18:27:47,046 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-29 18:27:47,047 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618805893-0/src/NiceNavigation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618805893-0/src/NiceNavigation-master/navigationview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-29 18:27:52,998 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-12-29 18:27:52,998 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-12-29 18:27:52,998 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-12-29 18:27:52,998 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618805893-0/src/NiceNavigation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618805893-0/src/NiceNavigation-master/navigationview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-12-29 18:27:58,789 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -302,7 +299,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-09 22:38:23,589 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-29 18:27:58,790 INFO  SysUtils - Configuration on demand is an incubating feature.
 Constructor DefaultSourceDirectorySet(String, FileResolver) has been deprecated and is scheduled to be removed in Gradle 4.0
 	at org.gradle.api.internal.file.DefaultSourceDirectorySet.<init>(DefaultSourceDirectorySet.java:70)
 	at org.jetbrains.kotlin.gradle.internal.KotlinSourceSetImpl.<init>(KotlinSourceSet.kt:19)
@@ -327,7 +324,7 @@ Constructor DefaultSourceDirectorySet(String, FileResolver) has been deprecated 
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
-	at build_4srq9tnmmm1k2xjm1cfn91sco.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145746006-0/src/navigationview/build.gradle:2)
+	at build_44854yxj2nkzxs033g4iaz32n.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618805893-0/src/NiceNavigation-master/navigationview/build.gradle:2)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:176)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
@@ -511,15 +508,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.682 secs
+Total time: 5.221 secs
 
-2019-03-09 22:38:23,594 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-09 22:38:23,595 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145746006-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145746006-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-09 22:38:30,057 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-09 22:38:30,057 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-09 22:38:30,057 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-09 22:38:30,057 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145746006-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145746006-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-09 22:38:36,172 ERROR SysUtils - Could not process external command
+2019-12-29 18:27:58,794 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-29 18:27:58,795 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618805893-0/src/NiceNavigation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618805893-0/src/NiceNavigation-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-29 18:28:05,967 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-12-29 18:28:05,967 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-12-29 18:28:05,967 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-12-29 18:28:05,967 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618805893-0/src/NiceNavigation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618805893-0/src/NiceNavigation-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-12-29 18:28:12,524 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -546,7 +543,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-09 22:38:36,172 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-29 18:28:12,524 INFO  SysUtils - Configuration on demand is an incubating feature.
 Constructor DefaultSourceDirectorySet(String, FileResolver) has been deprecated and is scheduled to be removed in Gradle 4.0
 	at org.gradle.api.internal.file.DefaultSourceDirectorySet.<init>(DefaultSourceDirectorySet.java:70)
 	at org.jetbrains.kotlin.gradle.internal.KotlinSourceSetImpl.<init>(KotlinSourceSet.kt:19)
@@ -571,7 +568,7 @@ Constructor DefaultSourceDirectorySet(String, FileResolver) has been deprecated 
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
-	at build_9xanvibf6i7r25bpm28v9c4zv.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552145746006-0/src/app/build.gradle:2)
+	at build_6jcl6zjlkn76051o7k20qvis4.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618805893-0/src/NiceNavigation-master/app/build.gradle:2)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:176)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
@@ -755,7 +752,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.558 secs
+Total time: 6.007 secs
 
-2019-03-09 22:38:36,177 ERROR FullProcessService - Project build has not produced APK file
-2019-03-09 22:38:36,182 ERROR FullProcessService - Could not find generated or existed APK file
+2019-12-29 18:28:12,528 ERROR FullProcessService - Project build has not produced APK file
+2019-12-29 18:28:12,531 ERROR FullProcessService - Could not find generated or existed APK file
