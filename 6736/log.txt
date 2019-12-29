@@ -1,37 +1,40 @@
-2019-10-06 21:27:15,102 INFO  DownloadService - Downloading "https://github.com/burhanrashid52/PhotoEditor/archive/master.zip", attempt 3
-2019-10-06 21:27:20,817 INFO  DownloadService - Downloaded https://github.com/burhanrashid52/PhotoEditor/archive/master.zip, attempt 3
-2019-10-06 21:27:20,817 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/master.zip": 6 MB
-2019-10-06 21:27:20,817 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-10-06 21:27:20,818 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/master.zip: true
-2019-10-06 21:27:20,818 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src'.
-2019-10-06 21:27:20,895 INFO  FullProcessService - Size of directory with sources: 7 MB
-2019-10-06 21:27:20,895 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src]
-2019-10-06 21:27:20,914 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/.git/
+2019-12-29 17:00:14,337 INFO  DownloadService - Downloading "https://github.com/burhanrashid52/PhotoEditor/archive/master.zip", attempt 3
+2019-12-29 17:00:18,827 INFO  DownloadService - Downloaded https://github.com/burhanrashid52/PhotoEditor/archive/master.zip, attempt 3
+2019-12-29 17:00:18,827 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/master.zip": 6 MB
+2019-12-29 17:00:18,827 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-29 17:00:18,828 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/master.zip: true
+2019-12-29 17:00:18,829 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src'.
+2019-12-29 17:00:18,909 INFO  FullProcessService - Size of directory with sources: 7 MB
+2019-12-29 17:00:18,909 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src]
+2019-12-29 17:00:18,936 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/.git/
 
-2019-10-06 21:27:20,918 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/gradlew
-2019-10-06 21:27:20,922 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/photoeditor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/build.gradle
-2019-10-06 21:27:20,926 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/photoeditor/build.gradle
-2019-10-06 21:27:20,926 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2019-10-06 21:27:21,173 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2019-10-06 21:27:21,173 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2019-10-06 21:27:21,389 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2019-10-06 21:27:21,389 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2019-10-06 21:27:21,389 INFO  ProjectFixService - Fixing project...
-2019-10-06 21:27:21,401 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/app/local.properties
-2019-10-06 21:27:21,402 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-10-06 21:27:21,403 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/photoeditor/local.properties
-2019-10-06 21:27:21,403 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/photoeditor/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-10-06 21:27:21,403 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/local.properties
-2019-10-06 21:27:21,404 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-10-06 21:27:21,404 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-10-06 21:27:21,405 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-10-06 21:27:21,405 INFO  ProjectFixService - Project was maybe fixed
-2019-10-06 21:27:21,405 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-06 21:27:21,405 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-06 21:27:30,423 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-10-06 21:27:30,423 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-10-06 21:27:30,423 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-10-06 21:27:36,475 ERROR SysUtils - Could not process external command
+2019-12-29 17:00:18,941 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/gradlew
+2019-12-29 17:00:18,945 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/photoeditor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/build.gradle
+2019-12-29 17:00:18,949 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/photoeditor/build.gradle
+2019-12-29 17:00:18,954 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-12-29 17:00:19,892 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-12-29 17:00:19,892 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-12-29 17:00:20,106 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-12-29 17:00:20,106 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-12-29 17:00:20,106 INFO  ProjectFixService - Fixing project...
+2019-12-29 17:00:20,119 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/app/local.properties
+2019-12-29 17:00:20,121 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-12-29 17:00:20,121 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-12-29 17:00:20,122 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/photoeditor/local.properties
+2019-12-29 17:00:20,125 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/photoeditor/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-12-29 17:00:20,125 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/photoeditor/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-12-29 17:00:20,127 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/local.properties
+2019-12-29 17:00:20,127 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-12-29 17:00:20,127 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-12-29 17:00:20,129 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-12-29 17:00:20,129 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-12-29 17:00:20,129 INFO  ProjectFixService - Project was maybe fixed
+2019-12-29 17:00:20,129 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-29 17:00:20,129 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-29 17:00:26,603 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-12-29 17:00:26,603 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-29 17:00:26,603 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-29 17:00:31,926 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -59,7 +62,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-10-06 21:27:36,476 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-29 17:00:31,926 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -160,9 +163,9 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 BUILD FAILED in 5s
 
-2019-10-06 21:27:36,476 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-10-06 21:27:36,476 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-10-06 21:28:34,040 ERROR SysUtils - Could not process external command
+2019-12-29 17:00:31,926 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-12-29 17:00:31,926 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-12-29 17:01:16,850 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -190,7 +193,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-10-06 21:28:34,041 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-29 17:01:16,850 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :app:compileDebugAidl NO-SOURCE
@@ -237,36 +240,36 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:stripDebugDebugSymbols
 > Task :app:prepareLintJar
 > Task :app:checkReleaseDuplicateClasses
-> Task :app:mergeReleaseShaders
-> Task :app:compileReleaseShaders
-> Task :app:generateReleaseAssets
-> Task :app:mergeReleaseAssets
 > Task :app:mergeReleaseResources
 > Task :app:processReleaseResources
 
 > Task :app:compileReleaseJavaWithJavac
-Note: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileReleaseSources
 > Task :app:lintVitalRelease SKIPPED
+> Task :app:mergeExtDexDebug
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
 > Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :app:mergeReleaseAssets
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
 
 > Task :app:lint
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/a490cf76aa2e58c8c127e7474b56072f/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-Ran lint on variant release: 56 issues found
-Ran lint on variant debug: 56 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/app/build/reports/lint-results.xml
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/fd3503b9481df3c4dcfe7bf624ff3381/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+Ran lint on variant release: 55 issues found
+Ran lint on variant debug: 55 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/app/build/reports/lint-results.xml
 
 > Task :app:lint FAILED
-> Task :app:mergeExtDexDebug
-> Task :app:mergeReleaseNativeLibs
-> Task :app:mergeExtDexRelease
 > Task :app:mergeReleaseJavaResource
+> Task :app:mergeDexDebug
+> Task :app:mergeReleaseNativeLibs
 
 FAILURE: Build failed with an exception.
 
@@ -284,13 +287,13 @@ Execution failed for task ':app:lint'.
   ...
   
   The first 3 errors (out of 6) were:
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/app/src/main/res/layout/layout_tools_paint.xml:65: Error: This view is not constrained vertically: at runtime it will jump to the top unless you add a vertical constraint [MissingConstraints]
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/app/src/main/res/layout/layout_tools_paint.xml:65: Error: This view is not constrained vertically: at runtime it will jump to the top unless you add a vertical constraint [MissingConstraints]
       <ImageView
        ~~~~~~~~~
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/app/src/main/res/layout/layout_tools_paint.xml:77: Error: This view is not constrained vertically: at runtime it will jump to the top unless you add a vertical constraint [MissingConstraints]
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/app/src/main/res/layout/layout_tools_paint.xml:77: Error: This view is not constrained vertically: at runtime it will jump to the top unless you add a vertical constraint [MissingConstraints]
       <ImageView
        ~~~~~~~~~
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/app/src/main/res/layout/row_editing_tools.xml:12: Error: This view is not constrained vertically: at runtime it will jump to the top unless you add a vertical constraint [MissingConstraints]
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/app/src/main/res/layout/row_editing_tools.xml:12: Error: This view is not constrained vertically: at runtime it will jump to the top unless you add a vertical constraint [MissingConstraints]
       <ImageView
        ~~~~~~~~~
   
@@ -337,9 +340,89 @@ org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:lin
 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:202)
 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.executeNextNode(DefaultPlanExecutor.java:193)
 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:129)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at org.gradle.execution.plan.DefaultPlanExecutor.process(DefaultPlanExecutor.java:74)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph.executeWithServices(DefaultTaskExecutionGraph.java:178)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph.execute(DefaultTaskExecutionGraph.java:154)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:41)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:40)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:24)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:46)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:49)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:40)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:33)
+	at org.gradle.initialization.DefaultGradleLauncher$ExecuteTasks.run(DefaultGradleLauncher.java:383)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.initialization.DefaultGradleLauncher.runTasks(DefaultGradleLauncher.java:247)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:159)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:134)
+	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:58)
+	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:55)
+	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:82)
+	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:183)
+	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:40)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:75)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:55)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:31)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcomeReportingBuildActionRunner.java:58)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.BuildCompletionNotifyingBuildActionRunner.run(BuildCompletionNotifyingBuildActionRunner.java:39)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:45)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:45)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:49)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:46)
+	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:78)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:31)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:42)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:28)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:52)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:68)
+	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:38)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:37)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:60)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:55)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:41)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:48)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:32)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:55)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:208)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:394)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:367)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:37)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:23)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:360)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:292)
+	at org.gradle.launcher.Main.doAction(Main.java:36)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
 Caused by: org.gradle.api.GradleException: Lint found errors in the project; aborting build.
 
 Fix the issues identified by lint, or add the following to your build script to proceed with errors:
@@ -352,13 +435,13 @@ android {
 ...
 
 The first 3 errors (out of 6) were:
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/app/src/main/res/layout/layout_tools_paint.xml:65: Error: This view is not constrained vertically: at runtime it will jump to the top unless you add a vertical constraint [MissingConstraints]
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/app/src/main/res/layout/layout_tools_paint.xml:65: Error: This view is not constrained vertically: at runtime it will jump to the top unless you add a vertical constraint [MissingConstraints]
     <ImageView
      ~~~~~~~~~
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/app/src/main/res/layout/layout_tools_paint.xml:77: Error: This view is not constrained vertically: at runtime it will jump to the top unless you add a vertical constraint [MissingConstraints]
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/app/src/main/res/layout/layout_tools_paint.xml:77: Error: This view is not constrained vertically: at runtime it will jump to the top unless you add a vertical constraint [MissingConstraints]
     <ImageView
      ~~~~~~~~~
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/app/src/main/res/layout/row_editing_tools.xml:12: Error: This view is not constrained vertically: at runtime it will jump to the top unless you add a vertical constraint [MissingConstraints]
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/app/src/main/res/layout/row_editing_tools.xml:12: Error: This view is not constrained vertically: at runtime it will jump to the top unless you add a vertical constraint [MissingConstraints]
     <ImageView
      ~~~~~~~~~
 
@@ -421,7 +504,7 @@ The first 3 errors (out of 6) were:
 	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:48)
 	at org.gradle.internal.execution.impl.DefaultWorkExecutor.execute(DefaultWorkExecutor.java:33)
 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:120)
-	... 35 more
+	... 115 more
 
 
 * Get more help at https://help.gradle.org
@@ -429,16 +512,16 @@ The first 3 errors (out of 6) were:
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 44s
 44 actionable tasks: 44 executed
 
-BUILD FAILED in 56s
-
-2019-10-06 21:28:34,157 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-06 21:28:34,158 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/photoeditor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-06 21:28:41,874 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-10-06 21:28:41,875 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-10-06 21:28:41,875 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/photoeditor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-10-06 21:28:47,683 ERROR SysUtils - Could not process external command
+2019-12-29 17:01:16,923 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-29 17:01:16,923 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/photoeditor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-29 17:01:23,183 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-12-29 17:01:23,183 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-12-29 17:01:23,183 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/photoeditor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-12-29 17:01:28,541 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -466,7 +549,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-10-06 21:28:47,683 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-29 17:01:28,541 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -567,14 +650,14 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 BUILD FAILED in 5s
 
-2019-10-06 21:28:47,683 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-10-06 21:28:47,683 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/photoeditor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-10-06 21:30:28,375 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-29 17:01:28,542 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-12-29 17:01:28,542 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/photoeditor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-12-29 17:02:21,784 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :photoeditor:preBuild UP-TO-DATE
 > Task :photoeditor:preDebugBuild UP-TO-DATE
 > Task :photoeditor:compileDebugAidl NO-SOURCE
-> Task :photoeditor:compileDebugRenderscript NO-SOURCE
 > Task :photoeditor:checkDebugManifest
+> Task :photoeditor:compileDebugRenderscript NO-SOURCE
 > Task :photoeditor:generateDebugBuildConfig
 > Task :photoeditor:generateDebugResValues
 > Task :photoeditor:generateDebugResources
@@ -584,53 +667,32 @@ BUILD FAILED in 5s
 > Task :photoeditor:generateDebugAssets
 > Task :photoeditor:packageDebugAssets
 > Task :photoeditor:packageDebugRenderscript NO-SOURCE
-> Task :photoeditor:parseDebugLibraryResources
+> Task :photoeditor:javaPreCompileDebug
 > Task :photoeditor:processDebugJavaRes NO-SOURCE
 > Task :photoeditor:mergeDebugJniLibFolders
 > Task :photoeditor:prepareLintJarForPublish
-> Task :photoeditor:mergeDebugResources
+> Task :photoeditor:processDebugManifest
+> Task :photoeditor:parseDebugLibraryResources
 > Task :photoeditor:preReleaseBuild UP-TO-DATE
-> Task :photoeditor:mergeDebugNativeLibs
-> Task :photoeditor:stripDebugDebugSymbols
-> Task :photoeditor:transformNativeLibsWithSyncJniLibsForDebug
 > Task :photoeditor:compileReleaseAidl NO-SOURCE
 > Task :photoeditor:compileReleaseRenderscript NO-SOURCE
+> Task :photoeditor:mergeDebugResources
 > Task :photoeditor:checkReleaseManifest
 > Task :photoeditor:generateReleaseBuildConfig
 > Task :photoeditor:generateReleaseResValues
 > Task :photoeditor:generateReleaseResources
 > Task :photoeditor:packageReleaseResources
-> Task :photoeditor:javaPreCompileDebug
+> Task :photoeditor:parseReleaseLibraryResources
 > Task :photoeditor:mergeReleaseShaders
+> Task :photoeditor:processReleaseManifest
+> Task :photoeditor:javaPreCompileRelease
 > Task :photoeditor:compileReleaseShaders
 > Task :photoeditor:generateReleaseAssets
 > Task :photoeditor:packageReleaseAssets
 > Task :photoeditor:packageReleaseRenderscript NO-SOURCE
 > Task :photoeditor:processReleaseJavaRes NO-SOURCE
 > Task :photoeditor:mergeReleaseJniLibFolders
-> Task :photoeditor:parseReleaseLibraryResources
 > Task :photoeditor:mergeReleaseResources
-> Task :photoeditor:mergeReleaseNativeLibs
-> Task :photoeditor:stripReleaseDebugSymbols
-> Task :photoeditor:transformNativeLibsWithSyncJniLibsForRelease
-> Task :photoeditor:processReleaseManifest
-> Task :photoeditor:javaPreCompileRelease
-> Task :photoeditor:generateReleaseRFile
-
-> Task :photoeditor:compileReleaseJavaWithJavac
-Note: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
-> Task :photoeditor:extractReleaseAnnotations
-> Task :photoeditor:mergeReleaseGeneratedProguardFiles
-> Task :photoeditor:mergeReleaseConsumerProguardFiles
-> Task :photoeditor:processDebugManifest
-> Task :photoeditor:compileReleaseSources
-> Task :photoeditor:verifyReleaseResources
-> Task :photoeditor:mergeReleaseJavaResource
-> Task :photoeditor:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :photoeditor:bundleReleaseAar
-> Task :photoeditor:assembleRelease
 > Task :photoeditor:generateDebugRFile
 
 > Task :photoeditor:compileDebugJavaWithJavac
@@ -641,29 +703,51 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :photoeditor:mergeDebugGeneratedProguardFiles
 > Task :photoeditor:mergeDebugConsumerProguardFiles
 > Task :photoeditor:compileDebugSources
+> Task :photoeditor:generateReleaseRFile
+
+> Task :photoeditor:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :photoeditor:extractReleaseAnnotations
+> Task :photoeditor:mergeReleaseGeneratedProguardFiles
+> Task :photoeditor:mergeReleaseConsumerProguardFiles
 > Task :photoeditor:mergeDebugJavaResource
 > Task :photoeditor:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :photoeditor:compileReleaseSources
+> Task :photoeditor:verifyReleaseResources
+> Task :photoeditor:mergeReleaseNativeLibs
+> Task :photoeditor:stripReleaseDebugSymbols
+> Task :photoeditor:transformNativeLibsWithSyncJniLibsForRelease
+> Task :photoeditor:mergeReleaseJavaResource
+> Task :photoeditor:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :photoeditor:bundleReleaseAar
+> Task :photoeditor:assembleRelease
+> Task :photoeditor:mergeDebugNativeLibs
+> Task :photoeditor:stripDebugDebugSymbols
+> Task :photoeditor:transformNativeLibsWithSyncJniLibsForDebug
 > Task :photoeditor:bundleDebugAar
 > Task :photoeditor:assembleDebug
 > Task :photoeditor:assemble
 > Task :photoeditor:prepareLintJar
 
 > Task :photoeditor:lint
-Ran lint on variant debug: 8 issues found
-Ran lint on variant release: 8 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/photoeditor/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/photoeditor/build/reports/lint-results.xml
+Ran lint on variant release: 7 issues found
+Ran lint on variant debug: 7 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/photoeditor/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/photoeditor/build/reports/lint-results.xml
 
+> Task :photoeditor:bundleLibResDebug
 > Task :photoeditor:preDebugUnitTestBuild UP-TO-DATE
 > Task :photoeditor:generateDebugUnitTestResValues
 > Task :photoeditor:generateDebugUnitTestResources
 > Task :photoeditor:processDebugUnitTestManifest
-> Task :photoeditor:mergeDebugAssets
-> Task :photoeditor:generateDebugUnitTestAssets UP-TO-DATE
-> Task :photoeditor:mergeDebugUnitTestAssets
-> Task :photoeditor:processDebugUnitTestJavaRes NO-SOURCE
 > Task :photoeditor:mergeDebugUnitTestResources
 > Task :photoeditor:javaPreCompileDebugUnitTest
+> Task :photoeditor:generateDebugUnitTestAssets UP-TO-DATE
+> Task :photoeditor:processDebugUnitTestJavaRes
+> Task :photoeditor:mergeDebugAssets
+> Task :photoeditor:mergeDebugUnitTestAssets
 > Task :photoeditor:preReleaseUnitTestBuild UP-TO-DATE
 > Task :photoeditor:generateReleaseUnitTestResValues
 > Task :photoeditor:generateReleaseUnitTestResources
@@ -673,19 +757,18 @@ Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgby
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-> Task :photoeditor:bundleLibResRelease
 > Task :photoeditor:packageDebugUnitTestForUnitTest
+> Task :photoeditor:bundleLibResRelease
 > Task :photoeditor:processReleaseUnitTestManifest
 > Task :photoeditor:mergeReleaseAssets
 > Task :photoeditor:generateReleaseUnitTestAssets UP-TO-DATE
 > Task :photoeditor:mergeReleaseUnitTestAssets
-> Task :photoeditor:processReleaseUnitTestJavaRes NO-SOURCE
-> Task :photoeditor:bundleLibResDebug
+> Task :photoeditor:processReleaseUnitTestJavaRes
 > Task :photoeditor:javaPreCompileReleaseUnitTest
 > Task :photoeditor:mergeReleaseUnitTestResources
 > Task :photoeditor:generateDebugUnitTestConfig
-> Task :photoeditor:processReleaseUnitTestResources
 > Task :photoeditor:testDebugUnitTest
+> Task :photoeditor:processReleaseUnitTestResources
 
 > Task :photoeditor:compileReleaseUnitTestJavaWithJavac
 Note: Some input files use or override a deprecated API.
@@ -702,15 +785,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 40s
-74 actionable tasks: 74 executed
+BUILD SUCCESSFUL in 52s
+76 actionable tasks: 76 executed
 
-2019-10-06 21:30:28,516 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-06 21:30:28,516 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-06 21:30:37,552 INFO  ProjectTaskService - Detected possible tasks: 74
-2019-10-06 21:30:37,552 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-10-06 21:30:37,553 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-10-06 21:30:42,700 ERROR SysUtils - Could not process external command
+2019-12-29 17:02:21,940 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-29 17:02:21,941 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-29 17:02:28,283 INFO  ProjectTaskService - Detected possible tasks: 74
+2019-12-29 17:02:28,283 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-29 17:02:28,284 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-29 17:02:34,037 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -738,7 +821,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-10-06 21:30:42,700 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-29 17:02:34,037 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -837,11 +920,11 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in root
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 4s
+BUILD FAILED in 5s
 
-2019-10-06 21:30:42,701 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-10-06 21:30:42,701 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-10-06 21:31:02,796 ERROR SysUtils - Could not process external command
+2019-12-29 17:02:34,037 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-12-29 17:02:34,037 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-12-29 17:02:52,794 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -869,7 +952,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-10-06 21:31:02,796 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-29 17:02:52,795 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :app:compileDebugAidl NO-SOURCE
@@ -894,13 +977,16 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :app:mergeDebugJavaResource UP-TO-DATE
 > Task :app:checkDebugDuplicateClasses UP-TO-DATE
 > Task :app:transformClassesWithDexBuilderForDebug UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeDexDebug UP-TO-DATE
 > Task :app:validateSigningDebug UP-TO-DATE
 > Task :app:signingConfigWriterDebug UP-TO-DATE
-> Task :app:mergeExtDexDebug UP-TO-DATE
 > Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:preReleaseBuild UP-TO-DATE
 > Task :app:mergeDebugNativeLibs UP-TO-DATE
 > Task :app:stripDebugDebugSymbols UP-TO-DATE
-> Task :app:preReleaseBuild UP-TO-DATE
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:checkReleaseManifest UP-TO-DATE
@@ -916,10 +1002,9 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :app:compileReleaseJavaWithJavac UP-TO-DATE
 > Task :app:compileReleaseSources UP-TO-DATE
 > Task :app:prepareLintJar UP-TO-DATE
-> Task :app:lintVitalRelease SKIPPED
 > Task :app:checkReleaseDuplicateClasses UP-TO-DATE
+> Task :app:lintVitalRelease SKIPPED
 > Task :app:transformClassesWithDexBuilderForRelease UP-TO-DATE
-> Task :app:mergeExtDexRelease UP-TO-DATE
 > Task :app:mergeReleaseShaders UP-TO-DATE
 > Task :app:compileReleaseShaders UP-TO-DATE
 > Task :app:generateReleaseAssets UP-TO-DATE
@@ -932,14 +1017,13 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :app:stripReleaseDebugSymbols
 
 > Task :app:lint
-Ran lint on variant debug: 56 issues found
-Ran lint on variant release: 56 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/app/build/reports/lint-results.xml
+Ran lint on variant release: 55 issues found
+Ran lint on variant debug: 55 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/app/build/reports/lint-results.xml
 
 > Task :app:lint FAILED
-> Task :app:mergeDexRelease
-> Task :app:mergeDexDebug
+> Task :app:mergeExtDexRelease
 
 FAILURE: Build failed with an exception.
 
@@ -957,13 +1041,13 @@ Execution failed for task ':app:lint'.
   ...
   
   The first 3 errors (out of 6) were:
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/app/src/main/res/layout/layout_tools_paint.xml:65: Error: This view is not constrained vertically: at runtime it will jump to the top unless you add a vertical constraint [MissingConstraints]
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/app/src/main/res/layout/layout_tools_paint.xml:65: Error: This view is not constrained vertically: at runtime it will jump to the top unless you add a vertical constraint [MissingConstraints]
       <ImageView
        ~~~~~~~~~
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/app/src/main/res/layout/layout_tools_paint.xml:77: Error: This view is not constrained vertically: at runtime it will jump to the top unless you add a vertical constraint [MissingConstraints]
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/app/src/main/res/layout/layout_tools_paint.xml:77: Error: This view is not constrained vertically: at runtime it will jump to the top unless you add a vertical constraint [MissingConstraints]
       <ImageView
        ~~~~~~~~~
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/app/src/main/res/layout/row_editing_tools.xml:12: Error: This view is not constrained vertically: at runtime it will jump to the top unless you add a vertical constraint [MissingConstraints]
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/app/src/main/res/layout/row_editing_tools.xml:12: Error: This view is not constrained vertically: at runtime it will jump to the top unless you add a vertical constraint [MissingConstraints]
       <ImageView
        ~~~~~~~~~
   
@@ -1025,13 +1109,13 @@ android {
 ...
 
 The first 3 errors (out of 6) were:
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/app/src/main/res/layout/layout_tools_paint.xml:65: Error: This view is not constrained vertically: at runtime it will jump to the top unless you add a vertical constraint [MissingConstraints]
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/app/src/main/res/layout/layout_tools_paint.xml:65: Error: This view is not constrained vertically: at runtime it will jump to the top unless you add a vertical constraint [MissingConstraints]
     <ImageView
      ~~~~~~~~~
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/app/src/main/res/layout/layout_tools_paint.xml:77: Error: This view is not constrained vertically: at runtime it will jump to the top unless you add a vertical constraint [MissingConstraints]
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/app/src/main/res/layout/layout_tools_paint.xml:77: Error: This view is not constrained vertically: at runtime it will jump to the top unless you add a vertical constraint [MissingConstraints]
     <ImageView
      ~~~~~~~~~
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570372035094-0/src/PhotoEditor-master/app/src/main/res/layout/row_editing_tools.xml:12: Error: This view is not constrained vertically: at runtime it will jump to the top unless you add a vertical constraint [MissingConstraints]
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/app/src/main/res/layout/row_editing_tools.xml:12: Error: This view is not constrained vertically: at runtime it will jump to the top unless you add a vertical constraint [MissingConstraints]
     <ImageView
      ~~~~~~~~~
 
@@ -1099,8 +1183,7 @@ The first 3 errors (out of 6) were:
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 19s
+BUILD FAILED in 18s
 47 actionable tasks: 4 executed, 43 up-to-date
 
-2019-10-06 21:31:02,935 ERROR FullProcessService - Project build has not produced APK file
-2019-10-06 21:31:03,082 ERROR FullProcessService - Could not find generated or existed APK file
+2019-12-29 17:02:52,956 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613614329-0/src/PhotoEditor-master/app/build/outputs/apk/debug/app-debug.apk
