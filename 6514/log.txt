@@ -1,194 +1,337 @@
-2019-05-26 18:12:36,408 INFO  DownloadService - Downloading "https://github.com/ShabanKamell/android-navigator/archive/master.zip", attempt 3
-2019-05-26 18:12:39,333 INFO  DownloadService - Downloaded https://github.com/ShabanKamell/android-navigator/archive/master.zip, attempt 3
-2019-05-26 18:12:39,333 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869156405-0/master.zip": 394 KB
-2019-05-26 18:12:39,333 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-26 18:12:39,334 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869156405-0/master.zip: true
-2019-05-26 18:12:39,334 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869156405-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869156405-0/src'.
-2019-05-26 18:12:39,357 INFO  FullProcessService - Size of directory with sources: 447 KB
-2019-05-26 18:12:39,357 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869156405-0/src]
-2019-05-26 18:12:39,382 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869156405-0/src/.git/
+2019-12-30 12:31:25,660 INFO  DownloadService - Downloading "https://github.com/ShabanKamell/android-navigator/archive/master.zip", attempt 3
+2019-12-30 12:31:27,261 INFO  DownloadService - Downloaded https://github.com/ShabanKamell/android-navigator/archive/master.zip, attempt 3
+2019-12-30 12:31:27,261 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/master.zip": 929 KB
+2019-12-30 12:31:27,261 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-30 12:31:27,267 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/master.zip: true
+2019-12-30 12:31:27,268 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src'.
+2019-12-30 12:31:27,346 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-12-30 12:31:27,346 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src]
+2019-12-30 12:31:27,367 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/.git/
 
-2019-05-26 18:12:39,387 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869156405-0/src/Navigator-master/gradlew
-2019-05-26 18:12:39,391 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869156405-0/src/Navigator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869156405-0/src/Navigator-master/navigator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869156405-0/src/Navigator-master/build.gradle
-2019-05-26 18:12:39,394 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869156405-0/src/Navigator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869156405-0/src/Navigator-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869156405-0/src/Navigator-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869156405-0/src/Navigator-master/navigator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869156405-0/src/Navigator-master/settings.gradle
-2019-05-26 18:12:39,394 INFO  ProjectBuildService - Remote scripts: none
-2019-05-26 18:12:39,394 INFO  ProjectFixService - Fixing project...
-2019-05-26 18:12:39,402 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869156405-0/src/Navigator-master/app/local.properties
-2019-05-26 18:12:39,403 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869156405-0/src/Navigator-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-26 18:12:39,403 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869156405-0/src/Navigator-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-26 18:12:39,404 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869156405-0/src/Navigator-master/navigator/local.properties
-2019-05-26 18:12:39,405 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869156405-0/src/Navigator-master/navigator/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-26 18:12:39,405 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869156405-0/src/Navigator-master/navigator/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-26 18:12:39,406 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869156405-0/src/Navigator-master/local.properties
-2019-05-26 18:12:39,406 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-05-26 18:12:39,407 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-05-26 18:12:39,408 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869156405-0/src/Navigator-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-26 18:12:39,409 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869156405-0/src/Navigator-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-26 18:12:39,409 INFO  ProjectFixService - Project was maybe fixed
-2019-05-26 18:12:39,409 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-26 18:12:39,409 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869156405-0/src/Navigator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869156405-0/src/Navigator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-26 18:12:46,135 INFO  ProjectTaskService - Detected possible tasks: 67
-2019-05-26 18:12:46,135 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-26 18:12:46,135 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869156405-0/src/Navigator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869156405-0/src/Navigator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-26 18:13:19,468 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-30 12:31:27,376 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/gradlew
+2019-12-30 12:31:27,384 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/profile/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/build.gradle
+2019-12-30 12:31:27,393 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/profile/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/settings.gradle
+2019-12-30 12:31:27,393 INFO  ProjectBuildService - Remote scripts: none
+2019-12-30 12:31:27,393 INFO  ProjectFixService - Fixing project...
+2019-12-30 12:31:27,412 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/lib/local.properties
+2019-12-30 12:31:27,414 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-12-30 12:31:27,414 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-12-30 12:31:27,415 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/profile/local.properties
+2019-12-30 12:31:27,416 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/profile/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-12-30 12:31:27,416 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/profile/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-12-30 12:31:27,417 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/sample/local.properties
+2019-12-30 12:31:27,418 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-12-30 12:31:27,419 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-12-30 12:31:27,419 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/local.properties
+2019-12-30 12:31:27,420 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.1-all.zip
+2019-12-30 12:31:27,420 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.1-bin.zip)
+2019-12-30 12:31:27,423 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-12-30 12:31:27,423 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-12-30 12:31:27,424 INFO  ProjectFixService - Project was maybe fixed
+2019-12-30 12:31:27,424 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-30 12:31:27,424 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-30 12:31:36,472 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-12-30 12:31:36,472 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-12-30 12:31:36,472 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-12-30 12:31:54,960 INFO  SysUtils - Configuration on demand is an incubating feature.
 
-> Configure project :app
+> Configure project :lib
+WARNING: The option setting 'android.jetifier.blacklist=parceler' is experimental and unsupported.
+
+Kotlin plugin should be enabled before 'kotlin-android-extensions'
+
+> Task :lib:preBuild UP-TO-DATE
+> Task :lib:preDebugBuild UP-TO-DATE
+> Task :lib:mergeDebugJniLibFolders
+> Task :lib:mergeDebugNativeLibs
+> Task :lib:stripDebugDebugSymbols
+> Task :lib:copyDebugJniLibsProjectAndLocalJars
+> Task :lib:generateDebugBuildConfig
+> Task :lib:generateDebugResValues
+> Task :lib:mergeDebugShaders
+> Task :lib:compileDebugShaders
+> Task :lib:generateDebugAssets
+> Task :lib:packageDebugAssets
+> Task :lib:packageDebugRenderscript NO-SOURCE
+> Task :lib:processDebugJavaRes NO-SOURCE
+> Task :lib:preReleaseBuild UP-TO-DATE
+> Task :lib:mergeReleaseJniLibFolders
+> Task :lib:prepareLintJarForPublish
+> Task :lib:mergeReleaseNativeLibs
+> Task :lib:stripReleaseDebugSymbols
+> Task :lib:copyReleaseJniLibsProjectAndLocalJars
+> Task :lib:generateReleaseBuildConfig
+> Task :lib:generateReleaseResValues
+> Task :lib:compileDebugAidl NO-SOURCE
+> Task :lib:compileDebugRenderscript NO-SOURCE
+> Task :lib:generateDebugResources
+> Task :lib:packageDebugResources
+> Task :lib:processReleaseManifest
+> Task :lib:compileReleaseAidl NO-SOURCE
+> Task :lib:compileReleaseRenderscript NO-SOURCE
+> Task :lib:generateReleaseResources
+> Task :lib:packageReleaseResources
+> Task :lib:mergeReleaseShaders
+> Task :lib:compileReleaseShaders
+> Task :lib:generateReleaseAssets
+> Task :lib:packageReleaseAssets
+> Task :lib:packageReleaseRenderscript NO-SOURCE
+> Task :lib:processReleaseJavaRes NO-SOURCE
+> Task :lib:parseDebugLocalResources
+> Task :lib:parseReleaseLocalResources
+> Task :lib:processDebugManifest
+> Task :lib:mergeReleaseResources
+> Task :lib:generateReleaseRFile
+
+> Task :lib:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/lib/src/main/java/com/sha/kamel/navigator/model/Flags.kt: (28, 26): 'FLAG_ACTIVITY_CLEAR_WHEN_TASK_RESET: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/lib/src/main/java/com/sha/kamel/navigator/modular/FragmentModuleNavigator.kt: (14, 75): Unchecked cast: Any! to T
+
+> Task :lib:generateDebugRFile
+
+> Task :lib:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/lib/src/main/java/com/sha/kamel/navigator/model/Flags.kt: (28, 26): 'FLAG_ACTIVITY_CLEAR_WHEN_TASK_RESET: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/lib/src/main/java/com/sha/kamel/navigator/modular/FragmentModuleNavigator.kt: (14, 75): Unchecked cast: Any! to T
+
+> Task :lib:mergeReleaseJavaResource
+> Task :lib:javaPreCompileDebug
+> Task :lib:compileDebugJavaWithJavac
+> Task :lib:extractDebugAnnotations
+> Task :lib:mergeDebugGeneratedProguardFiles
+> Task :lib:mergeDebugConsumerProguardFiles
+> Task :lib:compileDebugSources
+> Task :lib:javaPreCompileRelease
+> Task :lib:compileReleaseJavaWithJavac
+> Task :lib:extractReleaseAnnotations
+> Task :lib:mergeReleaseGeneratedProguardFiles
+> Task :lib:mergeReleaseConsumerProguardFiles
+> Task :lib:syncReleaseLibJars
+> Task :lib:bundleReleaseAar
+> Task :lib:compileReleaseSources
+> Task :lib:verifyReleaseResources
+> Task :lib:assembleRelease
+> Task :lib:mergeDebugJavaResource
+> Task :lib:syncDebugLibJars
+> Task :lib:bundleDebugAar
+> Task :lib:assembleDebug
+> Task :lib:assemble
+> Task :lib:build
+
+BUILD SUCCESSFUL in 17s
+47 actionable tasks: 47 executed
+
+2019-12-30 12:31:55,004 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-30 12:31:55,004 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/profile/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-30 12:32:01,932 INFO  ProjectTaskService - Detected possible tasks: 64
+2019-12-30 12:32:01,932 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease uninstallDebug
+2019-12-30 12:32:01,932 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/profile/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-30 12:33:00,126 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :profile
 WARNING: The option setting 'android.jetifier.blacklist=parceler' is experimental and unsupported.
 
 
-> Configure project :navigator
-WARNING: The option setting 'android.jetifier.blacklist=parceler' is experimental and unsupported.
+> Configure project :lib
+Kotlin plugin should be enabled before 'kotlin-android-extensions'
 
+> Task :profile:preBuild UP-TO-DATE
+> Task :profile:preDebugBuild UP-TO-DATE
+> Task :profile:compileDebugAidl NO-SOURCE
+> Task :profile:generateDebugBuildConfig
+> Task :profile:compileDebugRenderscript NO-SOURCE
+> Task :lib:preBuild UP-TO-DATE
+> Task :lib:preDebugBuild UP-TO-DATE
+> Task :lib:generateDebugResValues UP-TO-DATE
+> Task :lib:compileDebugRenderscript NO-SOURCE
+> Task :lib:generateDebugResources UP-TO-DATE
+> Task :lib:packageDebugResources UP-TO-DATE
+> Task :lib:parseDebugLocalResources UP-TO-DATE
+> Task :lib:processDebugManifest UP-TO-DATE
+> Task :lib:generateDebugRFile UP-TO-DATE
+> Task :profile:mainApkListPersistenceDebug
+> Task :lib:compileDebugLibraryResources
+> Task :profile:generateDebugResValues
+> Task :profile:generateDebugResources
+> Task :sample:generateDebugFeatureTransitiveDeps
+> Task :lib:extractDeepLinksDebug
+> Task :profile:createDebugCompatibleScreenManifests
+> Task :profile:extractDeepLinksDebug
+> Task :profile:generateDebugFeatureTransitiveDeps
+> Task :sample:checkDebugLibraries
+> Task :sample:preBuild UP-TO-DATE
+> Task :sample:preDebugBuild
+> Task :sample:extractDeepLinksDebug
+> Task :profile:featureDebugWriter
+> Task :sample:writeDebugModuleMetadata
+> Task :sample:generateDebugFeatureMetadata
+> Task :profile:processDebugManifest
+> Task :profile:mergeDebugResources
+> Task :sample:mainApkListPersistenceDebug
+> Task :lib:packageDebugRenderscript NO-SOURCE
+> Task :sample:generateDebugResValues
+> Task :sample:compileDebugRenderscript NO-SOURCE
+> Task :sample:generateDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:processDebugManifest
+> Task :sample:mergeDebugResources
+> Task :sample:processDebugResources
+> Task :profile:processDebugResources
+> Task :lib:generateDebugBuildConfig UP-TO-DATE
+> Task :lib:compileDebugAidl NO-SOURCE
+> Task :lib:compileDebugKotlin UP-TO-DATE
+> Task :lib:processDebugJavaRes NO-SOURCE
+> Task :lib:javaPreCompileDebug UP-TO-DATE
+> Task :lib:compileDebugJavaWithJavac UP-TO-DATE
+> Task :lib:bundleLibResDebug
+> Task :sample:generateDebugBuildConfig
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :lib:bundleLibRuntimeDebug
+> Task :lib:createFullJarDebug
+> Task :lib:bundleLibCompileDebug
+> Task :lib:mergeDebugShaders UP-TO-DATE
+> Task :lib:compileDebugShaders UP-TO-DATE
+> Task :lib:generateDebugAssets UP-TO-DATE
+> Task :lib:packageDebugAssets UP-TO-DATE
+> Task :profile:mergeDebugShaders
+> Task :profile:compileDebugShaders
+> Task :profile:generateDebugAssets
+> Task :profile:mergeDebugAssets
+> Task :profile:processDebugJavaRes NO-SOURCE
+> Task :sample:kaptGenerateStubsDebugKotlin
 
-> Task :navigator:preBuild UP-TO-DATE
-> Task :navigator:preDebugBuild UP-TO-DATE
-> Task :navigator:compileDebugAidl NO-SOURCE
-> Task :navigator:checkDebugManifest
-> Task :navigator:compileDebugRenderscript NO-SOURCE
-> Task :navigator:generateDebugBuildConfig
-> Task :navigator:generateDebugResValues
-> Task :navigator:generateDebugResources
-> Task :navigator:packageDebugResources
-> Task :navigator:processDebugManifest
-> Task :navigator:generateDebugRFile
-> Task :navigator:prepareLintJar
-> Task :navigator:generateDebugSources
-> Task :navigator:javaPreCompileDebug
+> Task :sample:kaptDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/sample/build/tmp/kapt3/stubs/debug/com/sha/kamel/sample/model/Message.java:9: warning: Parceler: Reflection is required to access private field: String message, consider using non-private.
+    private java.lang.String message;
+                             ^
 
-> Task :navigator:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869156405-0/src/Navigator-master/navigator/src/main/java/com/sha/kamel/navigator/model/Flags.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
+> Task :sample:compileDebugKotlin
+> Task :profile:checkDebugDuplicateClasses
+> Task :profile:desugarDebugFileDependencies
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :profile:mergeLibDexDebug
+> Task :lib:mergeDebugJniLibFolders UP-TO-DATE
+> Task :lib:mergeDebugNativeLibs UP-TO-DATE
+> Task :lib:stripDebugDebugSymbols UP-TO-DATE
+> Task :lib:copyDebugJniLibsProjectOnly
+> Task :profile:mergeDebugJniLibFolders
+> Task :sample:bundleDebugClasses
+> Task :profile:kaptGenerateStubsDebugKotlin
+> Task :profile:kaptDebugKotlin
+> Task :profile:compileDebugKotlin
+> Task :profile:mergeExtDexDebug
+> Task :profile:javaPreCompileDebug
+> Task :profile:compileDebugJavaWithJavac
+> Task :profile:compileDebugSources
+> Task :profile:dexBuilderDebug
+> Task :sample:validateSigningDebug
+> Task :sample:signingConfigWriterDebug
+> Task :profile:preReleaseBuild UP-TO-DATE
+> Task :profile:compileReleaseAidl NO-SOURCE
+> Task :profile:compileReleaseRenderscript NO-SOURCE
+> Task :profile:generateReleaseBuildConfig
+> Task :lib:preReleaseBuild UP-TO-DATE
+> Task :lib:compileReleaseRenderscript NO-SOURCE
+> Task :lib:generateReleaseResValues UP-TO-DATE
+> Task :lib:generateReleaseResources UP-TO-DATE
+> Task :lib:packageReleaseResources UP-TO-DATE
+> Task :profile:mergeProjectDexDebug
+> Task :lib:parseReleaseLocalResources UP-TO-DATE
+> Task :lib:processReleaseManifest UP-TO-DATE
+> Task :lib:generateReleaseRFile UP-TO-DATE
+> Task :profile:mainApkListPersistenceRelease
+> Task :profile:generateReleaseResValues
+> Task :profile:generateReleaseResources
+> Task :sample:generateReleaseFeatureTransitiveDeps
+> Task :lib:extractDeepLinksRelease
+> Task :profile:createReleaseCompatibleScreenManifests
+> Task :profile:extractDeepLinksRelease
+> Task :profile:generateReleaseFeatureTransitiveDeps
+> Task :sample:checkReleaseLibraries
+> Task :sample:preReleaseBuild
+> Task :sample:extractDeepLinksRelease
+> Task :profile:featureReleaseWriter
+> Task :lib:compileReleaseLibraryResources
+> Task :sample:writeReleaseModuleMetadata
+> Task :sample:mainApkListPersistenceRelease
+> Task :lib:packageReleaseRenderscript NO-SOURCE
+> Task :sample:compileReleaseRenderscript NO-SOURCE
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :sample:generateReleaseFeatureMetadata
+> Task :profile:processReleaseManifest
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
+> Task :lib:compileReleaseAidl NO-SOURCE
+> Task :lib:generateReleaseBuildConfig UP-TO-DATE
+> Task :lib:compileReleaseKotlin UP-TO-DATE
+> Task :lib:processReleaseJavaRes NO-SOURCE
+> Task :lib:javaPreCompileRelease UP-TO-DATE
+> Task :lib:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :profile:mergeReleaseResources
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :sample:generateReleaseBuildConfig
+> Task :lib:bundleLibRuntimeRelease
+> Task :profile:mergeDebugNativeLibs
+> Task :profile:stripDebugDebugSymbols
+> Task :lib:bundleLibCompileRelease
+> Task :profile:mergeDebugJavaResource
+> Task :profile:packageDebug
+> Task :profile:assembleDebug
+> Task :sample:mergeReleaseResources
+> Task :sample:processReleaseResources
+> Task :profile:processReleaseResources
+> Task :sample:kaptGenerateStubsReleaseKotlin
 
-> Task :navigator:processDebugJavaRes NO-SOURCE
-> Task :navigator:bundleLibResDebug
-> Task :navigator:bundleLibRuntimeDebug
-> Task :navigator:createFullJarDebug
-> Task :app:preBuild UP-TO-DATE
-> Task :navigator:packageDebugRenderscript NO-SOURCE
-> Task :app:prepareLintJar
-> Task :app:preDebugBuild
-> Task :app:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugRenderscript NO-SOURCE
-> Task :app:checkDebugManifest
-> Task :app:generateDebugBuildConfig
-> Task :app:generateDebugSources
-> Task :navigator:bundleLibCompileDebug
-> Task :app:mainApkListPersistenceDebug
-> Task :app:generateDebugResValues
-> Task :app:generateDebugResources
-> Task :app:mergeDebugResources
-> Task :app:javaPreCompileDebug
-> Task :app:createDebugCompatibleScreenManifests
-> Task :app:processDebugManifest
-> Task :app:processDebugResources
+> Task :sample:kaptReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/sample/build/tmp/kapt3/stubs/release/com/sha/kamel/sample/model/Message.java:9: warning: Parceler: Reflection is required to access private field: String message, consider using non-private.
+    private java.lang.String message;
+                             ^
 
-> Task :app:compileDebugJavaWithJavac
-Gradle may disable incremental compilation as the following annotation processors are not incremental: parceler-1.1.9.jar (org.parceler:parceler:1.1.9).
-Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+> Task :sample:compileReleaseKotlin
+> Task :lib:bundleLibResRelease
+> Task :lib:createFullJarRelease
+> Task :sample:javaPreCompileRelease
+> Task :lib:prepareLintJarForPublish UP-TO-DATE
+> Task :profile:prepareLintJar
+> Task :sample:compileReleaseJavaWithJavac
+> Task :profile:checkReleaseDuplicateClasses
+> Task :sample:bundleReleaseClasses
+> Task :profile:kaptGenerateStubsReleaseKotlin
+> Task :profile:kaptReleaseKotlin
+> Task :profile:compileReleaseKotlin
+> Task :profile:javaPreCompileRelease
+> Task :profile:compileReleaseJavaWithJavac
+> Task :profile:compileReleaseSources
+> Task :profile:lintVitalRelease
+> Task :profile:dexBuilderRelease
+> Task :profile:desugarReleaseFileDependencies
+> Task :lib:mergeReleaseShaders UP-TO-DATE
+> Task :lib:compileReleaseShaders UP-TO-DATE
+> Task :lib:generateReleaseAssets UP-TO-DATE
+> Task :lib:packageReleaseAssets UP-TO-DATE
+> Task :profile:mergeReleaseShaders
+> Task :profile:compileReleaseShaders
+> Task :profile:generateReleaseAssets
+> Task :profile:mergeReleaseAssets
+> Task :profile:processReleaseJavaRes NO-SOURCE
+> Task :lib:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :lib:mergeReleaseNativeLibs UP-TO-DATE
+> Task :lib:stripReleaseDebugSymbols UP-TO-DATE
+> Task :lib:copyReleaseJniLibsProjectOnly
+> Task :profile:mergeReleaseJniLibFolders
+> Task :profile:mergeReleaseJavaResource
+> Task :sample:signingConfigWriterRelease
+> Task :profile:mergeReleaseNativeLibs
+> Task :profile:stripReleaseDebugSymbols
+> Task :profile:mergeExtDexRelease
+> Task :profile:mergeDexRelease
+> Task :profile:packageRelease
+> Task :profile:assembleRelease
+> Task :profile:assemble
+> Task :profile:build
 
-> Task :app:compileDebugSources
-> Task :app:mergeDebugShaders
-> Task :app:compileDebugShaders
-> Task :app:generateDebugAssets
-> Task :navigator:mergeDebugShaders
-> Task :navigator:compileDebugShaders
-> Task :navigator:generateDebugAssets
-> Task :navigator:packageDebugAssets
-> Task :app:mergeDebugAssets
-> Task :app:validateSigningDebug
-> Task :app:signingConfigWriterDebug
-> Task :app:checkDebugDuplicateClasses
-> Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
-> Task :app:transformDexArchiveWithDexMergerForDebug
-> Task :app:mergeDebugJniLibFolders
-> Task :navigator:mergeDebugJniLibFolders
-> Task :navigator:transformNativeLibsWithMergeJniLibsForDebug
-> Task :navigator:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :navigator:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :app:transformNativeLibsWithMergeJniLibsForDebug
-> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
-> Task :navigator:preReleaseBuild UP-TO-DATE
-> Task :navigator:compileReleaseAidl NO-SOURCE
-> Task :navigator:compileReleaseRenderscript NO-SOURCE
-> Task :navigator:checkReleaseManifest
-> Task :navigator:generateReleaseBuildConfig
-> Task :navigator:generateReleaseResValues
-> Task :navigator:generateReleaseResources
-> Task :navigator:packageReleaseResources
-> Task :navigator:processReleaseManifest
-> Task :navigator:generateReleaseRFile
-> Task :navigator:generateReleaseSources
-> Task :navigator:javaPreCompileRelease
+BUILD SUCCESSFUL in 57s
+145 actionable tasks: 114 executed, 31 up-to-date
 
-> Task :navigator:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869156405-0/src/Navigator-master/navigator/src/main/java/com/sha/kamel/navigator/model/Flags.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
-> Task :navigator:processReleaseJavaRes NO-SOURCE
-> Task :navigator:bundleLibResRelease
-> Task :navigator:bundleLibRuntimeRelease
-> Task :navigator:createFullJarRelease
-> Task :app:preReleaseBuild
-> Task :app:compileReleaseAidl NO-SOURCE
-> Task :navigator:packageReleaseRenderscript NO-SOURCE
-> Task :app:compileReleaseRenderscript NO-SOURCE
-> Task :app:checkReleaseManifest
-> Task :app:generateReleaseBuildConfig
-> Task :app:generateReleaseSources
-> Task :navigator:bundleLibCompileRelease
-> Task :app:javaPreCompileRelease
-> Task :app:mainApkListPersistenceRelease
-> Task :app:generateReleaseResValues
-> Task :app:generateReleaseResources
-> Task :app:mergeReleaseResources
-> Task :app:createReleaseCompatibleScreenManifests
-> Task :app:processReleaseManifest
-> Task :app:processReleaseResources
-
-> Task :app:compileReleaseJavaWithJavac
-Gradle may disable incremental compilation as the following annotation processors are not incremental: parceler-1.1.9.jar (org.parceler:parceler:1.1.9).
-Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
-
-> Task :app:compileReleaseSources
-> Task :navigator:prepareLintJarForPublish
-> Task :app:lintVitalRelease
-> Task :app:mergeReleaseShaders
-> Task :app:compileReleaseShaders
-> Task :app:generateReleaseAssets
-> Task :navigator:mergeReleaseShaders
-> Task :navigator:compileReleaseShaders
-> Task :navigator:generateReleaseAssets
-> Task :navigator:packageReleaseAssets
-> Task :app:mergeReleaseAssets
-> Task :app:signingConfigWriterRelease
-> Task :app:checkReleaseDuplicateClasses
-> Task :app:transformClassesWithDexBuilderForRelease
-> Task :app:transformDexArchiveWithExternalLibsDexMergerForRelease
-> Task :app:transformDexArchiveWithDexMergerForRelease
-> Task :app:mergeReleaseJniLibFolders
-> Task :navigator:mergeReleaseJniLibFolders
-> Task :navigator:transformNativeLibsWithMergeJniLibsForRelease
-> Task :navigator:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :navigator:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :app:transformNativeLibsWithMergeJniLibsForRelease
-> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForRelease
-> Task :app:packageRelease
-> Task :app:assembleRelease
-> Task :app:assemble
-> Task :app:build
-
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
-
-BUILD SUCCESSFUL in 32s
-91 actionable tasks: 91 executed
-
-2019-05-26 18:13:19,529 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558869156405-0/src/Navigator-master/app/build/outputs/apk/debug/app-debug.apk
+2019-12-30 12:33:00,207 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683885654-0/src/Navigator-master/profile/build/outputs/apk/release/profile-release.apk
