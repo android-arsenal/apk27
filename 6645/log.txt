@@ -1,44 +1,42 @@
-2019-11-01 11:56:09,168 INFO  DownloadService - Downloading "https://github.com/prof18/RSS-Parser/archive/master.zip", attempt 3
-2019-11-01 11:57:09,961 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-11-01 11:57:11,234 INFO  GithubDownloadService - Default branch of this repository: master
-2019-11-01 11:57:11,234 INFO  DownloadService - Downloading "https://github.com/prof18/RSS-Parser/archive/master.zip", attempt 3
-2019-11-01 11:58:13,198 DEBUG FullProcessService - Repository https://github.com/prof18/RSS-Parser available: true
-2019-11-01 11:58:13,198 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-11-01 11:58:13,198 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/prof18/RSS-Parser, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572584169165-0/src]
-2019-11-01 11:58:17,842 INFO  SysUtils - 
-2019-11-01 11:58:17,850 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572584169165-0/src/.git": true
-2019-11-01 11:58:17,855 INFO  FullProcessService - Size of directory with sources: 4 MB
-2019-11-01 11:58:17,855 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572584169165-0/src]
-2019-11-01 11:58:17,872 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572584169165-0/src/.git/
+2020-01-04 22:39:33,978 INFO  DownloadService - Downloading "https://github.com/prof18/RSS-Parser/archive/master.zip", attempt 3
+2020-01-04 22:39:45,307 INFO  VirusProcessorServiceImpl - Queued project 6791 to scan viruses
+2020-01-04 22:42:23,417 INFO  DownloadService - Downloaded https://github.com/prof18/RSS-Parser/archive/master.zip, attempt 3
+2020-01-04 22:42:23,418 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/master.zip": 3 MB
+2020-01-04 22:42:23,418 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-04 22:42:23,423 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/master.zip: true
+2020-01-04 22:42:23,423 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/src'.
+2020-01-04 22:42:23,493 INFO  FullProcessService - Size of directory with sources: 4 MB
+2020-01-04 22:42:23,493 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/src]
+2020-01-04 22:42:23,521 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/src/.git/
 
-2019-11-01 11:58:17,876 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572584169165-0/src/gradlew
-2019-11-01 11:58:17,881 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572584169165-0/src/rssparser/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572584169165-0/src/samplejava/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572584169165-0/src/samplekotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572584169165-0/src/build.gradle
-2019-11-01 11:58:17,885 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572584169165-0/src/samplekotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572584169165-0/src/samplejava/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572584169165-0/src/rssparser/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572584169165-0/src/rssparser/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572584169165-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572584169165-0/src/settings.gradle
-2019-11-01 11:58:17,885 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/sky-uk/gradle-maven-plugin/master/gradle-mavenizer.gradle", attempt 3
-2019-11-01 11:58:18,924 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/sky-uk/gradle-maven-plugin/master/gradle-mavenizer.gradle, attempt 3
-2019-11-01 11:58:18,930 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/sky-uk/gradle-maven-plugin/master/gradle-mavenizer.gradle
-2019-11-01 11:58:18,930 INFO  ProjectFixService - Fixing project...
-2019-11-01 11:58:18,941 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572584169165-0/src/rssparser/local.properties
-2019-11-01 11:58:18,943 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572584169165-0/src/rssparser/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-11-01 11:58:18,943 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572584169165-0/src/rssparser/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-11-01 11:58:18,944 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572584169165-0/src/samplejava/local.properties
-2019-11-01 11:58:18,947 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572584169165-0/src/samplejava/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-11-01 11:58:18,947 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572584169165-0/src/samplejava/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-11-01 11:58:18,948 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572584169165-0/src/samplekotlin/local.properties
-2019-11-01 11:58:18,951 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572584169165-0/src/samplekotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-11-01 11:58:18,951 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572584169165-0/src/samplekotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-11-01 11:58:18,952 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572584169165-0/src/local.properties
-2019-11-01 11:58:18,952 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-11-01 11:58:18,953 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-11-01 11:58:18,955 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572584169165-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-11-01 11:58:18,955 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572584169165-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-11-01 11:58:18,956 INFO  ProjectFixService - Project was maybe fixed
-2019-11-01 11:58:18,956 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-01 11:58:18,956 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572584169165-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572584169165-0/src/rssparser/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-01 11:58:29,370 INFO  ProjectTaskService - Detected possible tasks: 74
-2019-11-01 11:58:29,370 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-11-01 11:58:29,370 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572584169165-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572584169165-0/src/rssparser/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-11-01 11:58:46,967 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-04 22:42:23,527 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/src/RSS-Parser-master/gradlew
+2020-01-04 22:42:23,534 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/src/RSS-Parser-master/rssparser/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/src/RSS-Parser-master/samplejava/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/src/RSS-Parser-master/samplekotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/src/RSS-Parser-master/build.gradle
+2020-01-04 22:42:23,539 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/src/RSS-Parser-master/samplekotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/src/RSS-Parser-master/samplejava/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/src/RSS-Parser-master/rssparser/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/src/RSS-Parser-master/rssparser/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/src/RSS-Parser-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/src/RSS-Parser-master/settings.gradle
+2020-01-04 22:42:23,540 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/sky-uk/gradle-maven-plugin/master/gradle-mavenizer.gradle", attempt 3
+2020-01-04 22:42:23,791 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/sky-uk/gradle-maven-plugin/master/gradle-mavenizer.gradle, attempt 3
+2020-01-04 22:42:23,791 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/sky-uk/gradle-maven-plugin/master/gradle-mavenizer.gradle
+2020-01-04 22:42:23,791 INFO  ProjectFixService - Fixing project...
+2020-01-04 22:42:23,803 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/src/RSS-Parser-master/rssparser/local.properties
+2020-01-04 22:42:23,806 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/src/RSS-Parser-master/rssparser/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-01-04 22:42:23,806 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/src/RSS-Parser-master/rssparser/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-01-04 22:42:23,807 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/src/RSS-Parser-master/samplejava/local.properties
+2020-01-04 22:42:23,810 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/src/RSS-Parser-master/samplejava/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-01-04 22:42:23,810 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/src/RSS-Parser-master/samplejava/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-01-04 22:42:23,811 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/src/RSS-Parser-master/samplekotlin/local.properties
+2020-01-04 22:42:23,814 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/src/RSS-Parser-master/samplekotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-01-04 22:42:23,814 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/src/RSS-Parser-master/samplekotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-01-04 22:42:23,815 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/src/RSS-Parser-master/local.properties
+2020-01-04 22:42:23,816 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-01-04 22:42:23,816 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-01-04 22:42:23,819 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/src/RSS-Parser-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-01-04 22:42:23,820 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/src/RSS-Parser-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-01-04 22:42:23,820 INFO  ProjectFixService - Project was maybe fixed
+2020-01-04 22:42:23,820 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-04 22:42:23,821 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/src/RSS-Parser-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/src/RSS-Parser-master/rssparser/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-04 22:42:34,266 INFO  ProjectTaskService - Detected possible tasks: 74
+2020-01-04 22:42:34,267 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-01-04 22:42:34,267 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/src/RSS-Parser-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/src/RSS-Parser-master/rssparser/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-01-04 22:42:55,732 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration(s) specified but the install task does not exist in project :rssparser.
 > Task :rssparser:preBuild UP-TO-DATE
 > Task :rssparser:preDebugBuild UP-TO-DATE
@@ -55,8 +53,9 @@ Configuration(s) specified but the install task does not exist in project :rsspa
 > Task :rssparser:packageDebugAssets
 > Task :rssparser:packageDebugRenderscript NO-SOURCE
 > Task :rssparser:processDebugJavaRes NO-SOURCE
-> Task :rssparser:mergeDebugJniLibFolders
 > Task :rssparser:parseDebugLibraryResources
+> Task :rssparser:mergeDebugJniLibFolders
+> Task :rssparser:prepareLintJarForPublish
 > Task :rssparser:mergeDebugResources
 > Task :rssparser:preReleaseBuild UP-TO-DATE
 > Task :rssparser:compileReleaseAidl NO-SOURCE
@@ -66,10 +65,6 @@ Configuration(s) specified but the install task does not exist in project :rsspa
 > Task :rssparser:generateReleaseResValues
 > Task :rssparser:generateReleaseResources
 > Task :rssparser:packageReleaseResources
-> Task :rssparser:mergeDebugNativeLibs
-> Task :rssparser:stripDebugDebugSymbols
-> Task :rssparser:transformNativeLibsWithSyncJniLibsForDebug
-> Task :rssparser:prepareLintJarForPublish
 > Task :rssparser:mergeReleaseShaders
 > Task :rssparser:compileReleaseShaders
 > Task :rssparser:generateReleaseAssets
@@ -77,42 +72,45 @@ Configuration(s) specified but the install task does not exist in project :rsspa
 > Task :rssparser:packageReleaseRenderscript NO-SOURCE
 > Task :rssparser:processReleaseJavaRes NO-SOURCE
 > Task :rssparser:mergeReleaseJniLibFolders
-> Task :rssparser:parseReleaseLibraryResources
 > Task :rssparser:mergeReleaseResources
-> Task :rssparser:processReleaseManifest
-> Task :rssparser:processDebugManifest
+> Task :rssparser:parseReleaseLibraryResources
 > Task :rssparser:mergeReleaseNativeLibs
 > Task :rssparser:stripReleaseDebugSymbols
 > Task :rssparser:transformNativeLibsWithSyncJniLibsForRelease
+> Task :rssparser:processReleaseManifest
+> Task :rssparser:mergeDebugNativeLibs
+> Task :rssparser:stripDebugDebugSymbols
+> Task :rssparser:transformNativeLibsWithSyncJniLibsForDebug
 > Task :rssparser:generateReleaseRFile
 
 > Task :rssparser:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572584169165-0/src/rssparser/src/main/java/com/prof/rssparser/core/CoreXMLParser.kt: (151, 51): Type mismatch: inferred type is String? but CharSequence was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572584169165-0/src/rssparser/src/main/java/com/prof/rssparser/core/CoreXMLParser.kt: (153, 23): Unsafe use of a nullable receiver of type String?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/src/RSS-Parser-master/rssparser/src/main/java/com/prof/rssparser/core/CoreXMLParser.kt: (151, 51): Type mismatch: inferred type is String? but CharSequence was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/src/RSS-Parser-master/rssparser/src/main/java/com/prof/rssparser/core/CoreXMLParser.kt: (153, 23): Unsafe use of a nullable receiver of type String?
 
 > Task :rssparser:verifyReleaseResources
-> Task :rssparser:generateDebugRFile
-
-> Task :rssparser:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572584169165-0/src/rssparser/src/main/java/com/prof/rssparser/core/CoreXMLParser.kt: (151, 51): Type mismatch: inferred type is String? but CharSequence was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572584169165-0/src/rssparser/src/main/java/com/prof/rssparser/core/CoreXMLParser.kt: (153, 23): Unsafe use of a nullable receiver of type String?
-
+> Task :rssparser:processDebugManifest
 > Task :rssparser:javaPreCompileRelease
 > Task :rssparser:compileReleaseJavaWithJavac
 > Task :rssparser:extractReleaseAnnotations
 > Task :rssparser:mergeReleaseGeneratedProguardFiles
 > Task :rssparser:mergeReleaseConsumerProguardFiles
 > Task :rssparser:compileReleaseSources
+> Task :rssparser:generateDebugRFile
+
+> Task :rssparser:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/src/RSS-Parser-master/rssparser/src/main/java/com/prof/rssparser/core/CoreXMLParser.kt: (151, 51): Type mismatch: inferred type is String? but CharSequence was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/src/RSS-Parser-master/rssparser/src/main/java/com/prof/rssparser/core/CoreXMLParser.kt: (153, 23): Unsafe use of a nullable receiver of type String?
+
+> Task :rssparser:mergeReleaseJavaResource
+> Task :rssparser:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :rssparser:bundleReleaseAar
+> Task :rssparser:assembleRelease
 > Task :rssparser:javaPreCompileDebug
 > Task :rssparser:compileDebugJavaWithJavac
 > Task :rssparser:extractDebugAnnotations
 > Task :rssparser:mergeDebugGeneratedProguardFiles
 > Task :rssparser:mergeDebugConsumerProguardFiles
 > Task :rssparser:compileDebugSources
-> Task :rssparser:mergeReleaseJavaResource
-> Task :rssparser:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :rssparser:bundleReleaseAar
-> Task :rssparser:assembleRelease
 > Task :rssparser:mergeDebugJavaResource
 > Task :rssparser:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :rssparser:bundleDebugAar
@@ -124,7 +122,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 17s
+BUILD SUCCESSFUL in 20s
 50 actionable tasks: 50 executed
 
-2019-11-01 11:58:46,985 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572584169165-0/src/RSS Parser.apk
+2020-01-04 22:42:55,752 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152373975-0/src/RSS-Parser-master/RSS Parser.apk
