@@ -1,36 +1,36 @@
-2019-12-29 17:05:04,378 INFO  DownloadService - Downloading "https://github.com/MasayukiSuda/Mp4Composer-android/archive/master.zip", attempt 3
-2019-12-29 17:05:11,916 INFO  DownloadService - Downloaded https://github.com/MasayukiSuda/Mp4Composer-android/archive/master.zip, attempt 3
-2019-12-29 17:05:11,916 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613904376-0/master.zip": 21 MB
-2019-12-29 17:05:11,916 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-12-29 17:05:11,918 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613904376-0/master.zip: true
-2019-12-29 17:05:11,918 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613904376-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613904376-0/src'.
-2019-12-29 17:05:12,074 INFO  FullProcessService - Size of directory with sources: 21 MB
-2019-12-29 17:05:12,074 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613904376-0/src]
-2019-12-29 17:05:12,092 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613904376-0/src/.git/
+2020-01-31 11:31:11,143 INFO  DownloadService - Downloading "https://github.com/MasayukiSuda/Mp4Composer-android/archive/master.zip", attempt 3
+2020-01-31 11:31:16,583 INFO  DownloadService - Downloaded https://github.com/MasayukiSuda/Mp4Composer-android/archive/master.zip, attempt 3
+2020-01-31 11:31:16,583 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580445071140-0/master.zip": 21 MB
+2020-01-31 11:31:16,583 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-31 11:31:16,584 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580445071140-0/master.zip: true
+2020-01-31 11:31:16,584 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580445071140-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580445071140-0/src'.
+2020-01-31 11:31:16,737 INFO  FullProcessService - Size of directory with sources: 21 MB
+2020-01-31 11:31:16,737 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580445071140-0/src]
+2020-01-31 11:31:16,761 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580445071140-0/src/.git/
 
-2019-12-29 17:05:12,095 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613904376-0/src/Mp4Composer-android-master/gradlew
-2019-12-29 17:05:12,100 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613904376-0/src/Mp4Composer-android-master/mp4compose/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613904376-0/src/Mp4Composer-android-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613904376-0/src/Mp4Composer-android-master/build.gradle
-2019-12-29 17:05:12,103 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613904376-0/src/Mp4Composer-android-master/mp4compose/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613904376-0/src/Mp4Composer-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613904376-0/src/Mp4Composer-android-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613904376-0/src/Mp4Composer-android-master/settings.gradle
-2019-12-29 17:05:12,103 INFO  ProjectBuildService - Remote scripts: none
-2019-12-29 17:05:12,103 INFO  ProjectFixService - Fixing project...
-2019-12-29 17:05:12,112 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613904376-0/src/Mp4Composer-android-master/mp4compose/local.properties
-2019-12-29 17:05:12,113 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613904376-0/src/Mp4Composer-android-master/mp4compose/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-12-29 17:05:12,113 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613904376-0/src/Mp4Composer-android-master/mp4compose/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-12-29 17:05:12,113 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613904376-0/src/Mp4Composer-android-master/sample/local.properties
-2019-12-29 17:05:12,115 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613904376-0/src/Mp4Composer-android-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-12-29 17:05:12,115 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613904376-0/src/Mp4Composer-android-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-12-29 17:05:12,116 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613904376-0/src/Mp4Composer-android-master/local.properties
-2019-12-29 17:05:12,116 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-12-29 17:05:12,116 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-12-29 17:05:12,118 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613904376-0/src/Mp4Composer-android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-12-29 17:05:12,118 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613904376-0/src/Mp4Composer-android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-12-29 17:05:12,118 INFO  ProjectFixService - Project was maybe fixed
-2019-12-29 17:05:12,118 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-29 17:05:12,118 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613904376-0/src/Mp4Composer-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613904376-0/src/Mp4Composer-android-master/mp4compose/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-29 17:05:18,527 INFO  ProjectTaskService - Detected possible tasks: 63
-2019-12-29 17:05:18,527 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-12-29 17:05:18,527 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613904376-0/src/Mp4Composer-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613904376-0/src/Mp4Composer-android-master/mp4compose/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-12-29 17:05:27,816 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-31 11:31:16,764 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580445071140-0/src/Mp4Composer-android-master/gradlew
+2020-01-31 11:31:16,767 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580445071140-0/src/Mp4Composer-android-master/mp4compose/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580445071140-0/src/Mp4Composer-android-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580445071140-0/src/Mp4Composer-android-master/build.gradle
+2020-01-31 11:31:16,770 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580445071140-0/src/Mp4Composer-android-master/mp4compose/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580445071140-0/src/Mp4Composer-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580445071140-0/src/Mp4Composer-android-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580445071140-0/src/Mp4Composer-android-master/settings.gradle
+2020-01-31 11:31:16,771 INFO  ProjectBuildService - Remote scripts: none
+2020-01-31 11:31:16,771 INFO  ProjectFixService - Fixing project...
+2020-01-31 11:31:16,778 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580445071140-0/src/Mp4Composer-android-master/mp4compose/local.properties
+2020-01-31 11:31:16,780 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580445071140-0/src/Mp4Composer-android-master/mp4compose/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-01-31 11:31:16,780 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580445071140-0/src/Mp4Composer-android-master/mp4compose/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-01-31 11:31:16,780 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580445071140-0/src/Mp4Composer-android-master/sample/local.properties
+2020-01-31 11:31:16,782 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580445071140-0/src/Mp4Composer-android-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-01-31 11:31:16,782 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580445071140-0/src/Mp4Composer-android-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-01-31 11:31:16,783 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580445071140-0/src/Mp4Composer-android-master/local.properties
+2020-01-31 11:31:16,783 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-01-31 11:31:16,783 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-01-31 11:31:16,785 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580445071140-0/src/Mp4Composer-android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-01-31 11:31:16,785 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580445071140-0/src/Mp4Composer-android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-01-31 11:31:16,785 INFO  ProjectFixService - Project was maybe fixed
+2020-01-31 11:31:16,785 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-31 11:31:16,785 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580445071140-0/src/Mp4Composer-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580445071140-0/src/Mp4Composer-android-master/mp4compose/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-31 11:31:24,216 INFO  ProjectTaskService - Detected possible tasks: 63
+2020-01-31 11:31:24,216 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-01-31 11:31:24,216 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580445071140-0/src/Mp4Composer-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580445071140-0/src/Mp4Composer-android-master/mp4compose/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-01-31 11:31:34,246 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :mp4compose:preBuild UP-TO-DATE
 > Task :mp4compose:preDebugBuild UP-TO-DATE
 > Task :mp4compose:compileDebugAidl NO-SOURCE
@@ -45,9 +45,11 @@
 > Task :mp4compose:generateDebugAssets
 > Task :mp4compose:packageDebugAssets
 > Task :mp4compose:packageDebugRenderscript NO-SOURCE
-> Task :mp4compose:javaPreCompileDebug
+> Task :mp4compose:parseDebugLibraryResources
+> Task :mp4compose:prepareLintJarForPublish
 > Task :mp4compose:processDebugJavaRes NO-SOURCE
 > Task :mp4compose:mergeDebugJniLibFolders
+> Task :mp4compose:processDebugManifest
 > Task :mp4compose:preReleaseBuild UP-TO-DATE
 > Task :mp4compose:compileReleaseAidl NO-SOURCE
 > Task :mp4compose:compileReleaseRenderscript NO-SOURCE
@@ -56,6 +58,7 @@
 > Task :mp4compose:generateReleaseResValues
 > Task :mp4compose:generateReleaseResources
 > Task :mp4compose:packageReleaseResources
+> Task :mp4compose:javaPreCompileDebug
 > Task :mp4compose:processReleaseManifest
 > Task :mp4compose:mergeReleaseShaders
 > Task :mp4compose:compileReleaseShaders
@@ -64,18 +67,10 @@
 > Task :mp4compose:packageReleaseRenderscript NO-SOURCE
 > Task :mp4compose:processReleaseJavaRes NO-SOURCE
 > Task :mp4compose:mergeReleaseJniLibFolders
-> Task :mp4compose:parseDebugLibraryResources
 > Task :mp4compose:mergeReleaseResources
 > Task :mp4compose:mergeReleaseNativeLibs
 > Task :mp4compose:stripReleaseDebugSymbols
 > Task :mp4compose:transformNativeLibsWithSyncJniLibsForRelease
-> Task :mp4compose:prepareLintJarForPublish
-> Task :mp4compose:javaPreCompileRelease
-> Task :mp4compose:processDebugManifest
-> Task :mp4compose:parseReleaseLibraryResources
-> Task :mp4compose:mergeDebugNativeLibs
-> Task :mp4compose:stripDebugDebugSymbols
-> Task :mp4compose:transformNativeLibsWithSyncJniLibsForDebug
 > Task :mp4compose:generateDebugRFile
 
 > Task :mp4compose:compileDebugJavaWithJavac
@@ -87,6 +82,11 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :mp4compose:mergeDebugConsumerProguardFiles
 > Task :mp4compose:compileDebugSources
 > Task :mp4compose:verifyReleaseResources
+> Task :mp4compose:javaPreCompileRelease
+> Task :mp4compose:mergeDebugNativeLibs
+> Task :mp4compose:stripDebugDebugSymbols
+> Task :mp4compose:transformNativeLibsWithSyncJniLibsForDebug
+> Task :mp4compose:parseReleaseLibraryResources
 > Task :mp4compose:generateReleaseRFile
 
 > Task :mp4compose:compileReleaseJavaWithJavac
@@ -96,11 +96,11 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :mp4compose:extractReleaseAnnotations
 > Task :mp4compose:mergeReleaseGeneratedProguardFiles
 > Task :mp4compose:mergeReleaseConsumerProguardFiles
+> Task :mp4compose:compileReleaseSources
 > Task :mp4compose:mergeDebugJavaResource
 > Task :mp4compose:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :mp4compose:bundleDebugAar
 > Task :mp4compose:assembleDebug
-> Task :mp4compose:compileReleaseSources
 > Task :mp4compose:mergeReleaseJavaResource
 > Task :mp4compose:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :mp4compose:bundleReleaseAar
@@ -108,19 +108,16 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :mp4compose:assemble
 > Task :mp4compose:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
-
 BUILD SUCCESSFUL in 9s
 47 actionable tasks: 47 executed
 
-2019-12-29 17:05:27,831 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-29 17:05:27,832 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613904376-0/src/Mp4Composer-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613904376-0/src/Mp4Composer-android-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-29 17:05:34,467 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-12-29 17:05:34,467 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-12-29 17:05:34,468 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613904376-0/src/Mp4Composer-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613904376-0/src/Mp4Composer-android-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-12-29 17:06:19,056 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-31 11:31:34,261 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-31 11:31:34,262 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580445071140-0/src/Mp4Composer-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580445071140-0/src/Mp4Composer-android-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-31 11:31:43,050 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-01-31 11:31:43,050 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-01-31 11:31:43,050 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580445071140-0/src/Mp4Composer-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580445071140-0/src/Mp4Composer-android-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-01-31 11:31:50,190 INFO  VirusProcessorServiceImpl - Queued project 6736 to scan viruses
+2020-01-31 11:32:27,548 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :mp4compose:preBuild UP-TO-DATE
 > Task :mp4compose:preDebugBuild UP-TO-DATE
 > Task :mp4compose:compileDebugAidl NO-SOURCE
@@ -146,9 +143,9 @@ BUILD SUCCESSFUL in 9s
 > Task :sample:mainApkListPersistenceDebug
 > Task :sample:generateDebugResValues
 > Task :sample:generateDebugResources
+> Task :sample:javaPreCompileDebug
 > Task :sample:createDebugCompatibleScreenManifests
 > Task :sample:processDebugManifest
-> Task :sample:javaPreCompileDebug
 > Task :sample:mergeDebugResources
 > Task :sample:processDebugResources
 
@@ -170,12 +167,12 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :mp4compose:bundleLibResDebug
 > Task :sample:mergeDebugJavaResource
 > Task :sample:desugarDebugFileDependencies
+> Task :mp4compose:bundleLibRuntimeDebug
+> Task :sample:checkDebugDuplicateClasses
+> Task :sample:transformClassesWithDexBuilderForDebug
 > Task :sample:validateSigningDebug
 > Task :sample:signingConfigWriterDebug
-> Task :sample:checkDebugDuplicateClasses
-> Task :mp4compose:bundleLibRuntimeDebug
-> Task :mp4compose:createFullJarDebug
-> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:mergeLibDexDebug
 > Task :mp4compose:mergeDebugJniLibFolders UP-TO-DATE
 > Task :mp4compose:mergeDebugNativeLibs UP-TO-DATE
 > Task :mp4compose:stripDebugDebugSymbols UP-TO-DATE
@@ -194,23 +191,26 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :mp4compose:generateReleaseRFile UP-TO-DATE
 > Task :mp4compose:javaPreCompileRelease UP-TO-DATE
 > Task :mp4compose:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :mp4compose:bundleLibCompileRelease
 > Task :sample:preReleaseBuild UP-TO-DATE
 > Task :sample:compileReleaseAidl NO-SOURCE
 > Task :mp4compose:packageReleaseRenderscript NO-SOURCE
 > Task :sample:compileReleaseRenderscript NO-SOURCE
 > Task :sample:checkReleaseManifest
 > Task :sample:generateReleaseBuildConfig
-> Task :sample:mergeProjectDexDebug
 > Task :sample:mainApkListPersistenceRelease
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
-> Task :sample:javaPreCompileRelease
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:mergeProjectDexDebug
+> Task :sample:stripDebugDebugSymbols
 > Task :sample:createReleaseCompatibleScreenManifests
 > Task :sample:processReleaseManifest
-> Task :sample:mergeLibDexDebug
-> Task :sample:mergeDebugNativeLibs
-> Task :sample:stripDebugDebugSymbols
+> Task :mp4compose:bundleLibCompileRelease
+> Task :sample:javaPreCompileRelease
+> Task :mp4compose:prepareLintJarForPublish UP-TO-DATE
+> Task :sample:prepareLintJar
+> Task :sample:checkReleaseDuplicateClasses
+> Task :mp4compose:bundleLibRuntimeRelease
 > Task :sample:mergeReleaseResources
 > Task :sample:processReleaseResources
 
@@ -219,17 +219,7 @@ Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :sample:compileReleaseSources
-> Task :mp4compose:prepareLintJarForPublish UP-TO-DATE
-> Task :sample:prepareLintJar
-
 > Task :sample:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/f83cf12b5cf4ffe543498c1ab93de7e4/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
-
-> Task :mp4compose:processReleaseJavaRes NO-SOURCE
-> Task :sample:checkReleaseDuplicateClasses
-> Task :mp4compose:bundleLibResRelease
-> Task :mp4compose:bundleLibRuntimeRelease
-> Task :mp4compose:createFullJarRelease
 > Task :sample:desugarReleaseFileDependencies
 > Task :sample:transformClassesWithDexBuilderForRelease
 > Task :mp4compose:mergeReleaseShaders UP-TO-DATE
@@ -238,21 +228,23 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :mp4compose:packageReleaseAssets UP-TO-DATE
 > Task :sample:mergeReleaseShaders
 > Task :sample:compileReleaseShaders
-> Task :sample:generateReleaseAssets
-> Task :sample:mergeReleaseAssets
-> Task :sample:processReleaseJavaRes NO-SOURCE
-> Task :sample:signingConfigWriterRelease
 > Task :sample:mergeExtDexDebug
 > Task :sample:packageDebug
 > Task :sample:assembleDebug
+> Task :sample:generateReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :mp4compose:processReleaseJavaRes NO-SOURCE
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:signingConfigWriterRelease
 > Task :mp4compose:mergeReleaseJniLibFolders UP-TO-DATE
 > Task :mp4compose:mergeReleaseNativeLibs UP-TO-DATE
 > Task :mp4compose:stripReleaseDebugSymbols UP-TO-DATE
 > Task :mp4compose:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :sample:mergeReleaseJniLibFolders
-> Task :sample:mergeReleaseJavaResource
+> Task :mp4compose:bundleLibResRelease
 > Task :sample:mergeReleaseNativeLibs
 > Task :sample:stripReleaseDebugSymbols
+> Task :sample:mergeReleaseJavaResource
 > Task :sample:mergeExtDexRelease
 > Task :sample:mergeDexRelease
 > Task :sample:packageRelease
@@ -265,6 +257,6 @@ Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
 BUILD SUCCESSFUL in 44s
-93 actionable tasks: 62 executed, 31 up-to-date
+91 actionable tasks: 60 executed, 31 up-to-date
 
-2019-12-29 17:06:19,129 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613904376-0/src/Mp4Composer-android-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2020-01-31 11:32:27,618 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580445071140-0/src/Mp4Composer-android-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
