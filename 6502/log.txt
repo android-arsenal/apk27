@@ -1,737 +1,135 @@
-2020-01-22 17:49:14,329 INFO  DownloadService - Downloading "https://github.com/skydoves/PreferenceRoom/archive/master.zip", attempt 3
-2020-01-22 17:49:15,943 INFO  DownloadService - Downloaded https://github.com/skydoves/PreferenceRoom/archive/master.zip, attempt 3
-2020-01-22 17:49:15,943 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/master.zip": 306 KB
-2020-01-22 17:49:15,943 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-22 17:49:15,943 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/master.zip: true
-2020-01-22 17:49:15,944 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src'.
-2020-01-22 17:49:15,981 INFO  FullProcessService - Size of directory with sources: 429 KB
-2020-01-22 17:49:15,981 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src]
-2020-01-22 17:49:16,003 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/.git/
+2020-03-30 00:19:35,981 INFO  DownloadService - Downloading "https://github.com/skydoves/PreferenceRoom/archive/master.zip", attempt 3
+2020-03-30 00:19:36,909 INFO  DownloadService - Downloaded https://github.com/skydoves/PreferenceRoom/archive/master.zip, attempt 3
+2020-03-30 00:19:36,909 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/master.zip": 308 KB
+2020-03-30 00:19:36,909 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-30 00:19:36,910 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/master.zip: true
+2020-03-30 00:19:36,910 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src'.
+2020-03-30 00:19:36,954 INFO  FullProcessService - Size of directory with sources: 433 KB
+2020-03-30 00:19:36,955 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src]
+2020-03-30 00:19:36,974 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/.git/
 
-2020-01-22 17:49:16,007 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/gradlew
-2020-01-22 17:49:16,012 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/demo-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/preferenceroom-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/preferenceroom/build.gradle
-2020-01-22 17:49:16,016 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/preferenceroom/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/preferenceroom-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/demo-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/metadata.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/spotless.gradle
-2020-01-22 17:49:16,016 INFO  ProjectBuildService - Remote scripts: none
-2020-01-22 17:49:16,017 INFO  ProjectFixService - Fixing project...
-2020-01-22 17:49:16,028 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/demo-kotlin/local.properties
-2020-01-22 17:49:16,029 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/demo-kotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-01-22 17:49:16,029 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/demo-kotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-01-22 17:49:16,030 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/demo/local.properties
-2020-01-22 17:49:16,031 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-01-22 17:49:16,031 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-01-22 17:49:16,032 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/local.properties
-2020-01-22 17:49:16,032 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2020-01-22 17:49:16,032 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2020-01-22 17:49:16,034 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-01-22 17:49:16,034 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-01-22 17:49:16,035 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/preferenceroom-compiler/local.properties
-2020-01-22 17:49:16,036 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/preferenceroom-compiler/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-01-22 17:49:16,036 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/preferenceroom-compiler/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-01-22 17:49:16,037 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/preferenceroom/local.properties
-2020-01-22 17:49:16,038 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/preferenceroom/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-01-22 17:49:16,038 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/preferenceroom/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-01-22 17:49:16,039 INFO  ProjectFixService - Project was maybe fixed
-2020-01-22 17:49:16,039 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-22 17:49:16,039 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/demo-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-22 17:49:27,213 INFO  ProjectTaskService - Detected possible tasks: 68
-2020-01-22 17:49:27,213 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-01-22 17:49:27,213 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/demo-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-01-22 17:49:37,261 INFO  VirusProcessorServiceImpl - Queued project 6611 to scan viruses
-2020-01-22 17:50:24,937 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Transform annotation.jar (androidx.annotation:annotation:1.1.0) with JetifyTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with JetifyTransform
-> Transform annotation.jar (androidx.annotation:annotation:1.1.0) with IdentityTransform
-> Transform core-common.jar (androidx.arch.core:core-common:2.1.0) with JetifyTransform
-> Transform core-common.jar (androidx.arch.core:core-common:2.1.0) with IdentityTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with ExtractAarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with ExtractAarTransform
-> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.61) with JetifyTransform
-> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.61) with IdentityTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarCompileClassesTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarCompileClassesTransform
-> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.1.0) with JetifyTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with AarCompileClassesTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
-> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.1.0) with IdentityTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
-> Transform collection.jar (androidx.collection:collection:1.1.0) with JetifyTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with ExtractAarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with ExtractAarTransform
-> Transform collection.jar (androidx.collection:collection:1.1.0) with IdentityTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarCompileClassesTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarCompileClassesTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0) with JetifyTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.1.0) with JetifyTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with ExtractAarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0) with ExtractAarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.1.0) with ExtractAarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0) with AarCompileClassesTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarCompileClassesTransform
-> Transform core.aar (androidx.core:core:1.1.0) with JetifyTransform
-> Transform activity.aar (androidx.activity:activity:1.0.0) with JetifyTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.1.0) with AarCompileClassesTransform
-> Transform activity.aar (androidx.activity:activity:1.0.0) with ExtractAarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
-> Transform activity.aar (androidx.activity:activity:1.0.0) with AarCompileClassesTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with ExtractAarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with ExtractAarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarCompileClassesTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarCompileClassesTransform
-> Transform annotations.jar (org.jetbrains:annotations:13.0) with JetifyTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
-> Transform annotations.jar (org.jetbrains:annotations:13.0) with IdentityTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with ExtractAarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0) with JetifyTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with ExtractAarTransform
-> Transform annotation-experimental.aar (androidx.annotation:annotation-experimental:1.0.0) with JetifyTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarCompileClassesTransform
-> Transform savedstate.aar (androidx.savedstate:savedstate:1.0.0) with JetifyTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarCompileClassesTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.1.0) with JetifyTransform
-> Transform annotation-experimental.aar (androidx.annotation:annotation-experimental:1.0.0) with ExtractAarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0) with ExtractAarTransform
-> Transform savedstate.aar (androidx.savedstate:savedstate:1.0.0) with ExtractAarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.1.0) with ExtractAarTransform
-> Transform jsr305.jar (com.google.code.findbugs:jsr305:2.0.1) with JetifyTransform
-> Transform annotation-experimental.aar (androidx.annotation:annotation-experimental:1.0.0) with AarCompileClassesTransform
-> Transform jsr305.jar (com.google.code.findbugs:jsr305:2.0.1) with IdentityTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0) with JetifyTransform
-> Transform savedstate.aar (androidx.savedstate:savedstate:1.0.0) with AarCompileClassesTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0) with ExtractAarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0) with JetifyTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.1.0) with AarCompileClassesTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0) with AarCompileClassesTransform
-> Transform transition.aar (androidx.transition:transition:1.2.0) with JetifyTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0) with AarCompileClassesTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0) with JetifyTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0) with ExtractAarTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with JetifyTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0) with ExtractAarTransform
-> Transform transition.aar (androidx.transition:transition:1.2.0) with ExtractAarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0) with AarCompileClassesTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with ExtractAarTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0) with JetifyTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0) with AarCompileClassesTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarCompileClassesTransform
-> Transform transition.aar (androidx.transition:transition:1.2.0) with AarCompileClassesTransform
-> Transform core.aar (androidx.core:core:1.1.0) with ExtractAarTransform
-> Transform viewpager2.aar (androidx.viewpager2:viewpager2:1.0.0) with JetifyTransform
-> Transform appcompat-resources.aar (androidx.appcompat:appcompat-resources:1.1.0) with JetifyTransform
-> Transform commons-cli.jar (commons-cli:commons-cli:1.2) with JetifyTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0) with ExtractAarTransform
-> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.61) with JetifyTransform
+2020-03-30 00:19:36,980 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/PreferenceRoom-master/gradlew
+2020-03-30 00:19:36,987 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/PreferenceRoom-master/demo-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/PreferenceRoom-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/PreferenceRoom-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/PreferenceRoom-master/preferenceroom-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/PreferenceRoom-master/preferenceroom/build.gradle
+2020-03-30 00:19:36,992 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/PreferenceRoom-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/PreferenceRoom-master/preferenceroom/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/PreferenceRoom-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/PreferenceRoom-master/preferenceroom-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/PreferenceRoom-master/demo-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/PreferenceRoom-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/PreferenceRoom-master/metadata.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/PreferenceRoom-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/PreferenceRoom-master/spotless.gradle
+2020-03-30 00:19:36,993 INFO  ProjectBuildService - Remote scripts: none
+2020-03-30 00:19:36,993 INFO  ProjectFixService - Fixing project...
+2020-03-30 00:19:37,007 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/PreferenceRoom-master/demo-kotlin/local.properties
+2020-03-30 00:19:37,009 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/PreferenceRoom-master/demo-kotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-03-30 00:19:37,009 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/PreferenceRoom-master/demo-kotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-03-30 00:19:37,010 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/PreferenceRoom-master/demo/local.properties
+2020-03-30 00:19:37,011 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/PreferenceRoom-master/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-03-30 00:19:37,012 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/PreferenceRoom-master/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-03-30 00:19:37,013 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/PreferenceRoom-master/local.properties
+2020-03-30 00:19:37,013 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1-milestone-1-all.zip
+2020-03-30 00:19:37,014 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1-bin.zip)
+2020-03-30 00:19:37,016 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/PreferenceRoom-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-03-30 00:19:37,016 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/PreferenceRoom-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-03-30 00:19:37,017 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/PreferenceRoom-master/preferenceroom-compiler/local.properties
+2020-03-30 00:19:37,019 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/PreferenceRoom-master/preferenceroom-compiler/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-03-30 00:19:37,020 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/PreferenceRoom-master/preferenceroom-compiler/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-03-30 00:19:37,021 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/PreferenceRoom-master/preferenceroom/local.properties
+2020-03-30 00:19:37,023 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/PreferenceRoom-master/preferenceroom/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-03-30 00:19:37,023 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/PreferenceRoom-master/preferenceroom/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-03-30 00:19:37,024 INFO  ProjectFixService - Project was maybe fixed
+2020-03-30 00:19:37,024 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-30 00:19:37,024 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/PreferenceRoom-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/PreferenceRoom-master/demo-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-30 00:19:45,499 INFO  VirusProcessorServiceImpl - Queued project 6520 to scan viruses
+2020-03-30 00:19:57,368 INFO  ProjectTaskService - Detected possible tasks: 69
+2020-03-30 00:19:57,368 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-30 00:19:57,369 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/PreferenceRoom-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/PreferenceRoom-master/demo-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-30 00:21:18,126 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :preferenceroom:compileJava
-> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.61) with IdentityTransform
 > Task :preferenceroom:processResources NO-SOURCE
 > Task :preferenceroom:classes
-> Transform viewpager2.aar (androidx.viewpager2:viewpager2:1.0.0) with ExtractAarTransform
-> Transform appcompat-resources.aar (androidx.appcompat:appcompat-resources:1.1.0) with ExtractAarTransform
-> Transform commons-cli.jar (commons-cli:commons-cli:1.2) with IdentityTransform
 > Task :preferenceroom:jar
-> Transform preferenceroom.jar (project :preferenceroom) with JetifyTransform
-> Transform preferenceroom.jar (project :preferenceroom) with IdentityTransform
-> Transform viewpager2.aar (androidx.viewpager2:viewpager2:1.0.0) with AarCompileClassesTransform
-> Transform appcompat-resources.aar (androidx.appcompat:appcompat-resources:1.1.0) with AarCompileClassesTransform
-> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61) with JetifyTransform
-> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61) with IdentityTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform annotation-experimental.aar (androidx.annotation:annotation-experimental:1.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform savedstate.aar (androidx.savedstate:savedstate:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.1.0) with AarTransform
-> Transform activity.aar (androidx.activity:activity:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.1.0) with AarTransform
-> Transform viewpager2.aar (androidx.viewpager2:viewpager2:1.0.0) with AarTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0) with AarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0) with AarTransform
-> Transform appcompat-resources.aar (androidx.appcompat:appcompat-resources:1.1.0) with AarTransform
-> Transform kotlin-android-extensions-runtime.jar (org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.61) with JetifyTransform
-> Transform transition.aar (androidx.transition:transition:1.2.0) with AarTransform
-> Transform kotlin-android-extensions-runtime.jar (org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.61) with IdentityTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0) with AarTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
-> Transform annotation-experimental.aar (androidx.annotation:annotation-experimental:1.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform savedstate.aar (androidx.savedstate:savedstate:1.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.1.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform gson.jar (com.google.code.gson:gson:2.8.2) with JetifyTransform
-> Transform gson.jar (com.google.code.gson:gson:2.8.2) with IdentityTransform
-> Transform activity.aar (androidx.activity:activity:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.1.0) with AarTransform
-> Transform viewpager2.aar (androidx.viewpager2:viewpager2:1.0.0) with AarTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0) with AarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.1.0) with AarCompileClassesTransform
-> Transform core.aar (androidx.core:core:1.1.0) with AarTransform
-> Transform appcompat-resources.aar (androidx.appcompat:appcompat-resources:1.1.0) with AarTransform
-> Transform transition.aar (androidx.transition:transition:1.2.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0) with AarTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
-> Transform annotation-experimental.aar (androidx.annotation:annotation-experimental:1.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform material.aar (com.google.android.material:material:1.2.0-alpha03) with JetifyTransform
-> Transform core.aar (androidx.core:core:1.1.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform savedstate.aar (androidx.savedstate:savedstate:1.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.1.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform activity.aar (androidx.activity:activity:1.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.1.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.1.0) with AarTransform
-> Transform viewpager2.aar (androidx.viewpager2:viewpager2:1.0.0) with AarTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0) with AarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0) with AarTransform
-> Transform appcompat-resources.aar (androidx.appcompat:appcompat-resources:1.1.0) with AarTransform
-> Transform transition.aar (androidx.transition:transition:1.2.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0) with AarTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
 > Task :demo-kotlin:preBuild UP-TO-DATE
-> Transform annotation-experimental.aar (androidx.annotation:annotation-experimental:1.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0) with AarTransform
-> Transform savedstate.aar (androidx.savedstate:savedstate:1.0.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.1.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.1.0) with AarTransform
-> Transform activity.aar (androidx.activity:activity:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.1.0) with AarTransform
-> Transform viewpager2.aar (androidx.viewpager2:viewpager2:1.0.0) with AarTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0) with AarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0) with AarTransform
-> Transform appcompat-resources.aar (androidx.appcompat:appcompat-resources:1.1.0) with AarTransform
-> Transform transition.aar (androidx.transition:transition:1.2.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0) with AarTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
-> Transform material.aar (com.google.android.material:material:1.2.0-alpha03) with ExtractAarTransform
-> Transform stetho.aar (com.facebook.stetho:stetho:1.5.1) with JetifyTransform
-> Transform stetho.aar (com.facebook.stetho:stetho:1.5.1) with ExtractAarTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0) with AarCompileClassesTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0) with AarTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0) with AarTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0) with AarTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0) with AarTransform
-> Transform animal-sniffer-annotations.jar (org.codehaus.mojo:animal-sniffer-annotations:1.17) with JetifyTransform
-> Transform material.aar (com.google.android.material:material:1.2.0-alpha03) with AarCompileClassesTransform
-> Transform stetho.aar (com.facebook.stetho:stetho:1.5.1) with AarTransform
-> Transform stetho.aar (com.facebook.stetho:stetho:1.5.1) with AarCompileClassesTransform
-> Transform material.aar (com.google.android.material:material:1.2.0-alpha03) with AarTransform
-> Transform stetho.aar (com.facebook.stetho:stetho:1.5.1) with AarTransform
-> Transform material.aar (com.google.android.material:material:1.2.0-alpha03) with AarTransform
-> Transform stetho.aar (com.facebook.stetho:stetho:1.5.1) with AarTransform
-> Transform material.aar (com.google.android.material:material:1.2.0-alpha03) with AarTransform
-> Transform stetho.aar (com.facebook.stetho:stetho:1.5.1) with AarTransform
-> Transform material.aar (com.google.android.material:material:1.2.0-alpha03) with AarTransform
-> Transform j2objc-annotations.jar (com.google.j2objc:j2objc-annotations:1.1) with JetifyTransform
-
-> Transform error_prone_annotations.jar (com.google.errorprone:error_prone_annotations:2.2.0) with JetifyTransform
-ERROR: [TAG] Failed to resolve variable '${junit.version}'
-
-> Transform listenablefuture.jar (com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava) with JetifyTransform
-> Transform jsr305.jar (com.google.code.findbugs:jsr305:3.0.2) with JetifyTransform
-> Transform checker-qual.jar (org.checkerframework:checker-qual:2.5.2) with JetifyTransform
-> Task :demo-kotlin:preDebugBuild
+> Task :demo-kotlin:preDebugBuild UP-TO-DATE
 > Task :demo-kotlin:compileDebugAidl NO-SOURCE
-> Task :demo-kotlin:compileDebugRenderscript
-> Task :demo-kotlin:checkDebugManifest
 > Task :demo-kotlin:generateDebugBuildConfig
-> Transform annotation.jar (androidx.annotation:annotation:1.0.1) with JetifyTransform
-> Transform failureaccess.jar (com.google.guava:failureaccess:1.0.1) with JetifyTransform
-> Transform auto-common.jar (com.google.auto:auto-common:0.10) with JetifyTransform
-> Transform auto-service-annotations.jar (com.google.auto.service:auto-service-annotations:1.0-rc6) with JetifyTransform
-
-> Transform auto-service.jar (com.google.auto.service:auto-service:1.0-rc6) with JetifyTransform
-ERROR: [TAG] Failed to resolve variable '${project.version}'
-
-> Transform javapoet.jar (com.squareup:javapoet:1.12.0) with JetifyTransform
-
-> Transform guava.jar (com.google.guava:guava:27.0.1-jre) with JetifyTransform
-ERROR: [TAG] Failed to resolve variable '${animal.sniffer.version}'
-
-> Task :preferenceroom-compiler:compileJava
+> Task :preferenceroom-compiler:kaptGenerateStubsKotlin
+> Task :demo-kotlin:compileDebugRenderscript NO-SOURCE
 > Task :preferenceroom-compiler:processResources NO-SOURCE
+> Task :preferenceroom-compiler:kaptKotlin
+> Task :preferenceroom-compiler:compileKotlin
+> Task :preferenceroom-compiler:compileJava
 > Task :preferenceroom-compiler:classes
+> Task :preferenceroom-compiler:inspectClassesForKotlinIC
 > Task :preferenceroom-compiler:jar
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with LibrarySymbolTableTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with LibrarySymbolTableTransform
-> Transform savedstate.aar (androidx.savedstate:savedstate:1.0.0) with LibrarySymbolTableTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with LibrarySymbolTableTransform
-> Transform annotation-experimental.aar (androidx.annotation:annotation-experimental:1.0.0) with LibrarySymbolTableTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with LibrarySymbolTableTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with LibrarySymbolTableTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with LibrarySymbolTableTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0) with LibrarySymbolTableTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.1.0) with LibrarySymbolTableTransform
-> Transform core.aar (androidx.core:core:1.1.0) with LibrarySymbolTableTransform
-> Transform preferenceroom-compiler.jar (project :preferenceroom-compiler) with JetifyTransform
-> Transform activity.aar (androidx.activity:activity:1.0.0) with LibrarySymbolTableTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with LibrarySymbolTableTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with LibrarySymbolTableTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with LibrarySymbolTableTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with LibrarySymbolTableTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0) with LibrarySymbolTableTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.1.0) with LibrarySymbolTableTransform
-> Transform viewpager2.aar (androidx.viewpager2:viewpager2:1.0.0) with LibrarySymbolTableTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0) with LibrarySymbolTableTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0) with LibrarySymbolTableTransform
-> Transform transition.aar (androidx.transition:transition:1.2.0) with LibrarySymbolTableTransform
-> Transform appcompat-resources.aar (androidx.appcompat:appcompat-resources:1.1.0) with LibrarySymbolTableTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with LibrarySymbolTableTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0) with LibrarySymbolTableTransform
-> Transform stetho.aar (com.facebook.stetho:stetho:1.5.1) with LibrarySymbolTableTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0) with LibrarySymbolTableTransform
-> Transform material.aar (com.google.android.material:material:1.2.0-alpha03) with LibrarySymbolTableTransform
 > Task :demo-kotlin:mainApkListPersistenceDebug
-> Transform annotation-experimental.aar (androidx.annotation:annotation-experimental:1.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform savedstate.aar (androidx.savedstate:savedstate:1.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.1.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.1.0) with AarTransform
-> Transform activity.aar (androidx.activity:activity:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.1.0) with AarTransform
-> Transform viewpager2.aar (androidx.viewpager2:viewpager2:1.0.0) with AarTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0) with AarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0) with AarTransform
-> Transform appcompat-resources.aar (androidx.appcompat:appcompat-resources:1.1.0) with AarTransform
-> Transform transition.aar (androidx.transition:transition:1.2.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0) with AarTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0) with AarTransform
-> Transform stetho.aar (com.facebook.stetho:stetho:1.5.1) with AarTransform
-> Transform material.aar (com.google.android.material:material:1.2.0-alpha03) with AarTransform
 > Task :demo-kotlin:generateDebugResValues
 > Task :demo-kotlin:generateDebugResources
 > Task :demo-kotlin:createDebugCompatibleScreenManifests
-> Transform aapt2-osx.jar (com.android.tools.build:aapt2:3.3.0-5013011) with Aapt2Extractor
+> Task :demo-kotlin:extractDeepLinksDebug
 > Task :demo-kotlin:processDebugManifest
 > Task :demo-kotlin:mergeDebugResources
 > Task :demo-kotlin:processDebugResources
 > Task :demo-kotlin:kaptGenerateStubsDebugKotlin
+> Task :demo-kotlin:javaPreCompileDebug
+> Task :demo-kotlin:mergeDebugShaders
+> Task :demo-kotlin:compileDebugShaders NO-SOURCE
+> Task :demo-kotlin:generateDebugAssets UP-TO-DATE
+> Task :demo-kotlin:mergeDebugAssets
+> Task :demo-kotlin:processDebugJavaRes NO-SOURCE
+> Task :demo-kotlin:checkDebugDuplicateClasses
 
 > Task :demo-kotlin:kaptDebugKotlin
-w: [kapt] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: com.skydoves.processor.PreferenceRoomProcessor (NON_INCREMENTAL).
+[WARN] Issue detected with com.skydoves.processor.PreferenceRoomProcessor. Expected 1 originating source file when generating /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/PreferenceRoom-master/demo-kotlin/build/generated/source/kapt/debug/com/skydoves/preferenceroomdemo/entities/Preference_UserProfile.java, but detected 0: [].
 
 > Task :demo-kotlin:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/demo-kotlin/src/main/java/com/skydoves/preferenceroomdemo/entities/Profile.kt: (86, 9): Name shadowed: count
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/demo-kotlin/src/main/java/com/skydoves/preferenceroomdemo/utils/ListViewAdapter.kt: (55, 9): Name shadowed: view
-
-> Task :demo-kotlin:prepareLintJar
-> Task :demo-kotlin:generateDebugSources
-> Task :demo-kotlin:javaPreCompileDebug
 
 > Task :demo-kotlin:compileDebugJavaWithJavac
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-> Task :demo-kotlin:compileDebugNdk NO-SOURCE
 > Task :demo-kotlin:compileDebugSources
-> Transform annotation-experimental.aar (androidx.annotation:annotation-experimental:1.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform savedstate.aar (androidx.savedstate:savedstate:1.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.1.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.1.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform activity.aar (androidx.activity:activity:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.1.0) with AarTransform
-> Transform viewpager2.aar (androidx.viewpager2:viewpager2:1.0.0) with AarTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0) with AarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0) with AarTransform
-> Transform appcompat-resources.aar (androidx.appcompat:appcompat-resources:1.1.0) with AarTransform
-> Transform transition.aar (androidx.transition:transition:1.2.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0) with AarTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0) with AarTransform
-> Transform stetho.aar (com.facebook.stetho:stetho:1.5.1) with AarTransform
-> Transform material.aar (com.google.android.material:material:1.2.0-alpha03) with AarTransform
-> Task :demo-kotlin:mergeDebugShaders
-> Task :demo-kotlin:compileDebugShaders
-> Task :demo-kotlin:generateDebugAssets
-> Task :demo-kotlin:mergeDebugAssets
-> Transform annotation-experimental.aar (androidx.annotation:annotation-experimental:1.0.0) with AarTransform
-> Transform annotation-experimental.aar (androidx.annotation:annotation-experimental:1.0.0) with JetifyTransform
-> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.61) with DexingTransform
-> Transform annotation.jar (androidx.annotation:annotation:1.1.0) with DexingTransform
-> Transform jsr305.jar (com.google.code.findbugs:jsr305:2.0.1) with DexingTransform
-> Transform core-common.jar (androidx.arch.core:core-common:2.1.0) with DexingTransform
-> Transform annotation-experimental.aar (androidx.annotation:annotation-experimental:1.0.0) with DexingTransform
-> Transform annotations.jar (org.jetbrains:annotations:13.0) with DexingTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform savedstate.aar (androidx.savedstate:savedstate:1.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
-> Transform savedstate.aar (androidx.savedstate:savedstate:1.0.0) with JetifyTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with DexingTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with JetifyTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with DexingTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.1.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.1.0) with JetifyTransform
-> Transform savedstate.aar (androidx.savedstate:savedstate:1.0.0) with DexingTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with DexingTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0) with JetifyTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with DexingTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
-> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.1.0) with DexingTransform
-> Transform core.aar (androidx.core:core:1.1.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with DexingTransform
-> Transform activity.aar (androidx.activity:activity:1.0.0) with AarTransform
-> Transform activity.aar (androidx.activity:activity:1.0.0) with JetifyTransform
-> Transform preferenceroom.jar (project :preferenceroom) with DexingTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.1.0) with DexingTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with DexingTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
-> Transform activity.aar (androidx.activity:activity:1.0.0) with DexingTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0) with JetifyTransform
-> Transform core.aar (androidx.core:core:1.1.0) with JetifyTransform
-> Transform commons-cli.jar (commons-cli:commons-cli:1.2) with DexingTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with DexingTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.1.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0) with DexingTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.1.0) with JetifyTransform
-> Transform viewpager2.aar (androidx.viewpager2:viewpager2:1.0.0) with AarTransform
-> Transform viewpager2.aar (androidx.viewpager2:viewpager2:1.0.0) with JetifyTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with DexingTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0) with AarTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0) with JetifyTransform
-> Transform collection.jar (androidx.collection:collection:1.1.0) with DexingTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0) with AarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0) with JetifyTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with DexingTransform
-> Transform appcompat-resources.aar (androidx.appcompat:appcompat-resources:1.1.0) with AarTransform
-> Transform appcompat-resources.aar (androidx.appcompat:appcompat-resources:1.1.0) with JetifyTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with DexingTransform
-> Transform transition.aar (androidx.transition:transition:1.2.0) with AarTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0) with DexingTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0) with JetifyTransform
-> Transform transition.aar (androidx.transition:transition:1.2.0) with JetifyTransform
-> Transform viewpager2.aar (androidx.viewpager2:viewpager2:1.0.0) with DexingTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with JetifyTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0) with DexingTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0) with AarTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with DexingTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0) with JetifyTransform
-> Transform appcompat-resources.aar (androidx.appcompat:appcompat-resources:1.1.0) with DexingTransform
-> Transform stetho.aar (com.facebook.stetho:stetho:1.5.1) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0) with DexingTransform
-> Transform stetho.aar (com.facebook.stetho:stetho:1.5.1) with JetifyTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.1.0) with DexingTransform
-> Transform material.aar (com.google.android.material:material:1.2.0-alpha03) with AarTransform
-> Transform transition.aar (androidx.transition:transition:1.2.0) with DexingTransform
-> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61) with DexingTransform
-> Transform kotlin-android-extensions-runtime.jar (org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.61) with DexingTransform
-> Transform annotation-experimental.aar (androidx.annotation:annotation-experimental:1.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform savedstate.aar (androidx.savedstate:savedstate:1.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.1.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.1.0) with AarTransform
-> Transform activity.aar (androidx.activity:activity:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.1.0) with AarTransform
-> Transform viewpager2.aar (androidx.viewpager2:viewpager2:1.0.0) with AarTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0) with AarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0) with AarTransform
-> Transform appcompat-resources.aar (androidx.appcompat:appcompat-resources:1.1.0) with AarTransform
-> Transform transition.aar (androidx.transition:transition:1.2.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0) with AarTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0) with AarTransform
-> Transform stetho.aar (com.facebook.stetho:stetho:1.5.1) with AarTransform
-> Transform material.aar (com.google.android.material:material:1.2.0-alpha03) with AarTransform
-> Transform material.aar (com.google.android.material:material:1.2.0-alpha03) with JetifyTransform
-> Task :demo-kotlin:transformClassesWithDexBuilderForDebug
-> Transform gson.jar (com.google.code.gson:gson:2.8.2) with DexingTransform
-> Task :demo-kotlin:validateSigningDebug
-> Task :demo-kotlin:signingConfigWriterDebug
-> Transform preferenceroom.jar (project :preferenceroom) with IdentityTransform
-> Transform annotation-experimental.aar (androidx.annotation:annotation-experimental:1.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform savedstate.aar (androidx.savedstate:savedstate:1.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.1.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.1.0) with AarTransform
-> Transform activity.aar (androidx.activity:activity:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.1.0) with AarTransform
-> Transform viewpager2.aar (androidx.viewpager2:viewpager2:1.0.0) with AarTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0) with AarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0) with AarTransform
-> Transform appcompat-resources.aar (androidx.appcompat:appcompat-resources:1.1.0) with AarTransform
-> Transform transition.aar (androidx.transition:transition:1.2.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0) with AarTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0) with AarTransform
-> Transform stetho.aar (com.facebook.stetho:stetho:1.5.1) with AarTransform
-> Transform annotations.jar (org.jetbrains:annotations:13.0) with IdentityTransform
-> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.61) with IdentityTransform
-> Transform jsr305.jar (com.google.code.findbugs:jsr305:2.0.1) with IdentityTransform
-> Transform commons-cli.jar (commons-cli:commons-cli:1.2) with IdentityTransform
-> Transform material.aar (com.google.android.material:material:1.2.0-alpha03) with AarTransform
-> Transform annotation.jar (androidx.annotation:annotation:1.1.0) with IdentityTransform
-> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.1.0) with IdentityTransform
-> Transform core-common.jar (androidx.arch.core:core-common:2.1.0) with IdentityTransform
-> Transform annotation-experimental.aar (androidx.annotation:annotation-experimental:1.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform savedstate.aar (androidx.savedstate:savedstate:1.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with AarTransform
-> Transform collection.jar (androidx.collection:collection:1.1.0) with IdentityTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.1.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.1.0) with AarTransform
-> Transform activity.aar (androidx.activity:activity:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.1.0) with AarTransform
-> Transform viewpager2.aar (androidx.viewpager2:viewpager2:1.0.0) with AarTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0) with AarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0) with AarTransform
-> Transform appcompat-resources.aar (androidx.appcompat:appcompat-resources:1.1.0) with AarTransform
-> Transform transition.aar (androidx.transition:transition:1.2.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0) with AarTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
-> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.61) with IdentityTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0) with AarTransform
-> Transform gson.jar (com.google.code.gson:gson:2.8.2) with IdentityTransform
-> Transform stetho.aar (com.facebook.stetho:stetho:1.5.1) with AarTransform
-> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61) with IdentityTransform
-> Transform kotlin-android-extensions-runtime.jar (org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.61) with IdentityTransform
-> Transform material.aar (com.google.android.material:material:1.2.0-alpha03) with AarTransform
+> Task :demo-kotlin:dexBuilderDebug
 > Task :demo-kotlin:mergeDebugJniLibFolders
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0) with DexingTransform
-> Transform stetho.aar (com.facebook.stetho:stetho:1.5.1) with DexingTransform
-> Task :demo-kotlin:transformNativeLibsWithMergeJniLibsForDebug
-> Task :demo-kotlin:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :demo-kotlin:processDebugJavaRes NO-SOURCE
-> Transform core.aar (androidx.core:core:1.1.0) with DexingTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0) with DexingTransform
-> Task :demo-kotlin:transformResourcesWithMergeJavaResForDebug
-> Task :demo-kotlin:preReleaseBuild
+> Task :demo-kotlin:validateSigningDebug
+> Task :demo-kotlin:preReleaseBuild UP-TO-DATE
 > Task :demo-kotlin:compileReleaseAidl NO-SOURCE
-> Task :demo-kotlin:compileReleaseRenderscript
-> Task :demo-kotlin:checkReleaseManifest
+> Task :demo-kotlin:compileReleaseRenderscript NO-SOURCE
 > Task :demo-kotlin:generateReleaseBuildConfig
 > Task :demo-kotlin:mainApkListPersistenceRelease
 > Task :demo-kotlin:generateReleaseResValues
 > Task :demo-kotlin:generateReleaseResources
-> Transform material.aar (com.google.android.material:material:1.2.0-alpha03) with DexingTransform
-> Task :demo-kotlin:mergeReleaseResources
 > Task :demo-kotlin:createReleaseCompatibleScreenManifests
+> Task :demo-kotlin:extractDeepLinksRelease
 > Task :demo-kotlin:processReleaseManifest
-> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.61) with DexingTransform
+> Task :demo-kotlin:mergeDebugJavaResource
+> Task :demo-kotlin:mergeDebugNativeLibs
+> Task :demo-kotlin:stripDebugDebugSymbols
+> Task :demo-kotlin:mergeReleaseResources
 > Task :demo-kotlin:processReleaseResources
-> Task :demo-kotlin:mergeExtDexDebug
-> Task :demo-kotlin:mergeDexDebug
-> Task :demo-kotlin:packageDebug
-> Task :demo-kotlin:assembleDebug
 > Task :demo-kotlin:kaptGenerateStubsReleaseKotlin
+> Task :demo-kotlin:javaPreCompileRelease
+> Task :demo-kotlin:prepareLintJar
+> Task :demo-kotlin:checkReleaseDuplicateClasses
+> Task :demo-kotlin:mergeExtDexDebug
 
 > Task :demo-kotlin:kaptReleaseKotlin
-w: [kapt] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: com.skydoves.processor.PreferenceRoomProcessor (NON_INCREMENTAL).
+[WARN] Issue detected with com.skydoves.processor.PreferenceRoomProcessor. Expected 1 originating source file when generating /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/PreferenceRoom-master/demo-kotlin/build/generated/source/kapt/release/com/skydoves/preferenceroomdemo/entities/Preference_UserProfile.java, but detected 0: [].
 
 > Task :demo-kotlin:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/demo-kotlin/src/main/java/com/skydoves/preferenceroomdemo/entities/Profile.kt: (86, 9): Name shadowed: count
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/demo-kotlin/src/main/java/com/skydoves/preferenceroomdemo/utils/ListViewAdapter.kt: (55, 9): Name shadowed: view
-
-> Task :demo-kotlin:generateReleaseSources
-> Task :demo-kotlin:javaPreCompileRelease
 
 > Task :demo-kotlin:compileReleaseJavaWithJavac
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-> Task :demo-kotlin:compileReleaseNdk NO-SOURCE
 > Task :demo-kotlin:compileReleaseSources
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform savedstate.aar (androidx.savedstate:savedstate:1.0.0) with AarTransform
-> Transform annotation-experimental.aar (androidx.annotation:annotation-experimental:1.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.1.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.1.0) with AarTransform
-> Transform activity.aar (androidx.activity:activity:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.1.0) with AarTransform
-> Transform viewpager2.aar (androidx.viewpager2:viewpager2:1.0.0) with AarTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0) with AarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0) with AarTransform
-> Transform appcompat-resources.aar (androidx.appcompat:appcompat-resources:1.1.0) with AarTransform
-> Transform transition.aar (androidx.transition:transition:1.2.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0) with AarTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0) with AarTransform
-> Transform stetho.aar (com.facebook.stetho:stetho:1.5.1) with AarTransform
-> Transform material.aar (com.google.android.material:material:1.2.0-alpha03) with AarTransform
-> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.61) with DexingTransform
-> Transform annotation-experimental.aar (androidx.annotation:annotation-experimental:1.0.0) with DexingTransform
-> Transform annotations.jar (org.jetbrains:annotations:13.0) with DexingTransform
-> Transform jsr305.jar (com.google.code.findbugs:jsr305:2.0.1) with DexingTransform
-> Transform annotation.jar (androidx.annotation:annotation:1.1.0) with DexingTransform
-> Transform preferenceroom.jar (project :preferenceroom) with DexingTransform
-> Transform commons-cli.jar (commons-cli:commons-cli:1.2) with DexingTransform
-
 > Task :demo-kotlin:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/d5b897da781a14e2aee08e565a0a93d3/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
-
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with DexingTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with DexingTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with DexingTransform
-> Transform savedstate.aar (androidx.savedstate:savedstate:1.0.0) with DexingTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with DexingTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with DexingTransform
-> Transform core-common.jar (androidx.arch.core:core-common:2.1.0) with DexingTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.1.0) with DexingTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with DexingTransform
-> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.1.0) with DexingTransform
-> Transform activity.aar (androidx.activity:activity:1.0.0) with DexingTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with DexingTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0) with DexingTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with DexingTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with DexingTransform
-> Transform collection.jar (androidx.collection:collection:1.1.0) with DexingTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with DexingTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0) with DexingTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0) with DexingTransform
-> Transform viewpager2.aar (androidx.viewpager2:viewpager2:1.0.0) with DexingTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with DexingTransform
-> Transform appcompat-resources.aar (androidx.appcompat:appcompat-resources:1.1.0) with DexingTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0) with DexingTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.1.0) with DexingTransform
-> Transform transition.aar (androidx.transition:transition:1.2.0) with DexingTransform
-> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61) with DexingTransform
-> Transform kotlin-android-extensions-runtime.jar (org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.61) with DexingTransform
-> Task :demo-kotlin:transformClassesWithDexBuilderForRelease
+> Task :demo-kotlin:dexBuilderRelease
+> Task :demo-kotlin:mergeDexDebug
+> Task :demo-kotlin:packageDebug
+> Task :demo-kotlin:assembleDebug
 > Task :demo-kotlin:mergeReleaseShaders
-> Task :demo-kotlin:compileReleaseShaders
-> Task :demo-kotlin:generateReleaseAssets
+> Task :demo-kotlin:compileReleaseShaders NO-SOURCE
+> Task :demo-kotlin:generateReleaseAssets UP-TO-DATE
 > Task :demo-kotlin:mergeReleaseAssets
-> Task :demo-kotlin:signingConfigWriterRelease
-> Task :demo-kotlin:mergeReleaseJniLibFolders
-> Transform gson.jar (com.google.code.gson:gson:2.8.2) with DexingTransform
-> Task :demo-kotlin:transformNativeLibsWithMergeJniLibsForRelease
-> Task :demo-kotlin:transformNativeLibsWithStripDebugSymbolForRelease
 > Task :demo-kotlin:processReleaseJavaRes NO-SOURCE
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0) with DexingTransform
-> Transform stetho.aar (com.facebook.stetho:stetho:1.5.1) with DexingTransform
-> Transform core.aar (androidx.core:core:1.1.0) with DexingTransform
-> Task :demo-kotlin:transformResourcesWithMergeJavaResForRelease
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0) with DexingTransform
-> Transform material.aar (com.google.android.material:material:1.2.0-alpha03) with DexingTransform
-> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.61) with DexingTransform
+> Task :demo-kotlin:mergeReleaseJniLibFolders
+> Task :demo-kotlin:mergeReleaseNativeLibs
+> Task :demo-kotlin:stripReleaseDebugSymbols
+> Task :demo-kotlin:mergeReleaseJavaResource
 > Task :demo-kotlin:mergeExtDexRelease
 > Task :demo-kotlin:mergeDexRelease
 > Task :demo-kotlin:packageRelease
@@ -739,11 +137,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :demo-kotlin:assemble
 > Task :demo-kotlin:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
+BUILD SUCCESSFUL in 1m 20s
+59 actionable tasks: 59 executed
 
-BUILD SUCCESSFUL in 57s
-61 actionable tasks: 61 executed
-
-2020-01-22 17:50:25,013 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690154320-0/src/PreferenceRoom-master/demo-kotlin/build/outputs/apk/release/demo-kotlin-release-unsigned.apk
+2020-03-30 00:21:18,197 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502375977-0/src/PreferenceRoom-master/demo-kotlin/build/outputs/apk/release/demo-kotlin-release-unsigned.apk

@@ -1,40 +1,41 @@
-2019-11-07 13:39:26,319 INFO  DownloadService - Downloading "https://github.com/vipulasri/TicketView/archive/master.zip", attempt 3
-2019-11-07 13:39:29,842 INFO  DownloadService - Downloaded https://github.com/vipulasri/TicketView/archive/master.zip, attempt 3
-2019-11-07 13:39:29,843 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/master.zip": 1 MB
-2019-11-07 13:39:29,843 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-11-07 13:39:29,848 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/master.zip: true
-2019-11-07 13:39:29,849 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src'.
-2019-11-07 13:39:29,882 INFO  FullProcessService - Size of directory with sources: 2 MB
-2019-11-07 13:39:29,882 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src]
-2019-11-07 13:39:29,902 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src/.git/
+2020-03-30 00:17:11,289 INFO  DownloadService - Downloading "https://github.com/vipulasri/TicketView/archive/master.zip", attempt 3
+2020-03-30 00:17:14,720 INFO  DownloadService - Downloaded https://github.com/vipulasri/TicketView/archive/master.zip, attempt 3
+2020-03-30 00:17:14,721 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/master.zip": 1 MB
+2020-03-30 00:17:14,721 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-30 00:17:14,721 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/master.zip: true
+2020-03-30 00:17:14,722 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/src'.
+2020-03-30 00:17:14,771 INFO  FullProcessService - Size of directory with sources: 2 MB
+2020-03-30 00:17:14,771 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/src]
+2020-03-30 00:17:14,792 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/src/.git/
 
-2019-11-07 13:39:29,905 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src/TicketView-master/gradlew
-2019-11-07 13:39:29,908 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src/TicketView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src/TicketView-master/ticketview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src/TicketView-master/build.gradle
-2019-11-07 13:39:29,910 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src/TicketView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src/TicketView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src/TicketView-master/ticketview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src/TicketView-master/settings.gradle
-2019-11-07 13:39:29,915 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/vipulasri/BintrayHelper/master/install.gradle", attempt 3
-2019-11-07 13:39:30,940 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/vipulasri/BintrayHelper/master/install.gradle, attempt 3
-2019-11-07 13:39:30,940 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/vipulasri/BintrayHelper/master/bintray.gradle", attempt 3
-2019-11-07 13:39:31,205 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/vipulasri/BintrayHelper/master/bintray.gradle, attempt 3
-2019-11-07 13:39:31,205 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/vipulasri/BintrayHelper/master/install.gradle https://raw.githubusercontent.com/vipulasri/BintrayHelper/master/bintray.gradle
-2019-11-07 13:39:31,205 INFO  ProjectFixService - Fixing project...
-2019-11-07 13:39:31,215 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src/TicketView-master/sample/local.properties
-2019-11-07 13:39:31,217 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src/TicketView-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-11-07 13:39:31,217 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src/TicketView-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-11-07 13:39:31,218 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src/TicketView-master/ticketview/local.properties
-2019-11-07 13:39:31,222 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src/TicketView-master/ticketview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-11-07 13:39:31,222 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src/TicketView-master/ticketview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-11-07 13:39:31,223 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src/TicketView-master/local.properties
-2019-11-07 13:39:31,223 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-11-07 13:39:31,223 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-11-07 13:39:31,226 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src/TicketView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-11-07 13:39:31,226 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src/TicketView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-11-07 13:39:31,227 INFO  ProjectFixService - Project was maybe fixed
-2019-11-07 13:39:31,227 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-07 13:39:31,227 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src/TicketView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src/TicketView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-07 13:39:38,476 INFO  ProjectTaskService - Detected possible tasks: 72
-2019-11-07 13:39:38,476 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-11-07 13:39:38,477 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src/TicketView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src/TicketView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-11-07 13:39:44,122 ERROR SysUtils - Could not process external command
+2020-03-30 00:17:14,796 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/src/TicketView-master/gradlew
+2020-03-30 00:17:14,801 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/src/TicketView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/src/TicketView-master/ticketview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/src/TicketView-master/build.gradle
+2020-03-30 00:17:14,806 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/src/TicketView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/src/TicketView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/src/TicketView-master/ticketview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/src/TicketView-master/settings.gradle
+2020-03-30 00:17:14,815 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/vipulasri/BintrayHelper/master/install.gradle", attempt 3
+2020-03-30 00:17:15,666 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/vipulasri/BintrayHelper/master/install.gradle, attempt 3
+2020-03-30 00:17:15,666 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/vipulasri/BintrayHelper/master/bintray.gradle", attempt 3
+2020-03-30 00:17:16,167 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/vipulasri/BintrayHelper/master/bintray.gradle, attempt 3
+2020-03-30 00:17:16,167 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/vipulasri/BintrayHelper/master/install.gradle https://raw.githubusercontent.com/vipulasri/BintrayHelper/master/bintray.gradle
+2020-03-30 00:17:16,167 INFO  ProjectFixService - Fixing project...
+2020-03-30 00:17:16,182 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/src/TicketView-master/sample/local.properties
+2020-03-30 00:17:16,185 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/src/TicketView-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-30 00:17:16,185 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/src/TicketView-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-30 00:17:16,187 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/src/TicketView-master/ticketview/local.properties
+2020-03-30 00:17:16,190 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/src/TicketView-master/ticketview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-30 00:17:16,190 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/src/TicketView-master/ticketview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-30 00:17:16,192 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/src/TicketView-master/local.properties
+2020-03-30 00:17:16,193 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2020-03-30 00:17:16,193 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2020-03-30 00:17:16,196 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/src/TicketView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-30 00:17:16,196 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/src/TicketView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-30 00:17:16,197 INFO  ProjectFixService - Project was maybe fixed
+2020-03-30 00:17:16,197 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-30 00:17:16,197 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/src/TicketView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/src/TicketView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-30 00:17:16,898 INFO  VirusProcessorServiceImpl - Queued project 6555 to scan viruses
+2020-03-30 00:17:27,211 INFO  ProjectTaskService - Detected possible tasks: 72
+2020-03-30 00:17:27,211 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-30 00:17:27,211 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/src/TicketView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/src/TicketView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-30 00:17:34,278 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -51,18 +52,18 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-11-07 13:39:44,122 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-30 00:17:34,278 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -140,17 +141,25 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 6s
 
-2019-11-07 13:39:44,122 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-11-07 13:39:44,122 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src/TicketView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src/TicketView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-11-07 13:40:45,417 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-30 00:17:34,278 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2020-03-30 00:17:34,278 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/src/TicketView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/src/TicketView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-03-30 00:18:52,745 INFO  SysUtils - Configuration on demand is an incubating feature.
 Download https://raw.githubusercontent.com/vipulasri/BintrayHelper/master/install.gradle
 Download https://raw.githubusercontent.com/vipulasri/BintrayHelper/master/bintray.gradle
 :sample:checkDebugClasspath
+Download https://dl.google.com/dl/android/maven2/com/android/support/design/28.0.0/design-28.0.0.pom
+Download https://jcenter.bintray.com/com/thebluealliance/spectrum/0.7.1/spectrum-0.7.1.pom
+Download https://jcenter.bintray.com/com/dmitrymalkovich/android/material-design-dimens/1.4/material-design-dimens-1.4.pom
+Download https://jcenter.bintray.com/org/adw/library/discrete-seekbar/1.0.1/discrete-seekbar-1.0.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/cardview-v7/28.0.0/cardview-v7-28.0.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/transition/28.0.0/transition-28.0.0.pom
+Download https://jcenter.bintray.com/org/greenrobot/eventbus/3.0.0/eventbus-3.0.0.pom
 Download https://jcenter.bintray.com/com/dmitrymalkovich/android/material-design-dimens/1.4/material-design-dimens-1.4.aar
 Download https://jcenter.bintray.com/org/adw/library/discrete-seekbar/1.0.1/discrete-seekbar-1.0.1.aar
 Download https://jcenter.bintray.com/com/thebluealliance/spectrum/0.7.1/spectrum-0.7.1.aar
+Download https://jcenter.bintray.com/org/greenrobot/eventbus/3.0.0/eventbus-3.0.0.jar
 :sample:preBuild UP-TO-DATE
 :ticketview:preBuild UP-TO-DATE
 :ticketview:preDebugBuild UP-TO-DATE
@@ -180,7 +189,7 @@ Download https://jcenter.bintray.com/com/thebluealliance/spectrum/0.7.1/spectrum
 :ticketview:prepareLintJar
 :ticketview:generateDebugSources
 :ticketview:javaPreCompileDebug
-:ticketview:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src/TicketView-master/ticketview/src/main/java/com/vipulasri/ticketview/TicketView.java uses or overrides a deprecated API.
+:ticketview:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/src/TicketView-master/ticketview/src/main/java/com/vipulasri/ticketview/TicketView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :ticketview:processDebugJavaRes NO-SOURCE
@@ -188,9 +197,9 @@ Note: Recompile with -Xlint:deprecation for details.
 :sample:kaptGenerateStubsDebugKotlin
 :sample:kaptDebugKotlin
 :sample:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src/TicketView-master/sample/src/main/java/com/vipulasri/ticketview/sample/MainActivity.kt: (94, 61): Parameter 'group' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src/TicketView-master/sample/src/main/java/com/vipulasri/ticketview/sample/MainActivity.kt: (133, 59): Parameter 'compoundButton' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src/TicketView-master/sample/src/main/java/com/vipulasri/ticketview/sample/MainActivity.kt: (148, 60): Parameter 'compoundButton' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/src/TicketView-master/sample/src/main/java/com/vipulasri/ticketview/sample/MainActivity.kt: (94, 61): Parameter 'group' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/src/TicketView-master/sample/src/main/java/com/vipulasri/ticketview/sample/MainActivity.kt: (133, 59): Parameter 'compoundButton' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/src/TicketView-master/sample/src/main/java/com/vipulasri/ticketview/sample/MainActivity.kt: (148, 60): Parameter 'compoundButton' is never used, could be renamed to _
 :sample:prepareLintJar
 :sample:generateDebugSources
 :sample:javaPreCompileDebug
@@ -257,7 +266,7 @@ D8: Stripped invalid locals information from 1 method.
 :ticketview:generateReleaseBuildConfig
 :ticketview:generateReleaseSources
 :ticketview:javaPreCompileRelease
-:ticketview:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src/TicketView-master/ticketview/src/main/java/com/vipulasri/ticketview/TicketView.java uses or overrides a deprecated API.
+:ticketview:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/src/TicketView-master/ticketview/src/main/java/com/vipulasri/ticketview/TicketView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :ticketview:processReleaseJavaRes NO-SOURCE
@@ -265,9 +274,9 @@ Note: Recompile with -Xlint:deprecation for details.
 :sample:kaptGenerateStubsReleaseKotlin
 :sample:kaptReleaseKotlin
 :sample:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src/TicketView-master/sample/src/main/java/com/vipulasri/ticketview/sample/MainActivity.kt: (94, 61): Parameter 'group' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src/TicketView-master/sample/src/main/java/com/vipulasri/ticketview/sample/MainActivity.kt: (133, 59): Parameter 'compoundButton' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src/TicketView-master/sample/src/main/java/com/vipulasri/ticketview/sample/MainActivity.kt: (148, 60): Parameter 'compoundButton' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/src/TicketView-master/sample/src/main/java/com/vipulasri/ticketview/sample/MainActivity.kt: (94, 61): Parameter 'group' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/src/TicketView-master/sample/src/main/java/com/vipulasri/ticketview/sample/MainActivity.kt: (133, 59): Parameter 'compoundButton' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/src/TicketView-master/sample/src/main/java/com/vipulasri/ticketview/sample/MainActivity.kt: (148, 60): Parameter 'compoundButton' is never used, could be renamed to _
 :sample:generateReleaseSources
 :sample:javaPreCompileRelease
 :sample:compileReleaseJavaWithJavac
@@ -300,11 +309,11 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src/
 :sample:assembleRelease
 :sample:assemble
 :sample:lint
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/77562d46e94a11bf22d68d0e290a61e3/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-Ran lint on variant release: 30 issues found
-Ran lint on variant debug: 30 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src/TicketView-master/sample/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src/TicketView-master/sample/build/reports/lint-results.xml
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/63d056c1ad3f921dc4d55ea3b47e9a52/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Ran lint on variant release: 31 issues found
+Ran lint on variant debug: 31 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/src/TicketView-master/sample/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/src/TicketView-master/sample/build/reports/lint-results.xml
 :sample:kaptGenerateStubsDebugUnitTestKotlin
 :sample:kaptDebugUnitTestKotlin
 :sample:compileDebugUnitTestKotlin
@@ -327,7 +336,7 @@ Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgby
 :sample:check
 :sample:build
 
-BUILD SUCCESSFUL in 1m 0s
+BUILD SUCCESSFUL in 1m 17s
 108 actionable tasks: 108 executed
 
-2019-11-07 13:40:45,490 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108766311-0/src/TicketView-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2020-03-30 00:18:52,865 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502231285-0/src/TicketView-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
