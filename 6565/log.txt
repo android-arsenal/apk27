@@ -1,35 +1,39 @@
-2019-12-29 18:19:13,049 INFO  DownloadService - Downloading "https://github.com/Trading212/DiverseRecyclerAdapter/archive/master.zip", attempt 3
-2019-12-29 18:19:15,394 INFO  DownloadService - Downloaded https://github.com/Trading212/DiverseRecyclerAdapter/archive/master.zip, attempt 3
-2019-12-29 18:19:15,394 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618353044-0/master.zip": 383 KB
-2019-12-29 18:19:15,394 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-12-29 18:19:15,395 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618353044-0/master.zip: true
-2019-12-29 18:19:15,395 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618353044-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618353044-0/src'.
-2019-12-29 18:19:15,421 INFO  FullProcessService - Size of directory with sources: 442 KB
-2019-12-29 18:19:15,422 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618353044-0/src]
-2019-12-29 18:19:15,449 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618353044-0/src/.git/
+2020-03-29 20:29:18,718 INFO  DownloadService - Downloading "https://github.com/Trading212/DiverseRecyclerAdapter/archive/master.zip", attempt 3
+2020-03-29 20:29:26,336 INFO  VirusProcessorServiceImpl - Queued project 6571 to scan viruses
+2020-03-29 20:30:19,421 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2020-03-29 20:30:20,339 INFO  GithubDownloadService - Default branch of this repository: master
+2020-03-29 20:30:20,339 INFO  DownloadService - Downloading "https://github.com/Trading212/DiverseRecyclerAdapter/archive/master.zip", attempt 3
+2020-03-29 20:31:22,261 DEBUG FullProcessService - Repository https://github.com/Trading212/DiverseRecyclerAdapter available: true
+2020-03-29 20:31:22,261 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2020-03-29 20:31:22,261 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Trading212/DiverseRecyclerAdapter, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585488558715-0/src]
+2020-03-29 20:31:27,970 INFO  SysUtils - 
+2020-03-29 20:31:27,977 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585488558715-0/src/.git": true
+2020-03-29 20:31:27,980 INFO  FullProcessService - Size of directory with sources: 442 KB
+2020-03-29 20:31:27,980 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585488558715-0/src]
+2020-03-29 20:31:27,998 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585488558715-0/src/.git/
 
-2019-12-29 18:19:15,452 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618353044-0/src/DiverseRecyclerAdapter-master/gradlew
-2019-12-29 18:19:15,454 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618353044-0/src/DiverseRecyclerAdapter-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618353044-0/src/DiverseRecyclerAdapter-master/diverse-recycler-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618353044-0/src/DiverseRecyclerAdapter-master/build.gradle
-2019-12-29 18:19:15,457 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618353044-0/src/DiverseRecyclerAdapter-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618353044-0/src/DiverseRecyclerAdapter-master/gradle/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618353044-0/src/DiverseRecyclerAdapter-master/gradle/versionConfig.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618353044-0/src/DiverseRecyclerAdapter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618353044-0/src/DiverseRecyclerAdapter-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618353044-0/src/DiverseRecyclerAdapter-master/diverse-recycler-adapter/build.gradle
-2019-12-29 18:19:15,458 INFO  ProjectBuildService - Remote scripts: none
-2019-12-29 18:19:15,458 INFO  ProjectFixService - Fixing project...
-2019-12-29 18:19:15,465 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618353044-0/src/DiverseRecyclerAdapter-master/demo/local.properties
-2019-12-29 18:19:15,468 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618353044-0/src/DiverseRecyclerAdapter-master/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-12-29 18:19:15,468 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618353044-0/src/DiverseRecyclerAdapter-master/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-12-29 18:19:15,469 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618353044-0/src/DiverseRecyclerAdapter-master/diverse-recycler-adapter/local.properties
-2019-12-29 18:19:15,471 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618353044-0/src/DiverseRecyclerAdapter-master/diverse-recycler-adapter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-12-29 18:19:15,471 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618353044-0/src/DiverseRecyclerAdapter-master/diverse-recycler-adapter/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-12-29 18:19:15,472 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618353044-0/src/DiverseRecyclerAdapter-master/local.properties
-2019-12-29 18:19:15,472 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.5.1-bin.zip
-2019-12-29 18:19:15,476 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618353044-0/src/DiverseRecyclerAdapter-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-12-29 18:19:15,476 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618353044-0/src/DiverseRecyclerAdapter-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-12-29 18:19:15,477 INFO  ProjectFixService - Project was maybe fixed
-2019-12-29 18:19:15,477 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-29 18:19:15,477 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618353044-0/src/DiverseRecyclerAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618353044-0/src/DiverseRecyclerAdapter-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-29 18:19:24,843 INFO  ProjectTaskService - Detected possible tasks: 67
-2019-12-29 18:19:24,843 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-12-29 18:19:24,843 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618353044-0/src/DiverseRecyclerAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618353044-0/src/DiverseRecyclerAdapter-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-12-29 18:20:28,335 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.5.1/userguide/gradle_daemon.html.
+2020-03-29 20:31:28,001 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585488558715-0/src/gradlew
+2020-03-29 20:31:28,004 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585488558715-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585488558715-0/src/diverse-recycler-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585488558715-0/src/build.gradle
+2020-03-29 20:31:28,007 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585488558715-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585488558715-0/src/gradle/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585488558715-0/src/gradle/versionConfig.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585488558715-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585488558715-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585488558715-0/src/diverse-recycler-adapter/build.gradle
+2020-03-29 20:31:28,008 INFO  ProjectBuildService - Remote scripts: none
+2020-03-29 20:31:28,008 INFO  ProjectFixService - Fixing project...
+2020-03-29 20:31:28,015 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585488558715-0/src/demo/local.properties
+2020-03-29 20:31:28,017 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585488558715-0/src/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-29 20:31:28,017 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585488558715-0/src/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-29 20:31:28,018 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585488558715-0/src/diverse-recycler-adapter/local.properties
+2020-03-29 20:31:28,020 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585488558715-0/src/diverse-recycler-adapter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-29 20:31:28,020 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585488558715-0/src/diverse-recycler-adapter/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-29 20:31:28,021 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585488558715-0/src/local.properties
+2020-03-29 20:31:28,021 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.5.1-bin.zip
+2020-03-29 20:31:28,023 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585488558715-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-29 20:31:28,023 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585488558715-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-29 20:31:28,024 INFO  ProjectFixService - Project was maybe fixed
+2020-03-29 20:31:28,024 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-29 20:31:28,024 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585488558715-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585488558715-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-29 20:31:37,220 INFO  ProjectTaskService - Detected possible tasks: 67
+2020-03-29 20:31:37,220 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-29 20:31:37,220 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585488558715-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585488558715-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-29 20:32:35,087 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.5.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
@@ -86,7 +90,7 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :diverse-recycler-adapter:bundleLibCompileDebug
 
 > Task :demo:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618353044-0/src/DiverseRecyclerAdapter-master/demo/src/main/java/com/trading212/demo/samples/ReplaceItemsActivity.kt: (30, 22): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585488558715-0/src/demo/src/main/java/com/trading212/demo/samples/ReplaceItemsActivity.kt: (30, 22): Parameter 'view' is never used
 
 > Task :diverse-recycler-adapter:bundleLibRuntimeDebug
 > Task :diverse-recycler-adapter:createFullJarDebug
@@ -117,13 +121,13 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618353044-0/src/
 > Task :diverse-recycler-adapter:packageReleaseResources
 > Task :demo:createReleaseCompatibleScreenManifests
 > Task :diverse-recycler-adapter:checkReleaseManifest
-> Task :diverse-recycler-adapter:processReleaseManifest
-> Task :demo:processReleaseManifest
 > Task :diverse-recycler-adapter:mergeDebugNativeLibs
 > Task :diverse-recycler-adapter:stripDebugDebugSymbols
 > Task :diverse-recycler-adapter:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :diverse-recycler-adapter:generateReleaseBuildConfig
 > Task :diverse-recycler-adapter:parseReleaseLibraryResources
+> Task :diverse-recycler-adapter:generateReleaseBuildConfig
+> Task :diverse-recycler-adapter:processReleaseManifest
+> Task :demo:processReleaseManifest
 > Task :demo:mergeReleaseResources
 > Task :diverse-recycler-adapter:generateReleaseRFile
 > Task :demo:processReleaseResources
@@ -133,17 +137,14 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618353044-0/src/
 > Task :diverse-recycler-adapter:javaPreCompileRelease
 > Task :diverse-recycler-adapter:compileReleaseJavaWithJavac
 > Task :demo:prepareLintJar
-> Task :diverse-recycler-adapter:processReleaseJavaRes NO-SOURCE
-> Task :diverse-recycler-adapter:prepareLintJarForPublish
-> Task :demo:checkReleaseDuplicateClasses
 > Task :diverse-recycler-adapter:bundleLibCompileRelease
 
 > Task :demo:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618353044-0/src/DiverseRecyclerAdapter-master/demo/src/main/java/com/trading212/demo/samples/ReplaceItemsActivity.kt: (30, 22): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585488558715-0/src/demo/src/main/java/com/trading212/demo/samples/ReplaceItemsActivity.kt: (30, 22): Parameter 'view' is never used
 
-> Task :diverse-recycler-adapter:bundleLibRuntimeRelease
-> Task :diverse-recycler-adapter:bundleLibResRelease
-> Task :diverse-recycler-adapter:createFullJarRelease
+> Task :diverse-recycler-adapter:processReleaseJavaRes NO-SOURCE
+> Task :diverse-recycler-adapter:prepareLintJarForPublish
+> Task :demo:checkReleaseDuplicateClasses
 > Task :demo:javaPreCompileRelease
 > Task :demo:compileReleaseJavaWithJavac
 > Task :demo:compileReleaseSources
@@ -152,6 +153,9 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618353044-0/src/
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/09c60c189b5bea043a091b3df6e92292/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
 > Task :demo:mergeExtDexDebug
+> Task :diverse-recycler-adapter:bundleLibResRelease
+> Task :diverse-recycler-adapter:bundleLibRuntimeRelease
+> Task :diverse-recycler-adapter:createFullJarRelease
 > Task :demo:transformClassesWithDexBuilderForRelease
 > Task :demo:mergeReleaseShaders
 > Task :demo:compileReleaseShaders
@@ -168,11 +172,11 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :diverse-recycler-adapter:mergeReleaseNativeLibs
 > Task :diverse-recycler-adapter:stripReleaseDebugSymbols
 > Task :diverse-recycler-adapter:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :demo:mergeReleaseNativeLibs
-> Task :demo:stripReleaseDebugSymbols
 > Task :demo:mergeDexDebug
 > Task :demo:packageDebug
 > Task :demo:assembleDebug
+> Task :demo:mergeReleaseNativeLibs
+> Task :demo:stripReleaseDebugSymbols
 > Task :demo:mergeReleaseJavaResource
 > Task :demo:mergeExtDexRelease
 > Task :demo:mergeDexRelease
@@ -185,7 +189,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.5.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 2s
+BUILD SUCCESSFUL in 57s
 94 actionable tasks: 94 executed
 
-2019-12-29 18:20:28,411 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577618353044-0/src/DiverseRecyclerAdapter-master/demo/build/outputs/apk/release/demo-release-unsigned.apk
+2020-03-29 20:32:35,183 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585488558715-0/src/demo/build/outputs/apk/release/demo-release-unsigned.apk

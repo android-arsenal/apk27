@@ -1,33 +1,52 @@
-2019-12-29 18:09:17,589 INFO  DownloadService - Downloading "https://github.com/james602152002/FloatingLabelSpinner/archive/master.zip", attempt 3
-2019-12-29 18:09:22,890 INFO  DownloadService - Downloaded https://github.com/james602152002/FloatingLabelSpinner/archive/master.zip, attempt 3
-2019-12-29 18:09:22,890 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577617757571-0/master.zip": 6 MB
-2019-12-29 18:09:22,890 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-12-29 18:09:22,891 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577617757571-0/master.zip: true
-2019-12-29 18:09:22,891 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577617757571-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577617757571-0/src'.
-2019-12-29 18:09:22,952 INFO  FullProcessService - Size of directory with sources: 6 MB
-2019-12-29 18:09:22,953 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577617757571-0/src]
-2019-12-29 18:09:22,977 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577617757571-0/src/.git/
+2020-03-29 20:07:52,772 INFO  DownloadService - Downloading "https://github.com/james602152002/FloatingLabelSpinner/archive/master.zip", attempt 3
+2020-03-29 20:08:12,682 INFO  VirusProcessorServiceImpl - Queued project 6645 to scan viruses
+2020-03-29 20:08:53,438 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2020-03-29 20:08:54,322 INFO  GithubDownloadService - Default branch of this repository: master
+2020-03-29 20:08:54,322 INFO  DownloadService - Downloading "https://github.com/james602152002/FloatingLabelSpinner/archive/master.zip", attempt 3
+2020-03-29 20:09:56,116 DEBUG FullProcessService - Repository https://github.com/james602152002/FloatingLabelSpinner available: true
+2020-03-29 20:09:56,116 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2020-03-29 20:09:56,116 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/james602152002/FloatingLabelSpinner, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487272768-0/src]
+2020-03-29 20:10:10,944 INFO  SysUtils - 
+2020-03-29 20:10:10,977 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487272768-0/src/.git": true
+2020-03-29 20:10:10,980 INFO  FullProcessService - Size of directory with sources: 6 MB
+2020-03-29 20:10:10,980 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487272768-0/src]
+2020-03-29 20:10:10,998 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487272768-0/src/.git/
 
-2019-12-29 18:09:22,980 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577617757571-0/src/FloatingLabelSpinner-master/gradlew
-2019-12-29 18:09:22,983 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577617757571-0/src/FloatingLabelSpinner-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577617757571-0/src/FloatingLabelSpinner-master/build.gradle
-2019-12-29 18:09:22,985 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577617757571-0/src/FloatingLabelSpinner-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577617757571-0/src/FloatingLabelSpinner-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577617757571-0/src/FloatingLabelSpinner-master/settings.gradle
-2019-12-29 18:09:22,985 INFO  ProjectBuildService - Remote scripts: none
-2019-12-29 18:09:22,985 INFO  ProjectFixService - Fixing project...
-2019-12-29 18:09:22,991 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577617757571-0/src/FloatingLabelSpinner-master/library/local.properties
-2019-12-29 18:09:22,992 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577617757571-0/src/FloatingLabelSpinner-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2019-12-29 18:09:22,992 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577617757571-0/src/FloatingLabelSpinner-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2019-12-29 18:09:22,993 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577617757571-0/src/FloatingLabelSpinner-master/local.properties
-2019-12-29 18:09:22,993 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-12-29 18:09:22,993 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-12-29 18:09:22,994 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577617757571-0/src/FloatingLabelSpinner-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2019-12-29 18:09:22,994 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577617757571-0/src/FloatingLabelSpinner-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2019-12-29 18:09:22,995 INFO  ProjectFixService - Project was maybe fixed
-2019-12-29 18:09:22,995 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-29 18:09:22,995 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577617757571-0/src/FloatingLabelSpinner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577617757571-0/src/FloatingLabelSpinner-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-29 18:09:32,890 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-12-29 18:09:32,891 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-12-29 18:09:32,891 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577617757571-0/src/FloatingLabelSpinner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577617757571-0/src/FloatingLabelSpinner-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-12-29 18:09:45,970 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-29 20:10:11,000 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487272768-0/src/gradlew
+2020-03-29 20:10:11,003 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487272768-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487272768-0/src/build.gradle
+2020-03-29 20:10:11,006 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487272768-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487272768-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487272768-0/src/settings.gradle
+2020-03-29 20:10:11,006 INFO  ProjectBuildService - Remote scripts: none
+2020-03-29 20:10:11,006 INFO  ProjectFixService - Fixing project...
+2020-03-29 20:10:11,016 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487272768-0/src/library/local.properties
+2020-03-29 20:10:11,017 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487272768-0/src/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-03-29 20:10:11,017 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487272768-0/src/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-03-29 20:10:11,018 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487272768-0/src/local.properties
+2020-03-29 20:10:11,018 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2020-03-29 20:10:11,018 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2020-03-29 20:10:11,019 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487272768-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-03-29 20:10:11,019 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487272768-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-03-29 20:10:11,020 INFO  ProjectFixService - Project was maybe fixed
+2020-03-29 20:10:11,020 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-29 20:10:11,020 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487272768-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487272768-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-29 20:10:17,268 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-03-29 20:10:17,269 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-03-29 20:10:17,269 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487272768-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487272768-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-03-29 20:10:32,167 INFO  SysUtils - Configuration on demand is an incubating feature.
+Download https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.1.0/appcompat-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/core/core/1.1.0/core-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/fragment/fragment/1.1.0/fragment-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/1.1.0/annotation-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat-resources/1.1.0/appcompat-resources-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/versionedparcelable/versionedparcelable/1.1.0/versionedparcelable-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/activity/activity/1.0.0/activity-1.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/vectordrawable/vectordrawable/1.1.0/vectordrawable-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/vectordrawable/vectordrawable-animated/1.1.0/vectordrawable-animated-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/savedstate/savedstate/1.0.0/savedstate-1.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/collection/collection/1.1.0/collection-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-runtime/2.1.0/lifecycle-runtime-2.1.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel/2.1.0/lifecycle-viewmodel-2.1.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/arch/core/core-common/2.1.0/core-common-2.1.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-common/2.1.0/lifecycle-common-2.1.0.pom
 :library:preBuild UP-TO-DATE
 :library:preDebugBuild UP-TO-DATE
 :library:compileDebugAidl NO-SOURCE
@@ -98,7 +117,7 @@
 :library:assemble
 :library:build
 
-BUILD SUCCESSFUL in 12s
+BUILD SUCCESSFUL in 14s
 46 actionable tasks: 46 executed
 
-2019-12-29 18:09:46,017 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577617757571-0/src/FloatingLabelSpinner-master/art/demo.apk
+2020-03-29 20:10:32,224 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487272768-0/src/art/demo.apk

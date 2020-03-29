@@ -1,41 +1,44 @@
-2020-01-04 22:42:55,942 INFO  DownloadService - Downloading "https://github.com/ShabanKamell/android-form-validator/archive/master.zip", attempt 3
-2020-01-04 22:43:09,795 INFO  VirusProcessorServiceImpl - Queued project 6645 to scan viruses
-2020-01-04 22:44:29,207 INFO  DownloadService - Downloaded https://github.com/ShabanKamell/android-form-validator/archive/master.zip, attempt 3
-2020-01-04 22:44:29,207 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/master.zip": 1 MB
-2020-01-04 22:44:29,207 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-04 22:44:29,209 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/master.zip: true
-2020-01-04 22:44:29,209 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src'.
-2020-01-04 22:44:29,402 INFO  FullProcessService - Size of directory with sources: 4 MB
-2020-01-04 22:44:29,402 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src]
-2020-01-04 22:44:29,431 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/.git/
+2020-03-29 20:41:24,611 INFO  DownloadService - Downloading "https://github.com/ShabanKamell/android-form-validator/archive/master.zip", attempt 3
+2020-03-29 20:41:39,825 INFO  VirusProcessorServiceImpl - Queued project 6559 to scan viruses
+2020-03-29 20:42:25,583 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2020-03-29 20:42:27,027 INFO  GithubDownloadService - Default branch of this repository: master
+2020-03-29 20:42:27,028 INFO  DownloadService - Downloading "https://github.com/ShabanKamell/android-form-validator/archive/master.zip", attempt 3
+2020-03-29 20:43:29,101 DEBUG FullProcessService - Repository https://github.com/ShabanKamell/android-form-validator available: true
+2020-03-29 20:43:29,101 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2020-03-29 20:43:29,101 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/ShabanKamell/android-form-validator, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src]
+2020-03-29 20:43:33,033 INFO  SysUtils - 
+2020-03-29 20:43:33,052 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/.git": true
+2020-03-29 20:43:33,076 INFO  FullProcessService - Size of directory with sources: 4 MB
+2020-03-29 20:43:33,076 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src]
+2020-03-29 20:43:33,095 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/.git/
 
-2020-01-04 22:44:29,453 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/gradlew
-2020-01-04 22:44:29,474 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/rxjava/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/sample/build.gradle
-2020-01-04 22:44:29,494 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/rxjava/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/common-android-library.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/common.gradle
-2020-01-04 22:44:29,495 INFO  ProjectBuildService - Remote scripts: none
-2020-01-04 22:44:29,495 INFO  ProjectFixService - Fixing project...
-2020-01-04 22:44:29,510 INFO  ManifestFixService - Found manifest(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/buildSrc/build/tmp/jar/MANIFEST.MF
-2020-01-04 22:44:29,528 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/local.properties
-2020-01-04 22:44:29,529 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
-2020-01-04 22:44:29,530 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
-2020-01-04 22:44:29,533 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-01-04 22:44:29,533 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-01-04 22:44:29,534 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/core/local.properties
-2020-01-04 22:44:29,536 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-01-04 22:44:29,536 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-01-04 22:44:29,537 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/rxjava/local.properties
-2020-01-04 22:44:29,539 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/rxjava/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-01-04 22:44:29,539 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/rxjava/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-01-04 22:44:29,540 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/sample/local.properties
-2020-01-04 22:44:29,542 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-01-04 22:44:29,542 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-01-04 22:44:29,543 INFO  ProjectFixService - Project was maybe fixed
-2020-01-04 22:44:29,543 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-04 22:44:29,543 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-04 22:44:46,955 INFO  ProjectTaskService - Detected possible tasks: 70
-2020-01-04 22:44:46,956 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-01-04 22:44:46,956 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-01-04 22:46:15,082 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
+2020-03-29 20:43:33,113 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/gradlew
+2020-03-29 20:43:33,131 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/rxjava/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/sample/build.gradle
+2020-03-29 20:43:33,148 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/rxjava/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/common-android-library.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/common.gradle
+2020-03-29 20:43:33,148 INFO  ProjectBuildService - Remote scripts: none
+2020-03-29 20:43:33,148 INFO  ProjectFixService - Fixing project...
+2020-03-29 20:43:33,166 INFO  ManifestFixService - Found manifest(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/buildSrc/build/tmp/jar/MANIFEST.MF
+2020-03-29 20:43:33,187 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/local.properties
+2020-03-29 20:43:33,187 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-03-29 20:43:33,187 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-03-29 20:43:33,190 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-29 20:43:33,190 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-29 20:43:33,191 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/core/local.properties
+2020-03-29 20:43:33,193 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-29 20:43:33,193 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-29 20:43:33,194 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/rxjava/local.properties
+2020-03-29 20:43:33,196 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/rxjava/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-29 20:43:33,196 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/rxjava/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-29 20:43:33,197 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/sample/local.properties
+2020-03-29 20:43:33,199 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-29 20:43:33,199 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-29 20:43:33,200 INFO  ProjectFixService - Project was maybe fixed
+2020-03-29 20:43:33,200 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-29 20:43:33,200 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-29 20:43:48,132 INFO  ProjectTaskService - Detected possible tasks: 70
+2020-03-29 20:43:48,132 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-29 20:43:48,132 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-29 20:45:01,771 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
 > Task :buildSrc:compileJava NO-SOURCE
 > Task :buildSrc:compileGroovy NO-SOURCE
 > Task :buildSrc:pluginDescriptors UP-TO-DATE
@@ -59,14 +62,14 @@ Configuration on demand is an incubating feature.
 > Task :core:preDebugBuild UP-TO-DATE
 > Task :core:compileDebugAidl NO-SOURCE
 > Task :core:mergeDebugJniLibFolders
+> Task :core:mergeDebugNativeLibs
+> Task :core:stripDebugDebugSymbols
+> Task :core:copyDebugJniLibsProjectAndLocalJars
 > Task :core:generateDebugBuildConfig
 > Task :core:compileDebugRenderscript NO-SOURCE
 > Task :core:generateDebugResValues
 > Task :core:generateDebugResources
 > Task :core:packageDebugResources
-> Task :core:mergeDebugNativeLibs
-> Task :core:stripDebugDebugSymbols
-> Task :core:copyDebugJniLibsProjectAndLocalJars
 > Task :core:mergeDebugShaders
 > Task :core:compileDebugShaders
 > Task :core:generateDebugAssets
@@ -84,10 +87,6 @@ Configuration on demand is an incubating feature.
 > Task :core:generateReleaseResValues
 > Task :core:generateReleaseResources
 > Task :core:packageReleaseResources
-> Task :core:mergeReleaseNativeLibs
-> Task :core:stripReleaseDebugSymbols
-> Task :core:copyReleaseJniLibsProjectAndLocalJars
-> Task :core:parseReleaseLocalResources
 > Task :core:mergeReleaseShaders
 > Task :core:compileReleaseShaders
 > Task :core:generateReleaseAssets
@@ -95,8 +94,12 @@ Configuration on demand is an incubating feature.
 > Task :core:packageReleaseRenderscript NO-SOURCE
 > Task :core:processReleaseJavaRes NO-SOURCE
 > Task :core:mergeReleaseResources
+> Task :core:parseReleaseLocalResources
 > Task :core:processReleaseManifest
 > Task :core:processDebugManifest
+> Task :core:mergeReleaseNativeLibs
+> Task :core:stripReleaseDebugSymbols
+> Task :core:copyReleaseJniLibsProjectAndLocalJars
 > Task :rxjava:preBuild UP-TO-DATE
 > Task :rxjava:preDebugBuild UP-TO-DATE
 > Task :rxjava:compileDebugAidl NO-SOURCE
@@ -104,78 +107,61 @@ Configuration on demand is an incubating feature.
 > Task :rxjava:mergeDebugNativeLibs
 > Task :rxjava:stripDebugDebugSymbols
 > Task :rxjava:copyDebugJniLibsProjectAndLocalJars
-> Task :rxjava:compileDebugRenderscript NO-SOURCE
-> Task :rxjava:generateDebugBuildConfig
-> Task :rxjava:generateDebugResValues
-> Task :rxjava:generateDebugResources
-> Task :rxjava:packageDebugResources
 > Task :core:generateReleaseRFile
 > Task :core:kaptGenerateStubsReleaseKotlin
 > Task :core:kaptReleaseKotlin
 > Task :core:compileReleaseKotlin
-> Task :core:verifyReleaseResources
-> Task :rxjava:mergeDebugShaders
-> Task :rxjava:compileDebugShaders
-> Task :rxjava:generateDebugAssets
-> Task :rxjava:packageDebugAssets
-> Task :rxjava:packageDebugRenderscript NO-SOURCE
-> Task :core:javaPreCompileRelease
-> Task :core:compileReleaseJavaWithJavac
-> Task :core:extractReleaseAnnotations
-> Task :core:mergeReleaseGeneratedProguardFiles
-> Task :core:mergeReleaseConsumerProguardFiles
-> Task :core:compileReleaseSources
-> Task :rxjava:processDebugManifest
-> Task :rxjava:processDebugJavaRes NO-SOURCE
-> Task :rxjava:parseDebugLocalResources
-> Task :rxjava:prepareLintJarForPublish
-> Task :core:mergeReleaseJavaResource
-> Task :core:syncReleaseLibJars
-> Task :core:bundleReleaseAar
-> Task :core:assembleRelease
 > Task :core:generateDebugRFile
 > Task :core:kaptGenerateStubsDebugKotlin
 > Task :core:kaptDebugKotlin
 > Task :core:compileDebugKotlin
+> Task :core:verifyReleaseResources
 > Task :core:javaPreCompileDebug
 > Task :core:compileDebugJavaWithJavac
 > Task :core:extractDebugAnnotations
 > Task :core:mergeDebugGeneratedProguardFiles
 > Task :core:mergeDebugConsumerProguardFiles
 > Task :core:compileDebugSources
+> Task :core:mergeReleaseJavaResource
+> Task :core:javaPreCompileRelease
+> Task :core:compileReleaseJavaWithJavac
+> Task :core:extractReleaseAnnotations
+> Task :core:mergeReleaseGeneratedProguardFiles
+> Task :core:mergeReleaseConsumerProguardFiles
+> Task :core:syncReleaseLibJars
+> Task :core:bundleReleaseAar
+> Task :core:compileReleaseSources
+> Task :core:assembleRelease
+> Task :rxjava:compileDebugRenderscript NO-SOURCE
+> Task :rxjava:generateDebugBuildConfig
+> Task :rxjava:generateDebugResValues
+> Task :rxjava:generateDebugResources
+> Task :rxjava:packageDebugResources
 > Task :core:mergeDebugJavaResource
 > Task :core:syncDebugLibJars
 > Task :core:bundleDebugAar
 > Task :core:assembleDebug
 > Task :core:assemble
 > Task :core:build
+> Task :rxjava:mergeDebugShaders
+> Task :rxjava:compileDebugShaders
+> Task :rxjava:generateDebugAssets
+> Task :rxjava:packageDebugAssets
+> Task :rxjava:packageDebugRenderscript NO-SOURCE
+> Task :rxjava:parseDebugLocalResources
+> Task :rxjava:processDebugJavaRes NO-SOURCE
 > Task :core:bundleLibCompileDebug
-> Task :rxjava:generateDebugRFile
-> Task :rxjava:kaptGenerateStubsDebugKotlin
-> Task :rxjava:kaptDebugKotlin
-> Task :rxjava:compileDebugKotlin
-> Task :rxjava:javaPreCompileDebug
-> Task :rxjava:compileDebugJavaWithJavac
-> Task :rxjava:extractDebugAnnotations
-> Task :rxjava:mergeDebugGeneratedProguardFiles
-> Task :rxjava:mergeDebugConsumerProguardFiles
-> Task :rxjava:mergeDebugJavaResource
-> Task :rxjava:syncDebugLibJars
-> Task :rxjava:bundleDebugAar
+> Task :rxjava:processDebugManifest
+> Task :rxjava:prepareLintJarForPublish
 > Task :rxjava:preReleaseBuild UP-TO-DATE
 > Task :rxjava:compileReleaseAidl NO-SOURCE
-> Task :rxjava:mergeReleaseJniLibFolders
 > Task :rxjava:mergeDebugResources
-> Task :rxjava:compileDebugSources
-> Task :rxjava:assembleDebug
+> Task :rxjava:mergeReleaseJniLibFolders
 > Task :rxjava:compileReleaseRenderscript NO-SOURCE
 > Task :rxjava:generateReleaseBuildConfig
 > Task :rxjava:generateReleaseResValues
 > Task :rxjava:generateReleaseResources
 > Task :rxjava:packageReleaseResources
-> Task :rxjava:mergeReleaseNativeLibs
-> Task :rxjava:stripReleaseDebugSymbols
-> Task :rxjava:copyReleaseJniLibsProjectAndLocalJars
 > Task :rxjava:mergeReleaseShaders
 > Task :rxjava:compileReleaseShaders
 > Task :rxjava:generateReleaseAssets
@@ -184,15 +170,25 @@ Configuration on demand is an incubating feature.
 > Task :rxjava:processReleaseJavaRes NO-SOURCE
 > Task :rxjava:mergeReleaseResources
 > Task :rxjava:processReleaseManifest
+> Task :rxjava:mergeReleaseNativeLibs
+> Task :rxjava:stripReleaseDebugSymbols
+> Task :rxjava:copyReleaseJniLibsProjectAndLocalJars
 > Task :core:bundleLibCompileRelease
+> Task :rxjava:generateDebugRFile
+> Task :rxjava:kaptGenerateStubsDebugKotlin
+> Task :rxjava:kaptDebugKotlin
+> Task :rxjava:compileDebugKotlin
 > Task :rxjava:parseReleaseLocalResources
-> Task :core:compileReleaseLibraryResources
-> Task :rxjava:bundleLibCompileDebug
-> Task :sample:preBuild UP-TO-DATE
-> Task :sample:preDebugBuild UP-TO-DATE
-> Task :sample:generateDebugBuildConfig
-> Task :sample:compileDebugAidl NO-SOURCE
-> Task :sample:compileDebugRenderscript NO-SOURCE
+> Task :rxjava:javaPreCompileDebug
+> Task :rxjava:compileDebugJavaWithJavac
+> Task :rxjava:extractDebugAnnotations
+> Task :rxjava:mergeDebugGeneratedProguardFiles
+> Task :rxjava:mergeDebugConsumerProguardFiles
+> Task :rxjava:compileDebugSources
+> Task :rxjava:mergeDebugJavaResource
+> Task :rxjava:syncDebugLibJars
+> Task :rxjava:bundleDebugAar
+> Task :rxjava:assembleDebug
 > Task :rxjava:generateReleaseRFile
 > Task :rxjava:kaptGenerateStubsReleaseKotlin
 > Task :rxjava:kaptReleaseKotlin
@@ -206,32 +202,39 @@ Configuration on demand is an incubating feature.
 > Task :rxjava:mergeReleaseJavaResource
 > Task :rxjava:syncReleaseLibJars
 > Task :rxjava:bundleReleaseAar
+> Task :core:compileReleaseLibraryResources
+> Task :rxjava:bundleLibCompileDebug
+> Task :sample:preBuild UP-TO-DATE
+> Task :sample:preDebugBuild UP-TO-DATE
+> Task :sample:generateDebugBuildConfig
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:mainApkListPersistenceDebug
-> Task :rxjava:compileDebugLibraryResources
-> Task :core:compileDebugLibraryResources
 > Task :sample:generateDebugResValues
 > Task :sample:generateDebugResources
-> Task :rxjava:verifyReleaseResources
-> Task :rxjava:assembleRelease
-> Task :rxjava:assemble
-> Task :rxjava:build
-> Task :sample:mergeDebugResources
+> Task :core:compileDebugLibraryResources
+> Task :rxjava:compileDebugLibraryResources
 > Task :core:extractDeepLinksDebug
 > Task :rxjava:extractDeepLinksDebug
 > Task :sample:createDebugCompatibleScreenManifests
 > Task :sample:extractDeepLinksDebug
 > Task :sample:processDebugManifest
+> Task :sample:mergeDebugResources
 > Task :sample:processDebugResources
 > Task :sample:kaptGenerateStubsDebugKotlin
 > Task :sample:kaptDebugKotlin
 
 > Task :sample:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/sample/src/main/java/com/sha/formvalidatorsample/presentation/AutoCompleteTextViewActivity.kt: (17, 25): Parameter 'v' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/sample/src/main/java/com/sha/formvalidatorsample/presentation/EmailOrCreditCardActivity.kt: (44, 25): Parameter 'v' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/sample/src/main/java/com/sha/formvalidatorsample/presentation/FieldActivity.kt: (38, 25): Parameter 'v' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/sample/src/main/java/com/sha/formvalidatorsample/presentation/PasswordValidatorActivity.kt: (37, 25): Parameter 'v' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/sample/src/main/java/com/sha/formvalidatorsample/presentation/PrefixAndRangeValidatorActivity.kt: (51, 25): Parameter 'v' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/sample/src/main/java/com/sha/formvalidatorsample/presentation/AutoCompleteTextViewActivity.kt: (17, 25): Parameter 'v' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/sample/src/main/java/com/sha/formvalidatorsample/presentation/EmailOrCreditCardActivity.kt: (44, 25): Parameter 'v' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/sample/src/main/java/com/sha/formvalidatorsample/presentation/FieldActivity.kt: (38, 25): Parameter 'v' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/sample/src/main/java/com/sha/formvalidatorsample/presentation/PasswordValidatorActivity.kt: (37, 25): Parameter 'v' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/sample/src/main/java/com/sha/formvalidatorsample/presentation/PrefixAndRangeValidatorActivity.kt: (51, 25): Parameter 'v' is never used
 
+> Task :rxjava:verifyReleaseResources
+> Task :rxjava:assembleRelease
+> Task :rxjava:assemble
+> Task :rxjava:build
 > Task :sample:javaPreCompileDebug
 > Task :sample:compileDebugJavaWithJavac
 > Task :sample:compileDebugSources
@@ -262,13 +265,13 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/
 > Task :sample:mainApkListPersistenceRelease
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
-> Task :sample:mergeDebugNativeLibs
-> Task :sample:stripDebugDebugSymbols
 > Task :core:extractDeepLinksRelease
 > Task :rxjava:extractDeepLinksRelease
 > Task :sample:createReleaseCompatibleScreenManifests
 > Task :sample:extractDeepLinksRelease
 > Task :sample:processReleaseManifest
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:stripDebugDebugSymbols
 > Task :sample:mergeProjectDexDebug
 > Task :sample:prepareLintJar
 > Task :sample:checkReleaseDuplicateClasses
@@ -280,11 +283,11 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/
 > Task :sample:kaptReleaseKotlin
 
 > Task :sample:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/sample/src/main/java/com/sha/formvalidatorsample/presentation/AutoCompleteTextViewActivity.kt: (17, 25): Parameter 'v' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/sample/src/main/java/com/sha/formvalidatorsample/presentation/EmailOrCreditCardActivity.kt: (44, 25): Parameter 'v' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/sample/src/main/java/com/sha/formvalidatorsample/presentation/FieldActivity.kt: (38, 25): Parameter 'v' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/sample/src/main/java/com/sha/formvalidatorsample/presentation/PasswordValidatorActivity.kt: (37, 25): Parameter 'v' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/sample/src/main/java/com/sha/formvalidatorsample/presentation/PrefixAndRangeValidatorActivity.kt: (51, 25): Parameter 'v' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/sample/src/main/java/com/sha/formvalidatorsample/presentation/AutoCompleteTextViewActivity.kt: (17, 25): Parameter 'v' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/sample/src/main/java/com/sha/formvalidatorsample/presentation/EmailOrCreditCardActivity.kt: (44, 25): Parameter 'v' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/sample/src/main/java/com/sha/formvalidatorsample/presentation/FieldActivity.kt: (38, 25): Parameter 'v' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/sample/src/main/java/com/sha/formvalidatorsample/presentation/PasswordValidatorActivity.kt: (37, 25): Parameter 'v' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/sample/src/main/java/com/sha/formvalidatorsample/presentation/PrefixAndRangeValidatorActivity.kt: (51, 25): Parameter 'v' is never used
 
 > Task :sample:javaPreCompileRelease
 > Task :sample:compileReleaseJavaWithJavac
@@ -315,7 +318,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/
 > Task :sample:assemble
 > Task :sample:build
 
-BUILD SUCCESSFUL in 1m 27s
+BUILD SUCCESSFUL in 1m 12s
 184 actionable tasks: 184 executed
 
-2020-01-04 22:46:15,244 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152575938-0/src/FormValidator-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2020-03-29 20:45:01,978 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585489284607-0/src/sample/build/outputs/apk/release/sample-release-unsigned.apk

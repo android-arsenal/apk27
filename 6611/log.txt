@@ -1,36 +1,40 @@
-2020-01-22 17:47:30,030 INFO  DownloadService - Downloading "https://github.com/daothanhduy305/KRichEditor/archive/master.zip", attempt 3
-2020-01-22 17:47:31,265 INFO  DownloadService - Downloaded https://github.com/daothanhduy305/KRichEditor/archive/master.zip, attempt 3
-2020-01-22 17:47:31,265 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690050028-0/master.zip": 957 KB
-2020-01-22 17:47:31,265 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-22 17:47:31,266 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690050028-0/master.zip: true
-2020-01-22 17:47:31,266 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690050028-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690050028-0/src'.
-2020-01-22 17:47:31,414 INFO  FullProcessService - Size of directory with sources: 2 MB
-2020-01-22 17:47:31,415 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690050028-0/src]
-2020-01-22 17:47:31,463 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690050028-0/src/.git/
+2020-03-29 20:10:32,556 INFO  DownloadService - Downloading "https://github.com/daothanhduy305/KRichEditor/archive/master.zip", attempt 3
+2020-03-29 20:10:40,250 INFO  VirusProcessorServiceImpl - Queued project 6635 to scan viruses
+2020-03-29 20:11:33,172 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2020-03-29 20:11:34,382 INFO  GithubDownloadService - Default branch of this repository: master
+2020-03-29 20:11:34,382 INFO  DownloadService - Downloading "https://github.com/daothanhduy305/KRichEditor/archive/master.zip", attempt 3
+2020-03-29 20:12:36,015 DEBUG FullProcessService - Repository https://github.com/daothanhduy305/KRichEditor available: true
+2020-03-29 20:12:36,015 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2020-03-29 20:12:36,015 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/daothanhduy305/KRichEditor, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487432553-0/src]
+2020-03-29 20:12:38,810 INFO  SysUtils - 
+2020-03-29 20:12:38,819 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487432553-0/src/.git": true
+2020-03-29 20:12:38,826 INFO  FullProcessService - Size of directory with sources: 2 MB
+2020-03-29 20:12:38,826 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487432553-0/src]
+2020-03-29 20:12:38,844 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487432553-0/src/.git/
 
-2020-01-22 17:47:31,476 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690050028-0/src/KRichEditor-master/gradlew
-2020-01-22 17:47:31,484 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690050028-0/src/KRichEditor-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690050028-0/src/KRichEditor-master/krichtexteditor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690050028-0/src/KRichEditor-master/build.gradle
-2020-01-22 17:47:31,496 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690050028-0/src/KRichEditor-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690050028-0/src/KRichEditor-master/krichtexteditor/deploy.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690050028-0/src/KRichEditor-master/krichtexteditor/keystore.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690050028-0/src/KRichEditor-master/krichtexteditor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690050028-0/src/KRichEditor-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690050028-0/src/KRichEditor-master/settings.gradle
-2020-01-22 17:47:31,497 INFO  ProjectBuildService - Remote scripts: none
-2020-01-22 17:47:31,497 INFO  ProjectFixService - Fixing project...
-2020-01-22 17:47:31,526 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690050028-0/src/KRichEditor-master/app/local.properties
-2020-01-22 17:47:31,529 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690050028-0/src/KRichEditor-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2020-01-22 17:47:31,530 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690050028-0/src/KRichEditor-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2020-01-22 17:47:31,532 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690050028-0/src/KRichEditor-master/krichtexteditor/local.properties
-2020-01-22 17:47:31,534 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690050028-0/src/KRichEditor-master/krichtexteditor/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2020-01-22 17:47:31,535 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690050028-0/src/KRichEditor-master/krichtexteditor/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2020-01-22 17:47:31,536 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690050028-0/src/KRichEditor-master/local.properties
-2020-01-22 17:47:31,537 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-01-22 17:47:31,538 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-01-22 17:47:31,541 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690050028-0/src/KRichEditor-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2020-01-22 17:47:31,541 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690050028-0/src/KRichEditor-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2020-01-22 17:47:31,542 INFO  ProjectFixService - Project was maybe fixed
-2020-01-22 17:47:31,542 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-22 17:47:31,542 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690050028-0/src/KRichEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690050028-0/src/KRichEditor-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-22 17:47:40,016 INFO  ProjectTaskService - Detected possible tasks: 69
-2020-01-22 17:47:40,016 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-01-22 17:47:40,016 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690050028-0/src/KRichEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690050028-0/src/KRichEditor-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-01-22 17:49:13,342 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-29 20:12:38,850 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487432553-0/src/gradlew
+2020-03-29 20:12:38,855 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487432553-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487432553-0/src/krichtexteditor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487432553-0/src/build.gradle
+2020-03-29 20:12:38,860 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487432553-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487432553-0/src/krichtexteditor/deploy.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487432553-0/src/krichtexteditor/keystore.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487432553-0/src/krichtexteditor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487432553-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487432553-0/src/settings.gradle
+2020-03-29 20:12:38,861 INFO  ProjectBuildService - Remote scripts: none
+2020-03-29 20:12:38,861 INFO  ProjectFixService - Fixing project...
+2020-03-29 20:12:38,874 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487432553-0/src/app/local.properties
+2020-03-29 20:12:38,875 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487432553-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2020-03-29 20:12:38,875 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487432553-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2020-03-29 20:12:38,876 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487432553-0/src/krichtexteditor/local.properties
+2020-03-29 20:12:38,877 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487432553-0/src/krichtexteditor/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2020-03-29 20:12:38,877 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487432553-0/src/krichtexteditor/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2020-03-29 20:12:38,878 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487432553-0/src/local.properties
+2020-03-29 20:12:38,878 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-03-29 20:12:38,878 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-03-29 20:12:38,880 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487432553-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2020-03-29 20:12:38,880 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487432553-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2020-03-29 20:12:38,880 INFO  ProjectFixService - Project was maybe fixed
+2020-03-29 20:12:38,880 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-29 20:12:38,880 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487432553-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487432553-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-29 20:12:45,136 INFO  ProjectTaskService - Detected possible tasks: 69
+2020-03-29 20:12:45,136 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-29 20:12:45,136 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487432553-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487432553-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-29 20:14:08,105 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :krichtexteditor:preBuild UP-TO-DATE
@@ -38,8 +42,8 @@
 > Task :krichtexteditor:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :krichtexteditor:packageDebugRenderscript NO-SOURCE
-> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
@@ -53,7 +57,6 @@
 > Task :app:mergeDebugResources
 > Task :krichtexteditor:processDebugManifest
 > Task :app:processDebugManifest
-> Task :krichtexteditor:parseDebugLibraryResources
 > Task :krichtexteditor:generateDebugBuildConfig
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
@@ -63,6 +66,7 @@
 > Task :krichtexteditor:generateDebugAssets
 > Task :krichtexteditor:packageDebugAssets
 > Task :app:mergeDebugAssets
+> Task :krichtexteditor:parseDebugLibraryResources
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :krichtexteditor:processDebugJavaRes NO-SOURCE
 > Task :krichtexteditor:generateDebugRFile
@@ -102,24 +106,24 @@
 > Task :krichtexteditor:packageReleaseResources
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :krichtexteditor:checkReleaseManifest
+> Task :krichtexteditor:processReleaseManifest
+> Task :app:processReleaseManifest
 > Task :krichtexteditor:generateReleaseBuildConfig
-> Task :krichtexteditor:parseReleaseLibraryResources
 > Task :krichtexteditor:mergeDebugNativeLibs
 > Task :krichtexteditor:stripDebugDebugSymbols
 > Task :krichtexteditor:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :krichtexteditor:parseReleaseLibraryResources
 > Task :app:prepareLintJar
 > Task :krichtexteditor:prepareLintJarForPublish
-> Task :krichtexteditor:processReleaseManifest
-> Task :app:processReleaseManifest
 > Task :app:mergeReleaseResources
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
 > Task :krichtexteditor:generateReleaseRFile
 > Task :app:processReleaseResources
 > Task :krichtexteditor:compileReleaseKotlin
-> Task :app:multiDexListDebug
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
 > Task :krichtexteditor:javaPreCompileRelease
 > Task :krichtexteditor:compileReleaseJavaWithJavac
+> Task :app:multiDexListDebug
 > Task :krichtexteditor:bundleLibCompileRelease
 > Task :app:compileReleaseKotlin
 > Task :app:javaPreCompileRelease
@@ -167,7 +171,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 32s
+BUILD SUCCESSFUL in 1m 22s
 94 actionable tasks: 94 executed
 
-2020-01-22 17:49:13,451 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690050028-0/src/KRichEditor-master/app/build/outputs/apk/debug/app-debug.apk
+2020-03-29 20:14:08,243 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585487432553-0/src/app/build/outputs/apk/debug/app-debug.apk

@@ -1,37 +1,52 @@
-2019-12-29 17:03:35,768 INFO  DownloadService - Downloading "https://github.com/james602152002/FloatingLabelEditText/archive/master.zip", attempt 3
-2019-12-29 17:03:43,826 INFO  DownloadService - Downloaded https://github.com/james602152002/FloatingLabelEditText/archive/master.zip, attempt 3
-2019-12-29 17:03:43,827 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613815765-0/master.zip": 10 MB
-2019-12-29 17:03:43,827 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-12-29 17:03:43,828 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613815765-0/master.zip: true
-2019-12-29 17:03:43,828 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613815765-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613815765-0/src'.
-2019-12-29 17:03:43,923 INFO  FullProcessService - Size of directory with sources: 11 MB
-2019-12-29 17:03:43,923 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613815765-0/src]
-2019-12-29 17:03:43,946 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613815765-0/src/.git/
+2020-03-29 19:36:05,935 INFO  DownloadService - Downloading "https://github.com/james602152002/FloatingLabelEditText/archive/master.zip", attempt 3
+2020-03-29 19:36:13,077 INFO  VirusProcessorServiceImpl - Queued project 6735 to scan viruses
+2020-03-29 19:37:06,571 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2020-03-29 19:37:07,485 INFO  GithubDownloadService - Default branch of this repository: master
+2020-03-29 19:37:07,485 INFO  DownloadService - Downloading "https://github.com/james602152002/FloatingLabelEditText/archive/master.zip", attempt 3
+2020-03-29 19:38:08,879 DEBUG FullProcessService - Repository https://github.com/james602152002/FloatingLabelEditText available: true
+2020-03-29 19:38:08,879 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2020-03-29 19:38:08,879 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/james602152002/FloatingLabelEditText, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585485365932-0/src]
+2020-03-29 19:39:16,372 INFO  SysUtils - 
+2020-03-29 19:39:16,402 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585485365932-0/src/.git": true
+2020-03-29 19:39:16,405 INFO  FullProcessService - Size of directory with sources: 11 MB
+2020-03-29 19:39:16,405 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585485365932-0/src]
+2020-03-29 19:39:16,422 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585485365932-0/src/.git/
 
-2019-12-29 17:03:43,948 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613815765-0/src/FloatingLabelEditText-master/gradlew
-2019-12-29 17:03:43,950 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613815765-0/src/FloatingLabelEditText-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613815765-0/src/FloatingLabelEditText-master/build.gradle
-2019-12-29 17:03:43,952 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613815765-0/src/FloatingLabelEditText-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613815765-0/src/FloatingLabelEditText-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613815765-0/src/FloatingLabelEditText-master/settings.gradle
-2019-12-29 17:03:43,952 INFO  ProjectBuildService - Remote scripts: none
-2019-12-29 17:03:43,952 INFO  ProjectFixService - Fixing project...
-2019-12-29 17:03:43,956 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613815765-0/src/FloatingLabelEditText-master/library/local.properties
-2019-12-29 17:03:43,957 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613815765-0/src/FloatingLabelEditText-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2019-12-29 17:03:43,957 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613815765-0/src/FloatingLabelEditText-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2019-12-29 17:03:43,958 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613815765-0/src/FloatingLabelEditText-master/local.properties
-2019-12-29 17:03:43,958 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-12-29 17:03:43,959 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-12-29 17:03:43,959 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613815765-0/src/FloatingLabelEditText-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2019-12-29 17:03:43,959 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613815765-0/src/FloatingLabelEditText-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2019-12-29 17:03:43,960 INFO  ProjectFixService - Project was maybe fixed
-2019-12-29 17:03:43,960 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-29 17:03:43,960 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613815765-0/src/FloatingLabelEditText-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613815765-0/src/FloatingLabelEditText-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-29 17:03:52,577 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-12-29 17:03:52,577 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-12-29 17:03:52,577 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613815765-0/src/FloatingLabelEditText-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613815765-0/src/FloatingLabelEditText-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-12-29 17:04:05,742 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-29 19:39:16,425 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585485365932-0/src/gradlew
+2020-03-29 19:39:16,428 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585485365932-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585485365932-0/src/build.gradle
+2020-03-29 19:39:16,430 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585485365932-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585485365932-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585485365932-0/src/settings.gradle
+2020-03-29 19:39:16,430 INFO  ProjectBuildService - Remote scripts: none
+2020-03-29 19:39:16,430 INFO  ProjectFixService - Fixing project...
+2020-03-29 19:39:16,436 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585485365932-0/src/library/local.properties
+2020-03-29 19:39:16,437 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585485365932-0/src/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2020-03-29 19:39:16,437 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585485365932-0/src/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2020-03-29 19:39:16,438 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585485365932-0/src/local.properties
+2020-03-29 19:39:16,438 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2020-03-29 19:39:16,438 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2020-03-29 19:39:16,439 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585485365932-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2020-03-29 19:39:16,439 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585485365932-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2020-03-29 19:39:16,440 INFO  ProjectFixService - Project was maybe fixed
+2020-03-29 19:39:16,440 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-29 19:39:16,440 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585485365932-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585485365932-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-29 19:39:24,169 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-03-29 19:39:24,169 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-03-29 19:39:24,170 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585485365932-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585485365932-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-03-29 19:39:44,339 INFO  SysUtils - Configuration on demand is an incubating feature.
 :library:preBuild UP-TO-DATE
 :library:preDebugBuild UP-TO-DATE
 :library:compileDebugAidl NO-SOURCE
 :library:compileDebugRenderscript
+Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/26.1.0/appcompat-v7-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/26.1.0/animated-vector-drawable-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/26.1.0/support-vector-drawable-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/26.1.0/support-fragment-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/26.1.0/support-core-utils-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/runtime/1.0.0/runtime-1.0.0.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/common/1.0.0/common-1.0.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/26.1.0/appcompat-v7-26.1.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/26.1.0/animated-vector-drawable-26.1.0.aar
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/runtime/1.0.0/runtime-1.0.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/26.1.0/support-vector-drawable-26.1.0.aar
 :library:checkDebugManifest
 :library:generateDebugBuildConfig
 :library:generateDebugResValues
@@ -42,7 +57,8 @@
 :library:prepareLintJar
 :library:generateDebugSources
 :library:javaPreCompileDebug
-:library:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613815765-0/src/FloatingLabelEditText-master/library/src/main/java/com/james602152002/floatinglabeledittext/FloatingLabelEditText.java uses or overrides a deprecated API.
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/common/1.0.0/common-1.0.0.jar
+:library:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585485365932-0/src/library/src/main/java/com/james602152002/floatinglabeledittext/FloatingLabelEditText.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :library:extractDebugAnnotations
@@ -76,7 +92,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :library:generateReleaseRFile
 :library:generateReleaseSources
 :library:javaPreCompileRelease
-:library:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613815765-0/src/FloatingLabelEditText-master/library/src/main/java/com/james602152002/floatinglabeledittext/FloatingLabelEditText.java uses or overrides a deprecated API.
+:library:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585485365932-0/src/library/src/main/java/com/james602152002/floatinglabeledittext/FloatingLabelEditText.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :library:extractReleaseAnnotations
@@ -102,7 +118,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :library:assemble
 :library:build
 
-BUILD SUCCESSFUL in 12s
+BUILD SUCCESSFUL in 20s
 46 actionable tasks: 46 executed
 
-2019-12-29 17:04:05,783 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577613815765-0/src/FloatingLabelEditText-master/art/demo.apk
+2020-03-29 19:39:44,390 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585485365932-0/src/art/demo.apk
